@@ -1,0 +1,123 @@
+#Country Name: Please see filename.
+
+graphical_culture = indiangfx
+
+color = { 144  86  70 } #34  135  90
+
+historical_idea_groups = {
+	trade_ideas
+	naval_ideas
+	defensive_ideas
+	economic_ideas
+	administrative_ideas
+	religious_ideas
+	spy_ideas
+	offensive_ideas
+}
+
+historical_units = {
+	malay_spearmen
+	malay_mongolian_bow
+	malay_arquebusier
+	malay_charge_cavalry
+        malay_mass_infantry
+	malay_musketeer
+	malay_reformed_asian_musketeer
+	malay_reformed_asian_cavalry
+}
+
+leader_names = {
+	Abdulfatah Ahmad Amir Anwar Azmi 
+	Batuta 
+	Chairul 
+	Hamzah Hasanuddin 
+	Ibnu 
+	Kyai 
+	Mahat Mukhtar 
+	Najamuddin Natzar Nazmizan 
+	Roem 
+	Syarifuddin 
+	Zulkifli 
+}
+
+monarch_names = {
+	"Tunitangkalopi #0" = 10
+	"Batara Gowa #0" = 10
+	"Tuni Djallori #0" = 10
+	"Tuni Parisi #0" = 10
+	"Tuni Palonga #0" = 10
+	"Tuni Butta #0" = 10
+	"Tunyachoka-ri #0" = 10
+	"Karaeng Tunibatta #0" = 10
+	"Tuni Djallo #0" = 10
+	"Parabung #0" = 10
+	"Tuni Pasulu #0" = 10
+	"Allâh ad-Dîn #0" = 10
+	"Muhammad Malik #0" = 10
+	"Muhammad Sa'îd #0" = 10
+	"Amir Hamza #0" = 10
+	"'Abd al-Jalîl #0" = 10
+	"Shihâb ad-Dîn Ismâ'îl #0" = 10
+	"Muhammad Bakr Hasan #0" = 10
+	"Hamaza Tumammalianga #0" = 10
+	"Muhammad 'Ali #0" = 10
+	"Fakhr #0" = 10
+	"Shahab #0" = 10
+	"Siraj ad-Dîn #0" = 10
+	"'Abd al-Khayr al-Mansûr #0" = 10
+	"'Abd al-Qudus #0" = 10
+	"'Uthmân #0" = 10
+	"Muhammad Imad #0" = 10
+	"Zain #0" = 10
+	"'Imâd ad-Dîn #0" = 10
+	"Zaynal-'Abidîn #0" = 10
+	"Sankilang #0" = 10
+	"'Abd al-Hâdî #0" = 10
+	"'Abd al-Khaliq #0" = 10
+	"Limbangparang #0" = 10
+	"Paduka #0" = 0
+	"Mansur #0" = 0
+	"Jamal #0" = 0
+	"Kadir #0" = 0
+	"Saleh #0" = 0
+	"Kuning #0" = 0
+	"Jalil #0" = 0
+	"Abdul Ghafur #0" = 0
+	"Ahmad #0" = 0
+	"Iskandar #0" = 0
+	"Abdullah #0" = 0
+	"Abdul Majid #0" = 0
+	"Ali #0" = 0
+	"Mutahir #0" = 0
+	
+	"Amritpal #0" = -1
+	"Dara Jingga #0" = -1
+	"Hamatun #0" = -1
+	"Janji #0" = -1
+	"Sori #0" = -1
+	"Tembong #0" = -1
+	"Lenggogeni  #0" = -1
+	"Saruaso #0" = -1
+	"Gapuak #0" = -1
+	"Mariam #0" = -1
+	"Sumpu #0" = -1
+	"Suhita #0" = -10
+	"Cinta #0" = -1
+	"Wangi #0" = -1
+	"Prajnaparamitha #0" = -1
+	"Tribhuawana #0" = -5
+	"Gayatri #0" = -5
+	"Narendra Duhita #0" = -1
+	"Indreswari #0" = -1
+	"Semboja #0" = -1
+	"Tingkir #0" = -1
+	"Pakungwati #0" = -1
+	"Endang Geulis #0" = -1
+	"Adiningkusuma #0" = -1
+	"Kalinyamat #0" = -10
+}
+
+ship_names = {
+	Balla Bulu Lompo Sallo Karaeng Bambang
+	Cipuru Doe Iyo Tena Tabe Apa Lakeko Battu Keko
+}

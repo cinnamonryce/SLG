@@ -1,0 +1,463 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = javanese
+religion = sunni
+technology_group = malay_group
+capital = 4859	# Yogyakarta/Kotagede
+religious_school = shafii_school
+
+1451.1.1 = {
+	monarch = {
+		name = "Rajasavardhana"
+		dynasty = "Rajasa"
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+}
+
+1451.1.1 = {
+	heir = {
+		name = "Hyang Purvavisesa"
+		monarch_name = "Hyang Purvavisesa"
+		dynasty = "Rajasa"
+		birth_date = 1430.1.1
+		death_Date = 1466.1.1
+		claim = 95
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}
+
+1456.1.1 = {
+	monarch = {
+		name = "Hyang Purvavisesa"
+		dynasty = "Rajasa"
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}
+
+1456.1.1 = {
+	heir = {
+		name = "Bhre Pandan Solar"
+		monarch_name = "Bhre Pandan Solar"
+		dynasty = "Rajasa"
+		birth_date = 1430.1.1
+		death_Date = 1478.1.1
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+
+1466.1.1 = {
+	monarch = {
+		name = "Bhre Pandan Solar"
+		dynasty = "Rajasa"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+
+1466.1.1 = {
+	heir = {
+		name = "Raden Patah"
+		monarch_name =" Raden Patah"
+		dynasty = "Demak"
+		birth_date = 1450.1.1
+		death_Date = 1518.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 5
+	}
+}
+
+1478.1.1 = {
+	monarch = {
+		name = "Raden Patah"
+		dynasty = "Demak"
+		adm = 2
+		dip = 3
+		mil = 5
+	}
+}
+
+1478.1.1 = {
+	heir = {
+		name = "Pangeran Sabrang Lor"
+		monarch_name = "Sabrang Lor"
+		dynasty = "Demak"
+		birth_date = 1470.1.1
+		death_Date = 1521.1.1
+		claim = 95
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
+
+1518.1.1 = {
+	monarch = {
+		name = "Pangeran Sabrang Lor"
+		dynasty = "Demak"
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
+
+1518.1.1 = {
+	heir = {
+		name = "Pangeran Trenggana"
+		monarch_name = "Trenggana"
+		dynasty = "Mataram"
+		birth_date = 1500.1.1
+		death_Date = 1546.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 2
+	}
+}
+
+1521.1.1 = {
+	monarch = {
+		name = "Trenggana"
+		dynasty = "Mataram"
+		adm = 6
+		dip = 3
+		mil = 2
+	}
+}
+
+1521.1.1 = {
+	heir = {
+		name = "Pangeran Prawata"
+		monarch_name = "Prawata"
+		dynasty = "Mataram"
+		birth_date = 1520.1.1
+		death_Date = 1547.1.1
+		claim = 95
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+
+1546.1.1 = {
+	monarch = {
+		name = "Prawata"
+		dynasty = "Mataram"
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+
+1546.1.1 = {
+	heir = {
+		name = "Aria Pangiri"
+		monarch_name = "Aria Pangiri"
+		dynasty = "Mataram"
+		birth_date = 1530.1.1
+		death_Date = 1568.1.1
+		claim = 95
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}
+
+1547.1.1 = {
+	monarch = {
+		name = "Aria Pangiri"
+		dynasty = "Mataram"
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}
+
+1550.1.1 = {
+	heir = {
+		name = "Pangeran Mas"
+		monarch_name = "Pangeran Mas"
+		dynasty = "Mataram"
+		birth_date = 1550.1.1
+		death_Date = 1582.1.1
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+
+1568.1.1 = {
+	monarch = {
+		name = "Pangeran Mas"
+		dynasty = "Mataram"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+
+1570.1.1 = {
+	heir = {
+		name = "Raden Sutawijaya"
+		monarch_name = "Panembahan Senopati"
+		dynasty = "Mataram"
+		birth_date = 1560.1.1
+		death_Date = 1601.7.30
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 5
+	}
+}
+
+1582.1.1 = {
+	monarch = {
+		name = "Panembahan Senopati"
+		dynasty = "Mataram"
+		adm = 2
+		dip = 2
+		mil = 6
+	}
+}
+
+1582.1.1 = {
+	heir = {
+		name = "Raden Mas Jolang"
+		monarch_name = "Panembahan Adi Prabu Hanyakrawati"
+		dynasty = "Mataram"
+		birth_date = 1580.1.1
+		death_Date = 1613.9.21
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}
+
+1601.7.30 = {
+	monarch = {
+		name = "Panembahan Adi Prabu Hanyakrawati"
+		dynasty = "Mataram"
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}
+
+1601.7.30 = {
+	heir = {
+		name = "Raden Mas Rangsang"
+		monarch_name = "Agung Hanyakrakusuma"
+		dynasty = "Mataram"
+		birth_date = 1590.1.1
+		death_date = 1643.2.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1613.9.21 = {
+	monarch = {
+		name = "Agung Hanyakrakusuma"
+		dynasty = "Mataram"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1613.12.1 = { capital = 626 }
+
+1630.1.1 = {
+	heir = {
+		name = "Raden Mas Sayidin"
+		monarch_name = "Amangkurat I"
+		dynasty = "Mataram"
+		birth_date = 1630.1.1
+		death_Date = 1677.1.1
+		claim = 95
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+
+1643.2.1 = {
+	monarch = {
+		name = "Amangkurat I"
+		dynasty = "Mataram"
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+
+1647.1.1 = { capital = 4859 }
+
+1650.1.1 = {
+	heir = {
+		name = "Raden Mas Rahmat"
+		monarch_name = "Amangkurat II"
+		dynasty = "Mataram"
+		birth_date = 1650.1.1
+		death_Date = 1703.11.2
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1677.1.1 = {
+	monarch = {
+		name = "Amangkurat II"
+		dynasty = "Mataram"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1680.1.1 = {
+	heir = {
+		name = "Raden Mas Sutikna"
+		monarch_name = "Amangkurat III"
+		dynasty = "Mataram"
+		birth_date = 1680.1.1
+		death_Date = 1705.1.1
+		claim = 95
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+
+1703.11.2 = {
+	monarch = {
+		name = "Amangkurat III"
+		dynasty = "Mataram"
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+
+1703.11.2 = {
+	heir = {
+		name = "Raden Mas Darajat"
+		monarch_name = "Pakubuwana I"
+		dynasty = "Mataram"
+		birth_date = 1700.1.1
+		death_Date = 1719.2.1
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+}
+
+1705.1.1 = {
+	monarch = {
+		name = "Pakubuwana I"
+		dynasty = "Mataram"
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+}
+
+1705.1.1 = {
+	heir = {
+		name = "Raden Mas Suryaputra"
+		monarch_name = "Amangkurat IV"
+		dynasty = "Mataram"
+		birth_date = 1680.1.1
+		death_Date = 1726.1.1
+		claim = 95
+		adm = 2
+		dip = 0
+		mil = 1
+	}
+}
+
+1719.2.1 = {
+	monarch = {
+		name = "Amangkurat IV"
+		dynasty = "Mataram"
+		adm = 2
+		dip = 0
+		mil = 1
+	}
+}
+
+1719.2.1 = {
+	heir = {
+		name = "Raden Mas Prabasuyasa"
+		monarch_name = "Pakubuwana II"
+		dynasty = "Mataram"
+		birth_date = 1700.1.1
+		death_Date = 1749.12.17
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+}
+
+1726.1.1 = {
+	monarch = {
+		name = "Pakubuwana II"
+		dynasty = "Mataram"
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+}
+
+1730.1.1 = {
+	heir = {
+		name = "Raden Mas Suryadi"
+		monarch_name = "Pakubuwana III"
+		dynasty = "Mataram"
+		birth_date = 1730.1.1
+		death_Date = 1788.9.27
+		claim = 95
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}
+
+1749.12.17 = {
+	monarch = {
+		name = "Pakubuwana III"
+		dynasty = "Mataram"
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}
+
+1788.9.27 = {
+	monarch = {
+		name = "Pakubuwana IV"
+		dynasty = "Mataram"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}

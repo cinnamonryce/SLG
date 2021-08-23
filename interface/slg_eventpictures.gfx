@@ -1,0 +1,24 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "MALACCA_eventPicture"
+		texturefile = "gfx/event_pictures/malacca.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "SHAN_WARRIORS_eventPicture"
+		texturefile = "gfx/event_pictures/shan_warriors.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "SIAMESE_RIVER_eventPicture"
+		texturefile = "gfx/event_pictures/SIAMESE_RIVER.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "SIAMESE_DIPLOMACY_eventPicture"
+		texturefile = "gfx/event_pictures/siamese_diplomacy.dds"
+		alwaystransparent = yes
+	}
+
+}

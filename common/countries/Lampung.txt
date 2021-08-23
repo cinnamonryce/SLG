@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = indiangfx
+special_unit_culture = south_east_asian_special
+
+color = { 207  74  24 }
+revolutionary_colors = { 5 8 5 }
+
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	quantity_ideas
+}
+
+historical_units = {
+	malay_spearmen
+	malay_mongolian_bow
+	malay_arquebusier
+	malay_charge_cavalry
+        malay_mass_infantry
+	malay_musketeer
+	malay_reformed_asian_musketeer
+	malay_reformed_asian_cavalry
+}
+
+monarch_names = {
+	"Inayat #0" = 20
+	"Nyerupa #0" = 20
+	"Pernong #0" = 20
+	"Belunguh #0" = 20
+	"Bejalan Diway #0" = 20
+	"Ratu Buay #0" = 20
+	"Sri Pikor #0" = 20
+	"Dalom Pikulun #0" = 20
+	"Ulu Krui #0" = 20
+	"Merah Hakim #0" = 20
+	"Paksi #0" = 20
+	"Sangunsuku #0" = 20
+	"Sangunsakti #0" = 20
+	"Darmawan #0" = 20
+	"Sempurna #0" = 20
+	"Kusairi #0" = 20
+	"Raja Sabli #0" = 20
+	"Asmuni #0" = 20
+	"Raja Jakum #0" = 20
+
+	"Tsalenggathu #0" = 20
+	"Sri Maharaja #0" = 10
+	"Sri Rana Wikrama #0" = 10
+	"Raja Singadhiraja #0" = 10
+	"Raja Ali #0" = 10
+	"Tun Hitam #0" = 10
+	"Sri Tri Buana #0" = 10
+	"Paduka #0" = 0
+	"Mansur #0" = 0
+	"Jamal #0" = 0
+	"Kadir #0" = 0
+	"Saleh #0" = 0
+	"Kuning #0" = 0
+	"Jalil #0" = 0
+	"Abdul Ghafur #0" = 0
+	"Ahmad #0" = 0
+	"Iskandar #0" = 0
+	"Abdullah #0" = 0
+	"Abdul Majid #0" = 0
+	"Ali #0" = 0
+	"Mutahir #0" = 0
+	
+	"Amritpal #0" = -1
+	"Dara Jingga #0" = -1
+	"Hamatun #0" = -1
+	"Janji #0" = -1
+	"Sori #0" = -1
+	"Tembong #0" = -1
+	"Lenggogeni  #0" = -1
+	"Saruaso #0" = -1
+	"Gapuak #0" = -1
+	"Mariam #0" = -1
+	"Sumpu #0" = -1
+	"Semboja #0" = -1
+	"Tingkir #0" = -1
+	"Pakungwati #0" = -1
+	"Endang Geulis #0" = -1
+	"Adiningkusuma #0" = -1
+	"Kalinyamat #0" = -10
+}
+
+leader_names = {
+	Baradatu Jabung Canggu Kalianda Jurai Dalom
+	Punduh Kunyayan Sabu Pematang Sawa Nyekhupa
+	"Negara Batin" "Marga Ngarip" Semaka Seputih 
+	Sinar Kuripan Gunung Mentuha
+}
+
+ship_names = {
+	Baradatu Jabung Canggu Kalianda Jurai Dalom
+	Punduh Kunyayan Sabu Pematang Sawa Nyekhupa
+	"Negara Batin" "Marga Ngarip" Semaka Seputih 
+	Sinar Kuripan Gunung Mentuha Lampung
+	Tulangbawang Menggala Pagardewa Kebuayan "Buay Umpu"
+	"Buay Aji" "Buay Bulan" "Buay Tegamoan" Marga
+	"Tangga Raja" "Menak Sangaji" "Menak Ngegulung"
+}

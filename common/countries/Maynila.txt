@@ -1,0 +1,62 @@
+#Country Name: Please see filename.
+
+graphical_culture = indiangfx
+
+color = { 56  32  120 }
+
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	spy_ideas
+	religious_ideas
+	offensive_ideas
+	economic_ideas
+	quality_ideas
+}
+
+historical_units = {
+	malay_longspear
+	malay_mongolian_bow
+	malay_arquebusier
+	malay_charge_cavalry
+        malay_mass_infantry
+	malay_musketeer
+	malay_reformed_asian_musketeer
+	malay_reformed_asian_cavalry
+}
+
+monarch_names = {
+	"Avirjirkaya #0" = 30
+	"Ahmad #0" = 10
+	"Salilla #0" = 30
+	"Matanda #0" = 30
+	"Sulayman #0" = 30
+	"Magisa #0" = 10
+	"Ladyangbata #0" = 10
+	"Timamanukum #0" = 10
+	
+	"Lela #0" = -5
+	"Ysmeria #0" = -5
+	"Malyag #0" = -5
+}
+
+leader_names = {
+	Agung
+	Batara
+	Bima
+	Elok
+	Karna
+	Rimba
+	Saleh
+	Satria
+	Sentosa
+	Yuda
+}
+
+ship_names = {
+	Kulassein Pangutaran Panducan Marunggas Cap
+	Laparan Dammail Lapac Siasi Lungus Tapul 
+	Cabingaan Julu Pata Kalingalan Capual Bangalao
+	Simsa Balanguingle Bucutua Suluan
+}

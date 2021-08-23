@@ -1,0 +1,79 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = central_thai
+add_accepted_culture = northern_thai
+add_accepted_culture = lao
+religion = buddhism
+technology_group = indochinese
+capital = 4656 #Bangkok
+historical_rival = TAU
+historical_rival = AVA
+historical_rival = BPR
+
+1782.4.8 = {
+	monarch = {
+		name = "Rama I"
+		dynasty = "Chakri"
+		adm = 5
+		dip = 3
+		mil = 5
+		leader = { name = "Phutthayotfa Chulalok Chakri"	type = general	fire = 2	shock = 4	manuever = 4	siege = 0 }
+	}
+}
+
+1782.4.8 = {
+	heir = {
+		name = "Phutthaloetla Naphalai"
+		monarch_name = "Rama II"
+		dynasty = "Chakri" 
+		birth_date = 1767.2.24
+		death_date = 1824.7.21
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1809.9.7 = {
+	monarch = {
+		name = "Rama II"
+		dynasty = "Chakri"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = righteous_personality
+}
+
+1809.9.7 = {
+	heir = {
+		name = "Senanurak"
+		monarch_name = "Rama III" #Died before he got to rule
+		dynasty = "Chakri" 
+		birth_date = 1773.3.29
+		death_date = 1817.7.16
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 4
+		leader = { name = "Maha Senanurak Chakri"	type = general	fire = 1	shock = 3	manuever = 2	siege = 0 }
+	}
+}
+
+1817.7.16 = { #Became the de-facto heir
+	heir = {
+		name = "Nangklao"
+		monarch_name = "Rama III"
+		dynasty = "Chakri" 
+		birth_date = 1778.3.31
+		death_date = 1851.4.2
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}

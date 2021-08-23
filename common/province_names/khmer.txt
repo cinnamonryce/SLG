@@ -1,0 +1,25 @@
+592 = { "Khu Bua" "Khu Bua" }
+593 = "Sri Thommareach"
+600 = "Ayouthya"
+601 = "Sukhodaya"
+603 = "Krat"
+612 = "Koreach"
+614 = "Viengchan"
+2375 = "Chareay"
+2378 = { "Kracheh" "Kracheh" }
+2383 = "Kauk Khan"
+2387 = { "Laeng" "Kamphaeng Laeng" }
+2388 = "Song Khwae"
+2389 = "Preah Bang"
+
+4831 = "Bangokak"
+4833 = { "Phuenchapura" "Phuenchapura" }
+
+4806 = { "Lavo" "Lavodayapura" }
+4807 = "Suvarnabhumi" #Funny
+
+4821 = "Srey Thep"
+
+4835 = "Tuk Lak"
+
+4876 = "Rayang"

@@ -1,0 +1,141 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = sundanese
+technology_group = malay_group
+religion = hinduism
+capital = 2687	# Pakuan
+
+1357.1.1 = {
+	monarch = {
+		name = "Prabu Bunisora"
+		dynasty = "Siliwangi"
+		ADM = 3
+		DIP = 3
+		MIL = 2
+	}
+}
+
+1357.1. = {
+	heir = {
+		name = "Linggawastu"
+		monarch_name = "Niskala Wastu Kancana"
+		dynasty = "Siliwangi"
+		birth_date = 1348.1.1
+		death_date = 1430.1.1
+		claim = 95
+		ADM = 5
+		DIP = 5
+		MIL = 3
+	}
+}
+
+1371.1.1 = {
+	monarch = {
+		name = "Niskala Wastu Kancana"
+		dynasty = "Siliwangi"
+		ADM = 5
+		DIP = 5
+		MIL = 3
+		birth_date = 1348.1.1
+	}
+}
+
+
+1415.1.1 = {
+	heir = {
+		name = "Susuk Tunggal"
+		monarch_name = "Susuk Tunggal"
+		dynasty = "Siliwangi"
+		birth_date = 1415.1.1
+		death_date = 1485.1.1
+		claim = 95
+		ADM = 2
+		DIP = 3
+		MIL = 3
+	}
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "Susuk Tunggal"
+		dynasty = "Siliwangi"
+		ADM = 2
+		DIP = 3
+		MIL = 3
+	}
+}
+
+
+1450.1.1 = {
+	heir = {
+		name = "Sri Baduga Maharaja"
+		monarch_name = "Sri Baduga Maharaja"
+		dynasty = "Siliwangi"
+		birth_date = 1450.1.1
+		death_date = 1521.1.1
+		claim = 95
+		ADM = 5
+		DIP = 5
+		MIL = 4
+	}
+}
+
+1482.1.1 = {
+	monarch = {
+		name = "Sri Baduga Maharaja"
+		dynasty = "Siliwangi"
+		ADM = 5
+		DIP = 5
+		MIL = 4
+	}
+}
+
+1521.1.1 = {
+	monarch = {
+		name = "Surawisesa Jayaperkosa"
+		dynasty = "Siliwangi"
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+}
+
+1535.1.1 = {
+	monarch = {
+		name = "Ratu Dewata"
+		dynasty = "Siliwangi"
+		ADM = 1
+		DIP = 1
+		MIL = 0
+	}
+}
+
+1543.1.1 = {
+	monarch = {
+		name = "Ratu Sakti"
+		dynasty = "Siliwangi"
+		ADM = 1
+		DIP = 1
+		MIL = 1
+	}
+}
+
+1551.1.1 = {
+	monarch = {
+		name = "Nilakendra"
+		dynasty = "Siliwangi"
+		ADM = 1
+		DIP = 1
+		MIL = 1
+	}
+}
+
+1567.1.1 = {
+	monarch = {
+		name = "Mulya"
+		dynasty = "Siliwangi"
+		ADM = 1
+		DIP = 0
+		MIL = 0
+	}
+}

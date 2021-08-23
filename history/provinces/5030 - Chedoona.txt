@@ -1,0 +1,16 @@
+#Chedoona
+
+culture = yura
+religion = dreamtime
+capital = "Chedoona"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 1
+native_ferocity = 2
+native_hostileness = 7
+discovered_by = aboriginal_tech
+
+1802.1.1 = { discovered_by = GBR } # Matthew Flinders

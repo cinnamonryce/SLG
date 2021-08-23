@@ -1,0 +1,12 @@
+663 = "Gvangznanz"
+664 = "Lingzyinz"
+667 = "Gvangzdungh" #Or Gvangzcouh
+1840 = "Gveilinz"
+2161 = "Lenzcouh" #Possibly Lienzcouh or Lianzcouh
+2162 = "Vuzcouh"
+2163 = "Liujcouh"
+2164 = "Namzningz"
+
+5014 = "Tenzcouh"
+5015 = "Sihenz"
+5016 = "Bingzloz"

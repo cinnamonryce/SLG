@@ -1,0 +1,316 @@
+government = monarchy
+add_government_reform = native_chieftain_system_reform
+technology_group = chinese
+religion = confucianism
+add_harmonized_religion = animism
+primary_culture = zhuang
+capital = 5014 # Tianzhou
+historical_rival = MNG
+
+#Tianzhou branch of the Cen Dynasty
+
+1368.1.1 = {
+	monarch = {
+		name = "Boyan"
+		dynasty = "Cen"
+		dip = 4
+		adm = 5
+		mil = 3
+	}
+}
+
+1368.1.1 = {
+	heir = {
+		name = "Yongtong"
+		monarch_name = "Yongtong"
+		dynasty = "Cen"
+		birth_date = 1368.1.1
+		death_Date = 1405.1.1
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1394.1.1 = {
+	monarch = {
+		name = "Yongtong"
+		dynasty = "Cen"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1394.1.1 = {
+	heir = {
+		name = "Xiang"
+		monarch_name = "Xiang"
+		dynasty = "Cen"
+		birth_date = 1388.1.1
+		death_Date = 1419.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1405.1.1 = {
+	monarch = {
+		name = "Xiang"
+		dynasty = "Cen"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1405.1.1 = {
+	heir = {
+		name = "Hui"
+		monarch_name = "Hui"
+		dynasty = "Cen"
+		birth_date = 1402.1.1
+		death_Date = 1420.1.1
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+
+1419.1.1 = {
+	monarch = {
+		name = "Hui" 
+		dynasty = "Cen"
+		dip = 0
+		adm = 0
+		mil = 0
+	}
+}
+
+1420.1.1 = {
+	monarch = {
+		name = "Shao"
+		dynasty = "Cen"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}
+
+1420.1.1 = {
+	heir = {
+		name = "Jian"
+		monarch_name = "Jian"
+		dynasty = "Cen"
+		birth_date = 1420.1.1
+		death_Date = 1475.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1453.1.1 = {
+	monarch = {
+		name = "Jian"
+		dynasty = "Cen"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1453.1.1 = {
+	heir = {
+		name = "Pu"
+		monarch_name = "Pu"
+		dynasty = "Cen"
+		birth_date = 1430.1.1
+		death_Date = 1496.6.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1475.1.1 = {
+	monarch = {
+		name = "Pu"
+		dynasty = "Cen"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1475.1.1 = {
+	heir = {
+		name = "Xiao"
+		monarch_name = "Xiao"
+		dynasty = "Cen"
+		birth_date = 1475.1.1
+		death_Date = 1498.6.1
+		claim = 95
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}
+
+1496.6.1 = {
+	monarch = {
+		name = "(Regency Council)"
+		adm = 0
+		dip = 0
+		mil = 0
+		regent = yes
+	}
+}
+
+1496.6.1 = {
+	heir = {
+		name = "Meng"
+		monarch_name = "Meng"
+		dynasty = "Cen"
+		birth_date = 1496.1.1
+		death_Date = 1527.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1511.1.1 = {
+	monarch = {
+		name = "Meng"
+		dynasty = "Cen"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1515.1.1 = {
+	heir = {
+		name = "Bangxiang"
+		monarch_name = "Bangxiang"
+		dynasty = "Cen"
+		birth_date = 1515.1.1
+		death_Date = 1537.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1527.1.1 = {
+	monarch = {
+		name = "Bangxiang"
+		dynasty = "Cen"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1537.1.1 = {
+	monarch = {
+		name = "Zhi"
+		dynasty = "Cen"
+		dip = 2
+		adm = 2
+		mil = 3
+	}
+}
+
+1537.1.1 = {
+	heir = {
+		name = "Taishou"
+		monarch_name = "Taishou"
+		dynasty = "Cen"
+		birth_date = 1537.1.1
+		death_Date = 1563.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1551.1.1 = {
+	monarch = {
+		name = "Taishou"
+		dynasty = "Cen"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1563.1.1 = {
+	monarch = {
+		name = "Tailu"
+		dynasty = "Cen"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1563.1.1 = {
+	heir = {
+		name = "Mouren"
+		monarch_name = "Mouren"
+		dynasty = "Cen"
+		birth_date = 1563.1.1
+		death_Date = 1631.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1592.1.1 = {
+	monarch = {
+		name = "Mouren"
+		dynasty = "Cen"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1592.1.1 = {
+	heir = {
+		name = "Tingduo"
+		monarch_name = "Tingduo"
+		dynasty = "Cen"
+		birth_date = 1592.1.1
+		death_Date = 1650.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1592.1.1 = {
+	monarch = {
+		name = "Tinduo"
+		dynasty = "Cen"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+#Records end here and pick up again in 1737 with Cen Yingqi

@@ -1,0 +1,109 @@
+government = monarchy
+add_government_reform = native_chieftain_system_reform
+primary_culture = degar
+religion = animism
+technology_group = indochinese
+capital = 4823	# Jarai
+
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Kep"
+		dynasty = "R'Com"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+#Fictional rulers 1426-1501
+
+1426.1.1 = {
+	monarch = {
+		name = "Blok"
+		dynasty = "R'Com"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Jut"
+		dynasty = "R'Com"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+#Historical records pick up here
+
+1501.1.1 = {
+	monarch = {
+		name = "Nhon"
+		dynasty = "R'Com"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1571.1.1 = {
+	monarch = {
+		name = "Bring"
+		dynasty = "R'Com"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Hjan Kpa"
+		dynasty = "H'Drah"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1646.1.1 = {
+	monarch = {
+		name = "Dai"
+		dynasty = "R'Com"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1719.1.1 = {
+	monarch = {
+		name = "Guh"
+		dynasty = "R'Com"
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+
+#State of Adham
+
+1780.1.1 = {
+	monarch = {
+		name = "Ya Wam" #Yawam or Yah, titled Vua Ba
+		dynasty = "M'Tao"
+		adm = 4
+		dip = 4
+		mil = 2
+		female = yes
+	}
+}
+

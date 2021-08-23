@@ -1,0 +1,209 @@
+government = monarchy
+add_government_reform = native_chieftain_system_reform
+primary_culture = miao
+religion = animism
+technology_group = chinese
+capital = 2168	#Bozhou
+
+1399.1.1 = {
+	monarch = {
+		name = "Sheng" 
+		dynasty = "Yang"
+		birth_date = 1375.1.1
+		dip = 3
+		adm = 2
+		mil = 2
+	}
+	heir = {
+		name = "Jiong"
+		monarch_name = "Jiong"
+		dynasty = "Yang"
+		birth_date = 1390.1.1
+		death_Date = 1442.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1441.1.1 = {
+	monarch = {
+		name = "Jiong"
+		dynasty = "Yang"
+		birth_date = 1390.1.1
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1442.1.1 = {
+	monarch = {
+		name = "Gang"
+		dynasty = "Yang"
+		birth_date = 1385.1.1
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+	heir = {
+		name = "Hui"
+		monarch_name = "Hui"
+		dynasty = "Yang"
+		birth_date = 1430.1.1
+		death_Date = 1474.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1449.1.1 = {
+	monarch = {
+		name = "Hui"
+		dynasty = "Yang"
+		birth_date = 1430.1.1
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+}
+
+1450.1.1 = {
+	heir = {
+		name = "Ai"
+		monarch_name = "Ai"
+		dynasty = "Yang"
+		birth_date = 1450.1.1
+		death_Date = 1497.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 3
+	}
+}
+
+1474.1.1 = {
+	monarch = {
+		name = "Ai"
+		dynasty = "Yang"
+		birth_date = 1450.1.1
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+	heir = {
+		name = "Bin"
+		monarch_name = "Bin"
+		dynasty = "Yang"
+		birth_date = 1474.1.1
+		death_Date = 1520.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1497.1.1 = {
+	monarch = {
+		name = "Bin"
+		dynasty = "Yang"
+		birth_date = 1474.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Xiang"
+		monarch_name = "Xiang"
+		dynasty = "Yang"
+		birth_date = 1497.1.1
+		death_Date = 1543.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Xiang"
+		dynasty = "Yang"
+		birth_date = 1497.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+	heir = {
+		name = "Lie"
+		monarch_name = "Lie"
+		dynasty = "Yang"
+		birth_date = 1520.1.1
+		death_Date = 1571.1.1
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1543.1.1 = {
+	monarch = {
+		name = "Lie"
+		dynasty = "Yang"
+		birth_date = 1520.1.1
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+	heir = {
+		name = "Yinglong"
+		monarch_name = "Yinglong"
+		dynasty = "Yang"
+		birth_date = 1543.1.1
+		death_Date = 1595.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1571.1.1 = {
+	monarch = {
+		name = "Yinglong"
+		dynasty = "Yang"
+		birth_date = 1543.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Chaodong"
+		monarch_name = "Chaodong"
+		dynasty = "Yang"
+		birth_date = 1571.1.1
+		death_Date = 1600.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1595.1.1 = {
+	monarch = {
+		name = "Chaodong"
+		dynasty = "Yang"
+		birth_date = 1571.1.1
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+#Yang Chaodong stages the Bozhou rebellion; Yang is killed and Bozhou is annexed

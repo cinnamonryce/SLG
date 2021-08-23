@@ -1,0 +1,1021 @@
+suk_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = SUK
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	suk_route_back_ayutthaya = {
+		icon = mission_mnd_siam_royal_duel
+		required_missions = { suk_rama_the_bold }
+		position = 2
+		trigger = {
+			OR = { 
+				AND = {
+					is_subject = no
+					is_at_war = no
+				}
+				AND = {
+					army_tradition = 15
+					war_with = AYU
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_dlc = "Cradle of Civilization"
+					NOT = { army_professionalism = 0.90 }
+				}
+				add_army_professionalism = 0.1
+			}
+			else = {
+				add_mil_power = 50
+			}
+			add_country_modifier = {
+				name = "elephant_duels"
+				duration = -1
+			}
+
+		}
+	}
+
+	suk_revive_regional_siam = {
+		icon = mission_a_million_rice_fields
+		required_missions = { suk_down_the_chao_phraya }
+		position = 4
+		provinces_to_highlight = {
+			area = sukhothai_area
+		}
+		trigger = {
+			sukhothai_area = {
+                                type = all
+				owned_by = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 4
+				area = sukhothai_area
+				num_of_times_improved_by_owner = 2
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "revive_regional_siam"
+				duration = 7300
+			}
+			sukhothai_area = {
+				add_province_modifier = {
+					name = "regional_revitalization"
+					duration = 5475
+				}
+			}
+		}
+	}
+
+	suk_advanced_rice_irrigation = {
+		icon = mission_rice_irrigation
+		required_missions = { suk_revive_regional_siam }
+		position = 5
+		provinces_to_highlight = {
+			any_owned_province = {
+				trade_goods = grain
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				trade_goods = grain
+				development = 10
+				value = 5
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "advanced_rice_irrigation"
+				duration = -1
+			}
+			if = {
+				limit = {
+					has_estate = estate_burghers
+				}
+				set_estate_privilege = estate_burghers_khmer_irrigation
+			}
+			else = {
+				add_dip_power = 100
+			}
+		}
+	}
+
+	suk_tenasserim_trail = {
+		icon =  mission_tenasserim_pagoda
+		required_missions = { suk_southern_reconquest }
+		position = 8
+		provinces_to_highlight = {
+			area = north_tenasserim_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			north_tenasserim_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_dip_power = 50
+			if = {
+				limit = {
+					exists = PEG
+				}
+				add_casus_belli = {
+					target = PEG
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+
+	suk_irrawaddy_ambitions = {
+		icon = mission_reclaim_hanthawaddy
+		required_missions = { suk_tenasserim_trail }
+		position = 9
+		provinces_to_highlight = {
+			province_id = 586
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			586 = {
+				controlled_by = ROOT
+			}
+		}
+		effect = {
+			define_advisor = {
+				type = inquisitor
+				skill = 2
+				culture = mon
+				religion = ROOT
+				cost_multiplier = 0.25
+			}
+			add_prestige = 25
+		}
+	}
+}
+
+suk_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = SUK
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	suk_rama_the_bold = {
+		icon = mission_ramkhamhaeng
+		required_missions = {  }
+		position = 1
+		trigger = {
+			is_subject = no
+		}
+		effect = {
+			add_prestige = 25
+			if = {
+				limit = {
+					government = monarchy
+				}
+				add_legitimacy = 50
+			}
+			sukhothai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	suk_reclaim_phitsanulok = {
+		icon = mission_phitsanulok
+		required_missions = { suk_rama_the_bold }
+		position = 2
+		provinces_to_highlight = {
+			province_id = 2388
+			OR = {
+				NOT = { controlled_by = ROOT }
+			}
+		}
+		trigger = {
+			2388 = {
+				controlled_by = ROOT
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					2388 = {
+						NOT = {
+							owned_by = ROOT
+						}
+					}
+				}
+				2388 = {
+					cede_province = ROOT
+				}
+			}
+			2388 = {
+				move_capital_effect = yes
+				add_unit_construction = {
+					type = infantry
+					amount = 5
+					speed = 0.25
+					cost = 0
+				}
+			}
+		}
+	}
+	suk_down_the_chao_phraya = {
+		icon = mission_chao_phraya_boat
+		required_missions = { suk_reclaim_phitsanulok }
+		position = 3
+		provinces_to_highlight = {
+			area = sukhothai_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			sukhothai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "down_the_chao_phraya"
+				duration = 3650
+			}
+			central_thai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			north_tenasserim_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	suk_the_return_of_sukhothai = {
+		icon = mission_sea_monarch_war
+		required_missions = { suk_down_the_chao_phraya }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = central_thai_area
+				area = western_thai_area
+				area = sukhothai_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			central_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			western_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			sukhothai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_adm_power = 100
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 25
+			}
+			north_tenasserim_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			tenasserim_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			khorat_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			angkor_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = LIG
+				}
+				add_casus_belli = {
+					target = LIG
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = PHM
+				}
+				add_casus_belli = {
+					target = PHM
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+	suk_southern_reconquest = {
+		icon = mission_annex_ligor
+		required_missions = { suk_the_return_of_sukhothai }
+		position = 7
+		provinces_to_highlight = {
+			area = tenasserim_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+					value = 3
+					area = tenasserim_area
+			}
+			593 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "si_thammarat_tin"
+				duration = 7300
+			}
+			north_malaya_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = KED
+				}
+				add_casus_belli = {
+					target = KED
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = PAT
+				}
+				add_casus_belli = {
+					target = PAT
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = KEL
+				}
+				add_casus_belli = {
+					target = KEL
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+	suk_enforce_malay_tutelage = {
+		icon = mission_sack_malacca
+		required_missions = { suk_southern_reconquest }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = tenasserim_area
+				area = north_malaya_area
+				area = malaya_area
+				area = malacca_area
+			}
+		}
+		trigger = {
+			tenasserim_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			north_malaya_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			malaya_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			malacca_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_dip_power = 100
+			define_advisor = {
+				type = naval_reformer
+				skill = 2
+				culture = malayan
+				religion = ROOT
+				cost_multiplier = 0.25
+			}
+			if = {
+				limit = {
+					exists = JOH
+				}
+				add_casus_belli = {
+					target = JOH
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = RIA
+				}
+				add_casus_belli = {
+					target = RIA
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+}
+
+suk_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = SUK
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	suk_seize_the_border_states = {
+		icon = mission_lamphun
+		required_missions = { suk_rama_the_bold }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4841
+				province_id = 4960 #Phrae
+			}
+		}
+		trigger = {
+			4841 = {
+				owned_by = ROOT
+			}
+			4960 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			northern_thai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lampang_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	suk_into_the_north = {
+		icon = mission_chiang_mai
+		required_missions = { suk_seize_the_border_states }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = northern_thai_area
+				area = lampang_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			northern_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lampang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "million_rice_fields"
+				duration = 7300
+			}
+			if = {
+				limit = {
+					exists = LXA
+				}
+				add_casus_belli = {
+					target = LXA
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = LUA
+				}
+				add_casus_belli = {
+					target = LUA
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+	suk_extract_laotian_tribute = {
+		icon = mission_kowtow
+		required_missions = { suk_into_the_north }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = north_laos_area
+				area = vientiane_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			vientiane_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 1
+				area = north_laos_area
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_dlc = "Cradle of Civilization"
+					NOT = { army_professionalism = 0.90 }
+				}
+				add_army_professionalism = 0.1
+			}
+			else = {
+				add_mil_power = 100
+			}
+			add_dip_power = 100
+		}
+	}
+	suk_father_governs_child = {
+		icon = mission_theravada_monks
+		required_missions = { suk_the_ancient_capital }
+		position = 5
+		trigger = {
+			karma = 75
+		}
+		effect = {
+			add_country_modifier = {
+				name = "father_governs_child"
+				duration = -1
+			}
+		}
+	}
+	suk_khmer_campaigns = {
+		icon = mission_angkor
+		required_missions = { suk_the_return_of_sukhothai }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = cambodia_area
+				area = angkor_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			cambodia_area = {
+                                type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			angkor_area = {
+                                type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_mil_power = 100
+			add_country_modifier = {
+				name = "subduction_of_the_khmer_kings"
+				duration = 7300
+			}	
+		}
+	}
+	suk_extend_the_frontier = {
+		icon = mission_conquer_malay_states
+		required_missions = { suk_southern_reconquest }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = tenasserim_area
+				area = north_malaya_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			tenasserim_area = {
+                                type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			north_malaya_area = {
+                                type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+
+			malacca_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			johor_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			malaya_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+
+			if = {
+				limit = {
+					exists = MLC
+				}
+				add_casus_belli = {
+					target = MLC
+					type = cb_vassalize_mission
+				}
+			}
+
+			if = {
+				limit = {
+					exists = JOH
+				}
+				add_casus_belli = {
+					target = JOH
+					type = cb_vassalize_mission
+				}
+			}
+
+			if = {
+				limit = {
+					exists = PAH
+				}
+				add_casus_belli = {
+					target = PAH
+					type = cb_vassalize_mission
+				}
+			}
+
+			if = {
+				limit = {
+					exists = PRK
+				}
+				add_casus_belli = {
+					target = PRK
+					type = cb_vassalize_mission
+				}
+			}
+
+                        custom_tooltip = ayu_safeguard_the_border_states.tooltip
+			hidden_effect = {
+				tenasserim_area = {
+					limit = {
+						owned_by = ROOT
+						religion = ROOT
+					}
+					change_culture = ROOT
+                        	}
+                        }
+		}
+	}
+}
+
+suk_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = SUK
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	suk_claim_kingship = {
+		icon = mission_seize_the_dragon_throne
+		required_missions = {  }
+		position = 1
+		trigger = {
+			OR = {
+				government_rank	= 2
+				total_development = 200
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_adm_power = 75
+			add_dip_power = 75
+			add_mil_power = 75
+		}
+	}
+	suk_the_ancient_capital = {
+		icon = mission_siamese_buddha
+		required_missions = { suk_claim_kingship }
+		position = 4
+		provinces_to_highlight = {
+			province_id = 601
+		}
+		trigger = {
+			601 = {
+				owned_by = ROOT
+				AND = {
+					development = 10
+					has_building = temple
+				}
+			}
+		}
+		effect = {
+			add_prestige = 25	
+			601 = {
+				rename_capital = "Sukhothai Thani"
+				add_province_modifier = {
+					name = "phra_nakhon_si_sukhothai"
+					duration = -1
+				}
+			}
+		}
+	}
+	suk_renovate_the_temples = {
+		icon = mission_siamese_pagoda
+		required_missions = { suk_the_ancient_capital }
+		position = 5
+		trigger = {
+			OR = {
+				num_of_owned_provinces_with = {
+					value = 10
+					has_building = temple
+				}
+				num_of_owned_provinces_with = {
+					value = 5
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 20
+			}
+			add_karma = 25
+		}
+	}
+	suk_sangkhalok_ware = {
+		icon = mission_sangkhalok_ware
+		required_missions = { suk_renovate_the_temples }
+		position = 6
+		provinces_to_highlight = {
+			province_id = 601
+		}
+		trigger = {
+			601 = {
+				owned_by = ROOT
+				AND = {
+					development = 20
+					has_manufactory_trigger = yes
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "sangkhalok_ware"
+				duration = -1
+			}
+		}
+	}
+	suk_siamese_ceramics = {
+		icon = mission_bencharong
+		required_missions = { suk_sangkhalok_ware suk_globalization }
+		position = 9
+		trigger = {
+			trading_bonus = {
+				trade_goods = chinaware
+				value = yes
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+		}
+	}
+}
+
+suk_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = SUK
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	suk_reclaim_the_coast = {
+		icon = mission_siamese_coast
+		required_missions = {  }
+		position = 1
+		ai_weight = {
+			factor = 2
+		}
+		ai_priority = {
+			factor = 1
+		}
+		
+		trigger = {
+			num_of_total_ports = 5
+		}
+		
+		effect = {
+			add_navy_tradition = 10
+			add_country_modifier = { # sailors and ship cost
+				name = "nav_reclaimed_coast"
+				duration = 7300
+			}
+			define_admiral = {
+				shock = 3
+				fire = 2
+				manuever = 2
+				siege = 2
+			}
+		}
+	}
+
+	suk_warm_up_to_the_west = {
+		icon = mission_siam_western_advisors
+		required_missions = { suk_reclaim_the_coast }
+		position = 7
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = mug_embassy_to_the_west_tt
+				any_ally = {
+					capital_scope = {
+						continent = europe
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "western_trade_relations"
+				duration = 7300
+			}
+		}
+	}
+	suk_globalization = {
+		icon = mission_the_bois
+		required_missions = { suk_warm_up_to_the_west }
+		position = 8
+		trigger = {
+			home_trade_node = {
+				trade_share = {
+					country = ROOT
+					share = 75
+				}
+			}
+		}
+		effect = {
+			add_mercantilism = 2
+			hidden_effect = {
+				home_trade_node_effect_scope = {
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							is_capital = yes
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 20
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 25
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 30
+						}
+						save_event_target_as = reward_province
+					}
+				}
+			}
+			if = {
+				limit = { has_saved_event_target = reward_province }
+				event_target:reward_province = {
+					add_province_modifier = {
+						name = "dominant_trade_hub"
+						duration = -1
+					}
+				}
+			}
+			else = {
+				custom_tooltip = dominant_home_node_reward_tooltip
+			}
+		}
+	}
+}

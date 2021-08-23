@@ -1,0 +1,216 @@
+	### Southeast Asian Mission Icons ###	
+	
+spriteTypes = {	
+	
+	# Southeast Asian Generic
+	
+	spriteType = {
+		name = "mission_emerald_buddha"
+		texturefile = "gfx//interface//missions//emerald_buddha.dds"
+	}
+
+	spriteType = {
+		name = "mission_chiang_mai"
+		texturefile = "gfx//interface//missions//tha_phae_gate.dds"
+	}
+
+	spriteType = {
+		name = "mission_naresuan"
+		texturefile = "gfx//interface//missions//naresuan.dds"
+	}
+
+	spriteType = {
+		name = "mission_theravada_monks"
+		texturefile = "gfx//interface//missions//theravada_monks.dds"
+	}
+
+	spriteType = {
+		name = "mission_mon_subject"
+		texturefile = "gfx//interface//missions//mon_subject.dds"
+	}
+
+	spriteType = {
+		name = "mission_sea_monarch_war"
+		texturefile = "gfx//interface//missions//sea_monarch_war.dds"
+	}
+
+	spriteType = {
+		name = "mission_angkor"
+		texturefile = "gfx//interface//missions//angkor_wat.dds"
+	}
+	
+	spriteType = {
+		name = "mission_chao_phraya_boat"
+		texturefile = "gfx//interface//missions//chao_phraya_boat.dds"
+	}
+	
+	spriteType = {
+		name = "mission_tenasserim"
+		texturefile = "gfx//interface//missions//tenasserim.dds"
+	}
+	
+	spriteType = {
+		name = "mission_isan"
+		texturefile = "gfx//interface//missions//isan.dds"
+	}
+	
+	spriteType = {
+		name = "mission_degar_village"
+		texturefile = "gfx//interface//missions//degar_village.dds"
+	}
+	
+	spriteType = {
+		name = "mission_siamese_pagoda"
+		texturefile = "gfx//interface//missions//siamese_pagoda.dds"
+	}
+	
+	spriteType = {
+		name = "mission_siamese_coast"
+		texturefile = "gfx//interface//missions//siamese_coast.dds"
+	}
+	
+	spriteType = {
+		name = "mission_siam_western_advisors"
+		texturefile = "gfx//interface//missions//siam_western_advisors.dds"
+	}
+	
+	# Ayutthaya
+	
+	spriteType = {
+		name = "mission_annex_ligor"
+		texturefile = "gfx//interface//missions//ayu_annex_ligor.dds"
+	}
+	
+	spriteType = {
+		name = "mission_conquer_malay_states"
+		texturefile = "gfx//interface//missions//ayu_conquer_malay_states.dds"
+	}
+	
+		spriteType = {
+		name = "mission_sack_malacca"
+		texturefile = "gfx//interface//missions//ayu_sack_malacca.dds"
+	}
+
+	spriteType = {
+		name = "mission_reclaim_hanthawaddy"
+		texturefile = "gfx//interface//missions//ayu_reclaim_hanthawaddy.dds"
+	}
+	
+	spriteType = {
+		name = "mission_besiege_burma"
+		texturefile = "gfx//interface//missions//ayu_besiege_burma.dds"
+	}
+	spriteType = {
+		name = "mission_pluck_the_peacock"
+		texturefile = "gfx//interface//missions//ayu_pluck_the_peacock.dds"
+	}
+	spriteType = {
+		name = "mission_ayutthaya"
+		texturefile = "gfx//interface//missions//ayu_venice_of_the_east.dds"
+	}
+	spriteType = {
+		name = "mission_the_bois"
+		texturefile = "gfx//interface//missions//the_bois.dds"
+	}
+	spriteType = {
+		name = "mission_garuda"
+		texturefile = "gfx//interface//missions//garuda.dds"
+	}
+	spriteType = {
+		name = "mission_taification"
+		texturefile = "gfx//interface//missions//taification.dds"
+	}
+	spriteType = {
+		name = "mission_bangkok_grand_palace"
+		texturefile = "gfx//interface//missions//bangkok_grand_palace.dds"
+	}
+	spriteType = {
+		name = "mission_siamese_absolutism"
+		texturefile = "gfx//interface//missions//siamese_absolutism.dds"
+	}
+	spriteType = {
+		name = "mission_siamese_villagers"
+		texturefile = "gfx//interface//missions//siamese_villagers.dds"
+	}
+	spriteType = {
+		name = "mission_siamese_naval_invasion"
+		texturefile = "gfx//interface//missions//siamese_naval_invasion.dds"
+	}
+	
+	#Sukhothai
+	
+	spriteType = {
+		name = "mission_ramkhamhaeng"
+		texturefile = "gfx//interface//missions//ramkhamhaeng.dds"
+	}
+	
+	spriteType = {
+		name = "mission_tenasserim_pagoda"
+		texturefile = "gfx//interface//missions//tenasserim_pagoda.dds"
+	}
+	
+	spriteType = {
+		name = "mission_siamese_buddha"
+		texturefile = "gfx//interface//missions//siamese_buddha.dds"
+	}
+	
+	spriteType = {
+		name = "mission_phitsanulok"
+		texturefile = "gfx//interface//missions//phitsanulok.dds"
+	}
+	
+	spriteType = {
+		name = "mission_sangkhalok_ware"
+		texturefile = "gfx//interface//missions//sangkhalok_ware.dds"
+	}
+	
+	spriteType = {
+		name = "mission_bencharong"
+		texturefile = "gfx//interface//missions//bencharong.dds"
+	}
+	
+	spriteType = {
+		name = "mission_siamese_throne"
+		texturefile = "gfx//interface//missions//siamese_throne.dds"
+	}
+	
+	spriteType = {
+		name = "mission_rice_irrigation"
+		texturefile = "gfx//interface//missions//rice_irrigation.dds"
+	}
+	
+	#Lan Na
+	
+	spriteType = {
+		name = "mission_mangrai"
+		texturefile = "gfx//interface//missions//mangrai.dds"
+	}
+	
+	spriteType = {
+		name = "mission_lamphun"
+		texturefile = "gfx//interface//missions//lamphun.dds"
+	}
+	
+	spriteType = {
+		name = "mission_lanna_flag"
+		texturefile = "gfx//interface//missions//lanna_flag.dds"
+	}
+	
+	spriteType = {
+		name = "mission_conquer_kengtung"
+		texturefile = "gfx//interface//missions//conquer_kengtung.dds"
+	}
+	
+	#Cambodia
+	
+	spriteType = {
+		name = "mission_phimai"
+		texturefile = "gfx//interface//missions//phimai.dds"
+	}
+	
+	#Laos
+	spriteType = {
+		name = "mission_muang_phuan"
+		texturefile = "gfx//interface//missions//muang_phuan.dds"
+	}
+}	

@@ -1,0 +1,107 @@
+southeastasian_group = { 
+	graphical_culture = asiangfx
+
+	khmer = {
+		primary = KHM
+		dynasty_names = {
+			"Khun" Khuth Lorn Loun Mak Meang Meas Meng Mok Mon Moul Nak Nam Vichea Voeum Vuthy
+			Nary Neak Nimol Norodom Noung Nourn Nout Oeun On Or Ou Ouk Pang San Samphan
+			Pen Phann Phaul Pheng Phon Pichenda Prak Preap Prum Rath Rithy Rous Saluk Sam
+			Sarith Sary Sem Sen Sim Sin Sivorn Soch Sok Sokal Som Sorm Sun Thith Thong "Vanneth"
+		}
+		male_names = {
+			"Barom Reachea" "Noreay Ramathipatei" "Soriyotei" "Thommo Reachea" "Srey Sukonthor" "Ang Chan" "Reachea Ramathipatei"
+			"Barom Reachea" "Chey Chettha" "Ney Khan" "Preah Ram" "Keo Hua" "Outey Reachea" "Dharmaraja" "Padumaraja" "Ramathipadi" "Satha" "Ream Reachea" "Narayanaraja" "Ponhea Yat" "Narayanaraja" 
+			"Sri Raja" "Rajadhiraja" "Dharmarajadhiraja" "Damkhat Sukonthor" "Reamea Chungprey" "Keo Ban On" "Ponhea Yor" "Ponhea An" "Ponhea Nhom" "Srei Soriyopear" "Udayaraja" "Ponhea To" "Ang Non" "Ponhea Chan" "Ang Sur" 
+			"Ang Chea" "Ang Nan" "Ang Sor" "Ang Yong" "Ang Em" "Ang Tham" "Ang Sngoun" "Ang Tong" "Ang Ton" "Ang Eng" 
+			"Ang Duong"
+		}
+		female_names = {
+			"Boupha" "Sakngea" "Ang Mey" "Anak Moneang Krachap" "Neang Pou" Achariya Akara Anchali Arunny Ary Bopha Botum 
+			Boupha Champei Champey Chamroeun Chan Chankrisna Chanlina Chanmony Channary Chanthavy Chantou Chantrea 
+			Chanvatey Chariya Chavy Chaya Chea Chenda Chhaiya Chhean Chhorvin Chhorvon Chivy Choum Da Daevy Dara 
+			Darareaksmey Davi Jorani Kalianne Kaliyanei Kalliyan Kanleakhana Kannareth Kannitha Kanya Kesor Kolab Kolthida 
+			Kravann Kun Thea Kunthea Leakena Leap Mach Makara Malis Maly Mau Mealea Mean Mliss Mony Nakry Thom Thyda Tina 
+			Toch Tola Vanna Veasna Veata Vimean Nary Nearidei Neary Reach Reaksmey Rangsei Reasmey Sokha Sokhanya Sokhom 
+			Sok Mean Rom Chang Rotha Samphy Roumduol Roumjong Samnang Saley Savady Sawatdee Seda Seyha Sikha Sinuon Sita 
+			Soboen Socheat Sok Sombo Sonisay Sonith Peou Nuon Phally Phary Pich Pheakdei Pheakkley Phhoung Ponlok Ponnleu 
+			Pisey Putrea Punthea Rachana "Rachany" 
+		}
+	}
+	cham = {
+		primary = CHA
+		dynasty_names = { 
+			"R'Com" K'Sor Siu M'Ho M'Ha Bru "Co Tu" Chau
+			"Ta Oi" Brau Co "H'Bo" Hre "Ro Mam" H'Hen
+			"Ba Na" "Cho Ro" "X'Tieng" "Chu Ru" Ngan Thao
+			H'Yua Y'Khiem Y'Siu Nay Puih R'Chom Ro Nie
+			"Buon Yah" Bya Edan N'Kam K'Por K'Buor Hra
+			Lemo Ro'O Eya B'Dap "Buon Dap" H'Drue E'Doul
+			Edk B'Krong "Buon Krong" K'Man H'Mok K'Nil Ec
+			M'Lo K'Tla Alio K'Doh M'Drang A'Drong K'Pa
+			H'Bia M'Tao H'Drah H'Yam "H'Gar"
+		}
+		male_names = {
+			Choloi Trul Anur Bom Djua Nhong Blong Blet Ji
+			Y At Tu Nhot Luynh Hieo Kep Nhon Bring Dai Guh
+			Nhuak Bo Choi Bam Bham Dieng Dera Dacat Hlong
+			Monah Ayun Ni Thu San Mah Tuan Kok Mal De Ramya
+			Ayna Poka Jut Hwing Ut Mlo Bih Aloo Du Eban Ha
+			Blok Thong
+		}
+		female_names = {
+			Vancaraya "Bunga Dewee" Jih
+			Hòng Nie Moan Kadam Kaba Adrong 
+			Ksor Thi Chin Cham Phiang
+			Pheng Khap Hmih Ea Suryah Hjan 
+			Kpa Yah "Ya Wam" Ba
+			Yang Kam Rut Na Ewa
+		}
+	}
+	mon = {
+		primary = PEG
+		dynasty_names = {
+			Pegu Dagon Thaton Martaban Mottama Mon Hanthawaddy Donwun Dala Shweizgon Ye Syriam Maubin Sittaung Muangmya Thawutti Hlang Nawin Atut Thanmaung Taikkala "Pan Hlaing"
+		}
+		male_names = {
+			"Hkonmaing" "Minkhaung" "Ran De" "Sein" "Nwe" "Mawdaw" "Dhammazedi" "Dhammadasi" "Yazadipati"
+			"Law" "Takayutpi" "Smim Sawhtut" "Smim Htaw" "Set" "Binnya Dala" "Saw O" "Binnya U" "Leik Munhtaw"
+			"Takayutpi" "Minye Aung Naing" "Epyathi" "Bayinnaung" "Taw Maing" "Thin Yan" "Bayathingyan"
+			"Thudhamma Yaza" "Smim Nyi San" "Byat Za" "Lauk Shein" "Lagun Ein" "Than Lon" "Gyaing" "Than Laik"
+			"Than" "Pun So" "Byattaba" "Laukpya" "Nwe" "Bya Let" "Dein Maniyut" "Dein" "Tein" "Thilawa"
+			"Awa Naing" "Annara" "Hpyun Gyo" "Khadunmut" "Maru" "Thauk" "E Phayathat" "Letya Pyanchi" "Bya Kon"
+		}
+		female_names = {
+			"Mya" "Yaza Dewi" "Mi Pakahtaw" "Shin Sawbu" "Soe Min Wimala" "U Yaing" "Thwe Da" "Theindya" "Htapi"
+			"Daw" "Ta Lat" "Minya Dewi" "Hsanda Min Hla" "Tala Kamu" "May Hnin Kaythaya "
+			"Thuddhamaya" "Mwei Thin" "May Kyaw" "Mi Baik"
+		}	
+	}
+	degar = {
+		primary = JAR
+		dynasty_names = { 
+			"R'Com" K'Sor Siu M'Ho M'Ha Bru "Co Tu" Chau
+			"Ta Oi" Brau Co "H'Bo" Hre "Ro Mam" H'Hen
+			"Ba Na" "Cho Ro" "X'Tieng" "Chu Ru" Ngan Thao
+			H'Yua Y'Khiem Y'Siu Nay Puih R'Chom Ro Nie
+			"Buon Yah" Bya Edan N'Kam K'Por K'Buor Hra
+			Lemo Ro'O Eya B'Dap "Buon Dap" H'Drue E'Doul
+			Edk B'Krong "Buon Krong" K'Man H'Mok K'Nil Ec
+			M'Lo K'Tla Alio K'Doh M'Drang A'Drong K'Pa
+			H'Bia M'Tao H'Drah H'Yam "H'Gar"
+		}
+		male_names = {
+			Choloi Trul Anur Bom Djua Nhong Blong Blet Ji
+			Y At Tu Nhot Luynh Hieo Kep Nhon Bring Dai Guh
+			Nhuak Bo Choi Bam Bham Dieng Dera Dacat Hlong
+			Monah Ayun Ni Thu San Mah Tuan Kok Mal De Ramya
+			Ayna Poka Jut Hwing Ut Mlo Bih Aloo Du Eban Ha
+			Blok Thong
+		}
+		female_names = {
+			Nie Moan Kadam Kaba Adrong Ksor Thi Chin Cham Phiang
+			Pheng Khap Hmih Ea Suryah Hjan Kpa Yah "Ya Wam" Ba
+			Yang Kam Rut Na Ewa
+		}
+	}
+}

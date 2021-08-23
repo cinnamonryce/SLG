@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+primary_culture = malayan
+religion = hinduism
+technology_group = malay_group
+capital = 4903	# Singapore
+
+1400.1.1 = {
+	religion = sunni
+        add_piety = -0.1
+}

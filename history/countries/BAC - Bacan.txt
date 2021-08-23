@@ -1,0 +1,205 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+primary_culture = moluccan
+add_accepted_culture = moluccan_malay
+religion = animism
+technology_group = malay_group
+capital = 4992	# Bacan
+fixed_capital = 4992
+
+1265.1.1 = {
+	monarch = {
+		name = "Buka"
+		dynasty = "Gapi"
+		religion = sunni
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1315.1.1 = {
+	monarch = {
+		name = "Said Husin"
+		dynasty = "Gapi"
+		religion = sunni
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1333.1.1 = {
+	monarch = {
+		name = "Muhammad Hasan"
+		dynasty = "Gapi"
+		religion = sunni
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1333.1.1 = {
+	monarch = {
+		name = "Sidang Hasan"
+		dynasty = "Gapi"
+		religion = sunni
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Bakar" #Muhammad Bakir
+		dynasty = "Gapi"
+		religion = sunni
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1487.1.1 = {
+	religion = sunni
+	religious_school = shafii_school
+	add_piety = -0.10
+}
+
+#Part of Ternate under Zainal Abidin 1470-1500
+
+#Part of Jailolo 1500-1557
+
+1557.1.1 = {
+	monarch = {
+		name = "Hairun" #Also known as Dom João
+		dynasty = "Gapi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1577.1.1 = {
+	monarch = {
+		name = "Dom Henrique" #His father was Muslim; probably same
+		dynasty = "Gapi"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1581.1.1 = {
+	monarch = {
+		name = "Alauddin"
+		dynasty = "Gapi"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1609.1.1 = {
+	monarch = {
+		name = "Nurusalat"
+		dynasty = "Gapi"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1649.1.1 = {
+	monarch = {
+		name = "Muhammad Ali"
+		dynasty = "Gapi"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Alauddin II"
+		dynasty = "Gapi"
+		adm = 4
+		dip = 5
+		mil = 2
+	}
+}
+
+#Dutch protectorate 1667-
+
+1706.1.1 = {
+	monarch = {
+		name = "Musa Malikuddin"
+		dynasty = "Gapi"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1715.1.1 = {
+	monarch = {
+		name = "Kie Nasaruddin"
+		dynasty = "Gapi"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1732.1.1 = {
+	monarch = {
+		name = "Hamza Tarafan Nur"
+		dynasty = "Gapi"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1741.1.1 = {
+	monarch = {
+		name = "Muhammad Sahaddin"
+		dynasty = "Gapi"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Skandar Alam"
+		dynasty = "Gapi"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1788.1.1 = {
+	monarch = {
+		name = "Muhammad Badaruddin"
+		dynasty = "Gapi"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1797.1.1 = {
+	monarch = {
+		name = "Kamarullah"
+		dynasty = "Gapi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,38 @@
+#Morotai
+
+culture = moluccan
+religion = animism
+capital = "Morotai"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 2
+base_manpower = 1
+native_size = 2
+native_ferocity = 2
+native_hostileness = 5
+
+discovered_by = chinese
+discovered_by = indochinese
+discovered_by = malay_group
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1487.1.1 = { religion = sunni }
+1512.1.1 = { discovered_by = POR } # Francisco Serrão
+1656.1.1 = {
+	owner = TER
+	controller = TER
+	add_core = TER
+	is_city = yes
+	trade_goods = fish
+}
+1797.1.1 = {
+	owner = JLO
+	controller = JLO
+}
+1806.1.1 = {
+	owner = TER
+	controller = TER
+}

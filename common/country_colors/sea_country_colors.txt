@@ -1,0 +1,49 @@
+# Country unit colors.
+
+# example_tag_template = {
+    # color1= { 205 32 26  } #60% of character
+    # color2= { 255 255 255  } #30% of character
+    # color3= { 70 50 40  } #Up to 10% -> try map color here
+# }
+
+# Ayutthaya
+AYU = {
+    color1= { 255 255 255  } #white
+    color2= { 175 15 15  } #red
+    color3= { 84 123 74  } #green
+}
+
+# Khmer
+KHM = {
+    color1= { 252 142 33  } #orange
+    color2= { 60 60 60  } #grey-black
+    color3= { 38 66 147  } #navy
+}
+
+# Taungoo
+TAU = {
+    color1= { 84 123 74  } #green
+    color2= { 175 15 15  } #red
+    color3= { 240 240 0  } #yellow
+}
+
+# Ava
+AVA = {
+    color1= { 175 15 15  } #red
+    color2= { 240 240 0  } #yellow
+    color3= { 84 123 74  } #green
+}
+
+# Pegu
+PEG = {
+    color1= { 237 145 5  } #orange
+    color2= { 251 179 140  } #peach
+    color3= { 240 240 0  } #yellow
+}
+
+# Gowa
+MKS = {
+    color1= { 231 20 20  } #red
+    color2= { 60 60 60  } #grey-black
+    color3= { 175 15 15  } #green
+}

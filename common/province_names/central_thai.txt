@@ -1,0 +1,118 @@
+581 = "Sakai"
+582 = "Mueang Yang"
+583 = "Saenwi"
+584 = "Angwa"
+585 = "Tongu"
+586 = "Hongsaowadi"
+588 = "Mueang Nai"
+587 = "Chiang Tung"
+590 = "Malamaeng"
+591 = "Thawai"
+593 = { "Si Thammarat" "Nakhon Si Thammarat" }
+596 = "Malaka"
+597 = "Kangkanu" #Or Yaho
+599 = "Kalantan"
+604 = "Lawaek"
+605 = "Phrae Nakhon"
+606 = "Panturang"
+607 = "Wichai"
+609 = { "Nakhon Wat" "Siem Reap" }
+611 = "Si Khottrabong"
+614 = "Wiangchan"
+615 = "Chiang Thong"
+660 = "Chiang Rung"
+666 = "Kangchao"
+1022 = "Inthrabun"
+1815 = "Peres"
+1823 = "Chiang Taeng"
+1844 = "Chiang Khuang"
+2160 = "Ngaichao"
+2165 = { "Mueang Men" "Mong Men" } #Pu'er
+2166 = { "Mueang Mao" "Mong Mao" }
+2371 = { "Mueang La" "Muang La" }
+2373 = "Hawi"
+2374 = "Kothara"
+2375 = "Charai"
+2376 = "Praek Rusae"
+2377 = "Khamao"
+2378 = "Krachae"
+2379 = "Phra Tabong"
+2381 = "Chiang Khaeng"
+2382 = "Sawan Nakhon"
+2391 = { "Thalang" "Thalang" }
+2393 = "Trangkanu"
+2394 = "Saiburi"
+2396 = "Mueang Khong"
+2398 = "Songsup"
+2399 = "Phukam"
+2400 = "Sipo"
+2401 = "Mueang Pai"
+2403 = "Motama"
+2404 = "Marit"
+4396 = "Prae"
+4397 = "Yongwi"
+4399 = "Yangkung"
+4406 = "Mueang Kung"
+
+4952 = { "Mueang Ting" "Mong Ting" }
+
+4832 = "Lawo"
+
+4965 = "Huaphan"
+
+4963 = { "Trang" "Trang" }
+4812 = "Raman"
+4961 = { "Sa Kaeo" "Sa Kaeo" }
+
+4840 = "Sarawan"
+4828 = "Phra Wihan"
+
+4824 = { "Ban Don" "Ban Don" }
+
+4966 = "Mueang Sai"
+4954 = "Phapun"
+4955 = "Miawadi"
+
+4837 = "Mueang Ngoi"
+
+4969 = "Banthaimat" #Or Phutthaimat
+4829 = "Rong Damre"
+
+4822 = "Amarawat"
+
+4956 = "Tanaosi"
+
+5010 = { "Mueang Mian" "Mong Myen" }
+
+5013 = "Mueang Si"
+
+#American Provinces
+792 = "Kopi"
+855 = "Na Saen"
+859 = "Noratha"
+863 = "Si Chaiya"
+864 = "Wiraphon"
+868 = "Chiang Dai"
+869 = "Phosop"
+870 = "Mueang Yai"
+871 = "Chiang Thong"
+873 = "Taliat"
+972 = "Nuchat"
+975 = "Lakhon Thani"
+976 = "Wiang"
+977 = "Ban Son"
+978 = "Samut Nakhon"
+979 = "Ko Silok"
+2021 = "Phra In"
+2022 = "Ko Phi Phi"
+2476 = "Chethakhon"
+2477 = "Natwi"
+2479 = "Monkon"
+2481 = "Thap"
+2484 = "Si Wisaen"
+2498 = "Rayong Noi"
+2609 = "Na Fai"
+2612 = "Nonsi"
+2613 = "Ko Song"
+2618 = "Laem Sing"
+2862 = "Prasoet"

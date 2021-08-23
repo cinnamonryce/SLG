@@ -1,0 +1,63 @@
+#Bacan
+
+owner = BAC
+controller = BAC
+culture = moluccan
+religion = animism
+capital = "Bacan"
+trade_goods = cloves
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+add_core = BAC
+
+discovered_by = MAJ
+discovered_by = MKS
+discovered_by = BLI
+discovered_by = BAN
+discovered_by = BEI
+discovered_by = BLM
+discovered_by = BTN
+discovered_by = CRB
+discovered_by = DMK
+discovered_by = PLB
+discovered_by = SUN
+discovered_by = KUT
+discovered_by = BNJ
+discovered_by = LFA
+discovered_by = LNO
+discovered_by = LUW
+discovered_by = MGD
+discovered_by = TER
+discovered_by = TID
+discovered_by = chinese
+discovered_by = indochinese
+discovered_by = malay_group
+
+1487.1.1 = { religion = sunni }
+
+1470.1.1 = {
+	owner = TER
+	controller = TER
+	add_core = TER
+}
+
+1500.1.1 = {
+	owner = JLO
+	controller = JLO
+	add_core = JLO
+	remove_core = TER
+}
+
+1512.1.1 = { discovered_by = POR } # Francisco Serrão
+
+1557.1.1 = {
+	owner = BAC
+	controller = BAC
+	remove_core = JLO
+}
+
+1780.1.1 = { unrest = 6 } # Rebellion against the Dutch
+1810.1.1 = { unrest = 0 }

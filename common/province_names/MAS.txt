@@ -1,0 +1,3 @@
+656 = "Selurong"
+2700 = "Madja-as"
+4352 = { "Cebu" "Singapala" }

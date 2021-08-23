@@ -1,0 +1,21 @@
+586 = { "Hongsawatoi" "Hongsawatoi" }
+590 = { "Matmalom" "Matmalom" }
+591 = { "Hewai" "Hewai" }
+592 = { "Khu Bua" "Khu Bua" }
+600 = "Ayodhaya"
+601 = "Sukhodaya"
+614 = { "Chandrapuri" "Chandrapuri" }
+1815 = { "Kuthen" "Kuthen" }
+2387 = { "Laeng" "Kamphaeng Laeng" }
+2388 = "Song Khwae"
+2403 = { "Mumaw" "Mumaw" }
+2404 = { "Poik" "Poik" }
+4399 = { "Dagon" "Dagon" }
+4832 = { "Lavo" "Lavodayapura" }
+4833 = { "Phuenchapuri" "Phuenchapuri" }
+4838 = "Suvarnabhumi" #Funny
+4841 = "Hariphunchai"
+
+4954 = { "Mutraw" "Mutraw" } #Papun
+4955 = { "Miawatoi" "Miawatoi" }
+4956 = { "Tanasia" "Tanasia" }

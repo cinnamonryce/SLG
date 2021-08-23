@@ -1,0 +1,15 @@
+#Kavieng
+
+culture = polynesian
+religion = animism
+capital = "Kavieng"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 10
+native_ferocity = 2
+native_hostileness = 9
+
+1770.2.27 = { discovered_by = GBR } # William Dampier

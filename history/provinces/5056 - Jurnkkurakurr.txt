@@ -1,0 +1,17 @@
+#Jurnkkurakurr - Tennant Creek
+
+culture = gunwinyguan
+religion = dreamtime
+capital = "Jurnkkurakurr"
+hre = no
+trade_goods = unknown
+base_manpower = 1
+base_tax = 1
+base_production = 1
+native_size = 3
+native_ferocity = 3
+native_hostileness = 6
+discovered_by = aboriginal_tech
+
+1642.11.24 = { discovered_by = NED } # Abel Tasman
+

@@ -1,0 +1,96 @@
+#Hoba
+
+culture = formosan
+religion = animism
+capital = "Hoba"
+trade_goods = unknown
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+native_size = 30
+native_ferocity = 3
+native_hostileness = 5
+
+
+
+discovered_by = chinese
+discovered_by = indochinese
+discovered_by = malay_group
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+
+1521.1.1 = { discovered_by = SPA }
+
+1629.1.1 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	is_city = yes
+	capital = "San Dominigo"
+	trade_goods = naval_supplies
+	add_to_trade_company = SPA
+	add_trade_company_investment = {
+		investment = permanent_quarters
+		investor = SPA
+	}
+	add_trade_company_investment = {
+		investment = company_administration
+		investor = SPA
+	}
+	add_trade_company_investment = {
+		investment = company_depot
+		investor = SPA
+	}
+}
+
+1636.1.1 = {
+	add_trade_company_investment = {
+		investment = local_quarter
+		investor = SPA
+	}
+}
+
+#Fort demolished
+
+1642.8.3 = {
+	owner = NED
+	controller = NED
+	add_core = NED
+	capital = "Antonio"
+	add_to_trade_company = NED
+	add_trade_company_investment = {
+		investment = permanent_quarters
+		investor = NED
+	}
+	add_trade_company_investment = {
+		investment = company_administration
+		investor = NED
+	}
+	add_trade_company_investment = {
+		investment = company_depot
+		investor = NED
+	}
+}
+
+1662.6.1 = { controller = FRM } # Tungning occupation
+
+1668.1.1 = {
+	owner = FRM
+	controller = FRM
+	add_core = FRM
+	capital = "Tamsui"
+	remove_core = NED
+	religion = confucianism
+}
+1683.9.5 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+	remove_core = FRM
+} # Submitted to Manchu control
+1786.1.1 = { revolt_risk = 5 } # Rebellion
+1788.1.1 = { revolt_risk = 0 }
+

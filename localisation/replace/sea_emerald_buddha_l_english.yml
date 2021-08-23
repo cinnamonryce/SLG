@@ -1,0 +1,13 @@
+﻿l_english:
+ relocate_emerald_buddha_title:0 "Relocate the Emerald Buddha"
+ relocate_emerald_buddha_desc:0 "The Emerald Buddha, one of the finest Buddhist relics within our possession, lies vulnerable in one of our outlying provinces. Unbeknownst to the people of [Root.GetName], the Emerald Buddha would best be relocated to our capital of [Root.Capital.GetCapitalName], where it would be adorned magnificently by our clergy and be displayed for all the Buddhist world to see."
+ 
+ emerald_buddha.1.t:0 "The Emerald Buddha Departs"
+ emerald_buddha.1.d:0 "Supervised by the clergy, various court officials and nobles have left [emeraldbuddhaprovince.GetName] for [Root.Capital.GetCapitalName], taking with them the Emerald Buddha. Due to the fragility of the relic, the time taken to relocate the Buddha will be long, with senior court officials estimating this process to take around half a year."
+ emerald_buddha.1.a:0 "Excellent!"
+ emerald_buddha.2.t:0 "The Emerald Buddha Arrives in [Root.Capital.GetCapitalName]"
+ emerald_buddha.2.d:0 "Today, various nobles have arrived in [Root.Capital.GetCapitalName], carrying with them the Emerald Buddha, as anticipated by our clergy. The entrance of the Buddha into the city left all to gaze upon its magnificence, with peasant and noble alike stopping to look in awe at its beautiful green glow. A new temple has been designated to house the Buddha, and preparations are already underway to decorate it in layers of precious metals."
+ emerald_buddha.2.a:0 "Extraordinary!"
+ emerald_buddha.3.t:0 "The Emerald Buddha Hurried Back to [emeraldbuddhaprovince.GetName]"
+ emerald_buddha.3.d:0 "Deeming the current state of [Root.GetName] unsafe, the clergy has chosen to halt the relocation of the Emerald Buddha, hurrying it back to its previous home in [emeraldbuddhaprovince.GetName]. For now, unless we are to convince the clergy that the countryside of [Root.GetName] is safe, it shall remain protected in [emeraldbuddhaprovince.GetName]."
+ emerald_buddha.3.a:0 "Damn the clergy!"

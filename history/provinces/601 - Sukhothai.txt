@@ -1,0 +1,55 @@
+#601 - Sukhothai
+
+owner = SUK
+controller = SUK
+culture = central_thai
+religion = buddhism
+capital = "Si Satchanalai" #Capital of Sukhothai after the annexation of Phitsanulok, and Sukhothai falling into disrepair
+trade_goods = chinaware
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+fort_15th = yes
+add_core = SUK
+
+
+
+discovered_by = chinese
+discovered_by = indochinese
+discovered_by = malay_group
+discovered_by = indian
+
+
+1451.1.1 = { add_core = LNA } # Lan Na Invasion of Sukhothai
+#Captured in 1451 by Lan Na
+1474.1.1 = { 
+        owner = AYU
+	controller = AYU
+        add_core = AYU
+        remove_core = LNA
+} #Recaptured and annexed by Ayutthaya
+1535.1.1 = { discovered_by = POR }
+1564.1.2 = { 
+        owner = SUK
+	controller = SUK
+} # Sukhothai established as Burmese vassal
+1569.9.29 = { 
+        owner = AYU
+	controller = AYU
+} # Maha Thammaracha becomes king of Ayutthaya
+1767.4.1 = { # Fall of Ayutthaya, Phitsanulok declares independence
+        owner = SUK
+	controller = SUK
+}
+1769.1.1 = { # Invaded and annexed by Fang
+        owner = FNG
+	controller = FNG
+        add_core = FNG
+}
+1770.1.1 = { # Annexed by Ayutthaya
+        owner = AYU
+	controller = AYU
+        remove_core = FNG
+}

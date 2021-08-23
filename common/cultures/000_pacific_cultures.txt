@@ -1,0 +1,170 @@
+pacific = {
+	graphical_culture = polynesiangfx
+	second_graphical_culture = asiangfx
+
+	papuan = {
+		male_names = {
+			Agolave Akelika-Yaga Amborn Andagalimp-Wak Barunoma Buassi Endemongo Ewunga-Goiba Gaima-Yokumul Gasowe 
+			Gavey-Akamo Gerigl-Gande Gesupo Gopie-Ataiamelaho Isakoa-Hepu Isakoa-Hepu Jokuri-Hari Kaglnogl Kainaro-Kravia 
+			Kaura Kepagane-Peone Kerenga Kerika-Rebia Khaswaho-Baitoheiro Kiakoa Kimba-Kopol Kirupano-Eza'e 
+			Kize Kize-Obaneso Klimbil Koin Kombagle Komp-Nikints Kondon-Agaundo Konia-Taglba KopiaKerika-Kubal Koritoia-Ope 
+			Korpore Korua-Kolta Korul-Korul Kuan Kubal-Nori Kubarl Kumai-Kana Kumi-Kispe Kut Kwipi-Nembil Loo Lowai 
+			Maasi-Pinjinga Maba Maepkang-Miti Miok Mirani-Gena Moropia Mukuka-Wingti Naia-Imulan Namborn Nambuka-Ninji 
+			Nambuka-Titip Napornga-Mare Narmu-Varnu Nonggorr Obi Okame Onguglo-Komugl Opa Opramb-Rumint Ot Owa Pal Pena 
+			Penapul Peng Petro-Pisine Pinketa Pok Pora Powa Pupun Rompinjimp-Nanganbia Seriate Sinamoi Sole-Sole Subul 
+			Teatakan Towa-Ulta Tupia-Osiro Ulaline Ulka-Wena Vojavona Wager Wai Wak Wamp-Wan Wera-Mori Wia-Tugl Xomerang 
+			Yakamup Yanopa-Kai Yasa
+		}
+		female_names = {
+			Aglem-Ter Amp-Biam Amp-Kwimbe Amp-Nemong Amp-Wenta Ife Jara Kentiga Koina Kompamp-Kengakama Kompamp-Mancy 
+			Kompamp-Meta Kumbi Kundika-Marpa Kwimbe Mogumand Nambuka Nengka-Ampdau Palantina Rossa Sirizo Yerema
+		}
+	}
+	asmat = {
+		male_names = {
+			Agolave Akelika-Yaga Amborn Andagalimp-Wak Barunoma Buassi Endemongo Ewunga-Goiba Gaima-Yokumul Gasowe 
+			Gavey-Akamo Gerigl-Gande Gesupo Gopie-Ataiamelaho Isakoa-Hepu Isakoa-Hepu Jokuri-Hari Kaglnogl Kainaro-Kravia 
+			Kaura Kepagane-Peone Kerenga Kerika-Rebia Khaswaho-Baitoheiro Kiakoa Kimba-Kopol Kirupano-Eza'e 
+			Kize Kize-Obaneso Klimbil Koin Kombagle Komp-Nikints Kondon-Agaundo Konia-Taglba KopiaKerika-Kubal Koritoia-Ope 
+			Korpore Korua-Kolta Korul-Korul Kuan Kubal-Nori Kubarl Kumai-Kana Kumi-Kispe Kut Kwipi-Nembil Loo Lowai 
+			Maasi-Pinjinga Maba Maepkang-Miti Miok Mirani-Gena Moropia Mukuka-Wingti Naia-Imulan Namborn Nambuka-Ninji 
+			Nambuka-Titip Napornga-Mare Narmu-Varnu Nonggorr Obi Okame Onguglo-Komugl Opa Opramb-Rumint Ot Owa Pal Pena 
+			Penapul Peng Petro-Pisine Pinketa Pok Pora Powa Pupun Rompinjimp-Nanganbia Seriate Sinamoi Sole-Sole Subul 
+			Teatakan Towa-Ulta Tupia-Osiro Ulaline Ulka-Wena Vojavona Wager Wai Wak Wamp-Wan Wera-Mori Wia-Tugl Xomerang 
+			Yakamup Yanopa-Kai Yasa
+		}
+		female_names = {
+			Aglem-Ter Amp-Biam Amp-Kwimbe Amp-Nemong Amp-Wenta Ife Jara Kentiga Koina Kompamp-Kengakama Kompamp-Mancy 
+			Kompamp-Meta Kumbi Kundika-Marpa Kwimbe Mogumand Nambuka Nengka-Ampdau Palantina Rossa Sirizo Yerema
+		}
+	}
+	marind = {
+		male_names = {
+			Agolave Akelika-Yaga Amborn Andagalimp-Wak Barunoma Buassi Endemongo Ewunga-Goiba Gaima-Yokumul Gasowe 
+			Gavey-Akamo Gerigl-Gande Gesupo Gopie-Ataiamelaho Isakoa-Hepu Isakoa-Hepu Jokuri-Hari Kaglnogl Kainaro-Kravia 
+			Kaura Kepagane-Peone Kerenga Kerika-Rebia Khaswaho-Baitoheiro Kiakoa Kimba-Kopol Kirupano-Eza'e 
+			Kize Kize-Obaneso Klimbil Koin Kombagle Komp-Nikints Kondon-Agaundo Konia-Taglba KopiaKerika-Kubal Koritoia-Ope 
+			Korpore Korua-Kolta Korul-Korul Kuan Kubal-Nori Kubarl Kumai-Kana Kumi-Kispe Kut Kwipi-Nembil Loo Lowai 
+			Maasi-Pinjinga Maba Maepkang-Miti Miok Mirani-Gena Moropia Mukuka-Wingti Naia-Imulan Namborn Nambuka-Ninji 
+			Nambuka-Titip Napornga-Mare Narmu-Varnu Nonggorr Obi Okame Onguglo-Komugl Opa Opramb-Rumint Ot Owa Pal Pena 
+			Penapul Peng Petro-Pisine Pinketa Pok Pora Powa Pupun Rompinjimp-Nanganbia Seriate Sinamoi Sole-Sole Subul 
+			Teatakan Towa-Ulta Tupia-Osiro Ulaline Ulka-Wena Vojavona Wager Wai Wak Wamp-Wan Wera-Mori Wia-Tugl Xomerang 
+			Yakamup Yanopa-Kai Yasa
+		}
+		female_names = {
+			Aglem-Ter Amp-Biam Amp-Kwimbe Amp-Nemong Amp-Wenta Ife Jara Kentiga Koina Kompamp-Kengakama Kompamp-Mancy 
+			Kompamp-Meta Kumbi Kundika-Marpa Kwimbe Mogumand Nambuka Nengka-Ampdau Palantina Rossa Sirizo Yerema
+		}
+	}
+	kwerba = {
+		male_names = {
+			Agolave Akelika-Yaga Amborn Andagalimp-Wak Barunoma Buassi Endemongo Ewunga-Goiba Gaima-Yokumul Gasowe 
+			Gavey-Akamo Gerigl-Gande Gesupo Gopie-Ataiamelaho Isakoa-Hepu Isakoa-Hepu Jokuri-Hari Kaglnogl Kainaro-Kravia 
+			Kaura Kepagane-Peone Kerenga Kerika-Rebia Khaswaho-Baitoheiro Kiakoa Kimba-Kopol Kirupano-Eza'e 
+			Kize Kize-Obaneso Klimbil Koin Kombagle Komp-Nikints Kondon-Agaundo Konia-Taglba KopiaKerika-Kubal Koritoia-Ope 
+			Korpore Korua-Kolta Korul-Korul Kuan Kubal-Nori Kubarl Kumai-Kana Kumi-Kispe Kut Kwipi-Nembil Loo Lowai 
+			Maasi-Pinjinga Maba Maepkang-Miti Miok Mirani-Gena Moropia Mukuka-Wingti Naia-Imulan Namborn Nambuka-Ninji 
+			Nambuka-Titip Napornga-Mare Narmu-Varnu Nonggorr Obi Okame Onguglo-Komugl Opa Opramb-Rumint Ot Owa Pal Pena 
+			Penapul Peng Petro-Pisine Pinketa Pok Pora Powa Pupun Rompinjimp-Nanganbia Seriate Sinamoi Sole-Sole Subul 
+			Teatakan Towa-Ulta Tupia-Osiro Ulaline Ulka-Wena Vojavona Wager Wai Wak Wamp-Wan Wera-Mori Wia-Tugl Xomerang 
+			Yakamup Yanopa-Kai Yasa
+		}
+		female_names = {
+			Aglem-Ter Amp-Biam Amp-Kwimbe Amp-Nemong Amp-Wenta Ife Jara Kentiga Koina Kompamp-Kengakama Kompamp-Mancy 
+			Kompamp-Meta Kumbi Kundika-Marpa Kwimbe Mogumand Nambuka Nengka-Ampdau Palantina Rossa Sirizo Yerema
+		}
+	}
+	gulf_papuan = {
+		male_names = {
+			Agolave Akelika-Yaga Amborn Andagalimp-Wak Barunoma Buassi Endemongo Ewunga-Goiba Gaima-Yokumul Gasowe 
+			Gavey-Akamo Gerigl-Gande Gesupo Gopie-Ataiamelaho Isakoa-Hepu Isakoa-Hepu Jokuri-Hari Kaglnogl Kainaro-Kravia 
+			Kaura Kepagane-Peone Kerenga Kerika-Rebia Khaswaho-Baitoheiro Kiakoa Kimba-Kopol Kirupano-Eza'e 
+			Kize Kize-Obaneso Klimbil Koin Kombagle Komp-Nikints Kondon-Agaundo Konia-Taglba KopiaKerika-Kubal Koritoia-Ope 
+			Korpore Korua-Kolta Korul-Korul Kuan Kubal-Nori Kubarl Kumai-Kana Kumi-Kispe Kut Kwipi-Nembil Loo Lowai 
+			Maasi-Pinjinga Maba Maepkang-Miti Miok Mirani-Gena Moropia Mukuka-Wingti Naia-Imulan Namborn Nambuka-Ninji 
+			Nambuka-Titip Napornga-Mare Narmu-Varnu Nonggorr Obi Okame Onguglo-Komugl Opa Opramb-Rumint Ot Owa Pal Pena 
+			Penapul Peng Petro-Pisine Pinketa Pok Pora Powa Pupun Rompinjimp-Nanganbia Seriate Sinamoi Sole-Sole Subul 
+			Teatakan Towa-Ulta Tupia-Osiro Ulaline Ulka-Wena Vojavona Wager Wai Wak Wamp-Wan Wera-Mori Wia-Tugl Xomerang 
+			Yakamup Yanopa-Kai Yasa
+		}
+		female_names = {
+			Aglem-Ter Amp-Biam Amp-Kwimbe Amp-Nemong Amp-Wenta Ife Jara Kentiga Koina Kompamp-Kengakama Kompamp-Mancy 
+			Kompamp-Meta Kumbi Kundika-Marpa Kwimbe Mogumand Nambuka Nengka-Ampdau Palantina Rossa Sirizo Yerema
+		}
+	}
+	sepik = {
+		male_names = {
+			Agolave Akelika-Yaga Amborn Andagalimp-Wak Barunoma Buassi Endemongo Ewunga-Goiba Gaima-Yokumul Gasowe 
+			Gavey-Akamo Gerigl-Gande Gesupo Gopie-Ataiamelaho Isakoa-Hepu Isakoa-Hepu Jokuri-Hari Kaglnogl Kainaro-Kravia 
+			Kaura Kepagane-Peone Kerenga Kerika-Rebia Khaswaho-Baitoheiro Kiakoa Kimba-Kopol Kirupano-Eza'e 
+			Kize Kize-Obaneso Klimbil Koin Kombagle Komp-Nikints Kondon-Agaundo Konia-Taglba KopiaKerika-Kubal Koritoia-Ope 
+			Korpore Korua-Kolta Korul-Korul Kuan Kubal-Nori Kubarl Kumai-Kana Kumi-Kispe Kut Kwipi-Nembil Loo Lowai 
+			Maasi-Pinjinga Maba Maepkang-Miti Miok Mirani-Gena Moropia Mukuka-Wingti Naia-Imulan Namborn Nambuka-Ninji 
+			Nambuka-Titip Napornga-Mare Narmu-Varnu Nonggorr Obi Okame Onguglo-Komugl Opa Opramb-Rumint Ot Owa Pal Pena 
+			Penapul Peng Petro-Pisine Pinketa Pok Pora Powa Pupun Rompinjimp-Nanganbia Seriate Sinamoi Sole-Sole Subul 
+			Teatakan Towa-Ulta Tupia-Osiro Ulaline Ulka-Wena Vojavona Wager Wai Wak Wamp-Wan Wera-Mori Wia-Tugl Xomerang 
+			Yakamup Yanopa-Kai Yasa
+		}
+		female_names = {
+			Aglem-Ter Amp-Biam Amp-Kwimbe Amp-Nemong Amp-Wenta Ife Jara Kentiga Koina Kompamp-Kengakama Kompamp-Mancy 
+			Kompamp-Meta Kumbi Kundika-Marpa Kwimbe Mogumand Nambuka Nengka-Ampdau Palantina Rossa Sirizo Yerema
+		}
+	}
+	moluccan = {
+		primary = TER
+		male_names = {
+			"Komala Pulu" "Marhum" "Zainal Abidin" "Bayanullah" "Hidayatullah" "Abu Hayat" "Tabariji" "Khairun Jamil" 
+			"Babullah Datu Shah" "Said Barakat Shah" "Muzaffar Shah" "Hamzah" "Manilha" "Mandar Shah" "Sibori" "Said Fathullah"
+			"Amir Iskandar Zulkarnain Saifuddin" "Ayan Shah" "Syah Mardan" "Jalaluddin" "Harun Shah" 
+			"Achral" "Muhammad Yasin" "Muhammad Ali"
+		}
+		female_names = {
+			Cinta Wangi Tani Ema Nanise Rosi Salanieta Tanna
+		}
+	}
+	maori = {
+		male_names = {
+			Aata Ahika Akahata Amahau Anewa Apera Aperahama Arapeta Ari Atama Atawhai Etera Hahona Haimona Harata Hau Hehu 
+			Heketoro Henare Hohepa Huatare Hunapo Hunu Iarere Iehohapata Ieni Ietepere Ietoro Ihaia Ihaka Ihu Ikaroa Iorama
+			Iorangi Iotama Iraia Irirangi Iwi Kahurangi Kai Kaihautu Kamaka Kauri Koraka Mahaka Manaaki Manaia Manawa Matiu 
+			Moana Nikau Purta Puta Rangi Rapata Rawiri Rongo Ropata Ruru Tai Taika Tama Tane Tanemahuta Tangaroa Tawera Tawhiri 
+			Tayn Te-Ariki Tia Tui
+		}
+		female_names = {
+			Aaria Amaia Ana Anahera Aroha Ataahua Awhina Hana Kahurangi Kaia Kara Kora Maia Manaia Manawa Moana Rui Te-Ao Te-Aroha Tia Tui
+		}
+	}
+	melanesian = {
+		male_names = {
+			Adi Aisake Aminiasi Apenisa Apisalome Berenado Cakobau Caucau Emori Epeli Epenisa Esekia Ilikimi Ilisoni Iloilo Iloilovatu 
+			Isikeli Isimeli Jesoni Jo Joeli Jone Jope Josateki Josefa Josevata Jovesa Kai Kamisese Karavadi Kelemedi Lala Lasarusa Lemeki
+			Levani Kevenei Leveni Ma'afu Maciu Manasa Mara Marau Marika Naulivou Ovini Penaia Peniamini Petero Poasa Sakeasi Sakiusa 
+			Samisoni Savenaca Seru Sione Sirilo Sitiveni Solomone Tamiela Tanna Timi Timoci Tomasi Tui Voreqe Waisake Waisale Wije Yasi
+		}
+		female_names = {
+			Akeneta Aliti Elenoa Ema Emele Kai Kalahira Kalara Kasanita Kepa Kesaia Leba Lelea Lilieta Loloma Mereani Miliani Raijieli 
+			Salanieta Salaqawa Selai Sereana Tanna Tarlae Ulita Yasi
+		}
+	}
+	polynesian = {
+		dynasty_names = {
+			Aalona Ahulani Ainalani Akeakamai Alani Aluala Alealani Alohilani Anakalia Anuenue "'Ehukai" "'Ewalani" "Ha'aheo" Heleakala
+			Hanalei Hanohano "Hau'oli" "Hi'iaka" "Ho'okano" Hualani Ikepela "Ka'aukai" Kahananui Kaheleha Kaikea Kainalu Kalauokalani
+			Kaleoikaika Kamehu "Kameha'o" Kamehameha Kawaiola Kehaulani Kelupaina Keonoana Lanakila Lehuanani Lokelani Lono
+			Makaleka Makikonu Mauna Momilani Nohealani Polola Po'okela Sanoe Ualani Uluwehi Wailani Waipuna 
+		}
+		female_names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Moanna Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+		male_names = {
+			Akamu Aloha Alohilani Analu Aolani Aulani Aulii Feleti Inoke Iolani Ipo Iwalani Kai Kaili Kaipo Kalani Kale Kalei Kapena
+			Kapono Keahi Kealii Keani Keanu Keiki Kelii Keon Keoni Kimo Konala Liko Loe Lulani Makaio Makani Malo Mauli Mele Moke
+			Nalani Oke Palani Pekelo
+		}
+	}
+	dynasty_names = {
+		Balla Bulu Lompo Sallo Karaeng Bambang Cipuru Doe Iyo Tena Tabe Apa Lakeko Battu Keko
+	}
+}

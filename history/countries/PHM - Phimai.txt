@@ -1,0 +1,25 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = central_thai
+religion = buddhism
+technology_group = indochinese
+capital = 612 #Khorat
+
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+#The fall of Ayutthaya, the former king's son flees to Phimai and proclaims himself King of Ayutthaya
+
+1767.4.1 = {
+	monarch = {
+		name = "Thepphiphit"
+		dynasty = "Ban Phlu Luang"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+#Annexed in 1768, Thepphiphit is executed by King Taksin

@@ -1,0 +1,25 @@
+593 = { "Sri Dharmaraja" "Negara Sri Dharmaraja" }
+594 = { "Patani" "Patani" }
+596 = { "Melaka" "Melaka" }
+605 = "Baigaur"
+625 = { "Ciamis" "Ciamis" }
+628 = { "Surabaya" "Surabaya" }
+630 = { "Jayakarta" "Jayakarta" }
+637 = "Api"
+656 = "Selurong"
+1022 = { "Indrapura" "Indrapura" }
+2373 = { "Ulik" "Ulik" } #Other option is Vuyar
+2386 = "Jayabumi"
+2390 = { "Grahi" "Grahi" }
+2391 = { "Salang" "Tanjung Salang" }
+2687 = { "Bogor" "Bogor" }
+2700 = "Madja-as"
+2716 = { "Butung" "Butung" }
+4352 = { "Kota Singapura" "Kota Singapura" }
+
+4816 = { "Singgora" "Singgora" }
+4817 = { "Terang" "Terang" }
+
+4875 = "Tanah Sari"
+
+4903 = "Singapura"

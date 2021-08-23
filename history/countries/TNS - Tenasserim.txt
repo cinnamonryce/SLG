@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = mon
+religion = buddhism
+technology_group = indochinese
+capital = 591 #Tavoy
+
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Imharihera"
+		dynasty = "Taithong"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+

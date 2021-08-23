@@ -1,0 +1,1874 @@
+#New missions - overrides Leviathan
+siamese_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ayu_annex_ligor = {
+		icon = mission_annex_ligor
+		required_missions = { ayu_taification }
+		position = 2
+		completed_by = 1566.1.1
+		provinces_to_highlight = {
+			area = tenasserim_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+					value = 3
+					area = tenasserim_area
+			}
+			593 = {
+				owned_by = ROOT
+			}
+			LIG = {
+				exists = no
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "si_thammarat_tin"
+				duration = 7300
+			}
+			north_malaya_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			tenasserim_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = KED
+				}
+				add_casus_belli = {
+					target = KED
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = PAT
+				}
+				add_casus_belli = {
+					target = PAT
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = KEL
+				}
+				add_casus_belli = {
+					target = KEL
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+
+	ayu_safeguard_the_border_states = {
+		icon = mission_conquer_malay_states
+		required_missions = { ayu_annex_ligor }
+		position = 3
+		completed_by = 1636.1.1
+		provinces_to_highlight = {
+			OR = {
+				area = tenasserim_area
+				area = north_malaya_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+
+			tenasserim_area = {
+                                type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			north_malaya_area = {
+                                type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			malaya_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+
+			if = {
+				limit = {
+					exists = MLC
+				}
+				add_casus_belli = {
+					target = MLC
+					type = cb_vassalize_mission
+				}
+			}
+
+			if = {
+				limit = {
+					exists = JOH
+				}
+				add_casus_belli = {
+					target = JOH
+					type = cb_vassalize_mission
+				}
+			}
+
+			if = {
+				limit = {
+					exists = PAH
+				}
+				add_casus_belli = {
+					target = PAH
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = PRK
+				}
+				add_casus_belli = {
+					target = PRK
+					type = cb_vassalize_mission
+				}
+			}
+                        custom_tooltip = ayu_safeguard_the_border_states.tooltip
+			hidden_effect = {
+				tenasserim_area = {
+					limit = {
+						owned_by = ROOT
+						religion = ROOT
+					}
+					change_culture = ROOT
+				}
+			}	
+		}
+	}
+
+	ayu_sack_malacca = {
+		icon = mission_sack_malacca
+		required_missions = { ayu_safeguard_the_border_states }
+		position = 4
+		provinces_to_highlight = {
+			province_id = 596
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			596 = {
+				controlled_by = ROOT
+			}
+		}
+		effect = {
+			add_dip_power = 100
+			define_advisor = {
+				type = naval_reformer
+				skill = 2
+				culture = malayan
+				religion = ROOT
+				cost_multiplier = 0.25
+			}
+			every_province = {
+				limit = {
+					region = malaya_region
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					province_has_center_of_trade_of_level = 1
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	ayu_subdue_the_khmer_kings = {
+		icon = mission_sea_monarch_war
+		required_missions = { ayu_siamese_cambodia }
+		position = 6
+		completed_by = 1779.1.1
+		provinces_to_highlight = {
+			OR = {
+				area = cambodia_area
+				area = angkor_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			cambodia_area = {
+                                type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			angkor_area = {
+                                type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_dlc = "Cradle of Civilization"
+					NOT = { army_professionalism = 0.90 }
+				}
+				add_army_professionalism = 0.1
+			}
+			else = {
+				add_mil_power = 100
+			}
+			add_country_modifier = {
+				name = "subduction_of_the_khmer_kings"
+				duration = 7300
+			}
+			mekong_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = CCC
+				}
+				add_casus_belli = {
+					target = CCC
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = JAR
+				}
+				add_casus_belli = {
+					target = JAR
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = RHA
+				}
+				add_casus_belli = {
+					target = RHA
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = KOH
+				}
+				add_casus_belli = {
+					target = KOH
+					type = cb_vassalize_mission
+				}
+			}	
+		}
+	}
+
+	ayu_the_mouth_of_the_mekong = {
+		icon = mission_ne_great_lakes_conquest
+		required_missions = { ayu_subdue_the_khmer_kings ayu_raid_the_highlands }
+		position = 8
+		provinces_to_highlight = {
+			area = mekong_area
+		}
+		trigger = {
+			mekong_area = {
+                                type = all
+				owned_by = ROOT
+			}
+			OR = {
+				any_owned_province = {	
+					area = mekong_area
+					development = 20
+					num_of_times_improved_by_owner = 5
+				}
+				num_of_owned_provinces_with = {
+					value = 3
+					area = mekong_area
+					development = 15
+				}
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			if = {
+				limit = {
+					has_dlc = "Dharma"
+					605 = {
+						NOT = {
+							province_has_center_of_trade_of_level = 2
+						}
+					}
+				}
+				605 = {
+					add_center_of_trade_level = 1
+				}
+			}
+		}
+	}
+}
+
+siamese_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ayu_taification = {
+		icon = mission_taification
+		required_missions = {  }
+		completed_by = 1480.1.1 #Wild guess
+
+		provinces_to_highlight = {
+			OR = {
+				area = central_thai_area
+				area = sukhothai_area
+			}
+			OR = {
+				NOT = {
+					country_or_non_sovereign_subject_holds = ROOT
+		                }
+				NOT = {
+					religion = ROOT
+		                }
+			}
+		}
+
+		trigger = {
+			central_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+                                religion = ROOT
+			}
+			sukhothai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+                                religion = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "taification"
+				duration = 7300
+			}
+			custom_tooltip = ayu_taification.tooltip
+			hidden_effect = {
+				khorat_area = {
+					limit = {
+						owned_by = ROOT
+						religion = ROOT
+					}
+					change_culture = ROOT
+                        	}
+				sukhothai_area = {
+					limit = {
+						owned_by = ROOT
+						religion = ROOT
+					}
+					change_culture = ROOT
+                        	}
+				central_thai_area = {
+					limit = {
+						owned_by = ROOT
+						religion = ROOT
+					}
+					change_culture = ROOT
+                        	}
+				angkor_area = {
+					limit = {
+						owned_by = ROOT
+						religion = ROOT
+					}
+					change_culture = ROOT
+                        	}
+                        }
+		}
+	}
+
+	ayu_siamese_cambodia = {
+		icon = mission_angkor
+		required_missions = { ayu_taification }
+		position = 5
+		completed_by = 1779.1.1
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4964 #Srah Kev
+				province_id = 2379
+				province_id = 609
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			4964 = {
+				owned_by = ROOT
+			}
+			2379 = {
+				owned_by = ROOT
+			}
+			609 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			angkor_area = {
+				add_province_modifier = {
+					name = "aphaiwong_family"
+					duration = -1
+				}
+			}
+			khorat_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = KHM
+				}
+				add_casus_belli = {
+					target = KHM
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = VIE
+				}
+				add_casus_belli = {
+					target = VIE
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = CHK
+				}
+				add_casus_belli = {
+					target = CHK
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+
+	ayu_raid_the_highlands = {
+		icon = mission_degar_village
+		required_missions = { ayu_subdue_the_khmer_kings ayu_monthon_burapha }
+		position = 7
+		provinces_to_highlight = {
+			area = tay_nguyen_area
+			NOT = {
+			country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 3
+					area = tay_nguyen_area
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "degar_slave_trade"
+				duration = 7300
+			}
+		}
+	}
+}
+
+siamese_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	ayu_legacy_of_sukhothai = {
+		icon = mission_ramkhamhaeng
+		required_missions = {  }
+		completed_by = 1530.1.1
+		provinces_to_highlight = {
+                        OR = {
+				owned_by = SUK
+				AND = {
+			        	area = sukhothai_area
+				        NOT = { owned_by = ROOT }
+				}
+                        }
+		}
+		trigger = {
+			sukhothai_area = {
+				type = all
+				owned_by = ROOT
+			}
+			SUK = {
+				exists = no
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "inherited_legacy_of_sukhothai"
+				duration = -1
+			}
+			northern_thai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lampang_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = LNA
+				}
+				add_casus_belli = {
+					target = LNA
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+
+	ayu_into_the_north = {
+		icon = mission_chiang_mai
+		required_missions = { ayu_legacy_of_sukhothai }
+		position = 2
+		completed_by = 1602.1.1
+		provinces_to_highlight = {
+			OR = {
+				area = northern_thai_area
+				area = lampang_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			northern_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lampang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "million_rice_fields"
+				duration = 7300
+			}
+			lower_burma_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = PEG
+				}
+				add_casus_belli = {
+					target = PEG
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+
+	ayu_seize_pegu = {
+		icon = mission_reclaim_hanthawaddy
+		required_missions = { ayu_into_the_north ayu_secure_mon_loyalty }
+		position = 3
+		completed_by = 1602.1.1 #Pegu sacked in 1600, Lan Na vassalized in 1602
+		provinces_to_highlight = {
+			province_id = 586
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			586 = {
+				controlled_by = ROOT
+			}
+		}
+		effect = {
+			define_advisor = {
+				type = inquisitor
+				skill = 2
+				culture = mon
+				religion = ROOT
+				cost_multiplier = 0.25
+			}
+			add_country_modifier = {
+				name = "elephant_duels"
+				duration = -1
+			}
+			if = {
+				limit = {
+					exists = TAU
+				}
+				add_casus_belli = {
+					target = TAU
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = BPR
+				}
+				add_casus_belli = {
+					target = BPR
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = AVA
+				}
+				add_casus_belli = {
+					target = AVA
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+
+	ayu_besiege_burma = {
+		icon = mission_besiege_burma
+		required_missions = { ayu_seize_pegu }
+		position = 4
+		provinces_to_highlight = {
+			OR = { 
+				province_id = 584
+				province_id = 585
+			}
+			NOT = {
+				controlled_by = ROOT
+			}
+		}
+		trigger = {
+			584 = {
+                                controlled_by = ROOT
+			}
+			585 = {
+                                controlled_by = ROOT
+			}
+		}
+		effect = {
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 25
+			}
+			add_country_modifier = {
+				name = "razing_of_burma"
+				duration = 7300
+			}
+			yawnghwe_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			shan_hill_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = TAU
+				}
+				add_casus_belli = {
+					target = TAU
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = BPR
+				}
+				add_casus_belli = {
+					target = BPR
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = AVA
+				}
+				add_casus_belli = {
+					target = AVA
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = KET
+				}
+				add_casus_belli = {
+					target = KET
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = MNI
+				}
+				add_casus_belli = {
+					target = MNI
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = MPA
+				}
+				add_casus_belli = {
+					target = MPA
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = YGW
+				}
+				add_casus_belli = {
+					target = YGW
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = HSE
+				}
+				add_casus_belli = {
+					target = HSE
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = HSI
+				}
+				add_casus_belli = {
+					target = HSI
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = MMT
+				}
+				add_casus_belli = {
+					target = MMT
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = SST
+				}
+				add_casus_belli = {
+					target = SST
+					type = cb_vassalize_mission
+				}
+			}		
+		}
+	}
+
+	ayu_lead_the_confederation = {
+		icon = mission_naresuan
+		required_missions = { ayu_besiege_burma }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = karenni_area
+				area = shan_hill_area
+				area = yawnghwe_area
+			}
+			NOT = {
+				controlled_by = ROOT
+			}
+		}
+		trigger = {
+			yawnghwe_area = {
+                                type = all
+                                country_or_non_sovereign_subject_holds = ROOT
+			}
+			karenni_area = {
+                                type = all
+                                country_or_non_sovereign_subject_holds = ROOT
+			}
+			shan_hill_area = {
+                                type = all
+                                country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_adm_power = 200
+			if = {
+				limit = {
+					any_owned_province = {
+						culture = shan
+						region = burma_region
+					}
+				}
+				every_owned_province = {
+					limit = {
+						culture = shan
+						region = burma_region
+					}
+					add_nationalism = -5
+				}
+				else = {
+					add_prestige = 20
+				}
+			}
+		}
+	}
+
+	ayu_monthon_burapha = {
+		icon = mission_isan
+		required_missions = { ayu_siamese_cambodia }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = khorat_area
+				area = suwannaphum_area
+			}
+			NOT = {
+				controlled_by = ROOT
+			}
+		}
+		trigger = {
+			khorat_area = {
+                                type = all
+                                country_or_non_sovereign_subject_holds = ROOT
+			}
+			suwannaphum_area = {
+                                type = all
+                                country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			suwannaphum_area = {
+				add_province_modifier = {
+					name = "isan_indirect_rule"
+					duration = 5475
+				}
+			}
+			if = {
+				limit = {
+					exists = LXA
+				}
+				add_casus_belli = {
+					target = LXA
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = LUA
+				}
+				add_casus_belli = {
+					target = LUA
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+
+	ayu_over_the_mekong = {
+		icon = mission_se_along_the_river
+		required_missions = { ayu_monthon_burapha }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = north_laos_area
+				area = champasak_area
+				area = vientiane_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			if = {
+				limit = {
+					any_country = {
+						is_subject_of = ROOT
+						primary_culture = lao
+					}
+				}
+				NOT = {
+					any_subject_country = {
+						primary_culture = lao
+						liberty_desire = 50
+					}
+				}
+			}
+			calc_true_if = {
+				amount = 12
+				all_province = {
+					OR = {
+						area = north_laos_area
+						area = champasak_area
+						area = vientiane_area
+					}
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			add_mil_power = 100
+			muang_phuan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	sia_depopulate_laos = {
+		icon = mission_hills_of_gondwana
+		required_missions = { ayu_over_the_mekong }
+		position = 8
+		provinces_to_highlight = {
+			culture = lao
+			OR = {
+				AND = {
+					owned_by = ROOT
+					local_autonomy = 40
+				}
+				NOT = {
+					owned_by = ROOT
+				}
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				culture = lao
+				NOT = { local_autonomy = 40 }
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "sia_forced_resettlement"
+				duration = 18250
+			}
+			if = {
+				limit = {
+					608 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				608 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					608 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				608 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					611 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				611 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					611 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				611 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					614 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				614 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					614 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				614 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					615 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				615 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					615 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				615 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					1844 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				1844 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					1844 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1844 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					2371 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				2371 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					2371 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2371 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					2381 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				2381 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					2381 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2381 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					2382 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				2382 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					2382 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2382 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = { #Muang Ngoi
+				limit = {
+					4837 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				4837 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					4837 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4837 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = { #Champasak
+				limit = {
+					4839 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				4839 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					4839 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4839 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = { #Salavan
+				limit = {
+					4840 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				4840 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					4840 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4840 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = { #Houaphan
+				limit = {
+					4965 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				4965 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					4965 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4965 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = { #Muang Xay
+				limit = {
+					4966 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				4966 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					4966 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4966 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = { #Phongsali
+				limit = {
+					4967 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				4967 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					4967 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4967 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+		}
+	}
+}
+
+siamese_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	ayu_secure_mon_loyalty = {
+		icon = mission_mon_subject
+		required_missions = { ayu_legacy_of_sukhothai }
+		position = 2
+		completed_by = 1488.1.1
+		provinces_to_highlight = {
+			culture = mon
+			owned_by = ROOT
+			OR = {
+				unrest = 1
+				local_autonomy = 40
+				nationalism = 1
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 3
+				culture = mon
+				NOT = { unrest = 1 }
+				NOT = { local_autonomy = 40 }
+				NOT = { nationalism = 1 }
+			}
+		}
+		effect = {
+                        add_accepted_culture = mon
+			add_country_modifier = {
+				name = "integration_of_the_mon"
+				duration = -1
+			}
+		}
+	}
+
+	ayu_fortress_tenasserim = {
+		icon = mission_tenasserim
+		required_missions = { ayu_secure_mon_loyalty }
+		position = 3
+		provinces_to_highlight = {
+			area = north_tenasserim_area
+			OR = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				NOT = { fort_level = 3 }
+			}
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = ayu_fortress_tenasserim.tooltip
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 1
+					area = north_tenasserim_area
+					fort_level = 3
+				}
+			}
+		}
+		effect = {
+			north_tenasserim_area = {
+				add_province_modifier = {
+					name = "fortress_tenasserim"
+					duration = -1
+				}
+			}
+		}
+	}
+	ayu_pluck_the_peacock = {
+		icon = mission_invade_burma
+		required_missions = { ayu_besiege_burma }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = upper_burma_area
+				area = central_burma_area
+			}
+			NOT = {
+				controlled_by = ROOT
+			}
+			owner = {
+				primary_culture = burmese
+				NOT = { is_subject_of = root }
+			}						
+		}
+		trigger = {
+			upper_burma_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			central_burma_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			if = {
+				limit = {
+					exists = AVA
+				}
+				AVA = { is_subject_of = ROOT }
+			}
+			if = {
+				limit = {
+					exists = TAU
+				}
+				TAU = { is_subject_of = ROOT }
+			}
+			if = {
+				limit = {
+					exists = BPR
+				}
+				BPR = { is_subject_of = ROOT }
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "triumph_in_burma"
+				duration = 7300
+			}
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 25
+			}
+		}
+	}
+
+	ayu_spice_dominance = {
+		icon = mission_mnd_maj_cloves
+		required_missions = { ayu_globalization }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					province_id = 1361
+					NOT = { is_strongest_trade_power = ROOT }
+				}
+				AND = {
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					province_has_center_of_trade_of_level = 1
+					region = malaya_region
+				}
+			}
+		}
+		trigger = {
+			trading_bonus = {
+				trade_goods = spices
+				value = yes
+			}
+			1361 = {
+				is_strongest_trade_power = ROOT
+			}
+		}
+		effect = {
+			add_dip_power = 100
+			add_country_modifier = {
+				name = "siam_trade"
+				duration = -1
+			}
+		}
+	}
+
+	sia_the_emerald_buddha = {
+		icon = mission_emerald_buddha
+		required_missions = { ayu_over_the_mekong }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				has_province_modifier = emerald_buddha
+				has_province_modifier = emerald_buddha_heathen
+			}
+		}
+		trigger = {
+			any_owned_province = {
+				has_province_modifier = emerald_buddha
+			}
+		}
+		effect = {
+			add_stability = 1
+			add_prestige = 20
+		}
+	}
+}
+
+siamese_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = AYU
+			tag = SIA
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	ayu_venice_of_the_east = {
+		icon = mission_ayutthaya
+		required_missions = {  }
+		provinces_to_highlight = {
+			owned_by = ROOT
+			is_capital = yes
+			OR = {
+				NOT = { has_building = marketplace }
+				NOT = { fort_level = 2 }
+			}
+		}
+		trigger = {
+			capital_scope = {
+				development = 25
+				higher_development_than = 112
+				fort_level = 2
+				has_building = marketplace
+			}
+		}
+		effect = {
+			add_years_of_income = 1.5
+		}
+	}
+
+	ayu_warm_up_to_the_west = {
+		icon = mission_siam_western_advisors
+		required_missions = { ayu_venice_of_the_east }
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = mug_embassy_to_the_west_tt
+				any_ally = {
+					capital_scope = {
+						continent = europe
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "western_trade_relations"
+				duration = 7300
+			}
+		}
+	}
+
+	ayu_globalization = {
+		icon = mission_the_bois
+		required_missions = { ayu_warm_up_to_the_west }
+		position = 5
+		trigger = {
+			home_trade_node = {
+				trade_share = {
+					country = ROOT
+					share = 75
+				}
+			}
+		}
+		effect = {
+			add_mercantilism = 2
+			hidden_effect = {
+				home_trade_node_effect_scope = {
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							is_capital = yes
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 20
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 25
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 30
+						}
+						save_event_target_as = reward_province
+					}
+				}
+			}
+			if = {
+				limit = { has_saved_event_target = reward_province }
+				event_target:reward_province = {
+					add_province_modifier = {
+						name = "dominant_trade_hub"
+						duration = -1
+					}
+				}
+			}
+			else = {
+				custom_tooltip = dominant_home_node_reward_tooltip
+			}
+		}
+	}
+
+	ayu_found_our_navy = {
+		icon = mission_chao_phraya_boat
+		required_missions = { ayu_globalization }
+		position = 8
+		trigger = {
+			num_of_total_ports = 15
+			num_of_heavy_ship = 5
+			navy_size_percentage = 0.9
+		}
+		effect = {
+			add_navy_tradition = 20
+			define_admiral = {
+				name = "Phraya Chonlayut"
+				shock = 3
+				fire = 2
+				manuever = 3
+				siege = 1
+			}
+		}
+	}
+}

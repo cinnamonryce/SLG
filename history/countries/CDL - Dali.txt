@@ -1,0 +1,183 @@
+government = monarchy
+add_government_reform = native_chieftain_system_reform
+primary_culture = bai
+religion = confucianism
+add_harmonized_religion = vajrayana
+technology_group = chinese
+capital = 661	# Dali
+
+1320.1.1 = {
+	monarch = {
+		name = "Shousi"
+		dynasty = "Gao"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1350.1.1 = {
+	monarch = {
+		name = "Shoubao"
+		dynasty = "Gao"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1380.1.1 = {
+	monarch = {
+		name = "Xian"
+		dynasty = "Gao"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1420.1.1 = {
+	monarch = {
+		name = "Gui"
+		dynasty = "Gao"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Xiang"
+		dynasty = "Gao"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Feng"
+		dynasty = "Gao"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Qidou"
+		dynasty = "Gao"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1510.1.1 = {
+	monarch = {
+		name = "Qin"
+		dynasty = "Gao"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Jinchen"
+		dynasty = "Gao"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Guangyu"
+		dynasty = "Gao"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Shoufan"
+		dynasty = "Gao"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Tai"
+		dynasty = "Gao"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1669.1.1 = {
+	monarch = {
+		name = "Wengying"
+		dynasty = "Gao"
+		birth_date = 1647.1.1
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Yinghou"
+		monarch_name = "Yinghou"
+		dynasty = "Gao"
+		birth_date = 1669.1.1
+		death_Date = 1700.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1707.1.1 = {
+	monarch = {
+		name = "Yinghou"
+		dynasty = "Gao"
+		birth_date = 1669.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Houde"
+		monarch_name = "Houde"
+		dynasty = "Gao"
+		birth_date = 1690.1.1
+		death_Date = 1729.1.1
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Houde"
+		dynasty = "Gao"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+#Officially annexed in 1725 after Gao Houde is accused of corruption

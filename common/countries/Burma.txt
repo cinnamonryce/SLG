@@ -1,0 +1,185 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+special_unit_culture = south_east_asian_special
+
+color = { 165 116 75 }
+revolutionary_colors = { 8  10  16 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	administrative_ideas
+	religious_ideas
+	spy_ideas
+}
+
+historical_units = {
+	indochinese_spearmen
+	indochinese_mongolian_bow
+	indochinese_arquebusier
+        indochinese_charge_cavalry
+	indochinese_mass_infantry
+	indochinese_musketeer
+}
+
+leader_names = {
+	#No surnames
+}
+
+monarch_names = {
+	"Zalahtinyan #0" = 10
+	"Sithukyawhtin #0" = 10
+	"Minkyinyo #0" = 10
+	"Tabinshwehti #0" = 10
+	"Thamindwut #0" = 10
+	"Thaminhatau #0" = 10
+	"Bayinnaug #0" = 10
+	"Handabayin #0" = 10
+	"Anaukpetlun #0" = 10
+	"Minradeippa #0" = 10
+	"Thalun #0" = 10
+	"Pindale #0" = 10
+	"Pye #0" = 10
+	"Narawara #0" = 10
+	"Minredyawdin #0" = 10
+	"Sane #0" = 10
+	"Taninganwe #0" = 10
+	"Hamdammayaza #0" = 10
+
+	"Aung Baw #0" = 0
+	"Aung Dana #0" = 0
+	"Aung Din #0" = 0
+	"Aung Hla #0" = 0
+	"Aung Ko #0" = 0
+	"Aung Saw #0" = 0
+	"Aung Than #0" = 0
+	"Aung Tun Pru #0" = 0
+	"Aye Kyi #0" = 0
+	"Aye Maung #0" = 0
+	"Baba #0" = 0
+	"Ba E #0" = 0
+	"Ba Maung #0" = 0
+	"Ba Saw #0" = 0
+	"Ba Tin #0" = 0
+	"Chit #0" = 0
+	"Daw #0" = 0
+	"Aung Din #0" = 0
+	"Aung Hla #0" = 0
+	"Aung Ko #0" = 0
+	"Aung Saw #0" = 0
+	"Aung Than #0" = 0
+	"Aung Tun Pru #0" = 0
+	"Aye Kyi #0" = 0
+	"Aye Maung #0" = 0
+	"Baba #0" = 0
+	"Ba E #0" = 0
+	"Ba Maung #0" = 0
+	"Ba Saw #0" = 0
+	"Ba Tin #0" = 0
+	"E Cho #0" = 0
+	"E Maung #0" = 0
+	"E Maung Sein #0" = 0
+	"Hla #0" = 0
+	"Hla Aung #0" = 0
+	"Hla Kyi #0" = 0
+	"Hla Maung #0" = 0
+	"Hla Maung Lay #0" = 0
+	"Htwe Kya #0" = 0
+	"Ka #0" = 0
+	"Kan #0" = 0
+	"Kan Gyi #0" = 0
+	"Khin Hmway #0" = 0
+	"Khin Khin Ghi #0" = 0
+	"Khin Maung #0" = 0
+	"Khin Maung Lat #0" = 0
+	"Khin Maung Than #0" = 0
+	"Kya In #0" = 0
+	"Lun Ban #0" = 0
+	"Lun Maung #0" = 0
+	"Maung #0" = 0
+	"Maung Ba #0" = 0
+	"Maung Gyi #0" = 0
+	"Maung Ko #0" = 0
+	"Maung Maung #0" = 0
+	"Maung Maung Ba #0" = 0
+	"Maung Oo #0" = 0
+	"Myint Too #0" = 0
+	"Myint Toon #0" = 0
+	"Ni #0" = 0
+	"Nu #0" = 0
+	"Nyein #0" = 0
+	"Nyo #0" = 0
+	"Ohn #0" = 0
+	"Ohn Kyaw #0" = 0
+	"Ohn Maung #0" = 0
+	"Oo #0" = 0 #Ooooooo
+	"Oo Tha #0" = 0
+	"Pa #0" = 0
+	"Pa Aung #0" = 0
+	"Pa How #0" = 0
+	"Pe Maung Tin #0" = 0
+	"Po Ba #0" = 0
+	"Po E #0" = 0
+	"Pohto #0" = 0
+	"Po Oh #0" = 0
+	"Po Sa #0" = 0
+	"Po Tha #0" = 0
+	"Pu #0" = 0
+	"Pu Doe #0" = 0
+	"Pye #0" = 0
+	"San #0" = 0
+	"San Aung #0" = 0
+	"San Lu #0" = 0
+	"San Maung #0" = 0
+	"San San Yi #0" = 0
+	"Saw Aung #0" = 0
+	"Saw Maung #0" = 0
+	"Sein Maung #0" = 0
+	"Soe Maung #0" = 0
+	"Su #0" = 0
+	"Tan Bee Hock #0" = 0
+	"Tan Chein Hoe #0" = 0
+	"Tha #0" = 0
+	"Than #0" = 0
+	"Than Aung #0" = 0
+	"Than E #0" = 0
+	"Than Maung #0" = 0
+	"Thein #0" = 0
+	"Trein #0" = 0
+	"Tin Ma Gyi #0" = 0
+	"Tin Maung #0" = 0
+	"Tin Maung Maung #0" = 0
+	"Tin Maung Galay #0" = 0
+	"Tun Aye #0" = 0
+	"Tunaung #0" = 0
+	"Tun Maung #0" = 0
+	"Way #0" = 0
+	"We Lin #0" = 0
+	"Win Maung #0" = 0
+	"Win Shwe #0" = 0
+	"Yan Aung #0" = 0
+	"Yin Vin Mya #0" = 0
+	"Zan Yin #0" = 0
+	"Zaw Htun #0" = 0
+	
+	"Yaza Dewi #0" = -1
+	"Atula Thiri #0" = -1
+	"Khin Myo Sit #0" = -1
+	"Khin Myat Hset #0" = -1
+	"Khin Ma Lat #0" = -1
+}
+
+ship_names = {
+	Ava Ayeyarwady Anawrahta Alaungsithu Ananda
+	Bagan Htilominlo Kyanzittha Kyaswa Kyawswa
+	Lokananda "Mali Hka" Narathu Naratheinkha
+	Narapatisithu Narathihapati Nyima "N'Mai Hka"
+	Pyinbya Pegu Sawlu Sawhnit Sawmunnit "Sula-mani"
+	"Sein-nyet Ama" "Shwe-gu-gyi" "Shwe-hsan-daw"
+	"Shwe-zigon" Toungoo Tambadipa Thamudarit Tharaba
+	"Tan-chi-daung Paya" "That-byin-nyu" Uzana
+}

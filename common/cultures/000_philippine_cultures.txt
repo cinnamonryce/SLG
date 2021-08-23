@@ -1,0 +1,143 @@
+philippine = { 
+	graphical_culture = polynesiangfx
+	second_graphical_culture = indiangfx
+
+	north_sulawesi = {
+		dynasty_names = {
+			"Lawalata" Ulunjadi Soumeru Babiat Zai Risamusu Tambunan Sinusinga Sampono Tanjung Ralahalu
+                        Nahulae Banuhaji Latoel Daulay Gersang Katipana Banurea Sopamena Bondong Sopacua Larosa
+                        Daparik Malawat Aratuaman Baeha Hehamahua Uwir Salampessy Sinaga Sirait Bachmid Patawala
+                        Serhalawan Jurung Tutuarima Beringin Fauzi Sibayang Toisutta Saributua Witoelar Surihani
+		}
+		male_names = {
+			"Tunitangkalopi" "Tuni Djallori" "Tuni Parisi" "Tuni Palonga" "Tuni Butta" "Tunyachoka-ri" "Karaeng Tunibatta" "Tuni Djallo" 
+                        "Parabung" "Tuni Pasulu" "Hamaza Tumammalianga" "Fakhr" "Shahab" "Zain" "Sankilang" "Limbangparang" Maoge Patipasaung
+                        Elihu Cain Saabir Wate "Mu'taz" Zephaniah Elkanah Ira Lemuel Nashat Ithamar Juust Rufus Taufik Ziana Settiaraja Batari Tojang
+                        "Arung Majang" "We Tenri" "Batari Toja" Toampanangi "Batara Guru" Risaolebbi Dewaraja Tosangkawana
+		}
+		female_names = {
+			"Cinta" Wangi Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi NuÅfutea Orama Poe Pear Poehina Poenui Poerava 
+			Puaiti Puatea Puaura RaÅfihau RaÅfimere RaÅfinui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua 
+			Tautiare Tehani Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere 
+			"Vaimiti" Vairea Vaite "Vaitiare"
+		}
+	}
+
+	ilocano = {
+		primary = PGS
+		dynasty_names = {
+			"Bakumpai" "Ma'anyan" "Sori Mangaraja" "Hatorusan" Riwut Mahar Narang
+                        "Sisingamangaraja" "Raja Paksi" "Raja Pernong" Trienggadeng Woyla "Tanoh Jawa"
+                        Kahayan Katingan Meratus Mengkatip Berangas Beraki Alai Atiran Kiyu Juhu Hantakan
+                        Labuan Loksado Harakit Paramasan "Kayu Tangi" Bangkalaan Sampanaham Bajuin "Riam Adungan"
+		}
+		male_names = {
+			Nikullan Nikutak Nigindang "Panjung Ruma" "Sura Raja" Dilayas Kuning Anang Jamal
+                        Anwari Wangkang Batur Maruhum "Raden Labih" Damang "Damang Anggen" "Soera Djaja"
+                        "Damang Pijar" "Hausman Baboe" "Tjilik" "Raden Sukrama" "Raden Sakar" "Panembahan Kasuma"
+                        "Raja Mandarsyah" "Tumenggung Bayabaya" "Mahkota Mulia" Dilanggar "Sinum Panji"
+                        "Dipati Agung" "Dipati Maja" "Gelar Ratu" "Dipati Tua" "Anum Panji" "Surya Natakesuma"
+                        Nikullan Nikutak Nigindang "Panjang Ruma" "Sura Raja" Dilayas "Kuning" "Dewa Sura"
+                        Brawijaya Bapurung "Panembahan Bendala" "Gusti Syansudin" "Gusti Asma" "Titik Kesuma"
+                        "Agung Kesuma" "Anom Suria" "Raden Cili" 
+		}
+		female_names = {
+			"Rim" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu'utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura Ra'ihau Ra'imere Ra'inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
+                        Mahir 
+			"Vaite" "Vaitiare" "Nyai Undang"
+		}
+	}
+
+	filipino = {
+		primary = TDO
+		dynasty_names = {
+			"Bakumpai" "Ma'anyan" "Sori Mangaraja" "Hatorusan" Riwut Mahar Narang
+                        "Sisingamangaraja" "Raja Paksi" "Raja Pernong" Trienggadeng Woyla "Tanoh Jawa"
+                        Kahayan Katingan Meratus Mengkatip Berangas Beraki Alai Atiran Kiyu Juhu Hantakan
+                        Labuan Loksado Harakit Paramasan "Kayu Tangi" Bangkalaan Sampanaham Bajuin "Riam Adungan"
+		}
+		male_names = {
+			Nikullan Nikutak Nigindang "Panjung Ruma" "Sura Raja" Dilayas Kuning Anang Jamal
+                        Anwari Wangkang Batur Maruhum "Raden Labih" Damang "Damang Anggen" "Soera Djaja"
+                        "Damang Pijar" "Hausman Baboe" "Tjilik" "Raden Sukrama" "Raden Sakar" "Panembahan Kasuma"
+                        "Raja Mandarsyah" "Tumenggung Bayabaya" "Mahkota Mulia" Dilanggar "Sinum Panji"
+                        "Dipati Agung" "Dipati Maja" "Gelar Ratu" "Dipati Tua" "Anum Panji" "Surya Natakesuma"
+                        Nikullan Nikutak Nigindang "Panjang Ruma" "Sura Raja" Dilayas "Kuning" "Dewa Sura"
+                        Brawijaya Bapurung "Panembahan Bendala" "Gusti Syansudin" "Gusti Asma" "Titik Kesuma"
+                        "Agung Kesuma" "Anom Suria" "Raden Cili" 
+		}
+		female_names = {
+			"Rim" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu'utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura Ra'ihau Ra'imere Ra'inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
+                        Mahir 
+			"Vaite" "Vaitiare" "Nyai Undang"
+		}
+	}
+
+	danao = {
+		primary = MGD
+		dynasty_names = {
+			"Sulu" Maguindanao Tondo Lanao Butuan Palawan Panay
+		}
+		male_names = {
+			"Sharif ul Hashim" "Kamal ud Din" "Sharif Sayyid Ala ud Din" "Amirul Umara" "Muizz ul Mutawadiin" "Batarah Shah Tengah" "Muwallit Wasit" "Muhammad Alimuddin" "Muhammad al Halim" "Muizz ul Din" "Nasir ud Din" 
+			"Azimuddin" "Salah ud Din Bakhtiyar" "Shihab ud Din" "Mustafa Shafi" "Muhammad Badaruddin" "Muizz ud Din Bantilan"
+			"Muhammad Israil" "Muhammad Sharafuddin" "Aliyuddin" "Shakirullah" 
+		}
+		female_names = {
+			"Anela" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi NuÅfutea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura RaÅfihau RaÅfimere RaÅfinui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+			Vaite "Vaitiare"
+		}
+	}
+
+	formosan = {
+		dynasty_names = {
+			Aalona Ahulani Ainalani Akeakamai Alani Aluala Alealani Alohilani Anakalia Anuenue "'Ehukai" "'Ewalani" "Ha'aheo" Heleakala
+			Hanalei Hanohano "Hau'oli" "Hi'iaka" "Ho'okano" Hualani Ikepela "Ka'aukai" Kahananui Kaheleha Kaikea Kainalu Kalauokalani
+			Kaleoikaika Kamehu "Kameha'o" Kamehameha Kawaiola Kehaulani Kelupaina Keonoana Lanakila Lehuanani Lokelani Lono
+			Makaleka Makikonu Mauna Momilani Nohealani Polola Po'okela Sanoe Ualani Uluwehi Wailani Waipuna 
+		}
+		female_names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Moanna Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+		male_names = {
+			Akamu Aloha Alohilani Analu Aolani Aulani Aulii Feleti Inoke Iolani Ipo Iwalani Kai Kaili Kaipo Kalani Kale Kalei Kapena
+			Kapono Keahi Kealii Keani Keanu Keiki Kelii Keon Keoni Kimo Konala Liko Loe Lulani Makaio Makani Malo Mauli Mele Moke
+			Nalani Oke Palani Pekelo
+		}
+	}
+
+	visayan = {
+		primary = CEB
+		dynasty_names = {
+			"Bakumpai" "Ma'anyan" "Sori Mangaraja" "Hatorusan" Riwut Mahar Narang
+                        "Sisingamangaraja" "Raja Paksi" "Raja Pernong" Trienggadeng Woyla "Tanoh Jawa"
+                        Kahayan Katingan Meratus Mengkatip Berangas Beraki Alai Atiran Kiyu Juhu Hantakan
+                        Labuan Loksado Harakit Paramasan "Kayu Tangi" Bangkalaan Sampanaham Bajuin "Riam Adungan"
+		}
+		male_names = {
+			Nikullan Nikutak Nigindang "Panjung Ruma" "Sura Raja" Dilayas Kuning Anang Jamal
+                        Anwari Wangkang Batur Maruhum "Raden Labih" Damang "Damang Anggen" "Soera Djaja"
+                        "Damang Pijar" "Hausman Baboe" "Tjilik" "Raden Sukrama" "Raden Sakar" "Panembahan Kasuma"
+                        "Raja Mandarsyah" "Tumenggung Bayabaya" "Mahkota Mulia" Dilanggar "Sinum Panji"
+                        "Dipati Agung" "Dipati Maja" "Gelar Ratu" "Dipati Tua" "Anum Panji" "Surya Natakesuma"
+                        Nikullan Nikutak Nigindang "Panjang Ruma" "Sura Raja" Dilayas "Kuning" "Dewa Sura"
+                        Brawijaya Bapurung "Panembahan Bendala" "Gusti Syansudin" "Gusti Asma" "Titik Kesuma"
+                        "Agung Kesuma" "Anom Suria" "Raden Cili" 
+		}
+		female_names = {
+			"Rim" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu'utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+			Puatea Puaura Ra'ihau Ra'imere Ra'inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
+                        Mahir 
+			"Vaite" "Vaitiare" "Nyai Undang"
+		}
+	}
+}

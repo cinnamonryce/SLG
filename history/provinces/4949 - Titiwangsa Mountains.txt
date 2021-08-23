@@ -1,0 +1,12 @@
+#Titiwangsa Mountains
+
+discovered_by = chinese
+discovered_by = indochinese
+discovered_by = malay_group
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1509.1.1 = { discovered_by = POR } # Diego Lopez de Sequiera
+1641.1.14 = { discovered_by = NED }
+1795.1.1 = { discovered_by = GBR }

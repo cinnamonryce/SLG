@@ -1,0 +1,33 @@
+government = monarchy
+add_government_reform = heavenly_monarchy_reform
+technology_group = indochinese
+religion = buddhism
+primary_culture = shan
+capital = 2401
+fixed_capital = 2401
+government_rank = 1
+
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+1444.1.1 = {
+	monarch = {
+		name = "Sao Hkun Hpa"
+		dynasty = "Mong Pai"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Sao Wen Hpa"
+		dynasty = "Mong Pai"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}

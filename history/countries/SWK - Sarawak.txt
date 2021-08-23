@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+primary_culture = bornean
+technology_group = malay_group
+religion = sunni
+capital = 4804   #Sarawak
+historical_friend = SMB
+historical_friend = SKD
+
+1599.1.1 = {
+	monarch = {
+		name = "Ibrahim Ali Omar Shah"
+		dynasty = "Sarawak"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}

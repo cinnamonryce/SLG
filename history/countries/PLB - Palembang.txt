@@ -1,0 +1,228 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+primary_culture = musi
+religion = hinduism
+technology_group = malay_group
+capital = 622	# Palembang
+fixed_capital = 622
+
+1421.1.1 = {
+	monarch = {
+		name = "Jisun"
+		dynasty = "Shi"
+                culture = wu
+                religion = sunni
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = navigator_personality
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = righteous_personality
+}
+
+1430.1.1 = {
+	monarch = {
+		name = "Er-Jie"
+		dynasty = "Shi"
+                culture = wu
+                religion = sunni
+		adm = 3
+		dip = 4
+		mil = 2
+		female = yes
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = righteous_personality
+}
+
+#Around this time Shi Er-Jie is replaced by a Majapahit viceroy
+1450.1.1 = {
+	monarch = {
+		name = "Arya" #Ario Abdillah upon conversion to Islam
+		dynasty = "Damar"
+                culture = javanese
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1456.1.1 = {
+	religion = sunni
+	religious_school = shafii_school
+	add_piety = -0.1
+}
+
+1486.1.1 = {
+	monarch = {
+		name = "Lautan"
+		dynasty = "Damar"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1528.1.1 = {
+	monarch = {
+		name = "Suro Tuo"
+		dynasty = "Damar"
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+
+1545.1.1 = {
+	monarch = {
+		name = "Suro Mudo"
+		dynasty = "Damar"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Adipati"
+		dynasty = "Damar"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1587.1.1 = {
+	monarch = {
+		name = "Angsoko"
+		dynasty = "Damar"
+		adm = 2
+		dip = 1
+		mil = 4
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "Madi Alit"
+		dynasty = "Damar"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1624.1.1 = {
+	monarch = {
+		name = "Puro"
+		dynasty = "Damar"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Kenayan"
+		dynasty = "Damar"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1642.1.1 = {
+	monarch = {
+		name = "Pasarean"
+		dynasty = "Damar"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1643.1.1 = {
+	monarch = {
+		name = "Rejek"
+		dynasty = "Damar"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1662.1.1 = {
+	monarch = {
+		name = "Abdurrahman"
+		dynasty = "Palembang"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1706.1.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Palembang"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1718.1.1 = {
+	monarch = {
+		name = "Agung Komaruddin"
+		dynasty = "Palembang"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1727.1.1 = {
+	monarch = {
+		name = "Mahmud Badaruddin"
+		dynasty = "Palembang"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1756.1.1 = {
+	monarch = {
+		name = "Ahmad Najamuddi"
+		dynasty = "Palembang"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1774.1.1 = {
+	monarch = {
+		name = "Muhammad Bahauddin"
+		dynasty = "Palembang"
+		adm = 1
+		dip = 4
+		mil = 1
+	}
+}
+
+1803.1.1 = {
+	monarch = {
+		name = "Mahmud Badaruddin II"
+		dynasty = "Palembang"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

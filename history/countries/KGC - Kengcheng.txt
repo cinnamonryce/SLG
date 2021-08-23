@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = mandala_reform
+technology_group = indochinese
+religion = buddhism
+primary_culture = northern_thai
+capital = 2381	# Kengcheng
+
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}

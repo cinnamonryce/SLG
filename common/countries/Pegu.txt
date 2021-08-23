@@ -1,0 +1,148 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+special_unit_culture = south_east_asian_special
+
+color = { 140  210  160 }
+revolutionary_colors = { 16 0 16 } #Mon tricolor
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	dha_warrior
+	indochinese_mongolian_bow
+	indochinese_boxer
+	indochinese_samurai
+	corvee_levy
+	indochinese_mongolian_steppe
+	chaturungkhabat
+        indochinese_charge_cavalry
+        seasoned_corvee
+	indochinese_manchu_banner
+	indochinese_village_militia
+	westernized_indochinese_infantry
+}
+
+monarch_names = {
+	"Razadarit #1" = 10
+	"Dhammaraza #1" = 10
+	"Binnya Ran #1" = 20
+	"Hkonmaing #1" = 20
+	"Minkhaung #1" = 5
+	"Binnya Waru #1" = 20
+	"Ran De #0" = 10
+	"Binnya Kyan #0" = 20
+	"Sein #0" = 20
+	"Nwe #0" = 20
+	"Mawdaw #0" = 10
+	"Dhammazedi #0" = 10
+	"Dhammadasi #0" = 10
+	"Yazadipati #0" = 15
+	"Law #0" = 10
+	"Takayutpi #0" = 10
+	"Smim Sawhtut #0" = 10
+	"Smim Htaw #0" = 10
+	"Set #0" = 10
+	"Binnya Dala #0" = 10
+	"Saw O #1" = 10
+	"Binnya U #1" = 10
+	"Leik Munhtaw #0" = 10
+	"Takayutpi #0" = 10
+	"Minye Aung Naing #0" = 10
+	"Epyathi #0" = 10
+	"Bayinnaung #0" = 10
+	"Taw Maing #0" = 10
+	"Thin Yan #0" = 10
+	"Bayathingyan #0" = 10
+	"Thudhamma Yaza #0" = 10
+	"Smim Nyi San #0" = 10
+
+	"Byat Za #0" = 0
+	"Lauk Shein #0" = 0
+	"Lagun Ein #0" = 0
+	"Than Lon #0" = 0
+	"Gyaing #0" = 0
+	"Than Laik #0" = 0
+	"Than #0" = 0
+	"Pun So #0" = 0
+	"Byattaba #0" = 0
+	"Laukpya #0" = 0
+	"Nwe #0" = 0
+	"Bya Let #0" = 0
+	"Dein Maniyut #0" = 0
+	"Dein #0" = 0
+	"Tein #0" = 0
+	"Thilawa #0" = 0
+	"Awa Naing #0" = 0
+	"Annara #0" = 0
+	"Hpyun Gyo #0" = 0
+	"Khadunmut #0" = 0
+	"Maru #0" = 0
+	"Thauk #0" = 0
+	"E Phayathat #0" = 0
+	"Letya Pyanchi #0" = 0
+	"Bya Kon #0" = 0
+	
+	"Mya #0" = -1
+	"Yaza Dewi #0" = -1
+	"Mi Pakahtaw #0" = -1
+	"Shin Sawbu #0" = -1
+	"Soe Min Wimala #0" = -1
+	"U Yaing #0" = -1
+	"Thwe Da #0" = -1
+	"Theindya #0" = -1
+	"Htapi #0" = -1
+	"Daw #0" = -1
+	"Ta Lat #0" = -1
+	"Minya Dewi #0" = -1
+	"Hsanda Min Hla #0" = -1
+	"Tala Kamu #0" = -1
+	"May Hnin Kaythaya  #0" = -1
+	"Thuddhamaya #0" = -1
+	"Mwei Thin #0" = -1
+	"May Kyaw #0" = -1
+	"Mi Baik #0" = -1
+}
+
+leader_names = {
+	Min Donwun Wun
+	Myo Dala Atawgana
+	Than Twantay Tharapon
+	Watanaw Dagon Kahan
+	Pyathat Dok Tagu
+	Pun Baw Ye Thamihla
+	Shwezigon Matmalom
+	Maubin Seang Thaton
+	Sittaung Wunna Maubin
+	Than Ban Myitta Martaban
+	Myaungmya Sittaung Naungyo
+	Atut Thanmaung Taikkala
+	Thawutti Pan Hlaing Nawin
+}
+
+ship_names = {
+	Myaungmya Mottama Thaton
+	Sadhuim Donwun Poik
+	Dagon Hongsawatoi Bago
+	Ramanadesa Razadarit
+	Ye Matmalom Khonmaing
+	Irrawaddy Hawai Minkhaung
+	Hanthawaddy Dhammaraza
+	Ramanya Tanasia Gadu Gada
+	Seang Dhammazedi Waru Sittaung
+	Thaton Martaban Naungyo Maubin
+	Atut Thanmaung Taikkala
+	Thawutti Pan Hlaing Nawin
+	Dhammadasi Yazadipati
+	"Binnya Waru" Razadarit
+	Takayutpi "Shin Sawbu"
+}

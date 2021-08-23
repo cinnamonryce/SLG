@@ -1,0 +1,44 @@
+#Si'en
+
+owner = CGS
+controller = CGS
+add_core = CGS
+culture = zhuang
+religion = animism
+capital = "Si'en"
+trade_goods = iron #Area is known for its precious metals
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+
+
+discovered_by = chinese
+discovered_by = indochinese
+discovered_by = malay_group
+discovered_by = indian
+discovered_by = nomad_group
+
+1527.1.1 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+} # A Zhuang rebellion led by Cen Meng is crushed by Ming
+
+1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
+
+1656.2.1 = {
+	owner = QNG
+	controller = QNG
+}
+1662.4.1 = {
+	owner = CZH
+	controller = CZH
+	add_core = CZH
+} # Three Feudatories
+1681.10.1 = {	owner = QNG
+	controller = QNG
+	add_core = QNG
+}

@@ -1,0 +1,115 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+special_unit_culture = south_east_asian_special
+
+color = { 80  70  225 }
+revolutionary_colors = { 8 5 13 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	dha_warrior
+	indochinese_mongolian_bow
+	indochinese_boxer
+	indochinese_samurai
+	corvee_levy
+	indochinese_mongolian_steppe
+	chaturungkhabat
+        indochinese_charge_cavalry
+        seasoned_corvee
+	indochinese_manchu_banner
+	indochinese_village_militia
+	westernized_indochinese_infantry
+}
+
+monarch_names = {
+	"Razadarit #1" = 20
+	"Dhammaraza #1" = 20
+	"Ran #1" = 20
+	"Hkonmaing #1" = 20
+	"Minkhaung #1" = 5
+	"Waru #0" = 20
+	"Ran De #0" = 10
+	"Kyan #0" = 20
+	"Sein #0" = 20
+	"Nwe #0" = 20
+	"Mawdaw #0" = 20
+	"Dhammazedi #0" = 20
+	"Dhammadasi #0" = 10
+	"Yazadipati #0" = 20
+	"Law #0" = 20
+	"Takayutpi #0" = 10
+	"Smim Sawhtut #0" = 20
+	"Smim Htaw #0" = 20
+	"Set #0" = 20
+	"Dala #0" = 10
+	"Tha Hla #0" = 0
+	"Hla #0" = 0
+	"Gadu #0" = 0
+	"Gada #0" = 0
+	"Bala #0" = 0
+	"Aleimma #0" = 0
+	"Laik Gi #0" = 0
+	"O #0" = 0
+	"E #0" = 0
+	"U #0" = 0
+	"Zein #0" = 0
+	"Pun So #0" = 0
+	"Zeik Bye #0" = 0
+	"Linka #0" = 0
+	"Bonyin #0" = 0
+	"Byattaba #0" = 0
+	"Kankaung #0" = 0
+	"Ngan Mohn #0" = 0
+	"Thaw #0" = 0
+	"Talaban #0" = 0
+	"Upayaza #0" = 0
+	
+	"Mya #0" = -1
+	"Yaza Dewi #0" = -1
+	"Mi Pakahtaw #0" = -1
+	"Shin Sawbu #0" = -1
+	"Soe Min Wimala #0" = -1
+	"U Yaing #0" = -1
+	"Thwe Da #0" = -1
+	"Theindya #0" = -1
+	"Htapi #0" = -1
+	"Daw #0" = -1
+	"Ta Lat #0" = -1
+}
+
+leader_names = {
+	Min Donwun Wun
+	Myo Dala Atawgana
+	Than Twantay Tharapon
+	Watanaw Dagon Kahan
+	Pyathat Dok Tagu
+	Pun Baw Ye Thamihla
+	Shwezigon Matmalom
+	Maubin Seang
+	Sittaung Wunna
+	Than Ban Myitta
+	Myaungmya
+}
+
+ship_names = {
+	Myaungmya Mottama
+	Sadhuim Donwun Poik
+	Dagon Hongsawatoi Bago
+	Ramanadesa Razadarit
+	Ye Matmalom Khonmaing
+	Irawaddy Hawai Minkhaung
+	Hanthawaddy Dhammaraza
+	Ramanya Tanasia Gadu Gada
+	Seang Dhammazedi Waru
+}

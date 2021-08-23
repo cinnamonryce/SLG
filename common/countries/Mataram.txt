@@ -1,0 +1,115 @@
+#Country Name: Please see filename.
+
+graphical_culture = indiangfx
+
+color = { 227  162  94 }
+revolutionary_colors = { 0 5 13 }
+
+historical_idea_groups = {
+	trade_ideas
+	naval_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+	religious_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	malay_longspear
+	malay_mongolian_bow
+	malay_arquebusier
+	malay_charge_cavalry
+        malay_mass_infantry
+	malay_musketeer
+	malay_reformed_asian_musketeer
+	malay_reformed_asian_cavalry
+}
+
+leader_names = {
+	Bhuminoto Cokrokusumo Cokronegoro Cokrowongso Cokrorejo 	Cokrowijoyo Cokrodiningrat Cokroatmojo Cokropurnomo
+	Diposonto Dipokusumo Danurejo Danuatmojo Danukusumo Danunegoro 		Danuwijoyo Danupuspito Danuprojo Dipoatmojo Dipodiningrat
+	Hanggowongso Hanggokusumo Hanggorejo Hanggowardono Haryokusumo 	Haryowongso Haryoprasojo Hanggopurnomo Hanggodiningrat
+	Jaelani Joyopuspito Joyodiningrat Joyoputro Jolotundo Joyokusumo 	Joyoprojo Joyowijoyo Joyorejo Joyonegoro Joyoatmojo
+	Komaruddin Kusumoatmojo Kusumowijoyo Kusumoputro Kusumonegoro 	Kusumowongso Kusumodiningrat Kusumopuspito Kusumoprojo
+	Mangkuyudo Mangkuprojo Mangkukusumo Mangkunegoro Mangkuwijoyo 	Mangkupurnomo Mangkuatmojo Mangkudiningrat
+	Nitisastro Notoprojo Nitikusumo Notowijoyo Notokusumo Nitinegoro 	Notonegoro Notoatmojo Nitiatmojo Notodiningrat
+	Prawirokusumo Projokusumo Prawiroatmojo Pringgoloyo 		Prawironegoro Prawoto Purbocaroko Projonegoro Projodiningrat
+	"Ronggo Kajiwan" Ronggoputro Ronggolawe Ronggowijoyo 	Ronggokusumo Ronggoatmojo Ronggonegoro Ronggopurnomo 	Ronggopuspito Ronggodiningrat
+	Solihun Subrontokusumo Subrontowijoyo Subadio Selarong Subronto 	Suryokusumo Suryodiningrat Suryonegoro Suryoatmojo Suryocaroko
+	Tejowardono Tejokusumo Tejonegoro Tejoputro Tejodiningrat 		Tejowijoyo Wijoyokusumo Wijoyoatmojo Wijoyopurwo Wijoyonegoro 	Wijoyodiningrat Wikartoatmojo Wardoyo
+}
+
+monarch_names = {
+	"Amangkurat #0" = 30
+	"Pakubuwana #0" = 20
+	"Raden #0" = 60
+	"Benawa #0" = 10
+	"Purwawisesa #0" = 10
+	"Pandan Solas #0" = 10
+	"Ranawijaya #0" = 10
+	"Kertabumi #0" = 20
+	"Raden Patah Senapati #0" = 10
+	"Pengeran Sabrang Lar #0" = 10
+	"Pengeran Sutan Tranganna #0" = 10
+	"Pengeran Sultan Prawata #0" = 10
+	"Pamanahan #0" = 20
+	"Panembahan Dipanegara #0" = 20
+	"Panembahan Hanggawangsa #0" = 20
+	"Pangeran Mas #0" = 10
+	"Dyah Ranawijaya #0" = 10
+	"Pateudra #0" = 10
+	"Panembahan Ingalasa #0" = 10
+	"Sultan Agung #0" = 10
+	"Senapati Jimbun #0" = 10
+	"Sabrang Lor #0" = 20
+	"Tranggana #0" = 10
+	"Benawa #0" = 10
+	"Amangkurat #0" = 30
+	"Prawata #0" = 10
+	"Aria Pangiri #0" = 10
+
+ 	"Tribhuwana #0" = -10
+  	"Gayatri #0" = -10
+	"Narendra Duhita #0" = -1
+	"Retnaningrum #0" = -1
+	"Shima #0" = -1
+	"Purnamaningrum #0" = -1
+	"Kusumarini #0" = -5
+	"Wulan #0" = -1
+	"Alit #0" = -1
+	"Batang #0" = -1
+	"Banawati #0" = -1
+	"Dewi Pakungwati #0" = -1
+	"Kawunganten #0" = -1
+	"Tepasari #0" = -1
+	"Sembada #0" = -1
+	"Retno Dumilah #0" = -1
+	"Nyai Waskitajawi #0" = -10
+	"Adisara #0" = -1
+	"Semangkin #0" = -1
+	"Nyai Pandansari #0" = -10
+	"Nyai Winongan #0" = -10
+	"Suroloyo #0" = -1
+	"Megatsari #0" = -1
+	"Nyai Purbaya #0" = -10
+	"Sindurejo #0" = -1
+	"Himpun #0" = -1
+	"Wiradigda #0" = -1
+}
+
+ship_names = {
+	Surakarta Ngayogyakarta Semarang Salatiga Imogiri
+	Merbabu Merapi Sragen Sukoharjo Wonosari
+	Lawu Delanggu Cepu Purwodadi Mangkunegaran
+	Ngawi Grobogan Boja Ambarawa Pakualam
+}
+
+army_names = {
+	"Balatentara $PROVINCE$"
+}
+
+#fleet_names = {
+#	"Mataraman Fleet" 
+#}

@@ -1,0 +1,307 @@
+government = monarchy
+add_government_reform = mandala_reform
+technology_group = indochinese
+religion = buddhism
+primary_culture = northern_thai
+capital = 1817 # Nan
+government_rank = 1
+
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+1313.1.1 = {
+	monarch = {
+		name = "Phaya Phakong" #Phanong
+		dynasty = "Phukha"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = righteous_personality
+}
+
+1313.1.1 = {
+	heir = {
+		name = "Khun Sai"
+		monarch_name = "Khun Sai"
+		dynasty = "Phukha"
+		birth_date = 1300.1.1
+		death_date = 1353.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1351.1.1 = {
+	monarch = {
+		name = "Khun Sai"
+		dynasty = "Phukha"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1353.1.1 = {
+	monarch = {
+		name = "Kran Mueang"
+		dynasty = "Phukha"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = architectural_visionary_personality
+}
+
+1353.1.1 = {
+	heir = {
+		name = "Phakong"
+		monarch_name = "Phaya Phakong II"
+		dynasty = "Phukha"
+		birth_date = 1330.1.1
+		death_date = 1388.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1363.1.1 = {
+	monarch = {
+		name = "Phaya Phakong II"
+		dynasty = "Phukha"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1363.1.1 = {
+	heir = {
+		name = "Thao Kham Tan"
+		monarch_name = "Thao Kham Tan" #Also Chao Kham Tan
+		dynasty = "Phukha"
+		birth_date = 1350.1.1
+		death_date = 1398.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1393.1.1 = {
+	monarch = {
+		name = "Thao Kham Tan"
+		dynasty = "Phukha"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1393.1.1 = {
+	heir = {
+		name = "Si Chan"
+		monarch_name = "Si Chan" #Chao Si Chan
+		dynasty = "Phukha"
+		birth_date = 1370.1.1
+		death_date = 1399.1.1
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = naive_personality
+}
+
+1399.6.1 = {
+	monarch = {
+		name = "Phaya Phrae" #Usurper
+		dynasty = "Phukha"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = well_connected_personality
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Chao Hung"
+		dynasty = "Phukha"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = pious_personality
+}
+
+1407.1.1 = {
+	monarch = {
+		name = "Phu Kheng"
+		dynasty = "Phukha"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
+1407.1.1 = {
+	heir = {
+		name = "Phantan"
+		monarch_name = "Chao Phantan"
+		dynasty = "Phukha"
+		birth_date = 1385.1.1
+		death_date = 1426.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1407.1.1 = {
+	monarch = {
+		name = "Chao Phantan"
+		dynasty = "Phukha"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1407.1.1 = {
+	heir = {
+		name = "Ngua Phasum" #Phaya Ngua Lan Phasum
+		monarch_name = "Ngua Phasum"
+		dynasty = "Phukha"
+		birth_date = 1390.1.1
+		death_date = 1433.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+		female = yes
+	}
+}
+
+1426.1.1 = {
+	monarch = {
+		name = "Ngua Phasum"
+		dynasty = "Phukha"
+		adm = 3
+		dip = 3
+		mil = 2
+		female = yes
+	}
+}
+
+1426.1.1 = {
+	heir = {
+		name = "Kaen Thao" #Chao Intha Kaen Thao
+		monarch_name = "Kaen Thao"
+		dynasty = "Phukha"
+		birth_date = 1410.1.1
+		death_date = 1455.1.1 #Rough estimation
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Kaen Thao"
+		dynasty = "Phukha"
+		adm = 2
+		dip = 4
+		mil = 3
+		birth_date = 1410.1.1
+		leader = { 
+			name = "Kaen Thao"
+			type = general			fire = 0	
+			shock = 5
+			manuever = 3	
+			siege = 2 
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strict_personality
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+
+1433.3.1 = {
+	monarch = {
+		name = "Paeng" #Chao Phaeng
+		dynasty = "Phukha"
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+
+1433.3.1 = {
+	heir = {
+		name = "Pha Saeng" #Thao Pha Saeng
+		monarch_name = "Pha Saeng"
+		dynasty = "Phukha"
+		birth_date = 1430.1.1
+		death_date = 1461.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+#Kaen Thao launches a coup and reclaims his throne
+
+1434.1.1 = {
+	monarch = {
+		name = "Kaen Thao"
+		dynasty = "Phukha"
+		adm = 2
+		dip = 4
+		mil = 3
+		birth_date = 1410.1.1
+		leader = { 
+			name = "Kaen Thao"
+			type = general			fire = 0	
+			shock = 5
+			manuever = 3	
+			siege = 2 
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+
+#Lanna-Nan War 1443-1449 - Nan is annexed and Paeng's son is installed
+
+1449.1.1 = {
+	monarch = {
+		name = "Pha Saeng"
+		dynasty = "Phukha"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

@@ -1,0 +1,4 @@
+579 = { "Mrauk U" "Mrauk U" }
+2402 = { "Thandway" "Thandway" }
+
+4958 = { "Saite Twey" "Saite Twey" }

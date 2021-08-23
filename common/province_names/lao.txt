@@ -1,0 +1,92 @@
+581 = "Sakay"
+582 = "Muang Yang"
+583 = "Saenvi"
+584 = "Angva"
+586 = "Haensavan"
+588 = "Muang Nai"
+587 = "Xiang Tung"
+589 = "Xiang Mai"
+590 = "Malamaeng"
+591 = "Thavay"
+592 = "Latchabuli"
+593 = { "Si Thammalat" "Nakhon Si Thammarat" }
+596 = "Malaka"
+597 = "Kangkanu" #Or Yaho
+599 = "Kalantan"
+602 = "Xiang Hai"
+604 = "Lavaek"
+605 = "Phae Nakhone"
+606 = "Pantulang"
+607 = "Vichay"
+609 = "Nakhone Vat"
+612 = "Kholat"
+614 = "Viangchan"
+615 = "Luang Phabang"
+660 = "Xiang Hung"
+666 = "Kangchao"
+1022 = "Inthabul"
+1815 = "Peles"
+1817 = "Nanthabuli"
+1823 = "Xiang Taeng"
+1844 = "Xiang Khouang"
+2160 = "Ngaichao"
+2165 = { "Muang Men" "Mong Men" } #Pu'er
+2166 = { "Muang Mao" "Mong Mao" }
+2371 = { "Muang La" "Muang La" }
+2373 = "Havi"
+2374 = "Kothala"
+2375 = "Chalay"
+2376 = "Paek Luse"
+2378 = "Kachae"
+2379 = "Pha Tabong"
+2381 = "Xiang Khaeng"
+2387 = "Phetchabuli"
+2389 = "Pha Bang"
+2391 = { "Thalang" "Thalang" }
+2393 = "Tangkanu"
+2394 = "Saibuli"
+2396 = "Muang Khong"
+2398 = "Songsup"
+2399 = "Phukam"
+2400 = "Sipo"
+2401 = "Muang Pai"
+2403 = "Motama"
+2404 = "Malit"
+4396 = "Pae"
+4397 = "Yongvi"
+4406 = "Muang Kung"
+
+4952 = { "Muang Ting" "Mong Ting" }
+
+4834 = "Suphanbuli"
+
+4838 = "Roy Et"
+
+4969 = "Phae"
+
+4963 = { "Tang" "Trang" }
+4812 = "Laman"
+4961 = { "Sa Kaeo" "Sa Kaeo" }
+
+4828 = "Pha Vihan"
+
+4825 = "Pusat"
+
+4824 = { "Ban Don" "Ban Don" }
+
+4954 = "Phapun"
+4955 = "Miavadi"
+
+
+4863 = "Banthaimat" #Or Phutthaimat
+4864 = "Long Damle"
+
+4867 = "Amalavat"
+
+4875 = "Tanaosi"
+4876 = "Layong"
+4877 = "Kanchanabuli"
+
+4882 = { "Muang Mian" "Mong Myen" }
+
+4885 = "Muang Si"

@@ -1,0 +1,358 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = nepali
+religion = animism
+technology_group = indian
+capital = 4482	# Sikkim
+
+# Minyak Clan
+
+1379.1.1 = {
+	monarch = {
+		name = "Guru Tashi"
+		dynasty = "Minyak"
+		ADM = 4
+		DIP = 4
+		MIL = 3
+		birth_date = 1310.1.1
+	}
+	heir = {
+		name = "Gye Bumsa"
+		monarch_name = "Gye Bumsa"
+		dynasty = "Minyak"
+		birth_date = 1360.1.1
+		death_date = 1440.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+	primary_culture = tibetan
+	religion = vajrayana
+	government = monarchy
+	add_government_reform = feudalism_reform
+}
+
+1380.1.1 = {
+	monarch = {
+		name = "Gye Bumsa"
+		dynasty = "Minyak"
+		ADM = 3
+		DIP = 5
+		MIL = 2
+		birth_date = 1360.1.1
+	}
+}
+
+1415.1.1 = {
+	heir = {
+		name = "Mipon Rab"
+		monarch_name = "Mipon Rab"
+		dynasty = "Minyak"
+		birth_date = 1415.1.1
+		death_date = 1470.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Mipon Rab"
+		dynasty = "Minyak"
+		ADM = 2
+		DIP = 3
+		MIL = 2
+		birth_date = 1415.1.1
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Guru Tashi"
+		monarch_name = "Guru Tashi II"
+		dynasty = "Minyak"
+		birth_date = 1444.1.1
+		death_date = 1501.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 2
+	}
+}
+
+1475.1.1 = {
+	monarch = {
+		name = "Guru Tashi II"
+		dynasty = "Minyak"
+		ADM = 4
+		DIP = 5
+		MIL = 2
+		birth_date = 1444.1.1
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Jowo Nagpo"
+		monarch_name = "Jowo Nagpo"
+		dynasty = "Minyak"
+		birth_date = 1490.1.1
+		death_date = 1540.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+#Coup d'état against Guru Tashi
+1501.1.1 = {
+	monarch = {
+		name = "Gyelpa Achoo"
+		dynasty = "Kyaworab"
+		ADM = 2
+		DIP = 2
+		MIL = 3
+		birth_date = 1475.1.1
+	}
+}
+
+#Minyak restoration
+1510.1.1 = {
+	monarch = {
+		name = "Jowo Nagpo"
+		dynasty = "Minyak"
+		ADM = 3
+		DIP = 3
+		MIL = 4
+		birth_date = 1490.1.1
+	}
+	heir = {
+		name = "Jowo Apha"
+		monarch_name = "Jowo Apha"
+		dynasty = "Minyak"
+		birth_date = 1498.1.1
+		death_date = 1575.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Jowo Apha"
+		dynasty = "Minyak"
+		ADM = 3
+		DIP = 2
+		MIL = 3
+		birth_date = 1498.1.1
+	}
+}
+
+1565.1.1 = {
+	heir = {
+		name = "Guru Tenzing"
+		monarch_name = "Guru Tenzing"
+		dynasty = "Minyak"
+		birth_date = 1565.1.1
+		death_date = 1642.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Guru Tenzing"
+		dynasty = "Minyak"
+		ADM = 3
+		DIP = 2
+		MIL = 2
+		birth_date = 1565.1.1
+	}
+}
+
+1604.1.1 = {
+	heir = {
+		name = "Phuntsog"
+		monarch_name = "Phuntsog"
+		dynasty = "Namgyal"
+		birth_date = 1604.1.1
+		death_date = 1670.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+#Phuntsog Minyak forms the Namgyal dynasty
+1642.1.1 = {
+	monarch = {
+		name = "Phuntsog"
+		dynasty = "Namgyal"
+		adm = 4
+		dip = 3
+		mil = 2
+		birth_date = 1604.1.1
+	}
+}
+
+1644.1.1 = {
+	heir = {
+		name = "Tensung"
+		monarch_name = "Tensung"
+		dynasty = "Namgyal"
+		birth_date = 1644.1.1
+		death_date = 1700.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 0
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Tensung"
+		dynasty = "Namgyal"
+		adm = 1
+		dip = 2
+		mil = 0
+		birth_date = 1644.1.1
+	}
+}
+
+1686.1.1 = {
+	heir = {
+		name = "Chakdor"
+		monarch_name = "Chakdor"
+		dynasty = "Namgyal"
+		birth_date = 1686.1.1
+		death_date = 1717.1.1
+		claim = 95
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Chakdor"
+		dynasty = "Namgyal"
+		adm = 0
+		dip = 2
+		mil = 2
+		birth_date = 1660.1.1
+	}
+}
+
+1707.1.1 = {
+	heir = {
+		name = "Gyurmed"
+		monarch_name = "Gyurmed"
+		dynasty = "Namgyal"
+		birth_date = 1707.1.1
+		death_date = 1733.6.1
+		claim = 95
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}
+
+1717.1.1 = {
+	monarch = {
+		name = "Gyurmed"
+		dynasty = "Namgyal"
+		adm = 1
+		dip = 0
+		mil = 2
+		birth_date = 1690.1.1
+	}
+}	
+
+1733.1.1 = {
+	heir = {
+		name = "Phuntsog"
+		monarch_name = "Phuntsog II"
+		dynasty = "Namgyal"
+		birth_date = 1733.1.1
+		death_date = 1780.1.1
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+}
+
+1733.6.1 = {
+	monarch = {
+		name = "Phuntsog II"
+		dynasty = "Namgyal"
+		adm = 0
+		dip = 0
+		mil = 2
+		birth_date = 1733.1.1
+	}
+}
+
+1769.1.1 = {
+	heir = {
+		name = "Tenzing"
+		monarch_name = "Tenzing"
+		dynasty = "Namgyal"
+		birth_date = 1769.1.1
+		death_date = 1793.1.1
+		claim = 95
+		adm = 2
+		dip = 0
+		mil = 2
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Tenzing"
+		dynasty = "Namgyal"
+		adm = 2
+		dip = 0
+		mil = 2
+		birth_date = 1769.1.1
+	}
+}
+
+1785.1.1 = {
+	heir = {
+		name = "Tsugphud"
+		monarch_name = "Tsugphud"
+		dynasty = "Namgyal"
+		birth_date = 1785.1.1
+		death_date = 1863.1.1
+		claim = 95
+		adm = 1
+		dip = 3
+		mil = 0
+	}
+}
+
+1793.1.1 = {
+	monarch = {
+		name = "Tsugphud"
+		dynasty = "Namgyal"
+		adm = 1
+		dip = 3
+		mil = 0
+		birth_date = 1785.1.1
+	}
+}
+
+#Annexed by Great Britain 1861

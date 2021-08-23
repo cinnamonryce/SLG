@@ -1,0 +1,143 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+special_unit_culture = south_east_asian_special
+
+color = { 68  115  75 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	economic_ideas
+	administrative_ideas
+	innovativeness_ideas
+	religious_ideas
+}
+
+historical_units = {
+	dha_warrior
+	indochinese_mongolian_bow
+	shan_raider
+	indochinese_steppe
+	corvee_levy
+	indochinese_mongolian_steppe
+	chaturungkhabat
+        indochinese_charge_cavalry
+        seasoned_corvee
+	indochinese_manchu_banner
+	indochinese_village_militia
+	westernized_indochinese_infantry
+}
+
+monarch_names = {
+	"Choloi #0" = 20
+	"Trul #0" = 20
+	"Anur #0" = 20
+	"Bom #0" = 20
+	"Djua #0" = 20
+	"Nhong #0" = 20
+	"Blong #0" = 20
+	"Blet #0" = 20
+	"Ji #0" = 20
+	"Y #0" = 20
+	"At #0" = 20
+	"Tu #0" = 20
+	"Nhot #0" = 20	
+        "Luynh #0" = 20
+        "Hieo #0" = 20
+        "Kep #0" = 20
+        "Nhon #0" = 20
+        "Bring #0" = 20
+        "Dai #0" = 20
+        "Guh #0" = 20
+        "Nhuak #0" = 20
+        "Bo #0" = 20
+        "Choi #0" = 20
+        "Bam #0" = 20
+        "Bham #0" = 20
+        "Dieng #0" = 20
+        "Dera #0" = 20
+        "Dacat #0" = 20
+        "Hlong #0" = 20
+        "Monah #0" = 20
+        "Ayun #0" = 20
+        "Ni #0" = 20
+        "Thu #0" = 20
+        "San #0" = 20
+        "Mah #0" = 20
+        "Tuan #0" = 20
+        "Kok #0" = 20
+        "Mal #0" = 20
+        "De #0" = 20
+        "Ramya #0" = 20
+        "Ayna #0" = 20
+        "Poka #0" = 20
+        "Jut #0" = 20
+        "Hwing #0" = 20
+        "Ut #0" = 20
+        "Mlo #0" = 20
+        "Bih #0" = 20
+        "Aloo #0" = 20
+        "Du #0" = 20
+        "Eban #0" = 20
+        "Ha #0" = 20
+        "Blok #0" = 20
+        "Thong #0" = 20
+	
+	"Nie #0" = -1
+	"Moan #0" = -1
+	"Kadam #0" = -1
+	"Kaba #0" = -1
+	"Adrong #0" = -1
+	"Ksor #0" = -1
+	"Thi #0" = -1
+	"Chin #0" = -1
+	"Cham #0" = -1
+	"Phiang #0" = -1
+	"Pheng #0" = -1
+	"Khap #0" = -1
+	"Hmih #0" = -1
+	"Ea #0" = -1
+	"Suryah #0" = -1
+	"Hjan #0" = -1
+	"Kpa #0" = -1
+	"Yah #0" = -1
+	"Ya Wam #0" = -1
+	"Ba #0" = -1
+	"Yang #0" = -1
+	"Kam #0" = -1
+	"Rut #0" = -1
+	"Na #0" = -1
+	"Ewa #0" = -1
+}
+
+leader_names = {
+	"R'Com" K'Sor Siu M'Ho M'Ha Bru "Co Tu" Chau
+	"Ta Oi" Brau Co "H'Bo" Hre "Ro Mam" H'Hen
+	"Ba Na" "Cho Ro" "X'Tieng" "Chu Ru" Ngan Thao
+	H'Yua Y'Khiem Y'Siu Nay Puih R'Chom Ro Nie
+	"Buon Yah" Bya Edan N'Kam K'Por K'Buor Hra
+	Lemo Ro'O Eya B'Dap "Buon Dap" H'Drue E'Doul
+	Edk B'Krong "Buon Krong" K'Man H'Mok K'Nil Ec
+	M'Lo K'Tla Alio K'Doh M'Drang A'Drong K'Pa
+	H'Bia M'Tao H'Drah H'Yam "H'Gar"
+}
+
+ship_names = {
+	"R'Com" K'Sor Siu M'Ho M'Ha Bru "Co Tu" Chau
+	"Ta Oi" Brau Co "H'Bo" Hre "Ro Mam" H'Hen
+	"Ba Na" "Cho Ro" "X'Tieng" "Chu Ru" Ngan Thao
+	H'Yua Y'Khiem Y'Siu Nay Puih R'Chom Ro Nie
+	"Buon Yah" Bya Edan N'Kam K'Por K'Buor Hra
+	Lemo Ro'O Eya B'Dap "Buon Dap" H'Drue E'Doul
+	Edk B'Krong "Buon Krong" K'Man H'Mok K'Nil Ec
+	M'Lo K'Tla Alio K'Doh M'Drang A'Drong K'Pa
+	H'Bia M'Tao H'Drah H'Yam "H'Gar" Blok Thong
+	Choloi Trul Anur Bom Djua Nhong Blong Blet Ji
+	Y At Tu Nhot Luynh Hieo Kep Nhon Bring Dai Guh
+	Nhuak Bo Choi Bam Bham Dieng Dera Dacat Hlong
+	Monah Ayun Ni Thu San Mah Tuan Kok Mal De Ramya
+	Ayna Poka Jut Hwing Ut Mlo Bih Aloo Du Eban Ha
+}

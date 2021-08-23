@@ -1,0 +1,35 @@
+600 = "Thuong Thanh"
+604 = "Lo Viet"
+605 = { "Gia Dinh" "Gia Dinh" }
+606 = { "Phang Rang" "Phang Rang" }
+607 = { "Qui Nhon" "Qui Nhon" }
+611 = "Tran Dinh"
+612 = "Co Lac"
+614 = "Van Tuong"
+615 = "Lao Qua"
+1022 = { "Da Nang" "Da Nang" }
+1844 = "Tran Ninh"
+2164 = "Nam Vinh"
+2371 = { "Son La" "Muong La" }
+2374 = { "Nha Trang" "Nha Trang" }
+2375 = { "Da Lat" "Da Lat" }
+2376 = { "Can Tho" "Can Tho" }
+2377 = { "Ca Mau" "Ca Mau" }
+2378 = "Can Che"
+2380 = "Nam Vang"
+2382 = "Lac Bien"
+4822 = { "Quang Ngai" "Quang Ngai" }
+4823 = "Gia Lai"
+4824 = { "Dak Lak" "Buon Don" }
+4825 = "Hai Tay"
+4826 = "Quang Bien" #Kampot
+4827 = "Hai Dong"
+4829 = { "Tay Ninh" "Tay Ninh" }
+4831 = "Vong Cac"
+4832 = "La Hoc"
+4839 = "Ba Thac"
+4840 = "Xa Vanh" #Need a factcheck on this
+
+4965 = "Sam Chau"
+
+4969 = { "Ha Tien" "Ha Tien" }

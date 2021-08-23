@@ -1,0 +1,13 @@
+615 = { "Kengtong" "Kengtong" }
+660 = { "Kenghung" "Kenghung" }
+1823 = { "Kengteng" "Kengteng" }
+2165 = { "Mong Men" "Mong Men" } #Pu'er
+2166 = { "Mong Mao" "Mong Mao" }
+2371 = { "Mong La" "Mong La" }
+
+4966 = { "Mong Hsai" "Mong Hsai" }
+
+5009 = { "Mong Ting" "Mong Ting" }
+5010 = { "Mong Myen" "Mong Myen" } #Or Mong Mien
+
+5013 = { "Mong Hsi" "Mong Hsi" }

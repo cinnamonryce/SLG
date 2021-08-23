@@ -1,0 +1,250 @@
+government = monarchy
+add_government_reform = mandala_reform
+government_rank = 2
+primary_culture = malayan
+religion = buddhism
+technology_group = malay_group
+capital = 593	# Nakhon Si Thammarat
+fixed_capital = 593
+historical_friend = PAH
+
+
+1230.1.1 = {
+	monarch = {
+		name = "Chandrabhanu" #Son of Sri Dharmasokaraja
+		dynasty = "Savakan"
+		adm = 4
+		dip = 5
+		mil = 5
+		birth_date = 1210.1.1
+	}
+}
+
+1263.1.1 = {
+	monarch = {
+		name = "Pongsasura"
+		dynasty = "Savakan"
+		adm = 1
+		dip = 1
+		mil = 1
+		birth_date = 1230.1.1
+	}
+}
+
+1278.1.1 = {
+	monarch = {
+		name = "Phanom Wang" #Son of Phanom Thale; Phetchaburi
+		dynasty = "Phrip Phri"
+		adm = 5
+		dip = 4
+		mil = 3
+		birth_date = 1260.1.1
+	}
+	primary_culture = central_thai
+	technology_group = indochinese
+}
+
+1315.1.1 = {
+	heir = {
+		name = "Si Ratcha"
+		monarch_name = "Si Ratcha"
+		dynasty = "Phrip Phri"
+		birth_date = 1315.1.1
+		death_date = 1375.1.1
+		claim = 95
+		ADM = 3
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1330.1.1 = {
+	monarch = {
+		name = "Si Ratcha"
+		dynasty = "Phrip Phri"
+		adm = 3
+		dip = 2
+		mil = 2
+		birth_date = 1315.1.1
+	}
+}
+
+1375.1.1 = {
+	monarch = {
+		name = "Inthara"
+		dynasty = "Lansaka"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1345.1.1
+	}
+	government_rank = 1
+}
+
+1410.1.1 = {
+	heir = {
+		name = "Si Maharat" #Possibly Wongsi Maharat
+		monarch_name = "Si Maharat"
+		dynasty = "Lansaka"
+		birth_date = 1410.1.1
+		death_date = 1470.1.1
+		claim = 95
+		ADM = 3
+		DIP = 2
+		MIL = 2
+	}
+}
+
+
+1425.1.1 = {
+	monarch = {
+		name = "Si Maharat"
+		dynasty = "Lansaka"
+		adm = 3
+		dip = 2
+		mil = 2
+		birth_date = 1410.1.1
+	}
+}
+
+1440.1.1 = { leader = {	name = "Awi Chakri"	type = general	fire = 0	shock = 1	manuever = 2	siege = 1	death_date = 1460.1.1 } }
+
+1475.1.1 = {
+	monarch = {
+		name = "Rattanakon"
+		dynasty = "Si Thammarat"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1455.1.1
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Si Ratcha" #Or Si Rat
+		monarch_name = "Si Ratcha II"
+		dynasty = "Si Thammarat"
+		birth_date = 1490.1.1
+		death_date = 1540.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Si Ratcha II"
+		dynasty = "Si Thammarat"
+		adm = 2
+		dip = 2
+		mil = 1
+		birth_date = 1490.1.1
+	}
+}
+
+1520.1.1 = {
+	heir = {
+		name = "Pana"
+		monarch_name = "Pana"
+		dynasty = "Si Thammarat"
+		birth_date = 1510.1.1
+		death_date = 1560.1.1  #Bana, died 1560 during Chakkraphat's reign
+		claim = 95
+		ADM = 3
+		DIP = 4
+		MIL = 2
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Pana"
+		dynasty = "Si Thammarat"
+		adm = 3
+		dip = 4
+		mil = 2
+		birth_date = 1490.1.1
+	}
+}
+
+1540.1.1 = {
+	heir = {
+		name = "Sodanarat"
+		monarch_name = "Sodanarat"
+		dynasty = "Si Thammarat"
+		birth_date = 1535.1.1
+		death_date = 1590.1.1
+		claim = 95
+		ADM = 3
+		DIP = 3
+		MIL = 2
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Sodanarat" #Sodhanaraja
+		dynasty = "Si Thammarat"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1540.1.1
+	}
+}
+
+1560.1.1 = {
+	heir = {
+		name = "Nai U"
+		monarch_name = "Nai U"
+		dynasty = "Si Thammarat"
+		birth_date = 1560.1.1
+		death_date = 1617.1.1
+		claim = 95
+		ADM = 3
+		DIP = 3
+		MIL = 2
+	}
+}
+
+#After this Ligor is divided between Pana Si Thammarat's grandchildren; Nai U, Nai Ku and also Nai Yu
+
+1585.1.1 = {
+	monarch = {
+		name = "Nai U"
+		dynasty = "Si Thammarat"
+		adm = 2
+		dip = 2
+		mil = 1
+		birth_date = 1560.1.1
+	}
+}
+
+1590.1.1 = { leader = {	name = "Ramarat Tai Nam"	type = general	fire = 0	shock = 1	manuever = 1	siege = 0	death_date = 1595.1.1 } }
+
+1617.1.1 = {
+	monarch = {
+		name = "Nagamasa" #Japanese governor
+		dynasty = "Yamada"
+                culture = japanese #Saigoku
+                religion = catholic
+		adm = 3
+		dip = 5
+		mil = 5
+		birth_date = 1590.1.1
+	}
+}
+
+1767.4.1 = {
+	monarch = {
+		name = "Palat Nu" #Rebel Viceroy of Ligor
+		dynasty = "Ban Takkien"
+		adm = 3
+		dip = 1
+		mil = 5
+		birth_date = 1745.1.1
+	}
+	government_rank = 2 #Palat Nu rebels and proclaims himself King Musika of Ligor
+}

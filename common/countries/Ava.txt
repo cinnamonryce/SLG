@@ -1,0 +1,241 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+special_unit_culture = south_east_asian_special
+
+color = { 98  138  99 }
+
+revolutionary_colors = { 8 15 16 } #Sagaing flag
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	religious_ideas
+	economic_ideas
+	administrative_ideas
+	spy_ideas
+}
+
+historical_units = {
+	dha_warrior
+	indochinese_mongolian_bow
+	indochinese_boxer
+	indochinese_samurai
+	corvee_levy
+	indochinese_mongolian_steppe
+	burmese_arquebusier
+        indochinese_charge_cavalry
+        seasoned_corvee
+	indochinese_manchu_banner
+	indochinese_village_militia
+	westernized_indochinese_infantry
+}
+
+monarch_names = {
+	"Thadominbya #0" = 30
+	"Nga Nu #0" = 30
+	"Swasawke #0" = 30
+	"Tarabya #0" = 30
+	"Nga Nauk Hsan #0" = 30
+	"Minkhaung #1" = 40
+	"Thihathu #0" = 30
+	"Minhlange #0" = 30
+	"Kale Kyetaungnyo #0" = 30
+	"Minyekyawswa #0" = 30
+	"Narapati #0" = 100
+	"Thihathura #0" = 30
+	"Shwenankyawshin #0" = 30
+	"Thohanbwa #0" = 30
+	"Hkonmaing #0" = 30
+	"Mobye Narapati #0" = 30
+	"Sao Sit Pan Tu #0" = 10
+	"Sao Ai Awn #0" = 10
+	"Ai Wu Hsa #0" = 10
+	"Yi Hkam Hka #0" = 10
+	"Sao Hsam #0" = 10
+	"Sao Kham Mu #0" = 10
+	"Hpaya Kiao #0" = 10
+	"Sao Mong Hka #0" = 10
+	"Sao Hkam Tao #0" = 10
+	"Sao Mong Hkak #0" = 10
+	"Sao On #0" = 10
+	"Sao In Hkam #0" = 10
+	"Sao Awk #0" = 10
+	"Sao Mong Saik #0" = 10
+	"Sao Hsam Hpi #0" = 10
+	"Maung Nyo #0" = 10
+	"Sao Mong Sin #0" = 10
+	"Sao Mong Hsam #0" = 10
+	"Sao Kawng Tai #0" = 10
+	"Sao Maha Hkanan #0" = 10
+
+	"Aung Baw #0" = 0
+	"Aung Dana #0" = 0
+	"Aung Din #0" = 0
+	"Aung Hla #0" = 0
+	"Aung Ko #0" = 0
+	"Aung Saw #0" = 0
+	"Aung Than #0" = 0
+	"Aung Tun Pru #0" = 0
+	"Aye Kyi #0" = 0
+	"Aye Maung #0" = 0
+	"Baba #0" = 0
+	"Ba E #0" = 0
+	"Ba Maung #0" = 0
+	"Ba Saw #0" = 0
+	"Ba Tin #0" = 0
+	"Chit #0" = 0
+	"Daw #0" = 0
+	"Aung Din #0" = 0
+	"Aung Hla #0" = 0
+	"Aung Ko #0" = 0
+	"Aung Saw #0" = 0
+	"Aung Than #0" = 0
+	"Aung Tun Pru #0" = 0
+	"Aye Kyi #0" = 0
+	"Aye Maung #0" = 0
+	"Baba #0" = 0
+	"Ba E #0" = 0
+	"Ba Maung #0" = 0
+	"Ba Saw #0" = 0
+	"Ba Tin #0" = 0
+	"E Cho #0" = 0
+	"E Maung #0" = 0
+	"E Maung Sein #0" = 0
+	"Hla #0" = 0
+	"Hla Aung #0" = 0
+	"Hla Kyi #0" = 0
+	"Hla Maung #0" = 0
+	"Hla Maung Lay #0" = 0
+	"Htwe Kya #0" = 0
+	"Ka #0" = 0
+	"Kan #0" = 0
+	"Kan Gyi #0" = 0
+	"Khin Hmway #0" = 0
+	"Khin Khin Ghi #0" = 0
+	"Khin Maung #0" = 0
+	"Khin Maung Lat #0" = 0
+	"Khin Maung Than #0" = 0
+	"Kya In #0" = 0
+	"Lun Ban #0" = 0
+	"Lun Maung #0" = 0
+	"Maung #0" = 0
+	"Maung Ba #0" = 0
+	"Maung Gyi #0" = 0
+	"Maung Ko #0" = 0
+	"Maung Maung #0" = 0
+	"Maung Maung Ba #0" = 0
+	"Maung Oo #0" = 0
+	"Myint Too #0" = 0
+	"Myint Toon #0" = 0
+	"Ni #0" = 0
+	"Nu #0" = 0
+	"Nyein #0" = 0
+	"Nyo #0" = 0
+	"Ohn #0" = 0
+	"Ohn Kyaw #0" = 0
+	"Ohn Maung #0" = 0
+	"Oo #0" = 0 #Ooooooo
+	"Oo Tha #0" = 0
+	"Pa #0" = 0
+	"Pa Aung #0" = 0
+	"Pa How #0" = 0
+	"Pe Maung Tin #0" = 0
+	"Po Ba #0" = 0
+	"Po E #0" = 0
+	"Pohto #0" = 0
+	"Po Oh #0" = 0
+	"Po Sa #0" = 0
+	"Po Tha #0" = 0
+	"Pu #0" = 0
+	"Pu Doe #0" = 0
+	"Pye #0" = 0
+	"San #0" = 0
+	"San Aung #0" = 0
+	"San Lu #0" = 0
+	"San Maung #0" = 0
+	"San San Yi #0" = 0
+	"Saw Aung #0" = 0
+	"Saw Maung #0" = 0
+	"Sein Maung #0" = 0
+	"Soe Maung #0" = 0
+	"Su #0" = 0
+	"Tan Bee Hock #0" = 0
+	"Tan Chein Hoe #0" = 0
+	"Tha #0" = 0
+	"Than #0" = 0
+	"Than Aung #0" = 0
+	"Than E #0" = 0
+	"Than Maung #0" = 0
+	"Thein #0" = 0
+	"Trein #0" = 0
+	"Tin Ma Gyi #0" = 0
+	"Tin Maung #0" = 0
+	"Tin Maung Maung #0" = 0
+	"Tin Maung Galay #0" = 0
+	"Tun Aye #0" = 0
+	"Tunaung #0" = 0
+	"Tun Maung #0" = 0
+	"Way #0" = 0
+	"We Lin #0" = 0
+	"Win Maung #0" = 0
+	"Win Shwe #0" = 0
+	"Yan Aung #0" = 0
+	"Yin Vin Mya #0" = 0
+	"Zan Yin #0" = 0
+	"Zaw Htun #0" = 0
+	
+	"Thou Umma #0" = -1
+	"Thin Bohme #0" = -1
+	"Soe Min #0" = -1
+	"Beza #0" = -1
+	"Pale #0" = -1
+	"Pye Chantha #0" = -1
+	"Teza #0" = -1
+	"Omma #0" = -1
+	"Taw Oo #0" = -1
+	"Gyi #0" = -1
+	"Khway #0" = -1
+	"Pyan #0" = -1
+	"Myat #0" = -1
+	"Htut #0" = -1
+	"Mi-Nauk #0" = -1
+	"Bo-Me #0" = -1
+
+}
+
+leader_names = {
+	Toungoo Ava Pagan Prome Myede Sagaing Kyaukse Pinya
+	Myinsaing Konbaung Mohnyin Mogaung Tagaung Konbaung
+	Alaungpaya Maung Aung Myedu Minkin Tabayin Kanna
+	Ngasingu Tilin Amyint Talok Pakokku Shwebo Pinle Saw
+	Yaw Laungshe Pintale Singu Sale Nyaungyan Yindaw Salin
+	Sagu Yamethin Sagu Taungwingyi Myede Mindon Thayet
+	Tharrawaddy Pyu Maingmaw Binnaka Beikthano "Thaye Khittaya" 
+	Halin Kyaukse Wati Nyaunggan Pyimana Amarapura Mogok Male 
+	Myadaung Thibaw Minbu Yandabu Meiktila Magway
+}
+
+ship_names = {
+	Ava Ayeyarwady Anawrahta Alaungsithu Ananda
+	Bagan Htilominlo Kyanzittha Kyaswa Kyawswa
+	Lokananda "Mali Hka" Narathu Naratheinkha
+	Narapatisithu Narathihapati Nyima "N'Mai Hka"
+	Pyinbya Pegu Sawlu Sawhnit Sawmunnit "Sula-mani"
+	"Sein-nyet Ama" "Shwe-gu-gyi" "Shwe-hsan-daw"
+	"Shwe-zigon" Toungoo Tambadipa Thamudarit Tharaba
+	"Tan-chi-daung Paya" "That-byin-nyu" Uzana
+	Salween Taunggyi Kengtong Tachileik Nam Thanlwin
+	Saluen Lui Hsim Teng Myitnge Pilu Inle Shweli
+	Toungoo Ava Pagan Prome Myede Sagaing Kyaukse Pinya
+	Myinsaing Konbaung Mohnyin Mogaung Tagaung Konbaung
+	Alaungpaya Maung Aung Myedu Minkin Tabayin Kanna
+	Ngasingu Tilin Amyint Talok Pakokku Shwebo Pinle Saw
+	Yaw Laungshe Pintale Singu Sale Nyaungyan Yindaw Salin
+	Sagu Yamethin Sagu Taungwingyi Myede Mindon Thayet
+	Tharrawaddy Pyu Maingmaw Binnaka Beikthano "Thaye Khittaya" 
+	Halin Kyaukse Wati Nyaunggan Pyimana Amarapura Mogok Male 
+	Myadaung Thibaw Minbu Yandabu Meiktila Magway
+}

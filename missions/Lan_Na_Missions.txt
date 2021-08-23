@@ -1,0 +1,859 @@
+lna_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = { 
+			tag = LNA
+			tag = NAN
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	lna_reign_in_sukhothai = {
+		icon = mission_phitsanulok
+		required_missions = { lna_end_the_false_flag_war }
+		position = 2
+		provinces_to_highlight = {
+			province_id = 601
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			601 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			central_thai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			western_thai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	lna_down_the_chao_phraya = {
+		icon = mission_chao_phraya_boat
+		required_missions = { lna_reign_in_sukhothai }
+		position = 3
+		provinces_to_highlight = {
+			area = sukhothai_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			sukhothai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			central_thai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			north_tenasserim_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = AYU
+				}
+				add_casus_belli = {
+					target = AYU
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+	lna_mangrais_exiles = {
+		icon = mission_isan
+		required_missions = { lna_mangrais_last_true_heir }
+		position = 5
+		provinces_to_highlight = {
+			area = yawnghwe_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			588 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 3
+				area = yawnghwe_area
+			}
+		}
+		effect = {
+			shan_hill_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = MPA
+				}
+				add_casus_belli = {
+					target = MPA
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = YGW
+				}
+				add_casus_belli = {
+					target = YGW
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = HSE
+				}
+				add_casus_belli = {
+					target = HSE
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = HSI
+				}
+				add_casus_belli = {
+					target = HSI
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = MMT
+				}
+				add_casus_belli = {
+					target = MMT
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = SST
+				}
+				add_casus_belli = {
+					target = SST
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+	lna_conquer_the_shan_states = {
+		icon = mission_suppress_the_saophasa
+		required_missions = { lna_mangrais_exiles }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = karenni_area
+				area = shan_hill_area
+				area = yawnghwe_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			yawnghwe_area = {
+			    type = all
+                country_or_non_sovereign_subject_holds = ROOT
+			}
+			karenni_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+			}
+			shan_hill_area = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_adm_power = 200
+			every_owned_province = {
+				limit = {
+					culture = shan
+					region = burma_region
+				}
+				add_nationalism = -5
+			}
+			koshanpye_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			central_thai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	lna_nostalgia_for_nanchao = {
+		icon = mission_seize_the_dragon_throne
+		required_missions = { lna_conquer_the_shan_states lna_twelve_conquests }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = yunnan_area
+				area = yun_gui_borderland_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			yunnan_area = {
+                                type = all
+                                country_or_non_sovereign_subject_holds = ROOT
+			}
+			yun_gui_borderland_area = {
+                                type = all
+                                country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			override_country_name = NANCHAO
+			add_prestige = 25
+			every_owned_province = {
+				limit = {
+					culture = bai
+					region = xinan_region
+				}
+				add_nationalism = -5
+			}
+		}
+	}
+}
+
+
+lna_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = { 
+			tag = LNA
+			tag = NAN
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	lna_end_the_false_flag_war = {
+		icon = mission_lanna_flag
+		position = 1
+		provinces_to_highlight = {
+			area = lampang_area
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			lampang_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			capital_scope = {
+				add_base_manpower = 2
+			}
+			sukhothai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = SUK
+				}
+				add_casus_belli = {
+					target = SUK
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				limit = {
+					exists = FNG
+				}
+				add_casus_belli = {
+					target = FNG
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+	lna_mangrais_last_true_heir = {
+		icon = mission_mangrai
+		required_missions = { lna_end_the_false_flag_war }
+		position = 4
+		trigger = {
+			manpower_percentage = 0.75
+			army_size_percentage = 1
+			NOT = { num_of_mercenaries = 1 }
+		}
+		effect = {
+			add_mil_power = 200
+			sukhothai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = KET
+				}
+				add_casus_belli = {
+					target = KET
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				587 = {
+					add_permanent_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					exists = MNI
+				}
+				add_casus_belli = {
+					target = MNI
+					type = cb_vassalize_mission
+				}
+			}
+			if = {
+				588 = {
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	lna_sway_kengtung = {
+		icon = mission_conquer_kengtung
+		required_missions = { lna_mangrais_last_true_heir }
+		position = 5
+		provinces_to_highlight = {
+                        OR = {
+				province_id = 587
+				owned_by = KET
+                        }
+		}
+
+		trigger = {
+			OR = {
+				KET = { is_subject_of = ROOT }
+				AND = { 
+					army_size = 15
+					army_size = KET
+				}
+				AND = { 
+					NOT = { exists = KET }
+					owns = 587
+				}
+			}
+		}
+		effect = {
+			if = {
+				KET = {
+					NOT = { is_subject_of = ROOT }
+				}
+				vassalize = KET
+			}
+			if = {
+				660 = {
+					add_permanent_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					exists = SSP
+				}
+				add_casus_belli = {
+					target = SSP
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+	lna_twelve_conquests = {
+		icon = mission_besiege_burma
+		required_missions = { lna_sway_kengtung }
+		position = 7
+		provinces_to_highlight = {
+                        OR = {
+				province_id = 660
+				owned_by = SSP
+                        }
+		}
+
+		trigger = {
+			OR = {
+				SSP = { is_subject_of = ROOT }
+				AND = { 
+					army_size = 20
+					army_size = KET
+				}
+				AND = { 
+					NOT = { exists = SSP }
+					owns = 587
+				}
+			}
+		}
+		effect = {
+			if = {
+				SSP = {
+					NOT = { is_subject_of = ROOT }
+				}
+				vassalize = SSP
+			}
+			add_adm_power = 100
+		}
+	}
+}
+
+lna_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = { 
+			tag = LNA
+			tag = NAN
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	lna_a_million_ricefields = {
+		icon = mission_rice_irrigation
+		required_missions = { lna_end_the_false_flag_war }
+		position = 2
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				trade_goods = grain
+				development = 10
+				value = 5
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "advanced_rice_irrigation"
+				duration = -1
+			}
+			if = {
+				limit = {
+					has_estate = estate_burghers
+				}
+				set_estate_privilege = estate_burghers_khmer_irrigation
+			}
+			else = {
+				add_dip_power = 100
+			}
+		}
+	}
+	lna_anti_elephant_tactics = {
+		icon = mission_mnd_siam_royal_duel
+		required_missions = { lna_a_million_ricefields }
+		position = 3
+
+		trigger = {
+		}
+		effect = {
+		}
+	}
+	lna_eastern_expanse = {
+		icon =  mission_muang_phuan
+		required_missions = { lna_sway_kengtung }
+		position = 6
+
+		trigger = {
+		}
+		effect = {
+		}
+	}
+}
+
+lna_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = { 
+			tag = LNA
+			tag = NAN
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	lna_laotian_alliance = {
+		icon = mission_alliances
+		trigger = {
+			if = {
+				limit = {
+					exists = LXA
+					NOT = { is_rival = LXA }
+				}
+				OR = {
+					alliance_with = LXA
+					LXA = {
+						is_subject_of = ROOT
+					}
+				}
+			}
+			else = {
+				owns_core_province = 614
+				owns_core_province = 615
+			}
+		}
+		effect = {
+			add_dip_power = 100
+		}
+	}
+	lna_union_with_lan_xang = {
+		icon =  mission_kowtow
+		required_missions = { lna_laotian_alliance }
+		position = 2
+
+		trigger = {
+		}
+		effect = {
+		}
+	}
+	lna_elephant_corps = {
+		icon =  mission_conquer_siam
+		required_missions = { lna_a_million_ricefields }
+		position = 3
+		trigger = {
+			army_tradition = 40
+			has_global_modifier_value = {
+				which = cavalry_power
+				value = 0.25
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = lxa_elephants
+				duration = -1
+			}
+		}
+	}
+	lna_warm_up_to_the_west = {
+		icon = mission_siam_western_advisors
+		required_missions = { lna_invest_in_the_gem_trade }
+		position = 6
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = mug_embassy_to_the_west_tt
+				any_ally = {
+					capital_scope = {
+						continent = europe
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "western_trade_relations"
+				duration = 7300
+			}
+		}
+	}
+	lna_a_billion_ricefields = {
+		icon = mission_a_million_rice_fields
+		required_missions = { lna_warm_up_to_the_west lna_globalization }
+		position = 8
+		trigger = {
+			trading_bonus = {
+				trade_goods = grain
+				value = yes
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+		}
+	}
+}
+
+lna_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = { 
+			tag = LNA
+			tag = NAN
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	lna_relocate_the_emerald_buddha = {
+		icon =  mission_emerald_buddha
+		provinces_to_highlight = {
+			OR = {
+				has_province_modifier = emerald_buddha
+				has_province_modifier = emerald_buddha_alternate
+			}
+			OR = {
+				NOT = {
+					owned_by = ROOT
+				}
+				NOT = {
+					fort_level = 3
+				}
+			}
+		}
+		trigger = {
+			if = {
+				limit = {
+					any_province = {
+						OR = {
+							has_province_modifier = emerald_buddha
+							has_province_modifier = emerald_buddha_alternate
+						}
+					}
+				}
+				any_owned_province = {
+					custom_trigger_tooltip = {
+						tooltip = lna_emerald_buddha_tt
+						OR = {
+							has_province_modifier = emerald_buddha
+							has_province_modifier = emerald_buddha_alternate
+						}
+					}
+					fort_level = 3
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = protected_emerald_buddha
+				duration = -1
+			}
+		}
+	}
+	lna_recompile_buddhist_scriptures = {
+		icon = mission_vedic_education
+		required_missions = { lna_relocate_the_emerald_buddha }
+		position = 2
+
+		trigger = {
+		}
+		effect = {
+		}
+	}
+	lna_renovate_the_monasteries = {
+		icon =  mission_restore_pagodas
+		required_missions = { lna_recompile_buddhist_scriptures }
+		position = 3
+		trigger = {
+			OR = {
+				num_of_owned_provinces_with = {
+					value = 10
+					has_building = temple
+				}
+				num_of_owned_provinces_with = {
+					value = 5
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 20
+			}
+			add_karma = 25
+		}
+	}
+	lna_saen_mueang_ma = {
+		icon =  mission_a_great_mandala
+		required_missions = { }
+		position = 4
+		provinces_to_highlight = {
+			is_capital = yes
+			owned_by = ROOT
+			NOT = { development = 40 }
+		}
+		trigger = {
+			capital_scope = {
+				development = 40
+			}
+			vassal = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = siam_mandala_modifier
+				duration = 7300
+			}
+		}
+	}
+	lna_invest_in_the_gem_trade = {
+		icon =  mission_sw_torquoise_mining
+		required_missions = { lna_saen_mueang_ma }
+		position = 5
+
+		trigger = {
+			584 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			add_mercantilism = 2
+		}
+	}
+	lna_march_to_the_shore = {
+		icon = mission_siamese_coast
+		required_missions = { lna_invest_in_the_gem_trade }
+		position = 6
+		ai_weight = {
+			factor = 2
+		}
+		ai_priority = {
+			factor = 1
+		}
+		
+		trigger = {
+			num_of_total_ports = 5
+		}
+		
+		effect = {
+			add_navy_tradition = 10
+			add_country_modifier = { # sailors and ship cost
+				name = "nav_reclaimed_coast"
+				duration = 7300
+			}
+			define_admiral = {
+				shock = 3
+				fire = 2
+				manuever = 2
+				siege = 2
+			}
+		}
+	}
+	lna_globalization = {
+		icon = mission_the_bois
+		required_missions = { lna_warm_up_to_the_west }
+		position = 7
+		trigger = {
+			home_trade_node = {
+				trade_share = {
+					country = ROOT
+					share = 75
+				}
+			}
+		}
+		effect = {
+			add_mercantilism = 2
+			hidden_effect = {
+				home_trade_node_effect_scope = {
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							is_capital = yes
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 20
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 25
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 30
+						}
+						save_event_target_as = reward_province
+					}
+				}
+			}
+			if = {
+				limit = { has_saved_event_target = reward_province }
+				event_target:reward_province = {
+					add_province_modifier = {
+						name = "dominant_trade_hub"
+						duration = -1
+					}
+				}
+			}
+			else = {
+				custom_tooltip = dominant_home_node_reward_tooltip
+			}
+		}
+	}
+
+}
+

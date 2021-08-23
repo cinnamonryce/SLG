@@ -1,0 +1,72 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+primary_culture = musi
+religion = hinduism
+technology_group = malay_group
+capital = 623	#Tulangbawang
+
+1420.1.1 = {
+	monarch = {
+		name = "Tabu Gayau"
+		dynasty = "Runjung"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Mangkubumi"
+		dynasty = "Runjung"
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Kemalabumi"
+		dynasty = "Runjung"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1554.1.1 = {
+	religion = sunni
+	religious_school = shafii_school
+	add_piety = -0.1
+}
+
+1555.1.1 = {
+	monarch = {
+		name = "Sutan"
+		dynasty = "Runjung"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1590.1.1 = {
+	monarch = {
+		name = "Semelasem"
+		dynasty = "Runjung"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1640.1.1 = {
+	monarch = {
+		name = "Padula"
+		dynasty = "Runjung"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

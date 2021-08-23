@@ -1,0 +1,48 @@
+#2388 - Phitsanulok
+
+owner = AYU 
+controller = AYU
+culture = central_thai
+religion = buddhism
+capital = "Phitsanulok"
+trade_goods = iron
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 3
+is_city = yes
+add_core = AYU
+add_core = SUK
+add_core = FNG
+discovered_by = chinese
+discovered_by = indochinese
+discovered_by = malay_group
+discovered_by = indian
+extra_cost = 8
+center_of_trade = 1
+
+
+1535.1.1 = { discovered_by = POR }
+1564.1.2 = { 
+        owner = SUK
+	controller = SUK
+} # Sukhothai established as Burmese vassal
+1569.9.29 = { 
+        owner = AYU
+	controller = AYU
+} # Maha Thammaracha becomes king of Ayutthaya
+1767.4.1 = { # Fall of Ayutthaya, Phitsanulok declares independence
+        owner = SUK
+	controller = SUK
+}
+1769.1.1 = { # Invaded and annexed by Fang
+        owner = FNG
+	controller = FNG
+        add_core = FNG
+}
+1770.1.1 = { # Annexed by Ayutthaya
+        owner = AYU
+	controller = AYU
+        remove_core = FNG
+}
+

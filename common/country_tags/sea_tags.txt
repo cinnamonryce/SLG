@@ -1,0 +1,54 @@
+KET = "countries/Kengtung.txt"
+YGW = "countries/Yawnghwe.txt"
+
+IDG = "countries/Indragiri.txt"
+MMT = "countries/MongMit.txt"
+
+SKD = "countries/Sukadana.txt"
+LDA = "countries/Landak.txt"
+PNT = "countries/Pontianak.txt"
+
+WJO = "countries/Wajo.txt"
+SPP = "countries/Soppeng.txt"
+
+YGK = "countries/Yogyakarta.txt"
+MKG = "countries/Mangkunegaran.txt"
+SRK = "countries/Surakarta.txt"
+SRB = "countries/Surabaya.txt"
+
+SPR = "countries/Selaparang.txt"
+BMA = "countries/Bima.txt"
+
+FMA = "countries/Maharlika.txt"
+
+PHM = "countries/Phimai.txt"
+FNG = "countries/Fang.txt"
+
+SBW = "countries/Sumbawa.txt"
+
+SSP = "countries/Sipsongpanna.txt"
+SSC = "countries/Sipsongchautai.txt"
+KGC = "countries/Kengcheng.txt"
+
+RIA = "countries/Riau.txt"
+SGP = "countries/Singapore.txt"
+
+IFG = "countries/Ifugao.txt"
+
+GLU = "countries/Galuh.txt"
+PGH = "countries/Priangan.txt"
+
+CCC = "countries/Cochinchina.txt"
+SWK = "countries/Sarawak.txt"
+
+SGG = "countries/Sanggau.txt"
+STG = "countries/Sintang.txt"
+
+JLO = "countries/Jailolo.txt"
+BAC = "countries/Bacan.txt"
+DPT = "countries/Dapitan.txt"
+
+NAN = "countries/Nan.txt"
+TTU = "countries/Tatuturo.txt"
+TNS = "countries/Tenasserim.txt"
+LMP = "countries/Lampung.txt"

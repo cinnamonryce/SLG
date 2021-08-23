@@ -1,0 +1,121 @@
+dlc041_tib_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		culture_group = tibetan_group
+	}
+
+	sprite_infantry = {
+		0 = TIB_INFANTRY_1
+		1 = TIB_INFANTRY_2
+		2 = TIB_INFANTRY_3
+		3 = TIB_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = TIB_CAVALRY_1
+		1 = TIB_CAVALRY_2
+		2 = TIB_CAVALRY_3
+		3 = TIB_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = TIB_ARTILLERY_1
+		1 = TIB_ARTILLERY_2
+		2 = TIB_ARTILLERY_3
+		3 = TIB_ARTILLERY_4
+	}
+}
+
+dlc041_cey_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		primary_culture = sinhala
+	}
+
+	sprite_infantry = {
+		0 = CEY_INFANTRY_1
+		1 = CEY_INFANTRY_2
+		2 = CEY_INFANTRY_3
+		3 = CEY_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = CEY_CAVALRY_1
+		1 = CEY_CAVALRY_2
+		2 = CEY_CAVALRY_3
+		3 = CEY_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = CEY_ARTILLERY_1
+		1 = CEY_ARTILLERY_2
+		2 = CEY_ARTILLERY_3
+		3 = CEY_ARTILLERY_4
+	}
+}
+
+dlc041_dai_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		primary_culture = vietnamese
+	}
+
+	sprite_infantry = {
+		0 = DAI_INFANTRY_1
+		1 = DAI_INFANTRY_2
+		2 = DAI_INFANTRY_3
+		3 = DAI_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = DAI_CAVALRY_1
+		1 = DAI_CAVALRY_2
+		2 = DAI_CAVALRY_3
+		3 = DAI_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = DAI_ARTILLERY_1
+		1 = DAI_ARTILLERY_2
+		2 = DAI_ARTILLERY_3
+		3 = DAI_ARTILLERY_4
+	}
+}
+
+dlc041_lxa_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = ASS
+			tag = SDY
+			tag = MLB
+			tag = KET
+			tag = SSP
+			tag = KGC
+			tag = LXA
+			primary_culture = shan
+			primary_culture = arakanese
+		}
+	}
+
+	sprite_infantry = {
+		0 = LXA_INFANTRY_1
+		1 = LXA_INFANTRY_2
+		2 = LXA_INFANTRY_3
+		3 = LXA_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = LXA_CAVALRY_1
+		1 = LXA_CAVALRY_2
+		2 = LXA_CAVALRY_3
+		3 = LXA_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = LXA_ARTILLERY_1
+		1 = LXA_ARTILLERY_2
+		2 = LXA_ARTILLERY_3
+		3 = LXA_ARTILLERY_4
+	}
+}

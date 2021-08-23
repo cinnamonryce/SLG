@@ -1,0 +1,142 @@
+#Removed a bunch of tribs of tribs for simplicity
+
+#Malaya
+
+# Ligor (Nakhon Si Thammarat)
+march = {
+	first = AYU
+	second = LIG
+	start_date = 1400.1.1
+	end_date = 1570.1.1
+}
+
+vassal = {
+	first = AYU
+	second = PAT
+	start_date = 1636.1.1
+	end_date = 1902.1.1
+}
+
+vassal = {
+	first = AYU
+	second = KED
+	start_date = 1636.1.1
+	end_date = 1902.1.1
+}
+
+#Malaccan puppet in Kelantan
+vassal = {
+	first = MLC
+	second = KEL
+	start_date = 1499.1.1
+	end_date = 1528.1.1
+}
+
+# Patani and Kelantan
+union = {
+	first = PAT
+	second = KEL
+	start_date = 1721.1.1
+	end_date = 1902.1.1
+}
+
+# Khmer
+
+vassal = {
+	first = AYU
+	second = KHM
+	start_date = 1779.1.1
+	end_date = 1828.1.1
+}
+
+#Arakan-Bengal
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BNG
+	second = ARK
+	start_date = 1429.1.1
+	end_date = 1531.1.1
+}
+
+#Shan
+
+#Sao Hsi Hpa's 'rule' from Mong Kawng
+alliance = {
+	first = MKA
+	second = MMA
+	start_date = 1444.1.1
+	end_date = 1449.1.1
+}
+
+# Mong Mao
+alliance = {
+	first = MYA
+	second = MKA
+	start_date = 1449.1.1
+	end_date = 1502.1.1
+}
+
+#Cochinchina
+
+#Cambodia-Ponthiamas
+#dependency = {
+	subject_type = "tributary_state"
+	first = KHM
+	second = CCC
+	start_date = 1707.1.1
+	end_date = 1736.1.1
+}
+
+#Annam-Ponthiamas
+dependency = {
+	subject_type = "tributary_state"
+	first = ANN
+	second = CCC
+	start_date = 1736.1.1
+	end_date = 1771.1.1
+}
+
+#Siam-Ponthiamas
+dependency = {
+	subject_type = "tributary_state"
+	first = AYU
+	second = CCC
+	start_date = 1771.1.1
+	end_date = 1773.1.1
+}
+
+#Annam-Ponthiamas Again
+dependency = {
+	subject_type = "tributary_state"
+	first = ANN
+	second = CCC
+	start_date = 1773.1.1
+	end_date = 1832.1.1 #Annexed
+}
+
+#Sukhothai
+
+#Burmese Vassalization of Sukhothai
+march = {
+	first = TAU
+	second = SUK
+	start_date = 1564.1.2
+	end_date = 1569.9.29
+}
+
+#Muang Phuan
+
+guarantee = {
+	first = LXA
+	second = MPH
+	start_date = 1440.1.1
+	end_date = 1531.1.1
+}
+
+guarantee = {
+	first = DAI
+	second = MPH
+	start_date = 1440.1.1
+	end_date = 1478.1.1
+}

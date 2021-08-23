@@ -1,0 +1,17 @@
+name = "War of the False Flag"
+
+war_goal = {
+	type = take_core
+	casus_belli = cb_core
+	province = 4959 #Phayao
+}
+
+1443.1.1 = {
+	add_attacker = NAN
+	add_defender = LNA
+}
+
+1449.1.1 = {
+	rem_attacker = NAN
+	rem_defender = LNA
+}

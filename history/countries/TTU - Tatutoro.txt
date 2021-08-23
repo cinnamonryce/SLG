@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+technology_group = malay_group
+primary_culture = formosan
+religion = animism
+capital = 2155
+government_rank = 1
+
+1400.1.1 = {
+	monarch = {
+		name = "(Tatutoro Confederation)"
+		adm = 0
+		dip = 0
+		mil = 0
+		regent = yes
+	}
+}

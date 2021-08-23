@@ -1,0 +1,5 @@
+#Cape York Wasteland
+
+discovered_by = aboriginal_tech
+
+1770.1.1 = { discovered_by = GBR } # James Cook

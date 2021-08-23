@@ -1,0 +1,149 @@
+#Cambodia
+khm_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		primary_culture = khmer
+	}
+	sprite_infantry = {
+		0 = KHM_INFANTRY_1
+		1 = SUK_INFANTRY_2
+		2 = LXA_INFANTRY_3
+		3 = SUK_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = KHM_CAVALRY_1
+		1 = SUK_CAVALRY_2
+		2 = LXA_CAVALRY_3
+		3 = SUK_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = KHM_ARTILLERY_1
+		1 = SUK_ARTILLERY_2
+		2 = LXA_ARTILLERY_3
+		3 = SUK_ARTILLERY_4
+	}
+}
+#Sukhothai
+suk_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			primary_culture = central_thai
+			primary_culture = northern_thai
+		}
+
+	sprite_infantry = {
+		0 = SUK_INFANTRY_1
+		1 = SUK_INFANTRY_2
+		2 = SUK_INFANTRY_3
+		3 = SUK_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = SUK_CAVALRY_1
+		1 = SUK_CAVALRY_2
+		2 = SUK_CAVALRY_3
+		3 = SUK_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = SUK_ARTILLERY_1
+		1 = SUK_ARTILLERY_2
+		2 = SUK_ARTILLERY_3
+		3 = SUK_ARTILLERY_4
+	}
+}
+#Toungoo
+tau_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = TAU
+			tag = AVA
+			tag = BPR
+			primary_culture = burmese
+		}
+	}
+
+	sprite_infantry = {
+		0 = TAU_INFANTRY_1
+		1 = LXA_INFANTRY_2
+		2 = LXA_INFANTRY_3
+		3 = SUK_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = TAU_CAVALRY_1
+		1 = LXA_CAVALRY_2
+		2 = LXA_CAVALRY_3
+		3 = SUK_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = TAU_ARTILLERY_1
+		1 = LXA_ARTILLERY_2
+		2 = LXA_ARTILLERY_3
+		3 = SUK_ARTILLERY_4
+	}
+}
+#Pegu
+peg_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = PEG
+			primary_culture = mon
+		}
+	}
+
+	sprite_infantry = {
+		0 = PEG_INFANTRY_1
+		1 = LXA_INFANTRY_2
+		2 = LXA_INFANTRY_3
+		3 = SUK_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = PEG_CAVALRY_1
+		1 = LXA_CAVALRY_2
+		2 = LXA_CAVALRY_3
+		3 = SUK_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = PEG_ARTILLERY_1
+		1 = LXA_ARTILLERY_2
+		2 = LXA_ARTILLERY_3
+		3 = SUK_ARTILLERY_4
+	}
+}
+#Generic Indochinese Sprites
+indochina_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		primary_culture = shan
+	}
+
+	sprite_infantry = {
+		0 = LXA_INFANTRY_1
+		1 = LXA_INFANTRY_2
+		2 = LXA_INFANTRY_3
+		3 = SUK_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = LXA_CAVALRY_1
+		1 = LXA_CAVALRY_2
+		2 = LXA_CAVALRY_3
+		3 = SUK_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = LXA_ARTILLERY_1
+		1 = LXA_ARTILLERY_2
+		2 = LXA_ARTILLERY_3
+		3 = SUK_ARTILLERY_4
+	}
+}

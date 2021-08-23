@@ -1,0 +1,121 @@
+government = monarchy
+add_government_reform = native_chieftain_system_reform
+primary_culture = degar
+religion = animism
+technology_group = indochinese
+capital = 4824	# Rhade
+
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Choloi"
+		dynasty = "K'Sor"
+		adm = 4
+		dip = 2
+		mil = 1
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Trul"
+		dynasty = "R'Com"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1430.1.1 = {
+	monarch = {
+		name = "Anur"
+		dynasty = "R'Com"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Bom"
+		dynasty = "Siu"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Djua"
+		dynasty = "Siu"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Nhong"
+		dynasty = "Siu"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1620.1.1 = {
+	monarch = {
+		name = "Blong"
+		dynasty = "Siu"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Blet"
+		dynasty = "Siu"
+		adm = 3
+		dip = 4 #Established relations with the Viet Namese
+		mil = 2
+	}
+}
+
+1730.1.1 = {
+	monarch = {
+		name = "Ji"
+		dynasty = "Siu"
+		adm = 3
+		dip = 2
+		mil = 3 #Established serfdom
+	}
+}
+
+1790.1.1 = {
+	monarch = {
+		name = "Y"
+		dynasty = "Siu"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1855.1.1 = {
+	monarch = {
+		name = "At"
+		dynasty = "Siu"
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+}

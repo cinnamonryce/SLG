@@ -1,0 +1,7 @@
+597 = "Ganggayu"
+651 = "Jolot"
+625 = { "Ciamis" "Ciamis" }
+630 = { "Jayakarta" "Jayakarta" }
+636 = "Poni"
+2687 = { "Bogor" "Bogor" }
+2702 = "Butwan"

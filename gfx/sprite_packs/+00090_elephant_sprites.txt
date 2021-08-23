@@ -1,0 +1,25 @@
+
+dlc090_south_east_asian_elephant_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			technology_group = indochinese
+			culture_group = southeastasian_group
+			culture_group = burman
+			culture_group = thai_group
+			primary_culture = cham
+			primary_culture = malayan
+			primary_culture = sumatran
+			primary_culture = acehnese
+			primary_culture = musi
+			primary_culture = batak
+		}
+	}
+
+	sprite_cavalry = {
+		0 = south_east_asian_special_CAVALRY_1
+		1 = south_east_asian_special_CAVALRY_2
+		2 = south_east_asian_special_CAVALRY_3
+		3 = south_east_asian_special_CAVALRY_3
+	}
+}

@@ -1,0 +1,16 @@
+#Mparntwe - Stuart, now Alice Springs
+
+culture = gunwinyguan
+religion = dreamtime
+capital = "Mparntwe"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 1
+native_size = 10
+native_ferocity = 3
+native_hostileness = 6
+discovered_by = aboriginal_tech
+
+1802.1.1 = { discovered_by = GBR } # Matthew Flinders

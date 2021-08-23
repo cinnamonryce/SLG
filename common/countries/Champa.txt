@@ -1,0 +1,161 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+special_unit_culture = south_east_asian_special
+color = { 53  151  151 }
+
+revolutionary_colors = { 8 4 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	religious_ideas
+}
+
+historical_units = {
+	dha_warrior
+	indochinese_mongolian_bow
+	shan_raider
+	indochinese_steppe
+	corvee_levy
+	indochinese_mongolian_steppe
+	chaturungkhabat
+        indochinese_charge_cavalry
+        seasoned_corvee
+	indochinese_manchu_banner
+	indochinese_village_militia
+	westernized_indochinese_infantry
+}
+
+monarch_names = {
+	"Ko Cheng #0" = 20
+	"Jaya Sinhavarman #4" = 20
+	"Maija Vijaya #0" = 20
+	"Moho Kouei-Lai #0" = 20
+	"Maha Kui Yu #0" = 20
+	"Maha P'an-lo-yue #0" = 20
+	"Po Saktirai #0" = 20
+	"Po Ganvuh #0" = 20
+	"Po Thuttirai #0" = 20
+	"Po Rattirai #0" = 20
+	"Po Tathun #0" = 20
+	"Po Tithuntirai #0" = 20
+	"Chei Krei Brei #0" = 20
+	"Po Tithun #0" = 20
+	"Po Lathun #0" = 20
+	"Po Chong Chan #0" = 20
+	"Che Anan #0" = 20
+	"Tra Hoa #0" = 20
+	"Che Bong Nga #1" = 20
+	"Jaya Indravarman #6" = 20	
+
+	"Choloi #0" = 0
+	"Trul #0" = 0
+	"Anur #0" = 0
+	"Bom #0" = 0
+	"Djua #0" = 0
+	"Nhong #0" = 0
+	"Blong #0" = 0
+	"Blet #0" = 0
+	"Ji #0" = 0
+	"Y #0" = 0
+	"At #0" = 0
+	"Tu #0" = 0
+	"Nhot #0" = 0	
+        "Luynh #0" = 0
+        "Hieo #0" = 0
+        "Kep #0" = 0
+        "Nhon #0" = 0
+        "Bring #0" = 0
+        "Dai #0" = 0
+        "Guh #0" = 0
+        "Nhuak #0" = 0
+        "Bo #0" = 0
+        "Choi #0" = 0
+        "Bam #0" = 0
+        "Bham #0" = 0
+        "Dieng #0" = 0
+        "Dera #0" = 0
+        "Dacat #0" = 0
+        "Hlong #0" = 0
+        "Monah #0" = 0
+        "Ayun #0" = 0
+        "Ni #0" = 0
+        "Thu #0" = 0
+        "San #0" = 0
+        "Mah #0" = 0
+        "Tuan #0" = 0
+        "Kok #0" = 0
+        "Mal #0" = 0
+        "De #0" = 0
+        "Ramya #0" = 0
+        "Ayna #0" = 0
+        "Poka #0" = 0
+        "Jut #0" = 0
+        "Hwing #0" = 0
+        "Ut #0" = 0
+        "Mlo #0" = 0
+        "Bih #0" = 0
+        "Aloo #0" = 0
+        "Du #0" = 0
+        "Eban #0" = 0
+        "Ha #0" = 0
+        "Blok #0" = 0
+        "Thong #0" = 0
+	
+	"Hong #6" = -1	
+	"Bhaskaradevi #0" = -1	
+	"Gaurendraksmi #0" = -1	
+	"Huyen Tran #0" = -1	
+	"Bo La Gia #0" = -1
+	"Nie #0" = -1
+	"Moan #0" = -1
+	"Kadam #0" = -1
+	"Kaba #0" = -1
+	"Adrong #0" = -1
+	"Ksor #0" = -1
+	"Thi #0" = -1
+	"Chin #0" = -1
+	"Cham #0" = -1
+	"Phiang #0" = -1
+	"Pheng #0" = -1
+	"Khap #0" = -1
+	"Hmih #0" = -1
+	"Ea #0" = -1
+	"Suryah #0" = -1
+	"Hjan #0" = -1
+	"Kpa #0" = -1
+	"Yah #0" = -1
+	"Ya Wam #0" = -1
+	"Ba #0" = -1
+	"Yang #0" = -1
+	"Kam #0" = -1
+	"Rut #0" = -1
+	"Na #0" = -1
+	"Ewa #0" = -1	
+}
+
+leader_names = {
+	"R'Com" K'Sor Siu M'Ho M'Ha Bru "Co Tu" Chau
+	"Ta Oi" Brau Co "H'Bo" Hre "Ro Mam" H'Hen
+	"Ba Na" "Cho Ro" "X'Tieng" "Chu Ru" Ngan Thao
+	H'Yua Y'Khiem Y'Siu Nay Puih R'Chom Ro Nie
+	"Buon Yah" Bya Edan N'Kam K'Por K'Buor Hra
+	Lemo Ro'O Eya B'Dap "Buon Dap" H'Drue E'Doul
+	Edk B'Krong "Buon Krong" K'Man H'Mok K'Nil Ec
+	M'Lo K'Tla Alio K'Doh M'Drang A'Drong K'Pa
+	H'Bia M'Tao H'Drah H'Yam "H'Gar"
+}
+
+ship_names = {
+	Indrapura Amaravati Vijayq Kauthara Panduranga
+	Bichai "Che Bong-nga" "Bo-de" Mahendravarman
+	Jayasimhavarman Indravarman Parameshvaravarman
+	Paramabodhisattva Harivarman Rudravarman Bhadravarman
+}
