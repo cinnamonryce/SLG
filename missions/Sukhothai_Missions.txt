@@ -114,9 +114,7 @@ suk_missions_1 = {
 		position = 8
 		provinces_to_highlight = {
 			area = north_tenasserim_area
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			north_tenasserim_area = {
@@ -144,9 +142,7 @@ suk_missions_1 = {
 		position = 9
 		provinces_to_highlight = {
 			province_id = 586
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			586 = {
@@ -206,9 +202,7 @@ suk_missions_2 = {
 		position = 2
 		provinces_to_highlight = {
 			province_id = 2388
-			OR = {
-				NOT = { controlled_by = ROOT }
-			}
+			NOT = { controlled_by = ROOT }
 		}
 		trigger = {
 			2388 = {
@@ -245,9 +239,7 @@ suk_missions_2 = {
 		position = 3
 		provinces_to_highlight = {
 			area = sukhothai_area
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			sukhothai_area = {
@@ -286,9 +278,7 @@ suk_missions_2 = {
 				area = western_thai_area
 				area = sukhothai_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			central_thai_area = {
@@ -419,7 +409,7 @@ suk_missions_2 = {
 		}
 	}
 	suk_enforce_malay_tutelage = {
-		icon = mission_sack_malacca
+		icon = mission_malay_tribute
 		required_missions = { suk_southern_reconquest }
 		position = 8
 		provinces_to_highlight = {
@@ -429,6 +419,7 @@ suk_missions_2 = {
 				area = malaya_area
 				area = malacca_area
 			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			tenasserim_area = {
@@ -498,6 +489,7 @@ suk_missions_3 = {
 				province_id = 4841
 				province_id = 4960 #Phrae
 			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			4841 = {
@@ -533,9 +525,7 @@ suk_missions_3 = {
 				area = northern_thai_area
 				area = lampang_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			northern_thai_area = {
@@ -581,9 +571,7 @@ suk_missions_3 = {
 				area = north_laos_area
 				area = vientiane_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			vientiane_area = {
@@ -632,9 +620,7 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				area = cambodia_area
 				area = angkor_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			cambodia_area = {
@@ -663,9 +649,7 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				area = tenasserim_area
 				area = north_malaya_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			tenasserim_area = {
@@ -766,7 +750,7 @@ suk_missions_4 = {
 	has_country_shield = yes
 
 	suk_claim_kingship = {
-		icon = mission_seize_the_dragon_throne
+		icon = mission_sea_throne_room
 		required_missions = {  }
 		position = 1
 		trigger = {
@@ -815,7 +799,7 @@ suk_missions_4 = {
 		}
 	}
 	suk_renovate_the_temples = {
-		icon = mission_siamese_pagoda
+		icon = mission_sukhothai_pagoda
 		required_missions = { suk_the_ancient_capital }
 		position = 5
 		trigger = {

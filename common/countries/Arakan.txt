@@ -204,7 +204,15 @@ monarch_names = {
 }
 
 leader_names = {
-	#No surnames
+	"Mrauk U" Chittagong Ramu Peroem Mahamuni
+	Akyab Kaladan Kyaukpyu Ramree Cheduba Gwa
+	Thandwe Rakhine Sandwip Sittwe Ann Toungup
+	Maungdaw Buthidaung Kyauktaw Ponnagyun
+	Pauktaw Minbya Ngapali Naf Mayu Lemro
+	Saidin "Thahtay Chaung" Laymromyit
+	Kamein Daingnet Thetkama Maramagri
+	Pauktaw Rathedaung Buthidaung Taungup
+	Yandabo Dhanyawadi Waithali Lawka Radana
 }
 
 ship_names = {
@@ -221,6 +229,14 @@ ship_names = {
 	Ngahnaloon
 	Suriya "Suriya Candra"
 	Thiharaza Thakyawangree Thakyawannge
-	Ukkabala
-	Waradhamma
+	Ukkabala Waradhamma
+	"Mrauk U" Chittagong Ramu Peroem Mahamuni
+	Akyab Kaladan Kyaukpyu Ramree Cheduba Gwa
+	Thandwe Rakhine Sandwip Sittwe Ann Toungup
+	Maungdaw Buthidaung Kyauktaw Ponnagyun
+	Pauktaw Minbya Ngapali Naf Mayu Lemro
+	Saidin "Thahtay Chaung" Laymromyit
+	Kamein Daingnet Thetkama Maramagri
+	Pauktaw Rathedaung Buthidaung Taungup
+	Yandabo Dhanyawadi Waithali Lawka Radana
 }

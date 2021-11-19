@@ -1,0 +1,99 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = khampa
+religion = vajrayana
+technology_group = chinese
+capital = 2133	# Derge
+government_rank = 1
+
+
+1390.1.1 = {
+	monarch = {
+		name = "Botar Lodro Tobden"
+		dynasty = "Derge"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1375.1.1
+	}
+	add_ruler_personality =  charismatic_negotiator_personality
+	add_ruler_personality =  architectural_visionary_personality
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Gyeltsen Bum"
+		dynasty = "Derge"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1420.1.1
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Ponchen A-nga"
+		dynasty = "Derge"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1450.1.1
+	}
+}
+
+1515.1.1 = {
+	monarch = {
+		name = "Yagyel Pel"
+		dynasty = "Derge"
+		adm = 2
+		dip = 2
+		mil = 3
+		birth_date = 1475.1.1
+	}
+}
+
+1570.1.1 = {
+	monarch = {
+		name = "Kunga Rinchen"
+		dynasty = "Derge"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality =  architectural_visionary_personality
+	add_ruler_personality =  free_thinker_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Ponchen Lhundrub"
+		dynasty = "Derge"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Luphel"
+		dynasty = "Derge"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1615.1.1
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality =  architectural_visionary_personality
+}
+
+1660.1.1 = {
+	monarch = {
+		name = "Orgyen Tashi"
+		dynasty = "Derge"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}

@@ -37,6 +37,11 @@ country_decisions = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
 			}
+			region = siam_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		
 		allow = {
@@ -78,7 +83,7 @@ country_decisions = {
 				limit = { NOT = { government_rank = 2 } }
 				set_government_rank = 2
 			}
-			indo_china_region = {
+			siam_region = {
 				limit = {
 					NOT = {
 						owned_by = ROOT

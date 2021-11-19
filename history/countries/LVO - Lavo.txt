@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = central_thai
+religion = buddhism
+technology_group = indochinese
+capital = 4832 #Lopburi
+
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}

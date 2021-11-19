@@ -27,7 +27,7 @@ capital = 4482	# Sikkim
 		dip = 5
 		mil = 2
 	}
-	primary_culture = tibetan
+	primary_culture = bhutanese
 	religion = vajrayana
 	government = monarchy
 	add_government_reform = feudalism_reform

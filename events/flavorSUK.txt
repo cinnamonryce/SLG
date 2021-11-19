@@ -1,0 +1,112 @@
+# Sukhothai Inheritance by Daniel Tolman
+
+
+namespace = flavor_suk
+normal_or_historical_nations = yes
+
+#ayu_monarch_flag
+#suk_monarch_flag
+
+country_event = {
+	id = flavor_suk.1
+	title = flavor_suk.1.t
+	desc = flavor_suk.1.d
+	picture = BUDDHA_eventPicture
+	
+	is_triggered_only = yes # on_monarch_death
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AYU
+		SUK = {
+			is_subject_of = ROOT
+		}
+		has_country_flag = ayu_monarch_flag
+	}
+
+	option = { #We shall seek warmer relations with Sukhothai
+		name = flavor_suk.1.a
+		ai_chance = { factor = 1 }
+		add_dip_power = -25
+		SUK = {
+			add_opinion = {
+				who = ROOT
+				modifier = commended_by_overlord
+			}
+                }
+	}
+	option = { #Bah! What a preposterous idea!
+		name = flavor_suk.1.b
+		ai_chance = { factor = 0 }
+		SUK = {
+			add_opinion = {
+				who = ROOT
+				modifier = scolded_by_overlord
+			}
+                }
+	}
+}
+
+country_event = {
+	id = flavor_suk.2
+	title = flavor_suk.1.t
+	desc = flavor_suk.1.d
+	picture = BUDDHA_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = flavor_suk.2.a
+		grant_independence = yes
+		vassalize = AYU
+		AYU = {
+			define_ruler = {
+				dynasty = ROOT
+			}
+		}
+		north_tenasserim_area = {
+			limit = {
+				owned_by = AYU
+				controlled_by = AYU
+			}
+			cede_province = ROOT
+		}
+		if = {
+			limit = {
+				4834 = {
+					owned_by = AYU
+					controlled_by = AYU
+				}
+			}
+			4834 = {
+				cede_province = ROOT
+			}
+		}
+		if = {
+			limit = {
+				4833 = {
+					owned_by = AYU
+					controlled_by = AYU
+				}
+			}
+			4833 = {
+				cede_province = ROOT
+			}
+		}
+	}
+	option = { # Reject the throne of Ayutthaya
+		name = flavor_suk.2.b
+		grant_independence = yes
+		AYU = {
+			define_ruler = {
+				culture = central_thai
+			}
+		}
+	}
+	option = { # Appoint a governor in Sukhothai
+		name = flavor_suk.2.c
+		define_ruler = {
+		}
+	}
+}

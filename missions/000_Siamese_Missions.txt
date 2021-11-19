@@ -94,9 +94,7 @@ siamese_missions_1 = {
 				area = tenasserim_area
 				area = north_malaya_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 
@@ -175,9 +173,7 @@ siamese_missions_1 = {
 		position = 4
 		provinces_to_highlight = {
 			province_id = 596
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			596 = {
@@ -193,6 +189,7 @@ siamese_missions_1 = {
 				religion = ROOT
 				cost_multiplier = 0.25
 			}
+			country_event = { id = ayutthaya.3 }
 			every_province = {
 				limit = {
 					region = malaya_region
@@ -216,9 +213,7 @@ siamese_missions_1 = {
 				area = cambodia_area
 				area = angkor_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			cambodia_area = {
@@ -359,9 +354,7 @@ siamese_missions_2 = {
 				area = sukhothai_area
 			}
 			OR = {
-				NOT = {
-					country_or_non_sovereign_subject_holds = ROOT
-		                }
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
 				NOT = {
 					religion = ROOT
 		                }
@@ -426,16 +419,14 @@ siamese_missions_2 = {
 		completed_by = 1779.1.1
 		provinces_to_highlight = {
 			OR = {
-				province_id = 4964 #Srah Kev
+				province_id = 4961 #Srah Kev
 				province_id = 2379
 				province_id = 609
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			4964 = {
+			4961 = {
 				owned_by = ROOT
 			}
 			2379 = {
@@ -495,9 +486,7 @@ siamese_missions_2 = {
 		position = 7
 		provinces_to_highlight = {
 			area = tay_nguyen_area
-			NOT = {
-			country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -590,9 +579,7 @@ siamese_missions_3 = {
 				area = northern_thai_area
 				area = lampang_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			northern_thai_area = {
@@ -635,9 +622,7 @@ siamese_missions_3 = {
 		completed_by = 1602.1.1 #Pegu sacked in 1600, Lan Na vassalized in 1602
 		provinces_to_highlight = {
 			province_id = 586
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			586 = {
@@ -842,9 +827,7 @@ siamese_missions_3 = {
 				area = shan_hill_area
 				area = yawnghwe_area
 			}
-			NOT = {
-				controlled_by = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			yawnghwe_area = {
@@ -889,15 +872,13 @@ siamese_missions_3 = {
 		position = 6
 		provinces_to_highlight = {
 			OR = {
-				area = khorat_area
+				area = dangrek_area
 				area = suwannaphum_area
 			}
-			NOT = {
-				controlled_by = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			khorat_area = {
+			dangrek_area = {
                                 type = all
                                 country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -908,6 +889,12 @@ siamese_missions_3 = {
 		}
 		effect = {
 			suwannaphum_area = {
+				add_province_modifier = {
+					name = "isan_indirect_rule"
+					duration = 5475
+				}
+			}
+			dangrek_area = {
 				add_province_modifier = {
 					name = "isan_indirect_rule"
 					duration = 5475
@@ -935,7 +922,7 @@ siamese_missions_3 = {
 	}
 
 	ayu_over_the_mekong = {
-		icon = mission_se_along_the_river
+		icon = mission_mekong
 		required_missions = { ayu_monthon_burapha }
 		position = 7
 		provinces_to_highlight = {
@@ -944,9 +931,7 @@ siamese_missions_3 = {
 				area = champasak_area
 				area = vientiane_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			if = {
@@ -984,6 +969,15 @@ siamese_missions_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			if = {
+				limit = {
+					exists = MPH
+				}
+				add_casus_belli = {
+					target = MPH
+					type = cb_vassalize_mission
+				}
+			}
 		}
 	}
 
@@ -996,7 +990,7 @@ siamese_missions_3 = {
 			OR = {
 				AND = {
 					owned_by = ROOT
-					local_autonomy = 40
+					local_autonomy = 30
 				}
 				NOT = {
 					owned_by = ROOT
@@ -1007,7 +1001,7 @@ siamese_missions_3 = {
 			num_of_owned_provinces_with = {
 				value = 10
 				culture = lao
-				NOT = { local_autonomy = 40 }
+				NOT = { local_autonomy = 30 }
 			}
 		}
 		effect = {
@@ -1546,7 +1540,7 @@ siamese_missions_4 = {
 			owned_by = ROOT
 			OR = {
 				unrest = 1
-				local_autonomy = 40
+				local_autonomy = 30
 				nationalism = 1
 			}
 		}
@@ -1554,9 +1548,11 @@ siamese_missions_4 = {
 			num_of_owned_provinces_with = {
 				value = 3
 				culture = mon
-				NOT = { unrest = 1 }
-				NOT = { local_autonomy = 40 }
-				NOT = { nationalism = 1 }
+				NOT = {
+					unrest = 1
+					local_autonomy = 30
+					nationalism = 1
+				}
 			}
 		}
 		effect = {
@@ -1576,7 +1572,7 @@ siamese_missions_4 = {
 			area = north_tenasserim_area
 			OR = {
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
-				NOT = { fort_level = 3 }
+				NOT = { fort_level = 4 }
 			}
 		}
 		trigger = {
@@ -1585,7 +1581,7 @@ siamese_missions_4 = {
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 					value = 1
 					area = north_tenasserim_area
-					fort_level = 3
+					fort_level = 4
 				}
 			}
 		}
@@ -1607,9 +1603,7 @@ siamese_missions_4 = {
 				area = upper_burma_area
 				area = central_burma_area
 			}
-			NOT = {
-				controlled_by = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			owner = {
 				primary_culture = burmese
 				NOT = { is_subject_of = root }

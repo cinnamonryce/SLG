@@ -151,7 +151,7 @@ fixed_capital = 2394 # Cannot move capital away from this province & no power co
 		name = "Mudzaffar Shâh II"
 		dynasty = "Kedah"
 		adm = 3
-		dip =3
+		dip = 3
 		mil = 3
 	}
 }
@@ -175,7 +175,7 @@ fixed_capital = 2394 # Cannot move capital away from this province & no power co
 		name = "Sulaiman Shâh"
 		dynasty = "Kedah"
 		adm = 3
-		dip =3
+		dip = 3
 		mil = 3
 	}
 }

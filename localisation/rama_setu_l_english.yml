@@ -1,0 +1,37 @@
+﻿l_english:
+ #Palk Strait
+ new_strait.1.t: "The Destruction of Rama's Bridge"
+ new_strait.1.d: "Since time immemorial, Lanka has been connected to India via a tenuous land bridge known as the Rama Setu. As described in the ancient Ramayana text, Rama is said to have constructed this link with the aid of his Vanara army in order to save his wife Sita from the King of Rakshasa.\n\nThough it has looked sturdy up til now, a recent cyclone has broken it, forming the new Palk Strait - seperating Ceylon from Asia."
+ new_strait.1.a: "Incredible."
+ new_strait.1.b: "Shore it up!"
+ 
+ new_strait.2.t: "A Canal in Ceylon?"
+ new_strait.2.d: "Though it has been threatened by hurricanes and floods throughout the centuries, Rama Setu has maintained the connection between India and Lanka. However, there are some in our court that hungrily eye the passing cargoes of merchants, and they believe that constructing a canal across the bridge would position Vanni as a strategic and mercantile nexus. No doubt the construction will be costly, however..."
+ new_strait.2.a: "We must begin construction at once!"
+ new_strait.2.b: "Celebrate the legend of the Rama Setu instead."
+ 
+ new_strait.1_tooltip: "The §YPalk Strait§! is created - connecting the Coast of Coromandel and Comorin Cape."
+ new_strait.2_tooltip: "§YRama Setu§! is bolstered - preventing the formation of a strait."
+ new_strait.3_tooltip: "The §YPalk Strait§! is constructed across §YRama Setu§! - connecting the Coast of Coromandel and Comorin Cape."
+ 
+ palk_strait_title: "Palk Strait"
+ palk_strait: "Palk Strait"
+ great_project_palk_strait: "Palk Strait"
+ 
+ palk_strait_modifier:0 "Palk Strait"
+ palk_strait_modifier_desc:0 "Once a land bridge connecting Lanka to mainland South Asia, the Palk Strait now links the Coast of Coromandel and Comorin Cape and forms a basic defensive barrier against invading armies."
+ 
+ #Improved Grammer for Canal Stuff
+ great_project_kiel_canal:0 "Kiel Canal"
+ kiel_canal:0 "Kiel Canal"
+ kiel_canal_title:0 "Build Kiel Canal"
+ great_project_suez_canal:0 "Suez Canal"
+ suez_canal:0 "Suez Canal"
+ suez_canal_title:0 "Build Suez Canal"
+ great_project_panama_canal:0 "Panama Canal"
+ panama_canal:0 "Panama Canal"
+ panama_canal_title:0 "Build Panama Canal"
+ 
+ COT_PROVINCE_MODIFIER:0 "§YProvince Modifiers§!:\n$MODIFIER$\n"
+ COT_GLOBAL_MODIFIER:0 "§YGlobal Modifiers§!:\n$MODIFIER$\n"
+ 

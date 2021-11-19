@@ -17,14 +17,14 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	east_asian_spearmen
-	eastern_bow
-	asian_arquebusier
-	asian_charge_cavalry
-	asian_mass_infantry
-	asian_musketeer
-	reformed_asian_musketeer
-	reformed_asian_cavalry
+	malay_spearmen
+	malay_mongolian_bow
+	malay_arquebusier
+	malay_charge_cavalry
+	malay_mass_infantry
+	malay_musketeer
+	malay_reformed_asian_musketeer
+	malay_reformed_asian_cavalry
 }
 
 monarch_names = {
@@ -47,6 +47,46 @@ monarch_names = {
 	"Kawasa Anwar ud-Din #0" = 30
 	"Qudratullah Untung #0" = 30
 	
+	"Aeign #0" = 10	
+	"Alab #0" = 10
+	"Alam #0" = 10
+	"Alamon #0" = 10
+	"Alho #0" = 10	
+	"Banoy #0" = 10
+	"Bantug #0" = 10	
+	"Buhawi #0" = 10
+	"Busilak #0" = 10	
+	"Buwan #0" = 10
+	"Chilapulapu #0" = 10	
+	"Dakila #0" = 10
+	"Datu #0" = 0
+	"Diwa #0" = 10	
+	"Humabon #0" = 10	
+	"Isagani #0" = 10
+	"Kidlat #0" = 10
+	"Lakandula #0" = 10	
+	"Lapu Lapu #0" = 10	
+	"Lontoc #0" = 10
+	"Lontok #0" = 10	
+	"Lumay #0" = 10
+	"Makisig #0" = 10
+	"Malaki #0" = 10
+	"Magiting #0" = 10	
+	"Mangal #0" = 10
+	"Parang #0" = 10	
+	"Ramil #0" = 10
+	"Sikatuna #0" = 10	
+	"Sinag #0" = 10
+	"Tadhana #0" = 10
+	"Tagumpay #0" = 10
+	"Tamaraw #0" = 10	
+	"Tanashiri #0" = 10
+	"Tanyag #0" = 10
+	"Tupas #0" = 10	
+	"Ulan #0" = 10	
+	"Ukob #0" = 10
+	"Zula #0" = 10		
+	
 	"Anela #0" = -1
 	"Cinta #0" = -1
 	"Wangi #0" = -1
@@ -54,6 +94,36 @@ monarch_names = {
 	"Hafeeza #0" = -1
 	"Aisha #0" = -1
 	"Azura #0" = -1
+	
+	"Atay #0" = -5
+	"Bighani #0" = -5
+	"Bolowan #0" = -5 #Maranao name
+	"Bugbung #0" = -5
+	"Bulaklak #0" = -5
+	"Busilak #0" = -5
+	"Buwan #0" = -5
+	"Diwa #0" = -5
+	"Diwata #0" = -5
+	"Eeya #0" = -5
+	"Humamai #0" = -5
+	"Kulay #0" = -5
+	"Lahat #0" = -5
+	"Ligaya #0" = -5
+	"Luningning #0" = -5
+	"Luwalhati #0" = -5
+	"Mahalina #0" = -5	
+	"Malyag #0" = -5
+	"Marikit #0" = -5
+	"Mayumi #0" = -5
+	"Mutya #0" = -5
+	"Sampaguita #0" = -5	
+	"Sinag #0" = -5
+	"Tadhana #0" = -5
+	"Tala #0" = -5
+	"Talim #0" = -5	
+	"Talna #0" = -5
+	"Tanashiri #0" = -5
+	"Ulan #0" = -5	
 }
 
 leader_names = {
@@ -62,7 +132,7 @@ leader_names = {
 	Bayang
 	Dumalondong
 	Masiu
-	Datu a Cabugatan
+	Cabugatan
 	Bansayan
 	Rogan
 	Taporog
@@ -78,6 +148,21 @@ leader_names = {
 	Toros
 	Bacolod
 	Baloi
+	Aguho Agung Araw
+	Baktol Balagtas Balingit Banal Batara Bima Buntok Bunyi
+	Cabailo Capulong Cunanan
+	Dailisan Dayrit Dimacali Dimalanta Dimatulac Dimantag
+	Elok
+	Galang Gallora Galura Gatchalian Gatdula Gatmaitan Guintu
+	Kalaw Karna Kiling
+	Lacandola Lontoc
+	Macabulos Macapagal Macapinlac Mactan Makiling Manansala Mayari
+	Pamintuan Pangilinan Parojinog Pinlac Pusung	
+	Rimba
+	Saleh Salonga Sumanga Sapnu Satria Sentosa Sumaya
+	Tanyag Taruc Taruk Timbol Tupas Tugade Tumalak
+	Urduja	
+	Yalung Yuda	
 }
 
 ship_names = {

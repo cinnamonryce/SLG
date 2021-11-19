@@ -1,0 +1,46 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+mlc_sound_toll = {
+	province_trade_power_value = 20
+}
+
+chao_phraya_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+ayu_portuguese_treaty = {
+	tolerance_heathen = 1
+}
+
+#emerald_buddha = {
+#	tolerance_own = 1
+#	prestige = 0.5
+#	picture = "tolerance_own"
+#}
+
+#emerald_buddha_alternate = {
+#	prestige = 0.1
+#	picture = "tolerance_own"
+#}
+
+emerald_buddha_heathen = {
+	prestige = 0.05
+	picture = "tolerance_own"
+}
+
+healed_by_god = {
+	monarch_lifespan = 0.1
+}
+
+holy_incumbency = {
+	monarch_lifespan = 0.5
+}
+
+gun_samding_dorje_phagmo_pmod = {
+	prestige = 1
+	tolerance_own = 2
+	
+}

@@ -1,6 +1,6 @@
 #4832 - Lavo
 
-owner = AYU 
+owner = AYU
 controller = AYU
 culture = mon
 religion = mahayana
@@ -13,6 +13,7 @@ base_manpower = 3
 is_city = yes
 add_local_autonomy = 50
 add_core = AYU
+add_core = LVO
 discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group

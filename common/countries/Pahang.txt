@@ -4,6 +4,7 @@ graphical_culture = indiangfx
 special_unit_culture = south_east_asian_special
 
 color = { 98  186  171 }
+revolutionary_colors = { 0 1 1 } #Same as Terengganu - might change
 
 historical_idea_groups = {
 	trade_ideas

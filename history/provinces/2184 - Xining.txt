@@ -1,25 +1,24 @@
 # 2184 - Xining
 
-owner = MNG
-controller = MNG
-add_core = MNG
-culture = xibei
+owner = JON
+controller = JON
+add_core = JON
+culture = amdowa
 religion = vajrayana
 capital = "Xining"
 trade_goods = salt
 hre = no
-base_tax = 3 
-base_production = 3
-base_manpower = 2
+base_tax = 2 
+base_production = 2
+base_manpower = 3
 is_city = yes
-add_core = CSH
 
 
 
 discovered_by = chinese
+discovered_by = nomad_group
 discovered_by = indochinese
 discovered_by = malay_group
-discovered_by = nomad_group
 
 
 1644.1.1 = {

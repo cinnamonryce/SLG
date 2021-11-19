@@ -1,0 +1,5 @@
+palk_strait_modifier = {
+	province_trade_power_value = 10
+	local_defensiveness = 0.25
+	picture = "sound_toll"
+}

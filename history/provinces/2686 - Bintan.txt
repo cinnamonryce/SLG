@@ -12,7 +12,6 @@ base_production = 3
 base_manpower = 1
 is_city = yes
 add_core = MLC
-add_core = JOH
 add_core = RIA
 
 
@@ -30,4 +29,5 @@ discovered_by = ottoman
 1528.1.1 = {
 	owner = JOH
 	controller = JOH
+	add_core = JOH
 }

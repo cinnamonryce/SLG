@@ -1,0 +1,206 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = amdowa
+religion = vajrayana
+technology_group = chinese
+capital = 5077	# Chone
+government_rank = 1
+
+
+1400.1.1 = {
+	monarch = {
+		name = "Changtul"
+		dynasty = "Ga"
+		adm = 6
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = midas_touched_personality
+}
+
+1427.1.1 = {
+	monarch = {
+		name = "Tsenpo Pellek"
+		dynasty = "Ga"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = lawgiver_personality
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Tashi Bum"
+		dynasty = "Ga"
+		adm = 4
+		dip = 2
+		mil = 1
+	}
+	add_ruler_personality = zealot_personality
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Gakye"
+		dynasty = "Ga"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+	add_ruler_personality = pious_personality
+}
+
+1506.1.1 = {
+	monarch = {
+		name = "Wangchuk"
+		dynasty = "Yang"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = charismatic_negotiator_personality
+}
+
+1538.1.1 = {
+	monarch = {
+		name = "Gonpo Dargye"
+		dynasty = "Yang"
+		adm = 1
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality =  architectural_visionary_personality
+}
+
+1573.1.1 = {
+	monarch = {
+		name = "Kelzang Wangchuk"
+		dynasty = "Yang"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = charismatic_negotiator_personality
+}
+
+1621.1.1 = {
+	monarch = {
+		name = "Tashi Rabten"
+		dynasty = "Yang"
+		adm = 4
+		dip = 1
+		mil = 0
+	}
+	add_ruler_personality =  architectural_visionary_personality
+	add_ruler_personality =  pious_personality
+}
+
+1655.1.1 = {
+	monarch = {
+		name = "Tsewang Dondrub"
+		dynasty = "Yang"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality =  pious_personality
+	add_ruler_personality =  fierce_negotiator_personality
+}
+
+1679.1.1 = {
+	monarch = {
+		name = "Lobzang Dondrub"
+		dynasty = "Yang"
+		adm = 5
+		dip = 1
+		mil = 3
+	}
+	add_ruler_personality =  pious_personality
+	add_ruler_personality =  fierce_negotiator_personality
+}
+
+
+1692.1.1 = {
+	monarch = {
+		name = "Makzor Gonpo"
+		dynasty = "Yang"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality =  pious_personality
+	add_ruler_personality =  architectural_visionary_personality
+	add_ruler_personality =  righteous_personality
+}
+
+1692.1.1 = {
+	monarch = {
+		name = "Ngawang Trinle Gyatso"
+		dynasty = "Yang"
+		adm = 5
+		dip = 1
+		mil = 0
+	}
+	add_ruler_personality =  fierce_negotiator_personality
+	add_ruler_personality =  architectural_visionary_personality
+}
+
+1728.1.1 = {
+	monarch = {
+		name = "Jamyang Norbu"
+		dynasty = "Yang"
+		adm = 4
+		dip = 1
+		mil = 3
+	}
+	add_ruler_personality =  fierce_negotiator_personality
+	add_ruler_personality =  pious_personality
+}
+
+1743.1.1 = {
+	monarch = {
+		name = "Rinchen Peldzom"
+		dynasty = "Yang"
+		adm = 5
+		dip = 2
+		mil = 1
+		female = yes
+	}
+	add_ruler_personality =  architectural_visionary_personality
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Tensung Tsering"
+		dynasty = "Yang"
+		adm = 5
+		dip = 2
+		mil = 1
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Tendzin Rinchen"
+		dynasty = "Yang"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}
+
+1813.1.1 = {
+	monarch = {
+		name = "Jigme Topgye"
+		dynasty = "Yang"
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}

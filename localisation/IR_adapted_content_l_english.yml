@@ -1,0 +1,54 @@
+﻿l_english:
+
+ #IR conversion
+ IR_religion_convert.1.t: "Way of the Walisanga"
+ IR_religion_convert.1.d: "Ever since the arrival of Sayyid Jamaluddin al-Akbar Al-Husaini over a century ago, the peoples of southern Sulawesi have slowly converted to Sunni. With the economic benefits that come with inter-Islamic trade demonstrated by the Islamic Sultanates in Halmahera, perhaps it is time to consider a similar path. \nFacing intense pressure from the growing numbers of Sunni muslims within his domain, [Root.Monarch.GetName] seeks to determine the role that Islam shall play in our society..."
+ IR_religion_convert.1.a: "Embrace Islam and adopt the title of Sultan!"
+ IR_religion_convert.1.b: "We have no need of foreign mysticism."
+ 
+ IR_religion_convert.2.t: "An Islamic Kolano?"
+ IR_religion_convert.2.d: "With the arrival of Islamic traders to the spice-rich islands of Halmahera, trade with the broader world is finally within reach. By extending trade of Halmaheran spices, our small spice isles are poised to develop dramatically, however this is contingent on foreign relationships. Indeed, Imams accompanying traders from Malacca advocate for conversion for both holy and economic reasons. By converting, adopting Sunni traditions into our society, and implementing Islamic laws, we may be able to trade with the whole of the Islamic world."
+ IR_religion_convert.2.a: "Embrace Islam and adopt the title of Sultan!"
+ IR_religion_convert.2.b: "We have no need of foreign mysticism."
+ 
+ IR_religion_convert.3.t: "Sultans of Mindanao"
+ IR_religion_convert.3.d: "Following the marriage of Shariff Mohammad Kabungsuwan to a local princess, the people of Mindanao increasingly turn to Islam in their day-to-day lives. Perhaps it is time to build lasting partnerships with the Islamic traders of Sulu and join the brotherhood of Islam?"
+ IR_religion_convert.3.a: "Embrace Islam and adopt the title of Sultan!"
+ IR_religion_convert.3.b: "Turn the likes of Shariff Kabungsuwan away!"
+ 
+ #Malacca
+ loss_of_malacca:0 "Loss of Malacca"
+ IR_mlc:0 "Loss of Malacca"
+ IR_mlc.1.t:0 "Loss of Malacca"
+ IR_mlc.1.d:0 "Ever since the loss of Malacca to [596.Owner.GetName], our realm has been thrust into sudden turmoil. Without our ancestral center of power and primary administrative center, our legitimacy as an independent state is perhaps on a terminal decline. Should we wish to the continue as an independent nation, we must reclaim Malacca."
+ IR_mlc.1.a:0 "We must reclaim Malacca at all costs!"
+ 
+ IR_mlc.100.t:0 "Malacca Recovered?"
+ IR_mlc.100.d1:0 "Alas, despite the world's odds being against us, we have reclaimed our lost capital of Malacca. With our nation once again headed from its true national court, peace and order can be restored."
+ IR_mlc.100.d2:0 "Though we worked as fervently as we could to reclaim our capital from [596.Owner.GetName], we have been unable to do so. It has become increasingly apparent to local rulers that they would be better off self-governing as independent Sultanates rather than continuing to pay allegiance to our farce of a state. Maybe one day, one will reclaim the Malaccan territory and heritage..."
+ IR_mlc.100.a:0 "Malacca again stands strong!"
+ IR_mlc.100.b:0 "So ends the Malacca Sultanate..."
+ 
+ IR_mlc.2.t:0 "Courtiers Arrive in New Capital"
+ IR_mlc.2.d:0 "Much of our nation is administered out of the capital court, thus when we were forced to move it to [2686.GetName], people from throughout our realm have flocked to it. Indeed, while the city may have been a relative backwater before, it is quickly growing into a town of importance."
+ IR_mlc.2.a:0 "Build it, and they will come."
+ IR_mlc.2.b:0 "They are better off where they are now.."
+ 
+ IR_mlc.3.t:0 "Pahang Reclaims Borderlands"
+ IR_mlc.3.d:0 "When we controlled the Straits of Malacca from its titutal city, and our capital and court, we were able to fund many military excursions into the lands of Pahang. These days, it is Pahang that is initiating conflict along our border. Indeed, it looks positioned to retake all that it has lost in one well swoop, and perhaps even more."
+ IR_mlc.3.a:0 "We have no choice but to let the territory go..."
+ IR_mlc.3.b:0 "We have no choice but to let them go..."
+ IR_mlc.3.c:0 "We spilled blood for those gains!"
+ 
+ IR_mlc.4.t:0 "Siak Declares an Independent Sultanate!"
+ IR_mlc.4.d:0 "With the instability throughout our realm, the long subdued Sultanate is reasserting itself as an independent power. Though we could formally maintain dominance at great cost, failing to recognize its relative power and seperation with our state would undoubtly provoke conflict with resistance fighters..."
+ IR_mlc.4.a:0 "We cannot do anything..."
+ IR_mlc.4.b:0 "Siak is ours!"
+ 
+ IR_mlc.200.t:0 "Malacca Reclaimed!"
+ IR_mlc.200.d:0 "This month, at great last, our armies have reoccupied the capital of [596.GetName]. Though many doubted our ability to reclaim it after its devestating loss, we have shown them all to be fools. Moreover, we have snatched new life for our nation from the jaws of death. Long live the Malaccan Sultanate!"
+ IR_mlc.200.a:0 "Victory at last!"
+ 
+ #Malacca Collapse
+ IR_mlc_timer:0 "Malacca in Disarray"
+ IR_mlc_timer_desc:0 "Since the loss of our capital, Malacca, our nation has been in turmoil. Without a doubt, the loss of our court and capital has created a significant detriment to our legitimacy. We must reclaim Malacca as soon as possible, or else the entire realm may collapse."

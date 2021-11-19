@@ -26,7 +26,6 @@ historical_units = {
 	malay_reformed_asian_musketeer
 	malay_reformed_asian_cavalry
 }
-}
 
 monarch_names = {
 	"Mangkubumi Suradipati #0" = 50

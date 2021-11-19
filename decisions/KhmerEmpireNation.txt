@@ -127,7 +127,7 @@ country_decisions = {
 				}
 				add_permanent_claim = ROOT
 			}
-			south_laos_area = {
+			champasak_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }

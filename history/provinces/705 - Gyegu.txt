@@ -1,27 +1,30 @@
-#705 - Dangla
+#705 - Gyegu
 
-owner = KAM
-controller = KAM
-add_core = KAM
-culture = tibetan
+owner = LIN
+controller = LIN
+add_core = LIN
+culture = khampa
 religion = vajrayana
 capital = "Gyegu"
 trade_goods = wool
 hre = no
-base_tax = 1 
-base_production = 1
+base_tax = 2 
+base_production = 3
 base_manpower = 2
 is_city = yes
+center_of_trade = 1
+add_core = NGC
 
 
 
 discovered_by = chinese
-discovered_by = indochinese
-discovered_by = malay_group
 discovered_by = indian
 discovered_by = nomad_group
+discovered_by = indochinese
+discovered_by = malay_group
 
 
+1630.1.1 = { owner = KAM controller = KAM add_core = KAM remove_core = LIN }
 1637.6.1 = {
 	controller = KSD
 	owner = KSD

@@ -1,0 +1,57 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = khampa
+religion = vajrayana
+technology_group = chinese
+capital = 5088 #Ling
+government_rank = 1
+
+1400.1.1 = {
+	monarch = {
+		name = "Siba'er"
+		dynasty = "Zanshan"
+		adm = 3
+		dip = 4
+		mil = 0
+	}
+}
+
+1419.1.1 = {
+	monarch = {
+		name = "Wusi Zang"
+		dynasty = "Zanshan"
+		adm = 1
+		dip = 2
+		mil = 0
+	}
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Zi Nangge"
+		dynasty = "Zanshan"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1445.1.1 = {
+	monarch = {
+		name = "Bandan"
+		dynasty = "Zanshan"
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

@@ -17,9 +17,7 @@ cambodian_missions_1 = {
 				area = angkor_area
 				area = khorat_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			angkor_area = {
@@ -64,9 +62,7 @@ cambodian_missions_1 = {
 		position = 5
 		provinces_to_highlight = {
 			area = central_thai_area
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			central_thai_area = {
@@ -117,9 +113,7 @@ cambodian_missions_1 = {
 				area = sukhothai_area
 				area = western_thai_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			sukhothai_area = {
@@ -156,19 +150,17 @@ cambodian_missions_2 = {
 		provinces_to_highlight = {
 			OR = {
 				area = suwannaphum_area
-				area = khorat_area
+				area = dangrek_area
 				area = champasak_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			suwannaphum_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			khorat_area = {
+			dangrek_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

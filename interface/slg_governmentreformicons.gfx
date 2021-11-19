@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_malay_ruler"
+		texturefile = "gfx//interface//government_reform_icons//malay_ruler.dds"
+	}
+}

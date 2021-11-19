@@ -2,14 +2,6 @@
 # OPINION MODIFIERS
 ##########################################################################
 
-##########################################################################
-# HARD - DO NOT REMOVE OR RENAME ANY OF THESE
-##########################################################################
-
-##############
-# FIXED STATE
-##############
-
 signed_treaty = {
 	opinion = 50
 	yearly_decay = 1
@@ -18,4 +10,14 @@ signed_treaty = {
 rejected_treaty = {
 	opinion = -50
 	yearly_decay = 1
+}
+
+commended_by_overlord = {
+	opinion = 50
+	yearly_decay = 1
+}
+
+scolded_by_overlord = {
+	opinion = -50
+	yearly_decay = 2
 }

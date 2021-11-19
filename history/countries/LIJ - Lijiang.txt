@@ -1,0 +1,157 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = nakhi
+religion = vajrayana
+technology_group = chinese
+capital = 2167
+fixed_capital = 2167 # Cannot move capital away from this province & no power cost to move to it
+
+1442.1.1 = {
+	monarch = {
+		name = "A-hsi"
+		dynasty = "Mu"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1485.1.1 = {
+	monarch = {
+		name = "A-ya"
+		dynasty = "Mu"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1502.1.1 = {
+	monarch = {
+		name = "A-ch'iu"
+		dynasty = "Mu"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1526.1.1 = {
+	monarch = {
+		name = "A-kung"
+		dynasty = "Mu"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1553.1.1 = {
+	monarch = {
+		name = "A-mu"
+		dynasty = "Mu"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1568.1.1 = {
+	monarch = {
+		name = "A-tu"
+		dynasty = "Mu"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1579.1.1 = {
+	monarch = {
+		name = "A-sheng"
+		dynasty = "Mu"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1596.1.1 = {
+	monarch = {
+		name = "A-chai"
+		dynasty = "Mu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1597.1.1 = {
+	monarch = {
+		name = "A-ssu"
+		dynasty = "Mu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+
+1623.1.1 = {
+	monarch = {
+		name = "A-ch'un"
+		dynasty = "Mu"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1669.1.1 = {
+	monarch = {
+		name = "A-su"
+		dynasty = "Mu"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+1671.1.1 = {
+	monarch = {
+		name = "You"
+		dynasty = "Mu"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1680.1.1 = {
+	monarch = {
+		name = "A-wei"
+		dynasty = "Mu"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1684.1.1 = {
+	monarch = {
+		name = "Aw-Khü"
+		dynasty = "Mu"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1720.1.1 = {
+	monarch = {
+		name = "A-dzu"
+		dynasty = "Mu"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

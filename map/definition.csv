@@ -5069,5 +5069,45 @@ province;red;green;blue;x;x
 5068;104;47;0;Te Whanganui A Tara/Wellington;x
 5069;34;145;28;Tamaki Makaurau/Auckland;x
 5070;86;98;99;South Island Wasteland/Southern Alps;x
-5071;77;88;89;North Island Wasteland/Kaimanawa Range;x
+5071;34;58;108;Taupo;x
 5072;83;1;184;Chin Hills;x
+5073;201;38;245;Himalaya2;x #Tibet
+5074;56;41;97;Mustang;x
+5075;4;190;104;Riwoche;x
+5076;74;209;126;Delingha;x
+5077;18;208;112;Chone;x
+5078;220;36;97;Yongning;x
+5079;106;136;242;Litang;x
+5080;97;45;249;Nangchen;x
+5081;236;171;255;Powo;x
+5082;162;31;187;Duoma;x
+5083;205;165;91;Gonggar;x
+5084;16;138;9;Bumthang;x
+5085;186;69;236;Mangyul;x
+5086;68;114;22;Zangskar;x
+5087;221;113;107;Himalaya3;x
+5088;161;223;60;Lingtsang;x
+5089;70;164;242;Golok;x
+5090;114;148;148;Ralung/Gyantse;x
+5091;234;212;38;Trehor;x
+5092;9;5;34;Muli;x
+5093;111;230;150;Nyarong;x
+5094;0;127;168;Gonjo;x
+5095;228;20;29;Gyampo/Gyamda;x
+5096;189;199;142;Hunza;x
+5097;19;168;102;Chitral;x
+5098;100;163;238;Tian Shan;x
+5099;185;100;98;Mannar;x #Ceylon
+5100;74;140;117;Sitawaka;x
+5101;91;86;186;Takau;x #Taiwan
+5102;57;61;174;Xinning;x #China
+5103;29;114;116;Guishun;x
+5104;136;0;21;Guangzhouwan;x
+5105;47;32;117;Gaozhou;x
+5106;157;0;23;Hong Kong;x
+5107;44;31;203;Jiaying/Kaying;x
+5108;200;65;0;Beruas;x #Malaya
+5109;77;88;89;Volcanic Plateau;x #North Island wasteland
+5110;142;55;55;Chenzhou; #Back to China - Hunan
+5111;133;52;52;Yongzhou;x
+5112;0;34;230;Baoqing;x

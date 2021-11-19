@@ -74,6 +74,59 @@ spriteTypes = {
 		texturefile = "gfx//interface//missions//siam_western_advisors.dds"
 	}
 	
+	spriteType = {
+		name = "mission_mekong"
+		texturefile = "gfx//interface//missions//mekong.dds"
+	}
+	
+	spriteType = {
+		name = "mission_malay_cavalry"
+		texturefile = "gfx//interface//missions//malay_cavalry.dds"
+	}
+	
+	spriteType = {
+		name = "mission_malay_tribute"
+		texturefile = "gfx//interface//missions//malay_tribute.dds"
+	}
+	
+	spriteType = {
+		name = "mission_malay_ship"
+		texturefile = "gfx//interface//missions//malay_ship.dds"
+	}
+	
+	spriteType = {
+		name = "mission_filipino_warrior"
+		texturefile = "gfx//interface//missions//filipino_warrior.dds"
+	}
+	
+	spriteType = {
+		name = "mission_pagaruyung"
+		texturefile = "gfx//interface//missions//pagaruyung.dds"
+	}
+	
+	spriteType = {
+		name = "mission_sea_throne_room"
+		texturefile = "gfx//interface//missions//sea_throne_room.dds"
+	}
+	
+	spriteType = {
+		name = "mission_malay_villagers"
+		texturefile = "gfx//interface//missions//malay_villagers.dds"
+	}
+	
+	spriteType = {
+		name = "mission_malay_ruler"
+		texturefile = "gfx//interface//missions//mission_malay_ruler.dds"
+	}
+	spriteType = {
+		name = "mission_malay_alliance"
+		texturefile = "gfx//interface//missions//malay_alliance.dds"
+	}
+	spriteType = {
+		name = "mission_malay_hero"
+		texturefile = "gfx//interface//missions//malay_hero.dds"
+	}
+	
 	# Ayutthaya
 	
 	spriteType = {
@@ -137,6 +190,16 @@ spriteTypes = {
 		texturefile = "gfx//interface//missions//siamese_naval_invasion.dds"
 	}
 	
+	spriteType = {
+		name = "mission_siamese_women"
+		texturefile = "gfx//interface//missions//siamese_women.dds"
+	}
+	
+	spriteType = {
+		name = "mission_chakrawat_phaichayon_hall"
+		texturefile = "gfx//interface//missions//chakrawat_phaichayon_hall.dds"
+	}
+	
 	#Sukhothai
 	
 	spriteType = {
@@ -179,6 +242,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//missions//rice_irrigation.dds"
 	}
 	
+	spriteType = {
+		name = "mission_sukhothai_pagoda"
+		texturefile = "gfx//interface//missions//sukhothai_pagoda.dds"
+	}
+	
 	#Lan Na
 	
 	spriteType = {
@@ -201,6 +269,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//missions//conquer_kengtung.dds"
 	}
 	
+	spriteType = {
+		name = "mission_lanna_seal"
+		texturefile = "gfx//interface//missions//lanna_seal.dds"
+	}
+	
 	#Cambodia
 	
 	spriteType = {
@@ -212,5 +285,17 @@ spriteTypes = {
 	spriteType = {
 		name = "mission_muang_phuan"
 		texturefile = "gfx//interface//missions//muang_phuan.dds"
+	}
+	
+	#Pegu
+	spriteType = {
+		name = "mission_razadarit"
+		texturefile = "gfx//interface//missions//razadarit.dds"
+	}
+	
+	#Brunei
+	spriteType = {
+		name = "mission_brunei_flag"
+		texturefile = "gfx//interface//missions//brunei_flag.dds"
 	}
 }	

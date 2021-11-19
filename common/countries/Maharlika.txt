@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 
-graphical_culture = asiangfx
+graphical_culture = indiangfx
 
 color = { 236  147  216 }
 
@@ -20,7 +20,7 @@ historical_units = {
 	malay_mongolian_bow
 	malay_arquebusier
 	malay_charge_cavalry
-        malay_mass_infantry
+	malay_mass_infantry
 	malay_musketeer
 	malay_reformed_asian_musketeer
 	malay_reformed_asian_cavalry
@@ -54,6 +54,50 @@ monarch_names = {
 	"Kalamayin #0" = 10
 	"Bagtas #0" = 10
 	
+	"Aeign #0" = 10	
+	"Alab #0" = 10
+	"Alad #0" = 10 #Ilocano
+	"Alam #0" = 10
+	"Alamon #0" = 10
+	"Alho #0" = 10	
+	"Banoy #0" = 10
+	"Bantug #0" = 10	
+	"Buhawi #0" = 10
+	"Busilak #0" = 10	
+	"Buwan #0" = 10
+	"Chilapulapu #0" = 10	
+	"Dakila #0" = 10
+	"Datu #0" = 0
+	"Diwa #0" = 10	
+	"Humabon #0" = 10	
+	"Isagani #0" = 10
+	"Kidlat #0" = 10
+	"Lakandula #0" = 10	
+	"Lapu Lapu #0" = 10	
+	"Lontoc #0" = 10
+	"Lontok #0" = 10	
+	"Lumay #0" = 10
+	"Luntian #0" = 10 #Tagalog & Cebuano
+	"Makisig #0" = 10
+	"Malaki #0" = 10
+	"Magiting #0" = 10	
+	"Mangal #0" = 10
+	"Parang #0" = 10	
+	"Ramil #0" = 10
+	"Sikatuna #0" = 10	
+	"Sinag #0" = 10
+	"Sudi #0" = 10 #Ilocano
+	"Tadhana #0" = 10	
+	"Taer #0" = 10 #Ilocano
+	"Tagumpay #0" = 10
+	"Tamaraw #0" = 10	
+	"Tanashiri #0" = 10
+	"Tanyag #0" = 10
+	"Tupas #0" = 10	
+	"Ulan #0" = 10	
+	"Ukob #0" = 10
+	"Zula #0" = 10	
+	
 	"Sasaban #0" = -5
 	"Panginoan #0" = -5
 	"Malyag #0" = -5
@@ -63,19 +107,56 @@ monarch_names = {
 	"Hafeeza #0" = -1
 	"Aisha #0" = -1
 	"Azura #0" = -1
+	
+	"Atay #0" = -1
+	"Bighani #0" = -1
+	"Bolowan #0" = -1 #Maranao name
+	"Bugbung #0" = -5
+	"Bulaklak #0" = -1
+	"Busilak #0" = -1
+	"Buwan #0" = -1
+	"Diwa #0" = -1
+	"Diwata #0" = -1
+	"Eeya #0" = -1
+	"Humamai #0" = -5
+	"Kulay #0" = -1
+	"Lahat #0" = -1
+	"Ligaya #0" = -1
+	"Liwliwa #0" = -1 #Ilocano
+	"Luningning #0" = -1
+	"Luwalhati #0" = -1
+	"Mahalina #0" = -1	
+	"Malyag #0" = -1
+	"Marikit #0" = -1
+	"Mayumi #0" = -1
+	"Mutya #0" = -1
+	"Sampaguita #0" = -1	
+	"Sinag #0" = -1
+	"Tadhana #0" = -1
+	"Tala #0" = -1
+	"Talim #0" = -1	
+	"Talna #0" = -1
+	"Tanashiri #0" = -1
+	"Tiyaga #0" = -1 #Tagalog & Cebuano
+	"Ulan #0" = -1		
 }
 
 leader_names = {
-	Agung
-	Batara
-	Bima
+	Aguho Agung Araw
+	Baktol Balagtas Balingit Banal Batara Bima Buntok Bunyi
+	Cabailo Capulong Cunanan
+	Dailisan Dayrit Dimacali Dimalanta Dimatulac Dimantag
 	Elok
-	Karna
+	Galang Gallora Galura Gatchalian Gatdula Gatmaitan Guintu
+	Kalaw Karna Kiling
+	Lacandola Lontoc
+	Macabulos Macapagal Macapinlac Mactan Makiling Manansala Mayari
+	Pamintuan Pangilinan Parojinog Pinlac Pusung	
 	Rimba
-	Saleh
-	Satria
-	Sentosa
-	Yuda
+	Saleh Salonga Sumanga Sapnu Satria Sentosa Sumaya
+	Tanyag Taruc Taruk Timbol Tupas Tugade Tumalak
+	Urduja	
+	Yalung Yuda
 }
 
 ship_names = {

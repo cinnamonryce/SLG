@@ -1,0 +1,91 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = asiangfx
+
+color = { 190  118  77 }
+
+revolutionary_colors = { 8 0 6 }
+
+historical_idea_groups = {
+	religious_ideas
+	economic_ideas
+	defensive_ideas
+	offensive_ideas
+	administrative_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+}
+
+historical_units = {
+	east_asian_spearmen
+	eastern_bow
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	reformed_asian_musketeer
+	reformed_asian_cavalry
+}
+
+monarch_names = {
+	"Ngawang Namgyal #0" = 10
+	"Pekar Jungney #0" = 10
+	"Kunga Gyaltshen #0" = 10
+	"Phyogla Namgyal #0" = 10
+	"Jigme Norbu #0" = 10
+	"Mipham Wangpo #0" = 10
+	"Pema Lingpa #0" = 10
+	"Jigme Dragpa #0" = 10
+	"Choeki Gyaltshen #0" = 10
+	"Chikharatho #1" = 20
+	"Sumthrang Chorji #1" = 20
+	"Zhigpo Tashi Sengye #1" = 20
+	"Bajra Duepa #1" = 20
+	"Depa Paljor #1" = 20
+	"Palden Sengye #1" = 20
+	"Tenpa Nyima #1" = 20
+	"Jamjeng Dragpa Oezer #1" = 20
+	"Surah Palinyal #0" = -5
+	"Kunzang #0" = -1
+	"Deki Choden #0" = -1
+}
+
+leader_names = {
+	Chomphel
+	Tshering
+	Rabgye
+	Gyamtsho
+	Wangpo
+	Peljor
+	Gyaltshen
+	Wangchuck
+	Wangchuck
+	Wangchuck
+	Wangchuck
+	Dung
+	Dung
+	Dung
+	Dung
+	Dung
+	Dung
+	Dung
+	Dung
+	Phuntsho
+	Lhopi
+	Ura
+	Ura
+	Ura
+	Mongar
+	Mongar
+	Mongar
+	Nyo
+	Nyo
+}
+
+ship_names = {
+	Chhu Punaka "Dng Chu" "Manas Chu"
+	"Mangde Chu" "Mo Chu" "Pa Chu"
+	"Pho Chu" Sangkosh Thimbu
+	"Tongsa Chu" "Towang Chu"
+}

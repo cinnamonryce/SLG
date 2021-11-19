@@ -267,7 +267,7 @@ lxa_2 = {
 	}
 	
 	lxa_khm = {
-		icon = mission_ne_palisades
+		icon = mission_angkor
 		required_missions = { lxa_raid_angkor }
 		provinces_to_highlight = {
 			OR = {

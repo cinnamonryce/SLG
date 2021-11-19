@@ -1,0 +1,74 @@
+# SOME META SCRIPT EXAMPLES
+# This also works for Scripted effects the same. Provided arguments will be pasted in
+# wherever the key occurs. If it fails to compile you should get a proper error message
+# and the source generated in the error log. There is no added overhead during runtime but
+# if used extensivley it might make loading time longer.
+#
+# my_test_trigger = {
+#	OR = {
+#		has_country_modifier = $ARG1$_modifier
+#		AND = {
+#			has_country_modifier = $ARG2$_modifier
+#			$CONTEXT$ = {
+#				NOT = { has_country_modifier = $ARG1$_modifier }
+#			}
+#		}
+#	}
+# }
+# Usage:
+# my_test_trigger = { ARG1=foo ARG2=bar CONTEXT=FROM }
+
+has_dharma_elephants_trigger = {
+	OR = {
+		has_dlc = "Dharma"
+		has_dlc = "Dharma - Indian Sultanate Pack"
+		has_dlc = "Dharma - Hindu Unit Pack"
+	}
+	OR = {
+		culture_group = hindusthani
+		culture_group = eastern_aryan
+		culture_group = western_aryan
+		culture_group = dravidian
+		culture_group = central_indic
+		culture_group = southeastasian_group
+		culture_group = thai_group
+		culture_group = burman
+		primary_culture = cham
+		primary_culture = sumatran
+		primary_culture = javanese
+		primary_culture = malayan
+		primary_culture = musi
+		tag = CDL #Dali
+	}
+}
+
+is_volcanic_area = { #polynesia and indonesia
+	OR = {
+		area = north_sumatra_area #aceh
+		area = batak_area
+		area = minangkabau_area
+		area = south_sumatra_area #lampung
+		area = banten_area
+		area = east_java_area
+		area = central_java_area
+		area = west_java_area
+		area = lesser_sunda_islands_area
+		area = mindanao_area #east mindanao
+		area = west_mindanao_area
+		area = visayas_area
+		area = luzon_area #northern luzon
+		area = southern_luzon_area
+		area = te_ika_a_maui_hauauru_area
+		area = te_ika_a_maui_waho_area
+		area = eastern_polynesia_area #tahiti
+		area = northern_polynesia_area #hawaii
+		area = polynesia_area
+		area = melanesia_area
+		#NEW
+		area = birds_tail_area
+		area = momase_area
+		area = spice_islands_area
+		area = ternate_area
+		area = timor_area
+	}
+}

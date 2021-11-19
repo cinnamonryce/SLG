@@ -1,17 +1,18 @@
 #2073 - Baltistan
 
-owner = LDK
-controller = LDK
+owner = GIL
+controller = GIL
 culture = kashmiri #Dardic/Shina and Balti
 religion = buddhism
-capital = "Skardu"
-trade_goods = wool
+capital = "Gilgit"
+trade_goods = grain
 hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 1
+base_tax = 2 
+base_production = 2
+base_manpower = 3
 is_city = yes
-add_core = LDK
+add_core = GIL
+add_core = HNZ
 
 
 
@@ -31,8 +32,8 @@ discovered_by = malay_group
 	add_core = KSH
 } #Shah Mirs
 1570.1.1 = {
-	owner = LDK
-	controller = LDK
+	owner = GIL
+	controller = GIL
 	remove_core = KSH
 }
 

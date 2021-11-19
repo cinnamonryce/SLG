@@ -12,7 +12,7 @@ indonesians_3 = {
 	has_country_shield = yes
 	
 	indonesia_navy = {
-		icon = mission_junk_boat
+		icon = mission_malay_ship
 		required_missions = {  }
 		provinces_to_highlight = {
 		}
@@ -672,7 +672,7 @@ indonesians_4 = {
 		}
 	}
 	indonesia_convert_region = {
-		icon = mission_indian_stateman
+		icon = mission_malay_ruler #mission_indian_stateman
 		required_missions = { indonesia_convert_island }
 		provinces_to_highlight = {
 			NOT = { religion = ROOT }
@@ -710,7 +710,7 @@ indonesians_4 = {
 		}
 	}
 	indonesia_unite_nusantara = {
-		icon = mission_invade_island
+		icon = mission_garuda
 		required_missions = {  }
 		provinces_to_highlight = {
 			OR = {

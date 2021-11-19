@@ -1,0 +1,29 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = amdowa
+religion = vajrayana
+technology_group = chinese
+capital = 2170
+government_rank = 1
+add_accepted_culture = gyelrong
+
+1374.1.1 = {	
+	monarch = {
+		name = "Duogan Cangquan"
+		dynasty = "Panwei"
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+
+1445.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+

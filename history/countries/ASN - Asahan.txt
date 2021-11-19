@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+primary_culture = batak
+religion = sunni
+technology_group = malay_group
+capital = 4810 #Asahan
+religious_school = shafii_school
+
+1399.1.1 = {
+	add_piety = -0.1
+}

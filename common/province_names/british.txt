@@ -226,7 +226,7 @@
 4858 = { "Wollongong" "Wollongong" }
 4859 = { "Canberry" "Canberry" }
 4860 = { "Goulburn" "Goulburn" }
-4861 = "Wangaratta"
+4861 = { "Hume" "Wangaratta" }
 4862 = { "Port Pirie" "Port Pirie" }
 4863 = { "Avon" "York" }
 4864 = { "Wheatbelt" "Moora" } #Wheatbelt or Moore River
@@ -291,6 +291,7 @@
 5067 = { "Otago" "Dunedin" }
 5068 = { "Wellington" "Wellington" }
 5069 = { "Auckland" "Auckland" }
+5071 = { "Taupo" "Taupo" }
 
 
 
@@ -336,7 +337,7 @@
 4842 = "Lacon"
 
 4962 = { "Singora" "Singora" }
-4969 = { "Pontiamas" "Ponthiamas" } 
+4969 = { "Ponthiamas" "Ponthiamas" } 
 
 #Burma
 579 = { "Mrohaung" "Mrohaung" }

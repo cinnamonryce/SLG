@@ -4,6 +4,7 @@ graphical_culture = asiangfx
 special_unit_culture = south_east_asian_special
 
 color = { 186  147  251 }
+revolutionary_colors = { 12 8 10 } #Palaung flag
 
 historical_idea_groups = {
 	defensive_ideas

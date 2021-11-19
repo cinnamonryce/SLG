@@ -1,0 +1,21 @@
+
+vassal = {
+	first = PHA
+	second = SKK
+	start_date = 1444.1.1
+	end_date = 1446.1.1
+}
+
+vassal = {
+	first = PHA
+	second = UTS
+	start_date = 1444.1.1
+	end_date = 1446.1.1
+}
+
+march = {
+	first = UTS
+	second = SKK
+	start_date = 1446.1.1
+	end_date = 1642.1.1
+}

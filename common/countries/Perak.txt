@@ -3,7 +3,7 @@
 graphical_culture = indiangfx
 special_unit_culture = south_east_asian_special
 
-color = { 81  130  136 }
+color = { 70  123  122 }
 revolutionary_colors = { 0 8 1 }
 
 historical_idea_groups = {

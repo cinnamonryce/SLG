@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = native_chieftain_system_reform
+primary_culture = yi
+religion = animism
+technology_group = chinese
+capital = 674	# Guiyang
+
+1440.1.1 = {
+	monarch = {
+		name = "Longfu"
+		dynasty = "An"
+		birth_date = 1410.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}

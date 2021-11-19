@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+technology_group = malay_group
+religion = sunni
+primary_culture = bajau
+capital = 637	# Api-Api/Jesselton
+religious_school = shafii_school

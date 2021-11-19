@@ -209,38 +209,15 @@ estate_burghers =
 		}
 	}
 	custom_name = {
-		desc = estate_berguelang
+		desc = estate_thuong
 		trigger = {
-			technology_group = indochinese
-			NOT = { culture_group = burman culture_group = thai_group }
-		}
-	}
-	custom_name = {
-		desc = estate_phra_khlang
-		trigger = {
-			OR = { culture_group = thai_group tag = AYU tag = SUK tag = LIG }
-		}
-	}
-	custom_name = {
-		desc = estate_vessa
-		trigger = {
-			culture_group = burman
-			OR = {
-				culture_group = burman
-				primary_culture = mon
-			}
-		}
-	}
-	custom_name = {
-		desc = estate_shahbandar
-		trigger = {
-			OR = { culture_group = malay tag = MLC }
+			primary_culture = vietnamese
 		}
 	}
 	custom_name = {
 		desc = estate_shangbang
 		trigger = {
-			culture_group = east_asian
+			OR = { culture_group = east_asian culture_group = lingnan }
 		}
 	}
 	custom_name = {
@@ -251,9 +228,85 @@ estate_burghers =
 		}
 	}
 	custom_name = {
+		desc = estate_pochteca
+		trigger = {
+			religion = nahuatl
+		}
+	}
+	custom_name = {
+		desc = estate_phra_khlang
+		trigger = {
+			OR = { primary_culture = central_thai primary_culture = northern_thai }
+		}
+	}
+	custom_name = {
+		desc = estate_vessa
+		trigger = {
+			OR = {
+				has_reform = mandala_reform
+				religion = hinduism
+			}
+			OR = {
+				culture_group = burman
+				primary_culture = mon
+			}
+		}
+	}
+	custom_name = {
+		desc = estate_vanik
+		trigger = {
+			primary_culture = khmer
+		}
+	}
+	custom_name = {
+		desc = estate_lam
+		trigger = {
+			OR = { primary_culture = lao primary_culture = shan }
+		}
+	}
+	custom_name = {
+		desc = estate_bani
+		trigger = {
+			OR = { primary_culture = cham tag = JAR }
+		}
+	}
+	custom_name = {
+		desc = estate_raja_bualawa
+		trigger = {
+			OR = { culture = moluccan culture = moluccan_malay tag = TER }
+		}
+	}	
+	custom_name = {
+		desc = estate_shahbandar
+		trigger = {
+			OR = { culture_group = malay tag = MLC }
+		}
+	}
+	custom_name = {
+		desc = estate_treba
+		trigger = {
+			culture_group = tibetan_group
+		}
+	}
+	custom_name = {
+		desc = estate_berguelang
+		trigger = {
+			technology_group = indochinese
+			NOT = { culture_group = burman culture_group = thai_group primary_culture = KHM }
+		}
+	}
+	custom_name = {
 		desc = estate_merchant_guilds
 		trigger = {
-			NOT = { religion_group = christian } #Diversify a bit more.
+			OR = {	#Just like "NOT = { religion_group = Christian }", but at least it doesn't override estate names for new religion groups
+				#Still needs more diversity
+				religion_group = muslim
+				religion_group = eastern
+				religion_group = dharmic
+				religion_group = pagan
+				religion_group = jewish_group
+				religion_group = zoroastrian_group
+			}
 		}
 	}
 
@@ -282,6 +335,8 @@ estate_burghers =
 		estate_burghers_prussian_confederation
 		estate_burghers_statutory_rights
 		estate_burghers_orang_laut_alliances
+		estate_burghers_control_over_the_mint
+		estate_burghers_hydraulic_rights
 	}
 
 	agendas = {

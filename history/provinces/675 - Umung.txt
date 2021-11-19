@@ -1,17 +1,17 @@
 #675 - Qujing
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CYI
+controller = CYI
 add_core = CYI
+add_core = CDL
 culture = yi
 religion = animism
 capital = "Umung"
 trade_goods = copper
 hre = no
 base_tax = 1 
-base_production = 1
-base_manpower = 3
+base_production = 2
+base_manpower = 2
 is_city = yes
 
 
@@ -21,6 +21,12 @@ discovered_by = indochinese
 discovered_by = malay_group
 discovered_by = indian
 discovered_by = nomad_group
+
+1630.1.1 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+} #She-An Rebellion crushed by Min
 
 1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
 

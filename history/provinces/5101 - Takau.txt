@@ -1,0 +1,64 @@
+#Takau (now Kaohsiung)
+
+culture = formosan
+religion = animism
+capital = "Takau"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+native_size = 30
+native_ferocity = 1
+native_hostileness = 5
+
+
+
+discovered_by = chinese
+discovered_by = indochinese
+discovered_by = malay_group
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+
+1521.1.1 = { discovered_by = SPA }
+1544.1.1 = { discovered_by = POR }
+
+1624.1.1 = {
+	owner = NED
+	controller = NED
+	add_core = NED
+	capital = "Tankoya" #Harbor was similarly rendered as 'Tancoia'
+	is_city = yes
+	trade_goods = naval_supplies
+	add_to_trade_company = NED
+	add_trade_company_investment = {
+		investment = company_administration
+		investor = NED
+	}
+	add_trade_company_investment = {
+		investment = company_depot
+		investor = NED
+	}
+}
+1626.1.1 = { controller = SPA } # Spanish occupation
+1642.1.1 = { controller = NED } # The Spanish settlers are driven out by the Dutch
+1662.2.1 = {
+	owner = FRM
+	controller = FRM
+	add_core = FRM
+	capital = "Banlian Chiu" #Actually renamed in 1664
+	remove_core = NED
+	religion = confucianism
+} # Captured by Zheng Chenggong
+1670.1.1 = { capital = "Takau" }
+1683.9.5 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+	capital = "Fongshan"
+	remove_core = FRM
+} # Submitted to Manchu control
+1786.1.1 = { revolt_risk = 5 } # Rebellion
+1788.1.1 = { revolt_risk = 0 }

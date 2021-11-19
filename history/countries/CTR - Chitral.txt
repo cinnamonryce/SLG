@@ -1,0 +1,177 @@
+government = tribal
+add_government_reform = indian_sultanate_reform
+primary_culture = kashmiri
+religion = sunni
+technology_group = indian
+capital = 5097 #Chitral
+fixed_capital = 5097
+
+1435.1.1 = {	
+	monarch = {
+		name = "Shah Karam"
+		dynasty = "Raees"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1458.1.1 = {	
+	monarch = {
+		name = "Shah Nizam"
+		dynasty = "Raees"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1491.1.1 = {
+	monarch = {
+		name = "Shah Akber"
+		dynasty = "Raees"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Shah Tahir"
+		dynasty = "Raees"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1531.1.1 = {
+	monarch = {
+		name = "Shah Nasir"
+		dynasty = "Raees"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1571.1.1 = {
+	monarch = {
+		name = "Sangeen Ali"
+		dynasty = "Katoor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1585.1.1 = {
+	monarch = {
+		name = "Muhtarram Shah"
+		dynasty = "Katoor"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1655.1.1 = {
+	monarch = {
+		name = "Sangeen Ali"
+		dynasty = "Katoor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1691.1.1 = {
+	monarch = {
+		name = "Muhammad Ghulam"
+		dynasty = "Katoor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1694.1.1 = {
+	monarch = {
+		name = "Shah Alam"
+		dynasty = "Katoor"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1696.1.1 = {
+	monarch = {
+		name = "Shah Muhammad Shafi"
+		dynasty = "Katoor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1717.1.1 = {
+	monarch = {
+		name = "Shah Faramurd"
+		dynasty = "Katoor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1724.1.1 = {
+	monarch = {
+		name = "Shah Azfal"
+		dynasty = "Katoor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1754.1.1 = {
+	monarch = {
+		name = "Shah Fazil"
+		dynasty = "Katoor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1757.1.1 = {
+	monarch = {
+		name = "Shah Nawaz Khan"
+		dynasty = "Katoor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1761.1.1 = {
+	monarch = {
+		name = "Shah Khairullah"
+		dynasty = "Katoor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1788.1.1 = {
+	monarch = {
+		name = "Shah Muhtarram Shah"
+		dynasty = "Katoor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

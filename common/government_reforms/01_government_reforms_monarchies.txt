@@ -2157,7 +2157,7 @@ heavenly_monarchy_reform = {
 }
 
 muslim_trade_ports_reform = {
-	icon = "noble_muslim"
+	icon = "malay_ruler"
 	allow_normal_conversion = yes
 	potential = {
 		num_of_total_ports = 1

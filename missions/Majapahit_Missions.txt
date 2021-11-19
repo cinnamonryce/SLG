@@ -17,9 +17,7 @@ majapahit_missions_1 = {
 				area = surabaya_area
 				area = central_java_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			surabaya_area = {
@@ -71,9 +69,7 @@ majapahit_missions_1 = {
 				area = west_java_area
 				area = banten_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			west_java_area = {
@@ -104,9 +100,7 @@ majapahit_missions_1 = {
 			OR = {
 				area = lesser_sunda_islands_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			lesser_sunda_islands_area = {

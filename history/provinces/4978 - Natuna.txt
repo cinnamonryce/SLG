@@ -1,4 +1,4 @@
-#4531 - Natuna
+#Natuna
 
 owner = MLC
 controller = MLC
@@ -12,7 +12,6 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 add_core = MLC
-add_core = JOH
 add_core = RIA
 extra_cost = 8
 center_of_trade = 1 #Surprisingly busy trade port between Malaya and China
@@ -33,4 +32,5 @@ discovered_by = ottoman
 1528.1.1 = {
 	owner = JOH
 	controller = JOH
+	add_core = JOH
 }

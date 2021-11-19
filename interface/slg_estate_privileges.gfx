@@ -1,0 +1,16 @@
+spriteTypes = {
+	spriteType = {
+		name = "privilege_native_chieftain_system"
+		texturefile = "gfx/interface/privileges/privilege_native_chieftain_system.dds"
+	}
+							
+	spriteType = {
+		name = "privilege_buddhism"
+		texturefile = "gfx/interface/privileges/privilege_buddhism.dds"
+	}
+	
+	spriteType = {
+		name = "privilege_rice_hat"
+		texturefile = "gfx/interface/privileges/privilege_rice_hat.dds"
+	}
+}

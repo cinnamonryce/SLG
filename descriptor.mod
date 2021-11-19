@@ -1,14 +1,15 @@
 version="2.0"
 tags={
-	"Events"
+	"Map"
 	"Expansion"
 	"Fixes"
+	"Events"
 	"Gameplay"
 	"Historical"
-	"Map"
-	"Missions And Decisions"
 	"National Ideas"
 	"New Nations"
+	"Religion"
+	"Missions And Decisions"
 }
 name="Suvarnabhumi 2.0"
 supported_version="1.31.5"

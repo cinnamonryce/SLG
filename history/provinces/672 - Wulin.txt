@@ -1,25 +1,22 @@
-#672 - Chenzhou
+#672 - Wuling
 
 owner = MNG
 controller = MNG
 add_core = MNG
-culture = xiang
-religion = confucianism
-capital = "Wulin"
+culture = miao
+religion = animism
+capital = "Wulingyuan"
 trade_goods = cotton
 hre = no
-base_tax = 3 
-base_production = 3
+base_tax = 1
+base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = CXI
-add_core = CHC
+add_core = CMI
 discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 discovered_by = nomad_group
-extra_cost = 8
-center_of_trade = 1
 
 1643.1.1 = { controller = CXI } # The Xi dynasty of Zhang Xianzhong
 1647.12.1 = {

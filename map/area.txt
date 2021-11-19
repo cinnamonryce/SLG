@@ -1,7 +1,83 @@
-# A province can only belong to one area!
+﻿# A province can only belong to one area!
 
 #Sea Areas:
 #No restriction on size.
+
+south_laos_area = {
+
+}
+
+kham_area = {
+	2133 5079 5088 5093
+}
+
+qamdo_area = {
+	2131 2132 5075 5094
+}
+
+nyingchi_area = { #New
+	2130 5081 5095
+}
+
+kashmir_area = { #5
+	508 2073 4449 5096 5097
+}
+
+ladakh_area = { #New
+	2074 4521 5086
+}
+
+amdo_area = { #4
+	2134 2170 2184 5077 5089
+}
+
+hor_area = { #New
+	705 4205 5080 5082
+}
+
+tsaidam_area = { #New
+	706 4204 5076
+}
+
+tsang_area = { #U
+	677 4517 4518 4519 5083
+}
+
+gyelrong_area = { #New
+	678 2135 5091
+}
+
+utsang_area = { #Tsang
+	676 4514 4515 5090
+}
+
+ngari_area = { #4
+	2128 4516 4520 5085
+}
+
+nepal_area = { #Changed, now Kathmandu
+	557 2071 4483 4484 
+}
+
+chaubisi_rajya_area = { #New
+	2070 4485 5074
+}
+
+mithila_area = { #Changed, now Makwanpur is in the same area as the rest of the Nepalese provs
+	2047 4487 4488
+}
+
+lijiang_area = { #3 (Nakhi People)
+	2167 5078 5092
+}
+
+bhutan_area = {
+	565 4481 4482 5084
+}
+
+########################################
+# Vanilla Stuff	       	       	       #
+########################################
 
 western_mediterrenean_area = {
 	1293 1294 1295 1296 1297 1298 1300 1301 1302 1303 1304 1305 1307
@@ -1848,8 +1924,8 @@ te_ika_a_maui_hauauru_area = { #4
 	1106 1107 2739 5069
 }
 
-te_ika_a_maui_waho_area = { #4
-	1108 2737 4939 5068
+te_ika_a_maui_waho_area = { #5
+	1108 2737 4939 5068 5071
 }
 
 te_waipounamu_area = { #5
@@ -2178,10 +2254,6 @@ bihar_area = { #4
 	558 4469 4472 4489
 }
 
-mithila_area = { #4
-	2047 4484 4487 4488
-}
-
 jharkhand_area = { #4
 	560 2096 4450 4470 4471
 }
@@ -2337,28 +2409,16 @@ himalayan_hills_area = { #4
 	509 511 2069 4493
 }
 
-nepal_area = { #5
-	557 2070 2071 4483 4485
-}
-
 baisi_rajya_area = { #3
 	4491 4492 554
 }
 
-bhutan_area = {
-	565 4481 4482
+lanka_area = { #North Lanka #4
+	2100 4408 4409 5099
 }
 
-kashmir_area = { #5
-	508 2073 2074 4449 4521
-}
-
-lanka_area = { #North Lanka #3
-	2100 4408 4409
-}
-
-south_lanka_area = { #3
-	572 2099 4407
+south_lanka_area = { #4
+	572 2099 4407 5100
 }
 
 ahmedabad_area = { #5
@@ -2408,12 +2468,12 @@ shan_hill_area = { #5
 	583 2400 4406 4952 4953
 }
 
-yawnghwe_area = { #4
-	587 588 4397 4398
+yawnghwe_area = { #5
+	587 588 2401 4397 4398
 }
 
 karenni_area = { #4
-	2401 4954 4955
+	590 2403 4954 4955
 }
 
 malaya_area = { #4
@@ -2424,8 +2484,12 @@ johor_area = { # 4
 	597 2686 4815 4978
 }
 
-malacca_area = { #4
-	595 596 2392 4970
+malacca_area = { #3
+	596 2392 4970
+}
+
+perak_area = { #3
+	595 4812 5108
 }
 
 #NEW
@@ -2466,8 +2530,8 @@ upper_cambodia_area = { #4
 	4828 4827 1823 2378
 }
 
-lower_burma_area = { #5
-	586 590 1815 2403 4399
+lower_burma_area = { #3
+	586 1815 4399
 }
 
 arakan_area = { #4
@@ -2487,8 +2551,8 @@ north_tenasserim_area = { #3
 	591 2404 4956
 }
 
-north_malaya_area = { # 4
-	594 2394 4812 4813
+north_malaya_area = { # 3
+	594 2394 4813
 }
 
 vietnam_area = { #3
@@ -2965,29 +3029,9 @@ zungaria_area = { #5
 	713 715 2120 4208 4683
 }
 
-amdo_area = { #4
-	705 706 2134 4204 
-}
-
-tsang_area = { #5
-	677 2130 4205 4517 4519
-}
-
 north_zungaria = { #3
 	714 2118 2119 4681 4684
 }
-
-kham_area = { #5
-	678 2131 2132 2133 2135 
-}
-
-utsang_area = { #4
-	676 4514 4515 4518
-}
-
-ngari_area = { #3
-	2128 4516 4520
-} #new!!
 
 hebei_area = { #4 (North Hebei)
 	703 1816 2136 4194
@@ -3029,16 +3073,25 @@ fujian_area = { #4
 	669 1829 2152 2153
 }
 
-taiwan_area = { #5
-	738 2154 2155 5007 5008
+taiwan_area = { #3
+	738 5007 5101
+}
+
+#NEW
+tamsui_area = { #3
+	2154 2155 5008
 }
 
 guangdong_area = { #5
-	667 668 2156 2157 2158
+	667 668 2156 2157 5106
 }
 
-west_guangdong_area = { #4
-	665 2159 2161 5017
+west_guangdong_area = { #5
+	2159 2161 5017 5104 5105
+}
+
+northern_guangdong_area = { #3
+	665 2158 5107
 }
 
 #NEW
@@ -3048,11 +3101,11 @@ hainan_area = { #3
 
 #NEW
 west_guangxi_area = { #5
-	664 2163 2164 5014 5015
+	664 2164 5014 5102 5103
 }
 
-guangxi_area = { #3
-	1840 2162 5016
+guangxi_area = { #5
+	1840 2162 2163 5015 5016
 }
 
 yun_gui_area = { #4 (Guizhou)
@@ -3060,12 +3113,12 @@ yun_gui_area = { #4 (Guizhou)
 }
 
 #NEW
-yunnan_area = { #5
-	662 663 2165 5012 5013 
+yunnan_area = { #4
+	662 663 5012 5013 
 }
 
 yun_gui_borderland_area = { #4
-	661 2167 5010 5011 
+	661 2165 5010 5011 
 }
 
 #NEW
@@ -3089,8 +3142,13 @@ huguang_area = { #5 (Hubei)
 	681 682 2171 2172 4197
 }
 
-hunan_area = { #4
-	671 672 2173 2174
+hunan_area = { #3
+	671 672 2173 
+}
+
+#NEW
+south_hunan_area = { #4
+	2174 5110 5111 5112
 }
 
 henan_area = { #3 (South Henan)
@@ -3916,129 +3974,6 @@ transvaal_area = { #4
 #Deprecated:
 #############################
 
-great_moluccas_area = {
-
-}
-
-khorasan_area = {
-}
-
-libyan_desert_area = {
-	 
-}
-
-gharbia_area = {
-}
-
-sharqiya_area = {
-}
-
-central_egypt_area = {
-}
-
-upper_egypt_area = {
-}
-
-eastern_mediterrenean_islands_area = {
-}
-
-western_aegean_area = {
-}
-
-odishi_area = {
-}
-
-georgia_area = {
-}
-
-rakka_area = {
-}
-
-south_kurdistan_area = {
-}
-
-east_china_sea_islands_area = {
-
-}
-
-east_african_islands_area = {
-	 
-}
-
-arabian_sea_islands_area = {
-	 
-}
-
-baltic_islands_area = {
-	 
-}
-
-east_altishahr_area = {
-
-}
-
-amnok_area = {
-
-}
-
-north_korea_area = {
-
-}
-
-hejaz_area = {
-
-}
-
-sarat_area = {
-	
-}
-
-ad_dahna_area = {
-}
-
-najd_area = {
-
-}
-
-northern_england_area = {
-}
-
-mercia_area = { 
-}
-
-eastern_ireland_area = {
-}
-
-western_ireland_area = {
-}
-
-
-seine_area = {
-}
-
-luxemburg_liege_area = {
-}
-
-coromandel_area = {
-}
-
-carnatic_area = {
-
-}
-
-kerala_area = {
-
-}
-maharashtra_area = {
-
-}
-gujarat_area = { }
-
-central_doab_area = {
-}
-
-nepalese_area = { }
-
 pomerelia_area = { }
 
 sonora_y_sinaloa_area  = { }
@@ -4050,7 +3985,3 @@ netherlands_area = { }
 indonesian_islands_area = {  }
 
 iceland_area = { }
-
-ceram_area = { }
-
-south_laos_area = { }

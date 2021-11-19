@@ -1,0 +1,18 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = amdowa
+religion = vajrayana
+technology_group = chinese
+capital = 706
+government_rank = 1
+
+1400.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+

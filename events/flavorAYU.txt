@@ -424,7 +424,8 @@ country_event = {
 			culture = greek
 			religion = catholic
 			skill = 3
-			cost_multiplier = 0.05
+			location = 4698 #Cephalonia
+			
 		}
 	}
 	option = {

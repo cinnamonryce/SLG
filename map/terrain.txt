@@ -555,6 +555,9 @@ categories =  {
 			4866
 			5024
 			5049
+
+			#Macky's Tibet
+			5076
 		}
 	}
 	
@@ -727,6 +730,11 @@ categories =  {
 
 			#2734
 			4861 #SLG Australia
+
+			#Macky's Tibet
+			5079 5090
+			5088 5089
+			5091 5092 5093 5094
 		}
 	}
 

@@ -3,7 +3,7 @@
 owner = LWA
 controller = LWA
 culture = nepali
-religion = vajrayana
+religion = animism
 capital = "Phedap"
 trade_goods = wool
 hre = no
@@ -25,6 +25,7 @@ discovered_by = NPL
 	owner = SKK
 	controller = SKK
 	add_core = SKK
+	religion = vajrayana
 }
 1690.1.1 = { discovered_by = ENG }
 1771.1.1 = {

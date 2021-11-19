@@ -1,0 +1,21 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_great_project_uluru"	
+		texturefile = "gfx//interface//great_projects//great_project_uluru.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_pha_that_luang"	
+		texturefile = "gfx//interface//great_projects//great_project_pha_that_luang.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_igorot_rice_terraces"	
+		texturefile = "gfx//interface//great_projects//great_project_igorot_rice_terraces.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_palk_strait"	
+		texturefile = "gfx//interface//great_projects//great_project_suez_canal.dds"
+	}
+}

@@ -16,7 +16,7 @@ mnd_siam_1 = {
 	has_country_shield = yes
 
 	mnd_siam_japan = {
-		icon = mission_japanese_samurai
+		icon = mission_to_the_south_china_sea
 		position = 10
 		required_missions = { mnd_siam_transfer_development }
 		provinces_to_highlight = {
@@ -49,7 +49,7 @@ mnd_siam_1 = {
 	}
 
 	mnd_siam_city_of_worlds_desire = {
-		icon = mission_mnd_khm_restored_empire
+		icon = mission_chakrawat_phaichayon_hall
 		position = 11
 		required_missions = { mnd_siam_mandala }
 		provinces_to_highlight = {

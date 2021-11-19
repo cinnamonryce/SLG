@@ -1,0 +1,12 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = banjarese
+religion = hinduism
+technology_group = malay_group
+capital = 2708	# Kotawaringin
+
+1700.1.1 = {
+        religion = sunni
+        religious_school = shafii_school
+	add_piety = 0.1
+}

@@ -2,7 +2,9 @@
 
 graphical_culture = indiangfx
 
-color = { 68  94  85 }
+color = { 57  79  77 }
+revolutionary_colors = { 8 6 8 }
+
 special_unit_culture = south_east_asian_special
 
 historical_idea_groups = {

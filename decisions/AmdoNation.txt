@@ -1,0 +1,86 @@
+country_decisions = {
+
+	amdo_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_amdo_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = AMD }
+			NOT = { tag = BHU }
+			NOT = { tag = QAM }
+			NOT = { tag = AMD }
+			NOT = { tag = TIB }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			OR = {
+				primary_culture = amdowa
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 5
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2184		# XINING
+				province_id = 5077		# CHONE
+				province_id = 5089		# GOLOG
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 2184		# Xining
+			owns_core_province = 5077		# Chone
+			owns_core_province = 5089		# Golog
+
+		}
+		effect = {
+		restore_country_name = yes
+			change_tag = AMD
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			every_province = {
+				limit = {
+					OR = {
+						culture = amdowa
+						area = tsaidam_area
+					}
+				}
+				add_core = AMD
+			}
+			add_prestige = 25
+			set_country_flag = formed_amdo_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+}

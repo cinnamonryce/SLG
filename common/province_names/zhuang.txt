@@ -10,3 +10,6 @@
 5014 = "Tenzcouh"
 5015 = "Sihenz"
 5016 = "Bingzloz"
+
+5102 = "Sinzningz"
+5103 = "Gveisunh" #Unsure about this transliteration

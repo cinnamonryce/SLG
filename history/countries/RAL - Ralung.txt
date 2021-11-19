@@ -1,0 +1,62 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = tibetan
+religion = vajrayana
+technology_group = chinese
+capital = 5090 #Gyantse/Ralung
+government_rank = 1
+
+1428.1.1 = {
+	monarch = {
+		name = "Kunga Penjor"
+		dynasty = "Drukpa"
+		birth_date = 1428.1.1
+		adm = 6
+		dip = 4
+		mil = 2
+	}
+}
+
+1476.1.1 = {
+	monarch = {
+		name = "Ngawang Chogyal"
+		dynasty = "Drukpa"
+		birth_date = 1465.1.1
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Ngakyi Wangchuck"
+		dynasty = "Drukpa"
+		birth_date = 1517.1.1
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+}
+
+1554.1.1 = {
+	monarch = {
+		name = "Mipham Chogyal"
+		dynasty = "Drukpa"
+		birth_date = 1543.1.1
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+}
+
+1604.1.1 = {
+	monarch = {
+		name = "Mipham Tenpai Nyima"
+		dynasty = "Drukpa"
+		birth_date = 1567.1.1
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}

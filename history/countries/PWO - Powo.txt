@@ -1,0 +1,27 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = khampa
+religion = vajrayana
+technology_group = chinese
+capital = 5081 #Powo
+government_rank = 1
+
+1444.11.11 = {
+	monarch = {
+		name = "Kanam Depa"
+		dynasty = "Yarlung"
+		adm = 1
+		dip = 1
+		mil = 3
+	}
+}
+
+1796.1.1 = {
+	monarch = {
+		name = "Nyima Jiebu"
+		dynasty = "Yarlung"
+		adm = 1
+		dip = 2
+		mil = 3
+	}
+}

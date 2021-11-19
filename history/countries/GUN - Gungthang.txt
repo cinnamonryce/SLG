@@ -1,0 +1,95 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = tibetan
+religion = vajrayana
+technology_group = chinese
+capital = 5085 #Mangyul
+government_rank = 1
+
+1424.1.1 = {
+	monarch = {
+		name = "Tri Lhawang Gyaltsen"
+		dynasty = "De"
+		adm = 4
+		dip = 4
+		mil = 2
+		birth_date = 1404.1.1
+	}
+	add_ruler_personality = scholar_personality
+}
+
+1424.1.1 = {
+	heir = {
+		name = "Chokyi Dronma"
+		dynasty = "De"
+		adm = 5
+		dip = 5
+		mil = 2
+		birth_date = 1422.1.1
+		death_date = 1455.1.1
+		female = yes
+	}
+	add_heir_personality = pious_personality
+}
+
+1464.1.1 = {
+	monarch = {
+		name = "Tri Namgyal"
+		dynasty = "De"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1430.1.1
+	}
+}
+
+1512.1.1 = {
+	monarch = {
+		name = "Trigyal Samdrub"
+		dynasty = "De"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+
+1534.1.1 = {
+	monarch = {
+		name = "Gongkar Lodro"
+		dynasty = "De"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1556.1.1 = {
+	monarch = {
+		name = "Kunzang Trakpa"
+		dynasty = "De"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1578.1.1 = {
+	monarch = {
+		name = "Trigyal Samdrub"
+		dynasty = "De"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Sonam Wangchuk"
+		dynasty = "De"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

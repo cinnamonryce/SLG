@@ -1,0 +1,12 @@
+government = monarchy
+add_government_reform = mandala_reform
+technology_group = indochinese
+religion = buddhism
+primary_culture = shan
+capital = 4951 #Wanmaw
+fixed_capital = 4951
+
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}

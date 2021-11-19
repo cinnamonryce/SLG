@@ -1,0 +1,91 @@
+country_decisions = {
+
+	kham_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_kham_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = QAM }
+			NOT = { tag = BHU }
+			NOT = { tag = QAM }
+			NOT = { tag = TIB }
+			NOT = { tag = AMD }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			OR = {
+				primary_culture = khampa
+				primary_culture = gyelrong
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 10
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2133		# DEGE
+				province_id = 678		# KANGDING
+				province_id = 705		# GYEGU
+				province_id = 2131		# QAMDO
+				province_id = 5079		# LITANG
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 2133		# Dege
+			owns_core_province = 678		# Kangding
+			owns_core_province = 705		# Gyegu
+			owns_core_province = 2131		# Qamdo
+			owns_core_province = 5079		# Litang
+
+		}
+		effect = {
+		restore_country_name = yes
+			change_tag = QAM
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			every_province = {
+				limit = {
+					OR = {
+						culture = khampa
+						culture = gyelrong
+					}
+				}
+				add_core = QAM
+			}
+			add_prestige = 25
+			set_country_flag = formed_kham_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+}

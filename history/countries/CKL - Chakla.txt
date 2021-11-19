@@ -1,0 +1,28 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = gyelrong
+religion = vajrayana
+technology_group = chinese
+capital = 678 #Kangding
+government_rank = 1
+
+1407.1.1 = {
+	monarch = {
+		name = "Ngawang Ginseng"
+		dynasty = "Jia"
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+
+1473.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+

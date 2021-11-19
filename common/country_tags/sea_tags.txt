@@ -49,6 +49,39 @@ BAC = "countries/Bacan.txt"
 DPT = "countries/Dapitan.txt"
 
 NAN = "countries/Nan.txt"
-TTU = "countries/Tatuturo.txt"
 TNS = "countries/Tenasserim.txt"
+LVO = "countries/Lavo.txt"
+WNM = "countries/Wanmaw.txt"
+
+TTU = "countries/Tatuturo.txt"
+
+ASN = "countries/Asahan.txt"
 LMP = "countries/Lampung.txt"
+KTW = "countries/Kotawaringin.txt"
+SBH = "countries/Sabah.txt"
+TGN = "countries/Terengganu.txt"
+
+
+
+#New Tibetan tags by Macky527
+#Tibetan Tags
+JON = "countries/Chone.txt"
+PWO = "countries/Powo.txt"
+CKL = "countries/Chakla.txt"
+NGC = "countries/Nangchen.txt" #Changed from NAN to avoid conflict
+GIL = "countries/Gilgit.txt"
+MAQ = "countries/Baltistan.txt"
+LOO = "countries/Lo.txt"
+LIN = "countries/Lingtsang.txt"
+HOR = "countries/HorStates.txt"
+LIJ = "countries/Lijiang.txt"
+GLK = "countries/Golok.txt"
+BUM = "countries/Bumthang.txt"
+RAL = "countries/Ralung.txt"
+QAM = "countries/Kham.txt"
+HNZ = "countries/Hunza.txt"
+CTR = "countries/Chitral.txt"
+GUN = "countries/Gungthang.txt"
+PAO = "countries/Paro.txt"
+LHA = "countries/Lhato.txt"
+AMD = "countries/Amdo.txt"

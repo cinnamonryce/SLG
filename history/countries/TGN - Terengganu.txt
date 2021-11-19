@@ -1,0 +1,95 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+primary_culture = malayan
+religion = sunni
+technology_group = malay_group
+capital = 2393	# Terengganu
+fixed_capital = 2393 # Cannot move capital away from this province & no power cost to move to it
+religious_school = shafii_school
+
+1387.1.1 = {
+	add_piety = 0.1
+}
+
+1708.1.1 = {
+	monarch = {
+		name = "Zainal Abidin I"
+		dynasty = "Bendahara"
+		birth_date = 1678.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1710.1.1 = {
+	heir = {
+		name = "Mansur Shah"
+		monarch_name = "Mansur Shah I"
+		dynasty = "Bendahara"
+		birth_date = 1710.1.1
+		death_date = 1794.7.14
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+
+1733.1.1 = {
+	monarch = {
+		name = "Mansur Shah I"
+		dynasty = "Bendahara"
+		birth_date = 1710.1.1
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+
+1744.1.1 = {
+	heir = {
+		name = "Zainal Abidin"
+		monarch_name = "Zainal Abidin II"
+		dynasty = "Bendahara"
+		birth_date = 1744.1.1
+		death_date = 1808.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1794.7.14 = {
+	monarch = {
+		name = "Zainal Abidin II"
+		dynasty = "Bendahara"
+		birth_date = 1744.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+	heir = {
+		name = "Ahmad Shah"
+		monarch_name = "Ahmad Shah I"
+		dynasty = "Bendahara"
+		birth_date = 1770.1.1
+		death_date = 1830.7.4
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1808.1.1 = {
+	monarch = {
+		name = "Ahmad Shah I"
+		dynasty = "Bendahara"
+		birth_date = 1770.1.1
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}

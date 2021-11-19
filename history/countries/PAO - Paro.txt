@@ -1,0 +1,128 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = bhutanese
+religion = vajrayana
+technology_group = chinese
+capital = 565
+government_rank = 1
+
+1400.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+
+1444.10.10 = {
+	monarch = {
+		name = "Drung Drung"
+		dynasty = "Hungrel"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Namkha Gyeltshen"
+		monarch_name = "Namkha Gyeltshen"
+		dynasty = "Hungrel"
+		birth_date = 1444.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+	queen = {
+		country_of_origin = PAO
+		name = "Gedun Zangmo"
+		dynasty = "Dakini"
+		birth_date = 1420.1.25
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architectural_visionary_personality
+	add_queen_personality = calm_personality
+	add_heir_personality = scholar_personality
+}
+
+1473.1.1 = {
+	monarch = {
+		name = "Namkha Gyeltshen"
+		dynasty = "Hungrel"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+	queen = {
+		country_of_origin = PAO
+		name = "Dakini"
+		dynasty = "Dakini"
+		female = yes
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = scholar_personality
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Choeden Legpai Lodroe"
+		monarch_name = "Choeden Legpai Lodroe"
+		dynasty = "Hungrel"
+		birth_date = 1480.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}	
+
+1540.1.1 = {
+	monarch = {
+		name = "Choeden Legpai Lodroe"
+		dynasty = "Hungrel"
+		birth_date = 1510.1.1
+		adm = 4
+		dip = 4
+		mil = 1
+	}
+	heir = {
+		name = "Lagen"
+		monarch_name = "Lagen Chopa"
+		dynasty = "Hungrel"
+		birth_date = 1535.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+	queen = {
+		country_of_origin = PAO
+		name = "Buri"
+		dynasty = "Changangkha"
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = midas_touched_personality
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

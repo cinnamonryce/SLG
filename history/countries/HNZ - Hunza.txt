@@ -1,0 +1,197 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = kashmiri
+religion = vajrayana
+technology_group = indian
+capital = 5096 #Hunza
+fixed_capital = 5096
+
+1435.1.1 = {	
+	monarch = {
+		name = "Sahib" #Queen Girghis
+		dynasty = "Khan"
+		adm = 4
+		dip = 3
+		mil = 4
+		female = yes
+	}
+}
+
+1450.1.1 = {	
+	monarch = {
+		name = "Noor Bibi"
+		adm = 1
+		dip = 1
+		mil = 1
+		female = yes
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Shah"
+		dynasty = "Khan"
+		adm = 1
+		dip = 1
+		mil = 1
+		female = yes
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Muri Thum"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1521.1.1 = {
+	monarch = {
+		name = "Ayasho"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Mir Hyder"
+		dynasty = "Khan"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1565.1.1 = {
+	monarch = {
+		name = "Mir Yusuf"
+		dynasty = "Khan"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1590.1.1 = {
+	monarch = {
+		name = "Mir Malik"
+		dynasty = "Khan"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1605.1.1 = {
+	monarch = {
+		name = "Mir Mirza Thum"
+		dynasty = "Khan"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Mir Salim"
+		dynasty = "Khan"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1665.1.1 = {
+	monarch = {
+		name = "Mir Shah Sultan"
+		dynasty = "Khan"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1685.1.1 = {
+	monarch = {
+		name = "Mir Harithum"
+		dynasty = "Khan"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1710.1.1 = {
+	monarch = {
+		name = "Mir Shahbaz"
+		dynasty = "Khan"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1740.1.1 = {
+	monarch = {
+		name = "Mir Shah"
+		dynasty = "Khan"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1742.1.1 = {
+	monarch = {
+		name = "Mir Ghulam"
+		dynasty = "Khan"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1745.1.1 = {
+	monarch = {
+		name = "Mir Shahbeg"
+		dynasty = "Khan"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Mir Shah Kisro"
+		dynasty = "Khan"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Mir Mirza"
+		dynasty = "Khan"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1790.1.1 = {
+	monarch = {
+		name = "Mir Salim"
+		dynasty = "Khan"
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}

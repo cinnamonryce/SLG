@@ -1,0 +1,27 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = khampa
+religion = vajrayana
+technology_group = chinese
+capital = 5080 #Nangchen
+government_rank = 1
+
+1390.1.1 = {
+	monarch = {
+		name = "Kyodrak Chorje"
+		dynasty = "Dru"
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

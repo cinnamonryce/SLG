@@ -26,7 +26,7 @@ mnd_khmer_1 = {
 				development = 15
 				has_great_project = {
 					type = angkor_wat
-					tier = 1
+					tier = 2
 				}
 			}
 		}
@@ -681,7 +681,6 @@ mnd_khmer_5 = {
 				amount = 12
 				all_province = {
 					OR = {
-						area = south_laos_area
 						area = north_laos_area
 						area = champasak_area
 						area = vientiane_area

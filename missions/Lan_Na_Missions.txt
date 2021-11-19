@@ -17,9 +17,7 @@ lna_missions_1 = {
 		position = 2
 		provinces_to_highlight = {
 			province_id = 601
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			601 = {
@@ -49,9 +47,7 @@ lna_missions_1 = {
 		position = 3
 		provinces_to_highlight = {
 			area = sukhothai_area
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			sukhothai_area = {
@@ -91,9 +87,7 @@ lna_missions_1 = {
 		position = 5
 		provinces_to_highlight = {
 			area = yawnghwe_area
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			588 = {
@@ -178,9 +172,7 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				area = shan_hill_area
 				area = yawnghwe_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			yawnghwe_area = {
@@ -198,12 +190,23 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 		}
 		effect = {
 			add_adm_power = 200
-			every_owned_province = {
+			if = {
 				limit = {
-					culture = shan
-					region = burma_region
+					any_owned_province = {
+						culture = shan
+						region = burma_region
+					}
 				}
-				add_nationalism = -5
+				every_owned_province = {
+					limit = {
+						culture = shan
+						region = burma_region
+					}
+					add_nationalism = -5
+				}
+				else = {
+					add_prestige = 20
+				}
 			}
 			koshanpye_area = {
 				limit = {
@@ -222,7 +225,7 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 		}
 	}
 	lna_nostalgia_for_nanchao = {
-		icon = mission_seize_the_dragon_throne
+		icon = mission_sea_throne_room
 		required_missions = { lna_conquer_the_shan_states lna_twelve_conquests }
 		position = 8
 		provinces_to_highlight = {
@@ -230,9 +233,7 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				area = yunnan_area
 				area = yun_gui_borderland_area
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			yunnan_area = {
@@ -247,12 +248,23 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 		effect = {
 			override_country_name = NANCHAO
 			add_prestige = 25
-			every_owned_province = {
+			if = {
 				limit = {
-					culture = bai
-					region = xinan_region
+					any_owned_province = {
+						culture = bai
+						region = xinan_region
+					}
 				}
-				add_nationalism = -5
+				every_owned_province = {
+					limit = {
+						culture = bai
+						region = xinan_region
+					}
+					add_nationalism = -5
+				}
+				else = {
+					add_prestige = 20
+				}
 			}
 		}
 	}
@@ -392,8 +404,8 @@ lna_missions_2 = {
 		}
 		effect = {
 			if = {
-				KET = {
-					NOT = { is_subject_of = ROOT }
+				NOT = {
+					KET = { is_subject_of = ROOT }
 				}
 				vassalize = KET
 			}
@@ -439,8 +451,8 @@ lna_missions_2 = {
 		}
 		effect = {
 			if = {
-				SSP = {
-					NOT = { is_subject_of = ROOT }
+				NOT = {
+					SSP = { is_subject_of = ROOT }
 				}
 				vassalize = SSP
 			}
@@ -577,6 +589,45 @@ lna_missions_4 = {
 			}
 		}
 	}
+	lna_saen_mueang_ma = {
+		icon =  mission_a_great_mandala
+		required_missions = { }
+		position = 4
+		provinces_to_highlight = {
+			is_capital = yes
+			owned_by = ROOT
+			NOT = { development = 40 }
+		}
+		trigger = {
+			capital_scope = {
+				development = 40
+			}
+			vassal = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = siam_mandala_modifier
+				duration = 7300
+			}
+		}
+	}
+	lna_invest_in_the_gem_trade = {
+		icon =  mission_sw_torquoise_mining
+		required_missions = { lna_saen_mueang_ma }
+		position = 5
+
+		trigger = {
+			584 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			add_mercantilism = 2
+		}
+	}
 	lna_warm_up_to_the_west = {
 		icon = mission_siam_western_advisors
 		required_missions = { lna_invest_in_the_gem_trade }
@@ -673,7 +724,7 @@ lna_missions_5 = {
 		}
 	}
 	lna_recompile_buddhist_scriptures = {
-		icon = mission_vedic_education
+		icon = mission_court_education
 		required_missions = { lna_relocate_the_emerald_buddha }
 		position = 2
 
@@ -683,7 +734,7 @@ lna_missions_5 = {
 		}
 	}
 	lna_renovate_the_monasteries = {
-		icon =  mission_restore_pagodas
+		icon =  mission_sukhothai_pagoda
 		required_missions = { lna_recompile_buddhist_scriptures }
 		position = 3
 		trigger = {
@@ -704,45 +755,6 @@ lna_missions_5 = {
 				loyalty = 20
 			}
 			add_karma = 25
-		}
-	}
-	lna_saen_mueang_ma = {
-		icon =  mission_a_great_mandala
-		required_missions = { }
-		position = 4
-		provinces_to_highlight = {
-			is_capital = yes
-			owned_by = ROOT
-			NOT = { development = 40 }
-		}
-		trigger = {
-			capital_scope = {
-				development = 40
-			}
-			vassal = 3
-		}
-		effect = {
-			add_country_modifier = {
-				name = siam_mandala_modifier
-				duration = 7300
-			}
-		}
-	}
-	lna_invest_in_the_gem_trade = {
-		icon =  mission_sw_torquoise_mining
-		required_missions = { lna_saen_mueang_ma }
-		position = 5
-
-		trigger = {
-			584 = {
-				trade_share = {
-					country = ROOT
-					share = 50
-				}
-			}
-		}
-		effect = {
-			add_mercantilism = 2
 		}
 	}
 	lna_march_to_the_shore = {

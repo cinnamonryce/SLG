@@ -80,7 +80,7 @@ alliance = {
 #Cochinchina
 
 #Cambodia-Ponthiamas
-#dependency = {
+dependency = {
 	subject_type = "tributary_state"
 	first = KHM
 	second = CCC
@@ -123,20 +123,4 @@ march = {
 	second = SUK
 	start_date = 1564.1.2
 	end_date = 1569.9.29
-}
-
-#Muang Phuan
-
-guarantee = {
-	first = LXA
-	second = MPH
-	start_date = 1440.1.1
-	end_date = 1531.1.1
-}
-
-guarantee = {
-	first = DAI
-	second = MPH
-	start_date = 1440.1.1
-	end_date = 1478.1.1
 }

@@ -1,19 +1,20 @@
-#565 - Bhutan
+#565 - Paro
 
-owner = PHA
-controller = PHA
-culture = tibetan
-religion = vajrayana
-capital = "Thimbu"
+owner = PAO
+controller = PAO
+culture = bhutanese
+religion = animism
+capital = "Paro"
 trade_goods = wool
 hre = no
 base_tax = 2 
-base_production = 2
-base_manpower = 1
+base_production = 3
+base_manpower = 2
 is_city = yes
 add_local_autonomy = 50
-add_core = PHA
-add_core = BHU
+add_core = PAO
+add_core = SKK
+
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = chinese
@@ -24,5 +25,7 @@ discovered_by = malay_group
 1616.1.1 = {
 	owner = BHU
 	controller = BHU
+	religion = vajrayana
 }
+
 1634.1.1 = { discovered_by = POR } 

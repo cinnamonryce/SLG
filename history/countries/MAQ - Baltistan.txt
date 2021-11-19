@@ -1,0 +1,202 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = ladakhi
+religion = vajrayana
+technology_group = chinese
+capital = 4521
+government_rank = 1
+
+
+1437.1.1 = {
+	monarch = {
+		name = "Ghota Cho Sange"
+		dynasty = "Maqpon"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1464.1.1 = {
+	monarch = {
+		name = "Bahram Cho"
+		dynasty = "Maqpon"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Bo Kha"
+		dynasty = "Maqpon"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1515.1.1 = {
+	monarch = {
+		name = "Sher Shah"
+		dynasty = "Maqpon"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Ali Khan"
+		dynasty = "Maqpon"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1565.1.1 = {
+	monarch = {
+		name = "Ghazi Mir"
+		dynasty = "Maqpon"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Ali Sher Khan Anchan"
+		dynasty = "Maqpon"
+		adm = 2
+		dip = 4
+		mil = 5
+	}
+}
+
+1624.1.1 = {
+	monarch = {
+		name = "Andal Khan"
+		dynasty = "Maqpon"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1636.1.1 = {
+	monarch = {
+		name = "Adam Khan"
+		dynasty = "Maqpon"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1655.1.1 = {
+	monarch = {
+		name = "Murad Khan"
+		dynasty = "Maqpon"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+
+1670.1.1 = {
+	monarch = {
+		name = "Sher Khan"
+		dynasty = "Maqpon"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+
+1678.1.1 = {
+	monarch = {
+		name = "Muhammad Rafi Khan"
+		dynasty = "Maqpon"
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+
+
+1680.1.1 = {
+	monarch = {
+		name = "Shir Khan"
+		dynasty = "Maqpon"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+
+1710.1.1 = {
+	monarch = {
+		name = "Mohammad Rafi"
+		dynasty = "Maqpon"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1745.1.1 = {
+	monarch = {
+		name = "Sultan Murad"
+		dynasty = "Maqpon"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Azam"
+		dynasty = "Maqpon"
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+
+1785.1.1 = {
+	monarch = {
+		name = "Mohammad Zafar Khan"
+		dynasty = "Maqpon"
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+
+1787.1.1 = {
+	monarch = {
+		name = "Ali Sher Khan"
+		dynasty = "Maqpon"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1811.1.1 = {
+	monarch = {
+		name = "Ali Sher Khan"
+		dynasty = "Maqpon"
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+}

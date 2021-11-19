@@ -1,0 +1,98 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = gyelrong
+religion = animism
+technology_group = chinese
+capital = 2135
+government_rank = 1
+
+1278.1.1 = {	
+	monarch = {
+		name = "Ma Sambu"
+		dynasty = "Hor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1324.1.1 = {	
+	monarch = {
+		name = "Nakje'"
+		dynasty = "Hor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1371.1.1 = {	
+	monarch = {
+		name = "Agye"
+		dynasty = "Hor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1417.1.1 = {	
+	monarch = {
+		name = "Bumgegye"
+		dynasty = "Hor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1464.1.1 = {	
+	monarch = {
+		name = "Lama Yab"
+		dynasty = "Hor"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1510.1.1 = {	
+	monarch = {
+		name = "Namkha Lobzang"
+		dynasty = "Hor"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1557.1.1 = {	
+	monarch = {
+		name = "Namkha Gyaltsen"
+		dynasty = "Hor"
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+
+1603.1.1 = {	
+	monarch = {
+		name = "Wanglu"
+		dynasty = "Hor"
+		adm = 1
+		dip = 3
+		mil = 3
+	}
+}
+
+
+1654.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

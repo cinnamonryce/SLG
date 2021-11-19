@@ -18,6 +18,7 @@
 605 = "Phae Nakhone"
 606 = "Pantulang"
 607 = "Vichay"
+608 = "Idkabue"
 609 = "Nakhone Vat"
 612 = "Kholat"
 614 = "Viangchan"

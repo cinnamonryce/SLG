@@ -1,17 +1,17 @@
 #4521 - Skardu
 
-owner = LDK
-controller = LDK
-culture = kashmiri
+owner = MAQ
+controller = MAQ
+culture = ladakhi
 religion = vajrayana
 capital = "Skardu"
 trade_goods = wool
 hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 1
+base_tax = 2 
+base_production = 3
+base_manpower = 2
 is_city = yes
-add_core = LDK
+add_core = MAQ
 
 
 
@@ -30,8 +30,8 @@ discovered_by = malay_group
 	add_core = KSH
 } #Shah Mirs
 1570.1.1 = {
-	owner = LDK
-	controller = LDK
+	owner = MAQ
+	controller = MAQ
 	remove_core = KSH
 }
 

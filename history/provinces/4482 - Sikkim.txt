@@ -2,7 +2,7 @@
 
 owner = SKK
 controller = SKK
-culture = tibetan
+culture = bhutanese
 religion = animism
 capital = "Chumbi"
 trade_goods = wool

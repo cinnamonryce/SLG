@@ -1,0 +1,85 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = khampa
+religion = vajrayana
+technology_group = chinese
+capital = 5094 #Gonjo
+government_rank = 1
+
+1430.1.1 = {
+	monarch = {
+		name = "Bazangbu"
+		dynasty = "Guanjue"
+		adm = 3
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+	heir = {
+		name = "Jisaba"
+		dynasty = "Guanjue"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1425.1.1
+		death_date = 1485.1.1
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Jisaba"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1425.1.1
+	}
+}
+
+1485.1.1 = {
+	monarch = {
+		name = "Jisaba Yongnai"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Kiejianzhan Bazangbu"
+		dynasty = "Guanjue"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Gonggelie"
+		dynasty = "Guanjue"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1610.1.1 = {
+	monarch = {
+		name = "Wusi Zangpamuzhupa"
+		dynasty = "Guanjue"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1650.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

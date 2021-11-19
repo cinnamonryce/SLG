@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = khampa
+religion = vajrayana
+technology_group = chinese
+capital = 2131 #Qamdo
+government_rank = 2
+
+1444.11.11 = {
+	monarch = {
+		name = "Native Council"
+		adm = 6
+		dip = 6
+		mil = 6
+		regent = yes
+	}
+}
