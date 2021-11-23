@@ -26,7 +26,6 @@
  timorese:0 "Timorese"
  
  melanesian_group:0 "Melanesian"
- negrito:0 "Negrito"
  moluccan:0 "Halmaheran"
  papuan:0 "Southeast Papuan"
  asmat:0 "Asmat"
@@ -34,6 +33,9 @@
  kwerba:0 "Kwerba"
  gulf_papuan:0 "Gulf Papuan"
  sepik:0 "Sepik"
+ 
+ orang_asal:0 "Orang Asal" 
+ asli:0 "Asli"
  
  micronesian:0 "Micronesian"
  

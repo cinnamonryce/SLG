@@ -159,7 +159,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "mission_ayutthaya"
-		texturefile = "gfx//interface//missions//ayu_venice_of_the_east.dds"
+		texturefile = "gfx//interface//missions//ayutthaya.dds"
 	}
 	spriteType = {
 		name = "mission_the_bois"
@@ -198,6 +198,11 @@ spriteTypes = {
 	spriteType = {
 		name = "mission_chakrawat_phaichayon_hall"
 		texturefile = "gfx//interface//missions//chakrawat_phaichayon_hall.dds"
+	}
+	
+	spriteType = {
+		name = "mission_taksin"
+		texturefile = "gfx//interface//missions//taksin.dds"
 	}
 	
 	#Sukhothai

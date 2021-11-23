@@ -256,7 +256,7 @@ mnd_siam_3 = {
 	}
 
 	mnd_siam_devaraja = {
-		icon = mission_garuda
+		icon = mission_taksin
 		position = 13
 		required_missions = { mnd_siam_temple_builder mnd_siam_royal_ordination }
 		trigger = {

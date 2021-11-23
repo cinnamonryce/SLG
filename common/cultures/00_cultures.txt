@@ -9990,6 +9990,30 @@ philippine = {
 	}
 }
 
+orang_asal = {
+	graphical_culture = aboriginalgfx
+	second_graphical_culture = africangfx
+	
+	#Negritos - name is substituted due to modern connotations
+	asli = {
+		male_names = {
+			Adi Aisake Aminiasi Apenisa Apisalome Berenado Cakobau Caucau Emori Epeli Epenisa Esekia Ilikimi Ilisoni Iloilo Iloilovatu 
+			Isikeli Isimeli Jesoni Jo Joeli Jone Jope Josateki Josefa Josevata Jovesa Kai Kamisese Karavadi Kelemedi Lala Lasarusa Lemeki
+			Levani Kevenei Leveni Ma'afu Maciu Manasa Mara Marau Marika Naulivou Ovini Penaia Peniamini Petero Poasa Sakeasi Sakiusa 
+			Samisoni Savenaca Seru Sione Sirilo Sitiveni Solomone Tamiela Tanna Timi Timoci Tomasi Tui Voreqe Waisake Waisale Wije Yasi
+		}
+		female_names = {
+			Akeneta Aliti Elenoa Ema Emele Kai Kalahira Kalara Kasanita Kepa Kesaia Leba Lelea Lilieta Loloma Mereani Miliani Raijieli 
+			Salanieta Salaqawa Selai Sereana Tanna Tarlae Ulita Yasi
+		}
+	}	
+	dynasty_names = {
+		Kensiu Kintaw Lanoh Jahai Mendriq Batek Senoi Temiar Semai
+		"Semaq Beri" "Mah Meri" "Cheq Wong" Jakun Temuan Semelai
+		Kuala Kanaq Seletar "Jah Hut" Besisi Mintil Duano Kanaq
+	}
+}	
+
 melanesian_group = {
 	graphical_culture = aboriginalgfx
 	second_graphical_culture = africangfx
@@ -10114,19 +10138,8 @@ melanesian_group = {
 			Salanieta Salaqawa Selai Sereana Tanna Tarlae Ulita Yasi
 		}
 	}
-	negrito = {
-		male_names = {
-			Adi Aisake Aminiasi Apenisa Apisalome Berenado Cakobau Caucau Emori Epeli Epenisa Esekia Ilikimi Ilisoni Iloilo Iloilovatu 
-			Isikeli Isimeli Jesoni Jo Joeli Jone Jope Josateki Josefa Josevata Jovesa Kai Kamisese Karavadi Kelemedi Lala Lasarusa Lemeki
-			Levani Kevenei Leveni Ma'afu Maciu Manasa Mara Marau Marika Naulivou Ovini Penaia Peniamini Petero Poasa Sakeasi Sakiusa 
-			Samisoni Savenaca Seru Sione Sirilo Sitiveni Solomone Tamiela Tanna Timi Timoci Tomasi Tui Voreqe Waisake Waisale Wije Yasi
-		}
-		female_names = {
-			Akeneta Aliti Elenoa Ema Emele Kai Kalahira Kalara Kasanita Kepa Kesaia Leba Lelea Lilieta Loloma Mereani Miliani Raijieli 
-			Salanieta Salaqawa Selai Sereana Tanna Tarlae Ulita Yasi
-		}
-	}	
 	dynasty_names = {
 		Balla Bulu Lompo Sallo Karaeng Bambang Cipuru Doe Iyo Tena Tabe Apa Lakeko Battu Keko
 	}
+	
 }

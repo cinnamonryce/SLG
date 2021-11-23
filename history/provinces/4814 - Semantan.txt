@@ -2,7 +2,7 @@
 
 owner = PAH
 controller = PAH
-culture = negrito
+culture = asli
 religion = mahayana
 capital = "Kuala Semantan"
 trade_goods = gold #Producer of gold

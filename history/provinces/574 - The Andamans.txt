@@ -1,6 +1,6 @@
 #574 - The Andamans (and Nicobars)
 
-culture = negrito
+culture = asli
 religion = animism
 capital = "Andaman"
 trade_goods = unknown
