@@ -381,6 +381,8 @@ chengdu={
 		2132 2167 678 2135 2131 2133 660 661 662 663 2165 2166 679 680 4212 2169 2170 4211 675 2168 2748 4213
 
 		5009 5010 5011 5012 5013
+		
+		5113
 
 		#NEW TIBET
 		5078 5079
@@ -467,11 +469,12 @@ philippines={
 		651 655 4356 #palawan_area
 		657 658 2698 4348 #luzon_area
 		656 2697 2699 4349 4350 #southern_luzon_area
-		   #west_micronesia_area
-		    #polynesia_area
-		    #micronesia_area
+		#west_micronesia_area
+		#polynesia_area
+		#micronesia_area
 
 		4993 4994
+		5120 5121 5122
 	}
 	ai_will_propagate_through_trade=yes
 }
@@ -650,6 +653,7 @@ the_moluccas={
 
 		4983 4984 4985 4986 4987 4988 4989 4990 4991 4992
 		4995 4996 4997 4998 4999 5000 5001 5002 5003
+		5123
 	}
 	ai_will_propagate_through_trade=yes
 }
@@ -737,6 +741,8 @@ burma={
 		4959
 
 		4962 4963 #Trang and Songkhla
+		
+		5114 5115
 
 		#Wastelands
 		4401 4844
@@ -767,6 +773,8 @@ gulf_of_siam={
 		4961
 		4964 4965 4966 4967
 		4969
+		
+		5116 5117
 	}
 }
 malacca={
@@ -801,6 +809,7 @@ malacca={
 		4978 4979 4980 4981 4982
 		4949		
 		5108
+		5118 5119
 	}
 	ai_will_propagate_through_trade=yes
 }

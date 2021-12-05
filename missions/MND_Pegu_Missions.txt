@@ -255,20 +255,13 @@ mnd_pegu_3 = {
 		required_missions = { mnd_peg_ava }
 		position = 2
 		provinces_to_highlight = {
-			OR = {
-				area = northern_thai_area
-				area = lampang_area
-			}
+			area = northern_thai_area
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
 			northern_thai_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			lampang_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -327,6 +320,13 @@ mnd_pegu_3 = {
 					}
 					add_permanent_claim = ROOT
 				}
+				upper_chao_phraya_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}				
 				sukhothai_area = {
 					limit = {
 						NOT = { is_core = ROOT }
@@ -343,7 +343,7 @@ mnd_pegu_3 = {
 		provinces_to_highlight = {
 			OR = {
 				area = central_thai_area
-				area = sukhothai_area
+				area = upper_chao_phraya_area
 				area = north_tenasserim_area
 				area = khorat_area
 				area = western_thai_area
@@ -358,7 +358,7 @@ mnd_pegu_3 = {
 				all_province = {
 					OR = {
 						area = central_thai_area
-						area = sukhothai_area
+						area = upper_chao_phraya
 						area = north_tenasserim_area
 						area = khorat_area
 						area = western_thai_area

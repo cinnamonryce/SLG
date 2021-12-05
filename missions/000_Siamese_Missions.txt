@@ -351,13 +351,13 @@ siamese_missions_2 = {
 		provinces_to_highlight = {
 			OR = {
 				area = central_thai_area
-				area = sukhothai_area
+				area = upper_chao_phraya_area
 			}
 			OR = {
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
 				NOT = {
 					religion = ROOT
-		                }
+				}
 			}
 		}
 
@@ -365,12 +365,12 @@ siamese_missions_2 = {
 			central_thai_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-                                religion = ROOT
+				religion = ROOT
 			}
-			sukhothai_area = {
+			upper_chao_phraya_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-                                religion = ROOT
+				religion = ROOT
 			}
 		}
 		effect = {
@@ -386,29 +386,29 @@ siamese_missions_2 = {
 						religion = ROOT
 					}
 					change_culture = ROOT
-                        	}
-				sukhothai_area = {
+				}
+				upper_chao_phraya_area = {
 					limit = {
 						owned_by = ROOT
 						religion = ROOT
 					}
 					change_culture = ROOT
-                        	}
+				}
 				central_thai_area = {
 					limit = {
 						owned_by = ROOT
 						religion = ROOT
 					}
 					change_culture = ROOT
-                        	}
-				angkor_area = {
+				}
+				4836 = {
 					limit = {
 						owned_by = ROOT
 						religion = ROOT
 					}
 					change_culture = ROOT
-                        	}
-                        }
+				}
+			}
 		}
 	}
 
@@ -521,17 +521,16 @@ siamese_missions_3 = {
 		required_missions = {  }
 		completed_by = 1530.1.1
 		provinces_to_highlight = {
-                        OR = {
+			OR = {
 				owned_by = SUK
 				AND = {
-			        	area = sukhothai_area
-				        NOT = { owned_by = ROOT }
+					area = sukhothai_area
+					NOT = { owned_by = ROOT }
 				}
-                        }
+			}
 		}
 		trigger = {
-			sukhothai_area = {
-				type = all
+			601 = {
 				owned_by = ROOT
 			}
 			SUK = {
@@ -550,7 +549,7 @@ siamese_missions_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			lampang_area = {
+			sukhothai_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }
@@ -577,7 +576,7 @@ siamese_missions_3 = {
 		provinces_to_highlight = {
 			OR = {
 				area = northern_thai_area
-				area = lampang_area
+				area = sukhothai_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -586,7 +585,7 @@ siamese_missions_3 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			lampang_area = {
+			sukhothai_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -686,10 +685,10 @@ siamese_missions_3 = {
 		}
 		trigger = {
 			584 = {
-                                controlled_by = ROOT
+				controlled_by = ROOT
 			}
 			585 = {
-                                controlled_by = ROOT
+				controlled_by = ROOT
 			}
 		}
 		effect = {
@@ -702,6 +701,13 @@ siamese_missions_3 = {
 				duration = 7300
 			}
 			yawnghwe_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			kengtung_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -826,21 +832,26 @@ siamese_missions_3 = {
 				area = karenni_area
 				area = shan_hill_area
 				area = yawnghwe_area
+				area = kengtung_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			yawnghwe_area = {
-                                type = all
-                                country_or_non_sovereign_subject_holds = ROOT
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kengtung_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			karenni_area = {
-                                type = all
-                                country_or_non_sovereign_subject_holds = ROOT
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			shan_hill_area = {
-                                type = all
-                                country_or_non_sovereign_subject_holds = ROOT
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
@@ -879,12 +890,12 @@ siamese_missions_3 = {
 		}
 		trigger = {
 			dangrek_area = {
-                                type = all
-                                country_or_non_sovereign_subject_holds = ROOT
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			suwannaphum_area = {
-                                type = all
-                                country_or_non_sovereign_subject_holds = ROOT
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
@@ -1011,32 +1022,28 @@ siamese_missions_3 = {
 			}
 			if = {
 				limit = {
-					608 = {
+					any_province = {
+						culture = lao
+						region = indo_china_region
 						country_or_non_sovereign_subject_holds = ROOT
 						base_tax = 3
+						NOT = {
+							base_tax = 2
+						}
 					}
 				}
-				608 = {
+				every_province = {
+					limit = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+						NOT = {
+							base_tax = 2
+						}
+					}
 					add_base_tax = -2
 				}
 				capital_scope = {
 					add_base_tax = 1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					608 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				608 = {					
-					add_base_tax = -1
 				}
 				random_owned_province = {
 					limit = {
@@ -1047,463 +1054,16 @@ siamese_missions_3 = {
 			}
 			if = {
 				limit = {
-					611 = {
+					any_province = {
 						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
+						base_tax = 2
 					}
 				}
-				611 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 1
-				}
-				random_owned_province = {
+				any_province = {
 					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					611 = {
 						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 2
 					}
-				}
-				611 = {					
-					add_base_tax = -1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			if = {
-				limit = {
-					614 = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
-					}
-				}
-				614 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					614 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				614 = {					
-					add_base_tax = -1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			if = {
-				limit = {
-					615 = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
-					}
-				}
-				615 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					615 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				615 = {					
-					add_base_tax = -1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			if = {
-				limit = {
-					1844 = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
-					}
-				}
-				1844 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					1844 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				1844 = {					
-					add_base_tax = -1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			if = {
-				limit = {
-					2371 = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
-					}
-				}
-				2371 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					2371 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2371 = {					
-					add_base_tax = -1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			if = {
-				limit = {
-					2381 = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
-					}
-				}
-				2381 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					2381 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2381 = {					
-					add_base_tax = -1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			if = {
-				limit = {
-					2382 = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
-					}
-				}
-				2382 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					2382 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				2382 = {					
-					add_base_tax = -1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			if = { #Muang Ngoi
-				limit = {
-					4837 = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
-					}
-				}
-				4837 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					4837 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4837 = {					
-					add_base_tax = -1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			if = { #Champasak
-				limit = {
-					4839 = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
-					}
-				}
-				4839 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					4839 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4839 = {					
-					add_base_tax = -1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			if = { #Salavan
-				limit = {
-					4840 = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
-					}
-				}
-				4840 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					4840 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4840 = {					
-					add_base_tax = -1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			if = { #Houaphan
-				limit = {
-					4965 = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
-					}
-				}
-				4965 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					4965 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4965 = {					
-					add_base_tax = -1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			if = { #Muang Xay
-				limit = {
-					4966 = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
-					}
-				}
-				4966 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					4966 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4966 = {					
-					add_base_tax = -1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			if = { #Phongsali
-				limit = {
-					4967 = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
-					}
-				}
-				4967 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 1
-				}
-				random_owned_province = {
-					limit = {
-						area = suwannaphum_area
-					}
-					add_base_tax = 1
-				}
-			}
-			else_if = {
-				limit = {
-					4967 = {
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-				}
-				4967 = {					
 					add_base_tax = -1
 				}
 				random_owned_province = {
@@ -1556,11 +1116,11 @@ siamese_missions_4 = {
 			}
 		}
 		effect = {
-                        add_accepted_culture = mon
 			add_country_modifier = {
 				name = "integration_of_the_mon"
 				duration = -1
 			}
+			add_accepted_culture = mon
 		}
 	}
 
@@ -1732,7 +1292,6 @@ siamese_missions_5 = {
 		}
 		trigger = {
 			capital_scope = {
-				development = 25
 				higher_development_than = 112
 				fort_level = 2
 				has_building = marketplace

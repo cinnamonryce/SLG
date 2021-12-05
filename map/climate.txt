@@ -93,8 +93,9 @@ tropical = {
 	#NEW CHINA
 	5101 5102 5103 5104 5105
 	
-	#SEA Continued
+	#SEA & China Continued
 	5108
+	5113 5114 5115 5116 5117 5118 5119 5120 5121 5122 5123
 }
 
 arid = {
@@ -562,8 +563,9 @@ mild_monsoon = {
 	#NEW CEYLON
 	5099
 	
-	#NEW HUNAN
+	#NEW SEA & CHINA
 	5110 5111
+	5114 5114 5115 5116 5117
 }
 
 normal_monsoon = {
@@ -688,6 +690,7 @@ normal_monsoon = {
 	#NEW CHINA & SEA CON.
 	5102 
 	5104 5105 5106 5107 5108
+	5118
 }
 
 severe_monsoon = {

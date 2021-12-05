@@ -2464,20 +2464,24 @@ kachin_area = { #3
 	2395 2396 4404
 }
 
-shan_hill_area = { #5
-	583 2400 4406 4952 4953
+shan_hill_area = { #4
+	583 2400 4952 4953
 }
 
-yawnghwe_area = { #5
-	587 588 2401 4397 4398
+yawnghwe_area = { #4
+	588 2401 4397 4406
+}
+
+kengtung_area = { #3
+	587 4398 5114
 }
 
 karenni_area = { #4
 	590 2403 4954 4955
 }
 
-malaya_area = { #4
-	 598 599 2393 4814
+malaya_area = { #5
+	598 599 2393 4814 5118
 }
 
 johor_area = { # 4
@@ -2530,8 +2534,8 @@ upper_cambodia_area = { #4
 	4828 4827 1823 2378
 }
 
-lower_burma_area = { #3
-	586 1815 4399
+lower_burma_area = { #4
+	586 1815 4399 5115
 }
 
 arakan_area = { #4
@@ -2583,20 +2587,20 @@ central_thai_area = { #4
 	600 4831 4832 4834
 }
 
-western_thai_area = { #4
+western_thai_area = { #3
 	592 2387 4835
 }
 
 sukhothai_area = { #4
-	2388 2389 601 4833
+	601 4841 4960 5117
 }
 
-northern_thai_area = { #3
-	602 589 4959
+upper_chao_phraya_area = { #4
+	2388 2389 4833 5116
 }
 
-lampang_area = { #4
-	1817 4842 4841 4960
+northern_thai_area = { #5
+	602 589 1817 4842 4959
 }
 
 ########################################
@@ -2607,8 +2611,8 @@ mindanao_area = { #3 #East Mindanao
 	2701 2702 4355
 }
 
-west_mindanao_area = { #3
-	652 653 4354
+west_mindanao_area = { #5
+	652 653 4354 5120 5121
 }
 
 visayas_area = { #4
@@ -2620,8 +2624,8 @@ palawan_area = { #3
 	651 655 4356
 }
 
-luzon_area = { #4 (Northern Luzon)
-	657 658 2698 4348
+luzon_area = { #5 (Northern Luzon)
+	657 658 2698 4348 5122
 }
 
 southern_luzon_area = { #4
@@ -2638,15 +2642,15 @@ north_sumatra_area = { #6
 }
 
 batak_area = { #5
-	 619 4811 2684 4974 4980
+	619 4811 2684 4974 4980
 }
 
-central_sumatra_area = { #4
-	620 2675 618 4810
+central_sumatra_area = { #5
+	620 2675 618 4810 4816
 }
 
 jambi_area = { # 5
-	2677 659 2676 4816 4973
+	2677 659 2676 4973 5119
 }
  
 minangkabau_area = { #5
@@ -2742,8 +2746,8 @@ makassar_area = { # 4
 	4797 4798 4795 641
 }
 
-sulawesi_area = { #3
-	644 2713 4984
+sulawesi_area = { #4
+	644 2713 4984 5123
 }
 
 south_sulawesi_area = { #3
@@ -3122,8 +3126,8 @@ yun_gui_borderland_area = { #4
 }
 
 #NEW
-koshanpye_area = { #3
-	660 2166 5009
+koshanpye_area = { #4
+	660 2166 5009 5113
 }
 
 sichuan_area = { #3

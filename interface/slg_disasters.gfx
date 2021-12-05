@@ -2,7 +2,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_disaster_loss_of_malacca"
-		texturefile = "gfx//interface//disasters//timed_civil_war.dds"
+		texturefile = "gfx//interface//disasters//loss_of_malacca.dds"
 		noOfFrames = 3
 		loadType = "INGAME"
 	}

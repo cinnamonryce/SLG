@@ -15,14 +15,13 @@ discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 
-1520.1.1 = {
-	owner = MGD
-	controller = MGD
-	add_core = MGD
+1405.1.1 = {
+	owner = SUL
+	controller = SUL
+	add_core = SUL
 	is_city = yes
-	religion = sunni
-	trade_goods = tropical_wood
-}
+	trade_goods = grain
+} # The Sulu Sultanate
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
 1569.1.1 = {	
 	owner = SPA

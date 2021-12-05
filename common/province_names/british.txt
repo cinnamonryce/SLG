@@ -347,8 +347,9 @@
 4394 = "Sillah"
 4399 = { "Rangoon" "Rangoon" }
 
+5115 = { "Syriam" "Syriam" }
+
 #Philippines
-#651 = "Sooloo"
 652 = "Mindanao" #Or Magindanao
 2699 = "Bicol"
 4351 = "Negros"
@@ -368,7 +369,6 @@
 641 = "Macassar"
 659 = "Ligan"
 2392 = "Salengore"
-2693 = "Lomboc"
 2673 = "Pacem"
 2678 = "Banca" #Or Banka
 2679 = "Billiton"
@@ -382,19 +382,13 @@
 599 = "Calantan"
 618 = "Delly" #Or Dhelly
 620 = "Siac"
-#622 = "Palambang"
-625 = "Cawali"
-626 = "Carta"
 627 = "Ballambuam"
 #628 = "Sourabaya"
 629 = "Damac"
 630 = { "Batavia" "Batavia" }
 634 = "Sandalwood" #Alternate name for Sumba
-635 = "Cupang"
 636 = "Borneo"
 637 = { "Jesselton" "Jesselton" }
-638 = "Coti"
-642 = "Cendari"
 645 = "Bouro"
 2393 = "Tringanu"
 2394 = "Quedah" #Or Cueda, Cedah
@@ -404,8 +398,6 @@
 2682 = "Priaman"
 2687 = { "Dayo" "Daio" } #Corruption of the Portuguese 'Daio'
 2688 = { "Cheribon" "Cheribon" }
-2689 = "Cendal"
-2691 = "Cediri"
 2693 = "Lomboc"
 2708 = "Cotaringen" #Or Cota-ringen
 2709 = "Taracan"
@@ -424,7 +416,6 @@
 4979 = { "Succamara" "Succamara" }
 4987 = "Adenare"
 4989 = "Moritay"
-4990 = "Oby"
 
 #New Guinea
 1236 = { "East New Britain" "Simpson Harbour" }

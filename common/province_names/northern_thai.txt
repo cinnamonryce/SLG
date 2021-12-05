@@ -87,3 +87,5 @@
 5010 = { "Mueang Mian" "Mong Myen" }
 
 5013 = "Mueang Si"
+
+5113 = { "Mueang Laem" "Mong Laem" }

@@ -7,11 +7,10 @@ religion = buddhism
 capital = "Si Satchanalai" #Capital of Sukhothai after the annexation of Phitsanulok, and Sukhothai falling into disrepair
 trade_goods = chinaware
 hre = no
-base_tax = 4
-base_production = 4
+base_tax = 3
+base_production = 3
 base_manpower = 2
 is_city = yes
-fort_15th = yes
 add_core = SUK
 
 

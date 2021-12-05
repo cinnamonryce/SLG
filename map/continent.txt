@@ -237,8 +237,9 @@ asia = {
 	# Taiwan & China Continued
 	5101 5102 5103 5104 5105 5106 5107
 	
-	# South-East Asia Continued
+	# South-East Asia & China Continued
 	5108
+	5113 5114 5115 5116 5117 5118 5119 5120 5121 5122 5123
 	
 
 }

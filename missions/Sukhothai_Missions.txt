@@ -49,15 +49,16 @@ suk_missions_1 = {
 		position = 4
 		provinces_to_highlight = {
 			area = sukhothai_area
+			area = upper_chao_phraya_area
 		}
 		trigger = {
-			sukhothai_area = {
-                                type = all
+			upper_chao_phraya_area = {
+				type = all
 				owned_by = ROOT
 			}
 			num_of_owned_provinces_with = {
 				value = 4
-				area = sukhothai_area
+				area = upper_chao_phraya_area
 				num_of_times_improved_by_owner = 2
 			}
 		}
@@ -485,29 +486,17 @@ suk_missions_3 = {
 		required_missions = { suk_rama_the_bold }
 		position = 2
 		provinces_to_highlight = {
-			OR = {
-				province_id = 4841
-				province_id = 4960 #Phrae
-			}
+			area = sukhothai_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			4841 = {
-				owned_by = ROOT
-			}
-			4960 = {
-				owned_by = ROOT
+			sukhothai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
 			northern_thai_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			lampang_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }
@@ -521,18 +510,11 @@ suk_missions_3 = {
 		required_missions = { suk_seize_the_border_states }
 		position = 3
 		provinces_to_highlight = {
-			OR = {
-				area = northern_thai_area
-				area = lampang_area
-			}
+			area = northern_thai_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			northern_thai_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			lampang_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

@@ -285,7 +285,6 @@ siam_region = {
 	areas = {
 		central_thai_area
 		northern_thai_area
-		lampang_area
 		western_thai_area
 		tenasserim_area
 		north_tenasserim_area
@@ -294,6 +293,8 @@ siam_region = {
 		angkor_area
 		suwannaphum_area
 		dangrek_area
+		#NEW
+		upper_chao_phraya_area
                 
 	}
 	monsoon = {
@@ -1081,6 +1082,7 @@ burma_region = {
 		central_burma_area
 		chindwin_area
 		yawnghwe_area
+		kengtung_area
 		mohnyin_area
 	}
 	monsoon = {

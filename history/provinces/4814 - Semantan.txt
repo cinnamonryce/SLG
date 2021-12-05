@@ -3,11 +3,11 @@
 owner = PAH
 controller = PAH
 culture = asli
-religion = mahayana
+religion = animism
 capital = "Kuala Semantan"
 trade_goods = gold #Producer of gold
 hre = no
-base_tax = 2 
+base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
@@ -28,10 +28,6 @@ discovered_by = ottoman
 	controller = MLC
         add_core = MLC
         add_core = JOH
-}
-
-1470.1.1 = {
-	religion = sunni #Established as a vassal state
 }
 
 1516.1.1 = { discovered_by = POR }

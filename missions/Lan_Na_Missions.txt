@@ -46,11 +46,18 @@ lna_missions_1 = {
 		required_missions = { lna_reign_in_sukhothai }
 		position = 3
 		provinces_to_highlight = {
-			area = sukhothai_area
+			OR = {
+				area = sukhothai_area
+				area = upper_chao_phraya_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			sukhothai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_chao_phraya_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -171,11 +178,16 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				area = karenni_area
 				area = shan_hill_area
 				area = yawnghwe_area
+				area = kengtung_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			yawnghwe_area = {
+			    type = all
+                country_or_non_sovereign_subject_holds = ROOT
+			}
+			kengtung_area = {
 			    type = all
                 country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -237,12 +249,12 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 		}
 		trigger = {
 			yunnan_area = {
-                                type = all
-                                country_or_non_sovereign_subject_holds = ROOT
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			yun_gui_borderland_area = {
-                                type = all
-                                country_or_non_sovereign_subject_holds = ROOT
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
@@ -288,13 +300,13 @@ lna_missions_2 = {
 		icon = mission_lanna_flag
 		position = 1
 		provinces_to_highlight = {
-			area = lampang_area
+			area = northern_thai_area
 			NOT = {
 				owned_by = ROOT
 			}
 		}
 		trigger = {
-			lampang_area = {
+			northern_thai_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -304,6 +316,13 @@ lna_missions_2 = {
 				add_base_manpower = 2
 			}
 			sukhothai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			upper_chao_phraya_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -383,10 +402,10 @@ lna_missions_2 = {
 		required_missions = { lna_mangrais_last_true_heir }
 		position = 5
 		provinces_to_highlight = {
-                        OR = {
+			OR = {
 				province_id = 587
 				owned_by = KET
-                        }
+			}
 		}
 
 		trigger = {
@@ -430,10 +449,10 @@ lna_missions_2 = {
 		required_missions = { lna_sway_kengtung }
 		position = 7
 		provinces_to_highlight = {
-                        OR = {
+			OR = {
 				province_id = 660
 				owned_by = SSP
-                        }
+			}
 		}
 
 		trigger = {

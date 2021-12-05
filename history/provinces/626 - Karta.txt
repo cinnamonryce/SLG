@@ -4,7 +4,7 @@ owner = MAJ
 controller = MAJ
 add_core = MAJ
 culture = javanese
-religion = sunni
+religion = hinduism
 capital = "Karta"
 trade_goods = spices
 hre = no
@@ -28,6 +28,7 @@ discovered_by = ottoman
 	controller = DMK
 	add_core = DMK
 	remove_core = MAJ
+	religion = sunni
 } # Demak Sultanate was established
 1476.1.1 = { unrest = 0 }
 1509.1.1 = { discovered_by = POR }

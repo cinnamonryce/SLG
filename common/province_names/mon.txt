@@ -19,3 +19,5 @@
 4954 = { "Mutraw" "Mutraw" } #Papun
 4955 = { "Miawatoi" "Miawatoi" }
 4956 = { "Tanasia" "Tanasia" }
+
+5115 = { "Seang" "Seang" }

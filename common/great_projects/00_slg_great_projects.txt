@@ -28,8 +28,8 @@ palk_strait = {
 		#FROM = {
 		#	owns_or_vassal_of = 2100
 		#	adm_tech = 3
-		always = no
-		}		
+		#}
+		always = no		
     }
 
     #what to do when it's built

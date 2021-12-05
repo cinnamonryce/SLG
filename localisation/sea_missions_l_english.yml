@@ -21,7 +21,7 @@
  ayu_taification:0 "Taification"
  ayu_taification_title:0 "Taification"
  ayu_taification_desc:0 "Despite our conquests of the Siamese heartlands finishing decades ago, the old people who once inhabited these lands still populate many of our cities, and refuse to assimiliate. We should put a bit of pressure on these minorities, so that they may finally integrate properly into our society."
- ayu_taification.tooltip:0 "Culture in true faith provinces in the §YLower Chao Phraya§!, §YUpper Chao Phraya§!, §YKhorat§! and §YInner Cambodia§! areas will become §Y[Root.Culture.GetName]§!."
+ ayu_taification.tooltip:0 "Culture in all true faith provinces in the §YLower Chao Phraya§!, §YUpper Chao Phraya§! and §YPrachin§! areas, as well as §Y[4836.GetName]§! if owned, will become §Y[Root.Culture.GetName]§!."
  ayu_siamese_cambodia:0 "Monthon Burapha"
  ayu_siamese_cambodia_title:0 "Monthon Burapha"
  ayu_siamese_cambodia_desc:0 "With the collapse of the Khmer Empire, Cambodian authority over the west of their nation to this day remains weak. Conquering this area would be simple task, as would stripping the Khmer of their ancient capital of Angkor."

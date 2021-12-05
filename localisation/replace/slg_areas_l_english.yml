@@ -116,13 +116,9 @@
  western_thai_area_name:0 "Pagodas Pass"
  western_thai_area_adj:0 "Pagodan"
  
- northern_thai_area:0 "Chiang Mai"
- northern_thai_area_name:0 "Chiang Mai"
- northern_thai_area_adj:0 "Chiang Mai"
- 
- lampang_area:0 "Lampang"
- lampang_area_name:0 "Lampang"
- lampang_area_adj:0 "Lampanger"
+ northern_thai_area:0 "Lan Na"
+ northern_thai_area_name:0 "Lan Na"
+ northern_thai_area_adj:0 "Lan Na"
  
  muang_phuan_area:0 "Phuan"
  muang_phuan_area_name:0 "Phuan"
@@ -136,9 +132,9 @@
  cao_bac_area_name:0 "Cao Bac"
  cao_bac_area_adj:0 "Cao Bac"
  
- sukhothai_area:0 "Upper Chao Phraya"
- sukhothai_area_name:0 "Upper Chao Phraya"
- sukhothai_area_adj:0 "Upper Chao Phraya"
+ upper_chao_phraya_area:0 "Upper Chao Phraya"
+ upper_chao_phraya_area_name:0 "Upper Chao Phraya"
+ upper_chao_phraya_area_adj:0 "Upper Chao Phraya"
  
  north_tenasserim_area:0 "Tenasserim"
  north_tenasserim_area_name:0 "Tenasserim"
@@ -183,6 +179,10 @@
  yawnghwe_area:0 "Myelat"
  yawnghwe_area_name:0 "Myelat"
  yawnghwe_area_adj:0 "Myelat"
+ 
+ kengtung_area:0 "Kengtung"
+ kengtung_area_name:0 "Kengtung"
+ kengtung_area_adj:0 "Kengtung"
  
  mohnyin_area:0 "Mohnyin"
  mohnyin_area_name:0 "Mohnyin"

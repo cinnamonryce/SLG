@@ -53,6 +53,11 @@
 
 4958 = { "Sittwe" "Sittwe" }
 
-5009 = "Maingting"
 
 4956 = { "Tanintharyi" "Tanintharyi" }
+
+5009 = "Maingting"
+
+5113 = "Mainglem"
+
+5115 = { "Thanlyin" "Thanlyin" }

@@ -86,6 +86,8 @@
 
 5013 = "Mueang Si"
 
+5113 = { "Mueang Laem" "Mong Laem" }
+
 #American Provinces
 792 = "Kopi"
 855 = "Na Saen"

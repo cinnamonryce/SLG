@@ -3,7 +3,7 @@ add_government_reform = monastic_order_reform
 primary_culture = central_thai
 religion = buddhism
 technology_group = indochinese
-capital = 2388
+capital = 5117 #Phichai
 
 change_estate_land_share = {
 	estate = estate_burghers

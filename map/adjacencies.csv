@@ -47,7 +47,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1247;127;sea;1298;-1;-1;-1;-1;Corsica-Sardinia
 394;396;sea;4347;3589;1076;3592;1074;Al Hasa-Bahrain
 395;396;sea;4347;3596;1071;3601;1071;Qatar-Bahrain
-4354;4351;sea;4357;4729;792;4732;786;Zamboanga-Buglas
+5121;4351;sea;4357;4729;792;4732;786;Dadiangas-Buglas
 1107;2738;sea;1423;5548;114;5542;114;Taranaki-Waitaha
 1268;1258;canal;1775;-1;-1;-1;-1;kiel_canal
 1548;1515;canal;835;-1;-1;-1;-1;panama_canal
