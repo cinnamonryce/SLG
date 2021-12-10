@@ -1,0 +1,65 @@
+#AVIALABLE CUSTOM LOCALISATION KEYS
+#When adding new custom loc keys, add them to the appropriate category (or add a new one) and describe them. Name the strings "String_X" where x is its content.
+# To not display anything, you can use 'localisation_key = ""'
+# Please add one example sentence for each key.
+
+#As this list grow organize with categories.
+#Current loc keys in this file:
+#StartScreenUpLeft
+#StartScreenUpRight
+#StartScreenDownLeft
+#StartScreenDownRight
+
+### Main title of start screen
+#Ex: "The Empire of Man, 2017"
+defined_text = {
+    name = StartScreenTitle
+	random = no
+	
+    text = {
+        localisation_key = string_screen_title_ayutthaya
+        trigger = {
+			tag = AYU
+        }
+    }
+    text = {
+        localisation_key = string_screen_title_sukhothai
+        trigger = {
+			tag = SUK
+        }
+    }
+    text = {
+        localisation_key = string_screen_title_lan_na
+        trigger = {
+			tag = LNA
+        }
+    }		
+}
+
+### Upper left description textbox
+#Ex: "The Ayyubid dynasty, once the scourge of Christianity, and the masters of Syria, Egypt and Arabia, still remain in the Kurdistani fortress of Hisn Kayfa. Fiercely independent, the small state has managed to survive in independence amidst giants such as the Timurids or Qara Qoyunlu.\nAs 1444 opens the Ayyubid princes have recently managed to overcome their local rivals and former vassals, the Artuqids, and solidified their hold over their small principality by the Tigris."
+defined_text = {
+    name = StartScreenUpLeftDesc
+	random = no
+	
+	#Siam
+	text = { #Ayutthaya
+        localisation_key = string_start_ayutthaya
+        trigger = {
+			tag = AYU
+			NOT = { is_year = 1459 }
+        }
+    }
+	text = { #Sukhothai
+        localisation_key = string_start_sukhothai
+        trigger = {
+			tag = SUK
+        }
+    }
+	text = { #Lan Na
+		localisation_key = string_start_lan_na
+        trigger = {
+			tag = LNA
+        }
+	}
+}

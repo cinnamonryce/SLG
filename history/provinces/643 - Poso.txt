@@ -1,6 +1,6 @@
 #643 - Poso
 
-culture = north_sulawesi
+culture = butonese
 religion = animism
 capital = "Poso"
 trade_goods = unknown

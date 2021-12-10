@@ -185,22 +185,22 @@ monarch_names = {
 }
 
 leader_names = {
-	Akradet Ariyanuntaka Thaen Wilapana Liyao Kantawong Rattanawet
+	"Akradet" Ariyanuntaka Thaen Wilapana Liyao Kantawong Rattanawet
 	Bunmi Chakri Sunthonsongkhram Chan Siriwarunyu Singhaseni Sirawanon
-        Daparansi Kaothai Yaoyun Sakdathon Chamrun Wongsawat Sangchuto Manosakun
-        Supasawat Sutabun Banruerit "Si Santi" Panthep Lilaphun Mahanarong
-	Chaipatana Chakrabonsi Chuasiriporn In Chiwakat Phrommathep Aphaiyakun
+	Daparansi Kaothai Yaoyun Sakdathon Chamrun Wongsawat Sangchuto Manosakun
+	Supasawat Sutabun Banruerit "Si Santi" Panthep Lilaphun Mahanarong
+	Chaipatana Chakrabonsi Chuasiriphon In Chiwakat Phrommathep Aphaiyakun
 	Tisakun Thepachun "Si Salai" Dok Chamrun Thorathep Akarayothin Choothin
-	Ekalak "Si Saiyanarong" Singh "Thong Kaeo" Kattiya Phahonyothin Chittralak
+	Ekalak "Si Saiyanarong" Sing "Thong Kaeo" Kattiya Phahonyothin Chittralak
 	Hitapot Prakhlang Ramkhamhaeng Rattanathibet Wiraphon Senaphimuk
 	Inchareon Songkhram "Singhanat" Chansiri Phahon Chirapai Techawanit
-	Kawrungruang Khuntilanont Klinpraneet Kriangsak Hansi Worawanon Sukhum
+	Kawrungruang Khuntilanont Klinpranit Kriangsak Hansi Worawanon Sukhum
 	Monkontham Kawila Phichai Waiwongsa Then "Na Wang" Tirawanon Senasakun
-	Nitpattanasai Noppachorn Nut Lek Bunnak Prasong Sankun "Na Mahachai" 
+	Nitpattanasai Noppachon Nut Lek Bunnak Prasong Sankun "Na Mahachai" 
 	Phanomyong Phatipatanawong Chaban Sing Watthanasin Chaiyasongkhram Silakup
-	Siwaraksa Sichun Supachai Supasawat Chira Chirawanon Sisongkhram Krairiksh
+	Siwaraksa Sichun Supachai Supasawat Chira Chirawanon Sisongkhram Krairit
 	Tantasatityanon Thapchumpon Choti San "Na Ranbang" Aphaiwong "Na Nakhon"
-	Wongrutiyan Netrayon Phirenthep "Si Thung Yai" Malai Khong “Na Patthalung"
+	Wongrutiyan Netrayon Phirenthep "Si Thung Yai" Malai Khong "Na Patthalung"
 	"Si Phraya" Manu "Na Dab" "Na Chaiyo" Khaek Chin Lao Munit "Na Songkhla"
 	"Na Phayap" "Na Maharat" "Na Isan" "Na Ubon" "Na Nuea" "Na Chiang Mai" "Na Lampang"
 	"Na Udon" "Na Saiburi" "Na Chumphon" "Na Prachinburi" "Na Nan" "Na Ranong"
@@ -208,7 +208,7 @@ leader_names = {
 }
 
 ship_names = {
-	Ramithibodi Ramesuan Borommaracha "Thong Chan"
+	"Ramithibodi" Ramesuan Borommaracha "Thong Chan"
 	Ramaracha Intharacha Boromtrailokanat Ratsada Panwasa
 	Chairacha Yotfa Worawongsathirat Chakkraphat Mahin
 	Sanphet Naresuan Ekathotsarot "Si Saowaphak" Apaiyathot
@@ -224,10 +224,11 @@ ship_names = {
 	"Bang Yang" Lomsak
 	"Bang Prakong" Tapi Tachin Maeklong "Chao Phraya" Pasak
 	Samsan Sichang Samui Tarutao Similan Lipe Samet
-	"Yum Phai" Chulamani "Si Sanphet" Sinsamut Aphaimani Matchanu
+	"Yum Phai" Chulamani "Si Sanphet" Sinsamut Aphaimani "Matchanu"
 }
 
 army_names = {
-	"Kongthap Si Satchanalai" "Kongthap Sawankhalok" "Kongthap Chaliang"
-	"Kongthap Phitsanulok" "Kongthap Ram" "Kongthap $PROVINCE$" 
+	"Kongthap Klang" "Kongthap Tai" "Kongthap Nuea"
+	"Kongthap Phayap" "Kongthap Isan" "Kongthap Prachin"
+	"Kongthap Isan" "Kongthap Burapha" "Kongthap $PROVINCE$"
 }

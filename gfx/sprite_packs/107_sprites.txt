@@ -69,6 +69,7 @@ dlc107_MAJ_sprite_pack = {
 		OR = {
 			culture_group = malay
 			culture_group = philippine
+			culture_group = nusantaran
 		}
 	}
 
@@ -98,14 +99,11 @@ dlc107_BEI_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
 		OR = {
-			tag = BEI
+			primary_culture = bruneian
 			tag = MKS
-			tag = MGD
+			primary_culture = danao
 			tag = BNJ
-			tag = SKD
-			tag = SMB
-			tag = SWK
-			tag = PNT
+			primary_culture = bornean
 			primary_culture = sulawesi
 			primary_culture = moluccan_malay
 		}
@@ -135,13 +133,11 @@ dlc107_BEI_sprite_pack = {
 
 dlc107_MLC_sprite_pack = {
 	# Tests against every tag in game
-	country_trigger = {
-		NOT = {
-			tag = BEI
-		}			
+	country_trigger = {			
 		OR = {
 			primary_culture = malayan
 			primary_culture = musi
+			primary_culture = riau
 			primary_culture = acehnese
 			primary_culture = bajau
 		}
@@ -174,9 +170,11 @@ dlc107_PGR_sprite_pack = {
 	country_trigger = {
 		OR = {
 			primary_culture = sumatran
+			primary_culture = rejang
 			primary_culture = batak
-			primary_culture = moluccan
+			primary_culture = moluccan_malay
 			primary_culture = kutainese
+			culture_group = moluccan_group
 		}
 	}
 

@@ -2,9 +2,9 @@
 
 owner = SUN
 controller = SUN
-culture = sundanese
+culture = rejang
 religion = hinduism
-capital = "Tulangbewang"
+capital = "Tulangbawang"
 hre = no
 base_tax = 2 
 base_production = 2

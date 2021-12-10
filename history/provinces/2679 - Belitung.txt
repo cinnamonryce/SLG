@@ -1,6 +1,6 @@
 #2679 - Belitung
 
-culture = malayan
+culture = musi
 religion = sunni
 capital = "Belitung"
 trade_goods = unknown

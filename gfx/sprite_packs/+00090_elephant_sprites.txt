@@ -12,7 +12,7 @@ dlc090_south_east_asian_elephant_sprite_pack = {
 			primary_culture = sumatran
 			primary_culture = acehnese
 			primary_culture = musi
-			primary_culture = batak
+			primary_culture = riau
 		}
 	}
 

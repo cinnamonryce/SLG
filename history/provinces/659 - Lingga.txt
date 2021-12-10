@@ -2,7 +2,7 @@
 
 owner = JMB
 controller = JMB
-culture = malayan
+culture = riau
 religion = sunni
 capital = "Daik"
 trade_goods = fish

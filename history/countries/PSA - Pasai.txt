@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = plutocratic_reform
-primary_culture = malayan
+primary_culture = riau
 add_accepted_culture = acehnese
 religion = sunni
 technology_group = malay_group

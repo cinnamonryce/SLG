@@ -2,7 +2,7 @@
 
 owner = STG
 controller = STG
-culture = bornean
+culture = dayak
 religion = animism
 capital = "Sintang"
 trade_goods = tropical_wood

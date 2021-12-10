@@ -2,7 +2,7 @@
 
 owner = SGG
 controller = SGG
-culture = bornean
+culture = dayak
 religion = animism
 capital = "Sanggau"
 trade_goods = tropical_wood

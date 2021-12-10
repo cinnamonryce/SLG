@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = plutocratic_reform
-primary_culture = musi
+primary_culture = rejang
 religion = hinduism
 technology_group = malay_group
 capital = 623	#Tulangbawang

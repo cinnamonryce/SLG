@@ -2,7 +2,7 @@
 
 owner = BEI
 controller = BEI
-culture = bornean
+culture = dayak
 religion = animism
 capital = "Simanggang"
 trade_goods = grain

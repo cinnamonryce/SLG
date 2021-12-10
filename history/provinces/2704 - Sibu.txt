@@ -2,7 +2,7 @@
 
 owner = BEI
 controller = BEI
-culture = bornean
+culture = dayak
 religion = sunni
 capital = "Tanjung Maling"
 trade_goods = spices

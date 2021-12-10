@@ -401,8 +401,8 @@ siamese_missions_2 = {
 					}
 					change_culture = ROOT
 				}
-				4836 = {
-					limit = {
+				if = {
+					4836 = {
 						owned_by = ROOT
 						religion = ROOT
 					}
@@ -1022,24 +1022,12 @@ siamese_missions_3 = {
 			}
 			if = {
 				limit = {
-					any_province = {
-						culture = lao
-						region = indo_china_region
+					608 = {
 						country_or_non_sovereign_subject_holds = ROOT
 						base_tax = 3
-						NOT = {
-							base_tax = 2
-						}
 					}
 				}
-				every_province = {
-					limit = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 3
-						NOT = {
-							base_tax = 2
-						}
-					}
+				608 = {
 					add_base_tax = -2
 				}
 				capital_scope = {
@@ -1052,18 +1040,481 @@ siamese_missions_3 = {
 					add_base_tax = 1
 				}
 			}
-			if = {
+			else_if = {
 				limit = {
-					any_province = {
+					608 = {
 						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 2
 					}
 				}
-				any_province = {
+				608 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
 					limit = {
-						country_or_non_sovereign_subject_holds = ROOT
-						base_tax = 2
+						area = suwannaphum_area
 					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					611 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				611 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					611 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				611 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					614 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				614 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					614 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				614 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					615 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				615 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					615 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				615 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					1844 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				1844 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					1844 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				1844 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					2371 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				2371 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					2371 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2371 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					2381 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				2381 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					2381 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2381 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = {
+				limit = {
+					2382 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				2382 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					2382 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				2382 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = { #Muang Ngoi
+				limit = {
+					4837 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				4837 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					4837 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4837 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = { #Champasak
+				limit = {
+					4839 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				4839 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					4839 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4839 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = { #Salavan
+				limit = {
+					4840 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				4840 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					4840 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4840 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = { #Houaphan
+				limit = {
+					4965 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				4965 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					4965 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4965 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = { #Muang Xay
+				limit = {
+					4966 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				4966 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					4966 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4966 = {					
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			if = { #Phongsali
+				limit = {
+					4967 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						base_tax = 3
+					}
+				}
+				4967 = {
+					add_base_tax = -2
+				}
+				capital_scope = {
+					add_base_tax = 1
+				}
+				random_owned_province = {
+					limit = {
+						area = suwannaphum_area
+					}
+					add_base_tax = 1
+				}
+			}
+			else_if = {
+				limit = {
+					4967 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				4967 = {					
 					add_base_tax = -1
 				}
 				random_owned_province = {

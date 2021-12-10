@@ -2,7 +2,7 @@
 
 owner = IND
 controller = IND
-culture = sumatran
+culture = rejang
 religion = sunni
 capital = "Muko-Muko"
 trade_goods = spices

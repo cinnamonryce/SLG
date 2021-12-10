@@ -123,13 +123,13 @@ country_event = {
 				type = pretender_rebels
 				size = 3
 				leader = "Chakkraphat"
-				leader_dynasty = "Suphannaphum"		
+				leader_dynasty = "Suphannaphum"
 			}
 		}
 	}
 	
 	option = {
-		name = "ayutthaya.2.b" #Rally the clans, Uthong cannot rule!	
+		name = "ayutthaya.2.b" #Rally the clans, Uthong cannot rule!
 		if = {
 			limit = {
 				has_heir = yes
@@ -160,7 +160,7 @@ country_event = {
 			dip = 2
 			mil = 0
 		}
-		random_owned_province = {
+		random_owned_province
 			limit = {
 				is_capital = yes
 			}

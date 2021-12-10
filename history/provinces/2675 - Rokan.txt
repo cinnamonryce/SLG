@@ -2,7 +2,7 @@
 
 owner = DLI
 controller = DLI
-culture = malayan
+culture = riau
 religion = sunni
 capital = "Rokan"
 trade_goods = fish

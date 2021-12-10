@@ -107,6 +107,8 @@ historical_friend = BEU
 }
 
 1732.1.1 = {
+	primary_culture = malayan #Standarization of Malay in Kutai
+	add_accepted_culture = kutainese 
 	religion = sunni
 	religious_school = shafii_school
 	add_piety = -0.1

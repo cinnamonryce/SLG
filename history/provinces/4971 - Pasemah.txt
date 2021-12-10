@@ -1,6 +1,6 @@
 #Pasemah
 
-culture = musi
+culture = rejang
 religion = sunni
 capital = "Pasemah"
 trade_goods = unknown

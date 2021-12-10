@@ -1,6 +1,7 @@
 government = monarchy
 add_government_reform = plutocratic_reform
 primary_culture = batak
+add_accepted_culture = riau
 religion = sunni
 technology_group = malay_group
 capital = 618
@@ -78,6 +79,7 @@ religious_school = shafii_school
 		dip = 1
 		mil = 4
 	}
+	primary_culture = riau
 }
 
 1669.1.1 = {

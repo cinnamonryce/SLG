@@ -2,7 +2,7 @@
 
 owner = MLC
 controller = MLC
-culture = sumatran
+culture = malayan
 religion = sunni
 capital = "Rembau"
 trade_goods = copper #or grain

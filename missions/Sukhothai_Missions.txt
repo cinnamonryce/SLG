@@ -764,7 +764,7 @@ suk_missions_4 = {
 			601 = {
 				owned_by = ROOT
 				AND = {
-					development = 10
+					development = 15
 					has_building = temple
 				}
 			}
