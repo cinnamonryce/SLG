@@ -261,6 +261,7 @@ indonesians_4 = {
 						capital_scope = {
 							OR = {
 								area = tenasserim_area
+								area = kra_isthmus_area
 								area = north_tenasserim_area
 								area = malaya_area
 								area = johor_area
@@ -271,6 +272,7 @@ indonesians_4 = {
 					}
 					OR = {
 						area = tenasserim_area
+						area = kra_isthmus_area
 						area = north_tenasserim_area
 						area = malaya_area
 						area = johor_area
@@ -484,6 +486,7 @@ indonesians_4 = {
 						capital_scope = {
 							OR = {
 								area = tenasserim_area
+								area = kra_isthmus_area
 								area = north_tenasserim_area
 								area = malaya_area
 								area = johor_area
@@ -493,6 +496,10 @@ indonesians_4 = {
 						}
 					}
 					tenasserim_area = {
+						type = all
+						religion = ROOT
+					}
+					kra_isthmus_area = {
 						type = all
 						religion = ROOT
 					}

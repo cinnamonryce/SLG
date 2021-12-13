@@ -37,6 +37,31 @@
  ayutthaya.4.d:0 "Labeled the 'golden tongued diplomat,' Kosa Pan was famed for his diplomatic missions in the Ayutthaya Kingdom and his forging of a strong relationship with the French. \n\nPan was born into nobility, allegedly a descendant of the Mon noble Phraya Kiarti, while his mother was a wet nurse to Siamese royalty, supposedly descended from the Sukhothai dynasty. Through diplomatic missions to France, Pan became a prominent diplomat in France, met with rapturous reception by the French people and government, earning him a place among Siam's most influential mandarins and nobles."
  ayutthaya.4.a:0 "A brilliant diplomat indeed!"
  
+ ayutthaya.5.t:0 "A Brilliant General"
+ ayutthaya.5.d:0 "Amid a shortage of active generals, the provincial governor of Tak named Sin has offered his military service to [Root.Monarch.GetTitle] [Root.Monarch.GetName], citing his brilliant military tactics as a basis for enlistment. An apparent 'man of destiny,' the self-titled Taksin has gathered many supporters within the [Root.GovernmentName] in recent years, raising the question of his own political affiliations and loyalty to the [Root.Monarch.GetTitle]."
+ ayutthaya.5.a:0 "He shall serve us well!"
+ ayutthaya.5.b:0 "We have no need of a man of destiny"
+ 
+ ayutthaya.6.t:0 "Siam in Turmoil"
+ ayutthaya.6.d:0 "[Root.GetName] is a mere reflection of its former self, a relic of its imperial past shadowed by the competing interests of other actors both externally and within. \n\nNow relegated to a crumbling [Root.GovernmentName] under the perceived control of incompetent nobles and bureaucrats, warlordism now governs the outlying provinces that once paid absolute homage to [Root.Capital.GetCapitalName], while more patriotic factions within the country cite hostile foreign powers influencing the politics within the nation. \n\nCollapsing before the sands of time, it is now up to the [Root.Monarch.GetTitle] to lead Siamese civilization out of its darkest time yet."
+ ayutthaya.6.a:0 "Will this spell the end of our nation?"
+ 
+ ayutthaya.7.t:0 "A Claimant to the Throne"
+ ayutthaya.7.d:0 "Falling into disrepair as a result of political intrigue, a weak central government and provincial warlordism, the Siamese state has ceased to maintain its sovereignty, effectively collapsing into total anarchy. \n\nAmid such struggles, one of our general has vowed to restore the sovereignty of the Siamese [Root.GovernmentName], laying his claim to the very throne of [Root.GetName] itself. Growing more powerful by the day, the ruling class of [Root.GetName] must once and fall decide where their loyalties lie, for Siam's survival lies on the brink of disspation."
+ ayutthaya.7.a:0 "We need a strong ruler!"
+ ayutthaya.7.b:0 "We must purge the military at once!"
+ 
+ ayutthaya.8.t:0 "Siam Declares Independence"
+ ayutthaya.8.d:0 "While [Root.GetName] has for a while now exercised absolute authority over the petty [Root.Monarch.GetTitle]s of [siam_subject.GetName], such jurisdiction over the [siam_subject.GovernmentName] has recently been shattered, broken by the [siam_subject.GetAdjective] usurper [siam_subject.Monarch.GetName], who has expelled [Root.GetAdjective] administrators and diplomats in an act of rebellion against us. Infuriated at such a vile act, [Root.Culture.GetName] patriots in [Root.Capital.GetCapitalName] have demanded that the [Root.Monarch.GetTitle] immediately take action against such subversion."
+ ayutthaya.8.a:0 "What fools!"
+ 
+ ayutthaya.9.t:0 "A New Capital?"
+ ayutthaya.9.d:0 "Crowned in the small town of Thonburi adjacent to the mouth of the Chao Phraya River, the now [Root.Monarch.GetTitle] [Root.Monarch.GetName] has not shied away from his intent to replace dated institutions within the [Root.GovernmentName]. \n\nCiting a more defensible position within Thonburi, [Root.Monarch.GetName] has proposed that Thonburi act as a new permanent capital of Siam, serving as the central administrative center, with the greater Bangkok area being transformed into a bustling commercial port."
+ ayutthaya.9.a:0 "A splendid idea!"
+ ayutthaya.9.b:0 "[Root.Capital.GetCapitalName] has served us well enough"
+ 
+ flavor_ayu.EVTNAME5:0 "The Foundation of a Modern Siamese State"
+ 
  
  capture_of_malacca.1.t:0 "The Capture of Malacca"
  capture_of_malacca.1.d:0 "The first Portuguese references to Malacca appeared after Vasco da Gama returned from his expedition to Calicut. The city was described as being a forty day journey away from India, where clove, nutmeg, porcelains and silk were sold in abundance. Supposedly, the city was ruled by a Christian sovereign, who could amass an army of ten thousand men for war, which prompted King Manuel to find the city. \n\nA first expedition was launched in 1509, but ultimately failed, resulting in the capture of most of the soldiers at the hands of the Sultan. In 1511, the Viceroy of India, Alfonso de Albuquerque, launched a second expedition to sieze Malacca, and in July, following a rejected ultimatum to release all the prisoners from the 1509 expedition, the Sultan strengthened his defenses to prepare for an inevitable invasion. \n\nOver the course of two assaults, Albuquerque's men conquered the city, pillaging the households of those not allied to the Portuguese. The Sultan of Malacca tried several times to retake the city, but all attempts failed, leading to the eventual downfall of the sultanate."

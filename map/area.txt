@@ -2444,16 +2444,16 @@ saurashtra_area = { #5
 # Indo-China  	                       #
 ########################################
 
-upper_burma_area = { #3
-	584 2399 581
+upper_burma_area = { #5
+	584 2399 581 4394 4395
 }
 
 central_burma_area = { #4
-	4394 4396 585 4395 
+	4396 585 5132 5133
 }
 
-chindwin_area = { #3
-	2398 580 4393
+chindwin_area = { #4
+	2398 580 4393 5134
 }
 
 mohnyin_area = { #4
@@ -2497,21 +2497,25 @@ perak_area = { #3
 }
 
 #NEW
-dangrek_area = { #3
-	2383 4836 4964
+dangrek_area = { #4
+	2383 4838 4964 5137
 }
 
 #NEW
 suwannaphum_area = { #4
-	2384 2385 2386 4838 
+	2384 2385 2386 5138
 }
 
-khorat_area = { #4
-	603 612 4830 4961
+prachin_area = { #3
+	603 4830 5128
 }
 
-champasak_area = { #4
-	608 4839 4840 2382
+khorat_area = { #3
+	612 4836 4961
+}
+
+champasak_area = { #5
+	608 611 4839 4840 2382
 }
 
 champa_area = { #5
@@ -2522,24 +2526,24 @@ tay_nguyen_area = { #3
 	2375 4823 4824
 }
 
-cambodia_area = { #3
-	604 2380 4826
+cambodia_area = { #4
+	604 2380 4826 5135
 }
 
 angkor_area = { #3
 	609 2379 4825
 }
 
-upper_cambodia_area = { #4
-	4828 4827 1823 2378
+upper_cambodia_area = { #5
+	4828 4827 1823 2378 5136
 }
 
-lower_burma_area = { #4
-	586 1815 4399 5115
+lower_burma_area = { #5
+	586 1815 4399 5115 5130
 }
 
-arakan_area = { #4
-	579 2402 4957 4958
+arakan_area = { #5
+	579 2402 4957 4958 5131
 }
 
 mekong_area = { #6
@@ -2548,7 +2552,12 @@ mekong_area = { #6
 }
 
 tenasserim_area = { #5
-	593 2390 2391 4962 4963
+	593 2391 4962 4963 5126
+}
+
+#NEW
+kra_isthmus_area = { #3
+	2387 2390 5127
 }
 
 north_tenasserim_area = { #3
@@ -2559,8 +2568,8 @@ north_malaya_area = { # 3
 	594 2394 4813
 }
 
-vietnam_area = { #3
-	1016 2373 4821
+vietnam_area = { #4
+	1016 2373 4821 5139
 }
 
 cao_bac_area = { #3
@@ -2579,16 +2588,16 @@ muang_phuan_area = { #4
 	1844 2371 4837 4965
 }
 
-vientiane_area = { #3
-	614 615 611
+vientiane_area = { #4
+	614 615 5129 5140
 }
 
-central_thai_area = { #4
-	600 4831 4832 4834
+central_thai_area = { #3
+	600 4831 4832
 }
 
 western_thai_area = { #3
-	592 2387 4835
+	592 4834 4835
 }
 
 sukhothai_area = { #4
@@ -2690,17 +2699,17 @@ kutai_area = { #5
 	638 2712 4799 2711 2710 
 }
 
-sabah_area = { # 3
-	2709 637 2703
+sabah_area = { # 4
+	637 2703 2709 5124
 }
 
 brunei_area = { #3
-	636 4805 4806
+	636 4805 5125
 }
 
 #NEW
-sarawak_area = { #3
-	2704 2705 4804
+sarawak_area = { #4
+	2704 2705 4804 4806
 }
 
 kalimantan_area = { #5

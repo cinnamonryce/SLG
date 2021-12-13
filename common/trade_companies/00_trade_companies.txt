@@ -111,6 +111,7 @@ trade_company_east_india = {
 		567 2091 4473 #tripura_area
 
 		4957 4958
+		5131
 	}
 	
 	# Specific
@@ -145,18 +146,19 @@ trade_company_burma = {
 		582 2395 2396 4404 4405 #kachin_area
 		586 590 1815 2403 4399 #lower_burma_area
 		
-		589 602 #northern_thai_area
 		591 2404 4956 #north_tenasserim_area
 		592 2387 4835
 
 		593 2390 2391 #Ligor	
 
 		4951 4952 4953 4954 4955 
-		4959
 
 		4962 4963 #Trang and Songkhla
 		
 		5114 5115
+		5126 5127
+		5130
+		5132 5133 5134
 
 		#Wastelands
 		4401 4844
@@ -277,6 +279,7 @@ trade_company_indonesia = {
 		4949		
 		5108
 		5118 5119
+		5124 5125
 	}
 
 	# Specific (Removed for potential confusion)
@@ -354,11 +357,16 @@ trade_company_indochina = {
 
 		1817 4841 4842 4960 #northern_thai_area
 		
+		589 602 #northern_thai_area
+		4959
 		4961
 		4964 4965 4966 4967
 		4969
 		
 		5116 5117
+		5128 5129
+		5135 5136 5137 5138
+		5140
 	}
 	
 	# Specific
@@ -387,6 +395,9 @@ trade_company_south_china = {
 		#Taiwan & China continued
 		5101 5102 5103 5104 5105 5106 5107
 		5110 5111 5112
+		
+		#SEA Continued
+		5139
 	}
 	
 	# Specific

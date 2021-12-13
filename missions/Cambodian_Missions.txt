@@ -16,6 +16,7 @@ cambodian_missions_1 = {
 			OR = {
 				area = angkor_area
 				area = khorat_area
+				area = prachin_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -25,6 +26,10 @@ cambodian_missions_1 = {
 				owned_by = ROOT
 			}
 			khorat_area = {
+				type = all
+				owned_by = ROOT
+			}
+			prachin_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -41,6 +46,12 @@ cambodian_missions_1 = {
 				change_culture = ROOT
 			}
 			khorat_area = {
+				limit = {
+					is_core = ROOT
+				}
+				change_culture = ROOT
+			}
+			prachin_area = {
 				limit = {
 					is_core = ROOT
 				}

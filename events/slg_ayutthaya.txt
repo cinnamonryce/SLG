@@ -119,12 +119,13 @@ country_event = {
 			limit = {
 				is_capital = yes
 			}
-			spawn_rebels = {
-				type = pretender_rebels
-				size = 3
-				leader = "Chakkraphat"
-				leader_dynasty = "Suphannaphum"
-			}
+			spawn_rebels = { type = pretender_rebels size = 3 leader = "Chakkraphat" leader_dynasty = "Suphannaphum" }
+			#spawn_rebels = {
+			#	type = pretender_rebels
+			#	size = 3
+			#	leader = "Chakkraphat"
+			#	leader_dynasty = "Suphannaphum"
+			#}
 		}
 	}
 	
@@ -160,15 +161,15 @@ country_event = {
 			dip = 2
 			mil = 0
 		}
-		random_owned_province
+		random_owned_province = {
 			limit = {
 				is_capital = yes
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 2
 				leader = "Worawongsa"
 				leader_dynasty = "Uthong"
+				size = 2
 			}
 		}
 	}
@@ -184,7 +185,6 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = yes
-	
 	option = {
 		name = "ayutthaya.3.a" #Sack the city!
 		596 = {
@@ -251,5 +251,365 @@ country_event = {
 			skill = 2
 			discount = yes
 		}
+	}
+}
+
+#A Brilliant General
+country_event = {
+	id = ayutthaya.5
+	title = "ayutthaya.5.t"
+	desc = "ayutthaya.5.d"
+	picture = CONQUEST_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+		OR = {
+			tag = AYU
+			AND = {
+				primary_culture = central_thai
+				owns = 600
+				NOT = { exists = AYU }
+			}
+		}
+		is_year = 1755
+		NOT = { is_year = 1765 }
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "ayutthaya.5.a" #He shall serve us well!
+		define_general = {
+			name = "Taksin"
+			shock = 2
+			fire = 4
+			manuever = 4
+			siege = 1
+			trait = inspirational_leader_general_personality
+		}
+	}
+	option = {
+		name = "ayutthaya.5.b" #We have no need of a man of destiny
+		add_prestige = 10
+	}
+}
+
+#Siam in Turmoil
+country_event = {
+	id = ayutthaya.6
+	title = "ayutthaya.6.t"
+	desc = "ayutthaya.6.d"
+	picture = COUNTRY_COLLAPSE_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		primary_culture = central_thai
+		NOT = {
+			any_country = {
+				primary_culture = ROOT
+				army_size = ROOT
+			}
+		}
+		OR = {
+			NOT = { stability = -1 }
+			NOT = { legitimacy = 50 }
+		}
+		OR = {
+			is_subject_of_type = vassal
+			is_subject_of_type = march
+			num_of_rebel_controlled_provinces = 10
+			num_of_rebel_armies = ROOT
+			capital_scope = { devastation = 50 }
+		}
+		is_year = 1600
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "ayutthaya.6.a" #Will this spell the end of our nation?
+		add_stability = -1
+		set_country_flag = siam_in_turmoil #Removed through flavor_ayu.5
+	}
+}
+
+#A Claimant to the Throne
+country_event = {
+	id = ayutthaya.7
+	title = "ayutthaya.7.t"
+	desc = "ayutthaya.7.d"
+	picture = NUSANTARA_THRONE_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+		has_country_flag = siam_in_turmoil
+		has_leaders = {
+			value = 1
+			type = general
+			include_monarch = no
+			include_heir = no
+		}
+	}
+	mean_time_to_happen = {
+		months = 10
+	}
+	
+	option = {
+		name = "ayutthaya.7.a" #We need a strong ruler!
+		if = {
+			limit = {
+				has_leader = "Taksin"
+			}
+			define_ruler = {
+    			name = "Taksin"
+				dynasty = "Tak"
+    			adm = 5
+    			dip = 4
+    			mil = 6
+    			attach_leader = "Taksin"
+			}
+			hidden_effect = {
+				add_ruler_personality = tactical_genius_personality
+				country_event = {
+					id = ayutthaya.9
+					days = 7
+				}
+			}
+		}
+		else = {
+			define_leader_to_ruler = {
+    			type = general
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					is_subject_of_type = vassal
+					is_subject_of_type = march
+				}
+			}
+			ROOT = { 
+				grant_independence = yes
+				save_event_target_as = siam_subject
+			}
+			overlord = {
+				country_event = {
+					id = ayutthaya.8
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = "ayutthaya.7.b" #We must purge the military at once!
+		add_mil_power = -50
+		if = {
+			limit = {
+				has_leader = "Taksin"
+			}
+			kill_leader = {
+				type = "Taksin"
+			}
+		}
+		else = {
+			kill_leader = {
+				type = general
+			}
+		}
+	}
+}
+
+#Siam Declares Independence
+country_event = {
+	id = ayutthaya.8
+	title = "ayutthaya.8.t"
+	desc = "ayutthaya.8.d"
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "ayutthaya.8.a" #What fools!
+		add_casus_belli
+			target = FROM
+			type = cb_disloyal_vassal 
+			months = 12
+		}
+	}
+}
+
+#A New Capital?
+country_event = {
+	id = ayutthaya.9
+	title = "ayutthaya.9.t"
+	desc = "ayutthaya.9.d"
+	picture = HARBOUR_eventPicture
+
+	is_triggered_only = yes	
+	option = {
+		name = "ayutthaya.9.a" #A splendid idea!
+		set_capital = 4831
+		set_dynasty = "Thonburi"
+		4831 = {
+			rename_capital = "Thonburi"
+		}
+		override_country_name = THONBURI
+		set_country_flag = is_thonburi
+		#Center of trade level in 4831 will be siphoned from capital if CoT above level 1
+		if = {
+			limit = {
+				capital_scope = {
+					province_has_center_of_trade_of_level = 1
+					NOT = { province_has_center_of_trade_of_level = 2 }
+				}
+			}
+			capital_scope = { add_center_of_trade_level = -1 }
+			4831 = { center_of_trade = 1 }
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					province_has_center_of_trade_of_level = 2
+					NOT = { province_has_center_of_trade_of_level = 3 }
+				}
+			}
+			capital_scope = { add_center_of_trade_level = -2 }
+			4831 = { center_of_trade = 2 }
+		}
+		else_if = {
+			limit = {
+				capital_scope = {
+					province_has_center_of_trade_of_level = 3
+				}
+			}
+			capital_scope = { add_center_of_trade_level = -3 }
+			4831 = { center_of_trade = 3 }
+		}
+		#Any existing fort in capital will be relocated to 4831 if valid
+		if = {
+			limit = {
+				capital_scope = {
+					has_building = fort_15th
+				}
+			}
+			capital_scope = { remove_building = fort_15th }
+			4831 = { add_building = fort_15th }
+		}
+		else_if = {
+			limit = {
+				capital_scope = {
+					has_building = fort_16th
+				}
+			}
+			capital_scope = { remove_building = fort_16th }
+			4831 = { add_building = fort_16th }
+		}
+		else_if = {
+			limit = {
+				capital_scope = {
+					has_building = fort_17th
+				}
+			}
+			capital_scope = { remove_building = fort_17th }
+			4831 = { add_building = fort_17th }
+		}
+		#Up to 3 development of each category will be siphoned from capital; this amount +2 of every type of dev will be relocated to 4831
+		if = { #Tax
+			limit = {
+				capital_scope = {
+					base_tax = 4
+				}
+			}
+			capital_scope = { add_base_tax = -3 }
+			4831 = { add_base_tax = 5 } #Siphoned dev + 2
+		}
+		else_if = {
+			limit = {
+				capital_scope = {
+					base_tax = 3
+				}
+			}
+			capital_scope = { add_base_tax = -2 }
+			4831 = { add_base_tax = 4 } #Siphoned dev + 2
+		}
+		else_if = {
+			limit = {
+				capital_scope = {
+					base_tax = 2
+				}
+			}
+			capital_scope = { add_base_tax = -1 }
+			4831 = { add_base_tax = 3 } #Siphoned dev + 2
+		}
+		else = {
+			4831 = { add_base_tax = 2 } # +2 dev
+		}
+		if = { #Production
+			limit = {
+				capital_scope = {
+					base_production = 4
+				}
+			}
+			capital_scope = { add_base_production = -3 }
+			4831 = { add_base_production = 5 } #Siphoned dev + 2
+		}
+		else_if = {
+			limit = {
+				capital_scope = {
+					base_production = 3
+				}
+			}
+			capital_scope = { add_base_production = -2 }
+			4831 = { add_base_production = 4 } #Siphoned dev + 2
+		}
+		else_if = {
+			limit = {
+				capital_scope = {
+					base_production = 2
+				}
+			}
+			capital_scope = { add_base_production = -1 }
+			4831 = { add_base_production = 3 } #Siphoned dev + 2
+		}
+		else = {
+			4831 = { add_base_production = 2 } # +2 dev
+		}
+		if = { #Manpower
+			limit = {
+				capital_scope = {
+					base_manpower = 4
+				}
+			}
+			capital_scope = { add_base_manpower = -3 }
+			4831 = { add_base_manpower = 5 } #Siphoned dev + 2
+		}
+		else_if = {
+			limit = {
+				capital_scope = {
+					base_manpower = 3
+				}
+			}
+			capital_scope = { add_base_manpower = -2 }
+			4831 = { add_base_manpower = 4 } #Siphoned dev + 2
+		}
+		else_if = {
+			limit = {
+				capital_scope = {
+					base_manpower = 2
+				}
+			}
+			capital_scope = { add_base_manpower = -1 }
+			4831 = { add_base_manpower = 3 } #Siphoned dev + 2
+		}
+		else = {
+			4831 = { add_base_manpower = 2 } # +2 dev
+		}
+	}
+	option = {
+		name = "ayutthaya.9.b" #There is no need to move the capital
+		add_prestige = 10
 	}
 }

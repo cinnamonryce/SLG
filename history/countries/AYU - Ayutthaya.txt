@@ -796,7 +796,7 @@ change_estate_land_share = {
 		adm = 5
 		dip = 4
 		mil = 6
-		leader = { name = "Taksin Thonburi"	type = general	fire = 2	shock = 4	manuever = 4	siege = 0 }
+		leader = { name = "Taksin Thonburi"	type = general	fire = 2	shock = 4	manuever = 4	siege = 1 }
 	} #Has a lot of recorded traits, can't represent them all
 	clear_scripted_personalities = yes
 	add_ruler_personality = tactical_genius_personality

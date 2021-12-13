@@ -20,3 +20,5 @@
 4963 = { "Terang" "Terang" }
 
 4956 = "Tanah Sari"
+
+5127 = "Jumbara"

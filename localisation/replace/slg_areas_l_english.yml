@@ -24,9 +24,9 @@
  angkor_area_name:0 "Inner Cambodia"
  angkor_area_adj:0 "Inner Cambodia"
  
- khorat_area:0 "Prachin"
- khorat_area_name:0 "Prachin"
- khorat_area_adj:0 "Prachin"
+ prachin_area:0 "Prachin"
+ prachin_area_name:0 "Prachin"
+ prachin_area_adj:0 "Prachin"
 
  sabah_area:0 "North Borneo"
  sabah_area_name:0 "North Borneo"
@@ -152,13 +152,13 @@
  perak_area_name:0 "Perak"
  perak_area_adj:0 "Perakian"
  
- suwannaphum_area:0 "Suwannaphum"
- suwannaphum_area_name:0 "Suwannaphum"
- suwannaphum_area_adj:0 "Suwannaphumi"
+ suwannaphum_area:0 "Chi"
+ suwannaphum_area_name:0 "Chi"
+ suwannaphum_area_adj:0 "Chi"
  
- dangrek_area:0 "Dangrek"
- dangrek_area_name:0 "Dangrek"
- dangrek_area_adj:0 "Dangrek"
+ dangrek_area:0 "Mun"
+ dangrek_area_name:0 "Mun"
+ dangrek_area_adj:0 "Mun"
  
  upper_cambodia_area:0 "Upper Cambodia"
  upper_cambodia_area_name:0 "Upper Cambodia"
@@ -235,6 +235,10 @@
  siam_region:0 "Siam"
  siam_region_name:0 "Siam"
  siam_region_adj:0 "Siamese"
+ 
+ kra_isthmus_area:0 "Kra Isthmus"
+ kra_isthmus_area_name:0 "Kra Isthmus"
+ kra_isthmus_area_adj:0 "Kra"
  
  philippines_region:0 "Philippines"
  philippines_region_name:0 "Philippines"

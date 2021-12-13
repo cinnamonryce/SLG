@@ -339,6 +339,8 @@
 4962 = { "Singora" "Singora" }
 4969 = { "Ponthiamas" "Ponthiamas" } 
 
+5129 = "Sainyabuli"
+
 #Burma
 579 = { "Mrohaung" "Mrohaung" }
 585 = "Tongo"
@@ -348,6 +350,8 @@
 4399 = { "Rangoon" "Rangoon" }
 
 5115 = { "Syriam" "Syriam" }
+
+5132 = "Meady"
 
 #Philippines
 652 = "Mindanao" #Or Magindanao

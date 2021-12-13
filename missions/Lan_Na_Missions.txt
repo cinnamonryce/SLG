@@ -175,7 +175,6 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 		position = 6
 		provinces_to_highlight = {
 			OR = {
-				area = karenni_area
 				area = shan_hill_area
 				area = yawnghwe_area
 				area = kengtung_area
@@ -189,10 +188,6 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 			}
 			kengtung_area = {
 			    type = all
-                country_or_non_sovereign_subject_holds = ROOT
-			}
-			karenni_area = {
-                type = all
                 country_or_non_sovereign_subject_holds = ROOT
 			}
 			shan_hill_area = {

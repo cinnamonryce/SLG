@@ -388,7 +388,7 @@ new_SIA_ideas = {
 	free = yes
 	
 	sia_royal_poets = {
-		prestige = 0.1
+		prestige = 1
 	}
 	sia_chinese_immigration = {
 		development_cost = -0.1
@@ -402,7 +402,7 @@ new_SIA_ideas = {
 		diplomatic_annexation_cost = -0.15
 	}
 	sia_education_reform = {
-		idea_cost = -0.15
+		global_institution_spread = 0.2
 	}
 	sia_royal_absolutism = {
 		yearly_absolutism = 1

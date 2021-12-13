@@ -22,5 +22,5 @@ center_of_trade = 2
 
 1535.1.1 = { discovered_by = POR }
 1767.4.1 = { unrest = 7 } # The Ayutthaya kingdom began to crumble
-1768.1.1 = { base_tax = 4 base_production = 4 base_manpower = 2 fort_15th = no } #Foundation of a new capital in Thonburi
+1768.1.1 = { base_tax = 5 base_production = 5 base_manpower = 3 fort_15th = no extra_cost = 8 center_of_trade = 1 } #Foundation of a new capital in Thonburi
 1774.1.1 = { unrest = 0 }

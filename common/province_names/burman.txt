@@ -61,3 +61,6 @@
 5113 = "Mainglem"
 
 5115 = { "Thanlyin" "Thanlyin" }
+
+5130 = { "Myaungmya" "Myaungmya" }
+5131 = "Yanbye"

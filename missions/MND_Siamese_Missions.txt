@@ -523,6 +523,13 @@ mnd_siam_5 = {
 				}
 				change_tag = SIA
 				if = {
+					limit = {
+						has_country_flag = is_thonburi
+					}
+					clr_country_flag = is_thonburi
+					restore_country_name = yes
+				}
+				if = {
 					limit = { has_custom_ideas = no }
 					country_event = { id = ideagroups.1 } #Swap Ideas
 				}

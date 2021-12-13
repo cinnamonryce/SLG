@@ -313,7 +313,7 @@ mnd_pegu_3 = {
 					}
 					add_permanent_claim = ROOT
 				}
-				khorat_area = {
+				prachin_area = {
 					limit = {
 						NOT = { is_core = ROOT }
 						NOT = { is_permanent_claim = ROOT }
@@ -345,7 +345,7 @@ mnd_pegu_3 = {
 				area = central_thai_area
 				area = upper_chao_phraya_area
 				area = north_tenasserim_area
-				area = khorat_area
+				area = prachin_area
 				area = western_thai_area
 			}
 			NOT = {
@@ -360,7 +360,7 @@ mnd_pegu_3 = {
 						area = central_thai_area
 						area = upper_chao_phraya_area
 						area = north_tenasserim_area
-						area = khorat_area
+						area = prachin_area
 						area = western_thai_area
 					}
 					country_or_non_sovereign_subject_holds = ROOT

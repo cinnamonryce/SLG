@@ -226,6 +226,7 @@ categories =  {
 			
 			4840 # Mandala
 			
+			2383 4964
 			4856
 		}
 	}
@@ -370,7 +371,8 @@ categories =  {
 			4750 4754
 			
 			#NEW SLG
-			5066 5067 #For some reason appear as deserts
+			2375 4823 4824
+			5066 5067
 		}
 	}
 
@@ -771,7 +773,7 @@ categories =  {
 			4618 4619 #Mesoamerica 1.28
 			4836 2383 4829
 			
-			1092 4851 1094 4850 4846
+			1092 4851 1094 4838 4850 4846
 			
 			#SLG Australia
 			4867 5020 5021 5022

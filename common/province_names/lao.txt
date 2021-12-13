@@ -91,3 +91,6 @@
 4882 = { "Muang Mian" "Mong Myen" }
 
 4885 = "Muang Si"
+
+5130 = "Muang Mia"
+5131 = "Lamli"

@@ -295,7 +295,8 @@ siam_region = {
 		dangrek_area
 		#NEW
 		upper_chao_phraya_area
-                
+		kra_isthmus_area
+		prachin_area
 	}
 	monsoon = {
 		00.07.01

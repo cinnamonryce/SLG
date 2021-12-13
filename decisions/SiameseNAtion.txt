@@ -73,6 +73,13 @@ country_decisions = {
 		
 		effect = {
 			change_tag = SIA
+			if = {
+				limit = {
+					has_country_flag = is_thonburi
+				}
+				clr_country_flag = is_thonburi
+				restore_country_name = yes
+			}
 			swap_non_generic_missions = yes
 			4831 = {
 			        add_base_tax = 3

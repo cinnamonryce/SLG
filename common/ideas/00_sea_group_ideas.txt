@@ -315,14 +315,10 @@ new_malayan_ideas = {
 		primary_culture = malayan
 		NOT = {
 			tag = MLC
-                        tag = JOH
-                        tag = PAT
-                        tag = SAK
-                        tag = IDG
-                        tag = BEI
-                        tag = MSA
-                        tag = PSA
-                        tag = KED
+			tag = JOH
+			tag = PAT
+			tag = MSA
+			tag = KED
 		}
 	}
 	free = yes
@@ -362,7 +358,10 @@ new_sumatran_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = batak
+		OR = {
+			primary_culture = batak
+			primary_culture = rejang
+		}
 	}
 	free = yes
 
@@ -567,10 +566,7 @@ bornean_ideas = {
 	
 	trigger = {
 		OR = {
-			tag = SMB
-			tag = SKD
-			tag = PNT
-			tag = SWK
+			primary_culture = bornean
 			tag = BEU
 			tag = KTW
 		}
@@ -613,13 +609,7 @@ dayak_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = bornean
-		NOT = {
-			tag = SMB
-			tag = SKD
-			tag = PNT
-			tag = SWK
-		}
+		primary_culture = dayak
 	}
 	
 	free = yes

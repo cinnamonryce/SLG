@@ -308,6 +308,13 @@ suk_missions_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			kra_isthmus_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			tenasserim_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -316,6 +323,13 @@ suk_missions_2 = {
 				add_permanent_claim = ROOT
 			}
 			khorat_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			prachin_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -354,12 +368,20 @@ suk_missions_2 = {
 		required_missions = { suk_the_return_of_sukhothai }
 		position = 7
 		provinces_to_highlight = {
-			area = tenasserim_area
+			OR = {
+				area = tenasserim_area
+				area = kra_isthmus_area
+				area = sukhothai_area
+			}
 			NOT = {
 				owned_by = ROOT
 			}
 		}
 		trigger = {
+			kra_isthmus_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 			num_of_owned_provinces_with = {
 					value = 3
 					area = tenasserim_area

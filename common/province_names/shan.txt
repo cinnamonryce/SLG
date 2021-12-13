@@ -11,3 +11,5 @@
 5010 = { "Mong Myen" "Mong Myen" } #Or Mong Mien
 
 5013 = { "Mong Hsi" "Mong Hsi" }
+
+5130 = "Mong Mye" #From Myaungmya, alternatively Mong Male or Mong Mia

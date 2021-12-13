@@ -202,23 +202,28 @@ country_event = {
 	}
 }
 
-#The Foundation of the Modern Thai State
+#The Foundation of a Modern Siamese State
 country_event = {
 	id = flavor_ayu.5
 	title = "flavor_ayu.EVTNAME5"
 	desc = "flavor_ayu.EVTDESC5"
-	picture = COURT_eventPicture
+	picture = MALAYAN_PORT_eventPicture
 	
 	fire_only_once = yes
-	
 	trigger = {
-		tag = AYU
-		is_year = 1750
-		NOT = { is_year = 1800 }
+		has_country_flag = siam_in_turmoil
+		stability = 2
+		legitimacy = 75
+		is_at_war = no
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		NOT = { num_of_rebel_armies = 1 }
+		NOT = {
+			is_subject_of_type = vassal
+			is_subject_of_type = march
+		}
 	}
-	
 	mean_time_to_happen = {
-		months = 2000	
+		months = 1
 	}
 	
 	immediate = {
@@ -254,6 +259,7 @@ country_event = {
 	option = {
 		name = "flavor_ayu.EVTOPTA5" #It is the beginning of a new era!
 		add_stability_or_adm_power = yes
+		clr_country_flag = siam_in_turmoil
 		random_owned_province = {
 			limit = {
 				has_province_flag = AYU_foundation_flag1

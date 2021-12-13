@@ -380,7 +380,7 @@ siamese_missions_2 = {
 			}
 			custom_tooltip = ayu_taification.tooltip
 			hidden_effect = {
-				khorat_area = {
+				prachin_area = {
 					limit = {
 						owned_by = ROOT
 						religion = ROOT
@@ -401,8 +401,8 @@ siamese_missions_2 = {
 					}
 					change_culture = ROOT
 				}
-				if = {
-					4836 = {
+				khorat_area = {
+					limit = {
 						owned_by = ROOT
 						religion = ROOT
 					}
@@ -596,6 +596,13 @@ siamese_missions_3 = {
 				duration = 7300
 			}
 			lower_burma_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			karenni_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -829,7 +836,6 @@ siamese_missions_3 = {
 		position = 5
 		provinces_to_highlight = {
 			OR = {
-				area = karenni_area
 				area = shan_hill_area
 				area = yawnghwe_area
 				area = kengtung_area
@@ -842,10 +848,6 @@ siamese_missions_3 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			kengtung_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			karenni_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

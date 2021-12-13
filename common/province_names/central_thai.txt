@@ -88,6 +88,13 @@
 
 5113 = { "Mueang Laem" "Mong Laem" }
 
+5126 = { "Satun" "Satun" }
+
+5129 = "Samaburi"
+5130 = "Mueang Mia" #From Myaungmya, alternatively Mueang Male
+5131 = "Ramri"
+
+
 #American Provinces
 792 = "Kopi"
 855 = "Na Saen"

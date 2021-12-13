@@ -23,7 +23,8 @@ tau_slot_1 = {
 		provinces_to_highlight = {
 			OR = {
 				area = shan_hill_area
-				area = karenni_area
+				area = yawnghwe_area
+				area = kengtung_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -34,7 +35,11 @@ tau_slot_1 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
-			karenni_area = {
+			yawnghwe_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			kengtung_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
@@ -64,7 +69,8 @@ tau_slot_1 = {
 		provinces_to_highlight = {
 			OR = {
 				area = shan_hill_area
-				area = karenni_area
+				area = yawnghwe_area
+				area = kengtung_area
 				area = chindwin_area
 				area = kachin_area
 			}
@@ -86,7 +92,17 @@ tau_slot_1 = {
 					unrest = 1
 				}
 			}
-			karenni_area = {
+			yawnghwe_area = {
+				type = all
+				owned_by = ROOT
+				NOT = {
+					local_autonomy = 30
+				}
+				NOT = {
+					unrest = 1
+				}
+			}
+			kengtung_area = {
 				type = all
 				owned_by = ROOT
 				NOT = {
@@ -327,7 +343,14 @@ tau_slot_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			karenni_area = {
+			yawnghwe_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			kengtung_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
@@ -374,9 +397,11 @@ tau_slot_2 = {
 				area = upper_burma_area
 				area = lower_burma_area
 				area = shan_hill_area
+				area = yawnghwe_area
+				area = kengtung_area
 				area = karenni_area
-				area = 	central_burma_area
-				area = 	chindwin_area
+				area = central_burma_area
+				area = chindwin_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -398,6 +423,14 @@ tau_slot_2 = {
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
 			shan_hill_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			yawnghwe_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			kengtung_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
@@ -480,6 +513,13 @@ tau_slot_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			western_thai_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 			north_tenasserim_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -501,7 +541,10 @@ tau_slot_2 = {
 		required_missions = { tau_conquer_siam tau_conquer_lxa }
 		position = 6
 		provinces_to_highlight = {
-			region = indo_china_region
+			OR = {
+				region = indo_china_region
+				region = siam_region
+			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -509,6 +552,10 @@ tau_slot_2 = {
 		trigger = {
 			legitimacy = 90
 			indo_china_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			siam_region = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
@@ -589,6 +636,13 @@ tau_slot_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			arakan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	
@@ -623,8 +677,10 @@ tau_slot_3 = {
 		provinces_to_highlight = {
 			OR = {
 				area = central_thai_area
+				area = western_thai_area
 				area = north_tenasserim_area
 				area = sukhothai_area
+				area = upper_chao_phraya_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -635,11 +691,19 @@ tau_slot_3 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
+			western_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
 			north_tenasserim_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
 			sukhothai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			upper_chao_phraya_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
