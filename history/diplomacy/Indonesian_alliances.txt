@@ -208,6 +208,22 @@ alliance = {
 	end_date = 1552.1.1
 }
 
+# Sipsongchautai/Tais
+guarantee = {
+	first = DAI
+	second = SSC
+	start_date = 1427.1.1
+	end_date = 1448.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MNG
+	second = SSC
+	start_date = 1413.1.1
+	end_date = 1448.1.1
+}
+
 # Muang Phuan
 guarantee = {
 	first = LXA

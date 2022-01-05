@@ -14,6 +14,12 @@ spriteTypes = {
 		name = "GFX_great_project_igorot_rice_terraces"	
 		texturefile = "gfx//interface//great_projects//great_project_igorot_rice_terraces.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_great_project_wat_phra_si_sanphet"	
+		texturefile = "gfx//interface//great_projects//great_project_wat_phra_si_sanphet.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_great_project_palk_strait"	
 		texturefile = "gfx//interface//great_projects//great_project_suez_canal.dds"

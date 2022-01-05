@@ -15,6 +15,10 @@ ayu_portuguese_treaty = {
 	tolerance_heathen = 1
 }
 
+ayu_wat_phra_si_sanphet = {
+	prestige_decay = -0.01
+}
+
 #emerald_buddha = {
 #	tolerance_own = 1
 #	prestige = 0.5

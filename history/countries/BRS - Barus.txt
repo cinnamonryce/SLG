@@ -1,4 +1,4 @@
-government = monarchy
+government = tribal
 add_government_reform = native_chieftain_system_reform
 primary_culture = batak
 religion = sunni

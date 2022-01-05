@@ -2,8 +2,8 @@
 
 owner = SSP
 controller = SSP
-culture = northern_thai
-religion = buddhism
+culture = wa
+religion = animism
 capital = "Mong Lem"
 trade_goods = grain
 hre = no

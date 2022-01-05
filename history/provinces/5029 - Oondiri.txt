@@ -1,4 +1,4 @@
-#Oondiri
+#Oondiri - Nullarbor
 
 culture = nyoongah
 religion = dreamtime
@@ -11,7 +11,6 @@ base_production = 1
 native_size = 1
 native_ferocity = 2
 native_hostileness = 7
-tribal_owner = NOO
 discovered_by = aboriginal_tech
 
 1619.1.10 = { discovered_by = NED } # Frederick de Houtman

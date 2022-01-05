@@ -1,0 +1,24 @@
+#Te Rohe Potae
+
+#Home of the Ngati Maniapoto
+add_core = TAN
+owner = TAN
+controller = TAN
+culture = maori
+religion = animism
+hre = no
+capital = "Te Kuititanga" #Or Taumarunui
+is_city = yes
+trade_goods = tropical_wood
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+native_size = 40
+native_ferocity = 5
+native_hostileness = 3
+
+discovered_by = polynesian_tech
+
+
+1642.1.1 = { discovered_by = NED } # Abel Tasman

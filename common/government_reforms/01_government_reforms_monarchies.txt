@@ -918,6 +918,18 @@ mughal_government = {
 		philippine = { #NEW
 			light_ship_power = 0.1
 		}
+		moluccan_group = { #NEW
+			colonist_placement_chance = 0.05
+		}
+		melanesian_group = { #NEW
+			light_ship_cost = -0.1
+		}
+		nusantaran = { #NEW
+			vassal_income = 0.2
+		}
+		orang_asal = { #NEW
+			tolerance_own = 1
+		}
 	}
 }
 
@@ -1184,7 +1196,7 @@ sakdina_system_reform = {
 	}
 	valid_for_nation_designer = no
 	modifiers = {
-		stability_cost_modifier = -0.1
+		harsh_treatment_cost = -0.25
 		global_unrest = -2
 	}
 	ai = {
@@ -1208,7 +1220,7 @@ uparaja_reform = {
 	valid_for_nation_designer = no
 	modifiers = {
 		monthly_heir_claim_increase = 0.05
-		legitimacy = 0.5
+		free_adm_policy = 1
 		prestige = 0.5
 	}
 	ai = {
@@ -1219,7 +1231,7 @@ uparaja_reform = {
 		}
 		modifier = {
 			factor = 3
-			tag = SIA
+			technology_group = indochinese
 		}
 	}
 }
@@ -2082,130 +2094,5 @@ become_rev_republic_reform = {
 	}
 	ai = {
 		factor = 0
-	}
-}
-
-#NEW
-
-native_chieftain_system_reform = {
-	icon = "chieftain"
-	allow_normal_conversion = yes
-	potential = {
-		NOT = { religion = shinto }
-		OR = {
-			technology_group = indochinese
-			technology_group = malay_group
-			culture_group = tibetan_group
-			culture_group = lingnan
-			AND = {
-				technology_group = chinese
-				religion_group = pagan
-			}
-		}
-	}
-	valid_for_nation_designer = yes
-	nation_designer_cost = 10
-	nation_designer_trigger = {
-		religion_group = pagan
-		OR = {
-			technology_group = chinese
-			primary_culture = shan
-		}
-	}
-
-	maintain_dynasty = yes
-	allow_vassal_alliance = yes
-
-	modifiers = {
-		harsh_treatment_cost = -0.15
-		num_accepted_cultures = 2
-	}
-}
-
-heavenly_monarchy_reform = {
-	icon = "peacock_throne"
-	allow_normal_conversion = yes
-	potential = {
-		NOT = {
-			religion_group = christian
-			religion_group = muslim
-		}
-		OR = {
-			technology_group = chinese
-			technology_group = indochinese
-			technology_group = malay_group
-		}
-	}
-	valid_for_nation_designer = yes
-	nation_designer_cost = 10
-	nation_designer_trigger = {
-		religion_group = pagan
-		OR = {
-			technology_group = indochinese
-			technology_group = malay_group
-		}
-	}
-
-	maintain_dynasty = yes
-
-	modifiers = {
-		global_unrest = -2
-		brahmins_hindu_loyalty_modifier = 0.05
-		church_loyalty_modifier = 0.05
-		max_absolutism = 20
-	}
-}
-
-muslim_trade_ports_reform = {
-	icon = "malay_ruler"
-	allow_normal_conversion = yes
-	potential = {
-		num_of_total_ports = 1
-		NOT = {
-			religion_group = christian
-			religion_group = muslim
-		}
-		OR = {
-			technology_group = malay_group
-			culture_group = malay
-		}
-		NOT = {
-			religious_unity = 1.0
-		}
-		any_owned_province = {
-			religion_group = muslim
-		}
-	}
-	modifiers = {
-		tolerance_heathen = 2
-		trade_efficiency = 0.05
-		church_loyalty_modifier = -0.1
-		brahmins_hindu_loyalty_modifier = -0.1
-	}
-	ai = {
-		modifier = {
-			factor = 2
-			NOT = {
-				religious_unity = 0.6
-			}
-		}
-	}
-}
-
-autonomous_towns_reform = {
-	icon = "landscape"
-	allow_normal_conversion = yes
-	potential = {
-		OR = {
-			has_reform = mandala_reform
-			has_reform = native_chieftain_system_reform
-		}
-	}
-	modifiers = {
-		fort_maintenance_modifier = -0.2
-		global_regiment_recruit_speed = -0.10
-	}
-	ai = {
-		factor = 1
 	}
 }

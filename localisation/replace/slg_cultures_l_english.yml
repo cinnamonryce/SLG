@@ -1,6 +1,7 @@
 ﻿l_english:
  southeastasian_group:0 "Indochinese"
  degar:0 "Degar"
+ wa:0 "Wa"
  
  central_thai:0 "Siamese"
  northern_thai:0 "Lanna"
@@ -49,6 +50,8 @@
  lingnan:0 "Lingnan"
  miao: "Hmong"
  hlai:0 "Hlai"
+ 
+ western_min:0 "Western Min"
  
  philippine:0 "Philippine"
  formosan:0 "Formosan"

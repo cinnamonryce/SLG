@@ -32,7 +32,6 @@ monarchy = {
 				austrian_archduchy_reform
 				siamese_absolutism
 				confucian_bureaucracy
-				native_chieftain_system_reform
 				heavenly_monarchy_reform
 			}
 		}
@@ -50,8 +49,8 @@ monarchy = {
 				black_army_reform
 				legion_of_honor_reform
 				imperial_nobility_reform
-				uparaja_reform
 				muslim_trade_ports_reform
+				sakdina_system_reform
 			}
 		}
 		bureaucracy = {
@@ -65,7 +64,7 @@ monarchy = {
 				liberte_reform
 				fraternite_reform
 				examination_system_reform
-				corvee_reform
+				uparaja_reform
 				autonomous_towns_reform
 			}
 		}
@@ -81,7 +80,7 @@ monarchy = {
 				revolutionary_principle_reform
 				equality_principle_reform
 				imperial_principle_reform
-				sakdina_system_reform
+				corvee_reform
 			}
 		}
 		deliberative_assembly = {
@@ -420,6 +419,7 @@ tribal = {
 				stateless_society
 				polynesian_kingdom
 				polynesian_tribe
+				native_chieftain_system_reform
 			}
 		}
 		tribal_cultural_values = {

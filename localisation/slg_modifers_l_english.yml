@@ -17,6 +17,9 @@
  healed_by_god:0 "Healed by God"
  desc_healed_by_god:0 "Amid the sickness of our ruler, our court was confronted by a merchant who offered treatment in exchange for a subsequent conversion to Islam. Miraculously, such treatment was successful, and our ruler has never been healthier, rejuvenated by what we can only interpret as the awesome power of God."
  
+ ayu_wat_phra_si_sanphet:0 "Consecration of Wat Phra Si Sanphet"
+ desc_ayu_wat_phra_si_sanphet: "Once the site of our old royal residence, the now holy 'Wat Phra Si Sanphet' serves as a place of worship for all in Siam. All godfearing people shall come to this central location to devote themselves to both the Buddha and our rulers."
+ 
  #Macky's Tibetan Overhaul
  gun_samding_dorje_phagmo_pmod: "Samding Dorje Phagmo"
  desc_gun_samding_dorje_phagmo_pmod: "Chokyi Dronma, our heir to the throne, has been awarded a new title, Samding Dorje Phagmo, the third highest-ranking person in Tibetan Buddhism, and the highest female incarnation in Tibet."

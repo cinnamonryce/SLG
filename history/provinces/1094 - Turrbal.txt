@@ -3,7 +3,7 @@
 add_core = MIA
 owner = MIA
 controller = MIA
-culture = gamilaraay
+culture = aboriginal
 religion = dreamtime
 capital = "K'Gari"
 trade_goods = naval_supplies

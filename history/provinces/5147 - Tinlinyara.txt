@@ -1,0 +1,18 @@
+#Tinlinyara - Tintinara
+
+culture = yura
+religion = dreamtime
+capital = "Tinlinyara"
+hre = no
+trade_goods = unknown
+base_manpower = 1
+base_tax = 1
+base_production = 1
+native_size = 3
+native_ferocity = 2
+native_hostileness = 4
+tribal_owner = KAU
+discovered_by = aboriginal_tech
+
+
+1802.1.1 = { discovered_by = GBR } # Matthew Flinders

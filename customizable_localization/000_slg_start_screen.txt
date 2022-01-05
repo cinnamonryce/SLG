@@ -10,11 +10,11 @@
 #StartScreenDownLeft
 #StartScreenDownRight
 
-### Main title of start screen
-#Ex: "The Empire of Man, 2017"
+### Upper left title textbox
+#Ex: "Sweden's Situation"
 defined_text = {
-    name = StartScreenTitle
-	random = no
+    name = StartScreenUpLeftTitle
+	random = no #Pick first that fits
 	
     text = {
         localisation_key = string_screen_title_ayutthaya

@@ -229,7 +229,7 @@
 4861 = { "Hume" "Wangaratta" }
 4862 = { "Port Pirie" "Port Pirie" }
 4863 = { "Avon" "York" }
-4864 = { "Wheatbelt" "Moora" } #Wheatbelt or Moore River
+4864 = { "Moore" "Moora" } #Moore River and the town of Moora
 4865 = { "Dampier" "Onslow" }
 4866 = { "Pilbara" "Cossack" }
 4867 = { "Kimberley" "Wyndham" }
@@ -246,7 +246,7 @@
 5026 = { "Gascoyne" "Carnarvon" }
 5027 = { "Geraldton" "Geraldton" }
 5028 = { "Esperance" "Esperance" } #Also possibly Mallee
-5029 = { "Nullarbor" "Norseman" }
+5029 = { "Nullarbor" "Eucla" }
 5030 = { "Murat Bay" "Ceduna" }
 5031 = { "Port Augusta" "Port Augusta" }
 5032 = "Riverland"
@@ -277,6 +277,15 @@
 5058 = { "Balonne" "Surat" }
 5059 = { "Barwon" "Walgett" }
 
+5146 = { "Coen River" "Coen" }
+5147 = { "Tintinara" "Tintinara" }
+5148 = { "Mount Barker" "Mount Barker" }
+5149 = { "Yunta" "Yunta" }
+5150 = { "Bunbury" "Bunbury" }
+5151 = { "Dundas" "Norseman" }
+5152 = { "Kalgoorlie" "Hannan's Find" }
+5153 = { "Brookton" "Brookton" }
+
 #New Zealand
 1106 = "Northland"
 1107 = { "New Plymouth" "New Plymouth" }
@@ -284,7 +293,7 @@
 1109 = { "Canterbury" "Christchurch" }
 1246 = { "Westland" "Grey" } #Westland/West Coast, unsure about capital
 2737 = { "Hawke's Bay" "Napier" }
-2738 = { "Tasman Bay" "Nelson" }
+2738 = { "Blind Bay" "Nelson" }
 2739 = { "Hamilton" "Hamilton" }
 4939 = { "East Coast" "Turanga" } #Not to be confused with Tauranga
 5066 = { "Southland" "Invercargill" }
@@ -292,6 +301,9 @@
 5068 = { "Wellington" "Wellington" }
 5069 = { "Auckland" "Auckland" }
 5071 = { "Taupo" "Taupo" }
+5141 = { "King Country" "Te Kuiti" }
+5142 = { "Wanganui" "Petre" }
+5143 = { "Blind Bay" "Nelson" }
 
 
 

@@ -1,15 +1,15 @@
 ########################################
-# Extra Flavor Events for Ayutthaya
+# Extra Flavor Events for slg_ayutthaya
 ########################################
 
-namespace = ayutthaya
+namespace = slg_ayutthaya
 normal_or_historical_nations = yes
 
 #Portuguese Envoys in Ayutthaya
 country_event = {
-	id = ayutthaya.1
-	title = "ayutthaya.1.t"
-	desc = "ayutthaya.1.d"
+	id = slg_ayutthaya.1
+	title = "slg_ayutthaya.1.t"
+	desc = "slg_ayutthaya.1.d"
 	picture = SIAMESE_DIPLOMACY_eventPicture #DIPLOMACY_eventPicture
 	
 	fire_only_once = yes
@@ -28,7 +28,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "ayutthaya.1.a" #Honor to our new friends!
+		name = "slg_ayutthaya.1.a" #Honor to our new friends!
 		add_dip_power = -25
 		POR = {
 			add_opinion = {
@@ -48,7 +48,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "ayutthaya.1.b" #They have no place in Malacca
+		name = "slg_ayutthaya.1.b" #They have no place in Malacca
 		POR = {
 			add_opinion = {
 				who = ROOT
@@ -60,9 +60,9 @@ country_event = {
 
 #Return of the Uthong Clan
 country_event = {
-	id = ayutthaya.2
-	title = "ayutthaya.2.t"
-	desc = "ayutthaya.2.d"
+	id = slg_ayutthaya.2
+	title = "slg_ayutthaya.2.t"
+	desc = "slg_ayutthaya.2.d"
 	picture = NUSANTARA_WAR_eventPicture
 	
 	fire_only_once = yes
@@ -80,7 +80,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "ayutthaya.2.a" #Uthong has finally been restored
+		name = "slg_ayutthaya.2.a" #Uthong has finally been restored
 		add_mil_power = -50
 		if = {
 			limit = {
@@ -115,22 +115,18 @@ country_event = {
 			dip = 1
 			mil = 1
 		}
-		random_owned_province = {
-			limit = {
-				is_capital = yes
+		capital_scope = {
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 3
+				leader = "Chakkraphat"
+				leader_dynasty = "Suphannaphum"
 			}
-			spawn_rebels = { type = pretender_rebels size = 3 leader = "Chakkraphat" leader_dynasty = "Suphannaphum" }
-			#spawn_rebels = {
-			#	type = pretender_rebels
-			#	size = 3
-			#	leader = "Chakkraphat"
-			#	leader_dynasty = "Suphannaphum"
-			#}
 		}
 	}
 	
 	option = {
-		name = "ayutthaya.2.b" #Rally the clans, Uthong cannot rule!
+		name = "slg_ayutthaya.2.b" #Rally the clans, Uthong cannot rule!
 		if = {
 			limit = {
 				has_heir = yes
@@ -177,16 +173,16 @@ country_event = {
 
 #The Capture of Malacca
 country_event = {
-	id = ayutthaya.3
-	title = "ayutthaya.3.t"
-	desc = "ayutthaya.3.d"
+	id = slg_ayutthaya.3
+	title = "slg_ayutthaya.3.t"
+	desc = "slg_ayutthaya.3.d"
 	picture = MALACCA_eventPicture
 
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = yes
 	option = {
-		name = "ayutthaya.3.a" #Sack the city!
+		name = "slg_ayutthaya.3.a" #Sack the city!
 		596 = {
 			add_base_tax = -2
 			add_base_production -2
@@ -219,9 +215,9 @@ country_event = {
 
 #Kosa Pan - The Golden Tongued Diplomat
 country_event = {
-	id = ayutthaya.4
-	title = "ayutthaya.4.t"
-	desc = "ayutthaya.4.d"
+	id = slg_ayutthaya.4
+	title = "slg_ayutthaya.4.t"
+	desc = "slg_ayutthaya.4.d"
 	picture = ADVISOR_eventPicture
 
 	fire_only_once = yes
@@ -242,7 +238,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "ayutthaya.4.a" #A brilliant diplomat indeed!
+		name = "slg_ayutthaya.4.a" #A brilliant diplomat indeed!
 		add_dip_power = 100
 		define_advisor = {
 			name = "Kosa Pan"
@@ -256,9 +252,9 @@ country_event = {
 
 #A Brilliant General
 country_event = {
-	id = ayutthaya.5
-	title = "ayutthaya.5.t"
-	desc = "ayutthaya.5.d"
+	id = slg_ayutthaya.5
+	title = "slg_ayutthaya.5.t"
+	desc = "slg_ayutthaya.5.d"
 	picture = CONQUEST_eventPicture
 
 	fire_only_once = yes
@@ -279,7 +275,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "ayutthaya.5.a" #He shall serve us well!
+		name = "slg_ayutthaya.5.a" #He shall serve us well!
 		define_general = {
 			name = "Taksin"
 			shock = 2
@@ -290,16 +286,16 @@ country_event = {
 		}
 	}
 	option = {
-		name = "ayutthaya.5.b" #We have no need of a man of destiny
+		name = "slg_ayutthaya.5.b" #We have no need of a man of destiny
 		add_prestige = 10
 	}
 }
 
 #Siam in Turmoil
 country_event = {
-	id = ayutthaya.6
-	title = "ayutthaya.6.t"
-	desc = "ayutthaya.6.d"
+	id = slg_ayutthaya.6
+	title = "slg_ayutthaya.6.t"
+	desc = "slg_ayutthaya.6.d"
 	picture = COUNTRY_COLLAPSE_eventPicture
 
 	fire_only_once = yes
@@ -330,7 +326,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "ayutthaya.6.a" #Will this spell the end of our nation?
+		name = "slg_ayutthaya.6.a" #Will this spell the end of our nation?
 		add_stability = -1
 		set_country_flag = siam_in_turmoil #Removed through flavor_ayu.5
 	}
@@ -338,9 +334,9 @@ country_event = {
 
 #A Claimant to the Throne
 country_event = {
-	id = ayutthaya.7
-	title = "ayutthaya.7.t"
-	desc = "ayutthaya.7.d"
+	id = slg_ayutthaya.7
+	title = "slg_ayutthaya.7.t"
+	desc = "slg_ayutthaya.7.d"
 	picture = NUSANTARA_THRONE_eventPicture
 
 	fire_only_once = yes
@@ -358,7 +354,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "ayutthaya.7.a" #We need a strong ruler!
+		name = "slg_ayutthaya.7.a" #We need a strong ruler!
 		if = {
 			limit = {
 				has_leader = "Taksin"
@@ -374,7 +370,7 @@ country_event = {
 			hidden_effect = {
 				add_ruler_personality = tactical_genius_personality
 				country_event = {
-					id = ayutthaya.9
+					id = slg_ayutthaya.9
 					days = 7
 				}
 			}
@@ -397,14 +393,14 @@ country_event = {
 			}
 			overlord = {
 				country_event = {
-					id = ayutthaya.8
+					id = slg_ayutthaya.8
 					days = 1
 				}
 			}
 		}
 	}
 	option = {
-		name = "ayutthaya.7.b" #We must purge the military at once!
+		name = "slg_ayutthaya.7.b" #We must purge the military at once!
 		add_mil_power = -50
 		if = {
 			limit = {
@@ -424,15 +420,15 @@ country_event = {
 
 #Siam Declares Independence
 country_event = {
-	id = ayutthaya.8
-	title = "ayutthaya.8.t"
-	desc = "ayutthaya.8.d"
+	id = slg_ayutthaya.8
+	title = "slg_ayutthaya.8.t"
+	desc = "slg_ayutthaya.8.d"
 	picture = BAD_WITH_MONARCH_eventPicture
 
 	is_triggered_only = yes
 	
 	option = {
-		name = "ayutthaya.8.a" #What fools!
+		name = "slg_ayutthaya.8.a" #What fools!
 		add_casus_belli
 			target = FROM
 			type = cb_disloyal_vassal 
@@ -443,14 +439,14 @@ country_event = {
 
 #A New Capital?
 country_event = {
-	id = ayutthaya.9
-	title = "ayutthaya.9.t"
-	desc = "ayutthaya.9.d"
+	id = slg_ayutthaya.9
+	title = "slg_ayutthaya.9.t"
+	desc = "slg_ayutthaya.9.d"
 	picture = HARBOUR_eventPicture
 
 	is_triggered_only = yes	
 	option = {
-		name = "ayutthaya.9.a" #A splendid idea!
+		name = "slg_ayutthaya.9.a" #A splendid idea!
 		set_capital = 4831
 		set_dynasty = "Thonburi"
 		4831 = {
@@ -458,17 +454,8 @@ country_event = {
 		}
 		override_country_name = THONBURI
 		set_country_flag = is_thonburi
-		#Center of trade level in 4831 will be siphoned from capital if CoT above level 1
-		if = {
-			limit = {
-				capital_scope = {
-					province_has_center_of_trade_of_level = 1
-					NOT = { province_has_center_of_trade_of_level = 2 }
-				}
-			}
-			capital_scope = { add_center_of_trade_level = -1 }
-			4831 = { center_of_trade = 1 }
-		}
+		#Center of trade level in 4831 will be spawned and if possible, trade level in capital will be siphoned to upgrade
+		4831 = { center_of_trade = 1 }
 		if = {
 			limit = {
 				capital_scope = {
@@ -476,8 +463,8 @@ country_event = {
 					NOT = { province_has_center_of_trade_of_level = 3 }
 				}
 			}
-			capital_scope = { add_center_of_trade_level = -2 }
-			4831 = { center_of_trade = 2 }
+			capital_scope = { add_center_of_trade_level = -1 }
+			4831 = { add_center_of_trade_level = 1 }
 		}
 		else_if = {
 			limit = {
@@ -485,8 +472,8 @@ country_event = {
 					province_has_center_of_trade_of_level = 3
 				}
 			}
-			capital_scope = { add_center_of_trade_level = -3 }
-			4831 = { center_of_trade = 3 }
+			capital_scope = { add_center_of_trade_level = -2 }
+			4831 = { add_center_of_trade_level = 2 }
 		}
 		#Any existing fort in capital will be relocated to 4831 if valid
 		if = {
@@ -609,7 +596,54 @@ country_event = {
 		}
 	}
 	option = {
-		name = "ayutthaya.9.b" #There is no need to move the capital
+		name = "slg_ayutthaya.9.b" #There is no need to move the capital
 		add_prestige = 10
+	}
+}
+
+#The Consecration of Wat Phra Si Sanphet
+country_event = {
+	id = slg_ayutthaya.10
+	title = "slg_ayutthaya.10.t"
+	desc = "slg_ayutthaya.10.d"
+	picture = SHWEDAGON_PAGON_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AYU
+		religion = buddhism
+		owns_core_province = 600
+		is_year = 1440
+		NOT = { is_year = 1485 }
+		has_ruler = "Trailokanat"
+		dynasty = "Suphannaphum"
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "slg_ayutthaya.10.a" #We shall bless this land!
+		add_years_of_income = -0.5
+		add_karma = 10
+		add_country_modifier = {
+			name = ayu_wat_phra_si_sanphet
+			duration = 7300
+		}
+		if = {
+			limit = {
+				has_dlc = "Leviathan"
+			}
+			add_great_project_tier = {
+				type = wat_phra_si_sanphet
+				tier = 1
+			}
+		}
+	}
+	option = {
+		name = "slg_ayutthaya.10.b" #What a waste of time
+		add_prestige = -10
 	}
 }

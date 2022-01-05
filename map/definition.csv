@@ -1084,7 +1084,7 @@ province;red;green;blue;x;x
 1083;163;146;79;Zavolochye;x
 1084;35;148;126;Wadjuk;x
 1085;163;150;173;Paredarerme;x
-1086;36;152;32;Kaurna;x
+1086;42;149;39;Kaurna;x
 1087;164;154;79;Woiworung;x
 1088;36;156;126;Wergaia;x
 1089;164;158;173;Wiradjuri;x
@@ -5139,3 +5139,16 @@ province;red;green;blue;x;x
 5138;15;69;151;Nong Han;x
 5139;123;67;64;Tien Binh/Quang Binh;x
 5140;211;87;46;Khamkeut;x
+5141;137;68;170;Rohe Potae/King Country/Te Kuiti;x
+5142;113;51;0;Whanganui;x
+5143;170;128;0;Te Tai o Aorere/Blind Bay;x
+5144;69;75;71;Great Dividing Range;x
+5145;64;70;66;Snowy Mountains;x
+5146;35;96;101;Coen River;x
+5147;35;126;33;Tinlinyara/Tintinara;x
+5148;33;116;31;Peramangk/Pomberuk/Mount Barker;x
+5149;12;82;15;Yanta/Yunta;x
+5150;33;139;118;Goomburrup/Bunbury;x
+5151;163;79;29;Jimberlana/Dundas/Norseman;x
+5152;154;74;27;Kulgooluh/Kalgoorlie;x
+5153;186;90;33;Narrogin/Brookton;x

@@ -32,20 +32,18 @@ historical_units = {
 }
 
 monarch_names = {
-	"Ramaracha #0" = 20
+	"Ramracha #0" = 20
 	"Intharacha #0" = 20
 	"Borommaracha #1" = 40
 	"Sanphet #1" = 40
 	"Trailokanat #0" = 20
-	"Ramathibodi #1" = 20
+	"Ramathibodi #1" = 40
 	"Ratsada #0" = 20
 	"Chairacha #0" = 20
-	"Kaeofa #0" = 20
-	"Bun Si #0" = 5
-	"Chakkraphat #0" = 20
-	"Mahinthra #0" = 20
-	"Thammaracha #0" = 20
-	"Naresuen #0" = 20
+	"Kaewfa #0" = 20
+	"Maha Chakkraphat #0" = 20
+	"Mahin #0" = 20
+	"Naresuan #0" = 20
 	"Ekathotsarot #0" = 20
 	"Si Saowaphak #0" = 20
 	"Songtham #0" = 20
@@ -59,143 +57,244 @@ monarch_names = {
 	"Boromakot #0" = 20
 	"Uthumphon #0" = 20
 	"Worawongsa #0" = 20
-	"Nai Chan #0" = 20
-	"Thianracha #0" = 20
-	"Damrong #0" = 0
-	"Thammachot #0" = 0
-	"Winai #0" = 0
-	"Naret #0" = 0
-	"Dit #0" = 0
-	"Sing #0" = 0
-	"Phin #0" = 0
-	"Chuang #0" = 0
+	"Panwasa #0" = 20
+	"Thianracha #0" = 20	
+	"Suriyenthrabodi #0" = 20
+	"Thammathibet #0" = 20	
+	"Mahaburut #0" = 20
+	"Phuminthraracha #0" = 20
+	"Rama #0" = 20
+	"Thepphithit #0" = 10
+	"Seppakdi #0" = 10
+	"Inthraphithak #0" = 10
+	"Sisin #0" = 10
+	"Narathibet #0" = 10
+	"Suriyawong #0" = 10
+	"Poramesuan #0" = 10
+	"Narenthraracha #0" = 10
+	"Nakarinthra #0" = 10
+	"Chitsunthon #0" = 10
+	"Suthat #0" = 10		
+	"Aphaiyathot #0" = 10
+	"Yotfa #0" = 10
+	"Khattiyawong #0" = 10
+	"Thong Lan #0" = 10
+	"Traiphuwanathit #0" = 10
+	"Mahawangsa #0" = 5
+	"Khanthawong #0" = 5
+	"Singhara #0" = 5
+	"Chayathit #0" = 5
+	"Thatsapong #0" = 5
+	"Yanphichian #0" = 5
+	"Thammathian #0" = 5
+	"Bunkwang #0" = 5
+	"Anirutharacha #0" = 5
+	"Surinthraracha #0" = 5
+	"Sainampueng #0" = 5
+	"Rachathirat #0" = 5
+	"Kitsarat #0" = 5
+	"Chaichetta #0" = 5
+	"Chanthraphanu #0" = 5
+	"Suthammathirat #0" = 5
+	"Suriyaracha #0" = 5
+	"Aphairacha #0" = 5
+	"Inthrawong #0" = 5
+	"Ramawong #0" = 5
+	"Chanthrawong #0" = 5
+	"Singharat #0" = 5
+	"Phrommathat #0" = 5
+	"Narathibodi #0" = 5
+	"Inthrabodi #0" = 5
+	"Sutthamabodi #0" = 5
+	"Sisangkhathat #0" = 5
+
+	"Anuchitphakdi #0" = 0
+	"Naret #0" = 0	
 	"Narisara #0" = 0
-	"Dhani #0" = 0
-	"Somchai #0" = 0
-	"Prasoet #0" = 0
-	"Pinklao #0" = 0
-	"Bunma #0" = 0
-	"Yingyot #0" = 0
-	"Bunchan #0" = 0
-	"Thap #0" = 0
-	"Thongdi #0" = 0
-	"Pan #0" = 0
-	"Lek #0" = 0
-	"Chai #0" = 0
+	"Suranat #0" = 0
+	"Siwisanwacha #0" = 0
+	"Anantaphichai #0" = 0
+	"Chaiyaphanu #0" = 0
+	"Bunchan #0" = 0	
+	"Narenthon #0" = 0
+	"Chaisongkhram #0" = 0
+	"Saisongkhram #0" = 0
 	"Luethai #0" = 0
-	"Yodfa #0" = 0
-	"Tong #0" = 0
-	"Siriwongse #0" = 0
-	"Paribatra #0" = 0
-	"Borom #0" = 0
+	"Siriwong #0" = 0
+	"Paribat #0" = 0
+	"Thewawong #0" = 0
 	"Lithai #0" = 0
-	"Nattakan #0" = 0
+	"Borommapan #0" = 0
+	"Worachet #0" = 0
+	"Worathep #0" = 0
 	"Nirawit #0" = 0
-	"Sakda #0" = 0
-	"Anantha #0" = 0
-	"Pricha #0" = 0
-	"Natthanan #0" = 0
-	"Karom #0" = 0
-	"Kriangsak #0" = 0
-	"Khattiya #0" = 0
-	"Bapit #0" = 0
-	"Tanit #0" = 0
-	"Kit #0" = 0
-	"Nawa #0" = 0
-	"Chunan #0" = 0
-	"Tidet #0" = 0
-	"Anon #0" = 0
-	"Nutalaya #0" = 0
+	"Sakdawong #0" = 0
+	"Anantawong #0" = 0
+	"Pricharat #0" = 0	
+	"Singhawong #0" = 0
+	"Sunthonthep #0" = 0
+	"Anirutaphitak #0" = 0
+	"Thammarong #0" = 0	
+	"Narisarathep #0" = 0
+	"Itsarawong #0" = 0
 	"Pawaret #0" = 0
 	"Kathawut #0" = 0
-	"Proi #0" = 0
-	"Prawet #0" = 0
-	"Than #0" = 0
-	"Ruang Rit #0" = 0
-	"Wesantan #0" = 0
-	"Unakan #0" = 0
-	"Thirit #0" = 0
-	"Phisan #0" = 0
+	"Isinthon #0" = 0
+	"Inaphai #0" = 0	
+	"Ruangrit #0" = 0
+	"Sitthawong #0" = 0
+	"Sunthonrawong #0" = 0
 	"Nakaret #0" = 0
-	"Kon #0" = 0
-	"Kanisom #0" = 0
-	"Thaksin #0" = 0
-	"Arun #0" = 0
-	"Chakan #0" = 0
-	"Tao #0" = 0
-	"Kiat #0" = 0
-	"Nirin #0" = 0
-	"Thian #0" = 0
-	"Phiren #0" = 0
+	"Thammawong #0" = 0
+	"Sunthonnothai #0" = 0
+	"Rattanachak #0" = 0
+	"Rattanathibet #0" = 0
+	"Aphaithibet #0" = 0
+	"Suriyathibet #0" = 0
+	"Sitthiphubet #0" = 0
+	"Phromsurin #0" = 0
+	"Phakdinuchit #0" = 0
+	"Phiphitwathi #0" = 0
+	"Phichairacha #0" = 0
+	"Ratchasongkhram #0" = 0
+	"Ratchasunthon #0" = 0
+	"Kraisonnuphab #0" = 0
+	"Ramnarong #0" = 0
+	"Anusakhon #0" = 0
+	"Arunothai #0" = 0
+	"Phetcharat #0" = 0
+	"Inthorathep #0" = 0
+	"Phonlathep #0" = 0
 	"Siworawong #0" = 0
-	"Ram #0" = 0
+	"Ramawong #0" = 0
+	"Damrong #0" = 0
+	"Thammachot #0" = 0
 	
 	"Amphon #0" = -1
 	"Chanarong #0" = -1
 	"Suriyothai #0" = -1
 	"Panchapapi #0" = -1
 	"Komon #0" = -1
-        "Nui Yai #0" = -1
-        "Wong #0" = -1
-        "Pheng #0" = -1
-        "Sueang #0" = -1
-        "Batboricha #0" = -1
-        "Sumali #0" = -1
-        "Lamang #0" = -1
-        "Sangwan #0" = -1
-        "Sutchatri #0" = -1
-        "Bupha #0" = -1
-        "Samliwan #0" = -1
-        "Phiphitmontri #0" = -1
-        "Lawan #0" = -1
-        "Wisutkasat #0" = -1
-        "Boromdilok #0" = -1
-        "Thepkasati #0" = -1
-        "Bumawadi #0" = -1
-        "Sudawadi #0" = -1
-        "Sisuphan #0" = -1
-        "Maoli #0" = -1
-        "Wimonphat #0" = -1
-        "Amarindra #0" = -1
-        "Suriyendra #0" = -1
-        "Soidao #0" = -1
+	"Prathum #0" = -1
+	"Dokmaduea #0" = -1
+	"Pheng #0" = -1
+	"Sueang #0" = -1
+	"Batboricha #0" = -1
+	"Sumali #0" = -1
+	"Lamang #0" = -1
+	"Sangwan #0" = -1
+	"Sutchatri #0" = -1
+	"Bupha #0" = -1
+	"Pailin #0" = -1
+	"Budsaba #0" = -1
+	"Samliwan #0" = -1
+	"Phiphitmontri #0" = -1
+	"Lawan #0" = -1
+	"Wisutkasat #0" = -1
+	"Boromdilok #0" = -1
+	"Thepkasati #0" = -1
+	"Bumawadi #0" = -1
+	"Sirithida #0" = -1
+	"Sudawadi #0" = -1
+	"Sisuphan #0" = -1
+	"Ubonthewi #0" = -1
+	"Napathewi #0" = -1
+	"Suriyathewi #0" = -1
+	"Chanthathewi #0" = -1
+	"Suphankalaya #0" = -1
+	"Kusawadi #0" = -1
+	"Suranari #0" = -1
+	"Kunthon #0" = -1
+	"Chitwadi #0" = -1
+	"Darawadi #0" = -1
+	"Darathewi #0" = -1
+	"Chanthawadi #0" = -1
+	"Rutchathewi #0" = -1
+	"Darathewi #0" = -1
+	"Maoli #0" = -1
+	"Wimonphat #0" = -1
+	"Amarindra #0" = -1
+	"Sudaratsami #0" = -1
+	"Suriyendra #0" = -1
+	"Soidao #0" = -1
+	"Soifa #0" = -1
+	"Soiphet #0" = -1
+	"Pimpha #0" = -1
+	"Siripracha #0" = -1
+	"Thaptim #0" = -1
+	"Sombunkhong #0" = -1
+	"Wimonphat #0" = -1
+	"Inthasudawadi #0" = -1
+	"Inthasuchathewi #0" = -1
+	"Praphawadi #0" = -1
+	"Prachawadi #0" = -1
+	"Phinthawadi #0" = -1
+	"Kalayani #0" = -1
+	"Srichanthathewi #0" = -1
+	"Buakaew #0" = -1
+	"Praphansuriyawong #0" = -1
+	"Sudathewi #0" = -1
+	"Chamathewi #0" = -1
+	"Chamchuri #0" = -1
+	"Manichan #0" = -1
+	"Manirattana #0" = -1
 }
 
 leader_names = {
-	Akradet Ariyanuntaka Thaen Wilapana Liyao Kantawong
-	Bunmi Chakri Sunthonsongkhram Chan Siriwarunyu
-        Daparansi Kaothai Yaoyun Sakdathon Chamrun Wongsawat
-        Supasawat Sutabun Banruerit "Si Santi" Panthep Lilaphun
-	Chaipatana Chakrabonsi Chuasiriporn In Chiwakat Kwaingo
-	Tisakun Thepachun "Si Salai" Dok Chamrun Thorathep
-	Ekalak "Si Saiyanarong" Singh "Thong Kaeo" Kattiya
-	Hitapot Prakhlang Ramkhamhaeng Rattanathibet Wiraphon
-	Inchareon Songkhram "Singhanat" Chansiri Phahon Chirapai
-	Kawrungruang Khuntilanont Klinpraneet Kriangsak Hansi
-	Monkontham Kawila Phichai Waiwongsa Then "Na Wang" Ramesuan
-	Nitpattanasai Noppachorn Nut Lek Bunnak Prasong Sankun
-	Phanomyong Phatipatanawong Chaban Sing Watthanasin
-	Siwaraksa Sichun Supachai Supasawat Chira Chirawanon Khamen
-	Tantasatityanon Thapchumpon Choti San "Na Ranbang" Aphaiwong
-	Wongrutiyan Netrayon Phirenthep "Si Thung Yai" Malai Khong
-	"Si Phraya" Manu "Na Dab" "Na Chaiyo" Khaek Chin Lao Munit
-	"Na Phayap" "Na Maharat" "Na Isan" "Na Ubon" "Na Nuea"
-	"Na Udon" "Na Saiburi" "Na Chumphon" "Na Prachinburi"
-	"Na Burapha" "Na Chanthaburi" "Na Klang" Matthana Yorat Sinkon
+	Akradet Ariyanuntaka Thaen Wilaipattana Koetwichai Kantawong Rattanawet Kwanchoet Songchit Krachunwet
+	Bunmi Chakri Sunthonsongkhram Chanyarak Siriwarunyu Singhaseni Sirawanon Siwaphet Saruanchit Prayun
+	Daparansi Kaothai Yaoyun Sakdathon Chamrun Wongsawat Sangchuto Manosakun Chaiyanam Simachit Techatungka
+	Supasawat Sutabun Banruerit Sisanti Panthep Lilaphun Mahanarong Sophonpanich Yaowarat Chumphonchet Rattakun
+	Chaipatana Chakrabongsi Chuasiriphon Chiwakat Phrommathep Aphaiyakun Mahanarong Prabat Yongchaiwat Kosayothin
+	Tisakun Thepachun Sisalai Ramabut Thorathep Akarayothin Chuthin Malinon Phonyothin Chuanchai Chakrabantu
+	Ekalak Saiyanarong Mitphakdi Phahonyothin Chittralak Ruchuphan Senapong Phrommanat Phongsacha Chulachomklao
+	Hitapot Prakhlang Ramkhamhaeng Rattanathibet Wiraphon Senaphimuk Singhayothin Susin Thinsuradet Nimali
+	Inchareon Sitthisongkhram Singhanat Chansiri Phahon Chirapai Techawanit Inthasolot Wicharong Singsaphan
+	Kaorungruang Khuntilanont Klinpranit Worawathin Kachaseni Worawanon Sukhum Rasanon Simaphiwaphan Chaloyu
+	Monkontham Phromhanobon Phichai Waiwongsa Tirawanon Senasakun Rattanakhun Hutasing Rongsamat Chamanan
+	Nitpattanasai Noppachon Palangkun Sitthiprasong Sankun Rattanaphram Menaruchi Saroengrit Ramanghawan
+	Phanomyong Phatipatanawong Intharayothin Singhathep Watthanasin Surasongkhram Silakup Penkun Charumani
+	Siwaraksa Sichun Supachai Supasawat Chirawanon Sisongkhram Krairit Phibunsongkhram Surakup Direkchai
+	Tantasatityanon Thapchumpon Chotisan "Na Chumphon" Aphaiwong "Na Nakhon" Phichaisongkhram Simawong
+	Wongrutiyan Netrayon Phirenthep Amartayakul "Na Phatthalung" Wiangphuka Sunthonwathin Chularattana
+	"Na Ratchaburi" "Na Chaiya" "Na Songkhla" "Na Wichian" "Na Nong Khai" "Na Chainat" "Na Lopburi" "Na Phrae"
+	"Na Chiang Tung" "Na Paetriu" "Na Pomphet" "Na Ubon" "Na Suphanburi" "Na Chiang Mai" "Na Lampang"
+	"Na Chiang Rung" "Na Saiburi" "Na Chumphon" "Na Prachinburi" "Na Nan" "Na Ranong" Khanawet Chantrangsu
+	"Na Prachinburi" "Na Chanthaburi" "Na Klaeng" Rotchanakun Suwannathat Sinkon "Na Rayong" Sirawanit Choptam
+	Phonphayuhasena Malakun Nitithada Aphaiwong Bunyaket Pramot Phanomyong Thanarat Siyanon Ritthakhani
+	Katsongkhram Tintisulanon Kittikachon Thammasak Kraiwichian Panyarachun Likphai Sinpacha Yongchaiyut
+	Sunthorawet Wetchachiwa Krueathachu Thirawat Ruensiri Kanchanavasit Chiwarak Pichai Bunnak Siensewi Sawetsila 
+	Sumitr Welanon Antaraniyuk Pakdiphum Kunadilok Singhonka Intranuchit Palachiwa "Ronnapakat" Kietsilpin Kantanut 
+	Charunat Wuttakat Pothikasikorn Siripanich Kamolvathin Sornsongkhram Kamonsawin Chayasawin Monthasawin Komonwet 
+	Phiromphakdi Wirawaitaya Pattanawechawong Chotiwit Sunthotchot Chulaphram Rattanaphram Pinthuyothin Ratanarak
+	Khamphon Bunliang Chainukun Praphasirirat Thanasukolwit Wongsawat Santisakun Saowalak Wattana Charoenkun Kasemsan
+	"Na Kalasin" "Na Champasak" "Na Chiang Rai" "Na Takuathung" "Na Thalang" "Na Banchang" "Na Saraburi" "Na Phitsanulok" 
+	"Na Manorom" "Na Mahachai" "Na Roi Et" "Na Lampang" "Na Lamphun" "Na Chonburi" "Na Phuket" "Na Khorat" "Na Sukhothai"
 }
 
 ship_names = {
-	Ramithibodi Ramesuan Borommaracha "Thong Chan"
-	Ramaracha Intharatcha Boromtrailokanat Ratsada
-	Chairacha Yotfa Worawongsa Chakkraphat Mahin
-	Sanphet Naresuan Ekathotsarot "Si Saowaphak"
-	Songtham Maharat "Somdet Phra" "Prasat Thong" Chai
-	Suthammaracha Narai Petratcha Suea Phumintharacha
-	Uthumpon Ekkathat
+	Ramathibodi Ramesuan Borommaracha "Thong Lan" "Phra Lo" Intharaphitak
+	Ramaracha Intharacha Boromtrailokanat Ratsada Panwasa Anirut Sisang
+	Chairacha Yotfa Worawongsathirat Chakkraphat Mahin Narathibet Suthat
+	Sanphet Naresuan Ekathotsarot "Si Saowaphak" Poramesuan Suriyawong
+	Songtham Maharat "Prasat Thong" Chai Poramesuan Mahaburut Mahasakhon
+	Suthammaracha Narai Petratcha Suriyenthrabodi Phumintharacha Taksin
+	Uthumpon Ekkathat Sanphet Thammathibet Thepphiphit Atthityawong
+	Ayutthaya Lawo Suphanburi Ratchaburi Phetchaburi Chonburi Kraburi
+	Bangkok Rayong Trat Khorat "Si Thammarat" "Phra Pradaeng" Mahachai
+	Phetchabun "Phra Bang" Chaiya Thalang Kanchanaburi Mahachai Angthong
+	Sukhothai Thawai Marit Tanaosi Phitsanulok Prachinburi Thalang Phetchaburi
+	Chaliang Chakangrao "Trai Trueng" Lawaek Phimai Thammathibet Aphaiyathot
+	Sawankhalok Prachinburi Thonburi "Nakhon Thai" Kosong Okhaburi Chainat Sutsakhon
+	"Bang Yang" Lomsak Phuket Takuapa Takuathung Khorat Phimai Nangrong Sichang
+	"Bang Prakong" Tapi Tachin Maeklong "Chao Phraya" Pasak Phuttaisong Paetriu
+	Samsan Sichang Samui Tarutao Similan Lipe Samet Phutthaimat Thotsakan Sangthong
+	"Yum Phai" Chulamani "Si Sanphet" Sinsamut Aphaimani "Matchanu" Inthorachit
+	Kumphakan Phiphek "Plai Ngam" "Plai Kaeo" Wanthong Sithanonchai Honphichai Kawi
 }
 
 army_names = {
-	"Kongthap Klang" "Kongthap Tai" "Kongthap Nuea" 
-	"Kongthap Phayap" "Kongthap Isan"
+	"Kongthap Klang" "Kongthap Tai" "Kongthap Nuea"
+	"Kongthap Phayap" "Kongthap Isan" "Kongthap Prachin"
 	"Kongthap Isan" "Kongthap Burapha" "Kongthap $PROVINCE$"
 }

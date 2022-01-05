@@ -96,6 +96,9 @@ tropical = {
 	#SEA & China Continued
 	5108
 	5113 5114 5115 5116 5117 5118 5119 5120 5121 5122 5123 5124 5125 5126 5127 5128 5129 5130 5131 5132 5133 5134 5135 5136 5137 5138 5139 5140
+	
+	#Australia Continued
+	5146
 }
 
 arid = {
@@ -180,6 +183,8 @@ arid = {
 	5032
 	5042
 	5049 5050 5053 5054 5055 5056 5057 5058
+	5149
+	5151 5152
 }
 
 arctic = {
@@ -450,6 +455,9 @@ severe_winter = {
 	5086
 	5090
 	5095 5096 5097 5098
+	
+	#NEW AUSTRALIA
+	5145
 }
 
 impassable = {
@@ -474,6 +482,9 @@ impassable = {
 	
 	#NZL Wasteland
 	5109
+	
+	#Australia Wasteland
+	5144 5145
 }
 
 mild_monsoon = {
@@ -550,7 +561,7 @@ mild_monsoon = {
 	2928 # Grao Para
 	749 2927 # Maranhao
 	2857 2879 2884 # Rio Grande do Sol
-	2730 2731 # Northern Australia
+	2731 # Northern Australia
 	4844 4841 4842 4835 4834 4831 4832 4833 4830 4829 4827 4828
 
 	#NEW
@@ -690,8 +701,10 @@ normal_monsoon = {
 	5017 5018
 
 	#NEW AUSTRALIA
+	2730
 	4848 4849 4867
 	5020 5021 5022 5023
+	5146
 	
 	#NEW CEYLON
 	5100

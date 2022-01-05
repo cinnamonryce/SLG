@@ -3,7 +3,7 @@
 owner = MNG
 controller = MNG
 add_core = MNG
-culture = chimin
+culture = western_min
 religion = confucianism
 capital = "Zhanchuan" #Now Zhanjiang
 trade_goods = fish

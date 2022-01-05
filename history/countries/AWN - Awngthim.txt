@@ -2,11 +2,9 @@ government = native
 add_government_reform = native_clan_council_reform
 government_rank = 1
 primary_culture = paman
-
-add_accepted_culture = gulf_papuan
 religion = dreamtime
 technology_group = aboriginal_tech
-capital = 2730 #Awngthim
+capital = 5146 #Kaanju
 
 
 1444.11.11 = {

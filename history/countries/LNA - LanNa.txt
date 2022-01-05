@@ -24,8 +24,8 @@ change_estate_land_share = {
 
 1355.1.1 = {
 	heir = {
-		name = "Saenmuenagma"
-		monarch_name = "Saenmuenagma"
+		name = "Saenmueangma"
+		monarch_name = "Saenmueangma"
 		dynasty = "Mangrai"
 		birth_date = 1355.1.1
 		death_date = 1401.1.1

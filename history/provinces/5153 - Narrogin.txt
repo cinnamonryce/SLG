@@ -1,0 +1,20 @@
+#Narrogin
+
+culture = nyoongah
+religion = dreamtime
+capital = "Narrogin"
+hre = no
+trade_goods = unknown
+base_manpower = 1
+base_tax = 1
+base_production = 1
+native_size = 5
+native_ferocity = 2
+native_hostileness = 5
+tribal_owner = NOO
+discovered_by = aboriginal_tech
+
+
+
+1642.11.24 = { discovered_by = NED } # Abel Tasman
+

@@ -26,14 +26,16 @@ australia_region = {
 		kimberley_area
 		wheatbelt_area
 		eyre_area
-		wimmera_area
-		gippsland_area
+		barwon_area
+		bass_coast_area
 		riverina_area
 		northern_tablelands_area
 		cape_york_area
 		coral_coast_area
 		wide_bay_area
 		central_desert_area
+		goldfields_area
+		fleurieu_area
 	}
 	monsoon = {
 		00.10.01
@@ -237,7 +239,10 @@ oceanea_region = {
 		te_waipounamu_area
 		northern_polynesia_area
 		eastern_polynesia_area
+		#NEW
 		west_melanesia_area
+		ikaroa_rawhiti_area
+		te_tai_poutini_area
 	}
 	monsoon = {
 		00.07.01

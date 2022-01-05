@@ -8,14 +8,16 @@ religion = animism
 hre = no
 capital = "Tamaki Makaurau"
 is_city = yes
-trade_goods = fish
+trade_goods = gems
 base_tax = 2
-base_production = 1
+base_production = 3
 base_manpower = 2
 discovered_by = polynesian_tech
 native_size = 80 #Peaked around 20k before colonization
 native_ferocity = 3
 native_hostileness = 1
+extra_cost = 8
+center_of_trade = 1
 
 
 1642.1.1 = { discovered_by = NED } # Abel Tasman

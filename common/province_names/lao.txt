@@ -6,44 +6,53 @@
 588 = "Muang Nai"
 587 = "Xiang Tung"
 589 = "Xiang Mai"
-590 = "Malamaeng"
+590 = "Molamloeng"
 591 = "Thavay"
 592 = "Latchabuli"
 593 = { "Si Thammalat" "Nakhon Si Thammarat" }
 596 = "Malaka"
-597 = "Kangkanu" #Or Yaho
+597 = "Yaho"
 599 = "Kalantan"
+601 = "Savankhalok"
 602 = "Xiang Hai"
 604 = "Lavaek"
-605 = "Phae Nakhone"
+605 = "Phai Nakhon"
 606 = "Pantulang"
 607 = "Vichay"
 608 = "Idkabue"
-609 = "Nakhone Vat"
+609 = { "Nakhone Vat" "Siem Reap" }
+610 = "Kiaochi"
 612 = "Kholat"
+613 = "Tangkia"
 614 = "Viangchan"
 615 = "Luang Phabang"
+616 = "Khao Bang"
 660 = "Xiang Hung"
+661 = "Nongsae"
+663 = "Mueang Ban"
 666 = "Kangchao"
 1022 = "Inthabul"
-1815 = "Peles"
+1815 = "Pasim"
 1817 = "Nanthabuli"
 1823 = "Xiang Taeng"
 1844 = "Xiang Khouang"
 2160 = "Ngaichao"
 2165 = { "Muang Men" "Mong Men" } #Pu'er
 2166 = { "Muang Mao" "Mong Mao" }
+2167 = "Laikong"
 2371 = { "Muang La" "Muang La" }
+2372 = "Bang Long"
 2373 = "Havi"
 2374 = "Kothala"
 2375 = "Chalay"
 2376 = "Paek Luse"
-2378 = "Kachae"
+2378 = "Kachae" #Or Khachae
 2379 = "Pha Tabong"
 2381 = "Xiang Khaeng"
 2387 = "Phetchabuli"
 2389 = "Pha Bang"
 2391 = { "Thalang" "Thalang" }
+2392 = "Salang Ngo"
 2393 = "Tangkanu"
 2394 = "Saibuli"
 2396 = "Muang Khong"
@@ -71,7 +80,7 @@
 
 4828 = "Pha Vihan"
 
-4825 = "Pusat"
+4825 = "Pothisat"
 
 4824 = { "Ban Don" "Ban Don" }
 
@@ -88,9 +97,18 @@
 4876 = "Layong"
 4877 = "Kanchanabuli"
 
-4882 = { "Muang Mian" "Mong Myen" }
+5010 = { "Muang Mian" "Mong Myen" }
+5011 = "Muang Ten"
+5012 = "Muang Chong"
+5013 = "Muang Si"
 
-4885 = "Muang Si"
+5009 = { "Muang Ting" "Mong Ting" }
+5010 = { "Muang Mian" "Mong Myen" }
+5011 = "Muang Ten"
+5012 = "Muang Xong"
+5013 = "Muang Si"
+
+5115 = "Siang"
 
 5130 = "Muang Mia"
 5131 = "Lamli"

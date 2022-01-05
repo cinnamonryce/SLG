@@ -3,36 +3,43 @@
 583 = "Saenwi"
 584 = "Angwa"
 585 = "Tongu"
-586 = "Hongsaowadi"
+586 = "Hongsawadi"
 588 = "Mueang Nai"
 587 = "Jiang Tung"
 589 = "Jiang Mai"
-590 = "Malamaeng"
+590 = "Molamloeng"
 591 = "Thawai"
 593 = { "Si Thammarat" "Nakhon Si Thammarat" }
 596 = "Malaka"
-597 = "Kangkanu" #Or Yaho
+597 = "Yaho"
 599 = "Kalantan"
-601 = { "Sukhothai" "Chaliang" }
+601 = { "Chiang Chuen" "Chiang Chuen" }
 602 = "Jiang Hai"
 604 = "Lawaek"
-605 = "Phrae Nakhon"
+605 = "Phrai Nakhon"
 606 = "Panturang"
 607 = "Wijai"
 609 = { "Nakhon Wat" "Siem Reap" }
-611 = "Si Khottrabong"
+610 = "Kiaochi"
+611 = "Si Khotrabun"
+613 = "Tangkia"
 614 = "Wiangjan"
 615 = "Jiang Thong"
+616 = "Khao Bang"
 660 = "Jiang Hung"
+661 = "Nongsae"
+663 = "Mueang Ban"
 666 = "Kangjao"
 1022 = "Inthrabun"
-1815 = "Peres"
+1815 = "Pasim"
 1823 = "Jiang Taeng"
 1844 = "Jiang Khuang"
 2160 = "Ngaijao"
 2165 = { "Mueang Men" "Mong Men" } #Pu'er
 2166 = { "Mueang Mao" "Mong Mao" }
+2167 = "Laikong"
 2371 = { "Mueang La" "Muang La" }
+2372 = "Bang Long"
 2373 = "Hawi"
 2374 = "Kothara"
 2376 = "Praek Rusae"
@@ -42,6 +49,7 @@
 2381 = "Jiang Khaeng"
 2382 = "Sawan Nakhon"
 2391 = { "Thalang" "Thalang" }
+2392 = "Salang Ngo"
 2393 = "Trangkanu"
 2394 = "Saiburi"
 2396 = "Mueang Khong"
@@ -70,6 +78,7 @@
 4828 = "Phra Wihan"
 
 4824 = { "Ban Don" "Ban Don" }
+4825 = "Pothisat"
 
 4966 = "Mueang Sai"
 4954 = "Phapun"
@@ -85,11 +94,45 @@
 4956 = "Tanaosi"
 
 5010 = { "Mueang Mian" "Mong Myen" }
-
+5011 = "Mueang Ten"
+5012 = "Mueang Chong"
 5013 = "Mueang Si"
 
 5113 = { "Mueang Laem" "Mong Laem" }
 
+5115 = "Siang"
+
 5129 = "Samaburi"
 5130 = "Mueang Mia" #From Myaungmya, alternatively Mueang Male
 5131 = "Ramri"
+
+#American Provinces
+792 = { "Kopi" "Kopi" }
+855 = { "Na Saen" "Na Saen" }
+859 = { "Noratha" "Noratha" }
+863 = { "Si Chaiya" "Si Chaiya" }
+864 = { "Wiraphon" "Wiraphon" }
+868 = { "Chiang Dai" "Chiang Dai" }
+869 = { "Phosop" "Phosop" }
+870 = { "Si Mueang Yai" "Mueang Yai" }
+871 = { "Phuwiang" "Phuwiang" } 
+873 = { "Taliat" "Taliat" }
+972 = { "Nuchat" "Nuchat" }
+975 = { "Lakhon Thani" "Lakhon Thani" }
+976 = { "Wiang" "Wiang" }
+977 = { "Ban Son" "Ban Son" }
+978 = { "Samut Nakhon" "Samut Nakhon" }
+979 = { "Ko Silok" "Silokburi" }
+2021 = { "Phuthong" "Phuthong" }
+2022 = { "Ko Phi Phi" "Mueang Phi Phi" }
+2476 = { "Chethakhon" "Chethakhon" }
+2477 = { "Natwi" "Natwi" }
+2479 = { "Monkon" "Monkon" }
+2481 = { "Thap" "Thap" }
+2484 = { "Si Wisaen" "Si Wisaen" }
+2498 = { "Rayong Noi" "Rayong" }
+2609 = { "Na Fai" "Na Fai" }
+2612 = { "Nonsi" "Nonsi" }
+2613 = { "Ko Song" "Mueang Song" }
+2618 = { "Laem Sing" "Laem Sing" }
+2862 = { "Prasoet" "Ban Prasoet" }

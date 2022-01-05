@@ -292,18 +292,46 @@
  bengkulu_area_name:0 "Bengkulu"
  bengkulu_area_adj:0 "Bengkulu"
  
+ te_ika_a_maui_hauauru_area:0 "Te Tai Hauauru"
+ te_ika_a_maui_hauauru_area_name:0 "Te Tai Hauauru"
+ te_ika_a_maui_hauauru_area_adj:0 "Te Tai Hauauru"
+ 
+ te_ika_a_maui_waho_area:0 "Te Moana a Toi"
+ te_ika_a_maui_waho_area_name:0 "Te Moana a Toi"
+ te_ika_a_maui_waho_area_adj:0 "Te Moana a Toi"
+ 
+ ikaroa_rawhiti_area:0 "Ikaroa Rawhiti"
+ ikaroa_rawhiti_area_name:0 "Ikaroa Rawhiti"
+ ikaroa_rawhiti_area_adj:0 "Ikaroa Rawhiti"
+ 
+ te_tai_poutini_area:0 "Te Tai Poutini"
+ te_tai_poutini_area_name:0 "Te Tai Poutini"
+ te_tai_poutini_area_adj:0 "Te Tai Poutini"
+ 
+ te_waipounamu_area:0 "Waitaha"
+ te_waipounamu_area_name:0 "Waitaha"
+ te_waipounamu_area_adj:0 "Waitaha"
+ 
  #Australia
  
- western_australia_area:0 "Goldfields"
- western_australia_area_name:0 "Goldfields"
- western_australia_area_adj:0 "Goldfield"
+ western_australia_area:0 "Swan River"
+ western_australia_area_name:0 "Swan River"
+ western_australia_area_adj:0 "Swan River"
  
- murray_river_area:0 "Fleurieu"
- murray_river_area_name:0 "Fleurieu"
- murray_river_area_adj:0 "Fleurieuan"
+ goldfields_area:0 "Goldfields"
+ goldfields_area_name:0 "Goldfields"
+ goldfields_area_adj:0 "Goldfield"
  
- southern_australia_area:0 "Yarra Valley" #Or Kulin
- southern_australia_area_name:0 "Yarra Valley"
+ murray_river_area:0 "Murray River" #Alternatively Limestone Coast
+ murray_river_area_name:0 "Murray River"
+ murray_river_area_adj:0 "Murray River"
+ 
+ fleurieu_area:0 "Fleurieu"
+ fleurieu_area_name:0 "Fleurieu"
+ fleurieu_area_adj:0 "Fleurieuan"
+ 
+ southern_australia_area:0 "Yarra" #Or Kulin
+ southern_australia_area_name:0 "Yarra"
  southern_australia_area_adj:0 "Yarra"
  
  eastern_australia_area:0 "Orana"
@@ -330,13 +358,13 @@
  eyre_area_name:0 "Eyre"
  eyre_area_adj:0 "Eyre"
  
- wimmera_area:0 "Wimmera"
- wimmera_area_name:0 "Wimmera"
- wimmera_area_adj:0 "Wimmeran"
+ barwon_area:0 "Barwon"
+ barwon_area_name:0 "Barwon"
+ barwon_area_adj:0 "Barwon"
  
- gippsland_area:0 "Gippsland"
- gippsland_area_name:0 "Gippsland"
- gippsland_area_adj:0 "Gippslander"
+ bass_coast_area:0 "Bass Coast"
+ bass_coast_area_name:0 "Bass Coast"
+ bass_coast_area_adj:0 "Bass Coast"
  
  northern_tablelands_area:0 "Northern Tablelands"
  northern_tablelands_area_name:0 "Northern Tablelands"

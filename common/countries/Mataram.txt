@@ -21,24 +21,25 @@ historical_units = {
 	malay_mongolian_bow
 	malay_arquebusier
 	malay_charge_cavalry
-        malay_mass_infantry
+	malay_mass_infantry
 	malay_musketeer
 	malay_reformed_asian_musketeer
 	malay_reformed_asian_cavalry
 }
 
 leader_names = {
-	Bhuminoto Cokrokusumo Cokronegoro Cokrowongso Cokrorejo 	Cokrowijoyo Cokrodiningrat Cokroatmojo Cokropurnomo
-	Diposonto Dipokusumo Danurejo Danuatmojo Danukusumo Danunegoro 		Danuwijoyo Danupuspito Danuprojo Dipoatmojo Dipodiningrat
-	Hanggowongso Hanggokusumo Hanggorejo Hanggowardono Haryokusumo 	Haryowongso Haryoprasojo Hanggopurnomo Hanggodiningrat
-	Jaelani Joyopuspito Joyodiningrat Joyoputro Jolotundo Joyokusumo 	Joyoprojo Joyowijoyo Joyorejo Joyonegoro Joyoatmojo
-	Komaruddin Kusumoatmojo Kusumowijoyo Kusumoputro Kusumonegoro 	Kusumowongso Kusumodiningrat Kusumopuspito Kusumoprojo
-	Mangkuyudo Mangkuprojo Mangkukusumo Mangkunegoro Mangkuwijoyo 	Mangkupurnomo Mangkuatmojo Mangkudiningrat
-	Nitisastro Notoprojo Nitikusumo Notowijoyo Notokusumo Nitinegoro 	Notonegoro Notoatmojo Nitiatmojo Notodiningrat
-	Prawirokusumo Projokusumo Prawiroatmojo Pringgoloyo 		Prawironegoro Prawoto Purbocaroko Projonegoro Projodiningrat
-	"Ronggo Kajiwan" Ronggoputro Ronggolawe Ronggowijoyo 	Ronggokusumo Ronggoatmojo Ronggonegoro Ronggopurnomo 	Ronggopuspito Ronggodiningrat
-	Solihun Subrontokusumo Subrontowijoyo Subadio Selarong Subronto 	Suryokusumo Suryodiningrat Suryonegoro Suryoatmojo Suryocaroko
-	Tejowardono Tejokusumo Tejonegoro Tejoputro Tejodiningrat 		Tejowijoyo Wijoyokusumo Wijoyoatmojo Wijoyopurwo Wijoyonegoro 	Wijoyodiningrat Wikartoatmojo Wardoyo
+	Bhuminoto Cokrokusumo Cokronegoro Cokrowongso Cokrorejo Cokrowijoyo Cokrodiningrat Cokroatmojo Cokropurnomo
+	Diposonto Dipokusumo Danurejo Danuatmojo Danukusumo Danunegoro Danuwijoyo Danupuspito Danuprojo Dipoatmojo Dipodiningrat
+	Hanggowongso Hanggokusumo Hanggorejo Hanggowardono Haryokusumo Haryowongso Haryoprasojo Hanggopurnomo Hanggodiningrat
+	Jaelani Joyopuspito Joyodiningrat Joyoputro Jolotundo Joyokusumo Joyoprojo Joyowijoyo Joyorejo Joyonegoro Joyoatmojo
+	Komaruddin Kusumoatmojo Kusumowijoyo Kusumoputro Kusumonegoro Kusumowongso Kusumodiningrat Kusumopuspito Kusumoprojo
+	Mangkuyudo Mangkuprojo Mangkukusumo Mangkunegoro Mangkuwijoyo Mangkupurnomo Mangkuatmojo Mangkudiningrat
+	Nitisastro Notoprojo Nitikusumo Notowijoyo Notokusumo Nitinegoro Notonegoro Notoatmojo Nitiatmojo Notodiningrat
+	Prawirokusumo Projokusumo Prawiroatmojo Pringgoloyo Prawironegoro Prawoto Purbocaroko Projonegoro Projodiningrat
+	"Ronggo Kajiwan" Ronggoputro Ronggolawe Ronggowijoyo Ronggokusumo Ronggoatmojo Ronggonegoro Ronggopurnomo Ronggopuspito Ronggodiningrat
+	Solihun Subrontokusumo Subrontowijoyo Subadio Selarong Subronto Suryokusumo Suryodiningrat Suryonegoro Suryoatmojo Suryocaroko
+	Tejowardono Tejokusumo Tejonegoro Tejoputro Tejodiningrat Tejowijoyo Wijoyokusumo Wijoyoatmojo Wijoyopurwo Wijoyonegoro 
+	Wijoyodiningrat Wikartoatmojo Wardoyo
 }
 
 monarch_names = {
@@ -50,6 +51,7 @@ monarch_names = {
 	"Pandan Solas #0" = 10
 	"Ranawijaya #0" = 10
 	"Kertabumi #0" = 20
+	"Kertawijaya #0" = 20
 	"Raden Patah Senapati #0" = 10
 	"Pengeran Sabrang Lar #0" = 10
 	"Pengeran Sutan Tranganna #0" = 10
@@ -68,7 +70,47 @@ monarch_names = {
 	"Benawa #0" = 10
 	"Amangkurat #0" = 30
 	"Prawata #0" = 10
+	"Kertawijaya #0" = 20
+	"Rajasawardhana #0" = 20
+	"Suraprabhawa #0" = 20
+	"Wikramawardhana #0" = 20
 	"Aria Pangiri #0" = 10
+	"Kertanegara #1" = 10
+	"Jayanegara #1" = 10
+	"Mahawijaya #0" = 10
+	"Sutawijaya #0" = 10
+	"Hadiwijaya #0" = 10
+	"Jayabaya #0" = 10
+	"Sutajaya #0" = 10
+	"Kameshwara #0" = 10
+	"Jayawarsa #0" = 10
+	"Rajasanegara #0" = 10
+	"Rajasabhanu #0" = 10
+	"Kertarajasa #0" = 10
+	"Aryanegera #0" = 10
+	"Sarvesvara #0" = 10
+	"Yudhayanegara #0" = 10
+	"Aryesvara #0" = 10
+	"Jayapati #0" = 10
+	"Rajasapati #0" = 10
+	"Adinegara #0" = 10
+	"Aryapati #0" = 10
+	"Adijaya #0" = 10
+	"Aryapati #0" = 10
+	"Susilaraja #0" = 10
+	"Adipati #0" = 10
+	"Rasabakti #0" = 10
+	"Mudajaya #0" = 10
+	"Mudabakti #0" = 10
+	"Susilanegara #0" = 10
+	"Dharmanegara #0" = 10
+	"Mudanegara #0" = 10
+	"Buminegara #0" = 10
+	"Adidaya #0" = 10
+	"Suryapati #0" = 10
+	"Singaraja #0" = 10
+	"Hartadaya #0" = 10
+
 
  	"Tribhuwana #0" = -10
   	"Gayatri #0" = -10
@@ -100,6 +142,10 @@ monarch_names = {
 }
 
 ship_names = {
+	Pendet Legong Baris Topeng Barong
+	Kecak Batur Catur Bratan Pohen Lesong
+	Sangyang Batukaru Patas Musi Mesehe
+	Agong Seraya Merbuk Sanglang Kelatakan
 	Surakarta Ngayogyakarta Semarang Salatiga Imogiri
 	Merbabu Merapi Sragen Sukoharjo Wonosari
 	Lawu Delanggu Cepu Purwodadi Mangkunegaran
@@ -109,7 +155,3 @@ ship_names = {
 army_names = {
 	"Balatentara $PROVINCE$"
 }
-
-#fleet_names = {
-#	"Mataraman Fleet" 
-#}

@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = mandala_reform
+government = tribal
+add_government_reform = native_chieftain_system_reform
 technology_group = indochinese
 religion = animism
 primary_culture = lao
@@ -9,3 +9,67 @@ change_estate_land_share = {
 	estate = estate_burghers
 	share = -5
 }
+
+1200.1.1 = {
+	monarch = {
+		name = "Sipsong Chau Tai"
+		adm = 3
+		dip = 3
+		mil = 2
+		regent = yes
+	}
+}
+
+1393.1.1 = {
+	monarch = {
+		name = "Pet Lam"
+		dynasty = "Deo"
+		birth_date = 1370.1.1
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+	heir = {
+		name = "Manh Vuong"
+		monarch_name = "Manh Vuong"
+		dynasty = "Deo"
+		birth_date = 1393.1.1
+		death_date = 1448.1.1
+		claim = 95
+		ADM = 2
+		DIP = 0
+		MIL = 3
+	}
+}
+
+#Deo Pet Lam is removed after staging a rebellion and being captured
+1432.1.1 = {
+	monarch = {
+		name = "Manh Vuong"
+		dynasty = "Deo"
+		birth_date = 1393.1.1
+		adm = 2
+		dip = 0
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = secretive_personality
+	add_ruler_personality = malevolent_personality
+}
+
+#Deo Manh Vuong is forced to commit suicide by Nguyen Thi Anh for his cruelty and covert assassinations
+1448.1.1 = {
+	monarch = {
+		name = "Dong Dao" #Perhaps just Dao
+		dynasty = "Deo"
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = secretive_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+
+#Hard to trace from here, but the line does continue up until the rise of North Vietnam

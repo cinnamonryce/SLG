@@ -1803,13 +1803,18 @@ west_micronesia_area = { #3
 	1235 1995 1996
 }
 
-western_australia_area = { #4
-	1084 2727 5028 5029
+western_australia_area = { #3
+	1084 2727 5150
 }
 
 #NEW
-wheatbelt_area = { #4
-	2726 4863 4864 5027
+goldfields_area = { #4
+	5028 5029 5151 5152
+}
+
+#NEW
+wheatbelt_area = { #5
+	4863 4864 5027 5153
 }
 
 northern_australia_area = { #3 (Carpentaria)
@@ -1817,8 +1822,8 @@ northern_australia_area = { #3 (Carpentaria)
 }
 
 #NEW
-cape_york_area = { #3
-	2730 2731 5051
+cape_york_area = { #4
+	2730 2731 5051 5146
 }
 
 #NEW
@@ -1845,17 +1850,17 @@ riverina_area = { #5
 }
 
 #NEW
-wimmera_area = { #3
-	1088 2735 5035
+barwon_area = { #4
+	2735 5035 5036 5037
 }
 
-southern_australia_area = { #7 (Melbourne/Victoria)
-	1087 5036 5037 5038
+southern_australia_area = { #3 (Murray)
+	1088 4861 5038
 }
 
 #NEW
-gippsland_area = { #3
-	2734 4861 5039
+bass_coast_area = { #3
+	1087 2734 5039
 }
 
 #NEW
@@ -1863,8 +1868,13 @@ eyre_area = { #5
 	2736 5030 5031 5053 5054
 }
 
-murray_river_area = { #5 (Adelaide)
-	1086 4862 5032 5033 5034
+murray_river_area = { #4 (Adelaide)
+	5033 5034 5147 5148
+}
+
+#NEW
+fleurieu_area = { #4 (Adelaide)
+	1086 4862 5032 5149
 }
 
 illawara_area = { #5
@@ -1872,7 +1882,7 @@ illawara_area = { #5
 }
 
 #NEW
-coral_coast_area = { #4
+coral_coast_area = { #3
 	2732 2733 4850
 }
 
@@ -1890,8 +1900,8 @@ wide_bay_area = { #3
 	1094 4851 4854
 }
 
-pilbara_area = { #3
-	4865 4866 5026
+pilbara_area = { #4
+	2726 4865 4866 5026
 }
 
 #NEW
@@ -1916,20 +1926,32 @@ eastern_polynesia_area = { #3
 	1244 1987 1988
 }
 
-polynesia_area = { #5
+polynesia_area = { #4
 	1243 1989 1990 1992
 }
 
+#Te Tai Hauauru
 te_ika_a_maui_hauauru_area = { #4
-	1106 1107 2739 5069
+	1107 5071 5141
 }
 
+#Northern North Island
 te_ika_a_maui_waho_area = { #5
-	1108 2737 4939 5068 5071
+	1106 1108 2739 5069
 }
 
-te_waipounamu_area = { #5
-	1109 1246 2738 5066 5067
+#NEW
+ikaroa_rawhiti_area = { #4
+	2737 4939 5068 5142
+}
+
+#NEW
+te_tai_poutini_area = { #3
+	1246 5066 5143
+}
+
+te_waipounamu_area = { #3
+	1109 2738 5067
 }
 
 ########################################

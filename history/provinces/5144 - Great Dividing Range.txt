@@ -1,0 +1,5 @@
+#Great Dividing Range
+
+discovered_by = aboriginal_tech
+
+1770.1.1 = { discovered_by = GBR } # James Cook

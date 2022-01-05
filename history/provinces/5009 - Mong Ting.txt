@@ -2,8 +2,8 @@
 
 owner = HSE
 controller = HSE
-culture = shan
-religion = buddhism
+culture = wa
+religion = animism
 capital = "Mong Ting"
 trade_goods = grain
 hre = no
