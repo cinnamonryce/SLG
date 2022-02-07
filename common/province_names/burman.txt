@@ -64,3 +64,5 @@
 
 5130 = { "Myaungmya" "Myaungmya" }
 5131 = "Yanbye"
+
+5173 = "Yatsawk"

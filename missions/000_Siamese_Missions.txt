@@ -189,7 +189,7 @@ siamese_missions_1 = {
 				religion = ROOT
 				cost_multiplier = 0.25
 			}
-			country_event = { id = ayutthaya.3 }
+			country_event = { id = slg_ayutthaya.3 }
 			every_province = {
 				limit = {
 					region = malaya_region
@@ -1702,10 +1702,7 @@ siamese_missions_4 = {
 		required_missions = { ayu_over_the_mekong }
 		position = 8
 		provinces_to_highlight = {
-			OR = {
-				has_province_modifier = emerald_buddha
-				has_province_modifier = emerald_buddha_heathen
-			}
+			has_province_modifier = emerald_buddha
 		}
 		trigger = {
 			any_owned_province = {

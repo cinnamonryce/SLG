@@ -1045,6 +1045,83 @@ LVO_ideas = {
 	}
 }
 
+KAL_ideas = {
+	start = {
+		diplomatic_reputation = 1
+		defensiveness = 0.1
+	}
+	
+	bonus = {
+		land_attrition = -0.10
+	}
+	
+	trigger = {
+		tag = KAL
+	}
+	free = yes
+
+	kal_the_kabaw_frontier = {
+		harsh_treatment_cost = -0.2
+	}
+	kal_agrarian_economy = {
+		production_efficiency = 0.1
+	}
+	kal_hilltop_kingdom = {
+		hostile_attrition = 1
+	}
+	kal_tribal_alliances = {
+		global_unrest = -2
+	}
+	kal_governors_paradise = {
+		stability_cost_modifier = -0.1
+	}
+	kal_the_outer_shan_state = {
+		prestige_decay = -0.01
+	}
+	kal_chin_city_states = {
+		fort_maintenance_modifier = -0.15
+	}
+}
+
+HSE_ideas = {
+	start = {
+		diplomatic_reputation = 1
+		vassal_income = 0.2
+	}
+	
+	bonus = {
+		global_garrison_growth = 0.1
+	}
+	
+	trigger = {
+		tag = HSE
+	}
+	free = yes
+
+	hse_luchuan_pingmian_diplomacy = {
+		improve_relation_modifier = 0.25
+	}
+	hse_keng_mai_buddha = {
+		tolerance_own = 2
+	}
+	hse_shan_subjects = {
+		state_maintenance_modifier = -0.15
+	}
+	hse_a_pledge_of_allegiance = {
+		reduced_liberty_desire = 10
+	}
+	hse_heavenly_descendants = {
+		legitimacy = 1
+		yearly_absolutism = 1
+	}
+	hse_salween_state = {
+		global_trade_power = 0.1
+	}
+	hse_wild_wa = {
+		leader_land_shock = 1
+	}
+}
+
 #New Tibetan ideas by Macky
 new_TIB_ideas = {
 	start = {

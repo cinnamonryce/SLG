@@ -28,67 +28,246 @@ historical_units = {
 }
 
 leader_names = {
-	Djajadiningrat Djojopoespito 
-	Ernalia 
-	Karsumaatmaja 
-	Mollema 
-	Nasution Nitisastro 
-	Prawiranega Purbacaraka 
-	Subadio Sumual 
+	Bhuminoto Cokrokusumo Cokronegoro Cokrowongso Cokrorejo Cokrowijoyo Cokrodiningrat Cokroatmojo Cokropurnomo Hadisaputro Astuti
+	Diposonto Dipokusumo Danurejo Danuatmojo Danukusumo Danunegoro Danuwijoyo Danupuspito Danuprojo Dipoatmojo Dipodiningrat Joyohadikusumo
+	Hanggowongso Hanggokusumo Hanggorejo Hanggowardono Haryokusumo Haryowongso Haryoprasojo Hanjoyo Hanggopurnomo Hanggodiningrat
+	Jaelani Joyopuspito Joyodiningrat Joyoputro Jolotundo Joyokusumo Joyoprojo Joyowijoyo Joyorejo Joyonegoro Joyoatmojo Haryanto
+	Komaruddin Kusumoatmojo Kusumowijoyo Kusumoputro Kusumonegoro Kusumowongso Kusumodiningrat Kusumopuspito Kusumoprojo Sugiyo
+	Mangkuyudo Mangkuprojo Mangkukusumo Mangkunegoro Mangkuwijoyo Mangkupurnomo Mangkuatmojo Mangkudiningrat Hartono Mulyani Winoto
+	Nitisastro Notoprojo Nitikusumo Notowijoyo Notokusumo Nitinegoro Notonegoro Notoatmojo Nitiatmojo Notodiningrat Susetyo Pratama
+	Prawirokusumo Projokusumo Prawiroatmojo Pringgoloyo Prawironegoro Prawoto Purbocaroko Projonegoro Projodiningrat Winarto Susanti
+	Ronggoputro Ronggolawe Ronggowijoyo Ronggokusumo Ronggoatmojo Ronggonegoro Ronggopurnomo Ronggopuspito Ronggodiningrat Pranoto Raharyo
+	Solihun Subrontokusumo Subrontowijoyo Subadio Selarong Subronto Suryokusumo Suryodiningrat Suryonegoro Suryoatmojo Suryocaroko Nugroho
+	Tejowardono Tejokusumo Tejonegoro Tejoputro Tejodiningrat Tejowijoyo Wijoyokusumo Wijoyoatmojo Wijoyopurwo Wijoyonegoro Wijono Marsudi
+	Wijoyodiningrat Wikartoatmojo Wardoyo Joyosurto Suratinyo Wonapati Surodejo Somoharjo Sutanto Susanto Setiawan Wirahadi Sujono Sastroamijoyo
+	Biantoro Cendana Malakiano Martohartono Dahlan Kuswoyo Kromowijoyo Prasetyo Dharsono Dewanto Jiwandono Husodo Sujarwo Suyono Kustijah
+	Sudarmono Rochmawati Resodiharjo Kuncoro Suwando Ngurawan Pulukadang Baderan Mustaja Pawirondi Rejosentono Banjar Atmodikoro Yusanto
 }
 
 monarch_names = {
-	"Raden Patah #0" = 50
-	"Pati Unus #0" = 50
-	"Trenggana #0" = 50
-	"Sunan Prawata #0" = 50
-	"Arya Penangsang #0" = 50
-	"Rajasavardhana #0" = 10
-	"Hyang Purwawisesa #0" = 10
-	"Pandan Solas #0" = 10
-	"Kertabumi #0" = 10
-	"Raden Patah Senapati #0" = 10
-	"Pengeran Sabrang Lar #0" = 10
-	"Pengeran Sutan Tranganna #0" = 10
-	"Pengeran Sultan Prawata #0" = 10
+	"Sutawijaya #0" = 30
+	"Pamanahan #0" = 30
+	"Girindrawardhana #0" = 20
+	"Girishawardhana #0" = 20
+	"Kertabumi #0" = 20
+	"Kertawijaya #0" = 20
+	"Raden Patah Senapati #0" = 20
+	"Pengeran Sabrang Lar #0" = 20
+	"Pengeran Sutan Tranganna #0" = 20
+	"Pengeran Sultan Prawata #0" = 20
+	"Panembahan Dipanegara #0" = 20
+	"Panembahan Senapati #0" = 20
+	"Panembahan Hanggawangsa #0" = 20
+	"Hanyokrokusumo #0" = 20
+	"Dipengoro #0" = 20
+	"Hamengkubuwono #0" = 20
+	"Pakubuwono #0" = 20
+	"Raden Wijaya #1" = 15
 	"Pangeran Mas #0" = 10
 	"Dyah Ranawijaya #0" = 10
 	"Pateudra #0" = 10
 	"Panembahan Ingalasa #0" = 10
 	"Sultan Agung #0" = 10
-	"Pakubuwana #0" = 10
 	"Senapati Jimbun #0" = 10
-	"Sabrang Lor #0" = 10
+	"Sabrang Lor #0" = 20
+	"Benawa #0" = 10
+	"Purwawisesa #0" = 10
+	"Pandan Solas #0" = 10
+	"Ranawijaya #0" = 10
 	"Tranggana #0" = 10
 	"Benawa #0" = 10
-	"Krapyak #0" = 10
 	"Amangkurat #0" = 30
 	"Prawata #0" = 10
+	"Kertawijaya #0" = 20
+	"Rajasawardhana #0" = 20
+	"Suraprabhawa #0" = 20
+	"Wikramawardhana #0" = 20
 	"Aria Pangiri #0" = 10
-	
-	"Mawar #0" = -1
-	"Arij #0" = -1
-	"Suhita #0" = -5
-	"Cinta #0" = -1
-	"Wangi #0" = -1
-	"Prajnaparamitha #0" = -1
-	"Tribhuawana #0" = -5
-	"Gayatri #0" = -5
+	"Kertanegara #1" = 10
+	"Jayanegara #1" = 10
+	"Mahawijaya #0" = 10
+	"Hadiwijaya #0" = 10
+	"Jayabaya #0" = 10
+	"Sutajaya #0" = 10
+	"Kameshwara #0" = 10
+	"Jayawarsa #0" = 10
+	"Rajasanegara #0" = 10
+	"Rajasabhanu #0" = 10
+	"Kertarajasa #0" = 10
+	"Aryanegera #0" = 10
+	"Sarvesvara #0" = 10
+	"Yudhayanegara #0" = 10
+	"Aryesvara #0" = 10
+	"Jayapati #0" = 10
+	"Rajasapati #0" = 10
+	"Adinegara #0" = 10
+	"Aryapati #0" = 10
+	"Adijaya #0" = 10
+	"Aryapati #0" = 10
+	"Susiloraja #0" = 10
+	"Adipati #0" = 10
+	"Rasabakti #0" = 10
+	"Mudajaya #0" = 10
+	"Mudabakti #0" = 10
+	"Susilonegoro #0" = 10
+	"Dharmanegoro #0" = 10
+	"Dayanegoro #0" = 10
+	"Mudanegara #0" = 10
+	"Buminegara #0" = 10
+	"Adidaya #0" = 10
+	"Suryapati #0" = 10
+	"Singaraja #0" = 10
+	"Hartadaya #0" = 10
+	"Pateudra #0" = 10
+	"Samaratungga #0" = 10
+	"Mangkunegoro #0" = 10
+	"Soerjopranoto #0" = 10
+	"Suryonegoro #0" = 10
+	"Suryodaya #0" = 10
+	"Sangrama #0" = 10
+	"Sri Dewa #0" = 10
+	"Sri Kesari #0" = 10
+	"Sangramawijaya #0" = 10
+	"Samaragrawira #0" = 10
+	"Sri Mara #0" = 10
+	"Yasadipura #0" = 10
+	"Yudanegoro #0" = 10
+	"Yudistirayuda #0" = 10
+	"Candrabanu #0" = 10
+	"Wirayuda #0" = 10
+	"Bayuwijaya #0" = 10
+	"Wiranegoro #0" = 10
+	"Ragajaya #0" = 10
+	"Raganegoro #0" = 10
+	"Banuwijaya #0" = 10
+	"Raden Wiraputra #0" = 10
+	"Wirayuda #0" = 10
+	"Sri Samara #0" = 10
+	"Panembahan Ingalasa #0" = 10
+	"Paramesworo #0" = 10
+	"Banunegoro #0" = 10
+
+	"Sukarno #0" = 0
+	"Aryo #0" = 0
+	"Susilo #0" = 0
+	"Adityo #0" = 0
+	"Bima #0" = 0
+	"Arjuna #0" = 0
+	"Yudistira #0" = 0
+	"Budiono #0" = 0
+	"Buwono #0" = 0
+	"Sukanto #0" = 0
+	"Priyanto #0" = 0
+	"Cahyono #0" = 0
+	"Asmoro #0" = 0
+	"Bambang #0" = 0
+	"Prawiro #0" = 0
+	"Cahyono #0" = 0
+	"Asmoro #0" = 0
+	"Sumitro #0" = 0
+	"Rahayu #0" = 0
+	"Dumadi #0" = 0
+	"Rama #0" = 0
+	"Eko #0" = 0
+	"Joko #0" = 0
+	"Atmoro #0" = 0
+	"Darsono #0" = 0
+	"Sunaryo #0" = 0
+	"Wiranto #0" = 0
+	"Wahyudi #0" = 0
+	"Wirawan #0" = 0
+	"Bayu #0" = 0
+	"Prabowo #0" = 0
+	"Suharto #0" = 0
+	"Sutoyo #0" = 0
+	"Sudiharto #0" = 0
+	"Saputro #0" = 0
+	"Sukiman #0" = 0
+	"Sudirman #0" = 0
+	"Wahyu #0" = 0
+	"Haryo #0" = 0
+	"Radityo #0" = 0
+	"Ratno #0" = 0
+	"Budiman #0" = 0
+	"Yuwono #0" = 0
+	"Aryono #0" = 0
+	"Suyono #0" = 0
+	"Wiluyo #0" = 0
+	"Supriyadi #0" = 0
+	"Suaryono #0" = 0
+	"Edi #0" = 0
+	"Sugondo #0" = 0
+	"Wismoyo #0" = 0
+	"Sudarpo #0" = 0
+	"Gesang #0" = 0
+	"Sarwo #0" = 0
+	"Suprapto #0" = 0
+	"Suryo #0" = 0
+	"Baskoro #0" = 0
+	"Gunawan #0" = 0
+	"Abimanyu #0" = 0
+	"Andi #0" = 0
+	"Widyo #0" = 0
+	"Slamet #0" = 0
+	"Sarip #0" = 0
+	"Ngabdurohman #0" = 0
+	"Marpuah #0" = 0
+	"Kusen #0" = 0
+	"Kasan #0" = 0
+
+ 	"Tribhuwana #0" = -10
+  	"Gayatri #0" = -10
 	"Narendra Duhita #0" = -1
-	"Indreswari #0" = -1
+	"Retnaningrum #0" = -1
+	"Shima #0" = -1
+	"Purnamaningrum #0" = -1
+	"Kusumarini #0" = -5
+	"Wulan #0" = -1
+	"Alit #0" = -1
+	"Batang #0" = -1
+	"Banawati #0" = -1
+	"Dewi Pakungwati #0" = -1
 	"Kawunganten #0" = -1
 	"Tepasari #0" = -1
-	"Semboja #0" = -1
-	"Tingkir #0" = -1
-	"Pakungwati #0" = -1
-	"Endang Geulis #0" = -1
-	"Adiningkusuma #0" = -1
-	"Kalinyamat #0" = -10
+	"Sembada #0" = -1
+	"Retno Dumilah #0" = -1
+	"Nyai Waskitajawi #0" = -10
+	"Adisara #0" = -1
+	"Semangkin #0" = -1
+	"Nyai Pandansari #0" = -10
+	"Nyai Winongan #0" = -10
+	"Suroloyo #0" = -1
+	"Megatsari #0" = -1
+	"Nyai Purbaya #0" = -10
+	"Sindurejo #0" = -1
+	"Himpun #0" = -1
+	"Wiradigda #0" = -1
+	"Bestari #0" = -1
+	"Bunga #0" = -1
+	"Susulowati #0" = -1
+	"Sumitra #0" = -1
+	"Mahsuri #0" = -1
+	"Mahura #0" = -1
+	"Megawati #0" = -1
+	"Melati #0" = -1
+	"Sutiati #0" = -1
+	"Sugiarti #0" = -1
+	"Widiyawati #0" = -1
+	"Komang #0" = -1
+	
 }
 
 ship_names = {
-	Surakarta Yogyakarta Semarang Salatiga
-	"Gunung Merbabu" Sragen Sukoharjo Wonosari
-	"Gunung Lawu" Delanggu Cepu Purwodarli
-	Ngawi Grobogan Boja Amgarawa
+	Pendet Legong Baris Topeng Barong Hanyokrokusumo
+	Kecak Batur Catur Bratan Pohen Lesong Panji Janggala
+	Sangyang Batukaru Patas Musi Mesehe Karta Kediri
+	Agong Seraya Merbuk Sanglang Kelatakan "Kota Garde"
+	Surakarta Ngayogyakarta Semarang Salatiga Imogiri
+	Merbabu Merapi Sragen Sukoharjo Wonosari
+	Lawu Delanggu Cepu Purwodadi Mangkunegaran
+	Ngawi Grobogan Boja Ambarawa Pakualam
+}
+
+army_names = {
+	"Balatentara $PROVINCE$"
 }

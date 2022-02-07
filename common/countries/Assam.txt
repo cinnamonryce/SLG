@@ -1,6 +1,6 @@
 #Country Name: See the Name of this File.
 
-graphical_culture = indiangfx
+graphical_culture = asiangfx
 
 color = { 163  5  77 }
 
@@ -33,36 +33,61 @@ historical_units = {
 }
 
 monarch_names = {
-	"Sudangpha #0" = 20
-	"Sujangpha #0" = 20
-	"Siphakpha #0" = 20
-	"Susenpha #0" = 20
-	"Suhempha #0" = 20
-	"Supimpha #0" = 20
-	"Suhung #0" = 20
-	"Sutamla #0" = 20
+	"Sudangphaa #0" = 20
+	"Sudingphaa #0" = 20
+	"Suhemphaa #0" = 20
+	"Suhenphaa #0" = 20
+	"Suhitpangphaa #0" = 20
+	"Suhungmung #0" = 20
+	"Suhungphaa #0" = 20
+	"Sujangphaa #0" = 20
+	"Sukaphaa #0" = 20
+	"Sukhangpaa #0" = 20
+	"Suklenmung #0" = 20
+	"Siphakphaa #0" = 20
+	"Sudoiphaa #0" = 20
+	"Supimphaa #0" = 20
 	"Supungmung #0" = 20
-	"Sukhampha Khora Raja #0" = 5
-	"Suklenmung Garghgaya Raja #0" = 5
-	"Gobar #0" = 10
-	"Brajnatha #0" = 10
+	"Susenphaa #0" = 20
+	"Sutamla #0" = 20
+	"Sutemphaa #0" = 20
+	"Sunenphaa #0" = 20
+	"Sunyatphaa #0" = 20
+	"Sunyeophaa #0" = 20
+	"Suremphaa #0" = 20
+
+	"Bhugeswari #0" = 0
+	"Brajnatha #0" = 0
+	"Dekerua #0" = 0
+	"Dinanth #0" = 0
+	"Gobar #0" = 0
+	"Jagananth #0" = 0
+	"Maheswari #0" = 0
+	"Suhung #0" = 0
+	"Tuloni #0" = 0
+
+	"Daivaki #0" = -1
+	"Kunja #0" = -1
+	"Kunti #0" = -1
+	"Kuranganayani #0" = -1
 	"Mangaldahi #0" = -1
 	"Sati Joymati #0" = -1
-	"Kuranganayani #0" = -1
+	"Swarna #0" = -1
 }
 
 leader_names = {
-	Baruah
-	Borphukan
-	Chandra
-	Das
-	Deka
+	Bailung Bakata Baruah Borgohain Borkola Borpatrogohain Borphukan Buragohain
+	Chandra Charaideo
+	Das Deka Deodhai Duara
+	Garhgaon
+	Jorhat
 	Kalita
-	Mahanta
-	Narayan
+	Lahan Handique
+	Mahanta Mohan
+	Narayan Narayanpur
 	Prithu
-	Roy
-	Prithu
+	Rangpur Roy
+	Siring
 }
 
 ship_names = {

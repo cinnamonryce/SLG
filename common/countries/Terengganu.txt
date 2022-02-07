@@ -17,56 +17,111 @@ historical_idea_groups = {
 	diplomatic_ideas
 }
 
+leader_names = {
+	"bin Abdulfatah" "bin Ahmad" "bin Amir" "bin Anwar" "bin Hafiz" "bin Sulaiman Omar" "bin Danial" "bin Ishak" "bin Tuah"
+	"bin Batuta" "bin Adiputera" "bin Hassan" "bin Mahmud" "bin Abdul Majid" "bin Hassan Nazir" "bin Embong" "bin Kulup"
+	"bin Dasoh" "bin Razak" "bin Osman" "bin Omar" "bin Abdul Aziz" "bin Nazir" "bin Daud" "bin Sulong" "bin Malim"
+	"bin Hamzah" "bin Husamuddin" "bin Ali" "bin Jamal" "bin Muhammad" "bin Abdul Razak" "bin Jaafar" "bin Tanggang"
+	"bin Perang" "bin Agus" "bin Megat" "bin Awang" "bin Munsi" "bin Dayang" "bin Biru" "bin Susila" "bin Muzaffar"
+	"bin Musa" "bin Darus" "bin Abdul Rahman" "bin Abdul Hamid" "bin Hamid" "bin Hitam" "bin Tarung" "bin Parameswara"
+	"bin Mukhtar" "bin Hisham" "bin Hassan""bin Najamuddin" "bin Natzar" "bin Nasir" "bin Ismail" "bin Wahyu" "bin Harun"
+	"bin Syarifuddin" "bin Abdul Kadir" "bin Kadir" "bin Ibrahim" "bin Sulaiman" "bin Yassin" "bin Jaka" "bin Jusoh" "bin Awang"
+	"bin Abu Bakr" "bin Hussein" "bin Muhammad Said" "bin Said" "bin Yusof" "bin Aziz" "bin Bongsu" "bin Jalak" "bin Wijaya"
+	"bin Adam" "bin Idris" "bin Iskandar" "bin Musa Iskandar" "bin Mokthar" "bin Rahman" "bin Syarif" "bin Wira" "bin Yunos"
+	"bin Yaakob" "bin Zakaria" "bin Yusof Said" "bin Ismail" "Sulaiman" "bin Khamis" "bin Jebat" "bin Ujang" "bin Basuki" "bin Bagus"
+	"bin Hamiduddin" "bin Zahiruddin" "bin Shamsuddin" "bin Sadruddin" "bin Jamaluddin" "bin Imaduddin" "bin Imran" "bin Farhan"
+	"bin Saifuddin" "bin Muyhiddin" "bin Ismatuddin" "bin Azimuddin" "bin Jalaluddin" "bin Muhibuddin" "bin Baskara" "bin Sangkara"
+}
+
 historical_units = {
-	malay_spearmen
+	malay_longspear
 	malay_mongolian_bow
 	malay_arquebusier
 	malay_charge_cavalry
-        malay_mass_infantry
+	malay_mass_infantry
 	malay_musketeer
 	malay_reformed_asian_musketeer
 	malay_reformed_asian_cavalry
 }
 
-leader_names = {
-	Abdulfatah Ahmad Amir Anwar Azmi 
-	Batuta 
-	Chairul 
-	Hamzah Hasanuddin 
-	Ibnu 
-	Kyai 
-	Mahat Mukhtar 
-	Najamuddin Natzar Nazmizan 
-	Roem 
-	Syarifuddin 
-	Zulkifli 
-}
-
 monarch_names = {
+	"Sri Nila Pahlawan #0" = 10
+	"Sri Tri Buana #0" = 10
+	"Sri Wikrama Wira #0" = 10
+	"Sri Rana Wikrama #0" = 10
+	"Sri Maharaja #0" = 10
 	"Sam Agi #0" = 10
-	"Paramesvara #0" = 10
-	"Megat Iskander #0" = 10
-	"Muhammad Shâh #0" = 10
-	"Abu Syahid #0" = 10
-	"Muzaffar Shâh #0" = 10
-	"Mansûr Shâh #0" = 10
-	"Riayat Shah #0" = 10
-	"Mahmûd Shâh #0" = 10
-	"'Abd al-Jalîl Shâh #0" = 10
-	"Ma'ayat Shâh #0" = 10
-	"Ibrâhîm Shâh #0" = 10
-	"Rahmat Shâh #0" = 10
-	"Sulaymân Badr Shâh #0" = 10
-	"Mu'azzam Shâh #0" = 10
-	"Mahmûd Ri'âyat Shâh #0" = 10
-	"'Abd ar-Rahmân Shâh #0" = 10
+	"Parameswara #0" = 20
+	"Iskandar Syah #0" = 20
+	"Megat Iskandar Syah #0" = 20
+	"Muhammad Syah #0" = 20
+	"Abu Syahid #0" = 20
+	"Muzaffar Syah #0" = 20
+	"Mansur Syah #0" = 20
+	"Alauddin Riayat Syah #0" = 20
+	"Mahmud Syah #0" = 20
+	"Abdul Jalil Syah #0" = 20
+	"Abdullah Ma'ayat Syah #0" = 20
+	"Ibrahim Syah #0" = 20
+	"Rahmat Syah #0" = 20
+	"Sulaiman Badrul Syah #0" = 20
+	"Muazzam Syah #0" = 20
+	"Mahmud Riayat Syah #0" = 20
+	"Abdul Rahman Syah #0" = 20
+	"Hussein Syah #0" = 20
+	"Ali Iskandar Syah #0" = 20
+	"Abu Bakr Syah #0" = 20
 	"Rajah Qasim #0" = 10
-	"Mahmûd Ri'âyat Shâh #0" = 10
-	"Raja Ismail #0" = 10
-	"Raja Qasim #0" = 10
-	"Tun Abdul Majid #0" = 10
-	"Tun Mutahir #0" = 10
-	"Paduka #0" = 0
+	"Ahmad Tajuddin Halim Syah #0" = 10
+	"Abdullah Mukarram Syah #0" = 10
+	"Muhyiddin Mansur Syah #0" = 10
+	"Dziaddin Mukarram Syah #0" = 10
+	"Abdullah Mu'adzam  Syah #0" = 10
+	"Ahmad Tajuddin Halim Syah #0" = 10
+	"Abdullah Mukarram Syah #0" = 10
+	"Zainal Rashid Al-Mu'adzam Syah #0" = 10
+	"Mu'adzam Syah #0" = 10
+	"Suleiman Syah #0" = 10
+	"Jamal Syah #0" = 10
+	"Kadir Syah #0" = 10
+	"Ahmad Syah #0" = 10
+	"Abdullah Syah #0" = 10
+	"Mutahir Syah #0" = 10
+	"Salehuddin Syah #0" = 10
+	"Hishamuddin Syah #0" = 10
+	"Yahya Syah #0" = 10
+	"Ismail Syah #0" = 10
+	"Omar Syah #0" = 10
+	"Osman Syah #0" = 10
+	"Rahmad Syah #0" = 10
+	"Jalaluddin Syah #0" = 10
+	"Alamuddin Syah #0" = 10
+	"Singadhiraja #0" = 10
+	"Abdul Majid Syah #0" = 10
+	"Abdullah Syah #0" = 10
+	"Hisham Syah #0" = 10
+	"Nazir Syah #0" = 10
+	"Hussein Syah #0" = 10
+	"Intera Syah #0" = 10
+	"Bahdur Syah #0" = 10
+	"Sulong Syah #0" = 10
+	"Khamis Syah #0" = 10
+	"Ujang Syah #0" = 10
+	"Wirajaya #0" = 10
+	"Jayajati #0" = 10
+	"Daud Syah #0" = 10
+	"Syarif Syah #0" = 10
+	"Nasir Syah #0" = 10
+	"Zakaria Syah #0" = 10
+	"Yunus Syah #0" = 10
+	"Idris Syah #0" = 10
+	"Aziz Syah #0" = 10
+	"Mokthar Syah #0" = 10
+	"Abdul Rahman Syah #0" = 10
+	"Ranawijaya #0" = 10
+	"Hadiwijaya #0" = 10
+	
+	"Syarif #0" = 0
 	"Mansur #0" = 0
 	"Jamal #0" = 0
 	"Kadir #0" = 0
@@ -80,48 +135,132 @@ monarch_names = {
 	"Abdul Majid #0" = 0
 	"Ali #0" = 0
 	"Mutahir #0" = 0
+	"Aziz #0" = 0
+	"Yahaya #0" = 0
+	"Yahya #0" = 0
+	"Muhyiddin #0" = 0
+	"Hishamuddin #0" = 0
+	"Muhammad #0" = 0
+	"Salehuddin #0" = 0
+	"Nasir #0" = 0
+	"Daud #0" = 0
+	"Idris #0" = 0
+	"Harun #0" = 0
+	"Jebat #0" = 0
+	"Gombak #0" = 0
+	"Bongsu #0" = 0
+	"Bintang #0" = 0
+	"Sulong #0" = 0
+	"Embong #0" = 0
+	"Eka #0" = 0
+	"Jaka #0" = 0
+	"Wahyu #0" = 0
+	"Bambang #0" = 0
+	"Sukarna #0" = 0
+	"Perang #0" = 0
+	"Nerang #0" = 0
+	"Yuda #0" = 0
+	"Agung #0" = 0
+	"Tarung #0" = 0
+	"Wiranta #0" = 0
+	"Susila #0" = 0
+	"Tanggang #0" = 0
+	"Agus #0" = 0
+	"Budi #0" = 0
+	"Darus #0" = 0
+	"Wahyudi #0" = 0
+	"Wirawan #0" = 0
+	"Bayu #0" = 0
+	"Buwana #0" = 0
+	"Cahaya #0" = 0
+	"Priyanta #0" = 0
+	"Baskara #0" = 0
+	"Hitam #0" = 0
+	"Jejaka #0" = 0
+	"Jati #0" = 0
+	"Jantan #0" = 0
+	"Jalak #0" = 0
+	"Wira #0" = 0
+	"Sangkara #0" = 0
+	"Teruna #0" = 0
+	"Biru #0" = 0
+	"Seman #0" = 0
+	"Ujang #0" = 0
+	"Yunos #0" = 0
+	"Yusof #0" = 0
+	"Khamis #0" = 0
+	"Senin #0" = 0
+	"Shuib #0" = 0
+	"Yeop #0" = 0
+	"Zakaria #0" = 0
+	"Jusoh #0" = 0
+	"Basuki #0" = 0
+	"Awang #0" = 0
+	"Tuah #0" = 0
+	"Wira #0" = 0
 	
-	"Mengindra #0" = -1
-	"Wanang #0" = -1
-	"Fatima #0" = -1
-	"Khadija #0" = -1
-	"Kamarliah #0" = -1
-	"Kamala #0" = -1
-	"Dewi #0" = -1
-	"Tengah #0" = -1
-	"Putih #0" = -1
-	"Bongsu #0" = -1
-	"Khalija #0" = -1
-	"Olah #0" = -1
-	"Khadija #0" = -1
-	"Puspa #0" = -1
-	"Encik Wan Ngah #0" = -1
-	"Azura #0" = -1
-	"'Umniya #0" = -1
-	"Hafeeza #0" = -1
-	"Aisha #0" = -1
-	"Azura #0" = -1
-	"Mariam #0" = -1
+	"Zaina #0" = -1
+	"Dina #0" = -1
+	"Nadia #0" = -1
+	"Dayang #0" = -1
+	"Fatimah #0" = -1
+	"Qadira #0" = -1
+	"Sembuk #0" = -1
+	"Delima #0" = -1
+	"Meriam #0" = -1
 	"Sharifah #0" = -1
-	"Azizah #0" = -1
+	"Embun #0" = -1
 	"Aminah #0" = -1
 	"Zabedah #0" = -1
 	"Maimunah #0" = -1
 	"Zaharah #0" = -1
-	"Ismailiah #0" = -1
-	"Iskandariah #0" = -1
-	"Dayang #0" = -1
-	"Sulong #0" = -1
-	"Sembuk #0" = -1
+	"Noora #0" = -1
+	"Farah #0" = -1
+	"Fatima #0" = -1
+	"Khadija #0" = -1
+	"Yasmin #0" = -1
+	"Wiradigda #0" = -1
+	"Ratnasari #0" = -1
+	"Ratnawati #0" = -1
+	"Aisyah #0" = -1
+	"Bunga #0" = -1
+	"Melur #0" = -1
+	"Susulowati #0" = -1
+	"Sumitra #0" = -1
+	"Mahsuri #0" = -1
+	"Mahura #0" = -1
+	"Megawati #0" = -1
+	"Melati #0" = -1
+	"Mengindra Putri #0" = -1
+	"Manjalara #0" = -1
+	"Tun Kamala #0" = -1
+	"Bakal #0" = -1
+	"Sumaiya #0" = -1
+	"Gapuak #0" = -1
+	"Mariam #0" = -1
+	"Sumpu #0" = -1
+	"Suhita #0" = -10
+	"Cinta #0" = -1
+	"Wangi #0" = -1
+	"Adiputeri #0" = -1
+	"Masayu #0" = -1
+	"Merah #0" = -1
+	"Kuntum #0" = -1
+	"Surintan #0" = -1
+	"Nirmala #0" = -1
+	"Fajar #0" = -1
+	"Haryati #0" = -1
+	"Rahah #0" = -1
+	"Sharifah #0" = -1
 }
 
 ship_names = {
 	Parameswara "Sultan Iskandar" Bendahara Laksamana
-	Temenggung "Penghulu bendahari" Shahbandar
-	"Hukum Kanun" "Undang-Undang" "Pulau Bakung"
+	Temenggung "Penghulu bendahari" Shahbandar Melaka "Sultan Mansur"
+	"Hukum Kanun" "Undang-Undang" "Pulau Bakung" Johor "Sultan Mahmud"
 	"Pulau Lingga" Kepulauan "Pulau Singkep" "Kepulauan Riau"
-	"Pulau Rempang" "Pulau Kundur" "Pulau Padang"
-	"Pulau Bengkaus" "Pulau Tinggi" "Pulau Sibu"
-	"Pulau Tioman" "Pulau Aur" "Pulau Rupat"
-	"Pulau Rangsang" "Pulau Tebing Tinggi"
+	"Pulau Rempang" "Pulau Kundur" "Pulau Padang" Siak
+	"Pulau Bengkaus" "Pulau Tinggi" "Pulau Sibu" Indragiri
+	"Pulau Tioman" "Pulau Aur" "Pulau Rupat" Klang Terranganu
+	"Pulau Rangsang" "Pulau Tebing Tinggi" Kedah Kelantan
 }

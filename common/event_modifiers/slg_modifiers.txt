@@ -19,28 +19,22 @@ ayu_wat_phra_si_sanphet = {
 	prestige_decay = -0.01
 }
 
-#emerald_buddha = {
-#	tolerance_own = 1
-#	prestige = 0.5
-#	picture = "tolerance_own"
-#}
-
-#emerald_buddha_alternate = {
-#	prestige = 0.1
-#	picture = "tolerance_own"
-#}
-
-emerald_buddha_heathen = {
-	prestige = 0.05
-	picture = "tolerance_own"
-}
-
 healed_by_god = {
 	monarch_lifespan = 0.1
 }
 
 holy_incumbency = {
 	monarch_lifespan = 0.5
+}
+
+smb_bloodthirst = {
+	global_unrest = 2
+	harsh_treatment_cost = -0.25
+}
+
+smb_incestuous_allegations = {
+	legitimacy = -1
+	prestige = -2
 }
 
 gun_samding_dorje_phagmo_pmod = {

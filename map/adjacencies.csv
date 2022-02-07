@@ -114,8 +114,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2678;622;sea;1361;4446;618;4443;617;Bangka-Palembang
 2686;4815;sea;1361;-1;-1;-1;-1;Bintan-Singapore
 1236;5005;sea;1405;-1;-1;-1;-1;Rabaul-Kavieng
-
-5033;5148;sea;1415;-1;-1;-1;-1;Kaurna-Peramangk
-
+1248;5155;sea;1615;3947;722;3949;721;Maldives-Thiladhunmathi
 1340;1341;canal;2100;-1;-1;-1;-1;palk_strait
 -1;-1;;-1;-1;-1;-1;-1;-1;

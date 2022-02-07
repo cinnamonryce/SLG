@@ -1,0 +1,252 @@
+government = tribal
+add_government_reform = native_chieftain_system_reform
+primary_culture = wa
+religion = hinduism
+technology_group = indian
+capital = 5160 #Jaintia
+
+1400.1.1 = {
+	monarch = {
+		name = "Man Gossain"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 3
+		MIL = 2
+	}
+}
+
+#Fictional
+1450.1.1 = {
+	monarch = {
+		name = "Man Gosain II"
+		dynasty = "Syiem Sutnga"
+		ADM = 1
+		DIP = 1
+		MIL = 1
+	}
+}
+
+#Prabhat Ray ascends the throne, extending influence to the plains
+1500.1.1 = {
+	monarch = {
+		name = "Prabhat Ray"
+		dynasty = "Syiem Sutnga"
+		ADM = 4
+		DIP = 4
+		MIL = 3
+	}
+}
+
+1516.1.1 = {
+	monarch = {
+		name = "Majha Gosain"
+		dynasty = "Syiem Sutnga"
+		ADM = 3
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1532.1.1 = {
+	monarch = {
+		name = "Burha Parbat Ray"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 3
+		MIL = 2
+	}
+}
+
+1548.1.1 = {
+	monarch = {
+		name = "Bar Gosain I"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 3
+		MIL = 2
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Bijay Manik"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 3
+		MIL = 3
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Pratap Ray"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}	
+
+1596.1.1 = {
+	monarch = {
+		name = "Dhan Manik"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 3
+		MIL = 4
+	}
+}
+
+1612.1.1 = {
+	monarch = {
+		name = "Jasa Manik"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+}
+
+1625.1.1 = {
+	monarch = {
+		name = "Sundar Ray"
+		dynasty = "Syiem Sutnga"
+		ADM = 1
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1636.1.1 = {
+	monarch = {
+		name = "Chota Parbat Ray"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1647.1.1 = {
+	monarch = {
+		name = "Jasamanta Ray"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 3
+		MIL = 1
+	}
+}
+
+1660.1.1 = {
+	monarch = {
+		name = "Ban Singh"
+		dynasty = "Syiem Sutnga"
+		ADM = 1
+		DIP = 2
+		MIL = 1
+	}
+}
+
+1669.1.1 = {
+	monarch = {
+		name = "Pratap Singh"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 1
+		MIL = 3
+	}
+}
+
+#Jaintia revolt against the Mughals in 1676
+
+1678.1.1 = {
+	monarch = {
+		name = "Lakshmi Narayan"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1694.1.1 = {
+	monarch = {
+		name = "Ram Singh I"
+		dynasty = "Syiem Sutnga"
+		ADM = 1
+		DIP = 0
+		MIL = 1
+	}
+}
+
+#Ram Singh kidnaps the Kachari Raja in the early 1700s - the Ahoms invade and Jaintia is annexed until the reign of Jayo Narayan
+
+1708.1.1 = {
+	monarch = {
+		name = "Jay Narayan"
+		dynasty = "Syiem Sutnga"
+		ADM = 4
+		DIP = 3
+		MIL = 4
+	}
+}
+
+1731.1.1 = {
+	monarch = {
+		name = "Bar Gosain II"
+		dynasty = "Syiem Sutnga"
+		ADM = 3
+		DIP = 2
+		MIL = 3
+	}
+}
+
+1770.1.1 = {
+	monarch = {
+		name = "Chattra Singh"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Yatra Narayan"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+}
+
+1785.1.1 = {
+	monarch = {
+		name = "Bijay Narayan"
+		dynasty = "Syiem Sutnga"
+		ADM = 1
+		DIP = 1
+		MIL = 1
+	}
+}
+
+1786.1.1 = {
+	monarch = {
+		name = "Lakshmi Singh"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+}
+
+1790.1.1 = {
+	monarch = {
+		name = "Ram Singh II"
+		dynasty = "Syiem Sutnga"
+		ADM = 2
+		DIP = 3
+		MIL = 2
+	}
+}

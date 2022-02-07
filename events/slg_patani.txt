@@ -22,13 +22,19 @@ country_event = {
 		ai_chance = {
 			factor = 1
 		}
-		change_religion = sunni
-		add_country_modifier = {
-			name = "conversion_zeal"
-			duration = 3650
-		}
-		add_ruler_modifier = {
-			name = healed_by_god
+
+		random_list = {
+			10 = { kill_ruler = yes }
+			90 = {
+				change_religion = sunni
+				add_country_modifier = {
+					name = "conversion_zeal"
+					duration = 3650
+				}
+				add_ruler_modifier = {
+					name = healed_by_god
+				}
+			}
 		}
 	}
 	option = {
@@ -36,6 +42,9 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		kill_ruler = yes
+		random_list = {
+			95 = { kill_ruler = yes }
+			5 = { add_prestige = 10 }
+		}
 	}
 }

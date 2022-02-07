@@ -370,6 +370,10 @@
  northern_tablelands_area_name:0 "Northern Tablelands"
  northern_tablelands_area_adj:0 "Northern Tableland"
  
+ north_west_slopes_area:0 "North West Slopes"
+ north_west_slopes_area_name:0 "North West Slopes"
+ north_west_slopes_area_adj:0 "North West Slope"
+ 
  riverina_area:0 "Riverina"
  riverina_area_name:0 "Riverina"
  riverina_area_adj:0 "Riverinan"
@@ -401,6 +405,26 @@
  central_desert_area:0 "Central Desert"
  central_desert_area_name:0 "Central Desert"
  central_desert_area_adj:0 "Central Desert"
+ 
+ chittagong_area:0 "Chittagong"
+ chittagong_area_name:0 "Chittagong"
+ chittagong_area_adj:0 "Chittagong"
+ 
+ south_bengal_area:0 "South Bengal"
+ south_bengal_area_name:0 "South Bengal"
+ south_bengal_area_adj:0 "South Bengali"
+ 
+ sikkim_area:0 "Sikkim"
+ sikkim_area_name:0 "Sikkim"
+ sikkim_area_adj:0 "Sikkim"
+ 
+ koch_area:0 "Cooch"
+ koch_area_name:0 "Cooch"
+ koch_area_adj:0 "Cooch"
+ 
+ maldives_area:0 "Maldives"
+ maldives_area_name:0 "Maldives"
+ maldives_area_adj:0 "Maldivian"
  
  #Tibetan Stuff by Macky
  tsaidam_area: "Tsaidam"

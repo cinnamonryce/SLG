@@ -20,24 +20,26 @@ historical_units = {
 	malay_mongolian_bow
 	malay_arquebusier
 	malay_charge_cavalry
-        malay_mass_infantry
+	malay_mass_infantry
 	malay_musketeer
 	malay_reformed_asian_musketeer
 	malay_reformed_asian_cavalry
 }
 
 leader_names = {
-	Abdulfatah Ahmad Amir Anwar Azmi 
-	Batuta 
-	Chairul 
-	Hamzah Hasanuddin 
-	Ibnu 
-	Kyai 
-	Mahat Mukhtar 
-	Najamuddin Natzar Nazmizan 
-	Roem 
-	Syarifuddin 
-	Zulkifli 
+	"bin Abdulfatah" "bin Ahmad" "bin Amir" "bin Anwar" "bin Hafiz" "bin Sulaiman Omar" "bin Danial" "bin Ishak" "bin Tuah"
+	"bin Batuta" "bin Adiputera" "bin Hassan" "bin Mahmud" "bin Abdul Majid" "bin Hassan Nazir" "bin Embong" "bin Kulup"
+	"bin Dasoh" "bin Razak" "bin Osman" "bin Omar" "bin Abdul Aziz" "bin Nazir" "bin Daud" "bin Sulong" "bin Malim"
+	"bin Hamzah" "bin Husamuddin" "bin Ali" "bin Jamal" "bin Muhammad" "bin Abdul Razak" "bin Jaafar" "bin Tanggang"
+	"bin Perang" "bin Agus" "bin Megat" "bin Awang" "bin Munsi" "bin Dayang" "bin Biru" "bin Susila" "bin Muzaffar"
+	"bin Musa" "bin Darus" "bin Abdul Rahman" "bin Abdul Hamid" "bin Hamid" "bin Hitam" "bin Tarung" "bin Parameswara"
+	"bin Mukhtar" "bin Hisham" "bin Hassan""bin Najamuddin" "bin Natzar" "bin Nasir" "bin Ismail" "bin Wahyu" "bin Harun"
+	"bin Syarifuddin" "bin Abdul Kadir" "bin Kadir" "bin Ibrahim" "bin Sulaiman" "bin Yassin" "bin Jaka" "bin Jusoh" "bin Awang"
+	"bin Abu Bakr" "bin Hussein" "bin Muhammad Said" "bin Said" "bin Yusof" "bin Aziz" "bin Bongsu" "bin Jalak" "bin Wijaya"
+	"bin Adam" "bin Idris" "bin Iskandar" "bin Musa Iskandar" "bin Mokthar" "bin Rahman" "bin Syarif" "bin Wira" "bin Yunos"
+	"bin Yaakob" "bin Zakaria" "bin Yusof Said" "bin Ismail" "Sulaiman" "bin Khamis" "bin Jebat" "bin Ujang" "bin Basuki" "bin Bagus"
+	"bin Hamiduddin" "bin Zahiruddin" "bin Shamsuddin" "bin Sadruddin" "bin Jamaluddin" "bin Imaduddin" "bin Imran" "bin Farhan"
+	"bin Saifuddin" "bin Muyhiddin" "bin Ismatuddin" "bin Azimuddin" "bin Jalaluddin" "bin Muhibuddin" "bin Baskara" "bin Sangkara"
 }
 
 monarch_names = {

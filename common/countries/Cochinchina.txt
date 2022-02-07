@@ -34,37 +34,62 @@ historical_units = {
 
 monarch_names = {
 	"Barom Reachea #2" = 45
-	"Noreay Ramathipatei #0" = 20
+	"Noreay Reameathiptei #0" = 20
 	"Soriyotei #1" = 20
 	"Thommo Reachea #0" = 35
 	"Srey Sukonthor #0" = 20
 	"Ang Chan #0" = 15
-	"Reachea Ramathipatei #0" = 20
+	"Reachea Reameathiptei #0" = 20
 	"Barom Reachea #0" = 20
 	"Chey Chettha #0" = 40
 	"Ney Khan #0" = 20
-	"Preah Ram #0" = 25
-	"Keo Hua #0" = 30
+	"Preah Ream #0" = 25
+	"Kaev Hua #0" = 30
 	"Outey Reachea #0" = 35
-	"Sri Dharmaraja #0" = 30
-	"Padumaraja #0" = 30
-	"Ramathipadi #0" = 30
-	"Satha #1" = 20
+	"Srei Thommoreachea #0" = 30
+	"Batom Reachea #0" = 30
+	"Reameathiptei #0" = 30
+	"Satha #0" = 20
 	"Ream Reachea #0" = 20
-	"Narayanaraja #1" = 20
-	"Ponhea Yat #0" = 5
-	"Narayanaraja #0" = 5
-	"Sri Raja #0" = 5
-	"Rajadhiraja #0" = 5
-	"Dharmarajadhiraja #0" = 5
+	"Noreay Reachea #1" = 20
+	"Sithean Reachea #1" = 20
+	"Nippean Bat #1" = 20
+	"Ponhea Yat #1" = 20
+	"Norodom #0" = 15
+	"Sisowath #0" = 15
+	"Monivong #0" = 15
+	"Monireth #0" = 15
+	"Ritthavong #0" = 15
+	"Sithean Reachea #1" = 20
+	"Barom Reameathiptei #0" = 20
+	"Essaravong #0" = 10
+	"Si Votha #0" = 15
+	"Harireak Reamea #0" = 15
+	"Sereivong #0" = 15
+	"Basat #1" = 10
+	"In Reachea #1" = 10
+	"Youtevong #0" = 10
+	"Yukanthor #0" = 10
+	"Srei Chettha #0" = 10
+	"Srei Reachea #0" = 10
+	"Reacheathireach #0" = 10
+	"Thommo Reachathireach #0" = 10
 	"Damkhat Sukonthor #0" = 5
 	"Reamea Chungprey #0" = 5
 	"Keo Ban On #0" = 5
 	"Ponhea Yor #0" = 5
 	"Ponhea An #0" = 5
 	"Ponhea Nhom #0" = 10
-	"Srei Soriyopear #0" = 5
-	"Udayaraja #0" = 5
+	"Srei Soriyopear #0" = 15
+	"Soriyoreachea #0" = 5
+	"Apheayreachea #0" = 5
+	"Chetthathireach #0" = 10
+	"Batommavong #0" = 5
+	"Reameavong #0" = 5
+	"Inthreavong #0" = 5
+	"Soriyovong #0" = 5
+	"Vehavong #0" = 5
+	"Sovanna Reachea #0" = 5
 	"Ponhea To #0" = 5
 	"Ang Non #0" = 10
 	"Ponhea Chan #0" = 5
@@ -79,12 +104,34 @@ monarch_names = {
 	"Ang Tong #0" = 5
 	"Ang Ton #0" = 5
 	"Ang Eng #0" = 5
-	"Ang Duong #0" = 5
+	"Ang Vaddey #0" = 5
+	"Ang Ream #0" = 5
+	"Ang Sopheakdei #0" = 5
+	"Ang Duong #0" = 15
+	"Si Votha #0" = 5
+	"Ang Chee #0" = 5
+	"Chattivong #0" = 5
+	"Sutharot #0" = 5
+	"Monipong #0" = 5
+	"Phurissara #0" = 5
+	"Chantaraingsey #0" = 5
+	"Norindeth #0" = 5
+	"Noreaythiptei #0" = 5
+	"Rathary #0" = 5
+	"Duong Chakr #0" = 5
+	"Sorinkhanet #0" = 5
+	"Monisowath #0" = 5
+	"Sovethvong #0" = 5
+	"Ponnirath #0" = 5
+	"Sararith #0" = 5
+	"Monirith #0" = 5
+	"Sisura #0" = 5
+
 	"Arun #0" = 0
 	"Kravan #0" = 0
 	"Vibol #0" = 0
 	"Oudom #0" = 0
-	"Pich #0" = 0
+	"Vanneth #0" = 0
 	"Kiri #0" = 0
 	"Chea #0" = 0
 	"Poeu #0" = 0
@@ -119,10 +166,28 @@ monarch_names = {
 	"Khemera #0" = 0
 	"Chantou #0" = 0
 	"Chakra #0" = 0
+	"Montha #0" = 0
 	"Phala #0" = 0
 	"Veha #0" = 0
+	"Narith #0" = 0
 	"Somnang #0" = 0
 	"Sopheaktra #0" = 0
+	"Sovan #0" = 0
+	"Phouthang #0" = 0
+	"Sotha #0" = 0
+	"Kosal #0" = 0
+	"Rithisak #0" = 0
+	"Rithipol #0" = 0
+	"Oudom #0" = 0
+	"Chamreoun #0" = 0
+	"Kravann #0" = 0
+	"Sambath #0" = 0
+	"Noreaksrey #0" = 0
+	"Meaker #0" = 0
+	"Panh #0" = 0
+	"Piseth #0" = 0
+	"Nimith #0" = 0
+	"Davuth #0" = 0
 	
 	"Boupha #0" = -1
 	"Sakngea #0" = -1
@@ -144,7 +209,6 @@ monarch_names = {
 	"Veata #0" = -1
 	"Sophon #0" = -1
 	"Malis #0" = -1
-
 	"Achairya #0" = -1
 	"Neary #0" = -1
 	"Visal #0" = -1
@@ -158,36 +222,65 @@ monarch_names = {
 	"Thom #0" = -1
 	"Putrea #0" = -1
 	"Chanomy #0" = -1
+	"Ang Pen #0" = -1
+	"Ang Peou #0" = -1
+	"Vichara #0" = -1
+	"Devikshatri #0" = -1
+	"Pisey #0" = -1
+	"Sijhata #0" = -1
+	"Inthreatevi #0" = -1
+	"Rattanatevi #0" = -1
+	"Sokhanya #0" = -1
+	"Sovannarith #0" = -1
+	"Sovaneary #0" = -1
 	"Kanleakhana #0" = -1
+	"Bophatevi #0" = -1
+	"Channary #0" = -1
+	"Sokhavimean #0" = -1
+	"Kunthea #0" = -1
+	"Pongsirya #0" = -1
+	"Kethnari #0" = -1
+	"Chanthavy #0" = -1
+	"Samanvoraphong #0" = -1
+	"Champei #0" = -1
+	"Sotheary #0" = -1
 }
 
 leader_names = {
-	Ann Bopha Chak Charny Chea Chhay Chhoub Chim Choeun Chop Dara
-	Daro Em Heang Hout Houy Hoy Huy In Khai Khan Khlot Khoeun Khoun
-	Khun Khuth Lorn Loun Mak Meang Meas Meng Mok Mon Moul Nak Nam
-	Nary Neak Nimol Norodom Noung Nourn Nout Oeun On Or Ou Ouk Pang
-	Pen Phann Phaul Pheng Phon Pichenda Prak Preap Prum Rangsey
-	Rath Rithy Rous Saluk Sam San Samphan Sarith Sary Sem Sen Sim
-	Sin Sivorn Soch Sok Sokal Som Sorm Sun Thith Thong Thy Touch Tum
-	Van Vanneth Vichea Voeum Vuthy Vy
-        Pok Aok Iv Loun Mouy Eam Chhim Pen Ung Yun Jan Mean Touch Kouch
-        Choem Pang Hun Tat Ek Aek Sor Phan Bun Nhek Im Mul Dul Jey Sar Uch
-        Iem Kong Uy Hu Toch Khiev Suy Keo Eav Din Khat Phy Vang Yos Suy
+	Ann Chak Charny Chea Chhay Chhoub Chim Choeun Chop Dara Daran Neav Dom
+	Daro Em Heang Hout Houy Hoy Huy In Khai Khan Khlot Khoeun Khoun Keo Nhim
+	Khun Khuth Lon Loun Mak Meang Meas Meng Mok Mon Moul Nak Nam Yol Khang
+	Nary Neak Nimol Noung Nourn Ngoun Khem Nout Oeun On Or Ou Ouk Pang Tep
+	Pen Phann Phaul Pheng Phon Prak Preap Prum Suy Khem Veng Mu Thong Sbong
+	Rath Aom Rous Sam San Sary Sem Sen Sim Say Ieng Rithy Chhet Tri Ti Nhem
+	Sin Pang Soch Sok Som Sorm Sun Thith Thong Thy Touch Tum Soun Kong Yim Veang
+	Van Voeum Vy Koem Chan Chhan Duong Tath Paen Cheng Yat Kep Vei Un Ken Suon
+	Yun Lim Liv Sar Sath Soen Sieng Uch Khlot Tea Li Khim Yeun Cham Sun Choum
+	Krom Cheam Chean Loeur Eang Has Ros Tuot Phlek Nin Ran Nhiek Pa Pov Siv
+        Pok Aok Iv Loun Mouy Eam Chhim Pen Ung Yun Jan Mean Kouch Lu Pich Huon
+        Choem Pang Hun Tat Ek Aek Sor Phan Bun Nhek Im Mul Dul Jey Sar Uch Doung
+        Iem Kong Uy Hu Toch Khiev Suy Keo Eav Din Khat Phy Vang Yos Son Hok Leap
+	Vongsey Dim Mam Chhom Pisay Chhun Oeur Chath Koeu Va Kith Dien Chau Tou
+	Kim So Kouch Chhour Chbar Chieng Thun Eh Khom Pou Svay Vann Sokun Veth
 }
 
 ship_names = {
-	Angkor "Angkor Thom" "Angkor Wat"
-	Bayon Baphuon Bati "Banteay Srei"
-	"Banteay Kdei" "Banteay Chmar" "Beng Melea"
-	Isanapura
-	"Koh Ker" "Kra Isthmus" "Kompong Svay" "Koh Kor"
-	Mekong "Muang Sing" "Muang Tam"
-	"Neak Pean"
+	Angkor "Raung Damrey" "Banteay Kdei" "Phnom Kulen" "Angkor Thom"
+	Bayon Baphuon Bati "Banteay Srei" Peam Battambang "Moni Mekhala"
+	"Banteay Kdei" "Banteay Chmar" "Beng Melea" "Serei Saophan" "Me Sa"
+	Isanapura Roulos "Ta Phrom" Okeo "Prey Nokor" Virachey "Moat Chruk"
+	"Koh Ker" "Kra Isthmus" "Kompong Svay" "Koh Ker" "Stung Treng"
+	Mekong "Muang Sing" "Muang Tam" "Ream Reachea" "Noreay Reachea"
+	"Neak Pean" "Ponhea Yat" "Outey Reachea" "Angkor Borei" Reamesor
 	Phimai "Preah Ko" "Phnom Bakheng" "Phra Phang Sam Yod" "Phnom Rung"
-	"Phnom Chisor" "Preah Vihear" "Prasat Kamphaeng Yai"
-	"Roy Et"
-	Sikhoraphum "Srah Srang"
-	"Ta Keo" "Ta Prohm" "Tonle Sap"
-	Vyadhapura "Vat Banon" "Vat Nokor" "Vat Phu"
-	Zhenla
+	"Phnom Chisor" "Preah Vihear" "Prasat Kamphaeng Yai" Yukanthor
+	"Roy Et" Chatumouk Laveck Oudong "Koh Kong" Pursat Sisowath
+	Sikhoraphum "Srah Srang"  "Srei Sunthor" "Nang Neak" "Si Votha"
+	"Ta Keo" "Ta Prohm" "Tonle Sap" "Preah Thong" Norodom "Kong Rei"
+	Vyadhapura "Vat Banon" "Vat Nokor" "Vat Phu" "Preah Keo" Vimayapura
+	Zhenla Yasodarapura Vorvong Sorvong "Preah Ko" Puthisen Aninditapura
+}
+
+army_names = {
+	"Kangtoap $PROVINCE$" "Kangtoap Thom" "Kangtoap Reach" "Kangtoap Tchun" "Kangtoap Tbon" "Kangtoap Kaut" "Kangtoap Lek" "Kangtoap Kandal"
 }

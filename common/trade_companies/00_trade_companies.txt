@@ -112,6 +112,8 @@ trade_company_east_india = {
 
 		4957 4958
 		5131
+		5158 5159 5160 5161 5162 5163 5164 5165
+		5167 5168 5169 5170 5171
 	}
 	
 	# Specific
@@ -159,6 +161,8 @@ trade_company_burma = {
 		5126 5127
 		5130
 		5132 5133 5134
+		
+		5172 5173
 
 		#Wastelands
 		4401 4844
@@ -195,6 +199,9 @@ trade_company_coromandel = {
 
 		#NEW CEYLON
 		5099 5100
+		
+		#NEW MALDIVES
+		5154 5155
 	}
 	# Generic
 	names = {
@@ -367,6 +374,7 @@ trade_company_indochina = {
 		5128 5129
 		5135 5136 5137 5138
 		5140
+		5156
 	}
 	
 	# Specific
@@ -1374,6 +1382,9 @@ trade_company_chengdu = {
 		#NEW TIBET
 		5078 5079
 		5091 5092 5093 5094
+		
+		#China Continued
+		5157
 	}
 	
 	# Specific
@@ -1402,6 +1413,7 @@ trade_company_lhasa = {
 		5087 5088 5089 5090
 		5095
 		5098
+		5166
 	}
 	
 	# Specific

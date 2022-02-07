@@ -227,7 +227,7 @@ mnd_siam_3 = {
 	has_country_shield = yes
 
 	mnd_siam_royal_ordination = {
-		icon = mission_buddhist_monk_praying
+		icon = mission_sea_buddha
 		position = 11
 		required_missions = { mnd_siam_mandala }
 		trigger = {

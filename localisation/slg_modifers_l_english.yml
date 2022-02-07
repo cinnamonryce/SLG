@@ -20,6 +20,12 @@
  ayu_wat_phra_si_sanphet:0 "Consecration of Wat Phra Si Sanphet"
  desc_ayu_wat_phra_si_sanphet: "Once the site of our old royal residence, the now holy 'Wat Phra Si Sanphet' serves as a place of worship for all in Siam. All godfearing people shall come to this central location to devote themselves to both the Buddha and our rulers."
  
+ smb_bloodthirst:0 "Bloodthirst"
+ desc_smb_bloodthirst:0 "Our liege Tan Unggal is feared by the public for his consumption of human blood. Any poor soul unfortunate enough to cross paths with the King's secret police could be a victim of his lust for blood."
+ 
+ smb_incestuous_allegations:0 "Incestuous Allegations"
+ desc_smb_incestuous_allegations:0 "Allegations of incest have rocked our liege's very own family. While such allegations are otherwise unproven, the damage done to our dynasty's public perception is nevertheless irreversible."
+ 
  #Macky's Tibetan Overhaul
  gun_samding_dorje_phagmo_pmod: "Samding Dorje Phagmo"
  desc_gun_samding_dorje_phagmo_pmod: "Chokyi Dronma, our heir to the throne, has been awarded a new title, Samding Dorje Phagmo, the third highest-ranking person in Tibetan Buddhism, and the highest female incarnation in Tibet."

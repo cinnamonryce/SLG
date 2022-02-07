@@ -274,6 +274,7 @@ PHA_ideas = {
 		OR = {
 			tag = PHA
 			tag = PWO
+			tag = NGC
 		}
 	}
 	free = yes		#will be added at load.

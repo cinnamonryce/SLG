@@ -6276,15 +6276,22 @@ malay = {
 			Kumbi Solin "Pelis"
 		}
 		male_names = {
-			"Indo Naro" "Bagindo Disambah Rajo" "Raja Kecil Pasaribu" "Sri Maharajo Dirajo" "Tuanku Maharaja Sakti"
-			"Puti Panjang Rambut" "Tuanku Alam Sati" "Rajo Tigo Selo" "Raja Alam" "Raja Adat" "Raja Ibadat"
-			"Raja Sebayak" "Merah Silu" "Raja Sendi" "Raja Kalilong"
+			"Anuar" Ishak Yaakob "Basuki" Indera Bujang Tanggang Luncai Leman "Kuning" Jiwa Sagari Yahya Badruddin Yazid Taufan Tarung Idris Danyal Bachok Ashraf Eka
+			Bagus Najib Osman Sugriwa Arjuna Bima Yudistra Yunus Hafiz Adam Zakaria Yaakob Yeop Daud Ujang Sulong Seman Omar Hitam Haitham Golok Bambang Megat
+			"Sam Agi" Paramesvara "Megat Iskander" Muhammad "Abu Syahid" Muzaffar Mansur Riayat Mahmud "'Abd al-Jalil Shah" Iskandar Sukarna Budiman Omar Waluya
+			Ibrahim "Rahmat Shah" "Sulayman Badr Shah" Bagus Najib Osman Sugriwa Arjuna Bima Yudistra Yunus Hafiz Adam Zakaria Yaakob Yeop Daud Ujang Sulong Seman
+			Mu'azzam "Mahmud Ri'ayat" "Abd ar-Rahman" Qasim Iskandar Mudzaffar Agus Tuah Raja Bestari Gombak Mahavijaya Darus Yusuf Selamat Edi Gesang Wayu Deris
+			Amrih Awan "Wangsa Jaya" Adiputera Malim Jaya Anwar Andika Awang Khamis Vijaya Lekir Perang Wiramuda Aditya Atmaja Yassin Musa Halim Kadir Bagas Adinata
+			Pamungkas Ali "Tun Megat" Kesuma Manjolong Salim Itubungna Sorimangaraja Lokman Zahmid Jaka Yudhayana Desa Perwira Jusoh Puteh Atmajaya Jumadi Jaka
+			Balaputra Mahawangsa Mahapudisat Inderawangsa Suleiman Muhyiddin Abdulhamid Ibrahim Sangkhara Maslan Bahdur Noh Zulkarnain Asri Mohd Nerang Megat "Budi"
 		}
 		female_names = {
-			"Amritpal" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi NuÅfutea Orama Poe Pear Poehina Poenui Poerava Puaiti 
-			Puatea Puaura RaÅfihau RaÅfimere RaÅfinui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
-			Vaite "Vaitiare"
+			"Intan Melati" Ratnasari Kesuma Bunga Aisyah Biru Cahaya Chinta Delima Kuning Meriam Merah Munah Nawar Nur Siti Fatimah Farah Wangi Mahsuri Maya
+			Masayu Mahura Melur Manjalara Mastini Mayang Kaseh Wati Yati Siti Kuntum Amina Elok Anindya Jinawi Handayani Minah Sepiah Safiyya Surintan Zamrud
+			Warna Tijah Tipah Raisya Wangi Pertiwi Kartika Juwita Jenab Zaynab Hapsah Mariam Fajar Esah Embun Nurul Puspa Puspasari Puteh Aulia Annisa Adiputeri
+			Ungu Mawar Izara Dara Dayang Mayang Surintan Kasih Ayu Intanayu Cempaka Taman Kirana Rabihah Rufqa Suleika Tempawan Rani Adibah Anis Nabila Angkasa
+			Suriawati Teratai Nazra Mawiza Joyah Izzati Dinihari Azarnoush Aatiya Arwaa Delima Bulat Embun Hijau Rosmah Kurniati Asih Lestari Gadis Ajeng Endang
+			Permata Indah Asmara Raya Dian Fadilah Amirah Nurul Mahsumah Raziya Merpati Marshanda Budiwati Sana Tawba Badia Badaya Dahlia Haryati Kemuning "Nirmala"
 		}
 	}
 	banjarese = {
@@ -6367,18 +6374,22 @@ malay = {
 			Shuib Dumadi Suwailim Jaleel "bin Raja" Yahaya Embong Luncai "bin Teh" "bin Uda"
 		}
 		male_names = {
-			"Paramesvara" "Sri Maharaja" "Tu Kerub Mahajana" "Raja Singadhiraja" "Raja Sang Tawal" "Lautan"
-			"Suro Tuo" "Suro Mudo" "Adipati" "Angsoko" "Madi Alit"
-			"Puro" "Arya" "Kenayan" "Pasarean" "Rejek" "Abdul Kahar" "Depati Anom" "Agung Abdul Jalil" "Raden Penulis"
-			"Seri Ingologo" "Kiyai Gede" "Istra Ingologo" "Ratu Sri Ingalogo" "Raden Danting" "Panembahan Kotabaru"
-			"Raja Pallongos" "Raja Pangolbuk" "Raja Bakal" "Raja Dewi" "Bahdur" "Anuar" "Ishak" "Yaakob" "Merdeka" "Selamat"
-			"Desa" "Basuki" "Indera" "Bujang" "Tanggang" "Luncai" "Leman" "Kuning" "Jiwa" "Adi Putra" "Sagari"
+			"Anuar" Ishak Yaakob "Basuki" Indera Bujang Tanggang Luncai Leman "Kuning" Jiwa Sagari Yahya Badruddin Yazid Taufan Tarung Idris Danyal Bachok Ashraf Eka
+			Bagus Najib Osman Sugriwa Arjuna Bima Yudistra Yunus Hafiz Adam Zakaria Yaakob Yeop Daud Ujang Sulong Seman Omar Hitam Haitham Golok Bambang Megat
+			"Sam Agi" Paramesvara "Megat Iskander" Muhammad "Abu Syahid" Muzaffar Mansur Riayat Mahmud "'Abd al-Jalil Shah" Iskandar Sukarna Budiman Omar Waluya
+			Ibrahim "Rahmat Shah" "Sulayman Badr Shah" Bagus Najib Osman Sugriwa Arjuna Bima Yudistra Yunus Hafiz Adam Zakaria Yaakob Yeop Daud Ujang Sulong Seman
+			Mu'azzam "Mahmud Ri'ayat" "Abd ar-Rahman" Qasim Iskandar Mudzaffar Agus Tuah Raja Bestari Gombak Mahavijaya Darus Yusuf Selamat Edi Gesang Wayu Deris
+			Amrih Awan "Wangsa Jaya" Adiputera Malim Jaya Anwar Andika Awang Khamis Vijaya Lekir Perang Wiramuda Aditya Atmaja Yassin Musa Halim Kadir Bagas Adinata
+			Pamungkas Ali "Tun Megat" Kesuma Manjolong Salim Itubungna Sorimangaraja Lokman Zahmid Jaka Yudhayana Desa Perwira Jusoh Puteh Atmajaya Jumadi Jaka
+			Balaputra Mahawangsa Mahapudisat Inderawangsa Suleiman Muhyiddin Abdulhamid Ibrahim Sangkhara Maslan Bahdur Noh Zulkarnain Asri Mohd Nerang Megat "Budi"
 		}
 		female_names = {
-			Azura Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu'utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
-			Puatea Puaura Ra'ihau Ra'imere Ra'inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
-			Vaite "Vaitiare"
+			"Intan Melati" Ratnasari Kesuma Bunga Aisyah Biru Cahaya Chinta Delima Kuning Meriam Merah Munah Nawar Nur Siti Fatimah Farah Wangi Mahsuri Maya
+			Masayu Mahura Melur Manjalara Mastini Mayang Kaseh Wati Yati Siti Kuntum Amina Elok Anindya Jinawi Handayani Minah Sepiah Safiyya Surintan Zamrud
+			Warna Tijah Tipah Raisya Wangi Pertiwi Kartika Juwita Jenab Zaynab Hapsah Mariam Fajar Esah Embun Nurul Puspa Puspasari Puteh Aulia Annisa Adiputeri
+			Ungu Mawar Izara Dara Dayang Mayang Surintan Kasih Ayu Intanayu Cempaka Taman Kirana Rabihah Rufqa Suleika Tempawan Rani Adibah Anis Nabila Angkasa
+			Suriawati Teratai Nazra Mawiza Joyah Izzati Dinihari Azarnoush Aatiya Arwaa Delima Bulat Embun Hijau Rosmah Kurniati Asih Lestari Gadis Ajeng Endang
+			Permata Indah Asmara Raya Dian Fadilah Amirah Nurul Mahsumah Raziya Merpati Marshanda Budiwati Sana Tawba Badia Badaya Dahlia Haryati Kemuning "Nirmala"
 		}
 	}
 	malayan = {
@@ -6390,21 +6401,22 @@ malay = {
 			Shuib Dumadi Suwailim Jaleel "bin Raja" Yahaya Embong Luncai "bin Teh" "bin Uda"
 		}
 		male_names = {
-			Anuar Ishak Yaakob "Basuki Indera Bujang Tanggang Luncai Leman "Kuning" Jiwa Sagari Yahya Badruddin Yazid Taufan Tarung Idris Danyal Bachok Ashraf Eka
-			 Bagus Najib Osman Sugriwa Arjuna Bima Yudistra Yunus Hafiz Adam Zakaria Yaakob Yeop Daud Ujang Sulong Seman Omar Hitam Haitham Golok Bambang Megat
-			"Sam Agi" "Paramesvara" "Megat Iskander" Muhammad "Abu Syahid" Muzaffar Mansur Riayat Mahmud "'Abd al-Jalil Shah" "Ma'ayat Shah" Sukarna Budiman Omar
+			"Anuar" Ishak Yaakob "Basuki" Indera Bujang Tanggang Luncai Leman "Kuning" Jiwa Sagari Yahya Badruddin Yazid Taufan Tarung Idris Danyal Bachok Ashraf Eka
+			Bagus Najib Osman Sugriwa Arjuna Bima Yudistra Yunus Hafiz Adam Zakaria Yaakob Yeop Daud Ujang Sulong Seman Omar Hitam Haitham Golok Bambang Megat
+			"Sam Agi" Paramesvara "Megat Iskander" Muhammad "Abu Syahid" Muzaffar Mansur Riayat Mahmud "'Abd al-Jalil Shah" Iskandar Sukarna Budiman Omar Waluya
 			Ibrahim "Rahmat Shah" "Sulayman Badr Shah" Bagus Najib Osman Sugriwa Arjuna Bima Yudistra Yunus Hafiz Adam Zakaria Yaakob Yeop Daud Ujang Sulong Seman
 			Mu'azzam "Mahmud Ri'ayat" "Abd ar-Rahman" Qasim Iskandar Mudzaffar Agus Tuah Raja Bestari Gombak Mahavijaya Darus Yusuf Selamat Edi Gesang Wayu Deris
-			"Lela Utama" "Muda Lela" "Wangsa Jaya" Adiputera Malim Jaya Anwar Andika Awang Khamis Vijaya Lekir Perang Wiramuda Aditya Atmaja Yassin Musa Halim Kadir
-			"Tun Perkasa" "Ali "Tun Hitam" "Tun Megat" "Lela Bangsawan" Manjolong Salim Itubungna Sorimangaraja Lokman Zahmid Jaka Yudhayana Desa Perwira Jusoh Puteh
-			Balaputra Mahawangsa Mahapudisat Inderawangsa Suleiman Muhyiddin "Abdul Hamid" Ibrahim Sangkhara Maslan Bahdur Noh Zulkarnain Asri Mohd Nerang Megat Budi
+			Amrih Awan "Wangsa Jaya" Adiputera Malim Jaya Anwar Andika Awang Khamis Vijaya Lekir Perang Wiramuda Aditya Atmaja Yassin Musa Halim Kadir Bagas Adinata
+			Pamungkas Ali "Tun Megat" Kesuma Manjolong Salim Itubungna Sorimangaraja Lokman Zahmid Jaka Yudhayana Desa Perwira Jusoh Puteh Atmajaya Jumadi Jaka
+			Balaputra Mahawangsa Mahapudisat Inderawangsa Suleiman Muhyiddin Abdulhamid Ibrahim Sangkhara Maslan Bahdur Noh Zulkarnain Asri Mohd Nerang Megat "Budi"
 		}
 		female_names = {
-			 Intan Melati Ratnasari Kesuma Bunga Aisyah Biru Cahaya Chinta Delima Kuning Meriam Merah Munah Nawar Nur Siti Fatimah Farah Wangi Mahsuri Maya
-			 Masayu Mahura Melur Manjalara Mastini Mayang Kaseh Wati Yati Siti Kuntum Amina Elok Anindya Jinawi Handayani Minah Sepiah Safiyya Surintan Zamrud
-			 Warna Tijah Tipah Raisya Wangi Pertiwi Kartika Juwita Jenab Zaynab Hapsah Mariam Fajar Esah Embun Nurul Puspa Puspasari Puteh Aulia Annisa Adiputeri
-		         Ungu Mawar Izara Dara Dayang Mayang Surintan Kasih Ayu Intanayu Cempaka Taman Kirana Rabihah Rufqa Suleika Tempawan Rani Adibah Anis Nabila Angkasa
-			 Permata Indah Asmara Raya Dian Fadilah Amirah Nurul Mahsumah Raziya Merpati Marshanda Budiwati Sana Tawba Badia Badaya Dahlia Haryati Kemuning Nirmala
+			"Intan Melati" Ratnasari Kesuma Bunga Aisyah Biru Cahaya Chinta Delima Kuning Meriam Merah Munah Nawar Nur Siti Fatimah Farah Wangi Mahsuri Maya
+			Masayu Mahura Melur Manjalara Mastini Mayang Kaseh Wati Yati Siti Kuntum Amina Elok Anindya Jinawi Handayani Minah Sepiah Safiyya Surintan Zamrud
+			Warna Tijah Tipah Raisya Wangi Pertiwi Kartika Juwita Jenab Zaynab Hapsah Mariam Fajar Esah Embun Nurul Puspa Puspasari Puteh Aulia Annisa Adiputeri
+			Ungu Mawar Izara Dara Dayang Mayang Surintan Kasih Ayu Intanayu Cempaka Taman Kirana Rabihah Rufqa Suleika Tempawan Rani Adibah Anis Nabila Angkasa
+			Suriawati Teratai Nazra Mawiza Joyah Izzati Dinihari Azarnoush Aatiya Arwaa Delima Bulat Embun Hijau Rosmah Kurniati Asih Lestari Gadis Ajeng Endang
+			Permata Indah Asmara Raya Dian Fadilah Amirah Nurul Mahsumah Raziya Merpati Marshanda Budiwati Sana Tawba Badia Badaya Dahlia Haryati Kemuning "Nirmala"
 		}
 	}
 	sumatran = {
@@ -6429,14 +6441,29 @@ malay = {
 	}
 	moluccan_malay = {
 		primary = TID
+		dynasty_names = { 
+			"Teluban" Jambu Legeh Inderapura Besut "Sori Mangaraja" Amaan Zaidaan Saeed
+			Hatorusan Sisingamangaraja "Raja Paksi" "Raja Pernong" Trienggadeng Woyla "Tanoh Jawa"
+			Bestari Sahl Bestari Benderang Adi Hitam Malim Kaarim Alawi Dhaakir Elias Baba Yunos
+			Shuib Dumadi Suwailim Jaleel "bin Raja" Yahaya Embong Luncai "bin Teh" "bin Uda"
+		}
 		male_names = {
-			"Komala Pulu" "Marhum" "Zainal Abidin" "Bayanullah" "Hidayatullah" "Abu Hayat" "Tabariji" "Khairun Jamil" 
-			"Babullah Datu Shah" "Said Barakat Shah" "Muzaffar Shah" "Hamzah" "Manilha" "Mandar Shah" "Sibori" "Said Fathullah"
-			"Amir Iskandar Zulkarnain Saifuddin" "Ayan Shah" "Syah Mardan" "Jalaluddin" "Harun Shah" 
-			"Achral" "Muhammad Yasin" "Muhammad Ali"
+			"Anuar" Ishak Yaakob "Basuki" Indera Bujang Tanggang Luncai Leman "Kuning" Jiwa Sagari Yahya Badruddin Yazid Taufan Tarung Idris Danyal Bachok Ashraf Eka
+			Bagus Najib Osman Sugriwa Arjuna Bima Yudistra Yunus Hafiz Adam Zakaria Yaakob Yeop Daud Ujang Sulong Seman Omar Hitam Haitham Golok Bambang Megat
+			"Sam Agi" Paramesvara "Megat Iskander" Muhammad "Abu Syahid" Muzaffar Mansur Riayat Mahmud "'Abd al-Jalil Shah" Iskandar Sukarna Budiman Omar Waluya
+			Ibrahim "Rahmat Shah" "Sulayman Badr Shah" Bagus Najib Osman Sugriwa Arjuna Bima Yudistra Yunus Hafiz Adam Zakaria Yaakob Yeop Daud Ujang Sulong Seman
+			Mu'azzam "Mahmud Ri'ayat" "Abd ar-Rahman" Qasim Iskandar Mudzaffar Agus Tuah Raja Bestari Gombak Mahavijaya Darus Yusuf Selamat Edi Gesang Wayu Deris
+			Amrih Awan "Wangsa Jaya" Adiputera Malim Jaya Anwar Andika Awang Khamis Vijaya Lekir Perang Wiramuda Aditya Atmaja Yassin Musa Halim Kadir Bagas Adinata
+			Pamungkas Ali "Tun Megat" Kesuma Manjolong Salim Itubungna Sorimangaraja Lokman Zahmid Jaka Yudhayana Desa Perwira Jusoh Puteh Atmajaya Jumadi Jaka
+			Balaputra Mahawangsa Mahapudisat Inderawangsa Suleiman Muhyiddin Abdulhamid Ibrahim Sangkhara Maslan Bahdur Noh Zulkarnain Asri Mohd Nerang Megat "Budi"
 		}
 		female_names = {
-			Cinta Wangi Tani Ema Nanise Rosi Salanieta Tanna
+			"Intan Melati" Ratnasari Kesuma Bunga Aisyah Biru Cahaya Chinta Delima Kuning Meriam Merah Munah Nawar Nur Siti Fatimah Farah Wangi Mahsuri Maya
+			Masayu Mahura Melur Manjalara Mastini Mayang Kaseh Wati Yati Siti Kuntum Amina Elok Anindya Jinawi Handayani Minah Sepiah Safiyya Surintan Zamrud
+			Warna Tijah Tipah Raisya Wangi Pertiwi Kartika Juwita Jenab Zaynab Hapsah Mariam Fajar Esah Embun Nurul Puspa Puspasari Puteh Aulia Annisa Adiputeri
+			Ungu Mawar Izara Dara Dayang Mayang Surintan Kasih Ayu Intanayu Cempaka Taman Kirana Rabihah Rufqa Suleika Tempawan Rani Adibah Anis Nabila Angkasa
+			Suriawati Teratai Nazra Mawiza Joyah Izzati Dinihari Azarnoush Aatiya Arwaa Delima Bulat Embun Hijau Rosmah Kurniati Asih Lestari Gadis Ajeng Endang
+			Permata Indah Asmara Raya Dian Fadilah Amirah Nurul Mahsumah Raziya Merpati Marshanda Budiwati Sana Tawba Badia Badaya Dahlia Haryati Kemuning "Nirmala"
 		}
 	}
 	bruneian = {
@@ -6448,18 +6475,22 @@ malay = {
 			Shuib Dumadi Suwailim Jaleel "bin Raja" Yahaya Embong Luncai "bin Teh" "bin Uda"
 		}
 		male_names = {
-			"Sam Agi" "Megat Iskander" "Muhammad Shah" "Abu Syahid" "Muzaffar Shah" "Mansur Shah" "Riayat Shah" "Mahmud Shah" "'Abd al-Jalil Shah" "Ma'ayat Shah" "Ibrahim Shah" "Rahmat Shah" "Sulayman Badr Shah" 
-			"Mu'azzam Shah" "Mahmud Ri'ayat Shah" "'Abd ar-Rahman Shah" "Rajah Qasim" "Maharaja Indera" "Maharaja Pura" "Maharaja Laka"
-			"Maharaja Sysya" "Maharaja Jaya" "Maharaja Dinda" "Lela Utama" "Maharaja Dinda" "Maharaja Muda Lela" "Maharaja Wangsa Jaya" "Tun Perkasa"
-			"Raja Muda Tun Perkasa" "Raja Ali" "Tun Hitam" "Tun Megat" "Lela Bangsawan" "Raja Manjolong" "Ompu Raja" "Raja Itubungna" "Tuan Sorimangaraja"
-			"Raja Pallongos" "Raja Pangolbuk" "Raja Bakal" "Raja Dewi" "Bahdur"
-			"Anuar" "Ishak" "Yaakob" "Merdeka" "Selamat" "Desa" "Basuki" "Indera" "Bujang" "Tanggang" "Luncai" "Leman" "Kuning" "Jiwa" "Adi Putra" "Sagari"
+			"Anuar" Ishak Yaakob "Basuki" Indera Bujang Tanggang Luncai Leman "Kuning" Jiwa Sagari Yahya Badruddin Yazid Taufan Tarung Idris Danyal Bachok Ashraf Eka
+			Bagus Najib Osman Sugriwa Arjuna Bima Yudistra Yunus Hafiz Adam Zakaria Yaakob Yeop Daud Ujang Sulong Seman Omar Hitam Haitham Golok Bambang Megat
+			"Sam Agi" Paramesvara "Megat Iskander" Muhammad "Abu Syahid" Muzaffar Mansur Riayat Mahmud "'Abd al-Jalil Shah" Iskandar Sukarna Budiman Omar Waluya
+			Ibrahim "Rahmat Shah" "Sulayman Badr Shah" Bagus Najib Osman Sugriwa Arjuna Bima Yudistra Yunus Hafiz Adam Zakaria Yaakob Yeop Daud Ujang Sulong Seman
+			Mu'azzam "Mahmud Ri'ayat" "Abd ar-Rahman" Qasim Iskandar Mudzaffar Agus Tuah Raja Bestari Gombak Mahavijaya Darus Yusuf Selamat Edi Gesang Wayu Deris
+			Amrih Awan "Wangsa Jaya" Adiputera Malim Jaya Anwar Andika Awang Khamis Vijaya Lekir Perang Wiramuda Aditya Atmaja Yassin Musa Halim Kadir Bagas Adinata
+			Pamungkas Ali "Tun Megat" Kesuma Manjolong Salim Itubungna Sorimangaraja Lokman Zahmid Jaka Yudhayana Desa Perwira Jusoh Puteh Atmajaya Jumadi Jaka
+			Balaputra Mahawangsa Mahapudisat Inderawangsa Suleiman Muhyiddin Abdulhamid Ibrahim Sangkhara Maslan Bahdur Noh Zulkarnain Asri Mohd Nerang Megat "Budi"
 		}
 		female_names = {
-			"Azura" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi NuÅfutea Orama Poe Pear Poehina Poenui Poerava "Puaiti" 
-			Puatea Puaura RaÅfihau RaÅfimere RaÅfinui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
-			"Vaite" Vaitiare "Ratu Biru" "Ratu Ungu" "Rati Kuning" "Ratu Hijau"
+			"Intan Melati" Ratnasari Kesuma Bunga Aisyah Biru Cahaya Chinta Delima Kuning Meriam Merah Munah Nawar Nur Siti Fatimah Farah Wangi Mahsuri Maya
+			Masayu Mahura Melur Manjalara Mastini Mayang Kaseh Wati Yati Siti Kuntum Amina Elok Anindya Jinawi Handayani Minah Sepiah Safiyya Surintan Zamrud
+			Warna Tijah Tipah Raisya Wangi Pertiwi Kartika Juwita Jenab Zaynab Hapsah Mariam Fajar Esah Embun Nurul Puspa Puspasari Puteh Aulia Annisa Adiputeri
+			Ungu Mawar Izara Dara Dayang Mayang Surintan Kasih Ayu Intanayu Cempaka Taman Kirana Rabihah Rufqa Suleika Tempawan Rani Adibah Anis Nabila Angkasa
+			Suriawati Teratai Nazra Mawiza Joyah Izzati Dinihari Azarnoush Aatiya Arwaa Delima Bulat Embun Hijau Rosmah Kurniati Asih Lestari Gadis Ajeng Endang
+			Permata Indah Asmara Raya Dian Fadilah Amirah Nurul Mahsumah Raziya Merpati Marshanda Budiwati Sana Tawba Badia Badaya Dahlia Haryati Kemuning "Nirmala"
 		}
 	}
 	rejang = { #Rejang + Lampung
@@ -6494,18 +6525,22 @@ malay = {
 			Shuib Dumadi Suwailim Jaleel "bin Raja" Yahaya Embong Luncai "bin Teh" "bin Uda"
 		}
 		male_names = {
-			"Sam Agi" "Megat Iskander" "Muhammad Shah" "Abu Syahid" "Muzaffar Shah" "Mansur Shah" "Riayat Shah" "Mahmud Shah" "'Abd al-Jalil Shah" "Ma'ayat Shah" "Ibrahim Shah" "Rahmat Shah" "Sulayman Badr Shah" 
-			"Mu'azzam Shah" "Mahmud Ri'ayat Shah" "'Abd ar-Rahman Shah" "Rajah Qasim" "Maharaja Indera" "Maharaja Pura" "Maharaja Laka"
-			"Maharaja Sysya" "Maharaja Jaya" "Maharaja Dinda" "Lela Utama" "Maharaja Dinda" "Maharaja Muda Lela" "Maharaja Wangsa Jaya" "Tun Perkasa"
-			"Raja Muda Tun Perkasa" "Raja Ali" "Tun Hitam" "Tun Megat" "Lela Bangsawan" "Raja Manjolong" "Ompu Raja" "Raja Itubungna" "Tuan Sorimangaraja"
-			"Raja Pallongos" "Raja Pangolbuk" "Raja Bakal" "Raja Dewi" "Bahdur"
-			"Anuar" "Ishak" "Yaakob" "Merdeka" "Selamat" "Desa" "Basuki" "Indera" "Bujang" "Tanggang" "Luncai" "Leman" "Kuning" "Jiwa" "Adi Putra" "Sagari"
+			"Anuar" Ishak Yaakob "Basuki" Indera Bujang Tanggang Luncai Leman "Kuning" Jiwa Sagari Yahya Badruddin Yazid Taufan Tarung Idris Danyal Bachok Ashraf Eka
+			Bagus Najib Osman Sugriwa Arjuna Bima Yudistra Yunus Hafiz Adam Zakaria Yaakob Yeop Daud Ujang Sulong Seman Omar Hitam Haitham Golok Bambang Megat
+			"Sam Agi" Paramesvara "Megat Iskander" Muhammad "Abu Syahid" Muzaffar Mansur Riayat Mahmud "'Abd al-Jalil Shah" Iskandar Sukarna Budiman Omar Waluya
+			Ibrahim "Rahmat Shah" "Sulayman Badr Shah" Bagus Najib Osman Sugriwa Arjuna Bima Yudistra Yunus Hafiz Adam Zakaria Yaakob Yeop Daud Ujang Sulong Seman
+			Mu'azzam "Mahmud Ri'ayat" "Abd ar-Rahman" Qasim Iskandar Mudzaffar Agus Tuah Raja Bestari Gombak Mahavijaya Darus Yusuf Selamat Edi Gesang Wayu Deris
+			Amrih Awan "Wangsa Jaya" Adiputera Malim Jaya Anwar Andika Awang Khamis Vijaya Lekir Perang Wiramuda Aditya Atmaja Yassin Musa Halim Kadir Bagas Adinata
+			Pamungkas Ali "Tun Megat" Kesuma Manjolong Salim Itubungna Sorimangaraja Lokman Zahmid Jaka Yudhayana Desa Perwira Jusoh Puteh Atmajaya Jumadi Jaka
+			Balaputra Mahawangsa Mahapudisat Inderawangsa Suleiman Muhyiddin Abdulhamid Ibrahim Sangkhara Maslan Bahdur Noh Zulkarnain Asri Mohd Nerang Megat "Budi"
 		}
 		female_names = {
-			"Azura" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi NuÅfutea Orama Poe Pear Poehina Poenui Poerava "Puaiti" 
-			Puatea Puaura RaÅfihau RaÅfimere RaÅfinui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
-			"Vaite" Vaitiare "Ratu Biru" "Ratu Ungu" "Rati Kuning" "Ratu Hijau"
+			"Intan Melati" Ratnasari Kesuma Bunga Aisyah Biru Cahaya Chinta Delima Kuning Meriam Merah Munah Nawar Nur Siti Fatimah Farah Wangi Mahsuri Maya
+			Masayu Mahura Melur Manjalara Mastini Mayang Kaseh Wati Yati Siti Kuntum Amina Elok Anindya Jinawi Handayani Minah Sepiah Safiyya Surintan Zamrud
+			Warna Tijah Tipah Raisya Wangi Pertiwi Kartika Juwita Jenab Zaynab Hapsah Mariam Fajar Esah Embun Nurul Puspa Puspasari Puteh Aulia Annisa Adiputeri
+			Ungu Mawar Izara Dara Dayang Mayang Surintan Kasih Ayu Intanayu Cempaka Taman Kirana Rabihah Rufqa Suleika Tempawan Rani Adibah Anis Nabila Angkasa
+			Suriawati Teratai Nazra Mawiza Joyah Izzati Dinihari Azarnoush Aatiya Arwaa Delima Bulat Embun Hijau Rosmah Kurniati Asih Lestari Gadis Ajeng Endang
+			Permata Indah Asmara Raya Dian Fadilah Amirah Nurul Mahsumah Raziya Merpati Marshanda Budiwati Sana Tawba Badia Badaya Dahlia Haryati Kemuning "Nirmala"
 		}
 	}
 	bornean = {
@@ -6582,12 +6617,12 @@ thai_group = {
 	lao = {
 		primary = LUA
 		dynasty_names = { 
-			"Abhay" Baravon Bouphavong Champassak Chounlamany Chounramany
-			Insisiengmay Sikhottabong Kommadam Luangviset Nosavan Pathammavong
-			Phetrasy Phimmasone Phomvihan Phouma Phoumsovan Rattanasamay Saenthipnabua
-			Sananikoe Sasorit Soukbandit Souksomboun Sounthone Thammavongsa
-			Vathanatham Vatthana Vichit Vongkhamkeaw Vongprachan Vongsak Souvanpangkham
-			Vongvichit Vongsawat Voravong Savang Lusai Chakkaphat "Khun Lo" "Sing"
+			"Abhay" Baravon Bouphavong Champassak Chounlamany Chounramany Souvanphangkham Oubone Khoukhan
+			Insisiengmay Sikhottabong Kommadam Luangviset Nosavan Pathammavong Keomonkhon Souvannaphoum
+			Phetrasy Phimmasone Phomvihan Phouma Phoumsovan Rattanasamay Saenthipnabua "Si Khotthabong"
+			Sananikoe Sasorit Soukbandit Souksomboun Sounthone Thammavongsa "Xieng Thong" Nongkhai
+			Vongkhamkeaw Vongprachan Vongsak Souvanpangkham Sattanakhanahut "Xieng Hung" Xaiyaphoum
+			Vongvichit Vongsawat Voravong Savang Lusai "Si Chakkaphat" "Khun Lo" Rattanavongsa
 		}
 		male_names = {
 			Lek Bounchan Bounleua Kaisone Phin Kamsone Southat Charan Bounrod Bounmy Thongkham
@@ -6615,61 +6650,23 @@ thai_group = {
 		primary = LNA
 		dynasty_names = { 
 			"Chet Ton" Thipchak Mangrai Khelang Fang Ngoenyang Phayao "Hariphunchai" Singhawong "Si Nakhon" "Si Mueang" Lawawong Wiangkham
-			Akradet Ariyanuntaka Thaen Wilapana Liyao Kantawong "Sunthon Songkhram" Chan Siriwarunyu Devawongse Theppawong Wiangprueksa
-			Daparansi Kaothai Yaoyun Sakdathon Chamrun Wongsawa Supasawat Sutabun Banruerit "Si Santi" Panthep Lilaphun Singhanawati Yonokarat
-			Hitapot Inchareon Sisongkhram "Singhanat" Siwaraksa Supachai Supasawat Netrayon "Phirenthep" Phuka Khemmarat Hokam Tinmahawong
+			Siriwarunyu Theppawong Wiangprueksa Chueangbut "Chiang Saen" Chaiyaprakan Sirichai "Chiang Chuen" Nanthawong Lavachakkrarat
+			Singhanawat Yonokarat Sisongkhram Singhanat Phuka Khemmarat Hokam Tinmahawong Saenwi Wiangpingkha Hiranawong Woranakhon
+			Wiangpho Luangphon Rattanawongsa Saensiriphan Wongburi Mahayotpanya Silolot Uttrapong "Chiang Khaeng" "Chiang Rung" Nanthaburi
 		}
 		male_names = {
-		       Damrong Thammachot Winai Naret Dit Sing Phin Sompong Charoen Praphon Suthat Montri Santi             
-			Chuang Narisara Dhani Somchai Prasoet Pinklao Bunrod Charan Aran Chatchat Bunchob Uthai
-			Bunma Yingyot Bunchan Thap Thongdi Pan Lek Chai Athit Sawat Kittipong Anothai Mongkol
-			Bunkwang Yodfa Tong Siriwongse Paribatra Borom Chap Chaichana Chalerm Kraisorn Danai
-			Bunsom Nattakan Nirawit Sakda Anantha Pricha Suriya Pridi Siwarak Suthon Bundet Piyawhat
-			Natthanan Kittipong Kriangsak Khattiya Phirat Theera Bunlue Phot Kittisak Sunthorn Panya
-			Krit Nawa Tidet Anon Nutalaya Pawaret Prem Bunchai Wasin Sawang Direk Pramoj Sarut Rangsan
-			Kathawut Suphawit Prawet Tharit "Ruang Rit" Phuri Bunmi Sornram Atsada Kosipong Wichai
-			Unakan Thirit Phisan Nakaret Kon Kanisom Phraitun Somkiat Surapong Siang Sakharin Saman
-			Thaksin Arun Chakan Watchara Kiat Nirin Thian Poramet Bunlert Direk Natthanon Sarit Chatchai
-			Phiren Siworawong Ram Sombat Somboon Aphisit Sompong Prayoon Narong Chui Thongkham Sorn Thong-ek
-			Sakchai Somchai Anon Thawit Sila Phubet Supriya Ekkaphob Mawin Wanchai Thawan Sanguan Bunrueang
-		}
-		female_names = {
-		   Amphon Chanarong Suriyothai Panchapapi Komon Sudaratsami Darawadi Chamchuri Dutdao
-		   Nui Yai Wong Pheng Sueang Batboricha Sumali Anocha Soiphet Phimpha Siripracha Sunisa
-	           Lamang Sangwan Sutchatri Bupha Samliwan Yotkhamthip Soifa Ratsami Nathathewi Soiphet
-         	   Phiphitmontri Lawan Wisutkasat Boromdilok Soikham Chanthrathewi Suriyathewi Kamala Kannika
-         	   Thepkasati Bumawadi Sudawadi Sisuphan Maoli Mali Soifa Latda Lawan Naruemon Wanida Ratri
-         	   Wimonphat Amarindra Suriyendra Soidao Sumitra Lakkhana Kunthon Ratana Suranari Rampha Inthira
-		   Duangkamon Latda Thanomwang Darathewi Ittiporn Kamala Lamai Maliwan Phaibun Pailin Inthasudawadi
-		   Praphansuriyawong Buakaew Srichanthathewi Kalayani Phinthawadi Prachawadi Praphawadi Inthasuchathewi
-		   Charaya Anchali Apsara Kanokwan Bunsi Naphaporn Jinthana Jintara Mani Narisa Pikul Somruedi Aphinya
-		   Chalida Chaniporn Dueanphen Fungfa Nari Manora Nattha Pornphan Supawadi Kanya Saengdao Dusadi Hathai
-		   Kannika Somsri Somying Ratha Araya Rani Pachi Puangkaew Duangduean Duangjai Ploi Lalita Wani Achara
-		   Chariya Chailai Prida Amara Kultida Nim Rada Sairung Tanaporn Ruethai Yupin Nittaya Jutamas Prani
-		}
-	}
-	central_thai = {
-		primary = AYU
-		dynasty_names = { 
-			"Si Sawan" Lavapura Songkhwae Sawang Watthana Chakkraphat "Si Phrabang" Chaipatana Chakrabonsi Chuasiriporn Singhanawati Dvaravati
-			Akradet Ariyanuntaka Thaen Wilapana Liyao Kantawong Chakri "Sunthon Songkhram" Chan Siriwarunyu Sriwangsa Hiranawong Khorakarat
-			Daparansi Kaothai Yaoyun Sakdathon Chamrun Wongsawat Supasawat Sutabun Banruerit "Si Santi" Panthep Lilaphun Tamphonling Manowong 
-			Hitapot "Prasat Thong" Inchareon Sisongkhram "Singhanat" Siwaraksa Supachai Supasawat Netrayon "Phirenthep" Suwannawong Phuka
-			Suphannaphum Uthong Sukhothai "Phra Ruang" "Prasat Thong" "Si Thammasokarat" "Si Naonamtum" Theppawong Manorawong Phimayarat
-		}
-		male_names = {
-			Damrong Thammachot Winai Naret Dit Sing Phin Sompong Charoen Praphon Suthat Montri Santi               
-			Chuang Narisara Dani Somchai Prasoet Pinklao Bunrod Charan Aran Chatchat Bunchob Thong-ek
-			Bunma Yingyot Bunchan Thap Thongdi Pan Lek Chai Athit Sawat Kittipong Anothai Mongkol Uthai
-			Bunkwang Yotfa Tong Siriwongse Paribat Borom Chap Chaichana Chalerm Kraisorn Pramoj Rangsan
-			Bunsom Nattakan Nirawit Sakda Anantha Pricha Suriya Pridi Siwarak Suthon Bundet Danai
-			Natthanan Karom Kriangsak Khattiya Phirat Theera Bunlue Phot Kittisak Sunthon Chatchai
-			Krit Nawa Kittipong Tidet Anon Nutalaya Pawaret Prem Bunchai Wasin Sawang Siang Piyawat
-			Kathawut Suphawit Prawet Tharit "Ruang Rit" Phuri Bunmi Sonram Atsada Kosipong Wichai Chalit
-			Unakan Thirit Phisan Nakaret Kon Kanisom Phraitun Somkiat Surapong Direk Sakharin Sarut
-			Thaksin Arun Chakan Tao Kiat Nirin Thian Poramet Bunloet Direk Natthanon Sarit Panya Saman
-			Phiren Siworawong Ram Sombat Sombun Aphisit Sompong Prayoon Narong Chui Thongkham Thongyu Sorn
-			Sakchai Somchai Anon Thawit Sila Phubet Supriya Ekkaphob Mawin Wanchai Thawan Sanguan Bunrueang
+		   Damrong Thammachot Winai Naret Dit Sing Phin Sompong Charoen Praphon Suthat Montri Santi               
+		   Chuang Narisara Dani Somchai Prasoet Pinklao Bunrod Charan Aran Chatchat Bunchop "Thong Ek"
+		   Bunma Yingyot Bunchan Thap Thongdi Pan Lek Chai Athit Sawat Kitthiphong Anothai Mongkol Uthai
+		   "Bun Kwang" Yotfa Tong Siriwong Paribat Borom Chap Chaichana Chaloem Kraisorn Pramot Rangsan
+		   Bunsom Nattakan Nirawit Sakda Anantha Pricha Suriya Pridi Siwarak Suthon Bundet Danai Tianchai
+		   Karom Kriangsak Khattiya Phirat Theera Bunlue Phot Kittisak Sunthorn Chatchai Natthawut Anuman
+		   Krit Nawa Kittipong Tidet Anon Nutalaya Pawaret Prem Bunchai Wasin Sawang Siang Piyawat Anurak
+		   Kathawut Suphawit Prawet Tharit "Ruang Rit" Phuri Bunmi Sonram Atsada Kosipong Wichai Chalit
+		   Unakan Thirit Phisan Nakaret Kon Kanisom Phraitun Somkiat Surapong Direk Sakharin Sarut Sanya
+		   Thaksin Arun Chakan Tao Kiat Nirin Thian Poramet Bunloet Direk Natthanon Sarit Panya Saman
+		   Phiren Siworawong Ram Sombat Sombun Aphisit Sompong Prayoon Narong Chui Thongkham Thongyu Son
+		   Sakchai Somchai Anon Thawit Sila Phubet Supriya Ekkaphop Mawin Wanchai Thawan Sanguan "Bun Rueang"
 		}
 		female_names = {
 			Amphon Chanarong Suriyothai Panchapapi Komon Naruemon Chawisa Chanthawadi Rutchathewi Inthira
@@ -6681,9 +6678,49 @@ thai_group = {
 			Duangkamon Latda Thanomwang Darathewi Ittiporn Kamala Lamai Maliwan Phaibun Pailin Sudaratsami Sunisa
 			Praphansuriyawong Buakaew Srichanthathewi Kalayani Phinthawadi Prachawadi Praphawadi Inthasuchathewi
 			Charaya Anchali Apsara Kanokwan Bunsi Naphaporn Jinthana Jintara Mani Narisa Pikul Somruedi Aphinya
-			Chalida Chaniporn Dueanphen Fungfa Nari Manora Nattha Pornphan Supawadi Kanya Saengdao Dusadi Hathai
+			Chalida Chaniphon Dueanphen Fungfa Nari Manora Nattha Pornphan Supawadi Kanya Saengdao Dusadi Hathai
 			Kannika Somsri Somying Ratha Araya Rani Pachi Puangkaew Duangduean Duangjai Ploi Lalita Wani Achara
-			Chariya Chailai Prida Amara Kultida Nim Rada Sairung Tanaporn Ruethai Yupin Nittaya Jutamas Prani
+			Chariya Chailai Prida Amara Kultida Nim Rada Sairung Thanaphon Ruethai Yupin Nittaya Jutamas Prani
+		}
+	}
+	central_thai = {
+		primary = AYU
+		dynasty_names = { 
+		   "Si Sawan" Lavapura Songkhwae "Sawang Watthana" "Si Phrabang" Chakrapong Singhanawati Dvaravati "Phrip Phri" Banchang
+		   Kantawong Chakri Sunthonsongkhram Sriwangsa Hiranawong Khorakarat Mahawangsa Sawankhalok Sawangburi Uthong Changkrarao
+		   Tamphonling Manowong Chanthabun Okhaburi Chaiyawong Ramabut Narayawong Sivawong Thonburi Wichianburi "Ban Phlu Luang"
+		   "Prasat Thong" Sisongkhram Singhanat Phirenthep Suwannawong Phuka Pathammawong Singhanakhon Singhanawat Sawankhalok Sirichai
+		   Suphannaphum Uthong Sukhothai "Phra Ruang" "Si Thammasokarat" "Si Naonamtum" Theppawong Manorawong Phimayarat Singhabun Silanon
+		   Thalang Sunthonnothai Surasongkhram Surathewa Mahachai Prachinburi "Chiang Saen" Inthrabut Rattanasiri Makhawong Kabinburi
+		   Sankhaburi "Nakhon Chaisi" Nangrong Phuttaisong Semawong Phichaiwong Waiwongsa Itsrasena Noppawong Aphaiyakun Yanphichian
+		}
+		male_names = {
+		   Damrong Thammachot Winai Naret Dit Sing Phin Sompong Charoen Praphon Suthat Montri Santi               
+		   Chuang Narisara Dani Somchai Prasoet Pinklao Bunrod Charan Aran Chatchat Bunchop "Thong Ek"
+		   Bunma Yingyot Bunchan Thap Thongdi Pan Lek Chai Athit Sawat Kitthiphong Anothai Mongkol Uthai
+		   "Bun Kwang" Yotfa Tong Siriwong Paribat Borom Chap Chaichana Chaloem Kraisorn Pramot Rangsan
+		   Bunsom Nattakan Nirawit Sakda Anantha Pricha Suriya Pridi Siwarak Suthon Bundet Danai Tianchai
+		   Karom Kriangsak Khattiya Phirat Theera Bunlue Phot Kittisak Sunthorn Chatchai Natthawut Anuman
+		   Krit Nawa Kittipong Tidet Anon Nutalaya Pawaret Prem Bunchai Wasin Sawang Siang Piyawat Anurak
+		   Kathawut Suphawit Prawet Tharit "Ruang Rit" Phuri Bunmi Sonram Atsada Kosipong Wichai Chalit
+		   Unakan Thirit Phisan Nakaret Kon Kanisom Phraitun Somkiat Surapong Direk Sakharin Sarut Sanya
+		   Thaksin Arun Chakan Tao Kiat Nirin Thian Poramet Bunloet Direk Natthanon Sarit Panya Saman
+		   Phiren Siworawong Ram Sombat Sombun Aphisit Sompong Prayoon Narong Chui Thongkham Thongyu Son
+		   Sakchai Somchai Anon Thawit Sila Phubet Supriya Ekkaphop Mawin Wanchai Thawan Sanguan "Bun Rueang"
+		}
+		female_names = {
+			Amphon Chanarong Suriyothai Panchapapi Komon Naruemon Chawisa Chanthawadi Rutchathewi Inthira
+			Nui Yai Prathum Sueang Batboricha Sumali Thaptim Ratsami Suphankalaya Dokmaduea Darawadi Dutdao
+			Lamang Sangwan Sutchatri Bupha Samliwan Somying Butsaba Chamchuri Sombunkhong Soiphet Nathathewi
+			Phiphitmontri Lawan Wisutkasat Boromdilok Kusawadi Sumitra Lakkhana Kunthon Ratana Phimpha Rampha
+			Thepkasati Bumawadi Sudawadi Sisuphan Maoli Sirithida Chanthathewi Suriyathewi Suranari Inthasudawadi
+			Wimonphat Amarindra Suriyendra Soidao Soifa Mali Chitawadi Sisudalak Inthasudawadi Anocha Wanida Ratri
+			Duangkamon Latda Thanomwang Darathewi Ittiporn Kamala Lamai Maliwan Phaibun Pailin Sudaratsami Sunisa
+			Praphansuriyawong Buakaew Srichanthathewi Kalayani Phinthawadi Prachawadi Praphawadi Inthasuchathewi
+			Charaya Anchali Apsara Kanokwan Bunsi Naphaporn Jinthana Jintara Mani Narisa Pikul Somruedi Aphinya
+			Chalida Chaniphon Dueanphen Fungfa Nari Manora Nattha Pornphan Supawadi Kanya Saengdao Dusadi Hathai
+			Kannika Somsri Somying Ratha Araya Rani Pachi Puangkaew Duangduean Duangjai Ploi Lalita Wani Achara
+			Chariya Chailai Prida Amara Kultida Nim Rada Sairung Thanaphon Ruethai Yupin Nittaya Jutamas Prani
 		}
 	}
 	shan = {
@@ -6701,7 +6738,26 @@ thai_group = {
 		female_names = {
 			"Nang Han Lung" "Hearn Hkam" "Sao Hkin Htaung" "Hnan Hsi Wan" "Dara" "Mya" "Chiraprapha" "Wisutthithewi" "Yasuntarathewi"
 		}
-	}	
+	}
+	ahom = {
+		primary = ASS
+		dynasty_names = { 
+			Bailung Bakata Baruah Borgohain Borkola Borpatrogohain Borphukan Buragohain
+			Chandra Charaideo Das Deka Deodhai Duara Garhgaon Jorhat Kalita Lahan Handique
+			Mahanta Mohan Narayan Narayanpur Prithu Rangpur Roy Siring
+		}
+		male_names = {
+				Sudangphaa Sudingphaa Suhemphaa Suhenphaa Suhitpangphaa Suhungmung
+				Suhungphaa Sujangphaa Sukaphaa Sukhangpaa Suklenmung Siphakphaa
+				Sudoiphaa Supimphaa Supungmung Susenphaa Sutamla Sutemphaa Sunenphaa
+				Sunyatphaa Sunyeophaa Suremphaa
+				Bhugeswari Brajnatha Dekerua Dinanth Gobar
+				Jagananth Maheswari Suhung Tuloni
+		}
+		female_names = {
+			Daivaki Kunja Kunti Kuranganayani Mangaldahi "Sati Joymati" Swarna
+		}
+	}
 	dynasty_names = {
 		"Mangrai" "Chaochetton" "Phra Ruang" "Champassak"
 	}
@@ -6714,10 +6770,9 @@ southeastasian_group = {
 	khmer = {
 		primary = KHM
 		dynasty_names = {
-			"Khun" Khuth Lorn Loun Mak Meang Meas Meng Mok Mon Moul Nak Nam Vichea Voeum Vuthy
-			Nary Neak Nimol Norodom Noung Nourn Nout Oeun On Or Ou Ouk Pang San Samphan
-			Pen Phann Phaul Pheng Phon Pichenda Prak Preap Prum Rath Rithy Rous Saluk Sam
-			Sarith Sary Sem Sen Sim Sin Sivorn Soch Sok Sokal Som Sorm Sun Thith Thong "Vanneth"
+			Lavapura Longvek "Oudong Meanchey" Chaktomuk "Srei Sunthor" Dangkao Kandal Kampot Pursat Amarendrapura "Phnom Rung"
+			Norodom Mahidharapura Vimayapura Khemaravongsa "Si Votha" Sisovath Battambang Varman "Trosok Peam" Takeo "Prey Nokor"
+			Funan Chenla "Khu Bua" Nagavangsa Kaudinyavangsa Thommanon Hariharalaya
 		}
 		male_names = {
 			"Barom Reachea" "Noreay Ramathipatei" "Soriyotei" "Thommo Reachea" "Srey Sukonthor" "Ang Chan" "Reachea Ramathipatei"
@@ -6834,16 +6889,16 @@ nusantaran = {
 	graphical_culture = southeastasiangfx
 	second_graphical_culture = indiangfx
 
-#From the CK mod Majapahit ModJam and Raja of Indochina
+#Names are mostly from namelist in CK3 mod name Majapahit ModJam and Raja of Indochina
 	javanese = {
 		primary = MTR
 		dynasty_names = {
-			"Rajasa" "Sanjaya" "Sailendra" "Arbi" "Baderan" "Guret" "Medang" "Madura"
-			"Yogya" "Sura" "Kartasura" Nanggroe Panembahan Sastrowardoyo
+			"Mataram" "Rajasa" "Sanjaya" "Sailendra" "Arbi" "Baderan" "Guret" "Medang" "Madura"
+			"Majapahit" "Yogya" "Sura" "Kartasura" Nanggroe Panembahan Sastrowardoyo
 			"Kiaidemak" "Suratinoyo" "Wonopati" Mangkubuni Isyana Galuh Salakanagara
 			"Dasai" "Pawironadi" "Jawa" "Dewi" "Wijaya" Singhasari Kalingga Hardjo
 			"Riyanto" "Setiawan" "Pajang" "Damar" Tarumanagara Suratinoyo Murtono
-			"Pakubuwono" "Hamengkubuwono" Kromowidjojo Somohardjo Setiawan Hartono
+			"Pakubuwono" "Hamengkubuwono"  Kromowidjojo Somohardjo Setiawan Hartono
 		}
 		male_names = {
 			"Girindrawardhana" "Girishawardhana" "Kertabumi" "Kertawijaya" "Rajasawardhana" "Suraprabhawa" 
@@ -6860,7 +6915,7 @@ nusantaran = {
 			Bimo Budianto Budiarto Budiharto Buwono Cahyono Condro Danang Darmo Darsono Didik Dimas Djoko Dumadi Edhi Edhie Edhy Edi Edie Edy Erlangga Galih Galuh Handayani Harjo Harto Hartono 
 			Haryo Haryono Hendro Jaka Joko Kirono Kresno Krisno Krisnobroto Kusno Kusumo Laksono Lesmana Lintang Mego Mulyono Nanang Nirwanto Nugroho Pamungkas Pangestu Pawiro Prabowo Prasetyo 
 			Prawiro Prayitno Prijono Priono Priyanto Priyo Priyono Pujiono Purnomo Putro Raditya Rahayu Rangga Ranu Ratno Respati Riyanto Santoso Satrio Satriono Sigit Subekti Aryo Aryono
-			Subroto Sucipto Sudarman Sudarmo Sudarsono Sudarto Sugeng Sugianto Suhartono Sukanto Sumitro Sunaryo Supardi Supriadi Supriyadi Supriyanto Supriyono Suratno Suryo Suryono Susanto 
+	                Subroto Sucipto Sudarman Sudarmo Sudarsono Sudarto Sugeng Sugianto Suhartono Sukanto Sumitro Sunaryo Supardi Supriadi Supriyadi Supriyanto Supriyono Suratno Suryo Suryono Susanto 
 			Sutrisno Suwarno Suwondo Suyatno Suyitno Suyono Teguh Totok Trisno Utomo Wibisono Widianto Widiyanto Widodo Wiji Winoto Wiranto Wiro Wisnubroto Yatno Yudho Yudhoyono Yudo Yuwono 
 		}
 		female_names = {
@@ -6928,47 +6983,26 @@ nusantaran = {
 	nusa_tenggara = {
 		primary = BLI
 		dynasty_names = {
-			"Rajasa" "Sanjaya" "Sailendra" "Arbi" "Baderan" "Guret" "Medang" "Madura"
-			"Yogya" "Sura" "Kartasura" Nanggroe Panembahan Sastrowardoyo
-			"Kiaidemak" "Suratinoyo" "Wonopati" Mangkubuni Isyana Galuh Salakanagara
-			"Dasai" "Pawironadi" "Jawa" "Dewi" "Wijaya" Singhasari Kalingga Hardjo
-			"Riyanto" "Setiawan" "Pajang" "Damar" Tarumanagara Suratinoyo Murtono
-			"Pakubuwono" "Hamengkubuwono" Kromowidjojo Somohardjo Setiawan Hartono
+			"Gelgel" "Samprangan" "Sanjaya" "Sailendra" "Arbi" "Baderan" "Guret" "Medang"
+			"Majapahit" "Yogya" "Sura" "Kartasura"
+			"Kiaidemak" "Suratinoyo" "Wonopati"
+			"Dasai" "Pawironadi" "Jawa" "Dewi" "Wijaya"
+			"Riyanto" "Setiawan" "Pajang" "Damar"
+			"Pakubuwono" "Hamengkubuwono"
 		}
 		male_names = {
 			"Girindrawardhana" "Girishawardhana" "Kertabumi" "Kertawijaya" "Rajasawardhana" "Suraprabhawa" 
-			"Wikramawardhana" "Hayam Wuruk" "Kalagamet" "Raden Wijaya" "Kertawardhana" "Raden Sotor" Aryono
-			"Raden Sumirat" "Singhawardhana" Guntur Adi Sudiroprojo Sutikno Tirto Purnama Budi Bestari Arjuna
-			Damarwulan Bambang Eko Sriwidadi Raharjo Slamet Susilo Darma Suratman Budiono Diponegoro Basuki Bintang
-			Abidin Adnan Agung Ahnani Airlangga Ajisaka Along Amangku Amangkurat Ametung Andika Anusanatha Apul Ardianto Arok Atok Awang Badan Bahadur Bahari Balihung Bambang 
-			Bambong Batuta Bayu Bejo Bonjol Budi Bukhari Burhan Buwana Cahyono Cecep Chairil Chairul Dahari Daksa Dato Debata Dewantara Duman Entji Erlangga Eyo Guntur Hamengku 
-			Hatta Hiawang Hulanapo Jamaluddin Janggam Jarot Jasni Jatawaman Jayakatong Kamaluddin Kamarul Kartanegara Kartodirdjo Kasumenagara Kersen Khoen Kiani Kundugga Sudirman
-			Kurniawan Kusnasosro Lemboe Lokman Madja Mah Mangkubuni Maraja Marturak Mat Matulesia Meor Mochtar Mukmin Nanggroe Narotama Nik Noh Noor Nor Nordin Pak Panembahan 
-			Pangeran Parameswara Purnadi Raden Ranga Roem Rosdi Roslan Rosli Rosman Sanusi Sarmini Sartoro Satyawati Shaari Shamsul Shukry Sinduk Singa Sopan Sugeng Suhaimi Suharto 
-			Sukanlah Sukarno Sukiman Suluang Sumitro Suparman Surapati Susuhanan Suyono Syaari Syahrul Syari Syed Syukri Syukur Taha Tahmid Tajuddin Takdir Teungku Tilo Tjipto Tjokroaminoto
-			Tohjaya Triago Tun Tunggul Wijaya Wirapandya Yapto Yatim Yusri Yuwono Adityo Airlangga Andi Anggara Ardi Arga Argo Ari Aris Aryo Asmoro Atmojo Bagas Banyu Baskoro Basuki Bibit 
-			Bimo Budianto Budiarto Budiharto Buwono Cahyono Condro Danang Darmo Darsono Didik Dimas Djoko Dumadi Edhi Edhie Edhy Edi Edie Edy Erlangga Galih Galuh Handayani Harjo Harto Hartono 
-			Haryo Haryono Hendro Jaka Joko Kirono Kresno Krisno Krisnobroto Kusno Kusumo Laksono Lesmana Lintang Mego Mulyono Nanang Nirwanto Nugroho Pamungkas Pangestu Pawiro Prabowo Prasetyo 
-			Prawiro Prayitno Prijono Priono Priyanto Priyo Priyono Pujiono Purnomo Putro Raditya Rahayu Rangga Ranu Ratno Respati Riyanto Santoso Satrio Satriono Sigit Subekti Aryo Aryono
-			Subroto Sucipto Sudarman Sudarmo Sudarsono Sudarto Sugeng Sugianto Suhartono Sukanto Sumitro Sunaryo Supardi Supriadi Supriyadi Supriyanto Supriyono Suratno Suryo Suryono Susanto 
-			Sutrisno Suwarno Suwondo Suyatno Suyitno Suyono Teguh Totok Trisno Utomo Wibisono Widianto Widiyanto Widodo Wiji Winoto Wiranto Wiro Wisnubroto Yatno Yudho Yudhoyono Yudo Yuwono 
+			"Wikramawardhana" "Hayam Wuruk" "Kalagamet" "Raden Wijaya" "Kertawardhana" "Raden Sotor" "Raden Sumirat" 
+			"Singhawardhana" Guntur Adi Sudiroprojo Sukarno Sutikno Tirto Purnama Budi "Dato Hata"
+			Damarwulan Bambang Eko Sriwidadi Raharjo Slamet Dian Susilo Darma Suratman Budiono "Maja Paruwa"
+			"Watu Renggong" "Dalem Bekung" "Dalem Di Made" "Dewa Agung Jambe" "Dewa Agung Sakti"
+			"Dewa Agung Putra" "Demung Mumbul" "Prabu Indrajaya" "Raden Mas Panji" "Mas Kuning"
 		}
 		female_names = {
-			"Neneng" Dian Ocih Ai Titin Lilis Meida Yanti Itoh Ratu Sinar Ani Khodijah Ratih Imas Lina
-			Sekar Ratnasari Ira Nurlaela Sadiyah Nia Nonon Ijah Tirta Yoyoh Idah Rengganis Purbasari Harum
-			Ema Neny Kartikasari Eem Yuyu Yayah Rella Putri Dasimah Kokom Enok Euis Etty Malati Lia Irma
-			Engkom Ule Iteung Dian Pitaloka Ombah Oom Ani Mariam Eros Gina Denok Wida Mamah Ayi Ai "Dewi"
-			"Suhita" "Sri Gitarja" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi NuÅfutea Orama Poe
-			Poehina Poenui Poerava Puaiti Laksmini Srilestari Sriningsih Megawati Sinta Suminten Tri Kartika
-			Surtinem Susanti Utari Tuminindyah Bethari Lestari Sinta Surati Ratu "Wangi" Susilowati Suwarni Tugiyem Tyas Widyastuti Wiji Wulandari
-			Aini Amsia Anis Anisah Arina Asyiqin Ayu Basariah Be Bibi Biduri Butet Cempaka Chairania Damayanti Dara_Jingga Dara_Petak Dayang Delima Demmink Donk Duvinse 
-			Ellarose Enny Erlyinda Erna Geok Giriputri Haeyanti Harianti Harsini Hartini Haslina Hasmah Hawa Hayati Herawati Herna Hersanti Hertati Ien Iin Indijah Inggit 
-			Intan Irwan Ismah Jannigje Kalawenara Kamsiah Kemala Khairulnisa Kirana Kiyesha Komang Laksari Lauana Lela Lely Lina Lisma Markonah Masnah Mastura Megowati Melati 
-			Melur Meuthia Mitya Mutiara Nabylla Namora Oloan Nik Nini Noor Nor Noraini Norlaili Norlina Normi Norsiah Novi Nur Nurhajati Dini Nurul Prita Puteri Raden Radin 
-			Rasuna Ratha Ratu Rosnani Rosni Ruhil Saleha Sanisah Seri Setyaningsih Sinthia Sioe Siska Siti Soemadiredja Soesanti Soewarsih Soopia Srihati Srikandi Sugiarti 
-			Suhana Sulastinah Sulistyorini Sumbadra Suminten Sumitra Suradnya Suriani Suriati Surtikanti Susi Susulowati Sutiati Syagini Syahidah Syamala Syamira Tarakinta 
-			Taty Tika Tirta Titik Tongoo Visi Wahjuningsih Wan Warsijati Wati Widiyawati Widyastuti Wiwik Wiwit Yatun Andayani Andini Anggraini Arum Astuti Ayu Bibit Diah Dyah Endah 
-			Endang Eni Galih Galuh Gendis Handayani Hastuti Hayu Hesti Kirono Larasati Lintang Niken Ningsih Prinia Rahayu Respati Retno Rina Sasi Sekar Semi Subekti Sulastri Sunarti 
+			"Suhita" "Sri Gitarja" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu'utea Orama Poe Pear Poehina Poenui 
+			Poerava Puaiti Puatea Puaura Ra'ihau Ra'imere Ra'inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua
+			Tautiare Tehani Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere
+			"Vaimiti" Vairea Vaite "Vaitiare"
 		}
 	}
 	dayak = {
@@ -7106,18 +7140,32 @@ burman = {
 	burmese = {
 		primary = TAU
 		dynasty_names = {
-			Toungoo Ava Pagan Prome Myede Sagaing Kyaukse Pinya Myinsaing Konbaung Mohnyin Mogaung Tagaung Konbaung Alaungpaya
+			Toungoo Ava Pagan Prome Myede Sagaing Kyaukse Pinya Myinsaing Konbaung Mohnyin Mogaung Tagaung Konbaung Alaungpaya Magway Taungtha
 			Maung Aung Myedu Minkin Tabayin Kanna Ngasingu Tilin Amyint Talok Pakokku Shwebo Pinle Saw Yaw Laungshe Pintale Singu Sale Nyaungyan
-			Yindaw Salin Sagu Yamethin Sagu Taungwingyi Myede Mindon Thayet Tharrawaddy Pyu Maingmaw Binnaka Beikthano "Thaye Khittaya" Halin 
-			Kyaukse Wati Nyaunggan Pyimana Amarapura Mogok Male Myadaung Thibaw Minbu Yandabu Meiktila Magway
+			Yindaw Salin Sagu Yamethin Sagu Taungwingyi Myede Mindon Thayet Tharrawaddy Pyu Maingmaw Binnaka Beikthano Halin Tantabin Pyinmana
+			Wati Nyaunggan Pyimana Amarapura Mogok Male Myadaung Thibaw Minbu Yandabu Meiktila Magway Wizaya Anawrahtawamsa Sokkatewamsa
+			Aunglan Yamethin Madaya Wundwin Singu Tagaung Myingyan Kawlin Katha Monwya Kanbalu Mawlaik Kalewa Oktwin Tannetwamsa Shwedaung
 		}
 		male_names = {
-			"Zalahtinyan" "Sithukyawhtin" "Minkyinyo" "Tabinshwehti" "Thamindwut" "Thaminhatau" "Bayinnaug" 
-			"Handabayin" "Anaukpetlun" "Minradeippa" "Thalun" "Pindale" "Pye" "Narawara" "Minredyawdin" "Sane" 
-			"Taninganwe" "Hamdammayaza" 
+			"Zalahtinyan" "Sithukyawhtin" "Minkyinyo" "Tabinshwehti" "Thamindwut" "Thaminhatau" "Bayinnaug" "Soe Naing"
+			"Handabayin" "Anaukpetlun" "Minradeippa" "Thalun" "Pindale" "Pye" "Narawara" "Minredyawdin" "Sane" Narathu
+			"Taninganwe" "Hamdammayaza" Zaw Aung Shin "Aung Lin" "Aung Zaw" Win "Zaw Win" Kyaw "Kyaw Kyaw" "San Win" Kyawsawa
+			 Nawrahta Minsaw Aung Than "Khin Maung Lat" "Min Hlaing"  Indazita "Min Khine" "Zaw Khine" Phyu "Hlaing Minsaw"
+			 Maung Ba Uzana Tannet Soe "Aung Soe" "Min Soe" "Aung Hlaing Zaw" "Aung Win" "Than Win" Thura "Thura Minsaw"
+			 "Sein Maung" "Tin Maung" "Zaw Htun" "Zaw Min Shwe" "Myo Aung Htet" Zeya Kanaung "Than Zeya" "Thado Minsaw"
+			 "Aung Thura Min" Wunna "Thura Wunna" "Aung Kyaw" "Ba Min" "Ba Zeya" "Hlaing Myat" Kaung Nanda Thado "Zeya Win"
+			 Sithu Tarabaya Khant "Soe Khant" "Khin Maung Lat" "Tun San" "Zeya Kyaw" "Zeya Min" Mingyi "Ba Zeya" "Maung Soe"
+			
 		}
 		female_names = {
-			"Yaza Dewi" "Atula Thiri" "Khin Myo Sit" "Khin Myat Hset" "Khin Ma Lat" "Mya" "Shin Sawbu"
+			"Yaza Dewi" "Atula Thiri" "Khin Myo Sit" "Khin Myat Hset" "Khin Ma Lat" "Mya" "Shin Sawbu" Kalaya
+			Eindra Chesa Chewa "Aung Kyi" "Aung Hayma" Hayma Nilar Nandar Soe Thida "Aung Thida" "Myo Kyi"
+			Tun Wa Wah Wai Waing Wang War Warwar We Win Winn Winna Wint Wun Wunna Yamin Yan Yang Yar Yaza
+			"Aung Yaza" "Yaza Thiri" "Thiri Wunna" Thuzar "Aung Thuzar" "Khin Yaza" Yadana "Zaw Naing" Supayalat
+			"Aye Eindra" "Khin San Myint" "Tin Shwe" "Aye Than" "Aye Yaza" Han Har Hlaing Hmwe Hock Hpay Supayagyi
+			Hsu Htaik Htay Htet Htin Htoo Htun Htut Htway Htwe Hwae Kaung Kay Kee Kha Khain Khaing Kam 
+			Khant Khaung Khin Khine Khun Kin Koe Kwan Kya Kyaing Kyaw Kyee Kyi Kyin Kywa Kywe La Lar Lat
+			"Aye Maw" Gawa "Aung Thuzar" "Htin Thuzar" "Khin Aye Thida" "Shwe Nandar" "Htet Khin Than"
 		}
 	}
 	chin = {
@@ -8007,6 +8055,27 @@ dravidian = {
 		female_names = {
 			Anitalli Chamekamba Chandena Chellava Gamakamba Hariharamba Nagipoti Pammava Rudramba 
 			Rudramadevi Srimahadevi Tundaka "Bashirunissa" "Umda" "Samiya" "Dawudunissa"
+		}
+	}
+	maldivian = {
+		primary = DGL
+		dynasty_names = {
+			"Hilaalee" "Utheemu" "Huraa" "Dhiyamigili" "Hamawi"
+			"Dambidu" "Aadita" "Homa" "Theemuge" "Isdhoo"
+		}
+		male_names = {
+			Hussan Ali Ahmad" Abu Bakr" "Kamanfa'anu" Ibrahim Uthman
+			Muhammad "'Imad ad-Din" Iskandar "Ibrahim Iskandir" "Muhi ad-Din"
+			"Shams ad-Din" "Salah ad-Din" "'Izz ad-Din" "Muin ad-Din Iskander"
+			"Nasr ud-Din" "al-Haj Hassan" "Sayyid Mohammed" "al-Haj Mohammed"
+			"Danna Mohammed" "Hilali Mohammed" "Hilali Kalu Mohammed" "Sayyid Ahmed"
+			"Mohammed Idn Omar" "Isa" "Hasain" "'Umar" "Da'ud" "Uda" "Hiley" "Aima" 
+			"Hudei" "Yusuf" "Dhinei" "Abdullah"
+		}
+		female_names = {
+			"Veyogey" "Gaugey" "Dhon" "Khadijah" "Rehendi" "Radafati" "Adafate" "Da'inu"
+			"Amina" "Rekka" "Kaba Dio" "Aisha" "Rendi" "Fulana" "Mariyam" "Amina"
+			"Zulaikhaa" "Samima" "Shahima" "Thithi" "Medhu"
 		}
 	}
 }

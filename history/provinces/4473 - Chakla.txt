@@ -1,29 +1,26 @@
-#4473 - Chakla #Tripuran Plains Region
+#4473 - Hooghly
 
 owner = BNG
 controller = BNG
-culture = chin
+culture = bengali
 religion = hinduism
-capital = "Chakla"
-trade_goods = tropical_wood
+capital = "Saptagram"
+trade_goods = cotton
 hre = no
-base_tax = 2
-base_production = 2
-base_manpower = 1
+base_tax = 4
+base_production = 5
+base_manpower = 2
 is_city = yes
 add_core = BNG
-add_core = TPR
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 
-1487.1.1 = {
-	owner = TPR
-	controller = TPR
-	remove_core = BNG
-}
+extra_cost = 13
+center_of_trade = 1
+
 1620.1.1 = {
 	owner = MUG
 	controller = MUG
@@ -50,16 +47,46 @@ discovered_by = malay_group
 1658.12.28 = {
 	controller = MUG
 	revolt = { }
+	capital = "Sutanuti"
 } # Muhammed Shuja defeated by Aurangzeb
-1707.3.15 = {
-	owner = BNG
-	controller = BNG
-	add_core = BNG
+1698.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = ENG
 	remove_core = MUG
-}
-1760.1.1 = {
+	capital = "Calcutta"
+	base_production = 11
+	
+} # The area is bought by the East India Company
+1707.5.12 = {
 	owner = GBR
 	controller = GBR
 	add_core = GBR
-} # Given to GBR by Mir Qasim
-
+	add_to_trade_company = GBR
+	add_trade_company_investment = {
+		investment = company_depot
+		investor = GBR
+	}
+	add_trade_company_investment = {
+		investment = military_administration
+		investor = GBR
+	}
+	add_trade_company_investment = {
+		investment = brokers_exchange
+		investor = GBR
+	}
+	add_trade_company_investment = {
+		investment = governor_general_mansion
+		investor = GBR
+	}
+	add_trade_company_investment = {
+		investment = officers_mess
+		investor = GBR
+	}
+	add_trade_company_investment = {
+		investment = admiralty
+		investor = GBR
+	}
+}
+1756.1.1 = { controller = BNG } # Captured by Siraj-ud-daullah
+1757.6.23 = { controller = GBR } # Battle of Plassey, a new Nawab is installed by the British

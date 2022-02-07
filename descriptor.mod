@@ -12,4 +12,4 @@ tags={
 	"Missions And Decisions"
 }
 name="Suvarnabhumi 2.0"
-supported_version="1.31.5"
+supported_version="1.32.*"

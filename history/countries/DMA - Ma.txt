@@ -1,0 +1,23 @@
+government = tribal
+add_government_reform = stateless_society
+primary_culture = degar
+religion = buddhism
+technology_group = indochinese
+capital = 5165 #Daung Nay
+government_rank = 1
+
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+
+1291.1.1 = {
+	monarch = {
+		name = "Degar Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

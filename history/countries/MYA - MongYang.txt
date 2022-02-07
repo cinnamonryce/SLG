@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = mandala_reform
+government = tribal
+add_government_reform = native_chieftain_system_reform
 technology_group = indochinese
 religion = buddhism
 primary_culture = shan

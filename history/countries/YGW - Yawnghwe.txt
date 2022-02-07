@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = heavenly_monarchy_reform
+government = tribal
+add_government_reform = native_chieftain_system_reform
 government_rank = 1
 technology_group = indochinese
 religion = buddhism

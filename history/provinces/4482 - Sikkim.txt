@@ -9,7 +9,7 @@ trade_goods = wool
 hre = no
 base_tax = 1
 base_production = 1
-base_manpower = 1
+base_manpower = 2
 is_city = yes
 add_core = SKK
 discovered_by = indian
@@ -24,7 +24,7 @@ discovered_by = NPL
 1440.1.1 = { capital = "Gangtok" }
 1642.1.1 = { capital = "Yuksom" }
 1670.1.1 = { capital = "Rabdentse" }
-#1789 #Gorkha
 1690.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }
+1793.1.1 = { capital = "Tumlong" }
 

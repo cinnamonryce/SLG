@@ -20,7 +20,12 @@ discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 
-
+1502.1.1 = { controller = BNG }
+1502.6.1 = { owner = BNG } #Conquered by Bengal
+1515.1.1 = {
+	controller = KMT
+	owner = KMT
+}	#Koch dynasty
 1587.1.1 = { capital = "Atharokotha" }
 1627.1.1 = { discovered_by = POR }
 1660.1.1 = { controller = MUG }

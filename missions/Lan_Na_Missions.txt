@@ -100,7 +100,7 @@ lna_missions_1 = {
 			588 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 3
 				area = yawnghwe_area
 			}
@@ -232,7 +232,7 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 		}
 	}
 	lna_nostalgia_for_nanchao = {
-		icon = mission_sea_throne_room
+		icon = mission_sea_throne
 		required_missions = { lna_conquer_the_shan_states lna_twelve_conquests }
 		position = 8
 		provinces_to_highlight = {
@@ -371,10 +371,8 @@ lna_missions_2 = {
 					type = cb_vassalize_mission
 				}
 			}
-			if = {
-				587 = {
-					add_permanent_claim = ROOT
-				}
+			587 = {
+				add_permanent_claim = ROOT
 			}
 			if = {
 				limit = {
@@ -385,10 +383,8 @@ lna_missions_2 = {
 					type = cb_vassalize_mission
 				}
 			}
-			if = {
-				588 = {
-					add_permanent_claim = ROOT
-				}
+			588 = {
+				add_permanent_claim = ROOT
 			}
 		}
 	}
@@ -418,15 +414,16 @@ lna_missions_2 = {
 		}
 		effect = {
 			if = {
-				NOT = {
-					KET = { is_subject_of = ROOT }
+				limit = {
+					exists = KET
+					KET = {
+						is_free_or_tributary_trigger = yes
+					}
 				}
 				vassalize = KET
 			}
-			if = {
-				660 = {
-					add_permanent_claim = ROOT
-				}
+			660 = {
+				add_permanent_claim = ROOT
 			}
 			if = {
 				limit = {
@@ -465,8 +462,11 @@ lna_missions_2 = {
 		}
 		effect = {
 			if = {
-				NOT = {
-					SSP = { is_subject_of = ROOT }
+				limit = {
+					exists = SSP
+					SSP = {
+						is_free_or_tributary_trigger = yes
+					}
 				}
 				vassalize = SSP
 			}
@@ -695,10 +695,7 @@ lna_missions_5 = {
 	lna_relocate_the_emerald_buddha = {
 		icon =  mission_emerald_buddha
 		provinces_to_highlight = {
-			OR = {
-				has_province_modifier = emerald_buddha
-				has_province_modifier = emerald_buddha_alternate
-			}
+			has_province_modifier = emerald_buddha
 			OR = {
 				NOT = {
 					owned_by = ROOT
@@ -712,19 +709,13 @@ lna_missions_5 = {
 			if = {
 				limit = {
 					any_province = {
-						OR = {
-							has_province_modifier = emerald_buddha
-							has_province_modifier = emerald_buddha_alternate
-						}
+						has_province_modifier = emerald_buddha
 					}
 				}
 				any_owned_province = {
 					custom_trigger_tooltip = {
 						tooltip = lna_emerald_buddha_tt
-						OR = {
-							has_province_modifier = emerald_buddha
-							has_province_modifier = emerald_buddha_alternate
-						}
+						has_province_modifier = emerald_buddha
 					}
 					fort_level = 3
 				}
@@ -801,7 +792,7 @@ lna_missions_5 = {
 		}
 	}
 	lna_globalization = {
-		icon = mission_the_bois
+		icon = mission_siamese_cathedral
 		required_missions = { lna_warm_up_to_the_west }
 		position = 7
 		trigger = {

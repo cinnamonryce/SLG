@@ -30,6 +30,7 @@ australia_region = {
 		bass_coast_area
 		riverina_area
 		northern_tablelands_area
+		north_west_slopes_area
 		cape_york_area
 		coral_coast_area
 		wide_bay_area
@@ -101,6 +102,7 @@ tibet_region = {
 		ngari_area
 		nyingchi_area
 		kham_area
+		sikkim_area
 	}
 }
 
@@ -271,6 +273,7 @@ indo_china_region = {
 	}
 }
 
+#NEW
 new_guinea_region = {
 	areas = {
 		papua_area
@@ -1009,6 +1012,10 @@ bengal_region = {
 		assam_area
 		upper_mahanadi_area
 		tripura_area
+		#NEW
+		chittagong_area
+		south_bengal_area
+		koch_area
 	}
 	monsoon = {
 		00.07.01
@@ -1069,6 +1076,8 @@ coromandel_region = {
 		kongu_area
 		south_carnatic_area
 		north_carnatic_area
+		#NEW
+		maldives_area
 	}
 	monsoon = {
 		00.06.01

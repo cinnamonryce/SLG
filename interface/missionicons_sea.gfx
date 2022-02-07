@@ -126,6 +126,18 @@ spriteTypes = {
 		name = "mission_malay_hero"
 		texturefile = "gfx//interface//missions//malay_hero.dds"
 	}
+	spriteType = {
+		name = "mission_sea_buddha"
+		texturefile = "gfx//interface//missions//sea_buddha.dds"
+	}	
+	spriteType = {
+		name = "mission_sea_throne"
+		texturefile = "gfx//interface//missions//sea_throne.dds"
+	}
+	spriteType = {
+		name = "mission_european_contact"
+		texturefile = "gfx//interface//missions//european_contact.dds"
+	}
 	
 	# Ayutthaya
 	
@@ -139,7 +151,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//missions//ayu_conquer_malay_states.dds"
 	}
 	
-		spriteType = {
+	spriteType = {
 		name = "mission_sack_malacca"
 		texturefile = "gfx//interface//missions//ayu_sack_malacca.dds"
 	}
@@ -188,21 +200,26 @@ spriteTypes = {
 	spriteType = {
 		name = "mission_siamese_naval_invasion"
 		texturefile = "gfx//interface//missions//siamese_naval_invasion.dds"
-	}
-	
+	}	
 	spriteType = {
 		name = "mission_siamese_women"
 		texturefile = "gfx//interface//missions//siamese_women.dds"
-	}
-	
+	}	
 	spriteType = {
 		name = "mission_chakrawat_phaichayon_hall"
 		texturefile = "gfx//interface//missions//chakrawat_phaichayon_hall.dds"
-	}
-	
+	}	
 	spriteType = {
 		name = "mission_taksin"
 		texturefile = "gfx//interface//missions//taksin.dds"
+	}
+	spriteType = {
+		name = "mission_siamese_cathedral"
+		texturefile = "gfx//interface//missions//siamese_cathedral.dds"
+	}
+	spriteType = {
+		name = "mission_siamese_king"
+		texturefile = "gfx//interface//missions//siamese_king.dds"
 	}
 	
 	#Sukhothai
@@ -302,5 +319,11 @@ spriteTypes = {
 	spriteType = {
 		name = "mission_brunei_flag"
 		texturefile = "gfx//interface//missions//brunei_flag.dds"
+	}
+	
+	#Brunei
+	spriteType = {
+		name = "mission_malacca"
+		texturefile = "gfx//interface//missions//malacca.dds"
 	}
 }	

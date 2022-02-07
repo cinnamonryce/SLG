@@ -1,0 +1,199 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 163  66  74 }
+revolutionary_colors = { 5 8 5 }
+
+historical_idea_groups = {
+	quantity_ideas
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	indian_footsoldier
+	indian_archers
+	indian_arquebusier
+	mughal_musketeer
+	rajput_musketeer
+	mughal_mansabdar
+	indian_elephant
+	sikh_hit_and_run
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Sasanka #0" = 10
+	"Gajanka #0" = 10
+	"Sukranka #0" = 10
+	"Mriganka #0" = 10
+	"Niladhwaj #0" = 10
+	"Chakradhwaj #0" = 10
+	"Nilambar #0" = 10
+	"Biswa Singha #0" = 5
+	"Nara #0" = 10
+	"Lakshmi #0" = 10
+	"Bir #0" = 10
+	"Pran #0" = 10
+	"Madan #0" = 15
+	"Basudev #0" = 10
+	"Rup #0" = 10
+	"Upendra #0" = 10
+	"Dhairjendra #0" = 5
+	"Dharendra #0" = 10
+	"Rajendra #0" = 15
+	"Bijendra #0" = 10
+	"Harendra #0" = 10
+	"Shivendra #0" = 15
+	"Chadan #0" = 10
+	"Nri Singha #0" = 10
+	"Shukladhaj #0" = 10
+	"Monahar Deb #0" = 10
+	"Bhabadev #0" = 10
+	"Dharmadev #0" = 10
+	"Darpadev #0" = 10
+	"Vishnu #0" = 10
+	"Darpa #0" = 10
+	"Yajna #0" = 10
+	"Jagat #0" = 10
+	"Vidya #0" = 10
+	"Jibendra #0" = 10
+	"Nagendra #0" = 10
+	"Yogendra #0" = 10
+	"Nilendra #0" = 10
+	"Bajendra #0" = 10
+	"Meghendra #0" = 10
+	"Jatindra #0" = 10
+	"Raj Rajendra #0" = 10
+	"Nripendra #0" = 10
+	"Jitendra #0" = 10
+	"Nityendra #0" = 10
+	"Hitendra #0" = 10
+	"Jagaddipendra #0" = 10
+	"Indrajitendra #0" = 10
+	"Birajendra #0" = 10
+	"Nara Singha #0" = 10
+	"Bhim Singha #0" = 10
+	"Ranjit #0" = 10
+	"Dhir #0" = 10
+	"Vijay #0" = 10
+	"Udita #0" = 10
+	"Kamal #0" = 10
+	"Chandra #0" = 15
+	"Joy #0" = 10
+	"Shiv #0" = 10
+	"Bijoy #0" = 10
+	"Mukunda #0" = 10
+	"Haridev #0" = 10
+	"Balit #0" = 10
+	"Indra #0" = 10
+	"Amrit #0" = 15
+	"Kumud #0" = 10
+	"Jogendra #0" = 10
+	"Bhairabendra #0" = 10
+	"Lokpal #0" = 10
+	"Bhairabendra #0" = 10
+	"Surya #0" = 15
+	"Mahendra #0" = 15
+	"Lambodar #0" = 10
+	"Jay #0" = 10
+	"Djwaja #0" = 10
+	"Uttam #0" = 10
+	"Gandharva #0" = 10
+	"Gaj #0" = 10
+
+	"Chilarai #0" = 0
+	"Biswa #0" = 0
+	"Man #0" = 0
+	"Mod #0" = 0
+	"Ram #0" = 0
+	"Raj #0" = 0
+	"Satya #0" = 0
+	"Kumar Dina #0" = 0
+	"Kharga #0" = 0
+	"Hareswar #0" = 0
+	"Kashi Kanta #0" = 0
+	"Joy Gopal #0" = 0
+	"Shyam Chandra #0" = 0
+	"Padma #0" = 0
+	"Guru Prasad #0" = 0
+	"Radha Krishna #0" = 0
+	"Choa Lal #0" = 0
+	"Kalichandra #0" = 0
+	"Kali Krishna #0" = 0
+	"Babu Nil #0" = 0
+	"Kamal #0" = 0
+	"Mahi #0" = 0
+
+	"Jira #0" = -1
+	"Hira #0" = -1
+	"Chandraprabh #0" = -1
+	"Bhanumati #0" = -1
+	"Anandamoye #0" = -1
+	"Sukritidevi #0" = -1
+	"Pratibhadevi #0" = -1
+	"Sudhiradevi #0" = -1
+	"Eladevi #0" = -1
+	"Gayatridevi #0" = -1
+	"Menokadevi #0" = -1
+	"Vrisundeshwari #0" = -1
+	"Kameshwari #0" = -1
+	"Kameswari #0" = -1
+	"Nistarini #0" = -1
+	"Kanchani #0" = -1
+	"Lakshmipriya #0" = -1
+}
+
+leader_names = {
+	Abhayapuri
+	Bahirbund Baikhunthapur Bangalahbhumi Baruah 
+	Behar Beltola Bhitarbund Bhuyan Bijni Borphukan
+	Chandra Chattarjee
+	Dakhinkol Darrang Das Datta Deka Dumuria Dutt
+	Guriahati
+	Hajo
+	Jahangir Jalpaiguri Jalpesh Jogighopa
+	Kalita Kamata Kamrup Khaspur
+	Lahiri
+	Mahanta Mochun
+	Narayan
+	Pandu Prithu
+	Rai Raikut Rajbongshi Rangpur Roy
+	Sanyal Sarkar Singh
+}
+
+ship_names = {
+	Brahmaputra "Chingri Mach" Darrang
+	Devi Dibang "Durga Ma" Ganga "Hilsa Mach"
+	"Ilish Mach" Machli "Kali Ma" "Kali Meghana"
+	"Kali Nauk" Kamrup Lakimpur "Lal Nauk"
+	"Loki Devi" Luhit "Manasa Devi" Manjuli
+	Meghna "Nil Nauk" "Nil Sagor" "Parvati Devi"
+	"Rui Mach" Saraswoti "Sagorer Bahini" Shakti
+	"Shaktir Nauk" "Shasti Ma" Sibsagar Trishool
+	"Uma Devi"
+	Abhayapuri
+	Bahirbund Baikhunthapur Bangalahbhumi Baruah 
+	Behar Beltola Bhitarbund Bhuyan Bijni Borphukan
+	Chandra Chattarjee
+	Dakhinkol Darrang Das Datta Deka Dumuria Dutt
+	Guriahati
+	Hajo
+	Jahangir Jalpaiguri Jalpesh Jogighopa
+	Kalita Kamata Kamrup Khaspur
+	Lahiri
+	Mahanta Mochun
+	Narayan
+	Pandu Prithu
+	Rai Raikut Rajbongshi Rangpur Roy
+	Sanyal Sarkar Singh
+	"Biswa Singha" Chilarai
+}

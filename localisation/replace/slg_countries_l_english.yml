@@ -135,6 +135,14 @@
  TGN:0 "Terengganu"
  TGN_ADJ:0 "Terengganuan"
  
+ DMA:0 "Ma"
+ DMA_ADJ:0 "Ma"
+ KHS:0 "Khasi"
+ KHS_ADJ:0 "Khasi"
+ 
+ SVD:0 "Suvadive"
+ SVD_ADJ:0 "Suvadive"
+ 
  CGS:0 "Liangguang"
  CGS_ADJ:0 "Liangguang"
  CYI: "Shuixi" #Formerly Mu'ege

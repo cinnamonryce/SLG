@@ -5,6 +5,7 @@
  
  central_thai:0 "Siamese"
  northern_thai:0 "Lanna"
+ ahom:0 "Ahom"
  
  burmese:0 "Bamar"
  
@@ -61,6 +62,8 @@
  ilocano:0 "Ilocano"
  visayan:0 "Visayan"
  north_sulawesi: "Minahasan"
+ 
+ maldivian:0 "Maldivian"
  
  
  #Tibetan Stuff by Macky

@@ -55,8 +55,8 @@ ngari_area = { #4
 	2128 4516 4520 5085
 }
 
-nepal_area = { #Changed, now Kathmandu
-	557 2071 4483 4484 
+nepal_area = { #Changed, now Kathmandu, added Sindhuli
+	557 2071 4484 5166
 }
 
 chaubisi_rajya_area = { #New
@@ -71,8 +71,12 @@ lijiang_area = { #3 (Nakhi People)
 	2167 5078 5092
 }
 
-bhutan_area = {
-	565 4481 4482 5084
+bhutan_area = { #3
+	565 4481 5084
+}
+
+sikkim_area = { #3
+	4482 4483 5165
 }
 
 ########################################
@@ -1751,8 +1755,8 @@ mascarenes_area = { #3
 	1100 1102 1103
 }
 
-indian_ocean_islands_area = { #5
-	574 1101 1248 1998 1999
+indian_ocean_islands_area = { #4
+	574 1101 1998 1999
 }
 
 #NEW
@@ -1840,8 +1844,13 @@ eastern_australia_area = { #5 (Orana)
 }
 
 #NEW
-northern_tablelands_area = { #5
-	1092 4855 4856 5048 5059
+northern_tablelands_area = { #3
+	1092 4857 5048 4855 4856 5059 
+}
+
+#NEW
+north_west_slopes_area = { #3
+	4855 4856 5059 
 }
 
 #NEW
@@ -1877,8 +1886,8 @@ fleurieu_area = { #4 (Adelaide)
 	1086 4862 5032 5149
 }
 
-illawara_area = { #5
-	1090 4857 4858 4859 4860
+illawara_area = { #4
+	1090 4858 4859 4860
 }
 
 #NEW
@@ -2255,21 +2264,34 @@ multan_area = { #5 (approximate Multan Subah)
 	506 2079 2086 4508 4509
 }
 
-naga_hills_area = { #3
-	570 573 2041
+#CHANGED
+naga_hills_area = { #5
+	570 573 2041 4400 5160 5171
 }
 
-east_bengal_area = { #5
-	564 2039 4474 4475 4478
-}
-
-north_bengal_area = { #4
-	562 2045 2046 4486
+#NEW
+south_bengal_area = { #4
+	2039 4475 5162 5163
 }
 
 #CHANGED
-tripura_area = { #3
-	567 568 2091 4473
+east_bengal_area = { #3
+	564 567 2046 4478
+}
+
+#CHANGED
+north_bengal_area = { #3
+	2045 4479 5164
+}
+
+#NEW
+chittagong_area = { #3
+	568 4474 5158
+}
+
+#CHANGED
+tripura_area = { #4
+	2091 5159 5161 5170
 }
 
 bihar_area = { #4
@@ -2284,12 +2306,14 @@ upper_mahanadi_area = { #5
 	553 2082 4447 4451 4452
 }
 
+#CHANGED
 gaur_area = { #3
-	563 2044 4479 
+	563 2044 4486 
 }
 
+#CHANGED, added Chakla
 west_bengal_area = { #4
-	561 2081 4476 4477
+	561 2081 4476 4473 4477
 }
 
 gird_area = { #5 #Gird and Hadoti
@@ -2423,8 +2447,14 @@ berar_area = { #5
 	546 548 2050 4442 4443
 }
 
-assam_area = { #5
-	566 571 2040 2042 4440
+#NEW
+koch_area = { #3
+	562 2042 5167
+}
+
+#CHANGED
+assam_area = { #4
+	566 571 2040 5168 5169
 }
 
 himalayan_hills_area = { #4
@@ -2435,10 +2465,12 @@ baisi_rajya_area = { #3
 	4491 4492 554
 }
 
+#CHANGED
 lanka_area = { #North Lanka #4
 	2100 4408 4409 5099
 }
 
+#CHANGED
 south_lanka_area = { #4
 	572 2099 4407 5100
 }
@@ -2460,7 +2492,10 @@ saurashtra_area = { #5
 	515 521 2052 4454 4455
 }
 
-
+#NEW
+maldives_area = { #3
+	1248 5154 5155
+}
 
 ########################################
 # Indo-China  	                       #
@@ -2486,16 +2521,16 @@ kachin_area = { #3
 	2395 2396 4404
 }
 
-shan_hill_area = { #4
-	583 2400 4952 4953
+shan_hill_area = { #5
+	583 2400 4406 4952 4953
 }
 
-yawnghwe_area = { #4
-	588 2401 4397 4406
+yawnghwe_area = { #3
+	2401 4397 5173
 }
 
-kengtung_area = { #3
-	587 4398 5114
+kengtung_area = { #4
+	587 588 4398 5114
 }
 
 karenni_area = { #4
@@ -2544,8 +2579,8 @@ champa_area = { #5
 	606 607 1022 2374 4822
 }
 
-tay_nguyen_area = { #3
-	2375 4823 4824
+tay_nguyen_area = { #4
+	2375 4823 4824 5156
 }
 
 cambodia_area = { #4
@@ -2568,7 +2603,7 @@ arakan_area = { #5
 	579 2402 4957 4958 5131
 }
 
-mekong_area = { #6
+mekong_area = { #5
 	color = { 220 218 51 }
 	605 2376 2377 4829 4969
 }
@@ -3148,8 +3183,8 @@ yun_gui_area = { #4 (Guizhou)
 }
 
 #NEW
-yunnan_area = { #4
-	662 663 5012 5013 
+yunnan_area = { #5
+	662 663 5012 5013 5157
 }
 
 yun_gui_borderland_area = { #4

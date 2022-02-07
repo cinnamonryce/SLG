@@ -161,7 +161,12 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		add_mil_power = -50
-		add_war_exhaustion = 2
+		random_list = {
+			5 = {}
+			95 = {
+				add_mil_power = -50
+				add_war_exhaustion = 2
+			}
+		}
 	}
 }

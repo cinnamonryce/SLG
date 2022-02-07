@@ -2,8 +2,8 @@
 
 owner = ASS
 controller = ASS
-culture = assamese
-religion = hinduism
+culture = ahom
+religion = animism
 capital = "Charaideo"
 trade_goods = grain
 hre = no
@@ -26,11 +26,13 @@ discovered_by = malay_group
 
 
 1540.1.1 = {
-	capital = "Garhgaon"
-	fort_15th = yes
+	fort_15th = no
 }
 1627.1.1 = { discovered_by = POR }
-1707.1.1 = { capital = Rangpur }
+1707.1.1 = {
+	capital = Rangpur
+	fort_15th = yes
+}
 1769.9.15 = {
 	revolt = {
 		type = revolutionary_rebels size = 1
@@ -50,12 +52,14 @@ discovered_by = malay_group
 		type = revolutionary_rebels size = 1
 		name = "Moran Rebels"
 	}
-	capital = "Jorhat"
 } #Maomoria rebellion
 1792.11.24 = {
 	revolt = { }
 	unrest = 0
 } #Rebels cleared by Thomas Welsh of the EIC
+1794.7.1 = {
+	fort_15th = no
+}
 1817.3.27 = { controller = TAU }
 1817.4.1 = { controller = ASS }
 1819.3.11 = { controller = TAU }

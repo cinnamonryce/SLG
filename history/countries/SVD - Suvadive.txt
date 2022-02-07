@@ -1,0 +1,12 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+technology_group = indian
+religion = mahayana
+primary_culture = maldivian
+capital = 5154	#Suvadive
+
+1576.1.1 = {
+	religion = sunni
+	religious_school = shafii_school
+	add_piety = -0.1
+}

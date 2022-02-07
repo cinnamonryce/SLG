@@ -61,7 +61,11 @@ KTW = "countries/Kotawaringin.txt"
 SBH = "countries/Sabah.txt"
 TGN = "countries/Terengganu.txt"
 
+DMA = "countries/Ma.txt"
 
+SVD = "countries/Suvadive.txt"
+KHS = "countries/Khasi.txt"
+HAJ = "countries/Hajo.txt"
 
 #New Tibetan tags by Macky527
 #Tibetan Tags

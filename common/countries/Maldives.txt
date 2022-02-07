@@ -1,0 +1,141 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 191  25  25 }
+revolutionary_colors = { 10 4 0 }
+
+historical_idea_groups = {
+	trade_ideas
+	quantity_ideas
+	administrative_ideas
+	innovativeness_ideas
+	defensive_ideas
+	maritime_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	south_indian_musketeer
+	reformed_mughal_musketeer
+	indian_elephant
+	bhonsle_infantry
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	sikh_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Hussan #0" = 40
+	"'Ali #3" = 40
+	"Ahmad #0" = 30
+	"Abu Bakr #1" = 30
+	"Kamanfa'anu #0" = 30
+	"Ibrahim #0" = 20
+	"Uthman #0" = 20
+	"Muhammad #4" = 20
+	"'Imad ad-Din #0" = 20
+	"Iskandar #0" = 20
+	"Ibrahim Iskandir #0" = 20
+	"Muhi ad-Din #0" = 10 
+	"Shams ad-Din #0" = 10
+	"Salah ad-Din #0" = 10
+	"'Izz ad-Din #0" = 10
+	"Muin ad-Din Iskander #0" = 10
+	"Nasr ud-Din #0" = 10
+	"al-Haj Hassan #2" = 10
+	"Sayyid Mohammed #0" = 10
+	"al-Haj Mohammed #0" = 10
+	"Danna Mohammed #0" = 10
+	"Hilali Mohammed #0" = 10
+	"Hilali Kalu Mohammed #0" = 10
+	"Sayyid Ahmed #0" = 10
+	"Mohammed Idn Omar #0" = 10
+	"Isa #0" = 10
+	"Hasain #1" = 10
+	"'Umar #1" = 10
+	"Da'ud #1" = 10
+	"Uda #1" = 10
+	"Hiley #1" = 10
+	"Aima #1" = 10
+	"Hudei #1" = 10
+	"Yusuf #2" = 10
+	"Dhinei #2" = 10
+	"Abdullah #2" = 10
+
+	"Veyogey #0" = -1
+	"Gaugey #0" = -1
+	"Dhon #0" = -1
+	"Khadijah #1" = -1
+	"Rehendi #1" = -1
+	"Radafati #1" = -1
+	"Adafate #1" = -1
+	"Da'inu #1" = -1
+	"Amina #0" = -1
+	"Rekka #0" = -1
+	"Kaba Dio #0" = -1
+	"Aisha #0" = -1
+	"Rendi #0" = -1
+	"Fulana #0" = -1
+	"Mariyam #0" = -1
+	"Amina #0" = -1
+	"Zulaikhaa #0" = -1
+	"Samima #0" = -1
+	"Shahima #0" = -1
+	"Thithi #0" = -1
+	"Medhu #0" = -1
+}
+
+leader_names = {
+	Adil Adnan Afeefa Ali Ameen Amir Anwar Areef Azim
+	Bee Beefan Boo 
+	Didi
+	Easa
+	Fan Fulhu
+	Ilham Imthiyaz Inaz Irushad Ismail
+	Jabir Jaleel Jamal Jameel
+	Haleem Hafeez Hussain
+	Kader Kalaminja Kalinga Kalo Kavah Kavya Koi Koya 
+	Manik Manika Manike Manikfan Mohamed Moosa Muna
+	Nadeem Naha Nafiu Nasir Nazim Niuma Nizar Nuha
+	Qasim
+	Raha Ramiz Rana Rasheed Razzaq Reesha Rilwan Riza
+	Saeeda Sama Saud Shah Shahid Shameem Shifa Sobah Solih
+	Tarkan Thakhan Thakur Thakurfan
+	Umar
+	Veer
+	Waheedha
+	Yoonus
+	Zaeem Zahir Zaki Ziyad Zubair Zuhair
+}
+
+ship_names = {
+	Alia Alisha Ari Aziza Fadhippolhu
+	Fatimah Felidhoo Goidhoo Kolhumadulu
+	Male Maalhosmadulu Niknaz Niloufa
+	Yasmine Zahira Ramazan
+	Hussan Ali Ahmad
+	"Abu Bakr" "Kamanfa'anu" Ibrahim Uthman
+	Muhammad "'Imad ad-Din" Iskandar
+	"Ibrahim Iskandir" "Muhi ad-Din"
+	"Shams ad-Din" "Salah ad-Din"
+	"'Izz ad-Din" "Muin ad-Din Iskander"
+	"Nasr ud-Din" "al-Haj Hassan"
+	"Sayyid Mohammed" "al-Haj Mohammed"
+	"Danna Mohammed" "Hilali Mohammed"
+	"Hilali Kalu Mohammed" "Sayyid Ahmed"
+	"Mohammed Idn Omar" "Isa" "Hasain"
+	"'Umar" "Da'ud" "Uda" "Hiley" "Aima" 
+	"Hudei" "Yusuf" "Dhinei" "Abdullah"
+	"Veyogey" "Gaugey" "Dhon" "Khadijah"
+	"Rehendi" "Radafati" "Adafate" "Da'inu"
+	"Amina" "Rekka" "Kaba Dio" "Aisha"
+	"Rendi" "Fulana" "Mariyam" "Amina"
+	"Zulaikhaa" "Samima" "Shahima" 
+	"Thithi" "Medhu"
+}

@@ -1,0 +1,75 @@
+########################################
+# Misc Malay Flavor Events             #
+########################################
+
+namespace = slg_misc_malay
+normal_or_historical_nations = yes
+
+#Tan Unggal's Thirst
+country_event = {
+	id = slg_misc_malay.1
+	title = "slg_misc_malay.1.t"
+	desc = "slg_misc_malay.1.d"
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SMB
+		has_ruler = "Tan Unggal"
+		dynasty = "Sambas"
+
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "slg_misc_malay.1.a" #Blood! I demand blood!
+		add_mil_power = 100
+		add_ruler_modifier = {
+			name = smb_bloodthirst
+		}
+	}
+}
+
+#Incestuous Allegations
+country_event = {
+	id = slg_misc_malay.2
+	title = "slg_misc_malay.2.t"
+	desc = "slg_misc_malay.2.d"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SMB
+		has_ruler = "Tan Unggal"
+		dynasty = "Sambas"
+		has_heir = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = "slg_misc_malay.2.a" #Incentuous! Disgusting! Bury them alive!
+		kill_heir = { allow_new_heir = no }
+		add_mil_power = 100
+	}
+	option = {
+		name = "slg_misc_malay.2.b" #These are foolish allegations!
+		add_heir_claim = -50
+		random_list = {
+			5 = {}
+			95 = {
+				add_country_modifier = {
+					name = smb_incestuous_allegations
+					duration = 3650
+				}
+			}
+		}
+	}
+}

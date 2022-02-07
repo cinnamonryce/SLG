@@ -582,7 +582,7 @@ mnd_pegu_5 = {
 	has_country_shield = yes
 	
 	mnd_peg_religious_devotion = {
-		icon = mission_buddhist_monk_praying
+		icon = mission_sea_buddha
 		required_missions = {  }
 		provinces_to_highlight = {
 			NOT = { has_building = temple }

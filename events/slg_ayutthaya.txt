@@ -82,6 +82,7 @@ country_event = {
 	option = {
 		name = "slg_ayutthaya.2.a" #Uthong has finally been restored
 		add_mil_power = -50
+		kill_ruler = yes
 		if = {
 			limit = {
 				has_heir = yes
@@ -96,37 +97,54 @@ country_event = {
 			dip = 1
 			mil = 3
 		}
+		if = {
+			limit = {
+				any_owned_province = {
+					culture = ROOT
+					highest_supply_limit_in_area = yes
+				}
+			}
+			random_owned_province = {
+				limit = {
+					culture = ROOT
+					highest_supply_limit_in_area = yes
+				}
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 3
+					leader = "Chakkraphat"
+					leader_dynasty = "Suphannaphum"
+				}
+			}
+		}
+		else = {
+			random_owned_province = {
+				limit = {
+					culture = ROOT
+				}
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 3
+					leader = "Chakkraphat"
+					leader_dynasty = "Suphannaphum"
+				}
+			}
+		}
 		hidden_effect = {
 			add_ruler_personality = martial_educator_personality
-		}
-		define_consort = {
-			name = "Si Sudachan"
-			dynasty = "Uthong"
-			female = yes
-			adm = 3
-			dip = 3
-			mil = 2
-		}
-		define_heir = {
-			name = "Nai Chan"
-			dynasty = "Uthong"
-			claim = 30
-			adm = 1
-			dip = 1
-			mil = 1
-		}
-		capital_scope = {
-			spawn_rebels = {
-				type = pretender_rebels
-				size = 3
-				leader = "Chakkraphat"
-				leader_dynasty = "Suphannaphum"
+			define_consort = {
+				name = "Si Sudachan"
+				dynasty = "Uthong"
+				female = yes
+				adm = 3
+				dip = 3
+				mil = 2
 			}
 		}
 	}
-	
 	option = {
 		name = "slg_ayutthaya.2.b" #Rally the clans, Uthong cannot rule!
+		kill_ruler = yes
 		if = {
 			limit = {
 				has_heir = yes
@@ -140,33 +158,48 @@ country_event = {
 			dip = 1
 			mil = 2
 		}
+		if = {
+			limit = {
+				any_owned_province = {
+					culture = ROOT
+					highest_supply_limit_in_area = yes
+				}
+			}
+			random_owned_province = {
+				limit = {
+					culture = ROOT
+					highest_supply_limit_in_area = yes
+				}
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 3
+					leader = "Worawongsa"
+					leader_dynasty = "Uthong"
+				}
+			}
+		}
+		else = {
+			random_owned_province = {
+				limit = {
+					culture = ROOT
+				}
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 3
+					leader = "Worawongsa"
+					leader_dynasty = "Uthong"
+				}
+			}
+		}
 		hidden_effect = {
 			add_ruler_personality = strict_personality
-		}
-		define_consort = {
-			name = "Si Suriyothai"
-			dynasty = "Suphannaphum"
-			adm = 3
-			dip = 2
-			mil = 4
-		}
-		define_heir = {
-			name = "Mahinthra"
-			dynasty = "Suphannaphum"
-			adm = 1
-			dip = 2
-			mil = 0
-		}
-		random_owned_province = {
-			limit = {
-				is_capital = yes
-			}
-			spawn_rebels = {
-				type = pretender_rebels
-				leader = "Worawongsa"
-				leader_dynasty = "Uthong"
-				size = 2
-			}
+			define_consort = {
+				name = "Si Suriyothai"
+				dynasty = "Suphannaphum"
+				adm = 3
+				dip = 2
+				mil = 4
+			}	
 		}
 	}
 }
@@ -179,7 +212,6 @@ country_event = {
 	picture = MALACCA_eventPicture
 
 	is_triggered_only = yes
-	fire_only_once = yes
 	major = yes
 	option = {
 		name = "slg_ayutthaya.3.a" #Sack the city!
@@ -367,17 +399,21 @@ country_event = {
     			mil = 6
     			attach_leader = "Taksin"
 			}
-			hidden_effect = {
-				add_ruler_personality = tactical_genius_personality
-				country_event = {
-					id = slg_ayutthaya.9
-					days = 7
-				}
-			}
 		}
 		else = {
 			define_leader_to_ruler = {
     			type = general
+			}
+		}
+		hidden_effect = {
+			add_ruler_personality = tactical_genius_personality
+			country_event = {
+    			id = slg_ayutthaya.9
+    			days = 7
+			}
+			#Could use FROM in slg_ayutthaya.8, but causes errors
+			ROOT = {
+    			save_event_target_as = siamese_subject
 			}
 		}
 		if = {
@@ -387,15 +423,15 @@ country_event = {
 					is_subject_of_type = march
 				}
 			}
-			ROOT = { 
-				grant_independence = yes
-				save_event_target_as = siam_subject
-			}
 			overlord = {
 				country_event = {
 					id = slg_ayutthaya.8
 					days = 1
 				}
+			}
+			ROOT = { 
+				grant_independence = yes
+				save_event_target_as = siam_subject
 			}
 		}
 	}
@@ -426,11 +462,10 @@ country_event = {
 	picture = BAD_WITH_MONARCH_eventPicture
 
 	is_triggered_only = yes
-	
 	option = {
 		name = "slg_ayutthaya.8.a" #What fools!
 		add_casus_belli
-			target = FROM
+			target = event_target:siamese_subject
 			type = cb_disloyal_vassal 
 			months = 12
 		}
@@ -636,9 +671,11 @@ country_event = {
 			limit = {
 				has_dlc = "Leviathan"
 			}
-			add_great_project_tier = {
-				type = wat_phra_si_sanphet
-				tier = 1
+			600 = {
+				add_great_project_tier = {
+					type = wat_phra_si_sanphet
+					tier = 1
+				}
 			}
 		}
 	}

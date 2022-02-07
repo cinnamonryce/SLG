@@ -602,7 +602,7 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 		}
 	}
 	suk_father_governs_child = {
-		icon = mission_theravada_monks
+		icon = mission_siamese_king
 		required_missions = { suk_the_ancient_capital }
 		position = 5
 		trigger = {
@@ -754,7 +754,7 @@ suk_missions_4 = {
 	has_country_shield = yes
 
 	suk_claim_kingship = {
-		icon = mission_sea_throne_room
+		icon = mission_sea_throne
 		required_missions = {  }
 		position = 1
 		trigger = {
@@ -906,7 +906,7 @@ suk_missions_5 = {
 	}
 
 	suk_warm_up_to_the_west = {
-		icon = mission_siam_western_advisors
+		icon = mission_european_contact
 		required_missions = { suk_reclaim_the_coast }
 		position = 7
 		trigger = {
@@ -927,7 +927,7 @@ suk_missions_5 = {
 		}
 	}
 	suk_globalization = {
-		icon = mission_the_bois
+		icon = mission_siamese_cathedral
 		required_missions = { suk_warm_up_to_the_west }
 		position = 8
 		trigger = {

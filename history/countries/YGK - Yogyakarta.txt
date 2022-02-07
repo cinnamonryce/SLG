@@ -3,8 +3,8 @@ add_government_reform = plutocratic_reform
 primary_culture = javanese
 religion = sunni
 technology_group = malay_group
-capital = 4859	# Yogyakarta
-fixed_capital = 4859
+capital = 2790	# Kotagede
+fixed_capital = 2790
 religious_school = shafii_school
 
 1755.2.3 = {

@@ -1,16 +1,12 @@
 #Karta
 
-culture = yura
-religion = dreamtime
 capital = "Karta Pintingga"
 trade_goods = unknown
 hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_size = 0
-native_ferocity = 0
-native_hostileness = 0
+
 discovered_by = aboriginal_tech
 
 1802.1.1 = { discovered_by = GBR } # Matthew Flinders
