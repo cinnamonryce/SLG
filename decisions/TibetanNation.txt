@@ -17,6 +17,7 @@ country_decisions = {
 				primary_culture = khampa
 				primary_culture = gyelrong
 				primary_culture = amdowa
+				primary_culture = tibetan_new
 			}
 			OR = {
 				ai = no

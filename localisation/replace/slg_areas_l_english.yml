@@ -426,6 +426,14 @@
  maldives_area_name:0 "Maldives"
  maldives_area_adj:0 "Maldivian"
  
+ assam_area:0 "Eastern Assam"
+ assam_area_name:0 "Eastern Assam"
+ assam_area_adj:0 "Eastern Assamese"
+ 
+ western_assam_area:0 "Western Assam"
+ western_assam_area_name:0 "Western Assam"
+ western_assam_area_adj:0 "Western Assamese"
+ 
  #Tibetan Stuff by Macky
  tsaidam_area: "Tsaidam"
  tsaidam_area_name: "Tsaidam"

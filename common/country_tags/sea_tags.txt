@@ -66,6 +66,8 @@ DMA = "countries/Ma.txt"
 SVD = "countries/Suvadive.txt"
 KHS = "countries/Khasi.txt"
 HAJ = "countries/Hajo.txt"
+CKM = "countries/Chakma.txt"
+KUK = "countries/Kuki.txt"
 
 #New Tibetan tags by Macky527
 #Tibetan Tags

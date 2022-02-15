@@ -1,0 +1,29 @@
+government = tribal
+add_government_reform = native_chieftain_system_reform
+government_rank = 1
+primary_culture = chin
+religion = animism
+technology_group = indian
+capital = 5159 #Lushai
+
+1400.1.1 = {
+	monarch = {
+		name = "Telenpa"
+		dynasty = "Chongthu"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = secretive_personality
+	add_ruler_personality = well_connected_personality
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Kuki Tribes"
+		adm = 2
+		dip = 2
+		mil = 3
+		regent = yes
+	}
+}

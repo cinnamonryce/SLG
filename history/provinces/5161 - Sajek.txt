@@ -1,7 +1,7 @@
 #Sajek Hills
 
-owner = TPR
-controller = TPR
+owner = CKM
+controller = CKM
 culture = chin
 religion = animism
 capital = "Rangamati" #Possibly Riang
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = TPR
+add_core = CKM
 
 
 
@@ -20,6 +20,18 @@ discovered_by = nomad_group
 discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
+
+1415.1.1 = {
+	owner = TPR
+	controller = TPR
+	add_core = TPR
+} #Conquered by Tripura
+
+1431.1.1 = {
+	owner = CKM
+	controller = CKM
+	remove_core = TPR
+}
 
 1760.1.1 = { discovered_by = GBR }
 

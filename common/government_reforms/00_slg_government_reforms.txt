@@ -9,6 +9,7 @@ native_chieftain_system_reform = {
 			technology_group = malay_group
 			culture_group = tibetan_group
 			culture_group = lingnan
+			culture_group = burman
 			AND = {
 				technology_group = chinese
 				religion_group = pagan
@@ -30,7 +31,7 @@ native_chieftain_system_reform = {
 
 	modifiers = {
 		harsh_treatment_cost = -0.15
-		num_accepted_cultures = 2
+		defensiveness = 0.1
 	}
 }
 
@@ -46,6 +47,10 @@ heavenly_monarchy_reform = {
 			technology_group = chinese
 			technology_group = indochinese
 			technology_group = malay_group
+			AND = {
+				technology_group = indian
+				religion_group = pagan
+			}
 		}
 	}
 	valid_for_nation_designer = yes
@@ -62,8 +67,8 @@ heavenly_monarchy_reform = {
 
 	modifiers = {
 		global_unrest = -2
-		brahmins_hindu_loyalty_modifier = 0.05
-		church_loyalty_modifier = 0.05
+		brahmins_hindu_loyalty_modifier = 0.1
+		church_loyalty_modifier = 0.1
 		max_absolutism = 20
 	}
 }

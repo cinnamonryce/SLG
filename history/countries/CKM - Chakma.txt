@@ -1,0 +1,263 @@
+government = tribal
+add_government_reform = native_chieftain_system_reform
+government_rank = 1
+primary_culture = bengali
+add_accepted_culture = chin
+religion = buddhism
+technology_group = indian
+capital = 5161 #Sajek
+
+1100.1.1 = {
+	monarch = {
+		name = "Kamal Chega"
+		dynasty = "Sakthimaha"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1095.1.1
+	}
+}
+
+1179.1.1 = {
+	monarch = {
+		name = "Ratan Giri"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1220.1.1 = {
+	monarch = {
+		name = "Kala Thongza"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1260.1.1 = {
+	monarch = {
+		name = "Sher Matya"
+		dynasty = "Sakthimaha"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1300.1.1 = {
+	monarch = {
+		name = "Arunjug"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1330.1.1 = {
+	monarch = {
+		name = "Chanda Thongza"
+		dynasty = "Sakthimaha"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1360.1.1 = {
+	monarch = {
+		name = "Moisang"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+#Conquered by Maha Manikya of Tripura
+
+1431.1.1 = {
+	monarch = {
+		name = "Kadam Thongza"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Tin Sureswari"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Janu"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1510.1.1 = {
+	monarch = {
+		name = "Janu II" #Rani Janu
+		dynasty = "Sakthimaha"
+		adm = 3
+		dip = 2
+		mil = 2
+		female = yes
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Sathua"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Dhabana"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Dharamya"
+		dynasty = "Sakthimaha"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Mogalya"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+}
+
+1660.1.1 = {
+	monarch = {
+		name = "Sulab Khan"
+		dynasty = "Sakthimaha"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1686.1.1 = {
+	monarch = {
+		name = "Kalu Khan"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Fateh Khan"
+		dynasty = "Sakthimaha"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1725.1.1 = {
+	monarch = {
+		name = "Jallal Khan"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1737.1.1 = {
+	monarch = {
+		name = "Shermusta Khan"
+		dynasty = "Sakthimaha"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1773.1.1 = {
+	monarch = {
+		name = "Sherdaulat Khan"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+
+1787.1.1 = {
+	monarch = {
+		name = "Jan Bux Khan"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1800.1.1 = {
+	monarch = {
+		name = "Tabbar Khan"
+		dynasty = "Sakthimaha"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+
+1801.1.1 = {
+	monarch = {
+		name = "Jabbar Khan"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1812.1.1 = {
+	monarch = {
+		name = "Dharam Bux Khan"
+		dynasty = "Sakthimaha"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

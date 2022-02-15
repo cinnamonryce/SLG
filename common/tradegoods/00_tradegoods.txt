@@ -117,6 +117,7 @@ wine = {
 		modifier = {
 			factor = 0
 			normal_or_historical_nations = yes
+			FROM = { primitives = yes }
 			NOT = { continent = south_america }
 			NOT = { region = south_africa_region }
 			NOT = { area = cuyo_area }
@@ -124,7 +125,6 @@ wine = {
 			NOT = { area = california_area }
 			NOT = { area = central_valley_area }
 			NOT = { region = australia_region }
-
 		}
 		modifier = {
 			factor = 0.25

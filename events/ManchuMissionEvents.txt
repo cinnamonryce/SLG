@@ -166,11 +166,6 @@ country_event = {
 				}
 				add_core = FRM
 				cede_province = FRM
-				change_culture = chimin
-				change_religion = confucianism
-				add_base_tax = 2
-				add_base_production = 2
-				add_base_manpower = 2
 			}
 		}
 	}
@@ -190,7 +185,14 @@ country_event = {
 				name = "Koxinga"
 				dynasty = "Zheng"
 			}
+			change_government = monarchy
+			add_government_reform = chinese_warlord
 			capital_scope = {
+				change_culture = chimin
+				change_religion = confucianism
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
 				build_to_forcelimit = {
 					infantry = 0.6
 					cavalry = 0.3

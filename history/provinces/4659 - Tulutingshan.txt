@@ -1,9 +1,8 @@
 # Tulutingshan
 
-owner = MYR
-controller = MYR
-add_core = MYR
-#culture = manchu
+owner = SOL
+controller = SOL
+add_core = SOL
 culture = evenk
 religion = tengri_pagan_reformed
 capital = "Tulutingshan"
@@ -13,8 +12,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-
-
 
 discovered_by = chinese
 discovered_by = indochinese

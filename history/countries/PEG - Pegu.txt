@@ -162,7 +162,7 @@ change_estate_land_share = {
 		name = "Shin Sawbu"
 		dynasty = "Wareru"
 		female = yes
-		adm = 3
+		adm = 4
 		dip = 4
 		mil = 2
 	}

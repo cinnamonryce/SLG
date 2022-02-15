@@ -1,6 +1,6 @@
 #Country Name: See the Name of this File.
 
-graphical_culture = indiangfx
+graphical_culture = asiangfx
 
 color = { 232  209  4 }
 revolutionary_colors = { 10 0 16 } #Khasi tricolor
@@ -20,10 +20,16 @@ historical_units = {
 	indian_footsoldier
 	indian_archers
 	indian_arquebusier
+	mughal_musketeer
+	rajput_musketeer
+	mughal_mansabdar
+	indian_elephant
 	sikh_hit_and_run
+	bhonsle_cavalry
 	indian_rifle
 	tipu_sultan_rocket
 }
+
 
 monarch_names = {
 	"Bicharpatipha #0" = 20

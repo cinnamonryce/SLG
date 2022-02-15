@@ -3,9 +3,7 @@
 #Sea Areas:
 #No restriction on size.
 
-south_laos_area = {
-
-}
+south_laos_area = { }
 
 kham_area = {
 	2133 5079 5088 5093
@@ -2265,8 +2263,8 @@ multan_area = { #5 (approximate Multan Subah)
 }
 
 #CHANGED
-naga_hills_area = { #5
-	570 573 2041 4400 5160 5171
+naga_hills_area = { #4
+	570 573 4400 5171
 }
 
 #NEW
@@ -2290,8 +2288,8 @@ chittagong_area = { #3
 }
 
 #CHANGED
-tripura_area = { #4
-	2091 5159 5161 5170
+tripura_area = { #5
+	2041 2091 5159 5161 5170
 }
 
 bihar_area = { #4
@@ -2452,9 +2450,14 @@ koch_area = { #3
 	562 2042 5167
 }
 
+#NEW
+western_assam_area = { #4
+	571 5160 5168 5169
+}
+
 #CHANGED
-assam_area = { #4
-	566 571 2040 5168 5169
+assam_area = { #3
+	566 2040 4440
 }
 
 himalayan_hills_area = { #4

@@ -9,11 +9,12 @@ religion = vajrayana
 capital = "Lhasa"
 trade_goods = cloth
 hre = no
-base_tax = 6 			#haven't reduced this, it's already quite dirty poor
-base_production = 5		#haven't reduced this, it's already quite dirty poor
+base_tax = 6
+base_production = 5
 base_manpower = 2
 is_city = yes
-center_of_trade = 1
+extra_cost = 16
+center_of_trade = 2
 
 
 discovered_by = chinese

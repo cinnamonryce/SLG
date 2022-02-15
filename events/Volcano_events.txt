@@ -3,6 +3,11 @@
 #
 # written by Veronica Pazos
 #####################################
+#####################################
+# Volcano events 
+#
+# written by Veronica Pazos
+#####################################
 
 namespace = volcano_events
 
@@ -74,6 +79,9 @@ country_event = {
 			province_event = {
 				id = volcano_events.1
 			}
+		}
+		ai_chance = {
+			factor = 1
 		}
 	}
 }

@@ -1,0 +1,220 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = asiangfx
+
+color = { 253  134  147 }
+revolutionary_colors = { 10  5  13 } #Bnei Menashe flag
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas	
+	expansion_ideas
+	spy_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	indian_footsoldier
+	indian_archers
+	indian_arquebusier
+	mughal_musketeer
+	rajput_musketeer
+	mughal_mansabdar
+	indian_elephant
+	sikh_hit_and_run
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+
+monarch_names = {
+	"Lalkalim #0" = 10
+	"Lalpuimi #0" = 10
+	"Lalrihua #0" = 10
+	"Lalchukla #0" = 10
+	"Dukunipur #0" = 10
+	"Murchuilal #0" = 10
+	"Lalpuilena #0" = 10
+	"Mungpira #0" = 10
+	"Vuta #0" = 10
+	"Lindu #0" = 10
+	"Butai #0" = 10
+	"Sukpilal #0" = 10
+	"Mora #0" = 10
+	"Lalingvhum #0" = 10
+	"Vonpilal #0" = 10
+	"Nikama #0" = 10
+	"Mungpira #0" = 10
+	"Poipoy #0" = 10
+	"Benkhaia #0" = 10
+	"Thangbong #0" = 10
+	"Punpung #0" = 10
+	"Thangkhai #0" = 10
+	"Thansuma #0" = 10
+	"Lalseva #0" = 10
+	"Namin #0" = 10
+	"Thlanrawk #0" = 10
+	"Thokpu #0" = 10
+	"Khangpa #0" = 10
+	"Benglam #0" = 10
+	"Kungbulbung #0" = 10
+	"Hansebung #0" = 10
+	"Phabanthra #0" = 10
+	"Moirangkhom #0" = 10
+	"Khambikhal #0" = 10
+	"Chongphut #0" = 10
+	"Lunkim #0" = 10
+	"Lenthang #1" = 10
+	"Thangngeo #0" = 10
+	"Changsan #0" = 10
+	"Vumjang #0" = 10
+	"Chonmang #0" = 10
+	"Pamang #0" = 10
+	"Phuntiaha #0" = 10
+	"Mangsum #0" = 10
+	"Mangson #0" = 10
+	"Chengjapao #0" = 10
+	"Vangai Lhang #0" = 10
+	"Mangtinthang #0" = 10
+	"Mangtinkhup #0" = 10
+	"Mangtinkai #0" = 10
+	"Enjakhup #0" = 10
+	"Khochung #0" = 10
+	"Sehta #0" = 10
+	"Vomjamang #0" = 10
+	"Demlukim #0" = 10
+	"Mangkhai #0" = 10
+	"Khotinmang #0" = 10
+	"Khotinkai #0" = 10
+	"Thangkhohen #0" = 10
+	"Kamhau #0" = 10
+	"Ngameingam #0" = 10
+	"Chandra Kirti #0" = 10
+	"Khotinthang #0" = 10
+	"Sutmang #0" = 10
+	"Lalsavunga #0" = 10
+	"Tongkho #0" = 10
+	"Nehlam #0" = 10
+	"Tintong #0" = 10
+	"Khalkam #0" = 10
+	"Lenkhama #0" = 10
+	"Laljeeka #0" = 10
+	"Sangvunga #0" = 10
+	"Munjihow #0" = 10
+	"Vandula #0" = 10
+	"Khurarang #0" = 10
+	"Pathian #0" = 10
+	"Chongthu #0" = 10
+	"Songthu #0" = 10
+	"Vangalpa #0" = 10
+	"Khupngam #0" = 10
+	"Songja #0" = 10
+	"Noimangpa #0" = 10
+	"Zosanga #0" = 10
+	"Douvanthang #0" = 10
+	"Mopung #0" = 10
+	"Dangsa #0" = 10
+	"Tamlop #0" = 10
+	"Mangthangson #0" = 10
+	"Galpi #0" = 10
+	"Molpi #0" = 10
+	"Mangsaphai #0" = 10
+	"Sikibung #0" = 10
+	"Sipibung #0" = 10
+	"Chonjolbung #0" = 10
+	"Chalon #0" = 10
+	"Sangthei #0" = 10
+	"Jangtunlui #0" = 10
+	"Sijol #0" = 10
+	"Bungjol #0" = 10
+	"Lapuphai #0" = 10
+	"Sinsuon #0" = 10
+	"Sholun #0" = 10
+	"Neithawthla #0" = 10
+	"Hangsai #0" = 10
+	"Galgnam #0" = 10
+	"Lawnkhara #0" = 10
+	"Goukhothang #0" = 10
+	"Palai #0" = 10
+	"Saihnuna #0" = 10
+	"Mantri #0" = 10
+	"Mirasdar #0" = 10
+	"Mukhtiar #0" = 10
+	"Pu #0" = 10
+	"Ramhui #0" = 10
+	"Upa #0" = 10
+	"Zamindar #0" = 10
+	"Litan #0" = 10
+	"Molkoi #0" = 10
+	"Muolkawi #0" = 10
+
+	"Banaitangi #0" = -1
+	"Ropui Leni #0" = -1
+	"Pakuma #0" = -1
+	"Pibuk #0" = -1
+	"Lalrumi #0" = -1
+	"Doch Hungi #0" = -1
+	"Thomi #0" = -1
+	"Anu #0" = -1
+	"Varnu #0" = -1
+	"Nemneh #0" = -1
+	"Cherchawngi #0" = -1
+}
+
+leader_names = {
+	Agaltala Agartala
+	Bolkho Bouinu Bungpui
+	Chahsat Champhai Changsil Chatrik Chengpui Chengri Chera Chinbok
+	Dao Demagiri Doong Doungel
+	Elmun
+	Fanai
+	Guite
+	Hang Haokip Howlong Hrangkhawl
+	Injang
+	Jakopa Jampi Jampui Jhumia
+	Karbari Khamliana Khampat Khawrihim Khochung Khokanglai Khokisupi Kholachaic Kholen Khongkhang Khomang Khopalva Khotip Kilkhong Kipgen 
+	Lal Lalgnura Lenthang Lungdar Lungleng Lungten Lungthul Lungtian Lushai
+	Manmasi Manashe Mara Matejang Maungalung Mela Mithun Molcham Molnoi Molpi Motithlang Munvai
+	Neithola Nguite Noimang Nwengal
+	Paite Phailen Phaileng Phajiang Phungtha Pumjang Punji Pythoo
+	Riang Rengti Routhang
+	Saihaphoh Sailo Sangnao Seipui Sakhijang Selkul Sijang Singson Sithlou Songsang Sukte
+	Thadou Thakthing Thanglow Thenchung Thenjiang Tlabung Tlang Tong Tungyas
+	Vanlaiphai
+	Zadeng
+}
+
+ship_names = {
+	Agaltala Agartala
+	Bolkho Bouinu Bungpui
+	Chahsat Champhai Changsil Chatrik Chengpui Chengri Chera Chinbok
+	Dao Demagiri Doong Doungel
+	Elmun
+	Fanai
+	Guite
+	Hang Haokip Howlong Hrangkhawl
+	Injang
+	Jakopa Jampi Jampui Jhumia
+	Karbari Khamliana Khampat Khawrihim Khochung Khokanglai Khokisupi Kholachaic Kholen Khongkhang Khomang Khopalva Khotip Kilkhong Kipgen 
+	Lal Lalgnura Lenthang Lungdar Lungleng Lungten Lungthul Lungtian Lushai
+	Manmasi Manashe Mara Matejang Maungalung Mela Mithun Molcham Molnoi Molpi Motithlang Munvai
+	Neithola Nguite Noimang Nwengal
+	Paite Phailen Phaileng Phajiang Phungtha Pumjang Punji Pythoo
+	Riang Rengti Routhang
+	Saihapho
+	Benglam Chhura
+	Songkhoon Chawngkhum
+	Mopung
+	Dangsa
+	Tamlop
+	Thimzin
+	Chongphut
+	Mangthangson
+	Khongsai
+	Sinson
+	Mizo
+}
