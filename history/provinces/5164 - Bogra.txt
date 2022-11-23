@@ -3,7 +3,7 @@
 owner = BNG
 controller = BNG
 culture = bengali
-religion = sunni
+religion = hinduism
 capital = "Bogra"
 trade_goods = spices
 hre = no

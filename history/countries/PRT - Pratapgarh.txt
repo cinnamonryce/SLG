@@ -1,0 +1,255 @@
+government = monarchy
+add_government_reform = indian_sultanate_reform
+government_rank = 1
+primary_culture = sylheti
+add_accepted_culture = kachari
+religion = sunni
+technology_group = indian
+capital = 5174	# Laskarpur
+religious_school = hanafi_school
+
+change_estate_land_share = {
+	estate = estate_church
+	share = 12
+}
+change_brahmins_or_church_land_share_effect = {
+	share = -5
+}
+
+#Malik Dynasty
+1400.1.1 = {
+	monarch = {
+		name = "Muhammad Turani"
+		dynasty = "Malik"
+		birth_date = 1375.1.1
+		ADM = 3
+		DIP = 3
+		MIL = 4
+		culture = persian
+	}
+	heir = {
+		name = "Sadd" #Also Sadd, Shad
+		monarch_name = "Sadd"
+		dynasty = "Malik"
+		birth_date = 1390.1.1
+		death_date = 1440.1.1
+		claim = 95
+		ADM = 2
+		DIP = 1
+		MIL = 1
+	}
+}
+
+1420.1.1 = {
+	monarch = {
+		name = "Sadd"
+		dynasty = "Malik"
+		birth_date = 1390.1.1
+		ADM = 2
+		DIP = 1
+		MIL = 1
+	}
+	heir = {
+		name = "Bara" #Also Boro
+		monarch_name = "Bara"
+		dynasty = "Malik"
+		birth_date = 1410.1.1
+		death_date = 1460.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Bara"
+		dynasty = "Malik"
+		birth_date = 1410.1.1
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+	heir = {
+		name = "Kamaluddin"
+		monarch_name = "Kamaluddin"
+		dynasty = "Malik"
+		birth_date = 1430.1.1
+		death_date = 1470.1.1
+		claim = 95
+		ADM = 2
+		DIP = 3
+		MIL = 2
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Kamaluddin"
+		dynasty = "Malik"
+		birth_date = 1430.1.1
+		ADM = 2
+		DIP = 3
+		MIL = 2
+	}
+	heir = {
+		name = "Pratap"
+		monarch_name = "Pratap"
+		dynasty = "Malik"
+		birth_date = 1450.1.1
+		death_date = 1490.1.1
+		claim = 95
+		ADM = 3
+		DIP = 4
+		MIL = 2
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Pratap"
+		dynasty = "Malik"
+		birth_date = 1450.1.1
+		ADM = 3
+		DIP = 4
+		MIL = 2
+	}
+	heir = {
+		name = "Majlish" #Also Bayajid
+		monarch_name = "Majlish"
+		dynasty = "Pratap"
+		birth_date = 1470.1.1
+		death_date = 1530.1.1
+		claim = 95
+		ADM = 2
+		DIP = 3
+		MIL = 2
+	}
+}
+
+#Independence in 1489
+
+1490.1.1 = {
+	monarch = {
+		name = "Majlish"
+		dynasty = "Pratap"
+		birth_date = 1470.1.1
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+	heir = {
+		name = "Bazid" #Or Bayazid
+		monarch_name = "Bazid"
+		dynasty = "Pratap"
+		birth_date = 1490.1.1
+		death_date = 1570.1.1
+		claim = 95
+		ADM = 3
+		DIP = 2
+		MIL = 4
+	}
+}
+
+1510.1.1 = {
+	monarch = {
+		name = "Bazid"
+		dynasty = "Pratap"
+		birth_date = 1490.1.1
+		ADM = 3
+		DIP = 2
+		MIL = 4
+	}
+	government_rank = 2 #Pratapgarh seizes Sylhet. Bazid claims title of sultan
+}
+
+1515.1.1 = { government_rank = 1 } #Pratapgarh loses Sylhet to Bengal. Forced to revoke title
+
+1550.1.1 = {
+	heir = {
+		name = "Marhamat"
+		monarch_name = "Marhamat"
+		dynasty = "Khan"
+		birth_date = 1550.1.1
+		death_date = 1620.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 4
+	}
+}
+
+1570.1.1 = {
+	monarch = {
+		name = "Marhamat"
+		dynasty = "Khan"
+		birth_date = 1550.1.1
+		ADM = 2
+		DIP = 2
+		MIL = 4
+	}
+}
+
+1610.1.1 = {
+	heir = {
+		name = "Jamsher" #Also Shamsher
+		monarch_name = "Jamsher"
+		dynasty = "Khan"
+		birth_date = 1605.1.1
+		death_date = 1690.1.1
+		claim = 95
+		ADM = 1
+		DIP = 1
+		MIL = 1
+	}
+}
+
+1620.1.1 = {
+	monarch = {
+		name = "Jamsher"
+		dynasty = "Khan"
+		birth_date = 1605.1.1
+		ADM = 1
+		DIP = 1
+		MIL = 1
+	}
+}
+
+1660.1.1 = {
+	heir = {
+		name = "Aftab"
+		monarch_name = "Aftab"
+		dynasty = "Uddin"
+		birth_date = 1660.1.1
+		death_date = 1709.1.1 #Anywhere from 1708-1710
+		claim = 95
+		ADM = 1
+		DIP = 0
+		MIL = 2
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Aftab"
+		dynasty = "Uddin"
+		birth_date = 1570.1.1
+		ADM = 1
+		DIP = 0
+		MIL = 2
+	}
+	heir = {
+		name = "Shakir" #Brother
+		monarch_name = "Shakir"
+		dynasty = "Uddin"
+		birth_date = 1665.1.1
+		death_Date = 1720.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+}
+
+#Annexed by the Dimasa Kingdom between 1708-1710

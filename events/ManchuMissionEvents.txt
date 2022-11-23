@@ -144,10 +144,7 @@ country_event = {
 			total_development = 600
 		}
 		any_province = {
-			OR = {
-				area = taiwan_area
-				area = tamsui_area
-			}
+			area = taiwan_area
 			is_empty = yes
 		}
 	}
@@ -158,10 +155,7 @@ country_event = {
 		hidden_effect = {
 			random_province = {
 				limit = {
-					OR = {
-						area = taiwan_area
-						area = tamsui_area
-					}
+					area = taiwan_area
 					is_empty = yes
 				}
 				add_core = FRM

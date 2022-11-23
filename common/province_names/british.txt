@@ -204,7 +204,7 @@
 2727 = { "Albany" "Albany" } #Also possibly King George's Sound
 2728 = { "Bathurst Island" "Nguiu" }
 2729 = { "Arnhem" "East Arnhem" }
-2730 = { "Torres Strait" "Somerset" }
+2730 = { "Torres" "Somerset" }
 2731 = { "Cooktown" "Cooktown" }
 2732 = { "Townsville" "Townsville" }
 2733 = { "Mackay" "Mackay" }
@@ -276,6 +276,8 @@
 5057 = { "Daly Waters" "Powell Creek" }
 5058 = { "Balonne" "Surat" }
 5059 = { "Barwon" "Walgett" }
+
+5101 = { "Korff's Harbour" "Korff's Harbour" } #Corrupted to Coffs Harbour
 
 5146 = { "Coen River" "Coen" }
 5147 = { "Tintinara" "Tintinara" }
@@ -435,7 +437,11 @@
 
 #New Guinea
 1236 = { "East New Britain" "Simpson Harbour" }
-1273 = { "Port Moresby" "Port Moresby" }
+1245 = { "Doreri Bay" "Fort Coronation" }
+1237 = { "Port Moresby" "Port Moresby" }
+2722 = { "Morehead" "Morehead" }
+2723 = "Frederick Henry" #Frederik Hendrik Island
+4996 = "Trinton Bay"
 4999 = { "Hollandia" "Hollandia" }
 5004 = { "West New Britain" "Kimbe" }
 5005 = "New Ireland"

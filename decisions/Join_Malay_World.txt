@@ -1,0 +1,220 @@
+country_decisions = {
+
+	join_malay_world_dayak = {
+		major = yes
+		potential = {
+			technology_group = malay_group
+			primary_culture = dayak
+			NOT = { has_global_flag = dayak_to_kalimantan_flag }
+			normal_or_historical_nations = yes
+		}
+		allow = {
+			religion_group = muslim
+			primary_culture = dayak
+		}
+		effect = {
+			change_primary_culture = bornean
+			if = {
+				limit = {
+					ruler_culture = dayak
+				}
+				set_ruler_culture = bornean
+			}
+			if = {
+				limit = {
+					has_heir = yes
+					heir_culture = dayak
+				}
+				set_heir_culture = bornean
+			}
+			if = {
+				limit = {
+					has_consort = yes
+					consort_culture = dayak
+				}
+				set_consort_culture = bornean
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture = dayak
+					}
+					change_culture = bornean
+				}
+				every_country = {
+					limit = {
+						primary_culture = dayak
+					}
+					change_primary_culture = bornean
+				}
+				every_country = {
+					limit = {
+						ruler_culture = dayak
+					}
+					set_ruler_culture = bornean
+				}
+				every_country = {
+					limit = {
+						has_heir = yes
+						heir_culture = dayak
+					}
+					set_heir_culture = bornean
+				}
+				every_country = {
+					limit = {
+						has_consort = yes
+						consort_culture = dayak
+					}
+					set_consort_culture = bornean
+				}
+				set_global_flag = dayak_to_kalimantan_flag
+			}
+		}
+		ai_importance = 5000
+	}
+	join_malay_world_moluccan = {
+		major = yes
+		potential = {
+			technology_group = malay_group
+			primary_culture = moluccan
+			NOT = { has_global_flag = moluccan_to_moluccan_malay_flag }
+			normal_or_historical_nations = yes
+		}
+		allow = {
+			religion_group = muslim
+			primary_culture = moluccan
+		}
+		effect = {
+			change_primary_culture = moluccan_malay
+			if = {
+				limit = {
+					ruler_culture = moluccan
+				}
+				set_ruler_culture = moluccan_malay
+			}
+			if = {
+				limit = {
+					has_heir = yes
+					heir_culture = moluccan
+				}
+				set_heir_culture = moluccan_malay
+			}
+			if = {
+				limit = {
+					has_consort = yes
+					consort_culture = moluccan
+				}
+				set_consort_culture = moluccan_malay
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture = moluccan
+					}
+					change_culture = moluccan_malay
+				}
+				every_country = {
+					limit = {
+						primary_culture = moluccan
+					}
+					change_primary_culture = moluccan_malay
+				}
+				every_country = {
+					limit = {
+						ruler_culture = moluccan
+					}
+					set_ruler_culture = moluccan_malay
+				}
+				every_country = {
+					limit = {
+						has_heir = yes
+						heir_culture = moluccan
+					}
+					set_heir_culture = moluccan_malay
+				}
+				every_country = {
+					limit = {
+						has_consort = yes
+						consort_culture = moluccan
+					}
+					set_consort_culture = moluccan_malay
+				}
+				set_global_flag = moluccan_to_moluccan_malay_flag
+			}
+		}
+		ai_importance = 5000
+	}
+	join_malay_world_sulawesi = {
+		major = yes
+		potential = {
+			technology_group = malay_group
+			primary_culture = sulawesi
+			NOT = { has_global_flag = ugi_to_bugis_flag }
+			normal_or_historical_nations = yes
+		}
+		allow = {
+			religion_group = muslim
+			primary_culture = sulawesi
+		}
+		effect = {
+			change_primary_culture = bugis
+			if = {
+				limit = {
+					ruler_culture = sulawesi
+				}
+				set_ruler_culture = bugis
+			}
+			if = {
+				limit = {
+					has_heir = yes
+					heir_culture = sulawesi
+				}
+				set_heir_culture = bugis
+			}
+			if = {
+				limit = {
+					has_consort = yes
+					consort_culture = sulawesi
+				}
+				set_consort_culture = bugis
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture = sulawesi
+					}
+					change_culture = bugis
+				}
+				every_country = {
+					limit = {
+						primary_culture = sulawesi
+					}
+					change_primary_culture = bugis
+				}
+				every_country = {
+					limit = {
+						ruler_culture = sulawesi
+					}
+					set_ruler_culture = bugis
+				}
+				every_country = {
+					limit = {
+						has_heir = yes
+						heir_culture = sulawesi
+					}
+					set_heir_culture = bugis
+				}
+				every_country = {
+					limit = {
+						has_consort = yes
+						consort_culture = sulawesi
+					}
+					set_consort_culture = bugis
+				}
+				set_global_flag = ugi_to_bugis_flag
+			}
+		}
+		ai_importance = 5000
+	}
+}
+	

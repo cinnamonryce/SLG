@@ -1,0 +1,16 @@
+﻿l_english:
+ northern_secession.1.t:0 "Uproar in Sukhothai"
+ northern_secession.1.d:0 "The nobility of Sukhothai are up at arms, enraged by years of neglect from their overlord. Having long been promised court in the [Root.GetName] Kingdom by [Root.Monarch.GetTitle] [Root.Monarch.GetName], [SUK.Monarch.GetTitle] [SUK.Monarch.GetName] of Sukhothai was appalled to find that [SUK.Monarch.GetHerHis] overlord had taken back such vows at the expense of their personal friendship. With no one left to fall back upon, the nobles of Sukhothai are infuriated, itching for open war against [Root.GetName] as patriots of Sukhothai rally against the [Root.GovernmentName]."
+ northern_secession.1.a:0 "Sukhothai is rightfully ours!"
+ 
+ northern_secession.2.t:0 "Peace in the Chao Phraya"
+ northern_secession.2.d:0 "Victorius [Root.GetAdjective] troops have reentered the city of [SUK.Capital.GetCapitalName] following a swift and formal annexation of the city. The banner of [Root.GetName] has been planted in the former palace of its liege, while hefty sentences and executions have been laid out for apparent traitors and deserters. [Root.Monarch.GetName] has alas proclaimed victory, declaring the reunification of [Root.GetName] and Sukhothai, restoring the status quo dispelled by the disloyal principality's rebellion. With the end of the war, peace has been restored to the Chao Phraya Basin. For now..."
+ northern_secession.2.d2:0 "Despite [Root.GetName]'s desperate attempts to reclaim its former vassal state of Sukhothai, the [Root.GetAdjective] campaign to topple [SUK.Monarch.GetName] has failed. Defeated [Root.GetAdjective] troops have been routed from the Upper Chao Phraya, fleeing from advancing enemies as Sukhothai and its alies declare total and absolute victory over [Root.GetName]. With all fighting now far from the outskirts of [SUK.Capital.GetCapitalName], a new era of Tai history has now begun, marking the end of an age of [Root.GetAdjective] dominance."
+ northern_secession.2.d3:0 "Despite [Root.GetName]'s desperate attempts to reclaim its former vassal state of Sukhothai, the [Root.GetAdjective] campaign to topple [SUK.Monarch.GetName] has failed. An outside power has instead conquered Sukhothai, leaving a defeated [Root.GetName] to watch from the sidelines as it is barred from re-entering its own prized possession."
+ northern_secession.2.a:0 "Never again shall we be divided!"
+ northern_secession.2.b:0 "This shall not be the end for us..."
+ 
+ northern_secession.3.t:0 "The Chakravartin Wars"
+ northern_secession.3.d:0 "War has erupted in the northern Chao Phraya. Provoked by deceitful foreign whispers, the nobles of Sukhothai have revolted against our benevolent rule, foolishly believing that they are entitled to self-determination. \n\nWith an unguarded northern flank, the possibility of a northern incursion from [SUK.Capital.GetCapitalName] looms over the minds of our subjects and generals. Against the wishes of the nobles of [Root.Capital.GetCapitalName], [Root.Monarch.GetTitle] [Root.Monarch.GetName] has proposed that until the ascension of the next [Root.Monarch.GetTitle], the capital temporarily be relocated to [2388.GetName], guarding our northern borders."
+ northern_secession.3.a:0 "An excellent proposal!"
+ northern_secession.3.b:0 "Bah! Ridiculous!"

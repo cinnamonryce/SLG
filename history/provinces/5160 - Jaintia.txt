@@ -2,10 +2,10 @@
 
 owner = KHS
 controller = KHS
-culture = wa
-religion = animism
+culture = khasi
+religion = hinduism
 capital = "Jaintiapur"
-trade_goods = grain
+trade_goods = tea
 hre = no
 base_tax = 1 
 base_production = 1

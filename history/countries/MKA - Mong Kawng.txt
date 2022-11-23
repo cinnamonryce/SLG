@@ -8,6 +8,7 @@ capital = 2396 	# Mong Kawng
 fixed_capital = 2396
 historical_friend = ASS
 historical_friend = MYA
+historical_friend = MMA
 
 change_estate_land_share = {
 	estate = estate_burghers

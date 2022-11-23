@@ -47,7 +47,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1247;127;sea;1298;-1;-1;-1;-1;Corsica-Sardinia
 394;396;sea;4347;3589;1076;3592;1074;Al Hasa-Bahrain
 395;396;sea;4347;3596;1071;3601;1071;Qatar-Bahrain
-5121;4351;sea;4357;4729;792;4732;786;Dadiangas-Buglas
+5120;4351;sea;4357;4729;792;4732;786;Dadiangas-Buglas
 1107;2738;sea;1423;5548;114;5542;114;Taranaki-Waitaha
 1268;1258;canal;1775;-1;-1;-1;-1;kiel_canal
 1548;1515;canal;835;-1;-1;-1;-1;panama_canal
@@ -114,6 +114,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2678;622;sea;1361;4446;618;4443;617;Bangka-Palembang
 2686;4815;sea;1361;-1;-1;-1;-1;Bintan-Singapore
 1236;5005;sea;1405;-1;-1;-1;-1;Rabaul-Kavieng
-1248;5155;sea;1615;-1;-1;-1;-1;Maldives-Thiladhunmathi #1248;5155;sea;1615;3947;722;3949;721
+1248;5155;sea;1619;-1;-1;-1;-1;Maldives-Thiladhunmathi
+5033;5148;sea;1415;-1;-1;-1;-1;Karta-Permangk
 1340;1341;canal;2100;-1;-1;-1;-1;palk_strait
 -1;-1;;-1;-1;-1;-1;-1;-1;

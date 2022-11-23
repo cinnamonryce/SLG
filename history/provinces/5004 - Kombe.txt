@@ -1,6 +1,6 @@
 #Kombe
 
-culture = polynesian
+culture = ngero
 religion = animism
 capital = "Kombe"
 trade_goods = unknown

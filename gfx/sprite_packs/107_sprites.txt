@@ -1,8 +1,13 @@
-
 dlc107_aboriginal_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
-		culture_group = aboriginal_australian
+		OR = {
+			culture_group = aboriginal_australian
+			AND = {
+				culture_group = melanesian_group
+				NOT = { primary_culture = melanesian }
+			}
+		}
 	}
 	
 	graphical_cultures = {
@@ -34,7 +39,11 @@ dlc107_aboriginal_sprite_pack = {
 dlc107_polynesian_sprite_pack = {
 	# Tests against every tag in game	
 	country_trigger = {
-		culture_group = pacific
+		OR = {
+			culture_group = pacific
+			primary_culture = formosan
+			tag = TTU
+		}
 	}
 	
 	graphical_cultures = {
@@ -101,11 +110,13 @@ dlc107_BEI_sprite_pack = {
 		OR = {
 			primary_culture = bruneian
 			tag = MKS
-			primary_culture = danao
-			tag = BNJ
+			primary_culture = banjarese
 			primary_culture = bornean
 			primary_culture = sulawesi
+			primary_culture = bugis
+			primary_culture = ugi
 			primary_culture = moluccan_malay
+			primary_culture = danao
 		}
 	}
 
@@ -270,8 +281,12 @@ dlc107_LNA_sprite_pack = {
 	country_trigger = {
 		OR = {
 			primary_culture = northern_thai
+			primary_culture = ahom
 			tag = LNA
 			tag = NAN
+			tag = MMA
+			tag = MYA
+			tag = MKA
 		}
 	}
 	sprite_infantry = {
@@ -306,6 +321,17 @@ dlc107_LUA_sprite_pack = {
 		OR = {
 			primary_culture = lao
 			primary_culture = degar
+			primary_culture = chin
+			primary_culture = kachari
+			primary_culture = karen
+			primary_culture = khasi
+			primary_culture = kachin
+			tag = KAC
+			tag = TPR
+			AND = {
+				culture_group = lingnan
+				NOT = { primary_culture = vietnamese }
+			}
 		}
 	}
 

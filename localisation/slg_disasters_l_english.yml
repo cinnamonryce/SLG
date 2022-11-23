@@ -43,3 +43,8 @@
  
  #Malacca
  loss_of_malacca:0 "Loss of Malacca"
+ 
+ #Ayutthaya
+ northern_secession:0 "Northern Secession"
+ sukhothai_nobles_angered_tt:0 "Has triggered the event '§YSukhothai Antagonized§!'"
+ northern_secession_border_tt:0 "§Y[Root.GetName]§! and its non-Tributary State subjects do NOT own a province bordering §Y[601.GetName]§!"

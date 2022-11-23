@@ -3,7 +3,7 @@ palk_strait = {
     start = 2100
     
     # date built in real life (so anything built during game time will be there if you start a game after that date)
-    date = 1480.1.1
+    date = 1444.1.1
     
     #time to build
     time = {
@@ -11,7 +11,7 @@ palk_strait = {
     }
     
     #how much to build one
-    build_cost = 100
+    build_cost = 1000
 
     #can we move it?
     can_be_moved = no
@@ -24,12 +24,10 @@ palk_strait = {
 
     #can we build it?
     build_trigger = {
-        #has_global_flag = palk_strait_cyclone_happened
-		#FROM = {
-		#	owns_or_vassal_of = 2100
-		#	adm_tech = 3
-		#}
-		always = no		
+		FROM = {
+			owns = 2100
+			adm_tech = 3
+		}		
     }
 
     #what to do when it's built
@@ -43,18 +41,15 @@ palk_strait = {
     }
 
     #can our country use it?
-    can_use_modifiers_trigger = {
-		always = no	
+    can_use_modifiers_trigger = {	
     }
 
     #can our country upgrade it?
     can_upgrade_trigger = {
-		always = no	
     }
     
     #can our country keep it or is it destroyed when we get hold of it?
-    keep_trigger = {
-		always = no	
+    keep_trigger = {	
     }
 
     #tier data
@@ -71,7 +66,6 @@ palk_strait = {
 
         #what modifiers are added to the province when we have this project here on this tier
         province_modifiers = {
-            province_trade_power_value = 10
         }
 
         #what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -80,7 +74,6 @@ palk_strait = {
 
         #what modifiers are added to the country when we have this project here on this tier
         country_modifiers = {
-            global_trade_power = 0.01
         }
 
         #what effects happen when this tier is achieved
@@ -96,7 +89,7 @@ palk_strait = {
 
         #cost to upgrade to this level (0 for tier 0)
         cost_to_upgrade = {
-            factor = 1
+            factor = 1000
         }
 
         #what modifiers are added to the province when we have this project here on this tier
@@ -125,7 +118,7 @@ palk_strait = {
 
         #cost to upgrade to this level (0 for tier 0)
         cost_to_upgrade = {
-            factor = 1000
+            factor = 2500
         }
 
         #what modifiers are added to the province when we have this project here on this tier
@@ -154,7 +147,7 @@ palk_strait = {
 
         #cost to upgrade to this level (0 for tier 0)
         cost_to_upgrade = {
-            factor = 1000
+            factor = 5000
         }
 
         #what modifiers are added to the province when we have this project here on this tier

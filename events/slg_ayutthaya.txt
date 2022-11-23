@@ -97,37 +97,12 @@ country_event = {
 			dip = 1
 			mil = 3
 		}
-		if = {
-			limit = {
-				any_owned_province = {
-					culture = ROOT
-					highest_supply_limit_in_area = yes
-				}
-			}
-			random_owned_province = {
-				limit = {
-					culture = ROOT
-					highest_supply_limit_in_area = yes
-				}
-				spawn_rebels = {
-					type = pretender_rebels
-					size = 3
-					leader = "Chakkraphat"
-					leader_dynasty = "Suphannaphum"
-				}
-			}
-		}
-		else = {
-			random_owned_province = {
-				limit = {
-					culture = ROOT
-				}
-				spawn_rebels = {
-					type = pretender_rebels
-					size = 3
-					leader = "Chakkraphat"
-					leader_dynasty = "Suphannaphum"
-				}
+		capital_scope = {
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 3
+				leader = "Chakkraphat"
+				leader_dynasty = "Suphannaphum"
 			}
 		}
 		hidden_effect = {
@@ -158,37 +133,12 @@ country_event = {
 			dip = 1
 			mil = 2
 		}
-		if = {
-			limit = {
-				any_owned_province = {
-					culture = ROOT
-					highest_supply_limit_in_area = yes
-				}
-			}
-			random_owned_province = {
-				limit = {
-					culture = ROOT
-					highest_supply_limit_in_area = yes
-				}
-				spawn_rebels = {
-					type = pretender_rebels
-					size = 3
-					leader = "Worawongsa"
-					leader_dynasty = "Uthong"
-				}
-			}
-		}
-		else = {
-			random_owned_province = {
-				limit = {
-					culture = ROOT
-				}
-				spawn_rebels = {
-					type = pretender_rebels
-					size = 3
-					leader = "Worawongsa"
-					leader_dynasty = "Uthong"
-				}
+		capital_scope = {
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 2
+				leader = "Worawongsa"
+				leader_dynasty = "Uthong"
 			}
 		}
 		hidden_effect = {

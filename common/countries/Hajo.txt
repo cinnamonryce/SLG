@@ -2,7 +2,7 @@
 
 graphical_culture = indiangfx
 
-color = { 100  214  217 }
+color = { 45  204  145 }
 revolutionary_colors = { 5 0 5 }
 
 historical_idea_groups = {

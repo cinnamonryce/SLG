@@ -3,10 +3,6 @@ dlc041_tib_sprite_pack = {
 	country_trigger = {
 		OR = {
 			culture_group = tibetan_group
-			AND = {
-				culture_group = lingnan
-				NOT = { primary_culture = vietnamese }
-			}	
 		}			
 	}
 
@@ -35,7 +31,12 @@ dlc041_tib_sprite_pack = {
 dlc041_cey_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
-		primary_culture = sinhala
+		OR = {
+			primary_culture = sinhala
+			primary_culture = maldivian
+			tag = PRT
+			tag = CKM
+		}
 	}
 
 	sprite_infantry = {
@@ -92,15 +93,16 @@ dlc041_lxa_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
 		OR = {
-			tag = ASS
-			tag = SDY
-			tag = MLB
 			tag = KET
 			tag = SSP
 			tag = KGC
 			tag = LXA
+			tag = KAC
+			tag = TPR
+			primary_culture = kochi
 			primary_culture = shan
 			primary_culture = arakanese
+			primary_culture = assamese
 		}
 	}
 
@@ -125,3 +127,34 @@ dlc041_lxa_sprite_pack = {
 		3 = LXA_ARTILLERY_4
 	}
 }
+
+dlc041_lxa_unique_sprite_pack = {
+	available_for_custom_nation = no
+	# Tests against every tag in game
+	
+	country_trigger = {
+		tag = LXA
+	}
+
+	sprite_infantry = {
+		0 = LXA_INFANTRY_1
+		1 = LXA_INFANTRY_2
+		2 = LXA_INFANTRY_3
+		3 = LXA_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = LXA_CAVALRY_1
+		1 = LXA_CAVALRY_2
+		2 = LXA_CAVALRY_3
+		3 = LXA_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = LXA_ARTILLERY_1
+		1 = LXA_ARTILLERY_2
+		2 = LXA_ARTILLERY_3
+		3 = LXA_ARTILLERY_4
+	}
+}
+

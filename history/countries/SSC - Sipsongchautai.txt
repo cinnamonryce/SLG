@@ -4,6 +4,7 @@ technology_group = indochinese
 religion = animism
 primary_culture = lao
 capital = 2371 #Muong La
+government_rank = 1
 
 change_estate_land_share = {
 	estate = estate_burghers

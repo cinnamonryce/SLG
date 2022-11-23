@@ -2,7 +2,7 @@
 
 culture = moluccan_malay
 religion = animism
-capital = "Waigeo"
+capital = "Waisal"
 trade_goods = unknown
 hre = no
 base_tax = 2 
@@ -16,4 +16,28 @@ discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 
+1460.1.1 = {
+	owner = TID
+	controller = TID
+	add_core = TID
+	is_city = yes
+	trade_goods = spices
+}
+
+1500.1.1 = {
+	religion = sunni
+}
+
 1512.1.1 = { discovered_by = POR } # Francisco Serrão
+
+1660.1.1 = {
+	owner = NED
+	controller = NED
+	add_core = NED
+	remove_core = TID
+	add_to_trade_company = NED
+	add_trade_company_investment = {
+		investment = company_administration
+		investor = NED
+	}
+} #VOC treaty with Tidore

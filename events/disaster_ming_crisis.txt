@@ -416,7 +416,6 @@ country_event = {
 				area = zhejiang_area
 				area = fujian_area
 				area = taiwan_area
-				area = tamsui_area
 				area = guangdong_area
 				area = northern_guangdong_area
 				area = west_guangdong_area
@@ -448,7 +447,6 @@ country_event = {
 								area = zhejiang_area
 								area = fujian_area
 								area = taiwan_area
-								area = tamsui_area
 							}
 							OR = {
 								controlled_by = REB

@@ -7,6 +7,8 @@ capital = 2166 # Dehong
 historical_rival = MNG
 historical_rival = HSE
 historical_friend = ASS
+historical_friend = MKA
+historical_friend = MYA
 
 change_estate_land_share = {
 	estate = estate_burghers

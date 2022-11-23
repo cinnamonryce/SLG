@@ -7,8 +7,8 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_disaster_northern_succession"
-		texturefile = "gfx//interface//disasters//northern_succession.dds"
+		name = "GFX_disaster_northern_secession"
+		texturefile = "gfx//interface//disasters//northern_secession.dds"
 		noOfFrames = 3
 		loadType = "INGAME"
 	}	

@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = native_chieftain_system_reform
 government_rank = 1
-primary_culture = bengali
+primary_culture = chittagonian
 add_accepted_culture = chin
 religion = buddhism
 technology_group = indian

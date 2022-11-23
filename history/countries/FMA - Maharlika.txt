@@ -4,6 +4,5 @@ technology_group = malay_group
 primary_culture = filipino
 capital = 656 #Manila
 religion = animism
-government_rank = 2
 
 1571.5.1 = { religion = catholic }

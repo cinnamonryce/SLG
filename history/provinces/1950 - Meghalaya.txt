@@ -1,7 +1,16 @@
-# - Meghalaya
+#1950 - Garo
 
-
-
+culture = khasi
+religion = animism
+capital = "Simsanggre"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 20
+native_ferocity = 7
+native_hostileness = 5
 
 discovered_by = indian
 discovered_by = chinese

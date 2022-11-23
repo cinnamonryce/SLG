@@ -15,7 +15,7 @@
  mma.2.b:0 "We are not finished with this war!"
  
  flavor_suk.1.t:0 "The Ascension of [Root.Monarch.GetName]"
- flavor_suk.1.d:0 "In recent years the once mighty Kingdom of Sukhothai has become no more than a viceroyalty of Ayutthaya. Seizing an opportunity to gain more control over Sukhothai, an Ayutthayan prince was appointed as King of Sukhothai following the death of their last sovereign king, Borommapan. With the ascension of [Root.Monarch.GetName], it has recently been suggested by members of our court that a warmer relationship between the two states should be established."
+ flavor_suk.1.d:0 "In recent years the once mighty Kingdom of Sukhothai has become no more than a viceroyalty of Ayutthaya. Seizing an opportunity to gain more control over Sukhothai, an Ayutthayan prince was appointed as king of Sukhothai following the death of their last sovereign king, Borommapan. With the ascension of [Root.Monarch.GetName], it has recently been suggested by members of our court that a warmer relationship between the two states should be established."
  flavor_suk.1.a:0 "We shall seek warmer relations with Sukhothai"
  flavor_suk.1.b:0 "Bah! What a preposterous idea!"
  
@@ -75,9 +75,13 @@
  slg_misc_malay.2.t:0 "Incestuous Allegations"
  slg_misc_malay.2.d:0 "Sealed off from all beyond the boundaries of the royal court, the children of [Root.Monarch.GetTitle] [Root.Monarch.GetName] have always been close. Alleged reports from the palace guard however have claimed that Prince [Root.Heir.GetName] has deviated from the familial norm, apparently involved in a romantic relationship with his own sister, Princess Dare Nandong. \n\nWhile frequently displaying atypically affectionate behavior towards each other, the two have also been alleged to commonly fantasize about each other in a romantic matter, leaving [Root.Monarch.GetTitle] [Root.Monarch.GetName] to ponder whether the familial relationship shared between the two is more than what it seems..."
  slg_misc_malay.2.a:0 "Incestuous! Disgusting! Bury them alive!
- slg_misc_malay.2.b:0 "These are foolish allegations!"
+ slg_misc_malay.2.b:0 "These are foolish allegations"
  
  capture_of_malacca.1.t:0 "The Capture of Malacca"
  capture_of_malacca.1.d:0 "The first Portuguese references to Malacca appeared after Vasco da Gama returned from his expedition to Calicut. The city was described as being a forty day journey away from India, where clove, nutmeg, porcelains and silk were sold in abundance. Supposedly, the city was ruled by a Christian sovereign, who could amass an army of ten thousand men for war, which prompted King Manuel to find the city. \n\nA first expedition was launched in 1509, but ultimately failed, resulting in the capture of most of the soldiers at the hands of the Sultan. In 1511, the Viceroy of India, Alfonso de Albuquerque, launched a second expedition to sieze Malacca, and in July, following a rejected ultimatum to release all the prisoners from the 1509 expedition, the Sultan strengthened his defenses to prepare for an inevitable invasion. \n\nOver the course of two assaults, Albuquerque's men conquered the city, pillaging the households of those not allied to the Portuguese. The Sultan of Malacca tried several times to retake the city, but all attempts failed, leading to the eventual downfall of the sultanate."
  capture_of_malacca.1.a:0 "Sack the city!"
  capture_of_malacca.1.b:0 "Just demand the return of our men"
+ 
+ slg_prices.1.t:0 "The Clove Monopoly"
+ slg_prices.1.d:0 "Spices like that of cloves had always been a luxurious commodity in the West, but the excessive European demand for spices drove global prices up significantly. With Europe's discovery of the clove-rich Moluccas, an archipelago part of a wider region dubbed the 'East Indies,' the Moluccans were pressed to safeguard their monopoly over the spice, leading to inflated prices that would later fund their rise to political prominence in Asia. While cloves soon grew to become one of the West's most sought-after spices, merchants profited from an increase in demand, with clove prices often soaring to a thousand percent their original value in Europe."
+ slg_prices.1.a:0 "Enforce a limit on clove exportation!"

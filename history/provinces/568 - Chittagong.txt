@@ -2,8 +2,8 @@
 
 owner = BNG
 controller = BNG
-culture = bengali
-religion = hinduism #A good case could be made that this province was atleast 50% buddhist
+culture = chittagonian
+religion = hinduism
 capital = "Chittagong"
 trade_goods = cotton
 hre = no

@@ -68,6 +68,14 @@ KHS = "countries/Khasi.txt"
 HAJ = "countries/Hajo.txt"
 CKM = "countries/Chakma.txt"
 KUK = "countries/Kuki.txt"
+TRF = "countries/Taraf.txt"
+NGL = "countries/Nagaland.txt"
+JGP = "countries/Jingpho.txt"
+PRT = "countries/Pratapgarh.txt"
+
+QIO = "countries/Qiong.txt"
+HLI = "countries/Li.txt"
+
 
 #New Tibetan tags by Macky527
 #Tibetan Tags

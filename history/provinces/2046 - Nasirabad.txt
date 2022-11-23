@@ -2,7 +2,7 @@
 
 owner = BNG
 controller = BNG
-culture = bengali
+culture = sylheti
 religion = hinduism
 capital = "Nasirabad"
 trade_goods = cotton

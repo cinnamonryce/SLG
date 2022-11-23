@@ -4,6 +4,7 @@ primary_culture = yi
 religion = animism
 technology_group = chinese
 capital = 674	# Guiyang
+historical_rival = MNG
 
 1440.1.1 = {
 	monarch = {

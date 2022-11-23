@@ -137,8 +137,8 @@
  
  DMA:0 "Ma"
  DMA_ADJ:0 "Ma"
- KHS:0 "Khasi"
- KHS_ADJ:0 "Khasi"
+ KHS:0 "Jaintia"
+ KHS_ADJ:0 "Jaintia"
  HAJ:0 "Hajo"
  HAJ_ADJ:0 "Hajo"
  CKM:0 "Chakma"
@@ -151,14 +151,26 @@
  KAC_ADJ:0 "Dimasa"
  ASS:0 "Ahom"
  ASS_ADJ:0 "Ahom"
+ TRF:0 "Taraf"
+ TRF_ADJ:0 "Taraf"
+ NGL:0 "Nagas"
+ NGL_ADJ:0 "Naga"
+ JGP:0 "Jingphos"
+ JGP_ADJ:0 "Jingpho"
+ PRT:0 "Pratapgarh"
+ PRT_ADJ:0 "Pratapgarh"
  
  SVD:0 "Suvadive"
  SVD_ADJ:0 "Suvadive"
  
- CGS:0 "Liangguang"
- CGS_ADJ:0 "Liangguang"
- CYI: "Shuixi" #Formerly Mu'ege
- CYI_ADJ: "Shuixi"
+ CGS:0 "Tianzhou"
+ CGS_ADJ:0 "Tianzhou"
+ CYI:0 "Shuixi" #Formerly Mu'ege
+ CYI_ADJ:0 "Shuixi"
+ HLI:0 "Li"
+ HLI_ADJ:0 "Li"
+ QIO:0 "Qiong"
+ QIO_ADJ:0 "Qiong"
  
  #Australian Tags
  MLG:0 "Yamatji"
@@ -219,10 +231,6 @@
  HNZ_ADJ: "Hunzan"
  CTR: "Chitral"
  CTR_ADJ: "Chitral"
- UTS: "Rinpungpa"
- UTS_ADJ: "Rinpungpa"
- PHA: "Phagmodrupa"
- PHA_ADJ: "Phagmodrupa"
  GUN: "Gungthang"
  GUN_ADJ: "Gungthang"
  PAO: "Paro"

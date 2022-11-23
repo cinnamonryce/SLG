@@ -21,3 +21,15 @@ scolded_by_overlord = {
 	opinion = -50
 	yearly_decay = 2
 }
+
+joined_the_malay_world = {
+	opinion = 25
+	yearly_decay = 1
+}
+
+#Northern Secession Opinion Modifiers
+
+itching_for_war = {
+	opinion = -75
+	yearly_decay = 1
+}

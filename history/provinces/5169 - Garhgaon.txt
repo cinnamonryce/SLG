@@ -21,10 +21,12 @@ discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 
+1497.1.1 = {
+	religion = hinduism
+}
 1540.1.1 = {
 	fort_15th = yes
 }
-
 1627.1.1 = { discovered_by = POR }
 1707.1.1 = {
 	fort_15th = no

@@ -12,7 +12,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = YUE
+add_core = QIO
 
 extra_cost = 8
 center_of_trade = 1

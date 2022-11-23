@@ -1,6 +1,7 @@
 government = tribal
 add_government_reform = native_chieftain_system_reform
-primary_culture = wa
+government_rank = 1
+primary_culture = khasi
 religion = hinduism
 technology_group = indian
 capital = 5160 #Jaintia

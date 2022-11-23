@@ -1,25 +1,29 @@
 #Barak
 
-owner = KAC
-controller = KAC
-culture = chin
+owner = PRT
+controller = PRT
+culture = kachari
 religion = animism
 capital = "Karimganj"
 trade_goods = tea
 hre = no
-base_tax = 1 
-base_production = 1
+base_tax = 2
+base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = KAC
-
-
+add_core = PRT
 
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
+
+1709.1.1 = {
+	owner = KAC
+	controller = KAC
+	add_core = KAC
+}
 
 
 1760.1.1 = { discovered_by = GBR }

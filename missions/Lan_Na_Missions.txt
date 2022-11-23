@@ -387,6 +387,9 @@ lna_missions_2 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 	lna_sway_kengtung = {
 		icon = mission_conquer_kengtung
@@ -769,9 +772,6 @@ lna_missions_5 = {
 		ai_weight = {
 			factor = 2
 		}
-		ai_priority = {
-			factor = 1
-		}
 		
 		trigger = {
 			num_of_total_ports = 5
@@ -789,6 +789,9 @@ lna_missions_5 = {
 				manuever = 2
 				siege = 2
 			}
+		}
+		ai_weight = {
+			factor = 100
 		}
 	}
 	lna_globalization = {

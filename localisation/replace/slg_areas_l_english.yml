@@ -88,13 +88,9 @@
  west_guangxi_area_name:0 "Western Guangxi"
  west_guangxi_area_adj:0 "Western Guangxi"
  
- taiwan_area:0 "Tayouan"
- taiwan_area_name:0 "Tayouan"
- taiwan_area_adj:0 "Tayouan"
- 
- tamsui_area:0 "Tamsui"
- tamsui_area_name:0 "Tamsui"
- tamsui_area_adj:0 "Tamsui"
+ taiwan_area:0 "Formosa"
+ taiwan_area_name:0 "Formosa"
+ taiwan_area_adj:0 "Formosa"
  
  northern_guangdong_area:0 "Northern Guangdong"
  northern_guangdong_area_name:0 "Northern Guangdong"
@@ -196,10 +192,6 @@
  johor_area_name:0 "Johor"
  johor_area_adj:0 "Johorean"
  
- #kalimantan_area:0 "Dayak"
- #kalimantan_area_name:0 "Dayak"
- #kalimantan_area_adj:0 "Dayak"
- 
  kotawaringin_area:0 "Kotawaringin"
  kotawaringin_area_name:0 "Kotawaringin"
  kotawaringin_area_adj:0 "Waringin"
@@ -236,8 +228,8 @@
  siam_region_name:0 "Siam"
  siam_region_adj:0 "Siamese"
  
- kra_isthmus_area:0 "Kra Isthmus"
- kra_isthmus_area_name:0 "Kra Isthmus"
+ kra_isthmus_area:0 "Kra"
+ kra_isthmus_area_name:0 "Kra"
  kra_isthmus_area_adj:0 "Kra"
  
  philippines_region:0 "Philippines"
@@ -256,6 +248,10 @@
  papua_area_name:0 "Irian"
  papua_area_adj:0 "Irian"
  
+ mimika_area:0 "Mimika"
+ mimika_area_name:0 "Mimika"
+ mimika_area_adj:0 "Mimika"
+ 
  merauke_area:0 "Merauke"
  merauke_area_name:0 "Meraukean"
  merauke_area_adj:0 "Meraukean"
@@ -263,6 +259,10 @@
  birds_tail_area:0 "Bird's Tail Peninsula"
  birds_tail_area_name:0 "Bird's Tail Peninsula"
  birds_tail_area_adj:0 "Bird's Tail"
+ 
+ fly_area:0 "Fly"
+ fly_area_name:0 "Fly"
+ fly_area_adj:0 "Fly"
  
  momase_area:0 "Momase"
  momase_area_name:0 "Momase"
@@ -322,25 +322,25 @@
  goldfields_area_name:0 "Goldfields"
  goldfields_area_adj:0 "Goldfield"
  
- murray_river_area:0 "Murray River" #Alternatively Limestone Coast
- murray_river_area_name:0 "Murray River"
- murray_river_area_adj:0 "Murray River"
+ murray_river_area:0 "Limestone Coast"
+ murray_river_area_name:0 "Limestone Coast"
+ murray_river_area_adj:0 "Limestone Coast"
  
- fleurieu_area:0 "Fleurieu"
- fleurieu_area_name:0 "Fleurieu"
- fleurieu_area_adj:0 "Fleurieuan"
+ fleurieu_area:0 "Riverland"
+ fleurieu_area_name:0 "Riverland"
+ fleurieu_area_adj:0 "Riverlander"
  
- southern_australia_area:0 "Yarra" #Or Kulin
- southern_australia_area_name:0 "Yarra"
- southern_australia_area_adj:0 "Yarra"
+ southern_australia_area:0 "Murray"
+ southern_australia_area_name:0 "Murray"
+ southern_australia_area_adj:0 "Murray"
  
  eastern_australia_area:0 "Orana"
  eastern_australia_area_name:0 "Orana"
  eastern_australia_area_adj:0 "Orana"
  
- illawara_area:0 "Southern Tablelands"
- illawara_area_name:0 "Southern Tablelands"
- illawara_area_adj:0 "Southern Tableland"
+ illawara_area:0 "Tablelands"
+ illawara_area_name:0 "Tablelands"
+ illawara_area_adj:0 "Tablelands"
  
  arnhem_land_area:0 "Arnhem Land"
  arnhem_land_area_name:0 "Arnhem Land"
@@ -358,17 +358,17 @@
  eyre_area_name:0 "Eyre"
  eyre_area_adj:0 "Eyre"
  
- barwon_area:0 "Barwon"
- barwon_area_name:0 "Barwon"
- barwon_area_adj:0 "Barwon"
+ barwon_area:0 "Australia Felix"
+ barwon_area_name:0 "Australia Felix"
+ barwon_area_adj:0 "Australia Felix"
  
- bass_coast_area:0 "Bass Coast"
- bass_coast_area_name:0 "Bass Coast"
- bass_coast_area_adj:0 "Bass Coast"
+ bass_coast_area:0 "Bass"
+ bass_coast_area_name:0 "Bass"
+ bass_coast_area_adj:0 "Bass"
  
- northern_tablelands_area:0 "Northern Tablelands"
- northern_tablelands_area_name:0 "Northern Tablelands"
- northern_tablelands_area_adj:0 "Northern Tableland"
+ mid_north_coast_area:0 "North Coast"
+ mid_north_coast_name:0 "North Coast"
+ mid_north_coast_adj:0 "North Coast"
  
  north_west_slopes_area:0 "North West Slopes"
  north_west_slopes_area_name:0 "North West Slopes"
@@ -433,6 +433,30 @@
  western_assam_area:0 "Western Assam"
  western_assam_area_name:0 "Western Assam"
  western_assam_area_adj:0 "Western Assamese"
+ 
+ naga_hills_area:0 "Cachar Hills"
+ naga_hills_area_name:0 "Cachar Hills"
+ naga_hills_area_adj:0 "Cachari"
+ 
+ frontier_tracts_area:0 "Frontier Tracts"
+ frontier_tracts_area_name:0 "Frontier Tracts"
+ frontier_tracts_area_adj:0 "Frontier Tracts"
+ 
+ dacca_area:0 "Dacca"
+ dacca_area_name:0 "Dacca"
+ dacca_area_adj:0 "Dacca"
+ 
+ east_bengal_area:0 "Sylhet"
+ east_bengal_area_name:0 "Sylhet"
+ east_bengal_area_adj:0 "Sylhet"
+ 
+ gulf_of_siam_area:0 "Gulf of Siam"
+ gulf_of_siam_area_name:0 "Gulf of Siam"
+ gulf_of_siam_area_adj:0 "Gulf of Siam"
+ 
+ malay_archipelago_region:0 "Malay Archipelago"
+ malay_archipelago_region_name:0 "Malay Archipelago"
+ malay_archipelago_region_adj:0 "Malay Archipelago"
  
  #Tibetan Stuff by Macky
  tsaidam_area: "Tsaidam"

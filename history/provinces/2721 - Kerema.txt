@@ -1,6 +1,6 @@
 #2721 - Kerema
 
-culture = gulf_papuan
+culture = papuan
 religion = animism
 capital = "Kerema"
 trade_goods = unknown

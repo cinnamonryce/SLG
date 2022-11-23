@@ -36,7 +36,7 @@ native_chieftain_system_reform = {
 }
 
 heavenly_monarchy_reform = {
-	icon = "peacock_throne"
+	icon = "misl_confederacy"
 	allow_normal_conversion = yes
 	potential = {
 		NOT = {

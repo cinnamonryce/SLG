@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 253  134  147 }
+color = { 145  81  94 }
 revolutionary_colors = { 10  5  13 } #Bnei Menashe flag
 
 historical_idea_groups = {

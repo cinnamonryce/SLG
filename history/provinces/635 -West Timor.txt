@@ -25,7 +25,6 @@ discovered_by = ottoman
 	owner = POR
 	controller = POR
 	add_core = POR
-	culture = portugese
 	is_city = yes
 	trade_goods = spices
 } # Portuguese colony

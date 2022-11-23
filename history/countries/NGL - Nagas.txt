@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = stateless_society
+government_rank = 1
+primary_culture = kachari
+religion = animism
+technology_group = indian
+capital = 570	# Wokha
+
+1291.1.1 = {
+	monarch = {
+		name = "Naga Tribes"
+		adm = 0
+		dip = 0
+		mil = 3
+		regent = yes
+	}
+}

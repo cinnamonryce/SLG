@@ -381,7 +381,7 @@ ship_names = {
 	"Yum Phai" Chulamani "Si Sanphet" Sinsamut Aphaimani Matchanu Inthorachit Kraithong Yutthithira
 	Kumphakan Phiphek "Plai Ngam" "Plai Kaeo" Wanthong Sithanonchai Honwichai Kawi Rotthasen
 	Thotsakirithon Thotsakiriwan Sahasadecha Mahothon Paowanasun Ramasun Mekkhala Chalawan Sisin
-	Chanthrakob Chaiyachet "Phra Apaimani" Suwanmali Mujarin "Phra Ruang" Sangthong "Khun Chang"
+	Chanthrakob Chaiyachet "Phra Apaimani" Suwanmali Mucharin "Phra Ruang" Sangthong "Khun Chang"
 }
 
 army_names = {

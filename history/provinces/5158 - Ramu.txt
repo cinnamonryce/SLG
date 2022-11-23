@@ -2,7 +2,7 @@
 
 owner = ARK
 controller = ARK
-culture = arakanese
+culture = chittagonian
 religion = buddhism
 capital = "Ramu"
 trade_goods = fish

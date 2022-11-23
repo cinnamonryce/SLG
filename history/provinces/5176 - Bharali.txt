@@ -1,0 +1,46 @@
+#Bharali
+
+owner = HAJ
+controller = HAJ
+culture = assamese
+religion = hinduism
+capital = "Samdhara"
+trade_goods = grain
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = HAJ
+
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = chinese
+discovered_by = indochinese
+discovered_by = malay_group
+
+1502.1.1 = { controller = BNG }
+1502.6.1 = { owner = BNG } #Conquered by Bengal
+1509.1.1 = {
+	controller = KMT
+	owner = KMT
+	add_core = KMT
+}	#Koch dynasty
+1581.1.1 = {
+	owner = HAJ
+	controller = HAJ
+} # Koch Hajo independent but seeks support of Assam
+1612.1.1 = { controller = MUG } #Mughals
+1614.1.1 = { owner = MUG add_core = MUG } #Mughals
+1616.6.1 = {
+	owner = ASS
+	controller = ASS
+	add_core = ASS
+} # Annexed/Vassalized by Assam
+1627.1.1 = { discovered_by = POR }
+1765.1.1 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	remove_core = MUG
+} # Battle of Plassey, British rule

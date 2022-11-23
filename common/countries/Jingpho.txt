@@ -1,0 +1,271 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = asiangfx
+
+color = { 244  161  170 }
+revolutionary_colors = { 5 0 10 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	diplomatic_ideas
+	administrative_ideas	
+	expansion_ideas
+	spy_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	indian_footsoldier
+	indian_archers
+	indian_arquebusier
+	mughal_musketeer
+	rajput_musketeer
+	mughal_mansabdar
+	indian_elephant
+	sikh_hit_and_run
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+
+monarch_names = {
+	"N'Ban La #0" = 20
+	"Mali Zup #0" = 20
+	"Zau Mai #0" = 20
+	"Tu Jai #0" = 20
+	"Zawng Hra #0" = 20
+	"Zau Seng #0" = 20
+	"Htang Gam #0" = 20
+	"Hong Sar #0" = 20
+	"Naw Seng #0" = 20
+	"Zau Bawk #0" = 20
+	"Zau Tu #0" = 20
+	"La Ring #0" = 20
+	"Zau Dan #0" = 20
+	"Brang Seng #0" = 20
+	"Pung Shwi #0" = 20
+	"Ze Lum #0" = 20
+	"Ting Ying #0" = 20
+	"Maru #0" = 20
+	"Dwa Yaung #0" = 20
+	"Zuk Dai #0" = 20
+	"Kyang Yaw #0" = 20
+	"Ze Lum #0" = 20
+	"Lamung #0" = 20
+	"Zahkung #0" = 20
+	"Hkan Htwe #0" = 20
+	"Zaw #0" = 20
+	"Zaw Phan #0" = 20
+	"Brang Tawng #0" = 20
+	"Hkun Cho #0" = 20
+	"Zau Aung #0" = 20
+	"Kya Nu #0" = 20
+	"Duwa #0" = 20
+	"Sayargyi #0" = 20
+	"Pan Mu #0" = 20
+	"Sinwar Naw #0" = 20
+	"Din Yadan #0" = 20
+	"Khun Naung #0" = 20
+	"An San #0" = 20
+	"Lun War #0" = 20
+	"Myat U #0" = 20
+	"Howa Duwa #0" = 20
+	"Tang Ji #0" = 20
+	"Aung La #0" = 20
+	"Kyaw Maung #0" = 20
+	"Kut Khaing #0" = 20
+	"Naw Naw #0" = 20
+
+	"Aung Baw #0" = 0
+	"Aung Dana #0" = 0
+	"Aung Din #0" = 0
+	"Aung Hla #0" = 0
+	"Aung Ko #0" = 0
+	"Aung Saw #0" = 0
+	"Aung Than #0" = 0
+	"Aung Tun Pru #0" = 0
+	"Aye Kyi #0" = 0
+	"Aye Maung #0" = 0
+	"Baba #0" = 0
+	"Ba E #0" = 0
+	"Ba Maung #0" = 0
+	"Ba Saw #0" = 0
+	"Ba Tin #0" = 0
+	"Chit #0" = 0
+	"Daw #0" = 0
+	"Aung Din #0" = 0
+	"Aung Hla #0" = 0
+	"Aung Ko #0" = 0
+	"Aung Saw #0" = 0
+	"Aung Than #0" = 0
+	"Aung Tun Pru #0" = 0
+	"Aye Kyi #0" = 0
+	"Aye Maung #0" = 0
+	"Baba #0" = 0
+	"Ba E #0" = 0
+	"Ba Maung #0" = 0
+	"Ba Saw #0" = 0
+	"Ba Tin #0" = 0
+	"E Cho #0" = 0
+	"E Maung #0" = 0
+	"E Maung Sein #0" = 0
+	"Hla #0" = 0
+	"Hla Aung #0" = 0
+	"Hla Kyi #0" = 0
+	"Hla Maung #0" = 0
+	"Hla Maung Lay #0" = 0
+	"Htwe Kya #0" = 0
+	"Ka #0" = 0
+	"Kan #0" = 0
+	"Kan Gyi #0" = 0
+	"Khin Hmway #0" = 0
+	"Khin Khin Ghi #0" = 0
+	"Khin Maung #0" = 0
+	"Khin Maung Lat #0" = 0
+	"Khin Maung Than #0" = 0
+	"Kya In #0" = 0
+	"Lun Ban #0" = 0
+	"Lun Maung #0" = 0
+	"Maung #0" = 0
+	"Maung Ba #0" = 0
+	"Maung Gyi #0" = 0
+	"Maung Ko #0" = 0
+	"Maung Maung #0" = 0
+	"Maung Maung Ba #0" = 0
+	"Maung Oo #0" = 0
+	"Myint Too #0" = 0
+	"Myint Toon #0" = 0
+	"Ni #0" = 0
+	"Nu #0" = 0
+	"Nyein #0" = 0
+	"Nyo #0" = 0
+	"Ohn #0" = 0
+	"Ohn Kyaw #0" = 0
+	"Ohn Maung #0" = 0
+	"Pa #0" = 0
+	"Pa Aung #0" = 0
+	"Pa How #0" = 0
+	"Pe Maung Tin #0" = 0
+	"Po Ba #0" = 0
+	"Po E #0" = 0
+	"Pohto #0" = 0
+	"Po Oh #0" = 0
+	"Po Sa #0" = 0
+	"Po Tha #0" = 0
+	"Pu #0" = 0
+	"Pu Doe #0" = 0
+	"Pye #0" = 0
+	"San #0" = 0
+	"San Aung #0" = 0
+	"San Lu #0" = 0
+	"San Maung #0" = 0
+	"San San Yi #0" = 0
+	"Saw Aung #0" = 0
+	"Saw Maung #0" = 0
+	"Sein Maung #0" = 0
+	"Soe Maung #0" = 0
+	"Su #0" = 0
+	"Tan Bee Hock #0" = 0
+	"Tan Chein Hoe #0" = 0
+	"Tha #0" = 0
+	"Than #0" = 0
+	"Than Aung #0" = 0
+	"Than E #0" = 0
+	"Than Maung #0" = 0
+	"Thein Maung #0" = 0
+	"Trein #0" = 0
+	"Tin Ma Gyi #0" = 0
+	"Tin Maung #0" = 0
+	"Tin Maung Maung #0" = 0
+	"Tin Maung Galay #0" = 0
+	"Tun Aye #0" = 0
+	"Tunaung #0" = 0
+	"Tun Maung #0" = 0
+	"Way #0" = 0
+	"We Lin #0" = 0
+	"Win Maung #0" = 0
+	"Win Shwe #0" = 0
+	"Yan Aung #0" = 0
+	"Yin Vin Mya #0" = 0
+	"Zan Yin #0" = 0
+	"Zaw Htun #0" = 0
+
+	"Yaza Dewi #0" = -1
+	"Yadana Dewi #0" = -1
+	"Atula Thiri #0" = -1
+	"Khin Myo Sit #0" = -1
+	"Khin Myat Hset #0" = -1
+	"Khin Ma Lat #0" = -1
+	"Eindra Dewi #0" = -1
+	"Dhamma Dewi #0" = -1
+	"Sanda Dewi #0" = -1
+	"Mingala Dewi #0" = -1
+	"Mingin Supaya #0" = -1
+	"Malla Dewi #0" = -1
+	"Yun San #0" = -1
+	"Setkya Dewi #0" = -1
+	"Weluwaddy #0" = -1
+	"Hsinbyume #0" = -1
+	"Yadanabon #0" = -1
+	"Thanbula #0" = -1
+	"Supayagyi #0" = -1
+	"Yaza Kalaya #0" = -1
+	"Supayalay #0" = -1
+	"Khaymawaddy #0" = -1
+	"Arenawaddy #0" = -1
+	"Thupabadewi #0" = -1
+	"Suapayalat #0" = -1
+	"Saw Min Waing #0" = -1
+	"Manisanda #0" = -1
+	"Pyinsa Kalayani #0" = -1
+	"Me Nyo Mya #0" = -1
+	"Yazakumari #0" = -1
+	"Wadanthika #0" = -1
+	"Thonlula #0" = -1
+	"Maladewi #0" = -1
+	"Pwadawgyi  #0" = -1
+	"Apeyadana #0" = -1
+	"Khun Yee #0" = -1
+	"Sai Zi #0" = -1
+	"La Fai #0" = -1
+	"Sai Raw #0" = -1
+}
+
+leader_names = {
+	"Nam U" Bawgali "Hu Gawng"
+	"Sin Li" "Loi Tauk" Nbapa
+	Mammaw "Man Si" "Mon Htan"
+	Phimaw Gawlan Kanphan
+	"Sein Lung" "Man Wing"
+	Myitkyina Kamaing Bamaw
+	Magibon Mansi Kokant
+	Puta Chihpwi "Lawk Hkawng"
+	Gangaw "Aung Myay" "Ya Bwam"
+	"Kha Yang" "Htam Ngawap"
+	Sawle Hpakant Thanwoo Kutkai
+	Khantang Bakapa Maykha Wunpawng
+	Mungbaw Samarbon Lisu Zaiwa Lhaovo
+	Rawang Lachid Hpimaw Yongyi "Nat Pe"
+	Nmaikha Malikha Palap Sima Sana
+}
+
+ship_names = {
+	"Nam U" Bawgali "Hu Gawng"
+	"Sin Li" "Loi Tauk" Nbapa
+	Mammaw "Man Si" "Mon Htan"
+	Phimaw Gawlan Kanphan
+	"Sein Lung" "Man Wing"
+	Myitkyina Kamaing Bamaw
+	Magibon Mansi Kokant
+	Puta Chihpwi "Lawk Hkawng"
+	Gangaw "Aung Myay" "Ya Bwam"
+	"Kha Yang" "Htam Ngawap"
+	Sawle Hpakant Thanwoo Kutkai
+	Khantang Bakapa Maykha Wunpawng
+	Mungbaw Samarbon Lisu Zaiwa Lhaovo
+	Rawang Lachid Hpimaw Yongyi "Nat Pe"
+	Nmaikha Malikha Palap Sima Sana
+}

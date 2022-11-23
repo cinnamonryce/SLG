@@ -8,6 +8,12 @@
  ahom:0 "Ahom"
  
  burmese:0 "Bamar"
+ kachari:0 "Kachari"
+ khasi:0 "Khasi"
+ chin:0 "Zomi"
+ 
+ sylheti:0 "Sylheti"
+ chittagonian:0 "Chittagonian"
  
  sumatran:0 "Minang"
  acehnese:0 "Acehnese"
@@ -20,16 +26,17 @@
  rejang:0 "Rejang"
  riau:0 "Riau"
  bornean:0 "Kalimantan"
- makassarese:0 "Makassarese"
+ bugis:0 "Bugis"
  moluccan_malay:0 "Pasar"
  
  melanesian_group:0 "Melanesian"
- papuan:0 "Southeast Papuan"
+ #papuan:0 "Southeast Papuan"
  asmat:0 "Asmat"
  marind:0 "Marind"
- kwerba:0 "Kwerba"
- gulf_papuan:0 "Gulf Papuan"
+ biak:0 "Biak"
  sepik:0 "Sepik"
+ ngero:0 "Ngero"
+ fly:0 "Fly"
  
  moluccan_group:0 "Moluccan"
  moluccan:0 "Halmaheran"
@@ -39,7 +46,7 @@
  nusantaran:0 "Nusantaran"
  dayak:0 "Dayak"
  nusa_tenggara:0 "Nusa Tenggara"
- sulawesi:0 "Bugis"
+ sulawesi:0 "Ugi"
  butonese:0 "Sulawesian"
  sundanese:0 "Sundanese"
  
@@ -49,7 +56,7 @@
  micronesian:0 "Micronesian"
  
  lingnan:0 "Lingnan"
- miao: "Hmong"
+ miao:0 "Hmong"
  hlai:0 "Hlai"
  
  western_min:0 "Western Min"
@@ -61,16 +68,16 @@
  bajau:0 "Bajau"
  ilocano:0 "Ilocano"
  visayan:0 "Visayan"
- north_sulawesi: "Minahasan"
+ north_sulawesi:0 "Minahasan"
  
  maldivian:0 "Maldivian"
  
  
  #Tibetan Stuff by Macky
- khampa: "Khampa"
- amdowa: "Amdowa"
- tibetan: "U-Tsang"
- ladakhi: "Ladakhi"
- bhutanese: "Bhotiya" #Alternatively Bhot or Ngalop
- gyelrong: "Gyelrong"
- nakhi: "Nakhi"
+ khampa:0 "Khampa"
+ amdowa:0 "Amdowa"
+ tibetan:0 "U-Tsang"
+ ladakhi:0 "Ladakhi"
+ bhutanese:0 "Bhotiya" #Alternatively Bhot or Ngalop
+ gyelrong:0 "Gyelrong"
+ nakhi:0 "Nakhi"

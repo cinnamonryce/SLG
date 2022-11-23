@@ -1,7 +1,6 @@
 government = monarchy
 add_government_reform = plutocratic_reform
-primary_culture = makassarese
-add_accepted_culture = sulawesi
+primary_culture = sulawesi
 religion = animism
 technology_group = malay_group
 capital = 641	# Makassar
@@ -228,6 +227,7 @@ capital = 641	# Makassar
 	religion = sunni
 	religious_school = shafii_school
 	add_piety = -0.15
+	primary_culture = bugis
 }
 
 1653.1.1 = {

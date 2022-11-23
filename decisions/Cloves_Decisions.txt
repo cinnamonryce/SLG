@@ -1,0 +1,266 @@
+country_decisions = {
+	grow_cloves_in_zanzibar = {
+		potential = {
+			has_saved_event_target = cloves_monopolist
+			1201 = {
+				owned_by = ROOT
+				NOT = {
+					trade_goods = cloves
+				}
+			}
+			NOT = {
+				trading_bonus = {
+					trade_goods = cloves
+					value = yes
+				}
+			}
+			has_global_flag = clove_monopoly_flag
+		}
+		provinces_to_highlight = {
+			trade_goods = cloves
+		}
+		allow = {
+			OR = {
+				any_province = {
+					trade_goods = cloves
+					controlled_by = ROOT
+				}
+				has_spy_network_in = {
+					who = event_target:cloves_monopolist
+					value = 80
+				}
+			}
+			1201 = {
+				controlled_by = ROOT
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_saved_event_target = cloves_monopolist
+					has_spy_network_in = {
+						who = event_target:cloves_monopolist
+						value = 80
+					}
+					NOT = {
+						any_province = {
+							trade_goods = cloves
+							controlled_by = ROOT
+						}
+					}
+				}
+				add_spy_network_in = {
+					who = event_target:cloves_monopolist
+					value = -80
+				}
+			}
+			1201 = {
+				change_trade_goods = cloves
+				hidden_effect = { save_event_target_as = cloves_destination }
+			}
+			clr_global_flag = clove_monopoly_flag
+			country_event = { id = slg_prices.2 } #The Clove Monopoly Broken
+		}
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+	grow_cloves_in_madagascar = {
+		potential = {
+			has_saved_event_target = cloves_monopolist
+			4024 = { #Analjirofo
+				owned_by = ROOT
+				NOT = {
+					trade_goods = cloves
+				}
+			}
+			NOT = {
+				trading_bonus = {
+					trade_goods = cloves
+					value = yes
+				}
+			}
+			has_global_flag = clove_monopoly_flag
+		}
+		provinces_to_highlight = {
+			trade_goods = cloves
+		}
+		allow = {
+			OR = {
+				any_province = {
+					trade_goods = cloves
+					controlled_by = ROOT
+				}
+				has_spy_network_in = {
+					who = event_target:cloves_monopolist
+					value = 80
+				}
+			}
+			4024 = {
+				controlled_by = ROOT
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_saved_event_target = cloves_monopolist
+					has_spy_network_in = {
+						who = event_target:cloves_monopolist
+						value = 80
+					}
+					NOT = {
+						any_province = {
+							trade_goods = cloves
+							controlled_by = ROOT
+						}
+					}
+				}
+				add_spy_network_in = {
+					who = event_target:cloves_monopolist
+					value = -80
+				}
+			}
+			4024 = {
+				change_trade_goods = cloves
+				hidden_effect = { save_event_target_as = cloves_destination }
+			}
+			clr_global_flag = clove_monopoly_flag
+			country_event = { id = slg_prices.2 } #The Clove Monopoly Broken
+		}
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+	grow_cloves_in_mauritius = {
+		potential = {
+			has_saved_event_target = cloves_monopolist
+			1102 = { #Mauritius
+				owned_by = ROOT
+				NOT = {
+					trade_goods = cloves
+				}
+			}
+			has_global_flag = clove_monopoly_flag
+			NOT = {
+				trading_bonus = {
+					trade_goods = cloves
+					value = yes
+				}
+			}
+		}
+		provinces_to_highlight = {
+			trade_goods = cloves
+		}
+		allow = {
+			OR = {
+				any_province = {
+					trade_goods = cloves
+					controlled_by = ROOT
+				}
+				has_spy_network_in = {
+					who = event_target:cloves_monopolist
+					value = 80
+				}
+			}
+			1102 = {
+				controlled_by = ROOT
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_saved_event_target = cloves_monopolist
+					has_spy_network_in = {
+						who = event_target:cloves_monopolist
+						value = 80
+					}
+					NOT = {
+						any_province = {
+							trade_goods = cloves
+							controlled_by = ROOT
+						}
+					}
+				}
+				add_spy_network_in = {
+					who = event_target:cloves_monopolist
+					value = -80
+				}
+			}
+			1102 = {
+				change_trade_goods = cloves
+				hidden_effect = { save_event_target_as = cloves_destination }
+			}
+			clr_global_flag = clove_monopoly_flag
+			country_event = { id = slg_prices.2 } #The Clove Monopoly Broken
+		}
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+	grow_cloves_in_ceylon = {
+		potential = {
+			has_saved_event_target = cloves_monopolist
+			2099 = { #Kandy - Sri Lankan clove production is around here
+				owned_by = ROOT
+				NOT = {
+					trade_goods = cloves
+				}
+			}
+			NOT = {
+				trading_bonus = {
+					trade_goods = cloves
+					value = yes
+				}
+			}
+			has_global_flag = clove_monopoly_flag
+		}
+		provinces_to_highlight = {
+			trade_goods = cloves
+		}
+		allow = {
+			OR = {
+				any_province = {
+					trade_goods = cloves
+					controlled_by = ROOT
+				}
+				has_spy_network_in = {
+					who = event_target:cloves_monopolist
+					value = 80
+				}
+			}
+			2099 = {
+				controlled_by = ROOT
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_saved_event_target = cloves_monopolist
+					has_spy_network_in = {
+						who = event_target:cloves_monopolist
+						value = 80
+					}
+					NOT = {
+						any_province = {
+							trade_goods = cloves
+							controlled_by = ROOT
+						}
+					}
+				}
+				add_spy_network_in = {
+					who = event_target:cloves_monopolist
+					value = -80
+				}
+			}
+			2099 = {
+				change_trade_goods = cloves
+				hidden_effect = { save_event_target_as = cloves_destination }
+			}
+			clr_global_flag = clove_monopoly_flag
+			country_event = { id = slg_prices.2 } #The Clove Monopoly Broken
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

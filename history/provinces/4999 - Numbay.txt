@@ -1,6 +1,6 @@
 #Numbay (Jayapura)
 
-culture = kwerba
+culture = sepik
 religion = animism
 capital = "Numbay"
 trade_goods = unknown

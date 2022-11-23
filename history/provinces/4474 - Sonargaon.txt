@@ -2,7 +2,7 @@
 
 owner = BNG
 controller = BNG
-culture = bengali
+culture = chittagonian
 religion = hinduism
 capital = "Sonargaon"
 trade_goods = cloth #Muslin

@@ -1,8 +1,8 @@
-#1092 - Gubbi-Gubbi
+#Doongang - Port Macquarie
 
 culture = aboriginal
 religion = dreamtime
-capital = "Doongang"
+capital = "Jakabulga" #Or Currikee, Bappen, Kookamerica, Micke, Euroka, Iggin, Bulli, etc.
 trade_goods = unknown
 hre = no
 base_tax = 2 

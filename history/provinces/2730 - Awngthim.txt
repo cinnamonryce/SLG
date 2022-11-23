@@ -1,6 +1,6 @@
 #2730 - Awngthim
 
-culture = gulf_papuan
+culture = fly
 religion = dreamtime
 capital = "Waiben"
 trade_goods = unknown

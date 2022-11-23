@@ -102,6 +102,5 @@
 5007 = { "Kiray" "Kiray" }
 5008 = { "Taipei" "Tamsui" }
 5009 = { "Mengding" "Mengding" }
-5101 = "Fongshan"
 
 5113 = { "Menglian" "Menglian" }

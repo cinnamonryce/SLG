@@ -41,6 +41,11 @@ leader_names = {
 	"bin Yaakob" "bin Zakaria" "bin Yusof Said" "bin Ismail" "Sulaiman" "bin Khamis" "bin Jebat" "bin Ujang" "bin Basuki" "bin Bagus"
 	"bin Hamiduddin" "bin Zahiruddin" "bin Shamsuddin" "bin Sadruddin" "bin Jamaluddin" "bin Imaduddin" "bin Imran" "bin Farhan"
 	"bin Saifuddin" "bin Muyhiddin" "bin Ismatuddin" "bin Azimuddin" "bin Jalaluddin" "bin Muhibuddin" "bin Baskara" "bin Sangkara"
+	Tabukan Kayoa Sahu Luhu Hoamoal Sarangani Gamkonaro Ngofakiaha Toboleo Kalamata Kulabu Tomini Motir Tolu Gamkonara Marsoail 
+	Darwis Taruwes Waioli Gamkonora Pagu Modole Tabaru Tobelo Galela Loloda Taba Ngaunu Diwanga Ngara Tupam Sorga Ora Odo
+	Banyo Ake Mafu Rimoi Gominye Malofo Medeng Moi Ing Wi Bakubae Gane Taba Buli Patani Wayamli Sawai Weda Gebe Minyaifuin Isam 
+	Toliwiku Kao Moti Manahutu Manusama Saparua Haria Wattilete Pupella Sopacua Tahapari Siwabessi Tamaela Nanilohi Pora Bouma
+	Zamrun Sahanaya Sahuleka Supusepa Latuheru Mattulessi Tilahoi
 }
 
 monarch_names = {
@@ -69,14 +74,43 @@ monarch_names = {
 	"Muhammad Yasin #0" = 10
 	"Muhammad Ali #0" = 10
 	
-	"Cinta #0" = -1
-	"Wangi #0" = -1
-	"Nukila #0" = -1
-	"Bayanullah  #0" = -1
-	"Boki Tanjung  #0" = -1
+	"Madani #0" = -1
+	"Yaru #0" = -1
+	"Kene #0" = -1
+	"Maryam #0" = -1
+	"Lawa #0" = -1
+	"Bida #0" = -1
+	"Bega #0" = -1
+	"Tanjung #0" = -1
+	"Owutango #0" = -1
+	"Ainalyakin #0" = -1
+	"Randangagalo #0" = -1
+	"Ainalmalamo #0" = -1
+	"Sirikaya #0" = -1
+	"Maya #0" = -1
+	"Mahir #0" = -1
+	"Gogogu #0" = -1
+	"Mauludu #0" = -1
+	"Sarabu #0" = -1
+	"Diojo #0" = -1
+	"Tabilo #0" = -1
+	"Timonga #0" = -1
+	"Ainun #0" = -1
+	"Jamanula #0" = -1
+	"Mir #0" = -1
+	"Hamidah #0" = -1
+	"Syarinsad #0" = -1
+	"Rawang #0" = -1
+	"Fatima #0" = -1
+	"Umi #0" = -1
+	"Lompo #0" = -1
 }
 
 ship_names = {
-	Balla Bulu Lompo Sallo Karaeng Bambang
-	Cipuru Doe Iyo Tena Tabe Apa Lakeko Battu Keko
+	Balla Bulu Lompo Sallo Karaeng Bambang Cipuru Doe Iyo Tena Tabe Apa Lakeko Battu Keko
+	Tabukan Kayoa Sahu Luhu Hoamoal Sarangani Gamkonaro Ngofakiaha Toboleo Kalamata Kulabu Tomini Motir Tolu Gamkonara Marsoail 
+	Darwis Taruwes Waioli Gamkonora Pagu Modole Tabaru Tobelo Galela Loloda Taba Ngaunu Diwanga Ngara Tupam Sorga Ora Odo
+	Banyo Ake Mafu Rimoi Gominye Malofo Medeng Moi Ing Wi Bakubae Gane Taba Buli Patani Wayamli Sawai Weda Gebe Minyaifuin Isam 
+	Toliwiku Kao Moti Manahutu Manusama Saparua Haria Wattilete Pupella Sopacua Tahapari Siwabessi Tamaela Nanilohi Pora Bouma
+	Zamrun Sahanaya Sahuleka Supusepa Latuheru Mattulessi Tilahoiko
 }

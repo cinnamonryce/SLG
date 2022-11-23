@@ -89,6 +89,7 @@ capital = 2715	# Palopo
 	religion = sunni
 	religious_school = shafii_school
 	add_piety = -0.15
+	primary_culture = bugis
 }
 
 1587.1.1 = {

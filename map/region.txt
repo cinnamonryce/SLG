@@ -751,11 +751,13 @@ bengal_region = {
 		upper_mahanadi_area
 		tripura_area
 		#NEW
+		dacca_area
 		chittagong_area
 		south_bengal_area
 		koch_area
 		western_assam_area
 		sikkim_area
+		frontier_tracts_area
 	}
 	monsoon = {
 		00.07.01
@@ -897,7 +899,7 @@ australia_region = {
 		barwon_area
 		bass_coast_area
 		riverina_area
-		northern_tablelands_area
+		mid_north_coast_area
 		north_west_slopes_area
 		cape_york_area
 		coral_coast_area
@@ -932,7 +934,6 @@ south_china_region = {
 		#NEW
 		west_guangxi_area
 		hainan_area
-		tamsui_area
 		northern_guangdong_area
 		south_hunan_area
 	}
@@ -1504,6 +1505,7 @@ east_indian_ocean_region = {
 		eastern_indian_ocean_area
 		bay_of_bengal_area
 		andaman_sea_area
+		banda_arafura_seas_area
 	}
 }
 
@@ -1515,10 +1517,15 @@ south_indian_ocean_region = {
 
 south_china_sea_region = {
 	areas = {
-		java_sea_area
 		south_china_sea_area
+		gulf_of_siam_area
+	}
+}
+
+malay_archipelago_region = {
+	areas = {
+		java_sea_area
 		celebes_sea_area
-		banda_arafura_seas_area
 	}
 }
 
@@ -1608,7 +1615,9 @@ new_guinea_region = {
 	areas = {
 		papua_area
 		vogelkop_area
+		fly_area
 		birds_tail_area
+		mimika_area
 		merauke_area
 		momase_area
 	}

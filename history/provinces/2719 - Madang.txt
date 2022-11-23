@@ -1,6 +1,6 @@
 #2719 - Madang
 
-culture = papuan
+culture = ngero
 religion = animism
 capital = "Madang"
 trade_goods = unknown

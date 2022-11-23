@@ -39,6 +39,13 @@ smb_incestuous_allegations = {
 
 gun_samding_dorje_phagmo_pmod = {
 	prestige = 1
-	tolerance_own = 2
+	tolerance_own = 2	
+}
+
+#North Secession Modifiers
+
+civilian_capital = {
+	fort_maintenance_modifier = -0.50
+	local_autonomy = -0.25
 	
 }

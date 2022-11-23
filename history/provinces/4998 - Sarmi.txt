@@ -1,6 +1,6 @@
 #Sarmi
 
-culture = kwerba
+culture = biak
 religion = animism
 capital = "Sarmi"
 trade_goods = unknown

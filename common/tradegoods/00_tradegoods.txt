@@ -2017,6 +2017,7 @@ cloves = {
 					area = molluca_area
 					area = spice_islands_area
 					area = ternate_area
+					area = south_moluccas_area
 				}
 			}
 		}

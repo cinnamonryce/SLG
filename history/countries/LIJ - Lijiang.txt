@@ -5,6 +5,7 @@ religion = vajrayana
 technology_group = chinese
 capital = 2167
 fixed_capital = 2167 # Cannot move capital away from this province & no power cost to move to it
+government_rank = 1
 
 1442.1.1 = {
 	monarch = {

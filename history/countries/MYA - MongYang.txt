@@ -7,6 +7,7 @@ capital = 582	# Mong Yang
 fixed_capital = 582
 historical_friend = ASS
 historical_friend = MKA
+historical_friend = MMA
 
 change_estate_land_share = {
 	estate = estate_burghers

@@ -225,27 +225,19 @@ dependency = {
 }
 
 # Muang Phuan
-guarantee = {
+march = {
 	first = LXA
 	second = MPH
 	start_date = 1440.1.1
 	end_date = 1531.1.1
 }
 
-guarantee = {
-	first = DAI
-	second = MPH
-	start_date = 1440.1.1
-	end_date = 1478.1.1
-}
-
-dependency = {
-	subject_type = "tributary_state"
-	first = MNG
-	second = MPH
-	start_date = 1444.1.1
-	end_date = 1531.1.1
-}
+#guarantee = {
+#	first = DAI
+#	second = MPH
+#	start_date = 1440.1.1
+#	end_date = 1478.1.1
+#}
 
 #Majapahit vassals
 
@@ -428,7 +420,7 @@ royal_marriage = {
 dependency = {
 	subject_type = "tributary_state"
 	first = PGR
-	second = IDP
+	second = IND
 	start_date = 1347.1.1
 	end_date = 1525.1.1
 }

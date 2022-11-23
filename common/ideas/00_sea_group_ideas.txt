@@ -72,7 +72,7 @@ degar_ideas = {
 	}
 	degar_matrilineality = {
 		heir_chance = 0.50
-		female_advisor_chance = 0.5
+		female_advisor_chance = 0.25
 	}
 	degar_elephant_tamers = {
 		cavalry_cost = -0.1
@@ -143,7 +143,10 @@ new_moluccan_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = moluccan
+		OR = {
+			primary_culture = moluccan
+			primary_culture = moluccan_malay
+		}
 	}
 	free = yes
 	
@@ -204,10 +207,10 @@ new_sulawesi_ideas = {
 		state_maintenance_modifier = -0.1
 	}
 	sulawesi_learning_from_outsiders = {
-		embracement_cost = -0.1
+		idea_cost = -0.10
 	}
 	sulawesi_entrepot = {
-		center_of_trade_upgrade_cost = -0.2
+		trade_efficiency = 0.1
 	}
 	sulawesi_assymetrical_warfare = {
 		hostile_attrition = 1
@@ -440,9 +443,6 @@ new_PGR_ideas = {
  
     trigger = {
 		primary_culture = sumatran
-		NOT = {
-			tag = IND
-		}
 	}
 	free = yes
  
@@ -531,7 +531,7 @@ visayan_ideas = {
 	free = yes
 	
 	visayan_pintados = {
-		prestige_from_land = 1.0
+		prestige_from_land = 0.5
 	}
 	visayan_babaylans = {
 		free_leader_pool = 1
@@ -581,7 +581,7 @@ bornean_ideas = {
 		num_accepted_cultures = 1
 	}
 	bornean_centralized_bureaucracy = {
-		autonomy_change_time = -0.2
+		global_autonomy = -0.025
 		yearly_absolutism = 0.5
 	}
 	bornean_logging_campaigns = {
@@ -636,5 +636,170 @@ dayak_ideas = {
 	}
 	dayak_adoption_of_foreign_customs = {
 		embracement_cost = -0.1
+	}
+}
+
+kochi_ideas = {
+	start = {
+		advisor_cost = -0.1
+		manpower_recovery_speed = 0.1
+	}
+	bonus = {
+		diplomats = 1
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = kochi
+			tag = HAJ
+		}
+	}
+	
+	free = yes
+	
+	kochi_integrate_the_bhuyan = {
+		shock_damage = 0.1
+	}
+	kochi_sanskritization = {
+		legitimacy = 1
+		global_institution_spread = 0.1
+	}
+	kochi_varnasrama = {
+		stability_cost_modifier = -0.1
+	}
+	kochi_religious_renaissance = {
+		global_missionary_strength = 0.01
+	}
+	kochi_kochi_paik_system = {
+		production_efficiency = 0.1
+	}
+	kochi_nilachal_architecture = {
+		build_cost = -0.2
+	}
+	kochi_secure_the_north = {
+		defensiveness = 0.1
+	}
+}
+
+kachari_ideas = {
+	start = {
+		tolerance_own = 1
+		leader_land_shock = 1
+	}
+	
+	bonus = {
+		army_tradition_from_battle = 0.5
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = kachari
+			tag = PRT
+		}
+	}
+	free = yes
+    
+	kachari_clan_culture = {
+		stability_cost_modifier = -0.1
+	}
+	kachari_brahmaputra_valley = {
+		production_efficiency = 0.1
+	}
+	kachari_the_spirit_of_war = {
+		war_exhaustion = -0.02
+	}
+	kachari_indigenous_uproar = {
+		prestige_decay = -0.01
+	}
+	kachari_council_of_ministers = {
+		nobles_loyalty_modifier = 0.1
+		advisor_pool = 1
+	}
+	kachari_sanskritization = {
+		global_institution_spread = 0.1
+	}
+	kachari_the_strength_of_will = {
+		land_morale = 0.10
+	}
+}
+
+zomi_ideas = {
+	start = {
+		global_garrison_growth = 0.2
+		movement_speed = 0.1
+	}
+	
+	bonus = {
+		global_unrest = -1
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = chin
+			tag = CKM
+		}
+	}
+	free = yes
+    
+	zomi_primacy_of_the_city_states = {
+		garrison_size = 0.15
+		enemy_core_creation = 0.25
+	}
+	zomi_cultural_continuity = {
+		prestige = 1
+	}
+	zomi_harvest_tradition = {
+		production_efficiency = 0.1
+	}
+	zomi_religious_diversity = {
+		religious_unity = 0.25
+		tolerance_heathen = 1
+	}
+	zomi_slave_hubs_of_zomia = {
+		global_own_trade_power = 0.1
+	}
+	zomi_into_the_lowlands = {
+		loot_amount = 0.20
+	}
+	zomi_rising = {
+		shock_damage = 0.1
+	}
+}
+
+new_bengali_ideas = {
+	start = {
+		merchants = 1
+		infantry_power = 0.1
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		primary_culture = bengali
+	}
+	free = yes
+    
+	hindu_sufi_syncretism = {            
+		religious_unity = 0.5
+	}
+	ganges_brahmaputra_confluence = {                    
+		trade_efficiency = 0.1
+	}
+	rice_fields = {                
+		global_manpower_modifier = 0.2
+	}
+	mustard_oil_ilish_mach = {                             
+		war_exhaustion_cost = -0.10
+	}
+	jute_production = {
+		#production_efficiency = 0.1 #Uses bonus from Tripuran ideas
+	}
+	opium_fields = {
+		global_tax_modifier = 0.1
+	}
+	bengali_renaissance = {
+		global_institution_spread = 0.1
 	}
 }

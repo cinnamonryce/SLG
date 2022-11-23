@@ -100,6 +100,12 @@ country_event = {
 				}
 				save_event_target_as = yunnan_subject
 			}
+			random_country = {
+				limit = {
+					owns = 4952
+				}
+				save_event_target_as = mong_mit_owner
+			}
 		}
 	}
 	
@@ -122,7 +128,26 @@ country_event = {
 				cede_province = ROOT
 			}
 		}
-		MMA = { 
+		if = {
+			limit = {
+				4951 = { owned_by = MMA }
+				event_target:mong_mit_owner = {
+					NOT = { war_with = ROOT }
+					has_opinion = {
+						who = ROOT
+						value = -20
+					}
+				}
+	
+			}
+			4951 = { cede_province = event_target:mong_mit_owner }
+		}
+		else = {
+			4951 = {
+				cede_province = WNM
+			}
+		}
+		MMA = {
 			change_tag = MYA
 		}
 		if = {

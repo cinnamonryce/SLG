@@ -1,0 +1,73 @@
+namespace = slg_join_malay_world
+
+# The Malayization of the Dayaks
+country_event = {
+	id = slg_join_malay_world.1
+	title = "slg_join_malay_world.1.t"
+	desc = "slg_join_malay_world.1.d"
+	picture = CULTURE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = slg_join_malay_world.1.a
+		every_country = {
+			limit = {
+				culture_group = malay
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = joined_the_malay_world
+			}
+		}
+		add_prestige = 25
+	}
+}
+
+# The Malayization of the Moluccans
+country_event = {
+	id = slg_join_malay_world.2
+	title = "slg_join_malay_world.2.t"
+	desc = "slg_join_malay_world.2.d"
+	picture = CULTURE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = slg_join_malay_world.2.a
+		every_country = {
+			limit = {
+				culture_group = malay
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = joined_the_malay_world
+			}
+		}
+		add_prestige = 25
+	}
+}
+
+# The Malayization of the Bugis
+country_event = {
+	id = slg_join_malay_world.3
+	title = "slg_join_malay_world.3.t"
+	desc = "slg_join_malay_world.3.d"
+	picture = CULTURE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = slg_join_malay_world.3.a
+		every_country = {
+			limit = {
+				culture_group = malay
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = joined_the_malay_world
+			}
+		}
+		add_prestige = 25
+	}
+}

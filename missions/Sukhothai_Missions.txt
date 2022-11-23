@@ -195,6 +195,13 @@ suk_missions_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			upper_chao_phraya_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	suk_reclaim_phitsanulok = {
@@ -239,11 +246,11 @@ suk_missions_2 = {
 		required_missions = { suk_reclaim_phitsanulok }
 		position = 3
 		provinces_to_highlight = {
-			area = sukhothai_area
+			area = upper_chao_phraya_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			sukhothai_area = {
+			upper_chao_phraya_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -278,6 +285,7 @@ suk_missions_2 = {
 				area = central_thai_area
 				area = western_thai_area
 				area = sukhothai_area
+				area = upper_chao_phraya_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -291,6 +299,10 @@ suk_missions_2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			sukhothai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_chao_phraya_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -371,7 +383,6 @@ suk_missions_2 = {
 			OR = {
 				area = tenasserim_area
 				area = kra_isthmus_area
-				area = sukhothai_area
 			}
 			NOT = {
 				owned_by = ROOT
@@ -881,9 +892,6 @@ suk_missions_5 = {
 		position = 1
 		ai_weight = {
 			factor = 2
-		}
-		ai_priority = {
-			factor = 1
 		}
 		
 		trigger = {

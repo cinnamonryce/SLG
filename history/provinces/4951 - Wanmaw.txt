@@ -1,7 +1,7 @@
 #Bhamo (Wanmaw)
 
-owner = MMT
-controller = MMT
+owner = MMA
+controller = MMA
 culture = shan
 religion = buddhism
 capital = "Wanmaw"
@@ -11,8 +11,10 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
+add_core = MMA
 add_core = MMT
 add_core = WNM
+add_core = MYA
 
 
 
@@ -20,6 +22,13 @@ discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 discovered_by = indian
+
+1449.1.1 = {
+	owner = MMT
+	controller = MMT
+        remove_core = MMA
+        remove_core = MYA
+}
 
 1502.1.1 = {
 	owner = SST

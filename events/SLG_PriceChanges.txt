@@ -1,0 +1,108 @@
+namespace = slg_prices
+normal_or_historical_nations = yes
+
+# The Clove Monopoly
+country_event = {
+	id = slg_prices.1
+	title = slg_prices.1.t
+	desc = slg_prices.1.d
+	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		production_leader = {
+			trade_goods = cloves
+		}
+		any_country = {
+			technology_group = western
+			molluca_area = {
+				has_discovered = PREV
+			}
+			ternate_area = {
+				has_discovered = PREV
+			}
+		}
+		NOT = { has_global_flag = clove_monopoly_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = slg_prices.1.a
+		add_years_of_income  = 0.5
+		add_dip_power = 100
+		change_price = {
+			trade_goods = cloves
+			key = CLOVE_MONOPOLY
+			value = 0.6
+			duration = -1
+		}
+		set_global_flag = clove_monopoly_flag
+		hidden_effect = { save_global_event_target_as = cloves_monopolist }
+	}
+}
+
+# The Clove Monopoly Broken
+country_event = {
+	id = slg_prices.2
+	title = slg_prices.2.t
+	desc = slg_prices.2.d
+	picture = SMUGGLERS_eventPicture
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = slg_prices.2.a
+		add_years_of_income = 0.5
+		event_target:cloves_monopolist = {
+			add_prestige = -50
+		}
+		change_price = {
+			trade_goods = cloves
+			key = CLOVE_MONOPOLY
+			value = -0.25
+			duration = -1
+		}
+	}
+}
+
+# New Cloves Leader, hidden event
+country_event = {
+	id = slg_prices.3
+	title = none
+	desc = none
+	picture = none
+
+	hidden = yes
+
+	trigger = {
+		has_global_flag = clove_monopoly_flag
+		NOT = {
+			event_target:cloves_monopolist = {
+				production_leader = {
+					trade_goods = cloves
+				}
+			}
+		}
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				production_leader = {
+					trade_goods = cloves
+				}
+			}
+			save_global_event_target_as = cloves_monopolist
+		}
+	}
+
+	option = {
+	}
+}

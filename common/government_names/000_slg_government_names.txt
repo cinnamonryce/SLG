@@ -1,0 +1,529 @@
+arakanese_monarchy = {
+	rank = {
+		1 = EMIRATE
+		2 = SULTANATE
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = EMIR
+		2 = SULTAN
+		3 = CHAKRAVARTIN
+	}
+
+	ruler_female = {
+		1 = EMIRA
+		2 = SULTANA
+		3 = CHAKRAVARTIN
+	}
+
+        heir_male = {
+		1 = UPARAJA
+		2 = UPARAJA
+		3 = UPARAJA
+	}
+
+	heir_female = {
+		1 = UPARANI
+		2 = UPARANI
+		3 = UPARANI
+	}
+
+	trigger = {
+		OR = {
+			religion = buddhism
+			religion = vajrayana
+			religion = mahayana
+			religion = hinduism
+			religion_group = pagan
+		}
+		government = monarchy
+		tag = ARK
+	}
+}
+
+00_thai_monarchy = {
+	rank = {
+		1 = MONG
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = LORD
+		2 = KING
+		3 = CHAKRAVARTIN
+	}
+
+	ruler_female = {
+		1 = LADY
+		2 = QUEEN
+		3 = CHAKRAVARTIN
+	}
+
+        heir_male = {
+		1 = UPARAJA
+		2 = UPARAJA
+		3 = UPARAJA
+	}
+
+	heir_female = {
+		1 = UPARANI
+		2 = UPARANI
+		3 = UPARANI
+	}
+
+	trigger = {
+		OR = {
+			religion = buddhism
+			religion = vajrayana
+			religion = mahayana
+			religion = hinduism
+			religion = animism
+			religion_group = pagan
+		}
+		OR = {
+			government = monarchy
+			government = tribe
+		}
+		NOT = { primary_culture = shan }
+		culture_group = thai_group
+	}
+}
+
+00_shan_monarchy = {
+	rank = {
+		1 = MONG
+		2 = MONG
+		3 = GREAT_MONG
+	}
+
+	ruler_male = {
+		1 = MYOSA
+		2 = SAOPHA
+		3 = MAHA_SAOPHA
+	}
+
+	ruler_female = {
+		1 = MYOSA
+		2 = SAOPHA
+		3 = MAHA_SAOPHA
+	}
+
+        heir_male = {
+		1 = UPARAJA
+		2 = UPARAJA
+		3 = UPARAJA
+	}
+
+	heir_female = {
+		1 = UPARANI
+		2 = UPARANI
+		3 = UPARANI
+	}
+
+	trigger = {
+		OR = {
+			has_reform = native_chieftain_system_reform
+			has_reform = heavenly_monarchy_reform
+			government = tribe
+		}
+		primary_culture = shan
+	}
+}
+
+00_burman_monarchy = {
+	rank = {
+		1 = LORDSHIP
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = LORD
+		2 = KING
+		3 = CHAKRAVARTIN
+	}
+
+	ruler_female = {
+		1 = LADY
+		2 = QUEEN
+		3 = CHAKRAVARTIN
+	}
+
+	consort_male = {
+		1 = CHIEF_LORD
+		2 = CHIEF_PRINCE
+		3 = CHIEF_KING
+	}
+	
+	consort_female = {
+		1 = CHIEF_LADY
+		2 = CHIEF_PRINCESS
+		3 = CHIEF_QUEEN
+	}
+
+        heir_male = {
+		1 = UPARAJA
+		2 = UPARAJA
+		3 = UPARAJA
+	}
+
+	heir_female = {
+		1 = UPARANI
+		2 = UPARANI
+		3 = UPARANI
+	}
+
+	trigger = {
+		OR = {
+			religion = buddhism
+			religion = vajrayana
+			religion = mahayana
+			religion = hinduism
+			religion_group = pagan
+		}
+		government = monarchy
+		primary_culture = burmese
+	}
+}
+
+00_viet_monarchy = {
+	rank = {
+		1 = LORDSHIP
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = LORD
+		2 = KING
+		3 = EMPEROR
+	}
+
+	ruler_female = {
+		1 = LADY
+		2 = QUEEN
+		3 = EMPRESS
+	}
+
+	trigger = {
+		government = monarchy
+		primary_culture = vietnamese
+	}
+}
+
+00_khmer_monarchy = {
+	rank = {
+		1 = LORDSHIP
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = LORD
+		2 = KING
+		3 = CHAKRAVARTIN
+	}
+
+	ruler_female = {
+		1 = LADY
+		2 = QUEEN
+		3 = CHAKRAVARTIN
+	}
+
+        heir_male = {
+		1 = UPARAJA
+		2 = UPARAJA
+		3 = UPARAJA
+	}
+
+	heir_female = {
+		1 = UPARANI
+		2 = UPARANI
+		3 = UPARANI
+	}
+
+	trigger = {
+		OR = {
+			religion = buddhism
+			religion = vajrayana
+			religion = mahayana
+			religion = hinduism
+			religion_group = pagan
+		}
+		government = monarchy
+		culture_group = southeastasian_group
+	}
+}
+
+00_barangay_polity = {
+	rank = {
+		1 = BARANGAY
+		2 = GRAND_BARANGAY
+		3 = GREAT_BARANGAY
+	}
+
+	ruler_male = {
+		1 = DATU
+		2 = LAKAN
+		3 = GREAT_LAKAN
+	}
+
+	ruler_female = {
+		1 = DATU
+		2 = LAKAN
+		3 = GREAT_LAKAN_fem
+	}
+
+	consort_male = {
+		1 = PRINCE_CONSORT
+		2 = KING_CONSORT
+		3 = EMPEROR_CONSORT
+	}
+
+	consort_female = {
+		1 = PRINCESS
+		2 = QUEEN
+		3 = EMPRESS
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		OR = {
+			religion = buddhism
+			religion = vajrayana
+			religion = mahayana
+			religion = hinduism
+			religion_group = pagan
+		}
+		NOT = {
+			tag = BTU
+			tag = MNA
+			tag = CEB
+		}
+		culture_group = philippine
+		NOT = { primary_culture = formosan }
+	}
+}
+
+00_filipino_rajanate = {
+	rank = {
+		1 = BARANGAY
+		2 = GRAND_BARANGAY
+		3 = GREAT_BARANGAY
+	}
+
+	ruler_male = {
+		1 = DATU
+		2 = RAJA
+		3 = MAHARAJA
+	}
+
+	ruler_female = {
+		1 = DATU
+		2 = RANI
+		3 = MAHARANI
+	}
+	
+	consort_male = {
+		1 = PRINCE_CONSORT
+		2 = RAJA
+		3 = MAHARAJA
+	}
+
+	consort_female = {
+		1 = PRINCESS
+		2 = RANI
+		3 = MAHARANI
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		government = monarchy
+		OR = {
+			tag = BTU
+			tag = MNA
+			tag = CEB
+		}
+	}
+}
+
+00_tusi = {
+	rank = {
+		1 = TUSI
+	}
+	
+	ruler_male = {
+		1 = CHIEF
+	}
+	
+	ruler_female = {
+		1 = CHIEFTESS
+	}
+
+	consort_male  = {
+		1 = PRINCE_CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+	}
+
+	heir_male = {
+		1 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+	}
+	
+	trigger = {
+		OR = {
+			NOT = { culture_group = east_asian }
+			religion_group = pagan
+		}
+		OR = {
+			is_subject_of_type = vassal
+			is_subject_of_type = march
+		}
+		overlord = {
+			culture_group = east_asian
+			religion_group = eastern
+		}
+	}
+}
+
+00_malay_monarchy = {
+	rank = {
+		1 = KEDATUAN
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = RAJA
+		2 = MAHARAJA
+		3 = EMPEROR
+	}
+
+	ruler_female = {
+		1 = RANI
+		2 = MAHARANI
+		3 = EMPRESS
+	}
+
+	consort_male = {
+		1 = RANA
+		2 = MAHARANA
+		3 = EMPEROR_CONSORT
+	}
+	
+	consort_female = {
+		1 = RANI
+		2 = MAHARANI
+		3 = EMPRESS
+	}
+
+        heir_male = {
+		1 = RAJKUMAR
+		2 = RAJKUMAR
+		3 = RAJKUMAR
+	}
+
+	heir_female = {
+		1 = RAJKUMARI
+		2 = RAJKUMARI
+		3 = RAJKUMARI
+	}
+
+	trigger = {
+		OR = {
+			religion = buddhism
+			religion = mahayana
+			religion = vajrayana
+			religion = hinduism
+			religion_group = pagan
+		}
+		OR = {
+			culture_group = malay
+			culture_group = nusantaran
+			culture_group = moluccan_group
+		}
+	}
+}
+
+00_malay_monarchy_muslim = {
+	rank = {
+		1 = KEDATUAN
+		2 = SULTANATE
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = RAJA
+		2 = SULTAN
+		3 = GREAT_SULTAN
+	}
+
+	ruler_female = {
+		1 = RANI
+		2 = SULTANA
+		3 = GREAT_SULTANA
+	}
+
+	consort_male = {
+		1 = RANA
+		2 = SULTAN_CONSORT
+		3 = SULTAN_CONSORT
+	}
+	
+	consort_female = {
+		1 = RANI
+		2 = SULTANA
+		3 = SULTANA
+	}
+
+        heir_male = {
+		1 = RAJKUMAR
+		2 = RAJKUMAR
+		3 = RAJKUMAR
+	}
+
+	heir_female = {
+		1 = RAJKUMARI
+		2 = RAJKUMARI
+		3 = RAJKUMARI
+	}
+
+	trigger = {
+		religion_group = muslim
+		OR = {
+			culture_group = malay
+			culture_group = nusantaran
+			culture_group = moluccan_group
+		}
+	}
+}

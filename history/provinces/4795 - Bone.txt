@@ -25,4 +25,4 @@ center_of_trade = 1
 
 1511.1.1 = { discovered_by = POR }
 
-1611.1.1 = { religion = sunni }
+1611.1.1 = { religion = sunni culture = bugis }

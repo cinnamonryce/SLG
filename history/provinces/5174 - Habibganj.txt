@@ -1,0 +1,61 @@
+#Habibganj - Habiganj
+
+owner = TRF
+controller = TRF
+culture = sylheti
+religion = hinduism
+capital = "Laskarpur"
+trade_goods = paper #Religious center
+hre = no
+base_tax = 3
+base_production = 2
+base_manpower = 2
+is_city = yes
+add_core = TRF
+discovered_by = indian
+discovered_by = chinese
+discovered_by = indochinese
+discovered_by = malay_group
+discovered_by = nomad_group
+
+1576.7.12 = {
+	owner = TPR
+	controller = TPR
+	add_core = TPR
+} #Annexed by Tripura
+
+1610.1.1 = {
+	owner = TRF
+	controller = TRF
+	remove_core = TPR
+} #Seized by Afghan Baro-Bhuyan Khwaja Usman
+
+1612.1.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} #Mughal takeover
+
+1622.10.1 = {
+	controller = REB
+	revolt = {
+		type = pretender_rebels size = 0
+		name = "Khurrams Faction"
+		leader = "Shah Jahan Timurid"
+	}
+} #With some aid from Golconda Khurrams rebelion against his father continues
+1624.1.1 = {
+	controller = MUG
+	revolt = { }
+} #Khurram is defeated and is chased away by Mughal forces and rebelious Zamindars. Takes refuge in Ahmednagar and eventually surrenders on terms dictated by Nur Jahan
+1627.1.1 = { discovered_by = POR }
+1707.3.15 = {
+	owner = BNG
+	controller = BNG
+	remove_core = MUG
+}
+1760.1.1 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+} # Given to GBR by Mir Qasim

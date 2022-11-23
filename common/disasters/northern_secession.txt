@@ -1,0 +1,135 @@
+northern_secession = {
+	potential = {
+		tag = AYU
+		normal_or_historical_nations = yes
+		is_free_or_tributary_trigger = yes
+		NOT = { has_country_flag = had_northern_secession }
+		OR = {
+			SUK = { is_subject_of = ROOT }
+			sukhothai_area = { country_or_non_sovereign_subject_holds = ROOT }
+			upper_chao_phraya_area = { country_or_non_sovereign_subject_holds = ROOT }
+		}	
+		current_age = age_of_discovery
+	}
+
+	can_start = {
+		has_any_disaster = no
+		custom_trigger_tooltip = {
+			tooltip = sukhothai_nobles_angered_tt
+			has_country_flag = sukhothai_nobles_angered_flag
+		}
+	}
+	
+	can_stop = {
+		OR = {
+			NOT = { 
+				SUK = { is_subject_of = ROOT }
+			}
+			NOT = { 
+				exists = SUK
+			}
+		}
+	}
+	
+	progress = {
+		modifier = {
+			factor = 2
+			if = {
+				limit = {
+					SUK = {
+						is_subject_of = ROOT
+					}
+				}
+				SUK = {
+					liberty_desire = 50
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			NOT = { legitimacy = 75 }
+		}
+		modifier = {
+			factor = 1
+			sukhothai_area = {
+				OR = {
+					nationalism = 1
+					unrest = 1
+					controlled_by = REB
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			upper_chao_phraya_area = {
+				OR = {
+					nationalism = 1
+					unrest = 1
+					controlled_by = REB
+				}
+			}
+		}
+		modifier = {
+			factor = -2
+			if = {
+				limit = {
+					SUK = {
+						is_subject_of = ROOT
+					}
+				}
+				SUK = {
+					NOT = { liberty_desire = 50 }
+				}
+			}
+		}
+		modifier = {
+			factor = -1
+			legitimacy = 90
+		}
+	}
+	
+	can_end = {
+		OR = {
+			NOT = { exists = SUK }
+			custom_trigger_tooltip = {
+				tooltip = northern_secession_border_tt
+				NOT = {
+					any_owned_province = {
+						any_neighbor_province = {
+							province_id = 601
+						}
+					}
+					any_subject_country = {
+						limit = {
+							is_subject_other_than_tributary_trigger = yes
+						}
+						any_owned_province = {
+							any_neighbor_province = {
+								province_id = 601
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	modifier = {
+		fort_maintenance_modifier = 0.5
+		reduced_liberty_desire = -15
+	}	
+	
+	on_start = northern_secession.1
+	on_end = northern_secession.2
+	
+	on_monthly = {
+		events = {
+			#
+		}
+		random_events = { 
+			36 = 0 # roughly one event per 9 months
+			1 = siamese_rev.4 # reactionary nobles caught plotting. Fight some noble rebels (+1 openness score) or gain 2 reactionary score and noble influence #Placeholder event
+		}
+	}
+}
+

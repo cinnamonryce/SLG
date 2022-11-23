@@ -3,7 +3,7 @@
 graphical_culture = asiangfx
 special_unit_culture = south_east_asian_special
 
-color = { 224  195  90 }
+color = { 182  114  12 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -40,7 +40,7 @@ monarch_names = {
 	"Sao Hkam Hmu #0" = 30
 	"Sao Lak #0" = 30
 	"Sao Mong Hka #0" = 30
-	"Sao Hkam Htao #0" = 100
+	"Sao Hkam Htao #0" = 10
 	"Sao Mong Hkak #0" = 30
 	"Sao On #0" = 30
 	"Sao In Hkam #0" = 30

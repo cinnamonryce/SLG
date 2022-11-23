@@ -523,10 +523,7 @@ siamese_missions_3 = {
 		provinces_to_highlight = {
 			OR = {
 				owned_by = SUK
-				AND = {
-					area = sukhothai_area
-					NOT = { owned_by = ROOT }
-				}
+				province_id = 601
 			}
 		}
 		trigger = {

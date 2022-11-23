@@ -1394,3 +1394,18 @@ vassal = {
 	start_date = 1816.1.1
 	end_date = 1946.1.1
 }
+
+#Tripuran Subjects
+vassal = {
+	first = TPR
+	second = PRT
+	start_date = 1400.1.1
+	end_date = 1489.1.1
+}
+
+vassal = {
+	first = GBR
+	second = TPR
+	start_date = 1808.1.1
+	end_date = 1946.1.1
+}

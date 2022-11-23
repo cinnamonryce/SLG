@@ -33,47 +33,64 @@ historical_units = {
 }
 
 monarch_names = {
-	"Razadarit #1" = 20
-	"Dhammaraza #1" = 20
-	"Ran #1" = 20
+	"Razadarit #1" = 10
+	"Dhammaraza #1" = 10
+	"Binnya Ran #1" = 20
 	"Hkonmaing #1" = 20
 	"Minkhaung #1" = 5
-	"Waru #0" = 20
+	"Binnya Waru #1" = 20
 	"Ran De #0" = 10
-	"Kyan #0" = 20
+	"Binnya Kyan #0" = 20
 	"Sein #0" = 20
 	"Nwe #0" = 20
-	"Mawdaw #0" = 20
-	"Dhammazedi #0" = 20
+	"Mawdaw #0" = 10
+	"Dhammazedi #0" = 10
 	"Dhammadasi #0" = 10
-	"Yazadipati #0" = 20
-	"Law #0" = 20
+	"Yazadipati #0" = 15
+	"Law #0" = 10
 	"Takayutpi #0" = 10
-	"Smim Sawhtut #0" = 20
-	"Smim Htaw #0" = 20
-	"Set #0" = 20
-	"Dala #0" = 10
-	"Tha Hla #0" = 0
-	"Hla #0" = 0
-	"Gadu #0" = 0
-	"Gada #0" = 0
-	"Bala #0" = 0
-	"Aleimma #0" = 0
-	"Laik Gi #0" = 0
-	"O #0" = 0
-	"E #0" = 0
-	"U #0" = 0
-	"Zein #0" = 0
+	"Smim Sawhtut #0" = 10
+	"Smim Htaw #0" = 10
+	"Set #0" = 10
+	"Binnya Dala #0" = 10
+	"Saw O #1" = 10
+	"Binnya U #1" = 10
+	"Leik Munhtaw #0" = 10
+	"Takayutpi #0" = 10
+	"Minye Aung Naing #0" = 10
+	"Epyathi #0" = 10
+	"Bayinnaung #0" = 10
+	"Taw Maing #0" = 10
+	"Thin Yan #0" = 10
+	"Bayathingyan #0" = 10
+	"Thudhamma Yaza #0" = 10
+	"Smim Nyi San #0" = 10
+
+	"Byat Za #0" = 0
+	"Lauk Shein #0" = 0
+	"Lagun Ein #0" = 0
+	"Than Lon #0" = 0
+	"Gyaing #0" = 0
+	"Than Laik #0" = 0
+	"Than #0" = 0
 	"Pun So #0" = 0
-	"Zeik Bye #0" = 0
-	"Linka #0" = 0
-	"Bonyin #0" = 0
 	"Byattaba #0" = 0
-	"Kankaung #0" = 0
-	"Ngan Mohn #0" = 0
-	"Thaw #0" = 0
-	"Talaban #0" = 0
-	"Upayaza #0" = 0
+	"Laukpya #0" = 0
+	"Nwe #0" = 0
+	"Bya Let #0" = 0
+	"Dein Maniyut #0" = 0
+	"Dein #0" = 0
+	"Tein #0" = 0
+	"Thilawa #0" = 0
+	"Awa Naing #0" = 0
+	"Annara #0" = 0
+	"Hpyun Gyo #0" = 0
+	"Khadunmut #0" = 0
+	"Maru #0" = 0
+	"Thauk #0" = 0
+	"E Phayathat #0" = 0
+	"Letya Pyanchi #0" = 0
+	"Bya Kon #0" = 0
 	
 	"Mya #0" = -1
 	"Yaza Dewi #0" = -1
@@ -86,6 +103,14 @@ monarch_names = {
 	"Htapi #0" = -1
 	"Daw #0" = -1
 	"Ta Lat #0" = -1
+	"Minya Dewi #0" = -1
+	"Hsanda Min Hla #0" = -1
+	"Tala Kamu #0" = -1
+	"May Hnin Kaythaya  #0" = -1
+	"Thuddhamaya #0" = -1
+	"Mwei Thin #0" = -1
+	"May Kyaw #0" = -1
+	"Mi Baik #0" = -1
 }
 
 leader_names = {
@@ -96,20 +121,28 @@ leader_names = {
 	Pyathat Dok Tagu
 	Pun Baw Ye Thamihla
 	Shwezigon Matmalom
-	Maubin Seang
-	Sittaung Wunna
-	Than Ban Myitta
-	Myaungmya
+	Maubin Seang Thaton
+	Sittaung Wunna Maubin
+	Than Ban Myitta Martaban
+	Myaungmya Sittaung Naungyo
+	Atut Thanmaung Taikkala
+	Thawutti Pan Hlaing Nawin
 }
 
 ship_names = {
-	Myaungmya Mottama
+	Myaungmya Mottama Thaton
 	Sadhuim Donwun Poik
 	Dagon Hongsawatoi Bago
 	Ramanadesa Razadarit
 	Ye Matmalom Khonmaing
-	Irawaddy Hawai Minkhaung
+	Irrawaddy Hawai Minkhaung
 	Hanthawaddy Dhammaraza
 	Ramanya Tanasia Gadu Gada
-	Seang Dhammazedi Waru
+	Seang Dhammazedi Waru Sittaung
+	Thaton Martaban Naungyo Maubin
+	Atut Thanmaung Taikkala
+	Thawutti Pan Hlaing Nawin
+	Dhammadasi Yazadipati
+	"Binnya Waru" Razadarit
+	Takayutpi "Shin Sawbu"
 }

@@ -4,6 +4,7 @@ primary_culture = miao
 religion = animism
 technology_group = chinese
 capital = 2168	#Bozhou
+historical_rival = MNG
 
 1399.1.1 = {
 	monarch = {
