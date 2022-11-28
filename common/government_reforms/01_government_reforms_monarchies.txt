@@ -56,6 +56,8 @@ plutocratic_reform = {
 			technology_group = muslim
 			technology_group = chinese
 			technology_group = east_african
+			technology_group = indochinese
+			technology_group = malay_group
 		}
 	}
 	nation_designer_trigger = {
@@ -64,6 +66,8 @@ plutocratic_reform = {
 			technology_group = muslim
 			technology_group = chinese
 			technology_group = east_african
+			technology_group = indochinese
+			technology_group = malay_group
 		}
 	}
 	valid_for_nation_designer = yes
@@ -1039,8 +1043,8 @@ mughal_government = {
 		scandinavian = {
 			mil_advisor_cost = -0.1
 		}
-		southeastasian_group = {
-			development_cost = -0.05
+		southeastasian_group = { #Tweaked
+			build_cost = -0.05
 		}
 		south_slavic = {
 			warscore_cost_vs_other_religion = -0.1
@@ -1054,8 +1058,8 @@ mughal_government = {
 		tartar = {
 			cavalry_cost = -0.15
 		}
-		thai_group = {
-			build_cost = -0.05
+		thai_group = { #Tweaked
+			development_cost = -0.05
 		}
 		tibetan_group = {
 			prestige_per_development_from_conversion = 0.5
@@ -1391,7 +1395,7 @@ uparaja_reform = {
 		}
 		modifier = {
 			factor = 3
-			culture_group = thai_group
+			technology_group = indochinese
 		}
 	}
 }

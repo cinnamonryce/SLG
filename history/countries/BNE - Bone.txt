@@ -25,7 +25,11 @@ government_rank = 1
 		monarch_name = "We Banrigau"
 		dynasty = "Bone"
 		birth_date = 1444.1.1
+<<<<<<< Updated upstream
 		death_Date = 1503.6.1 #Disappeared in 1503 after abdicating
+=======
+		death_Date = 1503.1.1 #Disappeared in 1503 after abdicating
+>>>>>>> Stashed changes
 		claim = 95
 		adm = 2
 		dip = 2
