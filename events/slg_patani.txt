@@ -44,7 +44,7 @@ country_event = {
 		}
 		random_list = {
 			95 = { kill_ruler = yes }
-			5 = { add_prestige = 10 }
+			5 = { add_prestige = 25 }
 		}
 	}
 }

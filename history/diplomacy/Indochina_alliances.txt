@@ -2,12 +2,20 @@
 
 #Malaya
 
+# Tenasserim
+march = {
+	first = AYU
+	second = TNS
+	start_date = 1441.1.1
+	end_date = 1488.1.1
+}
+
 # Ligor (Nakhon Si Thammarat)
 march = {
 	first = AYU
 	second = LIG
 	start_date = 1400.1.1
-	end_date = 1570.1.1
+	end_date = 1494.1.1
 }
 
 vassal = {

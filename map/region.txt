@@ -705,6 +705,16 @@ tibet_region = {
 		ngari_area
 		nyingchi_area
 		kham_area
+		#MOVED
+		ladakh_area
+		#NEW
+		march_country_area
+		golok_area
+		kokonor_area
+		lower_gyalrong_area
+		nangchen_area
+		lhoka_area
+		lower_ngari_area
 	}
 }
 
@@ -729,7 +739,7 @@ hindusthan_region = {
 		baisi_rajya_area
 		bundelkhand_area
 		sind_sagar_area
-		ladakh_area
+		gilgit_area #NEW
 	}
 	monsoon = {
 		00.07.01
@@ -954,6 +964,8 @@ xinan_region = {
 		#NEW
 		lijiang_area
 		koshanpye_area
+		guangnan_area
+		eastern_guizhou_area
 	}
 }
 
@@ -1101,6 +1113,10 @@ malaya_region = {	#Western Indonesia Malaya.
 		bengkulu_area
 		#NEW
 		perak_area
+		deli_area
+		aceh_area
+		lampung_area
+		sumatran_islands_area
 	}
 	monsoon = {
 		00.10.01
@@ -1121,9 +1137,11 @@ moluccas_region = {
 		makassar_area
 		spice_islands_area
 		ternate_area
-		kendari_area
 		banggai_area
 		south_moluccas_area
+		#NEW
+		minahasa_area
+		mandar_area
 	}
 	monsoon = {
 		00.10.01
@@ -1151,6 +1169,8 @@ indonesia_region = { #Eastern Indonesian/Malayan Islands.
 		banten_area
 		kotawaringin_area
 		sarawak_area
+		kapuas_area
+		bulungan_area
 	}
 	monsoon = {
 		00.11.01
@@ -1620,6 +1640,7 @@ new_guinea_region = {
 		mimika_area
 		merauke_area
 		momase_area
+		bomberai_area
 	}
 	monsoon = {
 		00.12.01
@@ -1640,9 +1661,10 @@ siam_region = {
 		suwannaphum_area
 		dangrek_area
 		#NEW
-		upper_chao_phraya_area
+		ping_area
 		kra_isthmus_area
 		prachin_area
+		lampang_area
 	}
 	monsoon = {
 		00.07.01

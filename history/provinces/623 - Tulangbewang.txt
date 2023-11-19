@@ -2,21 +2,18 @@
 
 owner = SUN
 controller = SUN
-culture = rejang
+culture = lampung
 religion = hinduism
 capital = "Tulangbawang"
 hre = no
 base_tax = 2 
 base_production = 2
-base_manpower = 1
+base_manpower = 2
 trade_goods = cloth
 is_city = yes
 add_core = SUN
 add_core = BAN
 add_core = LMP
-
-
-
 
 discovered_by = chinese
 discovered_by = indochinese

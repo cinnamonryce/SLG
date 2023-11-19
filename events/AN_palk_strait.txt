@@ -1,0 +1,98 @@
+#Courtesy of Amyzonis from the Atlas Novum team, and updated by Pieter :)
+namespace = new_strait
+
+#Palk Strait - formed 1480 historically
+country_event = { 
+	id = new_strait.1
+	title = "new_strait.1.t"
+	desc = "new_strait.1.d"
+	picture = BATTLE_eventPicture
+	goto = 2100
+	
+	fire_only_once = yes
+	
+	trigger = {
+		owns = 2100
+		NOT = {
+			has_global_flag = palk_strait_cyclone_happened 
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.5
+			NOT = { owns = 536 }
+		}
+	}
+	
+	immediate = {
+		hidden_effect = { set_global_flag = palk_strait_cyclone_happened }
+	}
+
+	option = {
+		name = "new_strait.1.a" 
+		ai_chance = { factor = 95 }
+		custom_tooltip = new_strait.1_tooltip		
+		2100 = {
+			set_great_project_tier_3 = {
+				type = palk_strait
+			}				
+		}
+	}
+	option = {
+		name = "new_strait.1.b" 
+		ai_chance = { factor = 5 }
+		add_treasury = -100
+		add_manpower = -5
+		custom_tooltip = new_strait.2_tooltip
+	} 
+}
+
+#Spawn event later
+country_event = { 
+	id = new_strait.2
+	title = "new_strait.2.t"
+	desc = "new_strait.2.d"
+	picture = CITY_DEVELOPMENT_eventPicture
+	goto = 2100
+	
+	fire_only_once = yes
+	
+	trigger = {
+		owns = 2100
+		has_global_flag = palk_strait_cyclone_happened
+		NOT = { 
+			has_country_flag = palk_strait_construct_happened
+		}
+		is_year = 1600
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.5
+			NOT = { owns = 536 }
+		}
+	}
+	
+	immediate = { set_country_flag = palk_strait_construct_happened }
+
+	option = {
+		name = "new_strait.2.a" 
+		ai_chance = { factor = 90 }
+		custom_tooltip = new_strait.3_tooltip
+		add_treasury = -500
+		add_manpower = -10
+		2100 = {
+			set_great_project_tier_3 = {
+				type = palk_strait
+			}				
+		}
+	}
+	option = {
+		name = "new_strait.2.b" 
+		ai_chance = { factor = 10 }
+		add_prestige = 5
+	} 
+} 

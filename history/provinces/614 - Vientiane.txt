@@ -14,10 +14,12 @@ fort_15th = yes
 is_city = yes
 add_core = LXA
 add_core = VIE
+
 discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 discovered_by = indian
+
 extra_cost = 8
 center_of_trade = 1
 
@@ -40,7 +42,7 @@ center_of_trade = 1
 	controller = VIE
 	add_core = VIE
 	remove_core = LXA
-} # Declared independent, Lan Xang was partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
+}
 1779.1.1 = {
 	remove_province_modifier = emerald_buddha
 }

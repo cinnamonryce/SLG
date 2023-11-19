@@ -1,0 +1,134 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 120  69  69 }
+revolutionary_colors = { 8 15 8 }
+
+historical_idea_groups = {
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	spy_ideas
+	religious_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	chinese_longspear
+	eastern_bow
+	chinese_footsoldier
+	chinese_steppe
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	manchu_banner
+	han_banner
+	asian_musketeer
+	chinese_dragoon
+	reformed_asian_musketeer
+	reformed_asian_cavalry
+	reformed_manchu_rifle
+}
+
+monarch_names = {
+	"Gyalpo #0" = 10
+	"Lotus #0" = 10
+	"Tashi #0" = 10
+	"Tsewang #0" = 20
+	"Jamyang #0" = 10
+	"Singye #0" = 10
+	"Deldan #0" = 10
+	"Nyuma #0" = 10
+	"Deskyong #0" = 10
+	"Phuntsog #0" = 10
+	"Tsetan #0" = 10
+	"Tsepel #0" = 10
+	"Skalzang #0" = -1
+	"Nilza #0" = -1
+	"Zizi #0" = -1
+	"Kunzang #0" = -1
+	"Mandok #0" = -1
+}
+
+leader_names = {
+	Khaplu
+	Shigar
+	Balti
+	Rupshu
+	Phokar
+	Kartse
+	Mulbek
+	Zanskar
+	Heniskat
+	Purig
+	Sot
+Maqpon
+Maqpon
+Maqpon
+Maqpon
+Maqpon
+Maqpon
+Maqpon
+Maqpon
+}
+
+ship_names = {
+	Leh
+	Khaplu
+	Shigar
+	Balti
+	Rupshu
+	Phokar
+	Kartse
+	Mulbek
+	Zanskar
+	Heniskat
+	Purig
+	Sot
+	Chespong
+	Thonmi
+	Mgar
+	Bri
+	Mong
+	Zhang
+	Mchims
+	Bal
+	Lang
+	Cogro
+	Bro
+	Dbas
+	Shudpu
+	Gnyags
+	Mgus
+	Mjang
+	Snang
+	Sgro
+	Rma
+	Snyiba
+	Khu
+	Khun
+	Mkar
+	Rlangs
+	Rinspungs
+	Zhingshag
+	Phjongsrgjas
+	Nganlam
+	Sba
+	Lig
+	Khjungpo
+	Dbas
+	Mnyammed
+	Barkam
+	Dartsendo
+	Gyantse Gartse
+	Lhasa Lhotse
+	Makalu 
+	Nagqu Nyingchi Nedong
+	Pelbar
+	Qamdo
+	Shigatse Sakya
+	Tinggri
+}

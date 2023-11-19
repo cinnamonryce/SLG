@@ -1,6 +1,7 @@
 government = monarchy
 add_government_reform = mandala_reform
-primary_culture = kutainese
+primary_culture = kayan
+add_accepted_culture = kutainese
 technology_group = malay_group
 religion = hinduism
 capital = 638	# Kutai
@@ -107,8 +108,8 @@ historical_friend = BEU
 }
 
 1732.1.1 = {
-	primary_culture = malayan #Standarization of Malay in Kutai
-	add_accepted_culture = kutainese 
+	primary_culture = kutainese
+	add_accepted_culture = kayan
 	religion = sunni
 	religious_school = shafii_school
 	add_piety = -0.1

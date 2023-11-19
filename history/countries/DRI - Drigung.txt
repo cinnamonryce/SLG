@@ -1,0 +1,96 @@
+government = theocracy
+add_government_reform = divine_lineage_reform
+primary_culture = utsang
+religion = vajrayana
+technology_group = chinese
+capital = 5217 #Drigung
+government_rank = 1
+religious_school = kagyu_school
+
+1428.1.1 = {
+	monarch = {
+		name = "Chogyal Rinchen Pal Zangpo"
+		dynasty = "Drikung"
+		birth_date = 1428.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1469.1.1 = {
+	monarch = {
+		name = "Rinchen Chökyi Gyaltsen"
+		dynasty = "Drikung"
+		birth_date = 1449.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1484.1.1 = {
+	monarch = {
+		name = "Gyalwang Kunga Rinchen"
+		dynasty = "Drikung"
+		birth_date = 1475.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1527.1.1 = {
+	monarch = {
+		name = "Gyalwang Rinchen Phuntsok"
+		dynasty = "Drikung"
+		birth_date = 1509.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1565.1.1 = {
+	monarch = {
+		name = "Rinchen Namgyal Chodak Gyaltsen"
+		dynasty = "Drikung"
+		birth_date = 1527.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1570.1.1 = {
+	monarch = {
+		name = "Chokyi Namgyal"
+		dynasty = "Drikung"
+		birth_date = 1557.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1579.1.1 = {
+	monarch = {
+		name = "Tsungme Chogyal Phuntsok"
+		dynasty = "Drikung"
+		birth_date = 1547.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1602.1.1 = {
+	monarch = {
+		name = "Naro Nyipa Tashi Phuntsok"
+		dynasty = "Drikung"
+		birth_date = 1574.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}

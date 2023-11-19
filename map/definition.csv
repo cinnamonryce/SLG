@@ -4957,7 +4957,7 @@ province;red;green;blue;x;x
 4956;216;222;106;Tenasserim2;x 
 4957;188;158;140;Northern Arakan;x
 4958;254;87;63;Akyab;x
-4959;66;79;108;Phayao;x
+4959;66;79;108;Chiang Saen;x
 4960;174;84;74;Phrae;x
 4961;149;182;108;Sa Kaeo;x
 4962;108;142;212;Songkhla;x
@@ -4974,10 +4974,10 @@ province;red;green;blue;x;x
 4973;255;242;0;Serampas;x
 4974;90;117;254;Kluet;x
 4975;37;199;86;Meulaboh;x
-4976;42;36;172;Kartanegara;x
+4976;42;36;172;Tepian Batu;x
 4977;88;101;103;Karen Hills;x
 4978;139;112;214;Natuna;x
-4979;161;203;131;Sukamara;x
+4979;161;203;131;Kotawaringin;x
 4980;88;79;4;Simeulue;x
 4981;94;176;176;Sintang;x
 4982;128;38;86;Sanggau;x
@@ -5008,10 +5008,10 @@ province;red;green;blue;x;x
 5007;78;72;179;Sakiraya/Kiray/Turumoan/Huilan/Hualien;x
 5008;209;187;29;Hoba/Taipei/San Dominigo;x
 5009;125;181;184;Mong Ting;x
-5010;70;115;123;Tengyue;x
+5010;70;115;123;Yongchang;x
 5011;118;60;157;Shunning;x
-5012;5;27;88;Chuxiong;x
-5013;44;250;199;Mengzi;x
+5012;5;27;88;Yao'an;x
+5013;44;250;199;Guangxi;x
 5014;33;132;134;Tianzhou;x
 5015;164;168;206;Si'en;x
 5016;65;34;238;Pingle;x
@@ -5073,23 +5073,23 @@ province;red;green;blue;x;x
 5072;83;1;184;Chin Hills;x
 5073;201;38;245;Himalaya2;x #Tibet
 5074;56;41;97;Mustang;x
-5075;4;190;104;Riwoche;x
+5075;4;190;104;Nubhor;x
 5076;74;209;126;Delingha;x
 5077;18;208;112;Chone;x
 5078;220;36;97;Yongning;x
 5079;106;136;242;Litang;x
 5080;97;45;249;Nangchen;x
 5081;236;171;255;Powo;x
-5082;162;31;187;Duoma;x
+5082;162;31;187;Tanggula Mountains;x
 5083;205;165;91;Gonggar;x
 5084;16;138;9;Bumthang;x
-5085;186;69;236;Mangyul;x
+5085;186;69;236;Drongpa;x
 5086;68;114;22;Zangskar;x
 5087;221;113;107;Himalaya3;x
 5088;161;223;60;Lingtsang;x
-5089;70;164;242;Golok;x
+5089;70;164;242;Akyong;x
 5090;114;148;148;Ralung/Gyantse;x
-5091;234;212;38;Trehor;x
+5091;234;212;38;Tsanlha;x
 5092;9;5;34;Muli;x
 5093;111;230;150;Nyarong;x
 5094;0;127;168;Gonjo;x
@@ -5189,3 +5189,71 @@ province;red;green;blue;x;x
 5188;20;251;252;Bengal Fan;x #Bengal fandom?!
 5189;255;98;141;Myitkyina;x
 5190;181;121;21;Sherpur/Dash Kahonia;x
+5191;250;120;180;Tramutang;x
+5192;200;252;244;Huili;x
+5193;154;149;179;Qujing;x
+5194;111;38;217;Shuixi;x
+5195;165;102;152;Yazhou;x
+5196;92;137;109;Rongdrak;x
+5197;188;178;100;Batang;x
+5198;89;93;140;Zayul;x
+5199;178;0;255;Chuchen;x
+5200;57;247;123;Ngawa;x
+5201;150;10;165;Pema;x
+5202;192;159;136;Wangchen;x
+5203;76;255;0;Trika;x
+5204;70;71;79;Daxue Range;
+5205;74;65;84;Min Mountains;x
+5206;72;70;89;Bayan Har Mountains;x
+5207;219;26;117;Shazhou;x
+5208;38;38;113;Temqen/Tianjun;x
+5209;96;34;61;Aduan;x
+5210;51;204;108;Dulan;x
+5211;104;251;126;Qumarleb;x
+5212;59;252;216;Zhidoi;x
+5213;215;136;150;Sog;x
+5214;61;62;69;Nyenchen Tanglha;x
+5215;3;245;203;Dzato/Zadoi;x
+5216;0;114;151;Riwoche;x
+5217;220;90;113;Drigung;x
+5218;48;156;83;Chusum;x
+5219;58;69;67;Bhutanese Himalayas;x
+5220;84;90;56;Lhatse;x
+5221;215;143;96;Tingri;x
+5222;106;174;112;Gartok;x
+5223;56;84;118;Purig;x
+5224;60;100;19;Spiti;x
+5225;64;57;70;Zanskar Range;x
+5226;62;54;67;Dhauladhar;x
+5227;55;52;69;Sivalik Hills;x
+5228;210;123;138;Bachen/Baqen;x
+5229;79;50;133;Ngamring;x
+5230;174;0;249;Zamthang;x
+5231;63;74;78;Eastern Daxue Range;x
+5232;90;156;237;Aksai Chin;x
+5233;140;167;200;Basgo;x
+5234;177;45;234;Gungthang;x
+5235;73;105;254;Kuala Batee;x
+5236;98;85;97;Karolands;x
+5237;208;105;43;Krui;x
+5238;210;104;182;Lampung;x
+5239;86;97;94;Pasemah Highlands;x
+5240;132;43;103;Pasuruan;x
+5241;255;17;113;Sukadana;x
+5242;83;168;168;Selimbau;x
+5243;77;149;187;Belayan;x
+5244;32;226;27;Balanipa;x
+5245;52;201;79;Bungku;
+5246;64;0;253;Bolaang Mongondow;x
+5247;201;33;113;Waru;x
+5248;249;96;100;Misool;x
+5249;184;75;170;Salawati;x
+5250;191;100;182;Sorong;x
+5251;87;74;85;Bird's Head Peninsula;x
+5252;26;89;206;Nabire;x
+5253;82;140;57;Labuan;x
+5254;249;87;0;Mendawai;x
+5255;83;185;57;Palaw;x
+5256;66;48;0;Ye;x
+5257;97;146;75;Tawau;x
+5258;82;104;60;Lang Son;x

@@ -2,7 +2,7 @@
 
 owner = HAJ
 controller = HAJ
-culture = assamese
+culture = boro
 religion = hinduism
 capital = "Gauhati"
 trade_goods = cotton
@@ -16,6 +16,7 @@ add_core = HAJ
 1502.1.1 = { controller = BNG }
 1502.6.1 = { owner = BNG } #Conquered by Bengal
 1509.1.1 = {
+	culture = assamese
 	controller = KMT
 	owner = KMT
 	add_core = KMT

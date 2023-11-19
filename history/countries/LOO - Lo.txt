@@ -1,11 +1,11 @@
 government = monarchy
 add_government_reform = feudalism_reform
-technology_group = indian
-unit_type = chinese
-primary_culture = tibetan
+technology_group = chinese
+primary_culture = utsang
 religion = vajrayana
 capital = 5074 #Mustang
 government_rank = 1
+religious_school = sakya_school
 
 #Vassals of Gungthang
 1340.1.1 = {

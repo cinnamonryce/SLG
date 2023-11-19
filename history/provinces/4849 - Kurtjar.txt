@@ -14,8 +14,6 @@ native_hostileness = 2
 tribal_owner = AWN
 discovered_by = aboriginal_tech
 
-
-
 discovered_by = MKS
 discovered_by = TER
 discovered_by = TID

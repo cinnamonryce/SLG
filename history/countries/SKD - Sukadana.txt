@@ -3,7 +3,7 @@ add_government_reform = plutocratic_reform
 primary_culture = bornean
 religion = hinduism
 technology_group = malay_group
-capital = 2706 #Sukadana
+capital = 2706 #Matan
 historical_friend = SWK
 
 1440.1.1 = {
@@ -36,7 +36,7 @@ historical_friend = SWK
 	}
 }
 
-#Sukadana Kingdom established during the reign of Panembahan Karang Tanjung
+1495.1.1 = { capital = 5241 } #Sukadana
 
 1504.1.1 = {
 	monarch = {
@@ -104,6 +104,8 @@ historical_friend = SWK
 	religious_school = shafii_school
 	add_piety = -0.1
 }
+
+1637.1.1 = { capital = 2706 } #Matan
 
 1665.1.1 = {
 	monarch = {

@@ -451,7 +451,14 @@ tau_slot_2 = {
 			set_government_rank = 3
 			northern_thai_area = {
 				limit = {
-					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			lampang_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
@@ -462,13 +469,20 @@ tau_slot_2 = {
 		icon = mission_a_million_rice_fields
 		required_missions = { tau_universal_ruler }
 		provinces_to_highlight = {
-			area = northern_thai_area
+			OR = {
+				area = northern_thai_area
+				area = lampang_area
+			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
 			northern_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			lampang_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
@@ -680,7 +694,7 @@ tau_slot_3 = {
 				area = western_thai_area
 				area = north_tenasserim_area
 				area = sukhothai_area
-				area = upper_chao_phraya_area
+				area = ping_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -703,7 +717,7 @@ tau_slot_3 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
-			upper_chao_phraya_area = {
+			ping_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}

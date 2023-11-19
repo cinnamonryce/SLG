@@ -5,7 +5,7 @@ new_AYU_ideas = {
 	}
 	
 	bonus = {
-		diplomatic_reputation = 1
+		global_manpower_modifier = 0.20
 	}
 	
 	trigger = {
@@ -18,24 +18,28 @@ new_AYU_ideas = {
 		vassal_income = 0.15
 	}
 	ayu_mueang = {
-		fort_maintenance_modifier = -0.1
+		fort_maintenance_modifier = -0.2
 	}
-	corvee_system = {
-		global_manpower_modifier = 0.20
-	}
-	ayu_trade_settlements = {
-                global_institution_spread = 0.1
+	ayu_commercial_society = {
+                female_advisor_chance = 0.2
 		trade_efficiency = 0.10
 	}
 	ayu_foreign_mercenaries = {
 		mercenary_discipline = 0.05
 	}
+	ayu_trade_settlements = {
+                global_institution_spread = 0.1
+	}
 	ayu_embassies = {
-		improve_relation_modifier = 0.3
+		diplomatic_reputation = 1
+		improve_relation_modifier = 0.2
 	}
 	phrai_luang = {
 		development_cost = -0.1
 	}
+	#corvee_system = {
+	#	global_manpower_modifier = 0.20
+	#}
 }
 
 new_LNA_ideas = {
@@ -58,10 +62,14 @@ new_LNA_ideas = {
 	}
 	lna_legacy_of_mangrai = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	lna_million_ice_paddies = {
-		global_trade_goods_size_modifier = 0.15
-		global_manpower_modifier = 0.1
+		global_trade_goods_size_modifier = 0.1
+		global_manpower_modifier = 0.2
 	}
 	lna_waters_of_the_naga = {
 		global_tax_modifier = 0.1
@@ -155,7 +163,10 @@ new_DAI_ideas = {
 	}
 	thuan_thien = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
 		meritocracy = 1
+		horde_unity = 1
 	}
 	literary_reform = {
 		technology_cost = -0.05
@@ -284,6 +295,10 @@ new_MLC_ideas = {
 	}
 	mlc_daulat = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 }
 
@@ -380,6 +395,10 @@ new_SIA_ideas = {
 	
 	bonus = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	trigger = {
@@ -755,7 +774,7 @@ CCC_ideas = {
 		center_of_trade_upgrade_cost = -0.2
 	}
 	ccc_vietnamese_migration = {
-		promote_culture_cost = -0.25
+		promote_culture_cost = -0.33
 	}
 	ccc_establish_new_trade_centers = {
 		development_cost = -0.15
@@ -778,7 +797,7 @@ BNJ_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = banjarese
+		tag = BNJ
 	}
 	
 	free = yes
@@ -1113,8 +1132,12 @@ HSE_ideas = {
 		reduced_liberty_desire = 10
 	}
 	hse_heavenly_descendants = {
+		yearly_absolutism = 0.5
 		legitimacy = 1
-		yearly_absolutism = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	hse_salween_state = {
 		global_trade_power = 0.1
@@ -1168,6 +1191,10 @@ KHS_ideas = {
 	start = {
 		shock_damage = 0.1
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	bonus = {
@@ -1201,5 +1228,49 @@ KHS_ideas = {
 	}
 	khasi_duar_blockades = {
 		embargo_efficiency = 0.25
+	}
+}
+
+TNS_ideas = {
+	start = {
+		navy_tradition = 1
+		tolerance_own = 1
+	}
+	
+	bonus = {
+		embargo_efficiency = 0.25
+	}
+	
+	trigger = {
+		tag = TNS
+	}
+	free = yes
+
+	tns_community_heritage = {
+		stability_cost_modifier = -0.1
+	}
+	tns_tavoy_estuary = {
+		global_trade_power = 0.1
+		hostile_attrition = 0.5
+	}
+	tns_sea_gypsies = {
+		global_sailors_modifier = 0.1
+	}
+	tns_to_be_a_border = {
+		defensiveness = 0.1
+		global_institution_spread = 0.15
+	}
+	tns_maha_thukan_nagaran = {
+		global_unrest = -1
+	}
+	tns_pashu_pirates = {
+		privateer_efficiency = 0.15
+	}
+	tns_cross_legged_ruler = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 }

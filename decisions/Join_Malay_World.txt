@@ -1,6 +1,7 @@
 country_decisions = {
 
 	join_malay_world_dayak = {
+		color = { 80 10 165 }
 		major = yes
 		potential = {
 			technology_group = malay_group
@@ -73,6 +74,7 @@ country_decisions = {
 		ai_importance = 5000
 	}
 	join_malay_world_moluccan = {
+		color = { 80 10 165 }
 		major = yes
 		potential = {
 			technology_group = malay_group
@@ -145,6 +147,7 @@ country_decisions = {
 		ai_importance = 5000
 	}
 	join_malay_world_sulawesi = {
+		color = { 80 10 165 }
 		major = yes
 		potential = {
 			technology_group = malay_group

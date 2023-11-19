@@ -30,6 +30,7 @@ lxa_1 = {
 				add_casus_belli = {
 					target = DAI
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -80,14 +81,21 @@ lxa_1 = {
 		icon = mission_chiang_mai
 		required_missions = { }
 		provinces_to_highlight = {
-			area = northern_thai_area
+			OR = {
+				area = northern_thai_area
+				area = lampang_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			northern_thai_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-			}		
+			}
+			lampang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
 		}
 		effect = {
 			if = {
@@ -100,6 +108,7 @@ lxa_1 = {
 				add_casus_belli = {
 					target = AYU
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -238,6 +247,7 @@ lxa_2 = {
 				add_casus_belli = {
 					target = KHM
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {

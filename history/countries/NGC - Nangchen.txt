@@ -1,10 +1,11 @@
-government = tribal
-add_government_reform = tribal_kingdom
-primary_culture = khampa
+government = monarchy
+add_government_reform = dual_system_reform
+primary_culture = horpa
 religion = vajrayana
 technology_group = chinese
 capital = 5080 #Nangchen
 government_rank = 1
+religious_school = kagyu_school
 
 1390.1.1 = {
 	monarch = {

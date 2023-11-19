@@ -75,6 +75,8 @@ historical_rival = TER
 }
 
 1496.1.1 = { #Tidore re-established as a sultanate
+	primary_culture = moluccan_malay
+	add_accepted_culture = moluccan
 	religion = sunni
 	religious_school = shafii_school
 	add_piety = -0.10

@@ -1,0 +1,28 @@
+#Chiang Saen
+
+owner = LNA
+controller = LNA
+culture = northern_thai
+religion = buddhism
+capital = "Chiang Saen"
+trade_goods = grain
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core = LNA
+add_core = NAN
+
+discovered_by = chinese
+discovered_by = indochinese
+discovered_by = malay_group
+discovered_by = indian
+
+1449.1.1 = {
+	remove_core = NAN
+}
+
+1535.1.1 = { discovered_by = POR }
+1558.4.2 = { add_core = TAU }
+1775.1.1 = { add_core = AYU }

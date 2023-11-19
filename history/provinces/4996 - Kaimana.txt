@@ -1,8 +1,8 @@
 #Kaimana
 
-culture = biak
+culture = moluccan_malay
 religion = animism
-capital = "Lobo"
+capital = "Borombouw" #Capital of Kaimana on Adi Island
 trade_goods = unknown
 hre = no
 base_tax = 1 

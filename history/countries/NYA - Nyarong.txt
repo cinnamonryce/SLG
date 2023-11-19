@@ -1,0 +1,28 @@
+government = tribal
+add_government_reform = native_chieftain_system_reform
+primary_culture = khampa
+religion = animism
+technology_group = chinese
+capital = 5093
+government_rank = 1
+
+#Fictional
+1440.1.1 = {
+	monarch = {
+		name = "Yangdon Drakpa"
+		dynasty = "Nyarong"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

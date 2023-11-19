@@ -1,27 +1,42 @@
 #Lithang
 
-owner = LHA
-controller = LHA
-add_core = LHA
+owner = LTA
+controller = LTA
+add_core = LTA
 culture = khampa
 religion = animism
 capital = "Litang"
-trade_goods = livestock
+trade_goods = grain
 hre = no
-base_tax = 3 
-base_production = 1
-base_manpower = 3
+base_tax = 2
+base_production = 2
+base_manpower = 2
 is_city = yes
 
+
+
 discovered_by = chinese
-discovered_by = indian
-discovered_by = nomad_group
 discovered_by = indochinese
 discovered_by = malay_group
+discovered_by = indian
+discovered_by = nomad_group
 
-1630.1.1 = { owner = KAM controller = KAM add_core = KAM }
+ 
+1500.1.1 = {
+	owner = LIJ
+	controller = LIJ
+	add_core = LIJ
+}
+
+1580.1.1 = { religion = vajrayana }
+
+1573.1.1 = {
+	owner = LTA
+	controller = LTA
+}
 
 1709.1.1 = { discovered_by = SPA }
+
 
 1776.1.1 = {
 	owner = QNG

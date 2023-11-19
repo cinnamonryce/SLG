@@ -1,0 +1,39 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = ladakhi
+religion = vajrayana
+technology_group = chinese
+capital = 2074	# Leh
+fixed_capital = 2074 # Cannot move capital away from this province & no power cost to move to it
+government_rank = 1
+religious_school = gelug_school
+historical_rival = BAS
+
+1410.1.1 = { #Realm divided between 2 monarchs at this date.
+	monarch = {
+		name = "Dragbumde"
+		dynasty = "Lhachen"
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+	heir = {
+		name = "Lodro Chogden"
+		monarch_name = "Lodro Chogden"
+		dynasty = "Lhachen"
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "Lodro Chogden"
+		dynasty = "Lhachen"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}

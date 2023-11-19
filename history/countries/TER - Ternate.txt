@@ -39,6 +39,8 @@ historical_rival = TID
 }
 
 1487.1.1 = {
+	primary_culture = moluccan_malay
+	add_accepted_culture = moluccan
 	religion = sunni
 	religious_school = shafii_school
 	add_piety = -0.10

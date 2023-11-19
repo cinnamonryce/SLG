@@ -15,8 +15,6 @@ add_core = LXA
 add_core = CHK
 add_core = VIE
 
-
-
 discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group

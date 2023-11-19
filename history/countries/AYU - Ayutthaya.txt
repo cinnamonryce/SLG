@@ -1,6 +1,7 @@
 government = monarchy
 add_government_reform = mandala_reform
 primary_culture = central_thai
+add_accepted_culture = dvaravati
 religion = buddhism
 technology_group = indochinese
 capital = 600 # Ayutthaya
@@ -9,8 +10,8 @@ historical_rival = LNA
 historical_friend = PAH
 
 change_estate_land_share = {
-	estate = estate_burghers
-	share = -5
+	estate = estate_nobility
+	share = 30
 }
 
 1395.1.1 = {
@@ -101,6 +102,7 @@ change_estate_land_share = {
 	add_ruler_personality = lawgiver_personality
 	add_ruler_personality = pious_personality
 }
+
 1463.1.1 = {
 	heir = {
 		name = "Intharacha"
@@ -116,6 +118,8 @@ change_estate_land_share = {
 	}
 }
 
+1464.1.1 = { capital = 2388 } # Phitsanulok
+
 1488.1.1 = {
 	monarch = {
 		name = "Borommaracha III"
@@ -126,9 +130,6 @@ change_estate_land_share = {
 		mil = 0
 		leader = { name = "Borommaracha III Suphannaphum"      	type = general	fire = 0	shock = 1	manuever = 3	siege = 0 }
 	}
-}
-
-1488.1.1 = {
 	heir = {
 		name = "Chettathirat"
 		monarch_name = "Ramathibodi II"
@@ -142,6 +143,8 @@ change_estate_land_share = {
 		leader = { name = "Chettathirat Suphannaphum"      type = general	fire = 1	shock = 3	manuever = 4	siege = 0 }
 	}
 }
+
+1488.1.1 = { capital = 600 } # Ayutthaya
 
 1491.1.1 = {
 	monarch = {

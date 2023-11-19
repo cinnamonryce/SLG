@@ -1,19 +1,17 @@
-#2707 - Barito
+#2707 - Amuntai
 
 owner = BNJ
 controller = BNJ
-culture = banjarese
-religion = animism
+culture = nusantaran_banjarese
+religion = hinduism
 capital = "Barito"
 hre = no
-base_tax = 3
+base_tax = 2
 base_production = 3
-base_manpower = 3
+base_manpower = 2
 is_city = yes
-trade_goods = spices
+trade_goods = tropical_wood
 add_core = BNJ
-
-
 
 discovered_by = chinese
 discovered_by = indochinese
@@ -25,5 +23,6 @@ discovered_by = ottoman
 1521.1.1 = { discovered_by = POR }
 
 1526.9.24 = {
+	culture = banjarese
 	religion = sunni
 } # Banjar Sultanate was founded

@@ -5,7 +5,7 @@ religion = animism
 capital = "Kendari"
 trade_goods = unknown
 hre = no
-base_tax = 3
+base_tax = 2
 base_production = 3
 base_manpower = 2
 native_size = 60
@@ -22,11 +22,11 @@ discovered_by = ottoman
 1511.1.1 = { discovered_by = POR }
 
 1608.1.1 = { religion = sunni }
-1667.1.1 = {
+1677.1.1 = {
 	owner = NED
 	controller = NED
 	add_core = NED
-	is_city = yes
+	remove_core = TER
 	trade_goods = spices
 	add_to_trade_company = NED
 	add_trade_company_investment = {

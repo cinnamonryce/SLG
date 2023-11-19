@@ -1,18 +1,20 @@
 #4514 - Sakya
 
-owner = UTS
-controller = UTS
-add_core = UTS
-add_core = PHA
-culture = tibetan
+owner = SKY
+controller = SKY
+add_core = SKY
+culture = utsang
 religion = vajrayana
 capital = "Sakya"
-trade_goods = livestock
+trade_goods = paper
 hre = no
 base_tax = 3
 base_production = 1
 base_manpower = 1
 is_city = yes
+
+add_province_triggered_modifier = religious_center
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group

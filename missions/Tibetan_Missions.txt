@@ -5,6 +5,7 @@ tib_slot_2 = {
 	potential = {
 		OR = { 
 			primary_culture = tibetan
+			primary_culture = utsang
 			primary_culture = khampa
 			primary_culture = amdowa
 			primary_culture = nakhi

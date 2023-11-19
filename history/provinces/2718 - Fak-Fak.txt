@@ -1,4 +1,4 @@
-#2718 - Fak-Fak (Kapaur)
+#2718 - Onin Peninsula
 
 culture = moluccan_malay
 religion = animism
@@ -12,8 +12,6 @@ native_size = 30
 native_ferocity = 6
 native_hostileness = 2
 
-
- # Don Jorge de Mneses
 discovered_by = MKS
 discovered_by = TER
 discovered_by = TID

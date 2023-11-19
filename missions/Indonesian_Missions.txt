@@ -290,8 +290,9 @@ indonesians_4 = {
 								area = makassar_area
 								area = spice_islands_area
 								area = ternate_area
-								area = kendari_area
 								area = banggai_area
+								area = minahasa_area
+								area = mandar_area
 							}
 						}
 					}
@@ -534,8 +535,9 @@ indonesians_4 = {
 								area = makassar_area
 								area = spice_islands_area
 								area = ternate_area
-								area = kendari_area
 								area = banggai_area
+								area = minahasa_area
+								area = mandar_area
 							}
 						}
 					}
@@ -581,14 +583,21 @@ indonesians_4 = {
 							is_empty = yes
 						}
 					}
-					kendari_area = {
+					banggai_area = {
 						type = all
 						OR = {
 							religion = ROOT
 							is_empty = yes
 						}
 					}
-					banggai_area = {
+					minahasa_area = {
+						type = all
+						OR = {
+							religion = ROOT
+							is_empty = yes
+						}
+					}
+					mandar_area = {
 						type = all
 						OR = {
 							religion = ROOT

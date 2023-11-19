@@ -2,8 +2,8 @@
 
 owner = AYU
 controller = AYU
-culture = mon
-religion = mahayana
+culture = dvaravati
+religion = buddhism
 capital = "Lavo"
 trade_goods = chinaware
 hre = no
@@ -11,19 +11,17 @@ base_tax = 5
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_local_autonomy = 50
 add_core = AYU
 add_core = LVO
+
 discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 discovered_by = indian
 
-1480.1.1 = {
+1515.1.1 = {
 	culture = central_thai
-	religion = buddhism
-	add_local_autonomy = -50
-} #The Eastern Mon people of Lavo are fully assimiliated
+}
 1535.1.1 = { discovered_by = POR }
 1665.1.1 = {
 	fort_15th = yes

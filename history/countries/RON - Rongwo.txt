@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = dual_system_reform
+primary_culture = amdowa
+religion = vajrayana
+technology_group = chinese
+capital = 2134
+government_rank = 1
+religious_school = gelug_school
+
+1444.1.1 = {
+	monarch = {
+		name = "Lodro Senge"
+		dynasty = "Rongwo"
+		adm = 4
+		dip = 2
+		mil = 1
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

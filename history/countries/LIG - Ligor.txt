@@ -40,7 +40,7 @@ historical_friend = PAH
 		mil = 3
 		birth_date = 1260.1.1
 	}
-	primary_culture = central_thai
+	primary_culture = southern_thai
 	technology_group = indochinese
 }
 
@@ -69,64 +69,91 @@ historical_friend = PAH
 	}
 }
 
+1345.1.1 = {
+	heir = {
+		name = "Inthara"
+		monarch_name = "Si Maharat"
+		dynasty = "Phrip Phri"
+		birth_date = 1345.1.1
+		death_date = 1400.1.1
+		claim = 95
+		ADM = 4
+		DIP = 3
+		MIL = 3
+	}
+}
+
 1375.1.1 = {
 	monarch = {
-		name = "Inthara"
-		dynasty = "Lansaka"
+		name = "Si Worawong"
+		dynasty = "Phrip Phri"
 		adm = 4
 		dip = 3
 		mil = 3
 		birth_date = 1345.1.1
 	}
+	heir = {
+		name = "Pirentrathep"
+		monarch_name = "Pirentrathep"
+		dynasty = "Phrip Phri"
+		birth_date = 1370.1.1
+		death_date = 1410.1.1
+		claim = 95
+		ADM = 4
+		DIP = 3
+		MIL = 3
+	}
 	government_rank = 1
 }
 
-1410.1.1 = {
-	heir = {
-		name = "Si Maharat" #Possibly Wongsi Maharat
-		monarch_name = "Si Maharat"
-		dynasty = "Lansaka"
-		birth_date = 1410.1.1
-		death_date = 1470.1.1
-		claim = 95
-		ADM = 3
-		DIP = 2
-		MIL = 2
+1400.1.1 = {
+	monarch = {
+		name = "Pirentrathep"
+		dynasty = "Phrip Phri"
+		adm = 3
+		dip = 2
+		mil = 2
+		birth_date = 1370.1.1
 	}
 }
 
-
-1425.1.1 = {
+1420.1.1 = {
 	monarch = {
-		name = "Si Maharat"
+		name = "Si Maharat I" #Possibly Wongsi Maharat
 		dynasty = "Lansaka"
 		adm = 3
 		dip = 2
 		mil = 2
-		birth_date = 1410.1.1
+		birth_date = 1380.1.1
+	}
+	heir = {
+		name = "Phra La"
+		monarch_name = "Si Maharat II"
+		dynasty = "Lansaka"
+		birth_date = 1400.1.1
+		death_date = 1450.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 3
 	}
 }
 
-1440.1.1 = { leader = {	name = "Awi Chakri"	type = general	fire = 0	shock = 1	manuever = 2	siege = 1	death_date = 1460.1.1 } }
-
-1475.1.1 = {
+1420.1.1 = {
 	monarch = {
-		name = "Rattanakon"
-		dynasty = "Si Thammarat"
+		name = "Phra La"
+		dynasty = "Lansaka"
 		adm = 2
 		dip = 2
-		mil = 2
-		birth_date = 1455.1.1
+		mil = 3
+		birth_date = 1390.1.1
 	}
-}
-
-1490.1.1 = {
 	heir = {
-		name = "Si Ratcha" #Or Si Rat
-		monarch_name = "Si Ratcha II"
-		dynasty = "Si Thammarat"
-		birth_date = 1490.1.1
-		death_date = 1540.1.1
+		name = "Inthara"
+		monarch_name = "Inthara"
+		dynasty = "Lansaka"
+		birth_date = 1420.1.1
+		death_date = 1493.1.1
 		claim = 95
 		ADM = 2
 		DIP = 2
@@ -134,92 +161,43 @@ historical_friend = PAH
 	}
 }
 
-1520.1.1 = {
+1440.1.1 = { leader = {	name = "Awi Chakri"	type = general	fire = 0	shock = 1	manuever = 2	siege = 1	death_date = 1460.1.1 } }
+
+1450.1.1 = {
 	monarch = {
-		name = "Si Ratcha II"
-		dynasty = "Si Thammarat"
+		name = "Inthara"
+		dynasty = "Lansaka"
 		adm = 2
 		dip = 2
 		mil = 1
-		birth_date = 1490.1.1
+		birth_date = 1420.1.1
 	}
-}
-
-1520.1.1 = {
 	heir = {
-		name = "Pana"
-		monarch_name = "Pana"
-		dynasty = "Si Thammarat"
-		birth_date = 1510.1.1
-		death_date = 1560.1.1  #Bana, died 1560 during Chakkraphat's reign
+		name = "Si Danu"
+		monarch_name = "Inthara II" 
+		dynasty = "Lansaka"
+		birth_date = 1440.1.1
+		death_date = 1493.6.1
 		claim = 95
-		ADM = 3
-		DIP = 4
-		MIL = 2
+		ADM = 1
+		DIP = 1
+		MIL = 1
 	}
 }
 
-1540.1.1 = {
+1493.1.1 = {
 	monarch = {
-		name = "Pana"
-		dynasty = "Si Thammarat"
-		adm = 3
-		dip = 4
-		mil = 2
-		birth_date = 1490.1.1
-	}
-}
-
-1540.1.1 = {
-	heir = {
-		name = "Sodanarat"
-		monarch_name = "Sodanarat"
-		dynasty = "Si Thammarat"
-		birth_date = 1535.1.1
-		death_date = 1590.1.1
-		claim = 95
-		ADM = 3
-		DIP = 3
-		MIL = 2
-	}
-}
-
-1560.1.1 = {
-	monarch = {
-		name = "Sodanarat" #Sodhanaraja
-		dynasty = "Si Thammarat"
-		adm = 3
-		dip = 3
-		mil = 2
-		birth_date = 1540.1.1
-	}
-}
-
-1560.1.1 = {
-	heir = {
-		name = "Nai U"
-		monarch_name = "Nai U"
-		dynasty = "Si Thammarat"
-		birth_date = 1560.1.1
-		death_date = 1617.1.1
-		claim = 95
-		ADM = 3
-		DIP = 3
-		MIL = 2
-	}
-}
-
-#After this Ligor is divided between Pana Si Thammarat's grandchildren; Nai U, Nai Ku and also Nai Yu
-
-1585.1.1 = {
-	monarch = {
-		name = "Nai U"
-		dynasty = "Si Thammarat"
-		adm = 2
-		dip = 2
+		name = "Si Danu"
+		dynasty = "Lansaka"
+		adm = 1
+		dip = 1
 		mil = 1
-		birth_date = 1560.1.1
+		birth_date = 1450.1.1
 	}
+}
+
+1494.1.1 = {
+	primary_culture = central_thai
 }
 
 1590.1.1 = { leader = {	name = "Ramarat Tai Nam"	type = general	fire = 0	shock = 1	manuever = 1	siege = 0	death_date = 1595.1.1 } }
@@ -242,9 +220,9 @@ historical_friend = PAH
 		name = "Palat Nu" #Rebel Viceroy of Ligor
 		dynasty = "Ban Takkien"
 		adm = 3
-		dip = 1
+		dip = 2
 		mil = 5
 		birth_date = 1745.1.1
 	}
-	government_rank = 2 #Palat Nu rebels and proclaims himself King Musika of Ligor
+	government_rank = 2 #Palat Nu rebels and proclaims himself King Musika of Ligor & Siam
 }

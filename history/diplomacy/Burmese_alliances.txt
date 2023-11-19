@@ -52,6 +52,18 @@ royal_marriage = {
 	start_date = 1400.1.1
 	end_date = 1502.1.1
 }
+march = {
+	first = HSE
+	second = MMT
+	start_date = 1400.1.1
+	end_date = 1527.1.1
+}
+march = {
+	first = LNA
+	second = KGC
+	start_date = 1400.1.1
+	end_date = 1502.1.1
+}
 #Changed from trib to vassal for simplicity; IE tribs of tribs
 march = {
 	first = HSE

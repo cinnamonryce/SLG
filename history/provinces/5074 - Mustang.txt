@@ -3,12 +3,12 @@
 owner = LOO
 controller = LOO
 add_core = LOO
-culture = tibetan
+culture = utsang
 religion = vajrayana
 capital = "Tsarang"
-trade_goods = salt
+trade_goods = wool
 hre = no
-base_tax = 2
+base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
@@ -19,10 +19,9 @@ discovered_by = nomad_group
 discovered_by = indochinese
 discovered_by = malay_group
 
-1440.1.1 = {
-	capital = "Lo Manthang"
-}
-
+1440.1.1 = { capital = "Lo Manthang"}
+1690.1.1 = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }
 1793.1.1 = {
 	owner = NPL
 	controller = NPL

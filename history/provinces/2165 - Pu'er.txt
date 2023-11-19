@@ -3,7 +3,7 @@
 owner = CDL
 controller = CDL
 add_core = CDL
-culture = bai
+culture = hani
 religion = vajrayana
 capital = "Simao"
 trade_goods = tea

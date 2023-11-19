@@ -168,6 +168,8 @@ trade_company_burma = {
 		5172 5173
 		
 		5189
+		
+		5255 5256
 
 		#Wastelands
 		4401 4844
@@ -292,6 +294,10 @@ trade_company_indonesia = {
 		5108
 		5118 5119
 		5124 5125
+		5235 5236 5237 5238 5239
+		5241 5242 5243
+		5253 5254
+		5257
 	}
 
 	# Specific (Removed for potential confusion)
@@ -350,6 +356,8 @@ trade_company_moluccas = {
 		4995 4996 4997 4998 4999 5000 5001 5002 5003
 		5123
 		5177 5178 5179 5180 5181
+		5240
+		5244 5245 5246 5247 5248 5249 5250 5251 5252
 	}
 
 	# Generic
@@ -365,7 +373,7 @@ trade_company_indochina = {
 	color = { 84 152 93 }
 	
 	provinces = {
-		600 601 603 604 605 606 609 607 608 611 612 614 615 1823 1844 1022 2374 2375 2376 2377 2378 2379 2380 2381 2382 2383 2384 2385 2386 2388 2389 2371 1365
+		600 601 603 604 605 606 609 607 608 611 612 614 615 1823 1844 1022 2374 2375 2376 2377 2378 2379 2380 2381 2382 2383 2384 2385 2386 2388 2389 2371
 		4822 4823 4824 4825 4826 4827 4828 4829 4830 4831 4832 4833 4834 4836 4837 4838 4839 4840
 
 		1817 4841 4842 4960 #northern_thai_area
@@ -412,6 +420,7 @@ trade_company_south_china = {
 		
 		#SEA Continued
 		5139
+		5258
 	}
 	
 	# Specific
@@ -469,7 +478,7 @@ trade_company_north_sea = {
 	
 	provinces = {
 		248 249 251 #lowlands_area
-		246 247 4361 4362 #scottish_marches_area
+		246 247 4361 4362 244 4375 #scottish_marches_area
 		253 4364 4365 #kingdom_of_the_isles_area
 		250 252 369 4110 4363 #highlands_area
 		375 376 4119 #connacht_area
@@ -558,7 +567,7 @@ trade_company_english_channel = {
 		87 88 89 1743 #picardy_area
 		241 242 4366 4369 #wales_area
 		245 4367 4368 4785 #yorkshire_area
-		239 240 244 4372 4375 #west_midlands_area
+		239 240 4372 #west_midlands_area
 		243 1860 1861 4370 4376 #east_midlands_area
 		233 234 4130 4373 4374 #wessex_area
 		235 236 237 238 4371 #home_counties_area
@@ -1229,10 +1238,10 @@ trade_company_persia = {
 	# Specific
 	# Generic
 	names = {
-		name = "TRADE_COMPANY_BASRA_Root_Culture_GetName"
+		name = "TRADE_COMPANY_PERSIA_Root_Culture_GetName"
 	}
 	names = {
-		name = "TRADE_COMPANY_BASRA_Near_East_Trade_Company"
+		name = "TRADE_COMPANY_PERSIA_Near_East_Trade_Company"
 	}
 }
 
@@ -1391,6 +1400,7 @@ trade_company_chengdu = {
 		
 		#China Continued
 		5157
+		5191 5192 5193 5194 5195 5196 5197 5198 5199 5200
 	}
 	
 	# Specific
@@ -1420,6 +1430,10 @@ trade_company_lhasa = {
 		5095
 		5098
 		5166
+		5201 5202 5203
+		5207 5208 5209 5210 5211 5212 5213 5214 5215 5216 5217 5218 5219 5220 5221 5222
+		5228 5229 5230 5231
+		5234
 	}
 	
 	# Specific
@@ -1450,6 +1464,8 @@ trade_company_lahore = {
 		1785 1787 2200 
 		5086
 		5096 5097
+		5223 5224
+		5232 5233
 	}
 	
 	# Specific

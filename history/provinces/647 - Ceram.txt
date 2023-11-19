@@ -5,10 +5,10 @@ religion = animism
 capital = "Piru"
 trade_goods = unknown
 hre = no
-base_tax = 3 
+base_tax = 2
 base_production = 3
 base_manpower = 1
-native_size = 3
+native_size = 2
 native_ferocity = 1
 native_hostileness = 3
 
@@ -21,15 +21,21 @@ discovered_by = ottoman
 
 1512.1.1 = { discovered_by = POR }
 
-1650.1.1 = {
-	discovered_by = NED
-	owner = NED
-	controller = NED
-	culture = dutch
-	religion = reformed
+1624.1.1 = {
+	owner = TER
+	controller = TER
+	add_core = TER
+	religion = sunni
 	is_city = yes
 	trade_goods = spices
-} # Loosely controlled by the Dutch
+} # Ternate Sultanate expanded
+
+1653.1.1 = {
+	owner = NED
+	controller = NED
+	remove_core = TER
+	religion = reformed
+} # De facto Dutch control
 1675.1.1 = { add_core = NED }
 1780.1.1 = { unrest = 6 } # Rebellion against the Dutch
 1810.1.1 = { unrest = 0 }

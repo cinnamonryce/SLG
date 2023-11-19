@@ -19,3 +19,14 @@ discovered_by = aboriginal_tech
 
 1642.11.24 = { discovered_by = NED } # Abel Tasman
 
+1814.1.1 = {
+	discovered_by = GBR
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	culture = english
+	religion = protestant
+	is_city = yes
+	trade_goods = coal
+	capital = "Newcastle"
+}

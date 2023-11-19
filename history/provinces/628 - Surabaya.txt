@@ -10,15 +10,13 @@ trade_goods = chinaware
 hre = no
 base_tax = 6
 base_production = 6
-base_manpower = 4
+base_manpower = 6
 is_city = yes
 add_core = SRB
 fort_15th = yes
 
 extra_cost = 8
 center_of_trade = 1
-
-
 
 discovered_by = chinese
 discovered_by = indochinese

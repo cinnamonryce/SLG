@@ -1,0 +1,48 @@
+#New Tibetan tags by Macky527
+
+LIJ = "countries/Lijiang.txt"
+YON = "countries/Yongning.txt"
+MUI = "countries/Muli.txt"
+
+GIL = "countries/Gilgit.txt"
+MAQ = "countries/Baltistan.txt"
+LOO = "countries/Lo.txt"
+BUM = "countries/Bumthang.txt"
+RAL = "countries/Ralung.txt"
+HNZ = "countries/Hunza.txt"
+CTR = "countries/Chitral.txt"
+GUN = "countries/Gungthang.txt"
+PAO = "countries/Paro.txt"
+
+JON = "countries/Chone.txt"
+AMD = "countries/Amdo.txt"
+GLK = "countries/Golok.txt"
+NGB = "countries/Ngaba.txt"
+RON = "countries/Rongwo.txt"
+
+CKL = "countries/Chakla.txt"
+HOR = "countries/HorStates.txt"
+NYA = "countries/Nyarong.txt"
+CUC = "countries/Chuchen.txt"
+TSA = "countries/Tsanlha.txt"
+
+NGC = "countries/Nangchen.txt" #Changed from NAN to avoid conflict
+LIN = "countries/Lingtsang.txt"
+QAM = "countries/Kham.txt"
+HRS = "countries/HorSogu.txt"
+
+LHA = "countries/Lhato.txt"
+LTA = "countries/Lithang.txt"
+BAT = "countries/Bathang.txt"
+
+PWO = "countries/Powo.txt"
+SKY = "countries/Sakya.txt"
+DRI = "countries/Drigung.txt"
+LHG = "countries/Lhagyari.txt"
+LAT = "countries/Lato.txt"
+
+BAS = "countries/Basgo.txt"
+LEH = "countries/Leh.txt"
+ZNS = "countries/Zanskar.txt"
+TKY = "countries/Trokyap.txt"
+JNG = "countries/Jang.txt"

@@ -1,26 +1,31 @@
-#2388 - Phitsanulok
+#2388 - Song Khwae
 
 owner = AYU 
 controller = AYU
 culture = central_thai
 religion = buddhism
-capital = "Phitsanulok"
+capital = "Song Khwae"
 trade_goods = iron
 hre = no
-base_tax = 6
-base_production = 6
+base_tax = 5
+base_production = 5
 base_manpower = 3
 is_city = yes
 add_core = AYU
 add_core = SUK
+
 discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 discovered_by = indian
+
 extra_cost = 8
 center_of_trade = 1
 
-
+1464.1.1 = { 
+	change_province_name = "Phitsanulok"
+	rename_capital = "Phitsanulok"
+}
 1535.1.1 = { discovered_by = POR }
 1564.1.2 = { 
 	owner = SUK
@@ -44,4 +49,3 @@ center_of_trade = 1
 	controller = AYU
 	remove_core = FNG
 }
-

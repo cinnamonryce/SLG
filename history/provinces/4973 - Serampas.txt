@@ -1,7 +1,7 @@
 #Serampas 
 
-culture = musi
-religion = sunni
+culture = rejang
+religion = animism
 capital = "Serampas"
 trade_goods = unknown
 hre = no

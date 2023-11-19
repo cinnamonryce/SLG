@@ -1,0 +1,251 @@
+government = tribal
+add_government_reform = native_chieftain_system_reform
+primary_culture = iban
+religion = hinduism
+technology_group = malay_group
+capital = 5242 #Selimbau
+fixed_capital = 5242
+government_rank = 1
+
+1380.1.1 = {
+	monarch = {
+		name = "Cakranegara"
+		dynasty = "Selimbau"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "Kusumanegara"
+		dynasty = "Selimbau"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Setianegara"
+		dynasty = "Selimbau"
+		adm = 2
+                dip = 2
+		mil = 1
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Binduh"
+		dynasty = "Selimbau"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1510.1.1 = {
+	monarch = {
+		name = "Aji"
+		dynasty = "Selimbau"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Tedong"
+		dynasty = "Selimbau"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Jamal"
+		dynasty = "Selimbau"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1570.1.1 = {
+	monarch = {
+		name = "Upak"
+		dynasty = "Selimbau"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+
+1590.1.1 = {
+	monarch = {
+		name = "Mangkunegara"
+		dynasty = "Selimbau"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1610.1.1 = {
+	monarch = {
+		name = "Ambal"
+		dynasty = "Selimbau"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1620.1.1 = {
+	monarch = {
+		name = "Tella"
+		dynasty = "Selimbau"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Parah"
+		dynasty = "Selimbau"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1640.1.1 = {
+	monarch = {
+		name = "Sutakusuma"
+		dynasty = "Selimbau"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	religion = sunni
+	religious_school = shafii_school
+	add_piety = -0.1
+}
+
+1650.1.1 = {
+	monarch = {
+		name = "Tedong II"
+		dynasty = "Selimbau"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1660.1.1 = {
+	monarch = {
+		name = "Mahidin"
+		dynasty = "Selimbau"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Tajak"
+		dynasty = "Selimbau"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1680.1.1 = {
+	monarch = {
+		name = "Sutanegara"
+		dynasty = "Selimbau"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Ginnah"
+		dynasty = "Selimbau"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Kladdije"
+		dynasty = "Selimbau"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1720.1.1 = {
+	monarch = {
+		name = "Sassap"
+		dynasty = "Selimbau"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1740.1.1 = {
+	monarch = {
+		name = "Tella II"
+		dynasty = "Selimbau"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Kunjan"
+		dynasty = "Selimbau"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Suta Muhammad"
+		dynasty = "Selimbau"
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+
+1800.1.1 = {
+	monarch = {
+		name = "Dipa Ahmad"
+		dynasty = "Selimbau"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

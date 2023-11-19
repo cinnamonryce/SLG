@@ -1,0 +1,41 @@
+#Waru - East Ceram
+
+culture = bandanese
+religion = animism
+capital = "Waru"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 1
+native_size = 2
+native_ferocity = 1
+native_hostileness = 3
+
+discovered_by = chinese
+discovered_by = indochinese
+discovered_by = malay_group
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+
+1512.1.1 = { discovered_by = POR }
+
+1624.1.1 = {
+	owner = TID
+	controller = TID
+	add_core = TID
+	religion = sunni
+	is_city = yes
+	trade_goods = spices
+} # Tidore Sultanate expanded
+
+1647.1.1 = {
+	owner = NED
+	controller = NED
+	remove_core = TID
+	religion = reformed
+} # De facto Dutch control
+1675.1.1 = { add_core = NED }
+1780.1.1 = { unrest = 6 } # Rebellion against the Dutch
+1810.1.1 = { unrest = 0 }

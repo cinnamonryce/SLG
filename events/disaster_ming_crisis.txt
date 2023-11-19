@@ -171,6 +171,7 @@ country_event = {
 				change_government = monarchy
 				add_government_reform = autocracy_reform
 				adopt_reform_progress = ROOT
+				change_religion = ROOT
 			}
 			if = {
 				limit = {
@@ -337,6 +338,7 @@ country_event = {
 				change_government = monarchy
 				add_government_reform = chinese_warlord
 				adopt_reform_progress = ROOT
+				change_religion = ROOT
 			}
 			if = {
 				limit = {
@@ -470,6 +472,7 @@ country_event = {
 						change_government = monarchy
 						add_government_reform = chinese_warlord
 						adopt_reform_progress = ROOT
+						change_religion = ROOT
 					}
 				}
 			}
@@ -518,6 +521,7 @@ country_event = {
 						change_government = monarchy
 						add_government_reform = chinese_warlord
 						adopt_reform_progress = ROOT
+						change_religion = ROOT
 					}
 				}
 			}

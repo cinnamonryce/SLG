@@ -1,0 +1,9 @@
+#Bird's Head Peninsula
+
+discovered_by = MKS
+discovered_by = TER
+discovered_by = TID
+
+1512.1.1 = { discovered_by = POR }
+1793.1.1 = { discovered_by = GBR }
+1814.1.1 = { discovered_by = NED }

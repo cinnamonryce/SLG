@@ -270,6 +270,7 @@ mnd_khmer_3 = {
 			}
 		}
 		effect = {
+			set_country_flag = can_use_estate_irrigation_flag
 			if = {
 				limit = {
 					has_estate = estate_vaisyas
@@ -502,6 +503,7 @@ mnd_khmer_4 = {
 				add_casus_belli = {
 					target = AYU
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {

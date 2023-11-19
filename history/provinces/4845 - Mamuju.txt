@@ -1,8 +1,8 @@
-#4845 - Mandar
+#4845 - Mamuju
 
-culture = sulawesi
+culture = mandarese
 religion = animism
-capital = "Polewali"
+capital = "Mamuju"
 trade_goods = unknown
 hre = no
 base_tax = 2

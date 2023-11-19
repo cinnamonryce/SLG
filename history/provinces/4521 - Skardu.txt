@@ -14,7 +14,6 @@ is_city = yes
 add_core = MAQ
 
 
-
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
@@ -35,8 +34,5 @@ discovered_by = malay_group
 	remove_core = KSH
 }
 
-
-
 1690.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }
-

@@ -15,13 +15,10 @@ add_core = LXA
 add_core = CHK
 add_core = VIE
 
-
-
 discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 discovered_by = indian
-
 
 1490.1.1 = { culture = lao base_tax = 3 base_production = 3 base_manpower = 2 }
 1535.1.1 = { discovered_by = POR }

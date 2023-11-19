@@ -1,25 +1,25 @@
 #Nagormo
 
-owner = SYG
-controller = SYG
-add_core = SYG
-culture = oirats
+owner = LIN
+controller = LIN
+add_core = LIN
+culture = amdowa
 religion = vajrayana
 capital = "Nagormo"
-trade_goods = salt
+trade_goods = gems
 hre = no
-base_tax = 1 
+base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
 
 discovered_by = chinese
-discovered_by = indian
-discovered_by = nomad_group
 discovered_by = indochinese
 discovered_by = malay_group
+discovered_by = indian
+discovered_by = nomad_group
 
-1630.1.1 = { owner = KAM controller = KAM add_core = KAM remove_core = LIN }
+
 1637.6.1 = {
 	controller = KSD
 	owner = KSD
@@ -40,5 +40,3 @@ discovered_by = malay_group
 	controller = QNG
 	add_core = QNG
 } # Qinghai conquered by Qing
-1755.10.4 = { revolt_risk = 7 } # Rebellion aginst the Chinese
-1757.10.4 = { revolt_risk = 0 }

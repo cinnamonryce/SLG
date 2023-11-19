@@ -1,4 +1,4 @@
-#4552 - Sa Kaeo
+#Sa Kaeo
 
 owner = KHM
 controller = KHM
@@ -23,5 +23,5 @@ discovered_by = indian
 	controller = AYU
         capital = "Sa Kaeo"
 }
-1811.1.1 = { unrest = 5 } # The Siamese-Cambodian Rebellion
+1811.1.1 = { unrest = 5 }
 1812.1.1 = { unrest = 0 }

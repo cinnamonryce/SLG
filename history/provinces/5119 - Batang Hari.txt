@@ -1,7 +1,7 @@
 #Batang Hari
 
-culture = musi
-religion = sunni
+culture = rejang
+religion = animism
 capital = "Batang Hari"
 trade_goods = unknown
 hre = no

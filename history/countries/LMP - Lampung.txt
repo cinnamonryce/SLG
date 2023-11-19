@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = plutocratic_reform
-primary_culture = rejang
+primary_culture = lampung
 religion = hinduism
 technology_group = malay_group
-capital = 623	#Tulangbawang
+capital = 5238	#Lampung
 
 1420.1.1 = {
 	monarch = {

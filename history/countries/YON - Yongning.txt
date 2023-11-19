@@ -1,0 +1,129 @@
+government = tribal
+add_government_reform = native_chieftain_system_reform
+primary_culture = nakhi
+religion = vajrayana
+technology_group = chinese
+capital = 5078 #Yongning
+fixed_capital = 5078 # Cannot move capital away from this province & no power cost to move to it
+government_rank = 1
+religious_school = kagyu_school
+
+1423.7.31 = {
+	monarch = {
+		name = "Nanba"
+		dynasty = "A"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1458.7.28 = {
+	monarch = {
+		name = "Ju"
+		dynasty = "A"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1484.9.12 = {
+	monarch = {
+		name = "Chuo"
+		dynasty = "A"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1496.2.22 = {
+	monarch = {
+		name = "Gui"
+		dynasty = "A"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1515.7.24 = {
+	monarch = {
+		name = "Hui"
+		dynasty = "A"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1530.5.29 = {
+	monarch = {
+		name = "He"
+		dynasty = "A"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1557.9.27 = {
+	monarch = {
+		name = "Ying"
+		dynasty = "A"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1574.9.19 = {
+	monarch = {
+		name = "Xiong"
+		dynasty = "A"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1586.1.1 = {
+	monarch = {
+		name = "Chengzhong"
+		dynasty = "A"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1610.1.1 = {
+	monarch = {
+		name = "Quan"
+		dynasty = "A"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Zhenlin"
+		dynasty = "A"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1669.8.27 = {
+	monarch = {
+		name = "Tingkun"
+		dynasty = "A"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

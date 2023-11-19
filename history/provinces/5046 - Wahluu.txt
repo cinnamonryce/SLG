@@ -12,3 +12,15 @@ native_size = 4
 native_ferocity = 4
 native_hostileness = 3
 discovered_by = aboriginal_tech
+
+1814.1.1 = {
+	discovered_by = GBR
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	culture = english
+	religion = protestant
+	is_city = yes
+	trade_goods = grain
+	capital = "Bathurst"
+}

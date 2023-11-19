@@ -255,13 +255,20 @@ mnd_pegu_3 = {
 		required_missions = { mnd_peg_ava }
 		position = 2
 		provinces_to_highlight = {
-			area = northern_thai_area
+			OR = {
+				area = northern_thai_area
+				area = lampang_area
+			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
 			northern_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lampang_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -296,6 +303,7 @@ mnd_pegu_3 = {
 				add_casus_belli = {
 					target = AYU
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -320,7 +328,7 @@ mnd_pegu_3 = {
 					}
 					add_permanent_claim = ROOT
 				}
-				upper_chao_phraya_area = {
+				ping_area = {
 					limit = {
 						NOT = { is_core = ROOT }
 						NOT = { is_permanent_claim = ROOT }
@@ -343,7 +351,7 @@ mnd_pegu_3 = {
 		provinces_to_highlight = {
 			OR = {
 				area = central_thai_area
-				area = upper_chao_phraya_area
+				area = ping_area
 				area = north_tenasserim_area
 				area = prachin_area
 				area = western_thai_area
@@ -358,7 +366,7 @@ mnd_pegu_3 = {
 				all_province = {
 					OR = {
 						area = central_thai_area
-						area = upper_chao_phraya_area
+						area = ping_area
 						area = north_tenasserim_area
 						area = prachin_area
 						area = western_thai_area
@@ -453,10 +461,18 @@ mnd_pegu_4 = {
 				add_casus_belli = {
 					target = LNA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
 				northern_thai_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				lampang_area = {
 					limit = {
 						NOT = { is_core = ROOT }
 						NOT = { is_permanent_claim = ROOT }

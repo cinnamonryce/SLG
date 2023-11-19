@@ -4,7 +4,7 @@ owner = SUK
 controller = SUK
 culture = central_thai
 religion = buddhism
-capital = "Si Satchanalai" #Capital of Sukhothai after the annexation of Phitsanulok, and Sukhothai falling into disrepair
+capital = "Si Satchanalai" #Capital of Sukhothai after annexation of Phitsanulok, & Sukhothai falling into disrepair
 trade_goods = chinaware
 hre = no
 base_tax = 3
@@ -13,17 +13,13 @@ base_manpower = 2
 is_city = yes
 add_core = SUK
 
-
-
 discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 discovered_by = indian
 
-
-1451.1.1 = { add_core = LNA } # Lan Na Invasion of Sukhothai
-#Captured in 1451 by Lan Na
-1474.1.1 = { 
+1451.1.1 = { add_core = LNA } #Captured by Lan Na in 1451
+1474.1.1 = {
         owner = AYU
 	controller = AYU
         add_core = AYU

@@ -4,17 +4,15 @@ owner = MMA
 controller = MMA
 culture = shan
 religion = buddhism
-capital = "Kasa"
+capital = "Waing Hso"
 trade_goods = tea
 hre = no
-base_tax = 1
+base_tax = 2
 base_production = 1
 base_manpower = 1
 is_city = yes
 add_core = MMA
 add_core = MYA
-
-
 
 discovered_by = chinese
 discovered_by = indochinese
@@ -44,7 +42,7 @@ discovered_by = indian
 	owner = TAU
 	controller = TAU
 }
-1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
+1655.1.1 = { discovered_by = SPA }
 1752.1.1 = {
 	owner = SST
 	controller = SST

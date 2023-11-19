@@ -5,13 +5,13 @@
  estate_maharlikas:0 "Maharlikas"
  estate_maginoo:0 "Ginoo" #Maginoo
  estate_tumao:0 "Tumaos"
- estate_phra_khlang:0 "Phraklang"
- estate_mahatthai:0 "Mahatthai"
+ estate_khunnang:0 "Khunnang" #Market nobility with government & trade connections
+ estate_munnai:0 "Munnai" #Military/cultural elite & conscription overseers
  estate_vessa:0 "Vessa"
  estate_khattiya:0 "Khattiya"
  estate_shahbandar:0 "Shahbandar"
  estate_khatriyea:0 "Khatriyea"
- estate_orang_kaya:0 "Orang Kaya"
+ estate_orang_kaya:0 "Orang Kaya" #Rich men - noble title rather than economic per se
  estate_priyayi:0 "Priyayi"
  estate_si:0 "Si"
  estate_pepper_rajas:0 "Raja Lada"
@@ -19,12 +19,12 @@
  estate_lam:0 "Lam"
  estate_thuong:0 "Thuong"
  estate_bani:0 "Bani"
- estate_mueang:0 "Mueang"
+ estate_nai:0 "Nai"
  estate_vanik:0 "Vanik"
  estate_raja_bualawa:0 "Raja Bualawa" #Clove Rajas
  estate_phra_song:0 "Phra Song"
  estate_bangsawan:0 "Bangsawan"
- estate_rekaya:0 "Rekaya"
+ estate_rekaya:0 "Rekaya" #Dayak Orang Kaya
  estate_preah_sangkh:0 "Preah Sangkh"
  estate_gerpa:0 "Gerpa"
  estate_treba:0 "Treba"
@@ -33,6 +33,8 @@
  estate_sengjia:0 "Sengjia"
  estate_manang:0 "Manang"
  estate_shi:0 "Shi"
+ estate_saudagar:0 "Saudagar" #Malay merchantry
+ estate_sudagar:0 "Sudagar" #Javanese variation of Saudagar
  
  #Privileges
  estate_native_chieftain_system:0 "Tusi System"

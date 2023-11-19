@@ -3,7 +3,7 @@
 owner = CDL
 controller = CDL
 add_core = CDL
-culture = bai
+culture = hani
 religion = vajrayana
 capital = "Lin'an"
 trade_goods = paper #Administrative offices, court officials, scholars, etc

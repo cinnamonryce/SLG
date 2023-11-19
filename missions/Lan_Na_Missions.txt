@@ -48,7 +48,7 @@ lna_missions_1 = {
 		provinces_to_highlight = {
 			OR = {
 				area = sukhothai_area
-				area = upper_chao_phraya_area
+				area = ping_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -57,7 +57,7 @@ lna_missions_1 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			upper_chao_phraya_area = {
+			ping_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -84,6 +84,7 @@ lna_missions_1 = {
 				add_casus_belli = {
 					target = AYU
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -120,6 +121,7 @@ lna_missions_1 = {
 				add_casus_belli = {
 					target = MPA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -129,6 +131,7 @@ lna_missions_1 = {
 				add_casus_belli = {
 					target = YGW
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -138,6 +141,7 @@ lna_missions_1 = {
 				add_casus_belli = {
 					target = HSE
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -147,6 +151,7 @@ lna_missions_1 = {
 				add_casus_belli = {
 					target = HSI
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -156,6 +161,7 @@ lna_missions_1 = {
 				add_casus_belli = {
 					target = MMT
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -165,6 +171,7 @@ lna_missions_1 = {
 				add_casus_belli = {
 					target = SST
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -295,13 +302,13 @@ lna_missions_2 = {
 		icon = mission_lanna_flag
 		position = 1
 		provinces_to_highlight = {
-			area = northern_thai_area
+			area = lampang_area
 			NOT = {
 				owned_by = ROOT
 			}
 		}
 		trigger = {
-			northern_thai_area = {
+			lampang_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -317,7 +324,7 @@ lna_missions_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			upper_chao_phraya_area = {
+			ping_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -331,6 +338,7 @@ lna_missions_2 = {
 				add_casus_belli = {
 					target = SUK
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -340,6 +348,7 @@ lna_missions_2 = {
 				add_casus_belli = {
 					target = FNG
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -369,6 +378,7 @@ lna_missions_2 = {
 				add_casus_belli = {
 					target = KET
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			587 = {
@@ -381,6 +391,7 @@ lna_missions_2 = {
 				add_casus_belli = {
 					target = MNI
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			588 = {
@@ -435,6 +446,7 @@ lna_missions_2 = {
 				add_casus_belli = {
 					target = SSP
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -508,6 +520,7 @@ lna_missions_3 = {
 				name = "advanced_rice_irrigation"
 				duration = -1
 			}
+			set_country_flag = can_use_estate_irrigation_flag
 			if = {
 				limit = {
 					has_estate = estate_burghers

@@ -1,0 +1,78 @@
+government = tribal
+add_government_reform = steppe_horde
+primary_culture = yugur
+religion = tengri_pagan_reformed
+secondary_religion = vajrayana
+technology_group = nomad_group
+capital = 4204
+
+1370.1.1 = {
+	monarch = {
+		name = "Bayan Temur"
+		dynasty = "Anding"
+		birth_date = 1340.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Ban Zanshili"
+		monarch_name = "Ban Zanshili"
+		dynasty = "Anding"
+		birth_date = 1365.1.1
+		death_date = 1386.1.1
+		claim = 95
+		ADM = 1
+		DIP = 1
+		MIL = 1
+	}
+}
+
+#1377/1386: Buyan Timur is murdered by his subordinate named Shala. Ban Zanshili kills Shala, but is also killed.
+
+1386.1.1 = {
+	monarch = {
+		name = "Interregnum"
+		regent = yes
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+
+#Grandson of Buyan Timur
+1413.1.1 = {
+	monarch = {
+		name = "Yipandan" #Also known as Yiban Dan
+		dynasty = "Anding"
+		birth_date = 1380.1.1
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+
+1420.1.1 = {
+	heir = {
+		name = "Lingzhan"
+		monarch_name = "Lingzhan"
+		dynasty = "Anding"
+		birth_date = 1420.1.1
+		death_date = 1480.1.1
+		claim = 95
+		ADM = 1
+		DIP = 1
+		MIL = 2
+	}
+}
+
+1446.1.1 = {
+	monarch = {
+		name = "Lingzhan" #Also known as Lingzhan Woxi-Er?
+		dynasty = "Anding"
+		birth_date = 1420.1.1
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}

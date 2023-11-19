@@ -1,0 +1,302 @@
+government = tribal
+add_government_reform = native_chieftain_system_reform
+primary_culture = gyelrong
+religion = vajrayana
+technology_group = chinese
+capital = 5199
+government_rank = 1
+religious_school = gelug_school
+
+
+#Rabden Dynasty
+
+#29th ruler of Chuchen, rNam rgyal grags pa
+1440.1.1 = {
+	monarch = {
+		name = "Namgyal Drakpa"
+		dynasty = "Rabden"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Trowo Gyalpo"
+		dynasty = "Rabden"
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Tsewang Dondrub"
+		dynasty = "Rabden"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1510.1.1 = {
+	monarch = {
+		name = "Adrung"
+		dynasty = "Rabden"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Drak Gyal"
+		dynasty = "Rabden"
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Dorje Gyal"
+		dynasty = "Rabden"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Dawa"
+		dynasty = "Rabden"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1610.1.1 = {
+	monarch = {
+		name = "Druk Gyal"
+		dynasty = "Rabden"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1620.1.1 = {
+	heir = {
+		name = "Atro"
+		monarch_name = "Atro"
+		dynasty = "Rabden"
+		birth_date = 1620.1.1
+		death_date = 1660.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+#Information on Chuchen in 'The Second Jinchuan Campaign (1771 – 1776)' starts from here
+1640.1.1 = { #fl. 1650-1652
+	monarch = {
+		name = "Atro" #Gyirbuhi
+		dynasty = "Rabden"
+		birth_date = 1620.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	heir = {
+		name = "Lha Bum"
+		monarch_name = "Lha Bum"
+		dynasty = "Rabden"
+		birth_date = 1640.1.1
+		death_date = 1680.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1660.1.1 = {
+	monarch = {
+		name = "Lha Bum" #Tangpeng, Lha Bum I
+		dynasty = "Rabden"
+		birth_date = 1640.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Dorje Gyalpo"
+		monarch_name = "Dorje Gyalpo"
+		dynasty = "Rabden"
+		birth_date = 1655.1.1
+		death_date = 1685.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1680.1.1 = {
+	monarch = {
+		name = "Dorje Gyalpo" #Dorgyigyal
+		dynasty = "Rabden"
+		birth_date = 1655.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	heir = {
+		name = "Disung"
+		monarch_name = "Disung"
+		dynasty = "Rabden"
+		birth_date = 1680.1.1
+		death_date = 1685.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1685.1.1 = {
+	monarch = {
+		name = "Disung" #A mysterious figure who is skipped in one source. Presumably toppled in coup
+		dynasty = "Rabden"
+		birth_date = 1680.1.1 #This part of the list is very compact; everything points towards a child ruler + coup by brother
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Lha Bum II" #Lamub
+		dynasty = "Rabden"
+		birth_date = 1670.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Lhawang Dorje"
+		monarch_name = "Lhawang Dorje"
+		dynasty = "Rabden"
+		birth_date = 1690.1.1
+		death_date = 1742.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1715.1.1 = { #fl. 1721
+	monarch = {
+		name = "Lhawang Dorje" #Lawangbacha or Seleben
+		dynasty = "Rabden"
+		birth_date = 1690.1.1
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+	heir = {
+		name = "Dorje Gyal"
+		monarch_name = "Dorje Gyal II"
+		dynasty = "Rabden"
+		birth_date = 1700.1.1
+		death_date = 1760.6.13
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}
+
+#Lhawang Dorje dies in 1742 & is succeeded by Dorje Gyal
+1742.1.1 = { #fl. 1746
+	monarch = {
+		name = "Dorje Gyal II" #Shaloben or Lobpon (Slob Dpon). Either brother or son of Lhawang Dorje
+		birth_date = 1700.1.1 #Led troops in 1721, administered territory after war
+		dynasty = "Rabden"
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+	heir = {
+		name = "Namkha Gyalpo"
+		monarch_name = "Namkha Gyalpo"
+		dynasty = "Rabden"
+		birth_date = 1730.1.1
+		death_date = 1771.5.15
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+#Chuchen annexes Tsanlha in 1746
+#First Jinchuan Campaign, May 21th 1747 - March 8th 1749. Qing invades Chuchen
+
+#Namkha Gyalpo ascends the throne on the death of his uncle on June 13th 1760
+1760.6.13 = {
+	monarch = {
+		name = "Namkha Gyalpo" #Langkya or Lang Kashi
+		birth_date = 1730.1.1 #Represents Chuchen as a diplomat in 1749
+		dynasty = "Rabden"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Sonam Wangyal"
+		monarch_name = "Sonam Wangyal"
+		dynasty = "Rabden"
+		birth_date = 1752.1.1
+		death_date = 1776.6.13
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+#Langkya dies from disease in May/June 1771. Sonom becomes king
+1771.5.15 = {
+	monarch = {
+		name = "Sonam Wangyal" #Sonom
+		birth_date = 1752.1.1 #19 on ascension
+		dynasty = "Rabden"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+#Second Jinchuan Campaign, September 2nd 1771 - March 23rd 1776. Chuchen strikes first
+
+#Sonom executed in 1776
+1776.6.13 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

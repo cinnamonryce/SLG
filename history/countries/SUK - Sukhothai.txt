@@ -122,7 +122,7 @@ change_estate_land_share = {
 		adm = 3
 		dip = 2
 		mil = 3
-		leader = { name = "Yuthitthian Phra Ruang"      type = general	fire = 0	shock = 1	manuever = 2	siege = 0 }
+		leader = { name = "Yuthit Thian Phra Ruang"      type = general	fire = 0	shock = 1	manuever = 2	siege = 0 }
 	}
 }
 

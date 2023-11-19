@@ -61,6 +61,7 @@ siamese_missions_1 = {
 				add_casus_belli = {
 					target = KED
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -70,6 +71,7 @@ siamese_missions_1 = {
 				add_casus_belli = {
 					target = PAT
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -79,6 +81,7 @@ siamese_missions_1 = {
 				add_casus_belli = {
 					target = KEL
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -123,6 +126,7 @@ siamese_missions_1 = {
 				add_casus_belli = {
 					target = MLC
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 
@@ -133,6 +137,7 @@ siamese_missions_1 = {
 				add_casus_belli = {
 					target = JOH
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 
@@ -143,6 +148,7 @@ siamese_missions_1 = {
 				add_casus_belli = {
 					target = PAH
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -152,6 +158,7 @@ siamese_missions_1 = {
 				add_casus_belli = {
 					target = PRK
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
                         custom_tooltip = ayu_safeguard_the_border_states.tooltip
@@ -254,6 +261,7 @@ siamese_missions_1 = {
 				add_casus_belli = {
 					target = CCC
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -263,6 +271,7 @@ siamese_missions_1 = {
 				add_casus_belli = {
 					target = JAR
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -272,6 +281,7 @@ siamese_missions_1 = {
 				add_casus_belli = {
 					target = RHA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -281,6 +291,7 @@ siamese_missions_1 = {
 				add_casus_belli = {
 					target = KOH
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}	
 		}
@@ -346,12 +357,13 @@ siamese_missions_2 = {
 	ayu_taification = {
 		icon = mission_taification
 		required_missions = {  }
-		completed_by = 1480.1.1 #Wild guess
+		completed_by = 1515.1.1
 
 		provinces_to_highlight = {
 			OR = {
 				area = central_thai_area
-				area = upper_chao_phraya_area
+				area = ping_area
+				area = western_thai_area
 			}
 			OR = {
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -367,7 +379,12 @@ siamese_missions_2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 				religion = ROOT
 			}
-			upper_chao_phraya_area = {
+			ping_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = ROOT
+			}
+			western_thai_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 				religion = ROOT
@@ -387,7 +404,7 @@ siamese_missions_2 = {
 					}
 					change_culture = ROOT
 				}
-				upper_chao_phraya_area = {
+				ping_area = {
 					limit = {
 						owned_by = ROOT
 						religion = ROOT
@@ -395,6 +412,13 @@ siamese_missions_2 = {
 					change_culture = ROOT
 				}
 				central_thai_area = {
+					limit = {
+						owned_by = ROOT
+						religion = ROOT
+					}
+					change_culture = ROOT
+				}
+				western_thai_area = {
 					limit = {
 						owned_by = ROOT
 						religion = ROOT
@@ -457,6 +481,7 @@ siamese_missions_2 = {
 				add_casus_belli = {
 					target = KHM
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -466,6 +491,7 @@ siamese_missions_2 = {
 				add_casus_belli = {
 					target = VIE
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -475,6 +501,7 @@ siamese_missions_2 = {
 				add_casus_belli = {
 					target = CHK
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -546,7 +573,7 @@ siamese_missions_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			sukhothai_area = {
+			lampang_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }
@@ -560,6 +587,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = LNA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -573,7 +601,7 @@ siamese_missions_3 = {
 		provinces_to_highlight = {
 			OR = {
 				area = northern_thai_area
-				area = sukhothai_area
+				area = lampang_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -582,7 +610,7 @@ siamese_missions_3 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			sukhothai_area = {
+			lampang_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -613,6 +641,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = PEG
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -651,6 +680,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = TAU
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -660,6 +690,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = BPR
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -669,6 +700,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = AVA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -732,6 +764,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = TAU
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -741,6 +774,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = BPR
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -750,6 +784,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = AVA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -759,6 +794,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = KET
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -768,6 +804,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = MNI
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -777,6 +814,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = MPA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -786,6 +824,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = YGW
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -795,6 +834,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = HSE
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -804,6 +844,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = HSI
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -813,6 +854,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = MMT
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -822,6 +864,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = SST
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}		
 		}
@@ -917,6 +960,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = LXA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -926,6 +970,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = LUA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -986,6 +1031,7 @@ siamese_missions_3 = {
 				add_casus_belli = {
 					target = MPH
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}

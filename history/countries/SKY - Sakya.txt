@@ -1,0 +1,176 @@
+government = theocracy
+add_government_reform = divine_lineage_reform
+primary_culture = utsang
+religion = vajrayana
+technology_group = chinese
+capital = 4514
+government_rank = 2
+religious_school = sakya_school
+
+1442.1.1 = {
+	monarch = {
+		name = "Kunga Wangchuk"
+		dynasty = "Sakya"
+		birth_date = 1418.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1463.1.1 = {
+	monarch = {
+		name = "Gyagar Sherab Gyaltsen"
+		dynasty = "Sakya"
+		birth_date = 1436.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1473.1.1 = {
+	monarch = {
+		name = "Dagchen Lodrö Gyaltsen"
+		dynasty = "Sakya"
+		birth_date = 1444.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1496.1.1 = {
+	monarch = {
+		name = "Kunga Sönam"
+		dynasty = "Sakya"
+		birth_date = 1485.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+
+1534.1.1 = {
+	monarch = {
+		name = "Ngagchang Kunga Rinchen"
+		dynasty = "Sakya"
+		birth_date = 1517.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+
+1584.6.1 = {
+	monarch = {
+		name = "Jamyang Sönam Sangpo"
+		dynasty = "Sakya"
+		birth_date = 1519.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1589.1.1 = {
+	monarch = {
+		name = "Dragpa Lodrö"
+		dynasty = "Sakya"
+		birth_date = 1563.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1618.1.1 = {
+	monarch = {
+		name = "Ngawang Kunga Wangyal"
+		dynasty = "Sakya"
+		birth_date = 1592.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1620.6.1 = {
+	monarch = {
+		name = "Ngawang Kunga Sönam"
+		dynasty = "Sakya"
+		birth_date = 1597.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1659.6.1 = {
+	monarch = {
+		name = "Ngawang Sönam Wangchuk"
+		dynasty = "Sakya"
+		birth_date = 1638.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1685.6.1 = {
+	monarch = {
+		name = "Ngawang Kunga Tashi"
+		dynasty = "Sakya"
+		birth_date = 1656.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1711.6.1 = {
+	monarch = {
+		name = "Sönam Rinchen"
+		dynasty = "Sakya"
+		birth_date = 1705.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+
+1741.6.1 = {
+	monarch = {
+		name = "Kunga Lodrö"
+		dynasty = "Sakya"
+		birth_date = 1729.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+1783.6.1 = {
+	monarch = {
+		name = "Wangdu Nyingpo"
+		dynasty = "Sakya"
+		birth_date = 1763.1.1
+		adm = 3
+		dip = 2
+		mil = 0
+	}
+}
+
+1806.6.1 = {
+	monarch = {
+		name = "Pema Dudul Wangchuk"
+		dynasty = "Sakya"
+		birth_date = 1792.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}

@@ -1,0 +1,2 @@
+2130 = "Nyingtri"
+5195 = "Yaknga"

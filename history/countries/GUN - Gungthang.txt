@@ -1,10 +1,11 @@
-government = tribal
-add_government_reform = tribal_kingdom
-primary_culture = tibetan
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = utsang
 religion = vajrayana
 technology_group = chinese
-capital = 5085 #Mangyul
-government_rank = 1
+capital = 5234 #Gungthang
+government_rank = 2
+religious_school = sakya_school
 
 1424.1.1 = {
 	monarch = {
@@ -15,10 +16,6 @@ government_rank = 1
 		mil = 2
 		birth_date = 1404.1.1
 	}
-	add_ruler_personality = scholar_personality
-}
-
-1424.1.1 = {
 	heir = {
 		name = "Chokyi Dronma"
 		dynasty = "De"
@@ -29,6 +26,7 @@ government_rank = 1
 		death_date = 1455.1.1
 		female = yes
 	}
+	add_ruler_personality = scholar_personality
 	add_heir_personality = pious_personality
 }
 
@@ -43,7 +41,7 @@ government_rank = 1
 	}
 }
 
-1512.1.1 = {
+1502.1.1 = {
 	monarch = {
 		name = "Trigyal Samdrub"
 		dynasty = "De"

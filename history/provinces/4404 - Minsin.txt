@@ -4,7 +4,7 @@ owner = MKA
 controller = MKA
 culture = kachin
 religion = animism
-capital = "Minsin"
+capital = "Hkamti"
 trade_goods = grain
 hre = no
 base_tax = 1
@@ -48,7 +48,7 @@ discovered_by = indian
 	owner = TAU
 	controller = TAU
 }
-1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
+1655.1.1 = { discovered_by = SPA }
 1732.1.1 = {
 	owner = QNG
 	controller = QNG

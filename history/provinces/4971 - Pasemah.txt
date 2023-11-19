@@ -1,7 +1,7 @@
 #Pasemah
 
 culture = rejang
-religion = sunni
+religion = animism
 capital = "Pasemah"
 trade_goods = unknown
 hre = no

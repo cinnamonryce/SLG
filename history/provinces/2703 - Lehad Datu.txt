@@ -14,8 +14,6 @@ is_city = yes
 add_core = BEU
 add_core = SBH
 
-
-
 discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group

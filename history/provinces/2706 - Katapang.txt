@@ -1,19 +1,17 @@
-#2706 - Katapang
+#2706 - Ketapang
 
 owner = SKD
 controller = SKD
 culture = bornean
 religion = hinduism
-capital = "Sukadana"
+capital = "Negeri Baru"
 trade_goods = grain
 hre = no
-base_tax = 3 
+base_tax = 2
 base_production = 3
 base_manpower = 2
 is_city = yes
 add_core = SKD
-
-
 
 discovered_by = chinese
 discovered_by = indochinese
@@ -26,4 +24,7 @@ discovered_by = ottoman
 
 1623.1.1 = {
 	religion = sunni
+	capital = "Matan"
 }
+
+1800.1.1 = { capital = "Simpang" }

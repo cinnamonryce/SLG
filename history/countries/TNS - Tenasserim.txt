@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = mandala_reform
-primary_culture = mon
+primary_culture = tavoyan
 religion = buddhism
 technology_group = indochinese
 capital = 591 #Tavoy
@@ -10,13 +10,80 @@ change_estate_land_share = {
 	share = -5
 }
 
-1440.1.1 = {
+#Zalun Dynasty in Thagara (Sagara)
+
+1369.1.1 = {
 	monarch = {
-		name = "Imharihera"
-		dynasty = "Taithong"
+		name = "Nandiya" #Shin Zan
+		dynasty = "Zalun"
 		adm = 2
 		dip = 2
-		mil = 4
+		mil = 1
 	}
 }
 
+1380.1.1 = {
+	monarch = {
+		name = "Sawthila Min" #Bala Saw Yan Naing
+		dynasty = "Zalun"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+#Taungkwe Dynasty in Weidi (Way Di)
+
+1390.1.1 = {
+	monarch = {
+		name = "Sawthura"
+		dynasty = "Taungkwe"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Sawyaung"
+		dynasty = "Taungkwe"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+
+1410.1.1 = {
+	monarch = {
+		name = "Shethwayaung"
+		dynasty = "Taungkwe"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+
+1430.1.1 = {
+	monarch = {
+		name = "Shwemamteik"
+		dynasty = "Taungkwe"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Einshetmin" #Thai: Imharihera
+		dynasty = "Taungkwe"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+#Annexed by Ayutthaya in 1488

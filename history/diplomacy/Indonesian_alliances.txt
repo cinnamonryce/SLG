@@ -95,12 +95,12 @@ march = {
 	first = AYU
 	second = SUK
 	start_date = 1438.1.1
-	end_date = 1459.1.1 #Possibly 1456 or a later date
+	end_date = 1451.1.1 #Possibly 1456 or a later date
 }
 
 # Lan Na and Sukhothai
 march = {
-	first = AYU
+	first = LNA
 	second = SUK
 	start_date = 1451.1.1
 	end_date = 1474.1.1 #Annexed by Ayutthaya

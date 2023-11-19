@@ -1,0 +1,49 @@
+government = tribal
+add_government_reform = native_chieftain_system_reform
+primary_culture = khampa
+religion = vajrayana
+technology_group = chinese
+capital = 5197 #Batang
+government_rank = 1
+religious_school = gelug_school
+
+#Fictional
+1440.1.1 = {
+	monarch = {
+		name = "Rinchen Trigyal"
+		dynasty = "Batang"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+
+1719.1.1 = {
+	monarch = {
+		name = "Norbu Ngawang"
+		dynasty = "Bathang"
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+
+1800.1.1 = {
+	monarch = {
+		name = "Tashi Gyaltsen"
+		dynasty = "Bathang"
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+}

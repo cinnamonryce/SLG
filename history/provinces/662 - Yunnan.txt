@@ -3,8 +3,8 @@
 owner = CDL
 controller = CDL
 add_core = CDL
-culture = bai
-religion = confucianism
+culture = yi
+religion = vajrayana
 capital = "Kunming"
 trade_goods = copper
 hre = no

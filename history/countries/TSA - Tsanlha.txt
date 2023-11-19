@@ -1,0 +1,68 @@
+government = tribal
+add_government_reform = native_chieftain_system_reform
+primary_culture = gyelrong
+religion = vajrayana
+technology_group = chinese
+capital = 5091
+government_rank = 1
+religious_school = gelug_school
+
+1406.5.27 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Tashi Gyal"
+		dynasty = "Rabden"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Tsewang"
+		dynasty = "Rabden"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Senge Sang"
+		dynasty = "Rabden"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1776.6.13 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

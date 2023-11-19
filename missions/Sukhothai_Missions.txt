@@ -49,16 +49,16 @@ suk_missions_1 = {
 		position = 4
 		provinces_to_highlight = {
 			area = sukhothai_area
-			area = upper_chao_phraya_area
+			area = ping_area
 		}
 		trigger = {
-			upper_chao_phraya_area = {
+			ping_area = {
 				type = all
 				owned_by = ROOT
 			}
 			num_of_owned_provinces_with = {
 				value = 4
-				area = upper_chao_phraya_area
+				area = ping_area
 				num_of_times_improved_by_owner = 2
 			}
 		}
@@ -97,6 +97,7 @@ suk_missions_1 = {
 				name = "advanced_rice_irrigation"
 				duration = -1
 			}
+			set_country_flag = can_use_estate_irrigation_flag
 			if = {
 				limit = {
 					has_estate = estate_burghers
@@ -132,6 +133,7 @@ suk_missions_1 = {
 				add_casus_belli = {
 					target = PEG
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -195,7 +197,7 @@ suk_missions_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			upper_chao_phraya_area = {
+			ping_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -246,11 +248,11 @@ suk_missions_2 = {
 		required_missions = { suk_reclaim_phitsanulok }
 		position = 3
 		provinces_to_highlight = {
-			area = upper_chao_phraya_area
+			area = ping_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			upper_chao_phraya_area = {
+			ping_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -285,7 +287,7 @@ suk_missions_2 = {
 				area = central_thai_area
 				area = western_thai_area
 				area = sukhothai_area
-				area = upper_chao_phraya_area
+				area = ping_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -302,7 +304,7 @@ suk_missions_2 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			upper_chao_phraya_area = {
+			ping_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -362,6 +364,7 @@ suk_missions_2 = {
 				add_casus_belli = {
 					target = LIG
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -371,6 +374,7 @@ suk_missions_2 = {
 				add_casus_belli = {
 					target = PHM
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -420,6 +424,7 @@ suk_missions_2 = {
 				add_casus_belli = {
 					target = KED
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -429,6 +434,7 @@ suk_missions_2 = {
 				add_casus_belli = {
 					target = PAT
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -438,6 +444,7 @@ suk_missions_2 = {
 				add_casus_belli = {
 					target = KEL
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -489,6 +496,7 @@ suk_missions_2 = {
 				add_casus_belli = {
 					target = JOH
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -498,6 +506,7 @@ suk_missions_2 = {
 				add_casus_belli = {
 					target = RIA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -519,17 +528,29 @@ suk_missions_3 = {
 		required_missions = { suk_rama_the_bold }
 		position = 2
 		provinces_to_highlight = {
-			area = sukhothai_area
+			OR = {
+				province_id = 4841
+				province_id = 4960
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			sukhothai_area = {
-				type = all
+			4841 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4960 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
 			northern_thai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lampang_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }
@@ -543,11 +564,18 @@ suk_missions_3 = {
 		required_missions = { suk_seize_the_border_states }
 		position = 3
 		provinces_to_highlight = {
-			area = northern_thai_area
+			OR = {
+				area = northern_thai_area
+				area = lampang_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			northern_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lampang_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -564,6 +592,7 @@ suk_missions_3 = {
 				add_casus_belli = {
 					target = LXA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			if = {
@@ -573,6 +602,7 @@ suk_missions_3 = {
 				add_casus_belli = {
 					target = LUA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 		}
@@ -707,6 +737,7 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				add_casus_belli = {
 					target = MLC
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 
@@ -717,6 +748,7 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				add_casus_belli = {
 					target = JOH
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 
@@ -727,6 +759,7 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				add_casus_belli = {
 					target = PAH
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 
@@ -737,6 +770,7 @@ num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				add_casus_belli = {
 					target = PRK
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 

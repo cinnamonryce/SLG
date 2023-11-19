@@ -1701,8 +1701,12 @@ momase_area = { #4
 	2719 2720 5001 5002
 }
 
+bomberai_area = { #4
+	1245 2718 4996 5252
+}
+
 vogelkop_area = { #4
-	1245 2718 4995 4996
+	4995 5248 5249 5250
 }
 
 papua_area = { #3
@@ -2481,8 +2485,8 @@ kengtung_area = { #4
 	587 588 4398 5114
 }
 
-karenni_area = { #4
-	590 2403 4954 4955
+karenni_area = { #5
+	590 2403 4954 4955 5256
 }
 
 malaya_area = { #5
@@ -2502,13 +2506,13 @@ perak_area = { #3
 }
 
 #NEW
-dangrek_area = { #4
-	2383 4838 4964 5137
+dangrek_area = { #3
+	2383 4838 4964
 }
 
 #NEW
 suwannaphum_area = { #4
-	2384 2385 2386 5138
+	2384 2385 5137 5138
 }
 
 prachin_area = { #3
@@ -2516,7 +2520,7 @@ prachin_area = { #3
 }
 
 khorat_area = { #3
-	612 4836 4961
+	612 2386 4961
 }
 
 champasak_area = { #5
@@ -2565,8 +2569,8 @@ kra_isthmus_area = { #3
 	2390 2391 5127
 }
 
-north_tenasserim_area = { #3
-	591 2404 4956
+north_tenasserim_area = { #4
+	591 2404 4956 5255
 }
 
 north_malaya_area = { # 3
@@ -2581,8 +2585,8 @@ cao_bac_area = { #3
 	616 4820 4968
 }
 
-red_river_delta_area = { #6
-	610 613 2372 4819
+red_river_delta_area = { #5
+	610 613 2372 4819 5258
 }
 
 north_laos_area = { #3
@@ -2601,20 +2605,24 @@ central_thai_area = { #3
 	600 4831 4832
 }
 
-western_thai_area = { #4
-	592 2387 4834 4835
+western_thai_area = { #3
+	592 2387 4835
 }
 
 sukhothai_area = { #4
-	601 4841 4960 5117
+	601 2388 4833 5117
 }
 
-upper_chao_phraya_area = { #4
-	2388 2389 4833 5116
+ping_area = { #4
+	2389 4834 4836 5116
 }
 
-northern_thai_area = { #5
-	602 589 1817 4842 4959
+lampang_area = { #4
+	1817 4841 4842 4960
+}
+
+northern_thai_area = { #3
+	602 589 4959
 }
 
 ########################################
@@ -2651,28 +2659,44 @@ bicol_area = { #3
 	654 2699 4353 4993
 }
 
-north_sumatra_area = { #6
-	617 2673 2674 4809 4974 4975
+north_sumatra_area = { #3
+	2673 2674 2685
 }
 
-batak_area = { #5
-	619 4811 2684 4974 4980
+aceh_area = { #3
+	617 4975 5235
 }
 
-central_sumatra_area = { #5
-	620 2675 618 4810 4816
+deli_area = { #3
+	618 4809 4810 
+}
+
+batak_area = { #3
+	619 4811 4974
+}
+
+central_sumatra_area = { #3
+	620 2675 4816
 }
 
 jambi_area = { # 5
 	2677 659 2676 4973 5119
 }
  
-minangkabau_area = { #5
-	2681 2682 2683 4817 4972 
+minangkabau_area = { #4
+	2681 2682 4817 4972 
 }
 
-south_sumatra_area = { #5
-	622 623 2678 2679 4971
+south_sumatra_area = { #4
+	622 2678 2679 4971
+}
+
+lampung_area = { #3
+	623 5237 5238
+}
+
+sumatran_islands_area = { #3
+	2683 2684 4980
 }
 
 #NEW
@@ -2680,8 +2704,8 @@ bengkulu_area = { #3
 	621 2680 4818
 }
 
-east_java_area = { #3
-	627 2691 4794
+east_java_area = { #4
+	627 2691 4794 5240
 }
 
 surabaya_area = { #4
@@ -2700,16 +2724,21 @@ banten_area = { #4
 	624 630 2687 4790
 }
 
-kutai_area = { #5
-	638 2712 4799 2711 2710 
+kutai_area = { #4
+	638 2712 4799 4976
 }
 
-sabah_area = { # 4
-	637 2703 2709 5124
+bulungan_area = { #4
+	2709 2710 2711 5243
 }
 
-brunei_area = { #3
-	636 4805 5125
+
+sabah_area = { #4
+	637 2703 5124 5257
+}
+
+brunei_area = { #4
+	636 4805 5125 5253
 }
 
 #NEW
@@ -2717,17 +2746,21 @@ sarawak_area = { #4
 	2704 2705 4804 4806
 }
 
-kalimantan_area = { #5
-	640 4802 4803 4981 4982
+kalimantan_area = { #4
+	640 2706 4802 5241
+}
+
+kapuas_area = { #4
+	4803 4981 4982 5242
 }
 
 #NEW
-kotawaringin_area = { # 1
-	2706 2708 4979
+kotawaringin_area = { #3
+	2708 4979 5254
 }
 
-banjar_area = { # 5
-	639 2707 4800 4801 4976
+banjar_area = { #4
+	639 2707 4800 4801
 }
 
 molluca_area = { #3
@@ -2736,7 +2769,7 @@ molluca_area = { #3
 
 #NEW
 south_moluccas_area = { #5
-	646 647 2696 2725
+	646 647 2696 2725 5247
 }
 
 #NEW
@@ -2760,22 +2793,26 @@ makassar_area = { # 4
 	4797 4798 4795 641
 }
 
-sulawesi_area = { #4
-	644 2713 4984 5123
+sulawesi_area = { #3
+	644 5123 5246
 }
 
-south_sulawesi_area = { #3
-	2715 4796 4845
+minahasa_area = { #3
+	2713 2714 4984
+}
+
+mandar_area = { #3
+	2715 4845 5244
 }
 
 #NEW
 banggai_area = { #3
-	643 2714 4983
+	643 4983 5245
 }
 
 #NEW
-kendari_area = { #3
-	642 2716 4985
+south_sulawesi_area = { #4
+	642 2716 4796 4985
 }
 
 ########################################
@@ -3052,51 +3089,83 @@ north_zungaria = { #3
 }
 
 kham_area = {
-	2133 5079 5088 5093
+	2133 2135 5088
+}
+
+march_country_area = { #NEW
+	5079 5093 5197
+}
+
+lower_gyalrong_area = { #NEW
+	678 5195 5196
 }
 
 qamdo_area = {
-	2131 2132 5075 5094
+	2131 2132 5094 5216
 }
 
 nyingchi_area = { #New
-	2130 5081 5095
+	2130 5081 5095 5198
 }
 
-kashmir_area = { #5
-	508 2073 4449 5096 5097
+kashmir_area = { #3
+	508 4449 5097
+}
+
+gilgit_area = { #NEW
+	2073 4521 5096
 }
 
 ladakh_area = { #New
-	2074 4521 5086
+	2074 5086 5223 5224 5233
 }
 
-amdo_area = { #4
-	2134 2170 2184 5077 5089
+amdo_area = { #3
+	2134 2183 5077
+}
+
+kokonor_area = { #New
+	2184 5203 5208
+}
+
+golok_area = { #New
+	5089 5201 5202
 }
 
 hor_area = { #New
-	705 4205 5080 5082
+	4205 5075 5213 5228
+}
+
+nangchen_area = { #New
+	705 5080 5211 5212 5215
 }
 
 tsaidam_area = { #New
-	706 4204 5076
+	706 4204 5076 5209 5210
 }
 
 tsang_area = { #U
-	677 4517 4518 4519 5083
+	677 4518 4519 5217
+}
+
+lhoka_area = { #New
+	4517 5083 5218
 }
 
 gyelrong_area = { #New
-	678 2135 5091
+	2170 5091 5199 5200 5230
 }
 
 utsang_area = { #Tsang
-	676 4514 4515 5090
+	676 4514 5090 5220 5221
 }
 
-ngari_area = { #4
-	2128 4516 4520 5085
+lower_ngari_area = { #New
+	4515 4516 5085 5229 5234
+}
+
+ngari_area = { #2
+	2128 4520 5222
 }
 
 nepal_area = { #Changed, now Kathmandu, added Sindhuli
@@ -3111,8 +3180,8 @@ mithila_area = { #Changed, now Makwanpur is in the same area as the rest of the 
 	2047 4487 4488
 }
 
-lijiang_area = { #3 (Nakhi People)
-	2167 5078 5092
+lijiang_area = { #3
+	2167 5078 5191
 }
 
 bhutan_area = { #3
@@ -3193,17 +3262,27 @@ guangxi_area = { #5
 	1840 2162 2163 5015 5016
 }
 
-yun_gui_area = { #4 (Guizhou)
-	673 674 4199 5019
+yun_gui_area = { #3 (Guizhou)
+	674 5019 5194
 }
 
 #NEW
-yunnan_area = { #5
-	662 663 5012 5013 5157
+eastern_guizhou_area = { #3
+	673 2168 4199
 }
 
-yun_gui_borderland_area = { #4
-	661 2165 5010 5011 
+#NEW
+yunnan_area = { #3
+	662 5012 5193
+}
+
+yun_gui_borderland_area = { #4 (Dali)
+	661 5010 5011 
+}
+
+#NEW
+guangnan_area = { #4
+	663 2165 5013 5157
 }
 
 #NEW
@@ -3211,16 +3290,16 @@ koshanpye_area = { #4
 	660 2166 5009 5113
 }
 
-sichuan_area = { #3
-	679 680 4212
+sichuan_area = { #4
+	679 4212 4213
 }
 
 chuannan_area = { #4
-	675 2168 2748 4213
+	675 2748 5092 5192
 }
 
 chuanbei_area = { #3
-	2169 2170 4211
+	680 2169 4211
 }
 
 huguang_area = { #5 (Hubei)
@@ -3252,12 +3331,12 @@ shaanxi_area = { #4
 	689 700 2179 4198
 }
 
-gansu_area = { #5 (East Gansu)
-	698 699 2180 2181 2183
+gansu_area = { #4 (East Gansu)
+	698 699 2180 2181
 }
 
-west_gansu_area = { #4 
-	707 708 2182 2184
+west_gansu_area = { #4
+	707 708 2182 5207
 }
 
 ########################################

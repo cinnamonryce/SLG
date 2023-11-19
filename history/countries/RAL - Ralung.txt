@@ -1,10 +1,12 @@
-government = tribal
-add_government_reform = tribal_kingdom
-primary_culture = tibetan
+government = theocracy
+add_government_reform = divine_lineage_reform
+primary_culture = utsang
 religion = vajrayana
 technology_group = chinese
 capital = 5090 #Gyantse/Ralung
 government_rank = 1
+add_accepted_culture = bhutanese
+religious_school = kagyu_school
 
 1428.1.1 = {
 	monarch = {

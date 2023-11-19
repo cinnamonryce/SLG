@@ -9,7 +9,6 @@
 2378 = { "Kracheh" "Kracheh" }
 2383 = "Kauk Khan"
 2387 = { "Laeng" "Kamphaeng Laeng" }
-2388 = "Song Khwae"
 2389 = "Preah Bang"
 
 4831 = "Bangokak"
@@ -17,8 +16,6 @@
 
 4806 = { "Lavo" "Lavodayapura" }
 4807 = "Suvarnabhumi" #Funny
-
-4821 = "Srey Thep"
 
 4835 = "Tuk Lak"
 

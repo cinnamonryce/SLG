@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = native_chieftain_system_reform
-primary_culture = dayak
+primary_culture = iban
 religion = hinduism
 technology_group = malay_group
 capital = 4982 #Sanggau

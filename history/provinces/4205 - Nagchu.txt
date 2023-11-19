@@ -1,17 +1,18 @@
 #4205 - Nagchu
 
-owner = NGC
-controller = NGC
-add_core = NGC
-culture = tibetan
-religion = vajrayana
+owner = HRS
+controller = HRS
+add_core = HRS
+culture = horpa
+religion = animism
 capital = "Nagchu"
-trade_goods = livestock
+trade_goods = wool
 hre = no
-base_tax = 2 
-base_production = 1
+base_tax = 1 
+base_production = 2
 base_manpower = 2
 is_city = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian

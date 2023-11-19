@@ -1,11 +1,11 @@
-#706 - Amdo
+#706 - Quxian
 
 owner = SYG
 controller = SYG
 add_core = SYG
-culture = oirats
+culture = yugur
 religion = vajrayana
-capital = "Tsaidam"
+capital = "Yaowanghuai"
 trade_goods = salt
 hre = no
 base_tax = 1 

@@ -1,7 +1,7 @@
 #Kluet
 
-owner = ATJ
-controller = ATJ
+owner = BRS
+controller = BRS
 culture = batak
 religion = animism
 capital = "Kluet"
@@ -11,7 +11,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = ATJ
+add_core = BRS
 
 discovered_by = chinese
 discovered_by = indochinese
@@ -23,6 +23,9 @@ discovered_by = ottoman
 1405.1.1 = { discovered_by = MNG }
 1509.1.1 = { discovered_by = POR }
 1521.1.1 = {
+	owner = ATJ
+	controller = ATJ
+	add_core = ATJ
 	religion = sunni
 }
 1658.1.1 = { owner = NED controller = NED } # The Dutch gradually gained control

@@ -19,7 +19,6 @@ discovered_by = aboriginal_tech
 center_of_trade = 1
 extra_cost = 8
 
-
 discovered_by = MKS
 discovered_by = TER
 discovered_by = TID

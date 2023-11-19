@@ -9,3 +9,91 @@ change_estate_land_share = {
 	estate = estate_burghers
 	share = -5
 }
+
+1438.1.1 = {
+	monarch = {
+		name = "Sao Krue Maing"
+		dynasty = "Kengcheng"
+		birth_date = 1385.1.1
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+	heir = {
+		name = "Sao Hai Khaing"
+		monarch_name = "Sao Hai Khaing"
+		dynasty = "Kengcheng"
+		birth_date = 1420.1.1
+		death_Date = 1472.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1446.1.1 = {
+	monarch = {
+		name = "Sao Hai Khaing"
+		dynasty = "Kengcheng"
+		birth_date = 1420.1.1
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+	heir = {
+		name = "Mong Phrom"
+		monarch_name = "Mong Phrom"
+		dynasty = "Kengcheng"
+		birth_date = 1446.1.1
+		death_Date = 1496.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "Mong Phrom"
+		dynasty = "Kengcheng"
+		birth_date = 1446.1.1
+		ADM = 1
+		DIP = 2
+		MIL = 2
+	}
+	heir = {
+		name = "Hkun Muen Hua"
+		monarch_name = "Hkun Muen Hua"
+		dynasty = "Kengcheng"
+		birth_date = 1470.1.1
+		death_Date = 1510.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1496.1.1 = {
+	monarch = {
+		name = "Hkun Muen Hua"
+		dynasty = "Kengcheng"
+		birth_date = 1470.1.1
+		ADM = 1
+		DIP = 2
+		MIL = 1
+	}
+	heir = {
+		name = "Hla Inn Hta" #Younger brother of Hkun Muen Hua
+		monarch_name = "Hla Inn Hta"
+		dynasty = "Kengcheng"
+		birth_date = 1475.1.1
+		death_Date = 1516.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}

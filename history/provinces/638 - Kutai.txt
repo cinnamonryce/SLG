@@ -2,18 +2,19 @@
 
 owner = KUT
 controller = KUT
-culture = kutainese
-religion = hinduism
-capital = "Kutai"
+culture = kayan
+religion = animism
+capital = "Muara Kaman"
 trade_goods = tropical_wood
 hre = no
-base_tax = 5
-base_production = 5
-base_manpower = 3
+base_tax = 3
+base_production = 3
+base_manpower = 2
 is_city = yes
 add_core = KUT
 extra_cost = 8
 center_of_trade = 1
+
 fort_15th = yes
 
 

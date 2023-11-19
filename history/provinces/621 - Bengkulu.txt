@@ -5,7 +5,7 @@ latent_trade_goods = {
 }
 
 culture = rejang
-religion = sunni
+religion = animism
 capital = "Bengkulu"
 trade_goods = unknown
 hre = no
@@ -30,6 +30,7 @@ discovered_by = ottoman
 	controller = BAN
 	add_core = BAN
 	is_city = yes
+	religion = sunni
 	trade_goods = spices
 	
 } # Banten Sultanate expanded the influence in South Sumatra

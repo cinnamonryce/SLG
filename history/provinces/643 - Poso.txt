@@ -1,6 +1,6 @@
 #643 - Poso
 
-culture = butonese
+culture = pamona
 religion = animism
 capital = "Poso"
 trade_goods = unknown
@@ -21,11 +21,26 @@ discovered_by = ottoman
 
 1511.1.1 = { discovered_by = POR }
 
-1608.1.1 = { religion = sunni }
+1608.1.1 = {
+	owner = TER
+	controller = TER
+	add_core = TER
+	religion = sunni
+	is_city = yes
+	trade_goods = spices
+} # Ternate Sultanate expanded
+
 1667.1.1 = {
 	owner = NED
 	controller = NED
 	add_core = NED
-	is_city = yes
-	trade_goods = spices
+	add_to_trade_company = NED
+	add_trade_company_investment = {
+		investment = company_depot
+		investor = NED
+	}
+	add_trade_company_investment = {
+		investment = brokers_exchange
+		investor = NED
+	}
 } # Dutch control

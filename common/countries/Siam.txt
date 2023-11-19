@@ -3,7 +3,7 @@
 graphical_culture = asiangfx
 special_unit_culture = south_east_asian_special
 
-color = { 111  151  74 }
+color = { 88  137  172 } #Victoria 2 color
 revolutionary_colors = { 13 0 5 } #Thai flag, darker French flag
 
 historical_idea_groups = {

@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = assamese
+primary_culture = boro
 religion = hinduism
 technology_group = indian
 capital = 2042	# Gauhati
@@ -96,8 +96,7 @@ government_rank = 1
 		MIL = 2
 	}
 	government_rank = 2
-	primary_culture = kochi
-	add_accepted_culture = assamese
+	primary_culture = assamese
 }
 
 

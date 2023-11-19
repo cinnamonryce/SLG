@@ -3,21 +3,24 @@
 owner = RAL
 controller = RAL
 add_core = RAL
-culture = tibetan
+culture = utsang
 religion = vajrayana
 capital = "Gyantse"
-trade_goods = livestock
+trade_goods = cloth
 hre = no
-base_tax = 4
+base_tax = 3 
 base_production = 4
-base_manpower = 1
+base_manpower = 3
 is_city = yes
+fort_15th = yes #Gyantse's walls, built in 1390.
+
 discovered_by = chinese
 discovered_by = nomad_group
 discovered_by = indian
 discovered_by = indochinese
 discovered_by = malay_group
-fort_15th = yes #Gyantse's walls, built in 1390.
+
+extra_cost = 8
 center_of_trade = 1
 
 1616.1.1 = {

@@ -1,11 +1,11 @@
-#Gongjue (Lhato)
+#Gongjue
 
 owner = LHA
 controller = LHA
 add_core = LHA
 culture = khampa
 religion = vajrayana
-capital = "Lhato"
+capital = "Gonjo"
 trade_goods = livestock
 hre = no
 base_tax = 2

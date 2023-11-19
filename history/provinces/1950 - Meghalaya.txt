@@ -1,6 +1,6 @@
 #1950 - Garo
 
-culture = khasi
+culture = boro
 religion = animism
 capital = "Simsanggre"
 trade_goods = unknown

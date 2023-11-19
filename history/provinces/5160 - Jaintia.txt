@@ -2,7 +2,7 @@
 
 owner = KHS
 controller = KHS
-culture = khasi
+culture = boro
 religion = hinduism
 capital = "Jaintiapur"
 trade_goods = tea

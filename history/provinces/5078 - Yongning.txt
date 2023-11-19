@@ -1,10 +1,10 @@
 #Yongning
 
-owner = LIJ
-controller = LIJ
-add_core = LIJ
+owner = YON
+controller = YON
+add_core = YON
 culture = nakhi
-religion = vajrayana
+religion = animism
 capital = "Yongning"
 trade_goods = tea
 hre = no

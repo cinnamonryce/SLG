@@ -69,7 +69,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 628;2692;sea;1355;-1;-1;-1;-1;Surabaya-Madura
 2700;4351;sea;1397;4722;820;4725;818;Panay-Buglas
 4353;4355;sea;1402;4763;803;4759;810;Leyte-Caraga
-646;647;sea;1401;-1;-1;-1;-1;Ambom-Ceram
+#646;647;sea;1401;-1;-1;-1;-1;Ambom-Ceram #Removed as they now have land border
 2929;2890;sea;1529;2021;838;2022;841;Para-Marajo
 748;2890;sea;1529;2050;847;2046;850;Belem-Marajo
 911;2587;sea;1661;-1;-1;-1;-1;Belem-Marajo
@@ -96,7 +96,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 654;2699;sea;1397;-1;-1;-1;-1;Samar-Bikol
 4989;4991;sea;1400;-1;-1;-1;-1;Morotai-Jailolo
 650;4992;sea;1400;-1;-1;-1;-1;Tidore-Bacan
-1245;2718;sea;1408;-1;-1;-1;-1;Manokwari-Kapaur/Fak-Fak
+#1245;2718;sea;1408;-1;-1;-1;-1;Manokwari-Onin/Fak-Fak #Removed as they now have land border
 631;2693;sea;1355;4611;517;4618;515;Bali-Lombok
 2693;632;sea;1355;-1;-1;-1;-1;Lombok-Sumbawa
 4986;633;sea;1355;-1;-1;-1;-1;Bima-Flores

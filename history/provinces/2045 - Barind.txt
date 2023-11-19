@@ -23,6 +23,7 @@ discovered_by = malay_group
 1502.1.1 = { controller = BNG }
 1502.6.1 = { owner = BNG } #Conquered by Bengal
 1515.1.1 = {
+	culture = assamese
 	controller = KMT
 	owner = KMT
 }	#Koch dynasty

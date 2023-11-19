@@ -3,7 +3,7 @@
 graphical_culture = asiangfx
 special_unit_culture = south_east_asian_special
 
-color = { 80  70  225 }
+color = { 158  83  27 }
 revolutionary_colors = { 8 5 13 }
 
 historical_idea_groups = {
@@ -33,12 +33,12 @@ historical_units = {
 }
 
 monarch_names = {
-	"Razadarit #1" = 10
-	"Dhammaraza #1" = 10
-	"Binnya Ran #1" = 20
-	"Hkonmaing #1" = 20
-	"Minkhaung #1" = 5
-	"Binnya Waru #1" = 20
+	"Razadarit #0" = 10
+	"Dhammaraza #0" = 10
+	"Binnya Ran #0" = 20
+	"Hkonmaing #0" = 20
+	"Minkhaung #0" = 5
+	"Binnya Waru #0" = 20
 	"Ran De #0" = 10
 	"Binnya Kyan #0" = 20
 	"Sein #0" = 20
@@ -53,8 +53,8 @@ monarch_names = {
 	"Smim Htaw #0" = 10
 	"Set #0" = 10
 	"Binnya Dala #0" = 10
-	"Saw O #1" = 10
-	"Binnya U #1" = 10
+	"Saw O #0" = 10
+	"Binnya U #0" = 10
 	"Leik Munhtaw #0" = 10
 	"Takayutpi #0" = 10
 	"Minye Aung Naing #0" = 10

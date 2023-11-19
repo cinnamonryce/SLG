@@ -1,11 +1,12 @@
-government = tribal
-add_government_reform = tribal_kingdom
-government_rank = 1
-primary_culture = tibetan
+government = monarchy
+add_government_reform = dual_system_reform
+government_rank = 2
+primary_culture = utsang
 religion = vajrayana
 technology_group = chinese
 capital = 676 #Shigatse
 historical_rival = PHA
+religious_school = kagyu_school
 
 
 1399.1.1 = { decision = monastic_education }

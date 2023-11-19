@@ -20,6 +20,9 @@ discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 
+1515.1.1 = {
+	culture = assamese
+}
 1529.1.1 = {
 	owner = BNG
 	revolt = { type = pretender_rebels size = 3 leader = "Sher Shah Sur"}

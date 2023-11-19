@@ -13,13 +13,10 @@ base_manpower = 3
 is_city = yes
 add_core = KET
 
-
-
 discovered_by = chinese
 discovered_by = indochinese
 discovered_by = malay_group
 discovered_by = indian
-
 
 1502.1.1 = {
 	controller = SST
@@ -40,13 +37,13 @@ discovered_by = indian
 	owner = TAU
 	controller = TAU
 }
-1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
+1655.1.1 = { discovered_by = SPA }
 1732.1.1 = {
 	owner = QNG
 	controller = QNG
 	add_core = QNG
 }
-1739.1.1 = { unrest = 5 } # Rebellion
+1739.1.1 = { unrest = 5 }
 1740.1.1 = { unrest = 0 }
 1769.12.13 = {
 	owner = TAU

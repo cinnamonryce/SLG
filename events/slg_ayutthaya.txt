@@ -87,7 +87,7 @@ country_event = {
 			limit = {
 				has_heir = yes
 			}
-			kill_heir = yes
+			kill_heir = {}
 		}
 		define_ruler = {
 			name = "Worawongasa"
@@ -124,7 +124,7 @@ country_event = {
 			limit = {
 				has_heir = yes
 			}
-			kill_heir = yes
+			kill_heir = {}
 		}
 		define_ruler = {
 			name = "Chakkraphat"
@@ -414,7 +414,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "slg_ayutthaya.8.a" #What fools!
-		add_casus_belli
+		add_casus_belli = {
 			target = event_target:siamese_subject
 			type = cb_disloyal_vassal 
 			months = 12

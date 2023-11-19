@@ -3,10 +3,10 @@
 owner = PWO
 controller = PWO
 add_core = PWO
-culture = khampa
+culture = horpa
 religion = vajrayana
 capital = "Powo"
-trade_goods = grain
+trade_goods = iron
 hre = no
 base_tax = 1 
 base_production = 1
@@ -14,10 +14,10 @@ base_manpower = 1
 is_city = yes
 
 discovered_by = chinese
-discovered_by = nomad_group
-discovered_by = indian
 discovered_by = indochinese
 discovered_by = malay_group
+discovered_by = nomad_group
+discovered_by = indian
 
 1642.6.1 = {
 	controller = KSD

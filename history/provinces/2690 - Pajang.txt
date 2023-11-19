@@ -10,11 +10,9 @@ trade_goods = spices
 hre = no
 base_tax = 5
 base_production = 5
-base_manpower = 3
+base_manpower = 4
 is_city = yes
 add_core = YGK
-
-
 
 discovered_by = chinese
 discovered_by = indochinese

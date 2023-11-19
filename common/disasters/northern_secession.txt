@@ -7,7 +7,7 @@ northern_secession = {
 		OR = {
 			SUK = { is_subject_of = ROOT }
 			sukhothai_area = { country_or_non_sovereign_subject_holds = ROOT }
-			upper_chao_phraya_area = { country_or_non_sovereign_subject_holds = ROOT }
+			ping_area = { country_or_non_sovereign_subject_holds = ROOT }
 		}	
 		current_age = age_of_discovery
 	}
@@ -61,7 +61,7 @@ northern_secession = {
 		}
 		modifier = {
 			factor = 1
-			upper_chao_phraya_area = {
+			ping_area = {
 				OR = {
 					nationalism = 1
 					unrest = 1
@@ -94,20 +94,35 @@ northern_secession = {
 			custom_trigger_tooltip = {
 				tooltip = northern_secession_border_tt
 				NOT = {
-					any_owned_province = {
-						any_neighbor_province = {
-							province_id = 601
-						}
+					601 = { #Sukhothai
+						country_or_non_sovereign_subject_holds = ROOT
 					}
-					any_subject_country = {
-						limit = {
-							is_subject_other_than_tributary_trigger = yes
-						}
-						any_owned_province = {
-							any_neighbor_province = {
-								province_id = 601
-							}
-						}
+					2385 = { #Nongbua Lamphu
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					2386 = { #Chaiyaphum
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					2388 = { #Phitsanulok
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					4833 = { #Phetchabun
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					4841 = { #Lamphun
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					4960 = { #Phrae
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					5116 = { #Kamphaeng Phet
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					5117 = { #Phichai
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					5129 = { #Xayabuli
+						country_or_non_sovereign_subject_holds = ROOT
 					}
 				}
 			}

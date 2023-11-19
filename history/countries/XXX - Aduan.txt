@@ -1,0 +1,29 @@
+government = tribal
+add_government_reform = steppe_horde
+primary_culture = yugur
+religion = tengri_pagan_reformed
+secondary_religion = vajrayana
+technology_group = nomad_group
+capital = ???
+
+1406.1.1 = {
+	monarch = {
+		name = "Xue Huluzha"
+		dynasty = "Aduan"
+		birth_date = 1370.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1431.1.1 = {
+	monarch = {
+		name = "Tongzhi"
+		dynasty = "Aduan"
+		birth_date = 1410.1.1
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}

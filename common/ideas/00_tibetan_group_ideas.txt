@@ -39,113 +39,64 @@ KSH_ideas = {
 	}
 }
 
-#Bhutanese
-BHU_ideas = {
+GUN_ideas = {
 	start = {
-		defensiveness = 0.25
-		global_tax_modifier = 0.1
-	}
-	
-	bonus = {
-		hostile_attrition = 1
-	}
-
-	trigger = {
-		OR = {
-			tag = BHU
-			tag = BUM
-			tag = PAO
-			tag = RAL
-			culture = bhutanese
-		}
-	}
-	free = yes		#will be added at load.
-	
-	bhu_drukpa_kagyu = {
-		tolerance_own = 2
-	}
-	bhu_dzongs = {
-		build_cost = -0.15
-	}
-	bhu_tsa_yig_chenmo = {
-		stability_cost_modifier = -0.15
-	}
-	bhu_warlord_shabdrung = {
-		global_manpower_modifier = 0.1
-		land_forcelimit_modifier = 0.1
-	}
-	bhu_penlops = {
-		state_maintenance_modifier = -0.15
-	}
-	bhu_dual_government = {
-		legitimacy = 1
-		devotion = 1
-	}
-	bhu_external_opposition = {
-		discipline = 0.05
-	}
-}
-
-KAM_ideas = {
-	start = {
-		diplomatic_reputation = 1
-		cavalry_cost = -0.1
-	}
-	
-	bonus = {
-		land_morale = 0.10
-	}
-
-	trigger = {
-		OR = {
-			tag = KAM #Derge
-			tag = QAM
-			tag = NAN
-			tag = LIN
-			tag = LHA
-			culture = khampa
-		}
-	}
-	free = yes		#will be added at load.
-	
-	kam_horse_tea_road = {
-		trade_efficiency = 0.1
-	}
-	kam_epic_of_king_gesar = {
-		army_tradition = 0.5
-	}
-	yaks = { #Taken from Tibetan NI's in vanilla
-		production_efficiency = 0.1
-	}
-	kam_derge_patronage_of_the_arts = {
-		prestige = 1
-	}
-	kam_horse_archery = {
-		cavalry_power = 0.15
-	}
-	kam_ming_caravans = {
+		tolerance_own = 1
 		caravan_power = 0.2
 	}
-	kam_salt_mines = {
-		global_trade_goods_size_modifier = 0.1
+	
+	bonus = {
+		nobles_loyalty_modifier = 0.1
+	}
+
+	trigger = {
+		OR = {
+			tag = GUN
+			tag = LOO
+			tag = LAT
+			tag = JNG
+		}
+	}
+	free = yes		#will be added at load.
+	
+	GUN_walled_city = { 
+		defensiveness = 0.20
+	}
+	GUN_korala = {	
+		global_trade_power = 0.1
+	}
+	GUN_many_worlds_into_one = {
+		global_institution_spread = 0.1
+	}
+	GUN_control_boundaries = {
+		fort_maintenance_modifier = -0.2
+	}
+	GUN_pious_princes = {
+		missionaries = 1
+		yearly_karma_decay = 0.01
+	}
+	GUN_crush_marauders = {
+		shock_damage_received = -0.1
+	}
+	GUN_gold_trade = {
+		inflation_reduction = 0.1
 	}
 }
 
 AMD_ideas = {
 	start = {
 		cavalry_power = 0.15
-		improve_relation_modifier = 0.25
+		tolerance_own = 1
 	}
 	bonus = {
-		defensiveness = 0.15
+		improve_relation_modifier = 0.25
 	}
 
 	trigger = {
 		OR = {
-			tag = JON
-			tag = GLK
 			tag = AMD
-			culture = amdowa
+			tag = NGB
+			tag = RON
 		}
 	}
 	free = yes		#will be added at load.
@@ -153,109 +104,25 @@ AMD_ideas = {
 	AMD_drog_pa = {
 		cavalry_cost = -0.1
 	}
-	AMD_choni_monastery = {
-		tolerance_own = 1
+	AMD_trade_stations = { 
+		caravan_power = 0.1
+		global_institution_spread = 0.1
 	}
-	AMD_golok_fighters = {
-		shock_damage = 0.1
-		may_recruit_female_generals = yes
-	}
-	AMD_ten_virtues = {
+	AMD_ten_virtues = {	
 		global_tax_modifier = 0.1
 	}
-	AMD_tale_of_conquest = {
-		army_tradition = 0.5
-	}
-	AMD_ruling_48_clans = {
-		global_manpower_modifier = 0.15
-	}
-	AMD_sheng_pa = {
+	AMD_sheng_pa = { 
 		production_efficiency = 0.1
 	}
-}
-
-new_nepalese_minor_ideas = {
-	start = {
-		land_morale = 0.10
-		manpower_recovery_speed = 0.1
+	AMD_monastic_scholarship = { 
+		idea_cost = -0.1
 	}
-	
-	bonus = {
-		infantry_power = 0.1
+	AMD_nang_so = {
+		global_autonomy = -0.03
+		global_unrest = -1
 	}
-	
-	trigger = {
-		OR = {
-			primary_culture = pahari
-			primary_culture = nepali
-			tag = LOO
-		}
-	}
-	free = yes
-	
-	nep_construct_temples = {
-		build_cost = -0.1
-	}
-	nep_kashmiri_traders = {
-		merchants = 1
-	}
-	nep_new_festivals = {
-		tolerance_own = 1
-	}
-	nep_kavindra = {
-		prestige = 1
-	}
-	nep_seize_mountain_passes = {
-		defensiveness = 0.15
-	}
-	nep_judicial_reforms = {
-		stability_cost_modifier = -0.1
-	}
-	nep_end_division_of_domains = {
-		global_autonomy = -0.05
-	}
-}
-
-CKL_ideas = {
-	start = {
-		caravan_power = 0.2
-		merchants = 1
-	}
-	
-	bonus = {
-		build_cost = -0.1
-	}
-
-	trigger = {
-		OR = {
-			tag = CKL
-			tag = HOR
-			culture = gyelrong
-		}
-	}
-	free = yes		#will be added at load.
-	
-	hor_mongol_ancestry = {
-		land_morale = 0.1
-	}
-	hor_bon_stronghold = {
-		global_missionary_strength = 0.02
-	}
-	kam_horse_tea_road = { #From Kham
-		trade_efficiency = 0.1
-	}
-	CKL_valley_of_the_queen = {
-		legitimacy = 1
-		female_advisor_chance = 0.5
-	}
-	CKL_stone_towers = {
-		defensiveness = 0.15
-	}
-	CKL_eighteen_kingdoms = {
-		global_manpower_modifier = 0.15
-	}
-	CKL_hengduan_mountains = {
-		hostile_attrition = 1
+	AMD_monastery_power = {
+		church_loyalty_modifier = 0.10
 	}
 }
 
@@ -280,9 +147,13 @@ GIL_ideas = {
 
 	gil_trakhan_dynasty = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	ctr_turco_mongol_legacy = {
-		shock_damage = 0.15
+		shock_damage = 0.1
 	}
 	ctr_islamic_conversion = {
 		global_missionary_strength = 0.01
@@ -302,87 +173,230 @@ GIL_ideas = {
 	}
 }
 
-GUG_ideas = {
+HOR_ideas = {
 	start = {
-		defensiveness = 0.25
-		global_trade_goods_size_modifier = 0.1
+		tolerance_heathen = 2 #Mostly for gameplay tbh
+		shock_damage = 0.1
 	}
 	
 	bonus = {
-		merchants = 1
+		land_forcelimit_modifier = 0.2
 	}
 
 	trigger = {
 		OR = {
-			tag = GUG
-			tag = GUN
+			tag = HOR
+			tag = HRS
 		}
 	}
 	free = yes		#will be added at load.
 	
-   	gug_ancestor_of_ten_thousand_mountains = {
-       	 	land_attrition = -0.1
-		hostile_attrition = 1
-    	}
-	gug_tholing_monastery = {
-		global_tax_modifier = 0.15
+	HOR_mongol_ancestry = {	
+		cavalry_power = 0.1
 	}
-	gug_india_tibet_trade = {
-		trade_efficiency = 0.10
+	HOR_jag_pa = { 
+		loot_amount = 0.25
 	}
-	gug_descendants_of_langdarma = {
-		legitimacy = 1
+	HOR_culture_of_revenge = {
+		prestige_from_land = 1.0
 	}
-	gug_mount_kailash = {
-		tolerance_own = 2
-		tolerance_heathen = 1
+	HOR_wool_production = {
+		global_trade_goods_size_modifier = 0.1
 	}
-    	gug_armory = {
-        	infantry_power = 0.1
-   	 }
-	gug_building_tsaparang = {
-		build_cost = -0.1
+	HOR_bon_stronghold = {
+		religious_unity = 0.2
+	}
+	HOR_bon_patronage = {
+		adm_tech_cost_modifier = -0.1
+	}
+	QAM_horse_tea_road = { #From Kham
+		trade_efficiency = 0.1
 	}
 }
 
-new_LDK_ideas = { #Baltistan uses Ladakhi ideas
+#Powo+Eyul
+PWO_ideas = {
 	start = {
-		tolerance_own = 2
-		diplomatic_upkeep = 1
+		defensiveness = 0.20
+		hostile_attrition = 1
+	}
+	
+	bonus = {
+		movement_speed = 0.15 #Putting the 'travel' in 'time travel'
+	}
+
+	trigger = {
+		OR = {
+			tag = PWO
+			tag = LHG
+		}
+	}
+	free = yes		#will be added at load.
+	
+	pwo_yarlung_descendants = {          
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	pwo_powo_savages = {
+		shock_damage = 0.10
+	}
+	pwo_pongen_anyak = {
+		global_tax_modifier = 0.1
+	}
+	lhg_expand_realm = {
+		unjustified_demands = -0.2
+	}
+	pwo_maintain_independence = {
+		diplomatic_reputation = 1
+	}
+	pwo_sera_regional_house = {
+		prestige = 1
+	}
+	lhg_rokpatsa = {                   
+		harsh_treatment_cost = -0.20
+	}
+}
+
+#Khampa
+QAM_ideas = {
+	start = {
+		diplomatic_reputation = 1
+		cavalry_cost = -0.1
+	}
+	
+	bonus = {
+		production_efficiency = 0.1
+	}
+
+	trigger = {
+		OR = {
+			tag = QAM
+			tag = LHA
+			tag = BAT
+			tag = LTA
+			tag = NYA
+		}
+	}
+	free = yes		#will be added at load.
+	
+	QAM_horse_tea_road = {
+		trade_efficiency = 0.1
+	}
+	LIN_epic_of_king_gesar = { #From Lingtsang
+		prestige_from_land = 1
+	}
+	kam_derge_support_of_the_arts = { #From Derge
+		prestige = 1
+	}
+	QAM_horse_archery = {	
+		cavalry_power = 0.1
+	}
+	LIN_ming_caravans = { #also from Lingtsang
+		caravan_power = 0.2
+	}
+	QAM_salt_mines = { 
+		global_trade_goods_size_modifier = 0.1
+	}
+	QAM_blind_man = { #Bulungwa reference       
+		leader_land_shock = 1
+		loot_amount = 0.10
+	}
+}
+
+#Western Bhutanese
+PAO_ideas = {
+	start = {
+		improve_relation_modifier = 0.25
+		tolerance_own = 1
+	}
+	
+	bonus = {
+		diplomatic_reputation = 1
+	}
+
+	trigger = {
+		OR = {
+			tag = PAO
+			tag = RAL
+		}
+	}
+	free = yes		#will be added at load.
+	
+	pao_paro_marketplace = {
+		global_trade_power = 0.1
+	}
+	pao_pilgrimages = {
+		global_missionary_strength = 0.01
+	}
+	pao_lama_teachings = {
+		idea_cost = -0.10
+		yearly_karma_decay = 0.01
+	}
+	pao_drukpa_lineage = {	
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	pao_eight_cliffs = {
+		prestige = 1
+	}
+	pao_workers_blessings = { 
+		build_cost = -0.1
+		build_time = -0.1
+	}
+	pao_paro_dzong = {    
+		defensiveness = 0.15
+	}
+}
+
+#Some idea sets written by yours truly :)
+
+#Jinchuan Ideas
+CUC_ideas = {
+	start = {
+		garrison_size = 0.2
+		land_forcelimit_modifier = 0.20
 	}
 
 	bonus = {
-		defensiveness = 0.2
+		tolerance_own = 1
 	}
-	
+
 	trigger = {
 		OR = {
-			tag = LDK
-			tag = MAQ
-			culture = ladakhi
+			tag = CUC
+			tag = TSA
+			tag = TKY
 		}
 	}
 	free = yes
-	
-	ldk_two_kingdoms = {
-		prestige = 1
+
+	CUC_daily_vendettas = {
+		spy_offence = 0.2
 	}
-	ldk_fortified_mountain_cities = {
-		fort_maintenance_modifier = -0.2
+	CUC_an_unwelcoming_country = {
+		hostile_attrition = 0.5
+		land_attrition = -0.10
 	}
-	ldk_wool_from_the_roof_of_the_world = {
-		global_trade_goods_size_modifier = 0.1
+	CUC_belligerence = {
+		power_projection_from_insults = 1
 	}
-	ldk_great_monasteries = {
-		build_cost = -0.1
+	CUC_war_towers = {
+		defensiveness = 0.2
 	}
-	ldk_la_dvags_rgyal_rabs = {
-		stability_cost_modifier = -0.1
+	CUC_dark_borderlands = {
+		missionary_maintenance_cost = -0.2
 	}
-	ldk_kingdom_united = {
-		legitimacy = 1
+	CUC_jinchuan_marauders = {
+		shock_damage = 0.1
+		loot_amount = 0.1
 	}
-	ldk_far_away_traders = {
-		trade_efficiency = 0.1
+	CUC_resist_the_bureaucratization = {
+		rebel_support_efficiency = 0.25
 	}
 }

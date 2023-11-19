@@ -1,0 +1,59 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = utsang
+religion = vajrayana
+technology_group = chinese
+capital = 5221 #Tingri
+government_rank = 1
+religious_school = kagyu_school
+
+1380.1.1 = {
+	monarch = {
+		name = "Chokyi Rinchen"
+		dynasty = "Situ"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+
+1402.1.1 = {
+	monarch = {
+		name = "Lhatsen Kyab"
+		dynasty = "Situ"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1432.1.1 = {
+	monarch = {
+		name = "Tshewang Tashi"
+		dynasty = "Situ"
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Lhopa"
+		dynasty = "Situ"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

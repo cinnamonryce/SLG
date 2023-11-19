@@ -177,6 +177,7 @@
 2606 = { "Fort Alexandria" "Fort Alexandria" }
 2670 = { "Toronto" "York" }
 2671 = "Ronde"
+4890 = "Ottawa"
 
 #Italy
 104 = { "Milan" "Milan" }
@@ -337,7 +338,6 @@
 2377 = { "Camao" "Camao" }
 2380 = { "Phnom Penh" "Phnom Penh" }
 2387 = "Pripri"
-2388 = "Phitsalok"
 2389 = "Prabang"
 2391 = { "Jungceylon" "Jungceylon" } #Or Junkceylon
 4819 = "Sonam"

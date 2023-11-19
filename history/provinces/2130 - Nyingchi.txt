@@ -3,24 +3,21 @@
 owner = PWO
 controller = PWO
 add_core = PWO
-culture = tibetan
+culture = horpa
 religion = vajrayana
 capital = "Nyingchi"
-trade_goods = grain
+trade_goods = iron
 hre = no
-base_tax = 2
-base_production = 2
+base_tax = 2 
+base_production = 1
 base_manpower = 2
 is_city = yes
 
-
-
 discovered_by = chinese
-discovered_by = nomad_group
-discovered_by = indian
 discovered_by = indochinese
 discovered_by = malay_group
-
+discovered_by = nomad_group
+discovered_by = indian
 
 1642.6.1 = {
 	controller = KSD

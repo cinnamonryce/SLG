@@ -32,12 +32,10 @@ country_decisions = {
 			}
 		}
 		provinces_to_highlight = {
-			region = indo_china_region
 			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
+				region = indo_china_region
+				region = siam_region
 			}
-			region = siam_region
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
@@ -69,10 +67,12 @@ country_decisions = {
 				is_core = ROOT
 				region = indo_china_region
 			}
+			total_non_estate_disasters_completed = { value = 2 }
 		}
 		
 		effect = {
 			change_tag = SIA
+			on_change_tag_effect = yes
 			if = {
 				limit = {
 					has_country_flag = is_thonburi

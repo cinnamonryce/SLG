@@ -1,52 +1,142 @@
 #New Tibetan ideas by Macky
 new_TIB_ideas = {
 	start = {
-		global_unrest = -1
+		defensiveness = 0.2
 		global_missionary_strength = 0.01
 	}
 	
 	bonus = {
-		advisor_cost = -0.10
+		land_morale = 0.1
 	}
 	
 	trigger = {
-		tag = TIB
+			tag = TIB
 	}
-	free = yes #will be added at load.
+	free = yes       #will be added at load.
 	
-	vajrayana_buddhism  = {
-		stability_cost_modifier = -0.10
-	}
-	bon_influence = {
-		leader_land_shock = 1
+	tibetan_armor = { #new
+		fire_damage_received = -0.1
 	}
 	yaks = {
 		production_efficiency = 0.1
 	}
-	way_of_virtue= {
-		tolerance_heretic = 1
-		tolerance_heathen = 1
+	tibetan_monasteries = { #new            
+		tolerance_own = 2
+		build_cost = -0.1
 	}
-	potala_palace = {
-		diplomatic_reputation = 1
+	tibetan_horse_trade = { #new                    
+		placed_merchant_power = 5
+		global_trade_goods_size_modifier = 0.1
 	}
-	way_of_ancients = {
-		discipline = 0.05
+	bon_influence = {                
+		leader_land_shock = 1
 	}
 	pale_earth = {
 		idea_cost = -0.1
+	}
+	potala_palace = {                             
+		global_unrest = -2
+		monthly_karma = 0.1
+	}
+}
+
+#Bhutan
+BHU_ideas = {
+	start = {
+		defensiveness = 0.25
+		global_tax_modifier = 0.1
+	}
+	
+	bonus = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+
+	trigger = {
+		tag = BHU
+	}
+	free = yes		#will be added at load.
+	
+	bhu_dzongs = {
+		build_cost = -0.1
+	}
+	bhu_drukpa_kagyu = {
+		tolerance_own = 1
+	}
+	bhu_mdaa = {
+		infantry_power = 0.1
+	}
+	bhu_tsa_yig_chenmo = {
+		church_loyalty_modifier = 0.10
+	}
+	bhu_warlord_shabdrung = {
+		global_manpower_modifier = 0.1
+	}
+	bhu_penlops = {
+		state_maintenance_modifier = -0.15
+	}
+	bhu_external_opposition = {
+		leader_land_fire = 1
+	}
+}
+
+#Derge
+KAM_ideas = {
+	start = {
+		discipline = 0.05
+		advisor_pool = 1
+	}
+	
+	bonus = {
+		idea_cost = -0.1
+	}
+
+	trigger = {
+		tag = KAM
+	}
+	free = yes		#will be added at load.
+	
+	kam_religious_center = {	
+		build_cost = -0.1
+	}
+	kam_industrial_center_metalworking = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	kam_political_center = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	kam_derge_support_of_the_arts = {
+		prestige = 1
+	}
+	kam_expansion = {
+		core_creation = -0.1
+		province_warscore_cost = -0.1
+	}
+	kam_parkhang_printing = { 
+		adm_tech_cost_modifier = -0.1
+	}
+	kam_rime_movement = {       
+		tolerance_own = 1
+		tolerance_heretic = 1
 	}
 }
 
 #Tsang/Rinpungpas
 UTS_ideas = {
 	start = {
-		unjustified_demands = -0.25
+		years_of_nationalism = -5
 		land_forcelimit_modifier = 0.2
 	}
 	
 	bonus = {
-		manpower_recovery_speed = 0.15
+		fire_damage = 0.1
 	}
 
 	trigger = {
@@ -57,12 +147,11 @@ UTS_ideas = {
 	uts_phagmodrupa_desi = {
 		ae_impact = -0.15
 	}
-	uts_ruler_of_utsang = {	
+	uts_ruler_of_utsang = {		
 		core_creation = -0.1
 	}
 	uts_depa_garpa = {
-		movement_speed = 0.1
-		war_exhaustion = -0.02
+		movement_speed = 0.15
 	}
 	uts_scholar_king = {
 		idea_cost = -0.1
@@ -73,7 +162,7 @@ UTS_ideas = {
 	uts_restore_tibet = {
 		land_morale = 0.1
 	}
-	uts_samdruptse_farmers = {
+	uts_samdruptse_farmers = {                    
 		global_trade_goods_size_modifier = 0.1
 	}
 }
@@ -86,7 +175,7 @@ PHA_ideas = {
 	}
 	
 	bonus = {
-		technology_cost = -0.05
+		prestige = 1
 	}
 
 	trigger = {
@@ -94,11 +183,12 @@ PHA_ideas = {
 	}
 	free = yes		#will be added at load.
 	
-	pwo_powo_savages = {
-		land_morale = 0.1
+	pha_traditional_tibetan_laws = {                      
+		global_unrest = -1
 	}
-	pha_monlam_festival = {
-		tolerance_own = 2
+	pha_dzongpons = {
+		state_maintenance_modifier = -0.15
+		fort_maintenance_modifier = -0.2
 	}
 	pha_yarlung_valley = {
 		development_cost = -0.1
@@ -106,18 +196,346 @@ PHA_ideas = {
 	pha_phagmodrupa_administration = {
 		stability_cost_modifier = -0.15
 	}
+	pha_monlam_festival = {          
+		tolerance_own = 2
+	}
 	pha_monasteries = {
 		build_cost = -0.1
-	}
-	potala_palace = { #Taken from Tibetan NI's in vanilla
-		diplomatic_reputation = 1
-		legitimacy = 0.5
+		monthly_karma = 0.1
 	}
 	pha_ancient_glory = {
-		prestige = 1
+		idea_cost = -0.1
 	}
 }
 
+#Bumthang
+BUM_ideas = {
+	start = {
+		defensiveness = 0.15
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	
+	bonus = {
+		production_efficiency = 0.1
+	}
+
+	trigger = {
+		tag = BUM
+	}
+	free = yes		#will be added at load.
+	
+	bum_dung_families = {
+		nobles_loyalty_modifier = 0.1
+	}
+	bum_fertile_valley = {
+		global_manpower_modifier = 0.1
+	}
+	bum_place_of_exile = {
+		diplomats = 1
+	}
+	bum_rebuild_jampay_lhakhang = {
+		build_cost = -0.1
+	}
+	bum_pema_lingpa = {
+		tolerance_own = 2
+	}
+	bum_incorporate_bonpa_deities = {
+		religious_unity = 0.25
+	}
+	bum_root_of_buddhism = {
+		tolerance_own = 1
+	}
+}
+
+#Chakla
+CKL_ideas = {
+	start = {
+		caravan_power = 0.2
+		tolerance_heretic = 2 #Adds to the theme of 'Tibet-China synthesis'
+	}
+	
+	bonus = {
+		improve_relation_modifier = 0.2
+	}
+
+	trigger = {
+		tag = CKL
+	}
+	free = yes		#will be added at load.
+	
+	CKL_eighteen_kingdoms = {
+		nobles_loyalty_modifier = 0.1
+	}
+	CKL_little_chengdu = {
+		num_accepted_cultures = 1
+		development_cost = -0.05
+	}
+	CKL_kingdom_of_one_thousand_castles = {
+		fort_maintenance_modifier = -0.2
+	}
+	CKL_zanghan_shangmao_shichang = {
+		merchants = 1
+	}
+	CKL_musk_trade = {	
+		production_efficiency = 0.1
+	}
+	CKL_valley_of_the_queen = {
+		female_advisor_chance = 0.5
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	CKL_stone_towers = {
+		defensiveness = 0.15
+	}
+}
+
+#Drigung
+DRI_ideas = {
+	start = {
+		advisor_pool = 1
+		devotion = 1
+	}
+	
+	bonus = {
+		global_institution_spread = 0.1
+	}	
+
+	trigger = {
+		tag = DRI
+	}
+	free = yes
+	
+	DRI_monk_defense = {
+		shock_damage_received = -0.1
+	}
+	DRI_gompa = {
+		global_unrest = -1
+	}
+	DRI_sino_tibetan_relations = {
+		envoy_travel_time = -0.25
+	}
+	DRI_meditation_tradition = {
+		tolerance_own = 1
+		monthly_karma = 0.1
+	}
+	DRI_meditation_colonies = {
+		global_missionary_strength = 0.01
+	}
+	DRI_achi_protection = {
+		global_garrison_growth = 0.2
+	}
+	DRI_teaching_college = {
+		adm_tech_cost_modifier = -0.1
+	}
+}
+
+#Lingtsang - You would be VERY mistaken if you expected ANYTHING besides King Gesar based ideas.
+LIN_ideas = {
+	start = {
+		fabricate_claims_cost = -0.25
+		prestige_decay = -0.01
+	}
+	
+	bonus = {
+		cavalry_power = 0.1
+	}
+
+	trigger = {
+		tag = LIN
+	}
+	free = yes		#will be added at load.
+	
+	LIN_epic_of_king_gesar = {
+		prestige_from_land = 1
+	}
+	LIN_dpon_chen = {
+		ae_impact = -0.1
+	}
+	LIN_ming_caravans = {
+		caravan_power = 0.2
+	}
+	LIN_from_troublesome_beginnings = {	
+		province_warscore_cost = -0.1
+	}
+	LIN_subduer_of_foes = {
+		army_tradition_from_battle = 0.5
+	}
+	LIN_crush_eighteen_fortresses = { 
+		leader_siege = 1
+	}
+	LIN_chinese_relations = { #Based off King Gesar again, but this time it doubles as a non-Gesar thing, too. 
+		diplomatic_reputation = 1
+	}
+}
+
+#Nangchen
+NGC_ideas = {
+	start = {
+		defensiveness = 0.1
+		caravan_power = 0.2
+	}
+	
+	bonus = {
+		movement_speed = 0.15
+	}
+
+	trigger = {
+		tag = NGC
+	}
+	free = yes		#will be added at load.
+	
+	NGC_salt_springs = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	NGC_remotest_largest_kingdom = {	
+		global_spy_defence = 0.2
+		hostile_attrition = 1.0
+	}
+	NGC_nomads = {
+		cavalry_power = 0.15
+	}
+	NGC_twentyfive_tribes_of_yushul = { 
+		global_manpower_modifier = 0.2
+	}
+	NGC_old_buddhist_orders = {
+		idea_cost = -0.10
+	}
+	NGC_land_of_great_meditators = {
+		tolerance_own = 1
+		monthly_karma = 0.1
+	}
+	NGC_tsoknyi_nunneries = {
+		advisor_pool = 1
+		female_advisor_chance = 0.25
+	}
+}
+
+#Sakya
+SKY_ideas = {
+	start = {
+		yearly_karma_decay = 0.01
+		diplomatic_reputation = 1
+	}
+	
+	bonus = {
+		core_creation = -0.1
+	}	
+
+	trigger = {
+		tag = SKY
+	}
+	free = yes
+	
+	pale_earth = { #From Tibetan ideas
+		idea_cost = -0.1
+	}
+	SKY_library = {
+		technology_cost = -0.05
+	}
+	SKY_build_southern_monastery = {
+		build_cost = -0.1
+	}
+	SKY_spiritual_leader = {
+		tolerance_own = 1
+		unjustified_demands = -0.1
+	}
+	SKY_appointing_dpon_chen = {
+		governing_capacity_modifier = 0.1
+	}
+	SKY_crush_rival_sects = {
+		harsh_treatment_cost = -0.15
+	}
+	SKY_murals = {
+		prestige_decay = -0.01
+	}
+}
+
+#Chone
+JON_ideas = {
+	start = {
+		province_warscore_cost = -0.1
+		improve_relation_modifier = 0.25
+	}
+	bonus = {
+		cavalry_power = 0.15
+	}
+
+	trigger = {
+		tag = JON
+	}
+	free = yes		#will be added at load.
+	
+	JON_choni_monastery = { 
+		tolerance_own = 1
+	}
+	JON_tale_of_conquest = {
+		army_tradition = 0.5
+	}
+	JON_ruling_48_clans = {
+		global_unrest = -1
+	}
+	JON_ming_visits = {
+		diplomats = 1
+	}
+	JON_expanded_militia = {
+		global_manpower_modifier = 0.15
+	}
+	JON_crush_revolts = {	
+		harsh_treatment_cost = -0.2
+	}
+	JON_drichu_defense = { 
+		leader_land_shock = 1
+		shock_damage_received = -0.05
+	}
+}
+
+#Golok
+GLK_ideas = {
+	start = {
+		hostile_attrition = 1
+		stability_cost_modifier = -0.15
+	}
+	bonus = {
+		defensiveness = 0.15
+	}
+
+	trigger = {
+		tag = GLK
+	}
+	free = yes		#will be added at load.
+	
+	GLK_golok_fighters = {
+		shock_damage = 0.1
+		may_recruit_female_generals = yes
+	}
+	GLK_rebellious_people = {
+		land_morale = 0.1
+	}
+	GLK_rukor = {
+		production_efficiency = 0.1
+	}
+	GLK_amne_machin = {	
+		prestige = 1
+	}
+	GLK_mdokham_migrants = { 
+		development_cost = -0.1
+	}
+	GLK_northern_guards = {
+		fire_damage_received = -0.1
+	}
+	GLK_bon_influence = { 
+		tolerance_heretic = 2
+	}
+}
+
+#Lijiang
 LIJ_ideas = {
 	start = {
 		infantry_power = 0.1
@@ -177,6 +595,7 @@ HNZ_ideas = {
 	}
 	hnz_baltit_fort = {
 		defensiveness = 0.1
+		rival_border_fort_maintenance = -0.2
 	}
 	hnz_mountain_irrigation = {
 		development_cost = -0.1
@@ -191,12 +610,323 @@ HNZ_ideas = {
 	}
 	hnz_longevity = {
 		monarch_lifespan = 0.1
+		advisor_pool = 1
 	}
 	hnz_mir_of_hunza = {
+		prestige = 0.5
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 }
 
+#Balti Yul Ideas
+MAQ_ideas = {
+	start = {
+		leader_land_manuever = 1
+		build_cost = -0.1
+	}
+
+	bonus = {
+		vassal_income = 0.2
+	}
+	
+	trigger = {
+		tag = MAQ
+	}
+	free = yes
+	
+	maq_noorbakshia = {
+		missionaries = 1
+	}
+	maq_skardu = {
+		development_cost = -0.1
+	}
+	maq_little_tibet = {
+		diplomatic_reputation = 1
+	}
+	maq_mountain_storm = {
+		hostile_attrition = 1
+	}
+	maq_kharpons = {
+		global_garrison_growth = 0.15
+	}
+	maq_obsessed_with_success = {
+		recover_army_morale_speed = 0.05
+	}
+	maq_maqpon_empire = {
+		province_warscore_cost = -0.1
+	}
+}
+
+#Ladakh
+new_LDK_ideas = { #Baltistan uses Ladakhi ideas
+	start = {
+		years_of_nationalism = -5 #Representing how they got the people of Leh to support them against Lower Ladakh.
+		fort_maintenance_modifier = -0.2 #Basgo's rulers held the Tingmosgang fort as a base, also to aid Basgo's early economy.
+	}
+
+	bonus = {
+		leader_siege = 1 #Siege of Tsaparang, would make sense for Ladakh to have something siege related as they crushed Guge (who have Fort Defense on traditions). 
+	}
+	
+	trigger = {
+		OR = {
+			tag = LDK
+			tag = BAS
+		}
+	}
+	free = yes
+	
+	ldk_victorious = { #Namgyal Dynasty being a 'warlike' dynasty. ALT: +1 Land Leader Shock
+		army_tradition = 0.5
+		shock_damage_received = -0.05
+	}
+	ldk_wool_from_the_roof_of_the_world = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	ldk_two_kingdoms = {
+		province_warscore_cost = -0.1
+	}
+	ldk_great_monasteries = {
+		build_cost = -0.1
+	}
+	ldk_tingmosgang = {
+		diplomatic_reputation = 1
+	}
+	ldk_la_dvags_rgyal_rabs = { #Ladakh Chronicles
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	ldk_far_away_traders = {
+		trade_efficiency = 0.1
+	}
+}
+
+#Guge
+GUG_ideas = {
+	start = {
+		defensiveness = 0.25
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	bonus = {
+		merchants = 1
+	}
+
+	trigger = {
+		tag = GUG
+	}
+	free = yes		#will be added at load.
+	
+   	gug_ancestor_of_ten_thousand_mountains = {
+       	 	land_attrition = -0.1
+		hostile_attrition = 1
+    	}
+	gug_tholing_monastery = {
+		global_tax_modifier = 0.15
+	}
+	gug_india_tibet_trade = {               
+		trade_efficiency = 0.10
+	}
+	gug_descendants_of_langdarma = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	gug_mount_kailash = {	
+		tolerance_own = 2
+		tolerance_heathen = 1
+	}
+    	gug_armory = {
+        	infantry_power = 0.1
+   	 }
+	gug_building_tsaparang = {
+		build_cost = -0.1
+	}
+
+}
+
+#Leh
+LEH_ideas = {
+	start = {
+		global_autonomy = -0.05
+		diplomatic_upkeep = 1
+	}
+	
+	bonus = {
+		adm_tech_cost_modifier = -0.1
+	}
+
+	trigger = {
+		tag = LEH
+	}
+	free = yes
+	
+	leh_seek_tibetan_guidance = {
+		tolerance_own = 2
+	}
+	ldk_wool_from_the_roof_of_the_world = {
+		#global_trade_goods_size_modifier = 0.1
+	}
+	ldk_fortified_mountain_cities = {
+		defensiveness = 0.2
+	}
+	ldk_great_monasteries = {
+		#build_cost = 0.1
+	}
+	ldk_kingdom_united = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	leh_patronize_the_gelug = {
+		advisor_cost = -0.1
+	}
+	ldk_far_away_traders = {
+		#trade_efficiency = 0.1
+	}
+}
+
+#Zanskar
+ZNS_ideas = {
+	start = {
+		production_efficiency = 0.1
+		defensiveness = 0.2
+	}
+	
+	bonus = {
+		army_tradition = 0.5
+	}
+
+	trigger = {
+		tag = ZNS
+	}
+	free = yes
+	
+	zns_respect_for_the_gyalpo = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	zns_frozen_penzi_la = {
+		hostile_attrition = 1
+	}
+	zns_land_of_religion = {
+		tolerance_own = 1
+	}
+	zns_hub_of_the_earth = {
+		advisor_pool = 1
+	}
+	zns_padumpa_identity = {
+		stability_cost_modifier = -0.1
+	}
+	zns_intensive_irrigation = {
+		global_tax_modifier = 0.1
+	}
+	zns_interreligious_marriages = {
+		tolerance_heathen = 1
+	}
+}
+
+#Some idea sets written by yours truly :)
+
+#Muli
+MUI_ideas = {
+	start = {
+		production_efficiency = 0.1
+		religious_unity = 0.2
+	}
+	
+	bonus = {
+		missionary_maintenance_cost = -0.25
+	}
+
+	trigger = {
+		tag = MUI
+	}
+	free = yes
+	
+	MUI_landlords = {
+		nobles_loyalty_modifier = 0.1
+	}
+	MUI_mountain_gods = {
+		hostile_attrition = 1.0
+	}
+	MUI_domestic_slave_trade = {
+		global_own_trade_power = 0.1
+	}
+	MUI_lama_kings = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	MUI_struggle_of_the_schools = {
+		missionaries = 1
+	}
+	MUI_cultural_pluralism = {
+		num_accepted_cultures = 1
+	}
+	MUI_the_great_monastery_of_muli = {
+		tolerance_own = 2
+		monthly_karma = 0.1
+	}
+}
+
+#Yongning
+YON_ideas = {
+	start = {
+		spy_offence = 0.2
+		tolerance_heathen = 2 #Literally just changed this from religious unity
+	}
+	
+	bonus = {
+		production_efficiency = 0.1
+	}
+
+	trigger = {
+		tag = YON
+	}
+	free = yes
+	
+	YON_nuer_guo = {
+		female_advisor_chance = 0.5
+		stability_cost_modifier = -0.1
+	}
+	YON_tisese = {
+		heir_chance = 0.5
+	}
+	YON_intercultural_exchange = {
+		idea_cost = -0.1
+	}
+	YON_daba = {
+		global_unrest = -1
+	}
+	YON_lugu_lake = {
+		prestige_decay = -0.01	
+	}
+	YON_suppress_the_peasantry = {
+		harsh_treatment_cost = -0.2
+	}
+	YON_mountain_cult = {
+		land_attrition = -0.10
+	}
+}
+
+#Sikkim
 SKK_ideas = {
 	start = {
 		religious_unity = 0.25

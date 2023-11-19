@@ -1,6 +1,5 @@
 # Sukhothai Inheritance by Daniel Tolman
 
-
 namespace = flavor_suk
 normal_or_historical_nations = yes
 

@@ -1,0 +1,68 @@
+government = monarchy
+add_government_reform = dual_system_reform
+primary_culture = utsang
+religion = vajrayana
+technology_group = chinese
+capital = 5218 #Chusum
+government_rank = 1
+religious_school = gelug_school
+
+1444.1.1 = {
+	monarch = {
+		name = "Drale Namgyel"
+		dynasty = "Lhagyari"
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1498.1.1 = {
+	monarch = {
+		name = "Jikten Wangchuk"
+		dynasty = "Lhagyari"
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Yulkhor Wangchuk"
+		dynasty = "Lhagyari"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Sonam Rabten"
+		dynasty = "Lhagyari"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1590.1.1 = {
+	monarch = {
+		name = "Ganden Pelbar"
+		dynasty = "Lhagyari"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+
+1610.1.1 = {
+	monarch = {
+		name = "Ganden Pelbar"
+		dynasty = "Lhagyari"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}

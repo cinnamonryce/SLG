@@ -12,22 +12,68 @@ change_estate_land_share = {
 	share = -5
 }
 
-1444.1.1 = {
+1434.1.1 = {
 	monarch = {
-		name = "Sao Hkun Hpa"
+		name = "Hsang Hom Hkam"
 		dynasty = "Mong Pai"
+		birth_date = 1390.1.1
 		ADM = 2
-		DIP = 2
+		DIP = 3
 		MIL = 2
+	}
+	heir = {
+		name = "Hsan Meik Hpa"
+		monarch_name = "Hsan Meik Hpa"
+		dynasty = "Mong Pai"
+		birth_date = 1420.1.1
+		death_Date = 1472.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
 	}
 }
 
-1465.1.1 = {
+1449.1.1 = {
 	monarch = {
-		name = "Sao Wen Hpa"
+		name = "Hsan Meik Hpa"
 		dynasty = "Mong Pai"
-		ADM = 2
-		DIP = 2
+		birth_date = 1420.1.1
+		ADM = 3
+		DIP = 3
 		MIL = 2
+	}
+	heir = {
+		name = "Hso Nyunt Hpa"
+		monarch_name = "Hso Nyunt Hpa"
+		dynasty = "Mong Pai"
+		birth_date = 1445.1.1
+		death_Date = 1510.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "Hso Nyunt Hpa"
+		dynasty = "Mong Pai"
+		birth_date = 1445.1.1
+		ADM = 2
+		DIP = 3
+		MIL = 2
+	}
+	heir = {
+		name = "Hso Kyaung Hpa"
+		monarch_name = "Hso Kyaung Hpa"
+		dynasty = "Mong Pai"
+		birth_date = 1472.1.1
+		death_Date = 1542.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 1
 	}
 }

@@ -1,0 +1,286 @@
+government = tribal
+add_government_reform = native_chieftain_system_reform
+primary_culture = gyelrong
+religion = vajrayana
+technology_group = chinese
+capital = 5230 #Trochen
+government_rank = 1
+religious_school = gelug_school
+
+#Trochen Dynasty
+
+1370.1.1 = {
+	monarch = {
+		name = "Trotsa Wangden"
+		dynasty = "Trochen"
+		birth_date = 1350.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	heir = {
+		name = "Takla Kyab"
+		monarch_name = "Takla Kyab"
+		dynasty = "Trochen"
+		birth_date = 1370.1.1
+		death_date = 1440.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Takla Kyab" #Trochen Takla Kyab
+		dynasty = "Trochen"
+		birth_date = 1370.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1415.1.1 = {
+	heir = {
+		name = "Akar"
+		monarch_name = "Akar"
+		dynasty = "Trochen"
+		birth_date = 1415.1.1
+		death_date = 1470.1.1
+		claim = 95
+		ADM = 2
+		DIP = 1
+		MIL = 2
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Akar"
+		dynasty = "Trochen"
+		birth_date = 1415.1.1
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+	heir = {
+		name = "Yocha"
+		monarch_name = "Yocha"
+		dynasty = "Trochen"
+		birth_date = 1440.1.1
+		death_date = 1500.1.1
+		claim = 95
+		ADM = 1
+		DIP = 2
+		MIL = 1
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Yocha"
+		dynasty = "Trochen"
+		birth_date = 1440.1.1
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+	heir = {
+		name = "Yungdrung Gyelwa"
+		monarch_name = "Yungdrung Gyelwa"
+		dynasty = "Trochen"
+		birth_date = 1470.1.1
+		death_date = 1520.1.1
+		claim = 95
+		ADM = 2
+		DIP = 3
+		MIL = 2
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Yungdrung Gyelwa"
+		dynasty = "Trochen"
+		birth_date = 1470.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+	heir = {
+		name = "Nangso Sarma"
+		monarch_name = "Nangso Sarma"
+		dynasty = "Trochen"
+		birth_date = 1500.1.1
+		death_date = 1560.1.1
+		claim = 95
+		ADM = 1
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Nangso Sarma"
+		dynasty = "Trochen"
+		birth_date = 1500.1.1
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+
+1550.1.1 = {
+	heir = {
+		name = "Ban Dagyal"
+		monarch_name = "Ban Dagyal"
+		dynasty = "Trochen"
+		birth_date = 1550.1.1
+		death_date = 1600.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+
+1570.1.1 = {
+	monarch = {
+		name = "Ban Dagyal"
+		dynasty = "Trochen"
+		birth_date = 1550.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1590.1.1 = {
+	heir = {
+		name = "Trogyal"
+		monarch_name = "Trogyal"
+		dynasty = "Trochen"
+		birth_date = 1590.1.1
+		death_date = 1650.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 3
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Trogyal"
+		dynasty = "Trochen"
+		birth_date = 1590.1.1
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+	heir = {
+		name = "Tsili"
+		monarch_name = "Tsili"
+		dynasty = "Trochen"
+		birth_date = 1630.1.1
+		death_date = 1690.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+}
+
+1650.1.1 = {
+	monarch = {
+		name = "Tsili"
+		dynasty = "Trochen"
+		birth_date = 1630.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+	heir = {
+		name = "Trogyal Machen"
+		monarch_name = "Trogyal Machen"
+		dynasty = "Trochen"
+		birth_date = 1650.1.1
+		death_date = 1720.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Trogyal Machen"
+		dynasty = "Trochen"
+		birth_date = 1650.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+	heir = {
+		name = "Tseten Peljor"
+		monarch_name = "Tseten Peljor"
+		dynasty = "Trochen"
+		birth_date = 1680.1.1
+		death_date = 1720.1.1
+		claim = 95
+		ADM = 1
+		DIP = 1
+		MIL = 1
+	}
+}
+
+#Not mentioned in the source I pulled names from
+1720.1.1 = {
+	monarch = {
+		name = "Tseten Peljor"
+		dynasty = "Trochen"
+		birth_date = 1680.1.1
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+	heir = {
+		name = "Kunga Norbu"
+		monarch_name = "Kunga Norbu"
+		dynasty = "Trochen"
+		birth_date = 1720.1.1
+		death_date = 1790.1.1
+		claim = 95
+		ADM = 3
+		DIP = 4
+		MIL = 2
+	}
+}
+
+1745.1.1 = {
+	monarch = {
+		name = "Kunga Norbu"
+		dynasty = "Trochen"
+		birth_date = 1720.1.1
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+#Fictional
+1790.1.1 = {
+	monarch = {
+		name = "Tsewang Dorje"
+		dynasty = "Trochen"
+		birth_date = 1770.1.1
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}

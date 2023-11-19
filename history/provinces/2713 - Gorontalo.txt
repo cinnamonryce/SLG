@@ -28,3 +28,19 @@ discovered_by = ottoman
 	is_city = yes
 	trade_goods = tropical_wood
 } # Ternate Sultanate expanded
+
+1677.1.1 = {
+	owner = NED
+	controller = NED
+	add_core = NED
+	remove_core = TER
+	add_to_trade_company = NED
+	add_trade_company_investment = {
+		investment = company_depot
+		investor = NED
+	}
+	add_trade_company_investment = {
+		investment = brokers_exchange
+		investor = NED
+	}
+} # Dutch control

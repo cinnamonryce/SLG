@@ -181,11 +181,10 @@ dlc107_PGR_sprite_pack = {
 	country_trigger = {
 		OR = {
 			primary_culture = sumatran
-			primary_culture = rejang
-			primary_culture = batak
 			primary_culture = moluccan_malay
 			primary_culture = kutainese
 			culture_group = moluccan_group
+			culture_group = hesperonesian
 		}
 	}
 
@@ -217,8 +216,11 @@ ayu_base_sprite_pack = {
 		OR = {
 			primary_culture = khmer
 			primary_culture = central_thai
+			primary_culture = southern_thai
 			primary_culture = burmese
 			primary_culture = mon
+			primary_culture = tavoyan
+			primary_culture = dvaravati
 			tag = BPR
 		}
 	}
@@ -324,7 +326,7 @@ dlc107_LUA_sprite_pack = {
 			primary_culture = chin
 			primary_culture = kachari
 			primary_culture = karen
-			primary_culture = khasi
+			primary_culture = boro
 			primary_culture = kachin
 			tag = KAC
 			tag = TPR

@@ -1,0 +1,75 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = ladakhi
+religion = vajrayana
+technology_group = chinese
+capital = 5233 #Basgo
+government_rank = 1
+religious_school = kagyu_school
+historical_rival = LEH
+
+1410.1.1 = {
+	monarch = {
+		name = "Raspa Bum" #Grags pa bum, typically rendered Drakpa Bum
+		dynasty = "Namgyal"
+		birth_date = 1380.1.1
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+	heir = {
+		name = "Bhara"
+		monarch_name = "Bhara"
+		dynasty = "Namgyal"
+		birth_date = 1410.1.1
+		death_Date = 1460.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1430.1.1 = {
+	monarch = {
+		name = "Bhara"
+		dynasty = "Namgyal"
+		birth_date = 1410.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Bhagan"
+		monarch_name = "Bhagan"
+		dynasty = "Namgyal"
+		birth_date = 1430.1.1
+		death_Date = 1485.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Bhagan" #Lhachen Bhagan
+		dynasty = "Namgyal"
+		birth_date = 1430.1.1
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+	heir = {
+		name = "Tashi"
+		monarch_name = "Tashi"
+		dynasty = "Namgyal"
+		birth_date = 1460.1.1
+		death_Date = 1532.1.1
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}

@@ -3,7 +3,7 @@
 owner = NGC
 controller = NGC
 add_core = NGC
-culture = khampa
+culture = horpa
 religion = vajrayana
 capital = "Nangchen"
 trade_goods = salt

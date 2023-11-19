@@ -14,8 +14,6 @@ native_hostileness = 4
 tribal_owner = YNU
 discovered_by = aboriginal_tech
 
-
-
 discovered_by = MKS
 discovered_by = TER
 discovered_by = TID

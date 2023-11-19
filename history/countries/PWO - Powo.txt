@@ -1,27 +1,331 @@
 government = tribal
 add_government_reform = native_chieftain_system_reform
-primary_culture = khampa
+primary_culture = horpa
 religion = vajrayana
 technology_group = chinese
 capital = 5081 #Powo
 government_rank = 1
+religious_school = nyingma_school
 
-1444.11.11 = {
+1270.1.1 = {
 	monarch = {
-		name = "Kanam Depa"
+		name = "Pongen Anyak"
 		dynasty = "Yarlung"
-		adm = 1
-		dip = 1
+		birth_date = 1240.1.1
+		adm = 4
+		dip = 3
 		mil = 3
 	}
 }
 
-1796.1.1 = {
+#1st Kanam Depa
+1300.1.1 = {
 	monarch = {
-		name = "Nyima Jiebu"
+		name = "Pastal Lodro Zanpo"
 		dynasty = "Yarlung"
-		adm = 1
+		birth_date = 1270.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+#Three unmentioned Kanam Depa
+
+#Fictional
+1345.1.1 = {
+	monarch = {
+		name = "Rabgyal Palsang"
+		dynasty = "Yarlung"
+		birth_date = X.1.1
+		adm = X
+		dip = X
+		mil = X
+	}
+}
+
+#Fictional
+1360.1.1 = {
+	monarch = {
+		name = "Padma Wangchuck"
+		dynasty = "Yarlung"
+		birth_date = X.1.1
+		adm = X
+		dip = X
+		mil = X
+	}
+}
+
+#Fictional
+1370.1.1 = {
+	monarch = {
+		name = "Lhawang Gyatso"
+		dynasty = "Yarlung"
+		birth_date = X.1.1
+		adm = X
+		dip = X
+		mil = X
+	}
+}
+
+#5th Kanam Depa
+1380.1.1 = {
+	monarch = {
+		name = "Gyarkhyung Bum"
+		dynasty = "Yarlung"
+		birth_date = 1350.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Wangden Sonam Drakpa"
+		monarch_name = "Wangden Sonam Drakpa"
+		dynasty = "Yarlung"
+		birth_date = 1380.1.1
+		death_date = 1430.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 3
+	}
+}
+
+#6th Kanam Depa
+1400.1.1 = {
+	monarch = {
+		name = "Wangden Sonam Drakpa"
+		dynasty = "Yarlung"
+		birth_date = 1380.1.1
+		adm = 2
 		dip = 2
 		mil = 3
+	}
+	heir = {
+		name = "Panchen Gari"
+		monarch_name = "Panchen Gari"
+		dynasty = "Yarlung"
+		birth_date = 1400.1.1
+		death_date = 1450.1.1
+		claim = 95
+		ADM = 2
+		DIP = 3
+		MIL = 2
+	}
+}
+
+#7th Kanam Depa
+1430.1.1 = {
+	monarch = {
+		name = "Panchen Gari"
+		dynasty = "Yarlung"
+		birth_date = 1400.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+#Three undocumented Gyalpo after Panchen Gari
+
+#Fictional
+1460.1.1 = {
+	monarch = {
+		name = "Ngawang Gyaltsen"
+		dynasty = "Yarlung"
+		birth_date = 1430.1.1
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+#Fictional
+1480.1.1 = {
+	monarch = {
+		name = "Tobgye Namgyal"
+		dynasty = "Yarlung"
+		birth_date = 1450.1.1
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+#Fictional
+1500.1.1 = {
+	monarch = {
+		name = "Tsewang Dorje"
+		dynasty = "Yarlung"
+		birth_date = 1450.1.1
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+#11th Kanam Depa
+1530.1.1 = {
+	monarch = {
+		name = "Sonam Wozer"
+		dynasty = "Yarlung"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+#Records interrupted until Mongol/Tibetan invasion - 18 missing rulers
+
+#Fictional
+1550.1.1 = {
+	monarch = {
+		name = "Yungdrung Lingpa"
+		dynasty = "Yarlung"
+		birth_date = X.1.1
+		adm = X
+		dip = X
+		mil = X
+	}
+}
+
+#Fictional
+1555.1.1 = {
+	monarch = {
+		name = "Tamdin Wangmo"
+		dynasty = "Yarlung"
+		birth_date = X.1.1
+		adm = X
+		dip = X
+		mil = X
+	}
+}
+
+#Fictional
+1570.1.1 = {
+	monarch = {
+		name = "Ngawang Jungney"
+		dynasty = "Yarlung"
+		birth_date = X.1.1
+		adm = X
+		dip = X
+		mil = X
+	}
+}
+
+#Fictional
+1575.1.1 = {
+	monarch = {
+		name = "Lhawang Gyatso"
+		dynasty = "Yarlung"
+		birth_date = X.1.1
+		adm = X
+		dip = X
+		mil = X
+	}
+}
+
+#Fictional
+1580.1.1 = {
+	monarch = {
+		name = "Topden Dorje"
+		dynasty = "Yarlung"
+		birth_date = X.1.1
+		adm = X
+		dip = X
+		mil = X
+	}
+}
+
+#Fictional
+1600.1.1 = {
+	monarch = {
+		name = "Yangtso Gurung"
+		dynasty = "Yarlung"
+		birth_date = X.1.1
+		adm = X
+		dip = X
+		mil = X
+	}
+}
+
+#Fictional
+1615.1.1 = {
+	monarch = {
+		name = "Pemba Sangpo"
+		dynasty = "Yarlung"
+		birth_date = X.1.1
+		adm = X
+		dip = X
+		mil = X
+	}
+}
+
+#Fictional
+1630.1.1 = {
+	monarch = {
+		name = "Tsewang Drakpa"
+		dynasty = "Yarlung"
+		birth_date = X.1.1
+		adm = X
+		dip = X
+		mil = X
+	}
+}
+
+#20th Kanam Depa
+1635.1.1 = {
+	monarch = {
+		name = "Pongan"
+		dynasty = "Yarlung"
+		birth_date = 1615.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+#21st Kanam Depa
+1675.1.1 = {
+	monarch = {
+		name = "Nyima Gyalpo"
+		dynasty = "Yarlung"
+		birth_date = 1635.1.1
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+
+#Fictional
+1710.1.1 = {
+	monarch = {
+		name = "Rinchen Dorje"
+		dynasty = "Yarlung"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1770.1.1 = {
+	monarch = {
+		name = "Nyima Gyalpo II" #Or Nyima Jiebu
+		dynasty = "Yarlung"
+		birth_date = 1750.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+#Nyima Jiebu dies without an heir in 1821
+1821.1.1 = {
+	monarch = {
+		name = "Chogyal Wangchuck Raten"
+		dynasty = "Yarlung"
+		adm = 1
+		dip = 1
+		mil = 0
 	}
 }
