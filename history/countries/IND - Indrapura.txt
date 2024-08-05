@@ -5,8 +5,10 @@ religion = mahayana
 technology_group = malay_group
 capital = 4818	# Inderapura
 fixed_capital = 4818
-historical_friend = PGR
 government_rank = 1
+religious_school = esoteric_school
+
+historical_friend = PGR
 
 1340.1.1 = {
 	monarch = {

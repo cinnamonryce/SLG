@@ -3,8 +3,10 @@ add_government_reform = plutocratic_reform
 technology_group = malay_group
 religion = mahayana
 primary_culture = malayan
-capital = 594	# Pattani
-fixed_capital = 594 # Cannot move capital away from this province & no power cost to move to it
+capital = 594 #Pattani
+fixed_capital = 594
+religious_school = esoteric_school
+
 historical_rival = KEL
 
 1403.1.1 = {

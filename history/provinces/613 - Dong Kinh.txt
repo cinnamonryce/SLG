@@ -2,7 +2,7 @@
 
 owner = DAI
 controller = DAI
-culture = vietnamese
+culture = confucianism
 religion = mahayana
 capital = "Dong Kinh"
 trade_goods = chinaware

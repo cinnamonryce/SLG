@@ -27,13 +27,13 @@ discovered_by = ottoman
 }
 
 1535.1.1 = { discovered_by = POR }
-
 1564.1.1 = {
 	owner = TAU
 	controller = TAU
 	add_core = TAU
 }
-1593.1.1 = {	owner = AYU
+1593.1.1 = {
+	owner = AYU
 	controller = AYU
 }
 1745.11.1 = { owner = AYU controller = AYU }

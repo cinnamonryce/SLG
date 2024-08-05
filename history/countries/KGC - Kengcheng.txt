@@ -2,8 +2,9 @@ government = monarchy
 add_government_reform = mandala_reform
 technology_group = indochinese
 religion = buddhism
-primary_culture = northern_thai
+primary_culture = lue
 capital = 2381	# Kengcheng
+religious_school = southern_esoteric_school
 
 change_estate_land_share = {
 	estate = estate_burghers

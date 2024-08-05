@@ -5,6 +5,8 @@ religion = buddhism
 primary_culture = shan
 capital = 2400
 fixed_capital = 2400
+religious_school = southern_esoteric_school
+
 historical_rival = YGW
 
 change_estate_land_share = {

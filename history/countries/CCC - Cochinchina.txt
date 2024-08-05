@@ -5,6 +5,7 @@ religion = buddhism
 technology_group = indochinese
 capital = 4863 # Mort Chrouk
 government_rank = 1
+religious_school = southern_esoteric_school
 
 1707.1.1 = {
 	monarch = {

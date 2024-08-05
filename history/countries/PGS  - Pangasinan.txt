@@ -6,6 +6,7 @@ capital = 2698 #Pangasinan
 fixed_capital = 2698
 religion = mahayana
 government_rank = 2
+religious_school = esoteric_school
 
 1409.1.1 = {
 	monarch = {

@@ -5,13 +5,14 @@ add_accepted_culture = dvaravati
 religion = buddhism
 technology_group = indochinese
 capital = 600 # Ayutthaya
+religious_school = nikaya_school
+
 historical_rival = KHM
 historical_rival = LNA
 historical_friend = PAH
 
-change_estate_land_share = {
-	estate = estate_nobility
-	share = 30
+1380.1.1 = {
+	set_estate_privilege = estate_nobles_vassals_in_court
 }
 
 1395.1.1 = {
@@ -86,6 +87,10 @@ change_estate_land_share = {
 		dip = 3
 		mil = 3
 	}
+}
+
+1438.1.1 = {
+	set_estate_privilege = estate_nobles_powerful_northern_nobility
 }
 
 1448.1.1 = {
@@ -403,6 +408,8 @@ change_estate_land_share = {
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = bold_fighter_personality
 	add_ruler_personality = embezzler_personality #Arguable
+	remove_estate_privilege = estate_nobles_vassals_in_court
+	remove_estate_privilege = estate_powerful_northern_nobility
 }
 
 1569.11.1 = {

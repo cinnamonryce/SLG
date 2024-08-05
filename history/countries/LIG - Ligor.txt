@@ -6,8 +6,9 @@ religion = buddhism
 technology_group = malay_group
 capital = 593	# Nakhon Si Thammarat
 fixed_capital = 593
-historical_friend = PAH
+religious_school = nikaya_school
 
+historical_friend = PAH
 
 1230.1.1 = {
 	monarch = {

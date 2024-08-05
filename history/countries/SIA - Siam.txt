@@ -6,6 +6,8 @@ add_accepted_culture = lao
 religion = buddhism
 technology_group = indochinese
 capital = 4656 #Bangkok
+religious_school = nikaya_school
+
 historical_rival = TAU
 historical_rival = AVA
 historical_rival = BPR

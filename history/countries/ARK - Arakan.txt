@@ -4,8 +4,9 @@ primary_culture = arakanese
 religion = buddhism
 capital = 579	# Mrauk U
 technology_group = indochinese
-historical_rival = BNG
+religious_school = nikaya_school
 
+historical_rival = BNG
 
 1397.1.1 = {
 	monarch = {

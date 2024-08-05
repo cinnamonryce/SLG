@@ -7627,6 +7627,22 @@ thai_group = {
 			Chariya Chailai Prida Amara Kultida Nim Rada Sairung Thanaphon Ruethai Yupin Nittaya Jutamas Prani
 		}
 	}
+	lue = {
+		primary = SSP
+		dynasty_names = { 
+			Hsi Tai Mao Maw Mangrai Saopha "Mong Mai" "Hkun Hlo" "Hkun Hpa" Mya Siam Sai Khun "Mong Tai" "Sa"
+		}
+		male_names = {
+			"Sao Hsi Hpa" "Sao Sit Pan Tu" "Sao Ai Awn" "Sao Hsam" "Yi Hkam Hka" "Sao Hsam" "Sao Hkam Hmu" 
+			"Sao Lak" "Sao Mong Hka" "Sao Hkam Tao" "Sao Mong Hkak" "Sao On" "Sao In Hkam" "Sao Awk" "Sao Mong Saik" 
+			"Sao Hsam Hpi" "Maung Nyo" "Sao Mong Sin" "Sao Mong Hsam" "Sao Kawng Tai" "Sao Maha Hkanan" "Sao Long Hpa"
+			"Sao Hkun Mwe" "Naw Hkam Leng" "Hkun Un" "Hkun Yawt" "Sao Hke" "Sao Hswe Kya" "Hkun Hpe" "Hkun Daw" "Hkun Ywe"
+			"Saw Naw Mong" "Sao Hswe Cheng" "Sao Aung Ba" "Hkun Law" "Hkun Kya" "Hkun Lek" "Sao Hkun Sang" "Hsai Kyaw"
+		}
+		female_names = {
+			"Nang Han Lung" "Hearn Hkam" "Sao Hkin Htaung" "Hnan Hsi Wan" "Dara" "Mya" "Chiraprapha" "Wisutthithewi" "Yasuntarathewi"
+		}
+	}
 	ahom = {
 		primary = ASS
 		dynasty_names = { 
@@ -7771,6 +7787,32 @@ southeastasian_group = {
 			Mujij Agu Dawu Dawa Li Lun Pen Neng Nu "Ah Yong"
 		}
 	}
+	kuy = {
+		dynasty_names = { 
+			"R'Com" K'Sor Siu M'Ho M'Ha Bru "Co Tu" Chau
+			"Ta Oi" Brau Co "H'Bo" Hre "Ro Mam" H'Hen
+			"Ba Na" "Cho Ro" "X'Tieng" "Chu Ru" Ngan Thao
+			H'Yua Y'Khiem Y'Siu Nay Puih R'Chom Ro Nie
+			"Buon Yah" Bya Edan N'Kam K'Por K'Buor Hra
+			Lemo Ro'O Eya B'Dap "Buon Dap" H'Drue E'Doul
+			Edk B'Krong "Buon Krong" K'Man H'Mok K'Nil Ec
+			M'Lo K'Tla Alio K'Doh M'Drang A'Drong K'Pa
+			H'Bia M'Tao H'Drah H'Yam "H'Gar"
+		}
+		male_names = {
+			Choloi Trul Anur Bom Djua Nhong Blong Blet Ji
+			Y At Tu Nhot Luynh Hieo Kep Nhon Bring Dai Guh
+			Nhuak Bo Choi Bam Bham Dieng Dera Dacat Hlong
+			Monah Ayun Ni Thu San Mah Tuan Kok Mal De Ramya
+			Ayna Poka Jut Hwing Ut Mlo Bih Aloo Du Eban Ha
+			Blok Thong
+		}
+		female_names = {
+			Nie Moan Kadam Kaba Adrong Ksor Thi Chin Cham Phiang
+			Pheng Khap Hmih Ea Suryah Hjan Kpa Yah "Ya Wam" Ba
+			Yang Kam Rut Na Ewa
+		}
+	}
 	dvaravati = {
 		primary = LVO
 		dynasty_names = { 
@@ -7811,6 +7853,20 @@ southeastasian_group = {
 			Chariya Chailai Prida Amara Kultida Nim Rada Sairung Thanaphon Ruethai Yupin Nittaya Jutamas Prani
 		}
 	}
+	wa = {
+		dynasty_names = { 
+			Baraoke Aishi Banhong Dazhai Awa Masan Awalai Damangnuo Xiyun Wa Aveloy Va Ravia
+			Ave Avo Lavia Vo Rawva Kawa Ka Lajia Benren Kela Kala Wama Bujiao Bulang Parauk
+			Kokang Palaung Siwa Tax Vingngun
+		}
+		male_names = {
+			Mujij Agu Dawu Dawa Li Lun Pen Neng Nu "Ah Yong" Mahasang "Ma Ha" "Aik Nyunt" "Sai Pao Nup" "Htun Lu" 
+			"Nyi Palote" "La Bo" "Ni Lai" Ramang "Hsan Pon" "Log Pang" 
+		}
+		female_names = {
+			Mujij Agu Dawu Dawa Li Lun Pen Neng Nu "Ah Yong"
+		}
+	}
 	tavoyan = {
 		primary = TNS
 		dynasty_names = {
@@ -7829,6 +7885,32 @@ southeastasian_group = {
 			"Daw" "Ta Lat" "Minya Dewi" "Hsanda Min Hla" "Tala Kamu" "May Hnin Kaythaya "
 			"Thuddhamaya" "Mwei Thin" "May Kyaw" "Mi Baik"
 		}	
+	}
+	nyah_kur = {
+		dynasty_names = { 
+			"R'Com" K'Sor Siu M'Ho M'Ha Bru "Co Tu" Chau
+			"Ta Oi" Brau Co "H'Bo" Hre "Ro Mam" H'Hen
+			"Ba Na" "Cho Ro" "X'Tieng" "Chu Ru" Ngan Thao
+			H'Yua Y'Khiem Y'Siu Nay Puih R'Chom Ro Nie
+			"Buon Yah" Bya Edan N'Kam K'Por K'Buor Hra
+			Lemo Ro'O Eya B'Dap "Buon Dap" H'Drue E'Doul
+			Edk B'Krong "Buon Krong" K'Man H'Mok K'Nil Ec
+			M'Lo K'Tla Alio K'Doh M'Drang A'Drong K'Pa
+			H'Bia M'Tao H'Drah H'Yam "H'Gar"
+		}
+		male_names = {
+			Choloi Trul Anur Bom Djua Nhong Blong Blet Ji
+			Y At Tu Nhot Luynh Hieo Kep Nhon Bring Dai Guh
+			Nhuak Bo Choi Bam Bham Dieng Dera Dacat Hlong
+			Monah Ayun Ni Thu San Mah Tuan Kok Mal De Ramya
+			Ayna Poka Jut Hwing Ut Mlo Bih Aloo Du Eban Ha
+			Blok Thong
+		}
+		female_names = {
+			Nie Moan Kadam Kaba Adrong Ksor Thi Chin Cham Phiang
+			Pheng Khap Hmih Ea Suryah Hjan Kpa Yah "Ya Wam" Ba
+			Yang Kam Rut Na Ewa
+		}
 	}
 }
 

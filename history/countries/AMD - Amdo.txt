@@ -5,6 +5,7 @@ religion = vajrayana
 technology_group = chinese
 capital = 706
 government_rank = 1
+religious_school = gelug_school
 
 1400.1.1 = {
 	monarch = {

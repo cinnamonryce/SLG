@@ -3,7 +3,7 @@
 owner = SKK
 controller = SKK
 culture = bhutanese
-religion = animism
+religion = bon
 capital = "Chumbi"
 trade_goods = wool
 hre = no

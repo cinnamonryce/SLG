@@ -5,44 +5,114 @@ religion = buddhism
 primary_culture = shan
 capital = 588
 fixed_capital = 588
-government_rank = 1
+religious_school = southern_esoteric_school
 
 change_estate_land_share = {
 	estate = estate_burghers
 	share = -5
 }
 
-# Fictional descendants of king Kruea (Krüa) of Mong Nai (1320s)
+#Mangrai Dynasty
 
-1430.1.1 = {
+1404.1.1 = {
 	monarch = {
-		name = "Sao Ai"
+		name = "Ngoen Haw Hpa"
 		dynasty = "Mangrai"
+		birth_date = 1380.1.1
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+	heir = {
+		name = "Ngoen Hsawng Hpa"
+		monarch_name = "Ngoen Hswang Hpa"
+		dynasty = "Mangrai"
+		birth_date = 1400.1.1
+		death_Date = 1457.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1434.1.1 = {
+	monarch = {
+		name = "Ngoen Hsawng Hpa"
+		dynasty = "Mangrai"
+		birth_date = 1400.1.1
 		ADM = 2
 		DIP = 2
 		MIL = 1
 	}
+	heir = {
+		name = "Ngoen Pawng Hpa"
+		monarch_name = "Ngoen Pawng Hpa"
+		dynasty = "Mangrai"
+		birth_date = 1420.1.1
+		death_Date = 1472.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
 }
 
-1460.1.1 = {
+
+1457.1.1 = {
 	monarch = {
-		name = "Sao Hseng Hpa"
+		name = "Ngoen Pawng Hpa"
 		dynasty = "Mangrai"
+		birth_date = 1420.1.1
 		ADM = 1
 		DIP = 1
-		MIL = 0
+		MIL = 1
+	}
+	heir = {
+		name = "Ngoen Hawt Hpa"
+		monarch_name = "Ngoen Hawt Hpa"
+		dynasty = "Mangrai"
+		birth_date = 1435.1.1
+		death_Date = 1492.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 1
 	}
 }
 
 #In 1462-1463 Mong Nai was invaded by Lan Na. Mass deportations but no annexation
 
-1480.1.1 = {
+1472.1.1 = {
 	monarch = {
-		name = "Sao Hkun Hpa"
+		name = "Ngoen Hawt Hpa"
 		dynasty = "Mangrai"
+		birth_date = 1435.1.1
+		ADM = 1
+		DIP = 2
+		MIL = 1
+	}
+	heir = {
+		name = "Ngoen Lawt Hpa"
+		monarch_name = "Ngoen Lawt Hpa"
+		dynasty = "Mangrai"
+		birth_date = 1470.1.1
+		death_Date = 1516.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1492.1.1 = {
+	monarch = {
+		name = "Ngoen Lawt Hpa"
+		dynasty = "Mangrai"
+		birth_date = 1470.1.1
 		ADM = 1
 		DIP = 1
-		MIL = 2
+		MIL = 1
 	}
 }
 

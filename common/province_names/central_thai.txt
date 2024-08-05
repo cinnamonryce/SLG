@@ -108,35 +108,3 @@
 5129 = "Samaburi"
 5130 = "Mueang Mia" #From Myaungmya, alternatively Mueang Male
 5131 = "Ramri"
-
-
-#American Provinces
-792 = { "Kopi" "Kopi" }
-855 = { "Na Saen" "Na Saen" }
-859 = { "Noratha" "Noratha" }
-863 = { "Si Chaiya" "Si Chaiya" }
-864 = { "Wiraphon" "Wiraphon" }
-868 = { "Chiang Dai" "Chiang Dai" }
-869 = { "Phosop" "Phosop" }
-870 = { "Si Mueang Yai" "Mueang Yai" }
-871 = { "Phuwiang" "Phuwiang" } 
-873 = { "Taliat" "Taliat" }
-972 = { "Nuchat" "Nuchat" }
-975 = { "Lakhon Thani" "Lakhon Thani" }
-976 = { "Wiang" "Wiang" }
-977 = { "Ban Son" "Ban Son" }
-978 = { "Samut Nakhon" "Samut Nakhon" }
-979 = { "Ko Silok" "Silokburi" }
-2021 = { "Phuthong" "Phuthong" }
-2022 = { "Ko Phi Phi" "Mueang Phi Phi" }
-2476 = { "Chethakhon" "Chethakhon" }
-2477 = { "Natwi" "Natwi" }
-2479 = { "Monkon" "Monkon" }
-2481 = { "Thap" "Thap" }
-2484 = { "Si Wisaen" "Si Wisaen" }
-2498 = { "Rayong Noi" "Rayong" }
-2609 = { "Na Fai" "Na Fai" }
-2612 = { "Nonsi" "Nonsi" }
-2613 = { "Ko Song" "Mueang Song" }
-2618 = { "Laem Sing" "Laem Sing" }
-2862 = { "Prasoet" "Ban Prasoet" }

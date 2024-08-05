@@ -5,6 +5,8 @@ religion = buddhism
 technology_group = indochinese
 capital = 586	# Pegu
 fixed_capital = 586
+religious_school = nikaya_school
+
 historical_rival = AVA
 
 change_estate_land_share = {

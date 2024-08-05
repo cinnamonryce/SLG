@@ -3,7 +3,7 @@
 owner = PAO
 controller = PAO
 culture = bhutanese
-religion = animism
+religion = bon
 capital = "Paro"
 trade_goods = wool
 hre = no

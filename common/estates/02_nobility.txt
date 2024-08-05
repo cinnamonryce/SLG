@@ -598,6 +598,8 @@ estate_nobles = {
 		estate_nobles_enlist_the_mamluks
 		#NEW
 		estate_native_chieftain_system
+		estate_nobles_vassals_in_court
+		estate_nobles_powerful_northern_nobility
 	}
 
 	agendas = {

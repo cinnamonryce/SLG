@@ -6,6 +6,7 @@ add_accepted_culture = chin
 religion = buddhism
 technology_group = indian
 capital = 5161 #Sajek
+religious_school = southern_esoteric_school
 
 1100.1.1 = {
 	monarch = {

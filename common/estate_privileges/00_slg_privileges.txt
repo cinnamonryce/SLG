@@ -2,6 +2,7 @@
 estate_native_chieftain_system = {
 	icon = privilege_native_chieftain_system
 	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	loyalty = 0.05
 	influence = 0.2
 	is_valid = {
@@ -57,6 +58,132 @@ estate_native_chieftain_system = {
 		modifier = {
 			factor = 0
 			is_absolutism_active = yes
+		}
+	}
+}
+
+estate_nobles_vassals_in_court = {
+	icon = privilege_decentralized
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	loyalty = 0.1
+	influence = 0.1
+	is_valid = {
+		OR = {
+			has_estate_privilege = estate_nobles_vassals_in_court
+			AND = {
+				tag = AYU
+				NOT = { has_estate_privilege = estate_nobles_strong_duchies }
+				NOT = { has_estate_privilege = estate_nobles_supremacy_over_crown }
+			}
+		}
+		any_subject_country = {
+			OR = {
+				is_subject_of_type = appanage
+				is_subject_of_type = vassal
+				is_subject_of_type = march
+				is_subject_of_type = client_march
+				is_subject_of_type = client_vassal
+				is_subject_of_type = personal_union
+			}
+			capital_scope = { superregion = east_indies_superregion }
+			OR = {
+				culture_group = thai_group
+				culture_group = southeastasian_group
+			}
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = estate_nobles_strong_duchies_trigger_tooltip
+			calc_true_if = {
+				amount = 2
+				all_subject_country = {
+					OR = {
+						is_subject_of_type = appanage
+						is_subject_of_type = vassal
+						is_subject_of_type = march
+						is_subject_of_type = client_march
+						is_subject_of_type = client_vassal
+						is_subject_of_type = personal_union
+					}
+				}
+			}
+		}
+		NOT = { has_estate_privilege = estate_eunuchs_delegate_subject_diplomacy_privilege }
+	}
+	penalties = {
+		diplomatic_annexation_cost = 1
+	}
+	benefits = {
+		reduced_liberty_desire_on_same_continent = 10
+	}
+	mechanics = {
+		can_give_agendas_without_interaction
+	}
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 3
+			calc_true_if = {
+				amount = 1
+				all_subject_country = {
+					OR = {
+						is_march = yes
+						is_vassal = yes
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			calc_true_if = {
+				amount = 2
+				all_subject_country = {
+					OR = {
+						is_march = yes
+						is_vassal = yes
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				is_absolutism_active = yes
+				has_estate_privilege = estate_nobles_powerful_northern_nobility
+			}
+		}
+	}
+}
+
+estate_nobles_powerful_northern_nobility = {
+	icon = privilege_promote_purbias
+	land_share = 20
+	max_absolutism = -20
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 4 } }
+	loyalty = -0.1
+	influence = 0.2
+	is_valid = {
+		OR = {
+			tag = AYU
+			has_estate_privilege = estate_nobles_powerful_northern_nobility
+		}
+	}
+	can_revoke = {
+		always = no
+	}
+	penalties = {
+		reduced_liberty_desire = -15
+	}
+	benefits = {
+		army_tradition_decay = -0.005
+		leader_cost = -0.2
+		nobles_privilege_slots = 1
+	}
+	ai_will_do = {
+		modifier = {
+			factor = 0
 		}
 	}
 }

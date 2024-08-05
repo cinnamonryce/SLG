@@ -31,12 +31,12 @@ discovered_by = ottoman
 	owner = TAU
 	controller = TAU
 }
-1599.1.1 = { unrest = 4 }
+1599.1.1 = { controller = AYU }
+1600.1.1 = { controller = TAU }
 1603.1.1 = { #Portuguese governor declares independence
 	owner = POR
 	controller = POR
 	add_core = POR
-	unrest = 0
 }
 1613.1.1 = { #Reannexed by Taungu
 	owner = TAU

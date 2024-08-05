@@ -4,6 +4,8 @@
 2165 = { "Mong Men" "Mong Men" } #Pu'er
 2166 = { "Mong Mao" "Mong Mao" }
 2371 = { "Mong La" "Mong La" }
+4404 = { "Hkamti" "Hkamti" }
+4405 = { "Waing Hso" "Waing Hso" }
 
 4966 = { "Mong Hsai" "Mong Hsai" }
 

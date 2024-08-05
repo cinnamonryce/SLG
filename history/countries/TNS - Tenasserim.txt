@@ -4,6 +4,7 @@ primary_culture = tavoyan
 religion = buddhism
 technology_group = indochinese
 capital = 591 #Tavoy
+religious_school = nikaya_school
 
 change_estate_land_share = {
 	estate = estate_burghers

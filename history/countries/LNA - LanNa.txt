@@ -6,6 +6,7 @@ primary_culture = northern_thai
 capital = 589 # Chiang Mai
 historical_friend = LXA
 historical_friend = SUK
+religious_school = nikaya_school
 
 change_estate_land_share = {
 	estate = estate_burghers

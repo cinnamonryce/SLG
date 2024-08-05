@@ -5,6 +5,7 @@ primary_culture = lao
 religion = buddhism
 capital = 615	# Luang Prabang (Xieng Tong)
 historical_friend = LNA
+religious_school = southern_esoteric_school
 
 change_estate_land_share = {
 	estate = estate_burghers

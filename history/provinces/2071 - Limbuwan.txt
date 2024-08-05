@@ -3,7 +3,7 @@
 owner = LWA
 controller = LWA
 culture = nepali
-religion = animism
+religion = bon
 capital = "Phedap"
 trade_goods = wool
 hre = no

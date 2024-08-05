@@ -1,0 +1,48 @@
+#Khampat
+
+owner = KAL
+controller = KAL
+culture = chin
+religion = animism
+capital = "Khampat"
+trade_goods = grain
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = KAL
+
+discovered_by = chinese
+discovered_by = indochinese
+discovered_by = malay_group
+discovered_by = indian
+
+1467.1.1 = {
+	owner = MLB
+	controller = MLB
+	add_core = MLB
+}
+1732.1.1 = {
+	unrest = 5
+}
+1735.1.1 = { unrest = 0 }
+1758.1.1 = {
+	owner = TAU
+	controller = TAU
+	add_core = TAU
+}
+1760.1.1 = { discovered_by = GBR }
+1769.1.1 = { unrest = 6 }
+1773.1.1 = { unrest = 0 }
+1782.1.1 = {
+	owner = MLB
+	controller = MLB
+	add_core = MLB
+	remove_core = TAU
+}
+1819.1.1 = {
+	owner = TAU
+	controller = TAU
+	add_core = TAU
+}

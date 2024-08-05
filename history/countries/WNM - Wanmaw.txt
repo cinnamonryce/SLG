@@ -6,8 +6,121 @@ religion = buddhism
 primary_culture = shan
 capital = 4951 #Wanmaw
 fixed_capital = 4951
+religious_school = southern_esoteric_school
 
 change_estate_land_share = {
 	estate = estate_burghers
 	share = -5
+}
+
+#Saophas of Wanmaw
+
+1376.1.1 = {
+	monarch = {
+		name = "Hso Hsen Hpa"
+		dynasty = "Wanmaw"
+		birth_date = 1350.1.1
+		ADM = 2
+		DIP = 1
+		MIL = 1
+	}
+	heir = {
+		name = "Hso Kiao Hpa"
+		monarch_name = "Hso Kiao Hpa"
+		dynasty = "Wanmaw"
+		birth_date = 1375.1.1
+		death_Date = 1428.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Hso Kiao Hpa"
+		dynasty = "Wanmaw"
+		birth_date = 1375.1.1
+		ADM = 1
+		DIP = 2
+		MIL = 1
+	}
+	heir = {
+		name = "Hso Min Hpa"
+		monarch_name = "Hso Min Hpa"
+		dynasty = "Wanmaw"
+		birth_date = 1404.1.1
+		death_Date = 1470.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1428.1.1 = {
+	monarch = {
+		name = "Hso Min Hpa"
+		dynasty = "Wanmaw"
+		birth_date = 1404.1.1
+		ADM = 2
+		DIP = 3
+		MIL = 2
+	}
+	heir = {
+		name = "Hso Naw Hpa"
+		monarch_name = "Hso Naw Hpa"
+		dynasty = "Wanmaw"
+		birth_date = 1428.1.1
+		death_Date = 1492.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Hso Naw Hpa"
+		dynasty = "Wanmaw"
+		birth_date = 1428.1.1
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+	heir = {
+		name = "Hso Won Hpa"
+		monarch_name = "Hso Won Hpa"
+		dynasty = "Wanmaw"
+		birth_date = 1460.1.1
+		death_Date = 1506.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1492.1.1 = {
+	monarch = {
+		name = "Hso Won Hpa"
+		dynasty = "Wanmaw"
+		birth_date = 1460.1.1
+		ADM = 1
+		DIP = 2
+		MIL = 1
+	}
+	heir = {
+		name = "Hso Kyaw Hpa"
+		monarch_name = "Hso Kyaw Hpa"
+		dynasty = "Wanmaw"
+		birth_date = 1465.1.1
+		death_Date = 1517.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 1
+	}
 }

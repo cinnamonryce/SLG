@@ -6,6 +6,7 @@ primary_culture = shan
 add_accepted_culture = chin
 capital = 580	# Kale
 government_rank = 1
+religious_school = southern_esoteric_school
 
 change_estate_land_share = {
 	estate = estate_burghers

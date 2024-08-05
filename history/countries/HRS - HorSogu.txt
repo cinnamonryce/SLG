@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = native_chieftain_system_reform
 primary_culture = horpa
-religion = animism
+religion = bon
 technology_group = chinese
 capital = 5213 #Sog
 government_rank = 1

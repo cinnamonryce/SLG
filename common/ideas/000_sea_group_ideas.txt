@@ -39,7 +39,7 @@ nusa_tenggara_ideas = {
 		tolerance_heathen = 2
 	}
 	nt_gateway_to_australia = {
-		global_own_trade_power = 0.15
+		global_own_trade_power = 0.1
 	}
 	nt_foreign_migrants = {
 		global_tax_modifier = 0.1
@@ -277,7 +277,10 @@ new_shan_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = shan
+		OR = {
+			primary_culture = shan
+			primary_culture = lue
+		}
 		NOT = {
 			tag = SST
 			tag = MMA

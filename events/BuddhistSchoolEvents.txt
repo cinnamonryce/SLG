@@ -1,0 +1,491 @@
+######################################################
+# Buddhist schools events
+Copied from Islam events						 #
+######################################################
+
+namespace = buddhist_school_events
+namespace = buddhist_school_opinion_events
+
+#Change opinion between schools
+
+#Increasing to like
+country_event = {
+	id = buddhist_school_opinion_events.1
+	title = buddhist_school_opinion_events.1.t
+	desc = buddhist_school_opinion_events.1.d
+	picture = BUDDHISM_GOOD_eventPicture
+	
+	trigger = {
+		has_dlc = "Cradle of Civilization"
+		religion_group = eastern
+		has_religious_school = yes
+		num_of_cities = 5
+		any_country = {
+			has_religious_school = yes
+			NOT = { has_religious_school_of = ROOT }
+			school_opinion = { #0 or more
+				who = ROOT
+				opinion = 0
+			}
+			NOT = {
+				school_opinion = { #Below 1
+					who = ROOT
+					opinion = 1
+				}
+			}
+			trust = {
+				who = ROOT
+				value = 70
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			random_country = {
+				limit = {
+					has_religious_school = yes
+					NOT = { has_religious_school_of = ROOT }
+					school_opinion = { #0 or more
+						who = ROOT
+						opinion = 0
+					}
+					NOT = {
+						school_opinion = { #Below 1
+							who = ROOT
+							opinion = 1
+						}
+					}
+					trust = {
+						who = ROOT
+						value = 70
+					}
+				}
+				save_event_target_as = school_opinion_increase_country_b
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 360
+	}
+	
+	option = {
+		name = buddhist_school_opinion_events.1.a #
+		event_target:school_opinion_increase_country_b = {
+			set_school_opinion = {
+				who = ROOT
+				opinion = 1
+			}
+		}
+	}
+}
+
+#Increasing to neutral
+country_event = {
+	id = buddhist_school_opinion_events.2
+	title = buddhist_school_opinion_events.2.t
+	desc = buddhist_school_opinion_events.2.d
+	picture = BUDDHISM_GOOD_eventPicture
+	
+	trigger = {
+		has_dlc = "Cradle of Civilization"
+		religion_group = eastern
+		has_religious_school = yes
+		any_known_country = {
+			has_religious_school = yes
+			NOT = { has_religious_school_of = ROOT }
+			NOT = {
+				school_opinion = {
+					who = ROOT
+					opinion = 0
+				}
+			}
+			NOT = { war_with = ROOT }
+			NOT = { truce_with = ROOT }
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			random_known_country = {
+				limit = {
+					has_religious_school = yes
+					NOT = { has_religious_school_of = ROOT }
+					NOT = {
+						school_opinion = {
+							who = ROOT
+							opinion = 0
+						}
+					}
+					NOT = { war_with = ROOT }
+					NOT = { truce_with = ROOT }
+				}
+				save_event_target_as = school_opinion_increase_country_b
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 700
+	}
+	
+	option = {
+		name = buddhist_school_opinion_events.2.a #
+		event_target:school_opinion_increase_country_b = {
+			set_school_opinion = {
+				who = ROOT
+				opinion = 0
+			}
+		}
+	}
+}
+
+#Decreasing opinion
+country_event = {
+	id = buddhist_school_opinion_events.3
+	title = buddhist_school_opinion_events.3.t
+	desc = buddhist_school_opinion_events.3.d
+	picture = BUDDHISM_BAD_eventPicture
+	
+	trigger = {
+		has_dlc = "Cradle of Civilization"
+		religion_group = eastern
+		has_religious_school = yes
+		any_country = {
+			has_religious_school = yes
+			war_with = ROOT
+			NOT = { has_religious_school_of = ROOT }
+			school_opinion = {
+				who = ROOT
+				opinion = 0
+			}
+			defensive_war_with = ROOT
+			is_in_war = {
+				defender_leader = THIS
+				attacker_leader = ROOT
+				duration = 1095
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			random_country = {
+				limit = {
+					has_religious_school = yes
+					war_with = ROOT
+					NOT = { has_religious_school_of = ROOT }
+					school_opinion = {
+						who = ROOT
+						opinion = 0
+					}
+					defensive_war_with = ROOT
+					is_in_war = {
+						defender_leader = THIS
+						attacker_leader = ROOT
+						duration = 1095
+					}
+				}
+				save_event_target_as = school_opinion_decrease_country_b
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 30
+		modifier = {
+			factor = 0.75
+			any_country = {
+				has_religious_school = yes
+				total_development = 50
+				num_of_cities = 5
+				war_with = ROOT
+				NOT = { has_religious_school_of = ROOT }
+				school_opinion = {
+					who = ROOT
+					opinion = 0
+				}
+				defensive_war_with = ROOT
+				is_in_war = {
+					defender_leader = THIS
+					attacker_leader = ROOT
+					duration = 1825 #5 years
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = buddhist_school_opinion_events.3.a #
+		if = { # 0 is changed to -1
+			limit = {
+				event_target:school_opinion_decrease_country_b = {
+					NOT = {
+						school_opinion = {
+							who = ROOT
+							opinion = 1
+						}
+					}
+				}
+			}
+			event_target:school_opinion_decrease_country_b = {
+				set_school_opinion = {
+					who = ROOT
+					opinion = -1
+				}
+			}
+		}
+		else = { #1 is changed to 0
+
+			event_target:school_opinion_decrease_country_b = {
+				set_school_opinion = {
+					who = ROOT
+					opinion = 0
+				}
+			}
+		}
+	}
+}
+
+#Invite a Permanent Scholar
+country_event = {
+	id = buddhist_school_events.1
+	title = buddhist_school_events.1.t
+	desc = buddhist_school_events.1.d
+	picture = BUDDHISM_MONASTERY_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		religion_group = eastern
+	}
+	immediate = {
+		disallow_baseline_invite_scholar = yes
+		religion_group = eastern
+	}
+
+	option = {
+		name = buddhist_school_events.1.a
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_sakya_school }
+			NOT = { has_country_flag = privilege_can_always_invite_sakya_school }
+			NOT = {
+				religious_school = {
+					group = eastern
+					school = sakya_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = sakya_school
+		}
+		hidden_effect = {
+			set_country_flag = privilege_can_always_invite_sakya_school
+		}
+	}
+
+	option = {
+		name = buddhist_school_events.1.b
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_gelug_school }
+			NOT = { has_country_flag = privilege_can_always_invite_gelug_school }
+			NOT = {
+				religious_school = {
+					group = eastern
+					school = gelug_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = gelug_school
+		}
+		hidden_effect = {
+			set_country_flag = privilege_can_always_invite_gelug_school
+		}
+	}
+
+	option = {
+		name = buddhist_school_events.1.c
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_kagyu_school }
+			NOT = { has_country_flag = privilege_can_always_invite_kagyu_school }
+			NOT = {
+				religious_school = {
+					group = eastern
+					school = kagyu_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = kagyu_school
+		}
+		hidden_effect = {
+			set_country_flag = privilege_can_always_invite_kagyu_school
+		}
+	}
+
+	option = {
+		name = buddhist_school_events.1.e
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_nyingma_school }
+			NOT = { has_country_flag = privilege_can_always_invite_nyingma_school }
+			NOT = {
+				religious_school = {
+					group = eastern
+					school = nyingma_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = nyingma_school
+		}
+		hidden_effect = {
+			set_country_flag = privilege_can_always_invite_nyingma_school
+		}
+	}
+
+	option = {
+		name = buddhist_school_events.1.f
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_nikaya_school }
+			NOT = { has_country_flag = privilege_can_always_invite_nikaya_school }
+			NOT = {
+				religious_school = {
+					group = eastern
+					school = nikaya_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = nikaya_school
+		}
+		hidden_effect = {
+			set_country_flag = privilege_can_always_invite_nikaya_school
+		}
+	}
+
+	option = {
+		name = buddhist_school_events.1.g
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_southern_esoteric_school }
+			NOT = { has_country_flag = privilege_can_always_invite_southern_esoteric_school }
+			NOT = {
+				religious_school = {
+					group = eastern
+					school = southern_esoteric_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = southern_esoteric_school
+		}
+		hidden_effect = {
+			set_country_flag = privilege_can_always_invite_southern_esoteric_school
+		}
+	}
+
+	option = {
+		name = buddhist_school_events.1.h
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_esoteric_school }
+			NOT = { has_country_flag = privilege_can_always_invite_esoteric_school }
+			NOT = {
+				religious_school = {
+					group = eastern
+					school = esoteric_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = esoteric_school
+		}
+		hidden_effect = {
+			set_country_flag = privilege_can_always_invite_esoteric_school
+		}
+	}
+
+	option = {
+		name = buddhist_school_events.1.i
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_zen_school }
+			NOT = { has_country_flag = privilege_can_always_invite_zen_school }
+			NOT = {
+				religious_school = {
+					group = eastern
+					school = zen_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = zen_school
+		}
+		hidden_effect = {
+			set_country_flag = privilege_can_always_invite_zen_school
+		}
+	}
+
+	option = {
+		name = buddhist_school_events.1.j
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_pure_land_school }
+			NOT = { has_country_flag = privilege_can_always_invite_pure_land_school }
+			NOT = {
+				religious_school = {
+					group = eastern
+					school = pure_land_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = pure_land_school
+		}
+		hidden_effect = {
+			set_country_flag = privilege_can_always_invite_pure_land_school
+		}
+	}
+
+	option = {
+		name = buddhist_school_events.1.k
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_taoist_school }
+			NOT = { has_country_flag = privilege_can_always_invite_taoist_school }
+			NOT = {
+				religious_school = {
+					group = eastern
+					school = taoist_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = taoist_school
+		}
+		hidden_effect = {
+			set_country_flag = privilege_can_always_invite_taoist_school
+		}
+	}
+
+	option = {
+		name = buddhist_school_events.1.l
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_neoconfucian_school }
+			NOT = { has_country_flag = privilege_can_always_invite_neoconfucian_school }
+			NOT = {
+				religious_school = {
+					group = eastern
+					school = neoconfucian_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = neoconfucian_school
+		}
+		hidden_effect = {
+			set_country_flag = privilege_can_always_invite_neoconfucian_school
+		}
+	}
+
+	after = {
+		clr_country_flag = swaps_scholar_flag
+	}
+}

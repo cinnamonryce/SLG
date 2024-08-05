@@ -3,7 +3,7 @@
 owner = DAI
 controller = DAI
 culture = vietnamese
-religion = mahayana
+religion = confucianism
 capital = "Lang Son"
 trade_goods = iron
 hre = no

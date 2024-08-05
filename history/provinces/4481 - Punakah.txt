@@ -3,7 +3,7 @@
 owner = RAL
 controller = RAL
 culture = bhutanese
-religion = animism
+religion = bon
 capital = "Punakha"
 trade_goods = wool
 hre = no

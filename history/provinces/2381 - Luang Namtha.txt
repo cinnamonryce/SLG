@@ -2,7 +2,7 @@
 
 owner = KGC
 controller = KGC
-culture = northern_thai
+culture = lue
 religion = buddhism
 capital = "Kengcheng"
 trade_goods = tea

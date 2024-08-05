@@ -87,7 +87,6 @@
 4954 = "Phapun"
 4955 = "Miavadi"
 
-
 4863 = "Banthaimat" #Or Phutthaimat
 4864 = "Long Damle"
 
@@ -107,7 +106,7 @@
 5011 = "Muang Ten"
 5012 = "Muang Xong"
 5013 = "Muang Si"
-
+5114 = "Muang Yong"
 5115 = "Siang"
 
 5130 = "Muang Mia"

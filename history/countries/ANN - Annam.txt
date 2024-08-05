@@ -5,12 +5,9 @@ religion = mahayana
 technology_group = chinese
 capital = 2373 # Hue
 government_rank = 1
-
-# Nguyen Lords
-
+religious_school = neoconfucian_school
 
 #Nguyen Dynasty
-
 1527.1.1 = {
 	monarch = {
 		name = "Kim"

@@ -6,6 +6,8 @@ religion = confucianism
 add_harmonized_religion = mahayana
 primary_culture = jianghuai
 capital = 1821	# Nanjing
+religious_school = neoconfucian_school
+
 historical_rival = MMA
 
 if = {

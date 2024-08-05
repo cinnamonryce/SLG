@@ -5,6 +5,7 @@ religion = buddhism
 primary_culture = shan
 capital = 4791 #Mong Mit
 fixed_capital = 4791
+religious_school = southern_esoteric_school
 
 change_estate_land_share = {
 	estate = estate_burghers

@@ -5,6 +5,7 @@ religion = buddhism
 primary_culture = northern_thai
 capital = 1817 # Nan
 government_rank = 1
+religious_school = nikaya_school
 
 change_estate_land_share = {
 	estate = estate_burghers

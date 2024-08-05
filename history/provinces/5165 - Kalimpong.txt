@@ -3,7 +3,7 @@
 owner = SKK
 controller = SKK
 culture = bhutanese
-religion = animism
+religion = bon
 capital = "Dalingkot"
 trade_goods = grain
 hre = no

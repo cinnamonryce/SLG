@@ -180,6 +180,7 @@ dlc107_PGR_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
 		OR = {
+			tag = MAS
 			primary_culture = sumatran
 			primary_culture = moluccan_malay
 			primary_culture = kutainese
@@ -283,6 +284,7 @@ dlc107_LNA_sprite_pack = {
 	country_trigger = {
 		OR = {
 			primary_culture = northern_thai
+			primary_culture = lue
 			primary_culture = ahom
 			tag = LNA
 			tag = NAN

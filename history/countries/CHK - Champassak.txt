@@ -4,6 +4,7 @@ technology_group = indochinese
 primary_culture = lao
 religion = buddhism
 capital = 4839	# Champassak
+religious_school = southern_esoteric_school
 
 change_estate_land_share = {
 	estate = estate_burghers

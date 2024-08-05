@@ -5,6 +5,8 @@ primary_culture = malayan
 religion = mahayana
 technology_group = malay_group
 capital = 598	# Pahang
+religious_school = esoteric_school
+
 historical_friend = LIG
 historical_friend = AYU
 

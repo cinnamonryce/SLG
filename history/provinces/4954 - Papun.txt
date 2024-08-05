@@ -22,6 +22,18 @@ discovered_by = indian
 
 1534.1.1 = { add_core = TAU } # Taungu Invasion
 1539.1.1 = { controller = TAU }
-1541.1.1 = { owner = TAU } # Annexed to the Kingdom of Taungoo
+1541.1.1 = { owner = TAU } # Annexed to the Kingdom of Taungoo`
+1594.1.1 = {
+	owner = AYU
+	controller = AYU
+        add_core = AYU
+}
+1613.1.1 = {
+	controller = TAU
+}
+1622.1.1 = {
+	owner = TAU
+        remove_core = AYU
+}
 1740.11.1 = { owner = PEG controller = PEG } # Restored Pegu Dynasty
 1757.5.6 = { owner = TAU controller = TAU } # Returned to Burmese control

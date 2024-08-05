@@ -2,11 +2,11 @@ government = monarchy
 add_government_reform = heavenly_monarchy_reform
 technology_group = indochinese
 religion = buddhism
-primary_culture = shan
-add_accepted_culture = northern_thai
+primary_culture = lue
 capital = 587	# Kengtung
 historical_friend = SSP
 historical_friend = LNA
+religious_school = southern_estoteric_school
 
 change_estate_land_share = {
 	estate = estate_burghers

@@ -1,10 +1,11 @@
 government = monarchy
 add_government_reform = confucian_bureaucracy
 technology_group = chinese
-religion = mahayana
+religion = confucianism
 primary_culture = vietnamese
 capital = 610
 government_rank = 1
+religious_school = neoconfucian_school
 
 #Trinh Dynasty
 

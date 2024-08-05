@@ -4,6 +4,8 @@ primary_culture = khmer
 religion = buddhism
 technology_group = indochinese
 capital = 2380 # Phnom Penh
+religious_school = nikaya_school
+
 historical_rival = AYU
 
 change_estate_land_share = {

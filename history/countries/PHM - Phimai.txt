@@ -3,7 +3,8 @@ add_government_reform = mandala_reform
 primary_culture = central_thai
 religion = buddhism
 technology_group = indochinese
-capital = 612 #Khorat
+capital = 5259 #Phimai
+religious_school = nikaya_school
 
 change_estate_land_share = {
 	estate = estate_burghers

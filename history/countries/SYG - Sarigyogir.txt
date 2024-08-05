@@ -5,6 +5,7 @@ religion = tengri_pagan_reformed
 secondary_religion = vajrayana
 technology_group = nomad_group
 capital = 4204
+religious_school = gelug_school
 
 1370.1.1 = {
 	monarch = {

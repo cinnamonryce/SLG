@@ -5,6 +5,7 @@ religion = buddhism
 technology_group = indochinese
 capital = 5165 #Daung Nay
 government_rank = 1
+religious_school = southern_esoteric_school
 
 change_estate_land_share = {
 	estate = estate_burghers

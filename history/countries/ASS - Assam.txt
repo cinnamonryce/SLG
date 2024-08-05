@@ -9,22 +9,18 @@ historical_friend = MMA
 historical_friend = MYA
 historical_friend = MKA
 
-
 1397.1.1 = {
 	monarch = {
 		name = "Sudangphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Mao"
 		ADM = 0
 		DIP = 0
 		MIL = 3
 	}
-}
-
-1397.1.1 = {
 	heir = {
 		name = "Sujangphaa"
 		monarch_name = "Sujangphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Mao"
 		birth_date = 1370.1.1
 		death_Date = 1422.1.1
 		claim = 95
@@ -37,18 +33,15 @@ historical_friend = MKA
 1407.1.1 = {
 	monarch = {
 		name = "Sujangphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Mao"
 		ADM = 1
 		DIP = 1
 		MIL = 1
 	}
-}
-
-1407.1.1 = {
 	heir = {
 		name = "Siphakphaa"
 		monarch_name = "Siphakphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Mao"
 		birth_date = 1400.1.1
 		death_Date = 1439.1.1
 		claim = 95
@@ -61,18 +54,15 @@ historical_friend = MKA
 1422.1.1 = {
 	monarch = {
 		name = "Siphakphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Mao"
 		ADM = 2
 		DIP = 0
 		MIL = 2
 	}
-}
-
-1422.1.1 = {
 	heir = {
 		name = "Susenphaa"
 		monarch_name = "Susenphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Mao"
 		birth_date = 1420.1.1
 		death_Date = 1488.1.1
 		claim = 95
@@ -85,7 +75,7 @@ historical_friend = MKA
 1439.1.1 = {
 	monarch = {
 		name = "Susenphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Mao"
 		ADM = 4
 		DIP = 2
 		MIL = 3
@@ -96,7 +86,7 @@ historical_friend = MKA
 	heir = {
 		name = "Suhenphaa"
 		monarch_name = "Suhenphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Mao"
 		birth_date = 1450.1.1
 		death_Date = 1493.1.1
 		claim = 95
@@ -109,7 +99,7 @@ historical_friend = MKA
 1488.1.1 = {
 	monarch = {
 		name = "Suhenphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Mao"
 		ADM = 2
 		DIP = 1
 		MIL = 2
@@ -119,18 +109,15 @@ historical_friend = MKA
 1493.1.1 = {
 	monarch = {
 		name = "Supimphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Mao"
 		ADM = 2
 		DIP = 3
 		MIL = 4
 	}
-}
-
-1493.1.1 = {
 	heir = {
 		name = "Suhungmung"
 		monarch_name = "Suhungmung"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1490.1.1
 		death_Date = 1539.1.1
 		claim = 95
@@ -149,18 +136,15 @@ historical_friend = MKA
 1497.1.1 = {
 	monarch = {
 		name = "Suhungmung"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 3
 		DIP = 2
 		MIL = 4
 	}
-}
-
-1497.1.1 = {
 	heir = {
 		name = "Suklenmung"
 		monarch_name = "Suklenmung"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1497.1.1
 		death_Date = 1552.1.1
 		claim = 95
@@ -173,18 +157,15 @@ historical_friend = MKA
 1539.1.1 = {
 	monarch = {
 		name = "Suklenmung"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 3
 		DIP = 2
 		MIL = 2
 	}
-}
-
-1539.1.1 = {
 	heir = {
 		name = "Sukhamphaa"
 		monarch_name = "Sukhamphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1530.1.1
 		death_Date = 1603.1.1
 		claim = 95
@@ -202,7 +183,7 @@ historical_friend = MKA
 1552.1.1 = {
 	monarch = {
 		name = "Sukhamphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 3
 		DIP = 3
 		MIL = 2
@@ -213,7 +194,7 @@ historical_friend = MKA
 	heir = {
 		name = "Susengphaa"
 		monarch_name = "Susengphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1570.1.1
 		death_Date = 1641.1.1
 		claim = 95
@@ -226,18 +207,15 @@ historical_friend = MKA
 1603.1.1 = {
 	monarch = {
 		name = "Susengphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 3
 		DIP = 3
 		MIL = 1
 	}
-}
-
-1603.1.1 = {
 	heir = {
 		name = "Suramphaa"
 		monarch_name = "Suramphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1600.1.1
 		death_Date = 1644.1.1
 		claim = 95
@@ -250,18 +228,15 @@ historical_friend = MKA
 1641.1.1 = {
 	monarch = {
 		name = "Suramphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 0
 		DIP = 0
 		MIL = 0
 	}
-}
-
-1641.1.1 = {
 	heir = {
 		name = "Sutyinphaa"
 		monarch_name = "Sutyinphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1641.1.1
 		death_Date = 1648.1.1
 		claim = 95
@@ -274,18 +249,15 @@ historical_friend = MKA
 1644.1.1 = {
 	monarch = {
 		name = "Sutyinphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 0
 		DIP = 1
 		MIL = 0
 	}
-}
-
-1644.1.1 = {
 	heir = {
 		name = "Sutamla"
 		monarch_name = "Sutamla"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1640.1.1
 		death_Date = 1663.9.1
 		claim = 95
@@ -298,7 +270,7 @@ historical_friend = MKA
 1648.1.1 = {
 	monarch = {
 		name = "Sutamla"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 0
 		DIP = 0
 		MIL = 2
@@ -308,7 +280,7 @@ historical_friend = MKA
 1663.9.1 = {
 	monarch = {
 		name = "Supungmung"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 2
 		DIP = 2
 		MIL = 2
@@ -318,7 +290,7 @@ historical_friend = MKA
 1669.1.1 = {
 	monarch = {
 		name = "Sunyatphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 3
 		DIP = 1
 		MIL = 2
@@ -328,7 +300,7 @@ historical_friend = MKA
 1673.8.1 = {
 	monarch = {
 		name = "Suklamphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 1
 		DIP = 1
 		MIL = 2
@@ -338,7 +310,7 @@ historical_friend = MKA
 1675.1.1 = {
 	monarch = {
 		name = "Suhung"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 0
 		DIP = 0
 		MIL = 0
@@ -348,7 +320,7 @@ historical_friend = MKA
 1675.6.1 = {
 	monarch = {
 		name = "Gobar"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 0
 		DIP = 0
 		MIL = 0
@@ -358,7 +330,7 @@ historical_friend = MKA
 1676.1.1 = {
 	monarch = {
 		name = "Sujinphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 0
 		DIP = 0
 		MIL = 0
@@ -368,7 +340,7 @@ historical_friend = MKA
 1677.7.1 = {
 	monarch = {
 		name = "Sudalphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 0
 		DIP = 1
 		MIL = 1
@@ -378,7 +350,7 @@ historical_friend = MKA
 1679.1.1 = {
 	monarch = {
 		name = "Sulikphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 0
 		DIP = 0
 		MIL = 1
@@ -388,18 +360,15 @@ historical_friend = MKA
 1681.7.1 = {
 	monarch = {
 		name = "Supatphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 1
 		DIP = 2
 		MIL = 1
 	}
-}
-
-1681.7.1 = {
 	heir = {
 		name = "Sukrungphaa"
 		monarch_name = "Sukrungphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1660.1.1
 		death_Date = 1714.2.1
 		claim = 95
@@ -412,18 +381,15 @@ historical_friend = MKA
 1696.1.1 = {
 	monarch = {
 		name = "Sukrungphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 2
 		DIP = 2
 		MIL = 2
 	}
-}
-
-1696.1.1 = {
 	heir = {
 		name = "Sutanphaa"
 		monarch_name = "Sutanphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1690.1.1
 		death_Date = 1744.1.1
 		claim = 95
@@ -440,18 +406,15 @@ historical_friend = MKA
 1714.2.1 = {
 	monarch = {
 		name = "Sutanphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 0
 		DIP = 1
 		MIL = 1
 	}
-}
-
-1714.2.1 = {
 	heir = {
 		name = "Sunenphaa"
 		monarch_name = "Sunenphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1700.1.1
 		death_Date = 1751.1.1
 		claim = 95
@@ -464,18 +427,15 @@ historical_friend = MKA
 1744.1.1 = {
 	monarch = {
 		name = "Sunenphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 1
 		DIP = 2
 		MIL = 1
 	}
-}
-
-1744.1.1 = {
 	heir = {
 		name = "Suramphaa"
 		monarch_name = "Suramphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1740.1.1
 		death_Date = 1769.1.1
 		claim = 95
@@ -488,18 +448,15 @@ historical_friend = MKA
 1751.1.1 = {
 	monarch = {
 		name = "Suramphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 1
 		DIP = 2
 		MIL = 2
 	}
-}
-
-1751.1.1 = {
 	heir = {
 		name = "Suyeophaa"
 		monarch_name = "Suyeophaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1751.1.1
 		death_date = 1780.12.1
 		claim = 95
@@ -512,18 +469,15 @@ historical_friend = MKA
 1769.1.1 = {
 	monarch = {
 		name = "Suyeophaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 1
 		DIP = 2
 		MIL = 2
 	}
-}
-
-1769.1.1 = {
 	heir = {
 		name = "Suhitpangphaa"
 		monarch_name = "Suhitpangphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1760.1.1
 		death_Date = 1794.12.20
 		claim = 95
@@ -536,18 +490,15 @@ historical_friend = MKA
 1780.12.1 = {
 	monarch = {
 		name = "Suhitpangphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 0
 		DIP = 0
 		MIL = 1
 	}
-}
-
-1780.12.1 = {
 	heir = {
 		name = "Suklingphaa"
 		monarch_name = "Suklingphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1770.1.1
 		death_Date = 1810.1.1
 		claim = 95
@@ -564,18 +515,15 @@ historical_friend = MKA
 1794.12.20 = {
 	monarch = {
 		name = "Suklingphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 1
 		DIP = 1
 		MIL = 0
 	}
-}
-
-1794.12.20 = {
 	heir = {
 		name = "Sudinphaa"
 		monarch_name = "Sudinphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1790.1.1
 		death_Date = 1818.1.1
 		claim = 95
@@ -588,18 +536,15 @@ historical_friend = MKA
 1810.1.1 = {
 	monarch = {
 		name = "Sudinphaa"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 1
 		DIP = 0
 		MIL = 2
 	}
-}
-
-1810.1.1 = {
 	heir = {
 		name = "Brajnatha"
 		monarch_name = "Brajnatha"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		birth_date = 1800.1.1
 		death_Date = 1847.1.1
 		claim = 95
@@ -612,7 +557,7 @@ historical_friend = MKA
 1818.1.1 = {
 	monarch = {
 		name = "Brajnatha"
-		dynasty = "Mong Mao"
+		dynasty = "Ahom"
 		ADM = 2
 		DIP = 2
 		MIL = 3

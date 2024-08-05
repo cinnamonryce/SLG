@@ -2,13 +2,13 @@
 
 owner = LXA
 controller = LXA
-culture = lao
-religion = buddhism
+culture = kuy
+religion = animism
 capital = "Khemmarat"
 trade_goods = grain
 hre = no
 base_tax = 2
-base_production = 2
+base_production = 1
 base_manpower = 1
 is_city = yes
 add_core = LXA
@@ -37,4 +37,9 @@ discovered_by = indian
 	controller = CHK
 	add_core = CHK
 	remove_core = VIE
+}
+1770.1.1 = {
+	culture = lao
+	religion = buddhism
+	base_production = 2
 }

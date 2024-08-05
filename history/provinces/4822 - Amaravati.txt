@@ -37,7 +37,7 @@ discovered_by = ottoman
 	remove_core = TOK
 }
 1600.1.1 = {
-	religion = mahayana
+	religion = confucianism
 	culture = vietnamese
 } # Vietnamese Assimilation
 1692.1.1 = { unrest = 6 } # Rebellion against Vietnamese rule

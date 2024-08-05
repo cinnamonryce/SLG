@@ -39,3 +39,9 @@
  #Privileges
  estate_native_chieftain_system:0 "Tusi System"
  estate_native_chieftain_system_desc:0 "By delegating the control of minority regions to 'local emperors,' our administration could promote stability in such regions that would be otherwise hostile toward us, allowing for a greater emphasis on our core territories and provinces."
+ 
+ estate_nobles_vassals_in_court:0 "Vassals in Court"
+ estate_nobles_vassals_in_court_desc:0 "As our nation is a decentralized realm, our vassals have a special place in our royal court. Many noble families in our nation hail from our vassal states."
+ 
+ estate_nobles_powerful_northern_nobility:0 "Powerful Northern Nobility"
+ estate_nobles_powerful_northern_nobility_desc:0 "The nobility of the former kingdom of Sukhothai continue to wield great power in the Siamese administration, holding positions in military and civilian affairs alike. This bloc of nobles has grown arrogant and prideful with unification, and should they feel offended, may respond violently."

@@ -1,11 +1,11 @@
 new_AYU_ideas = {
 	start = {
 		tolerance_heathen = 2
-		cavalry_power = 0.1
+		embargo_efficiency = 0.25
 	}
 	
 	bonus = {
-		global_manpower_modifier = 0.20
+		yearly_absolutism = 0.5
 	}
 	
 	trigger = {
@@ -14,29 +14,34 @@ new_AYU_ideas = {
 	free = yes
 	
 	ayu_bunga_mas = {
-		global_tax_modifier = 0.10
-		vassal_income = 0.15
-	}
-	ayu_mueang = {
-		fort_maintenance_modifier = -0.2
+		vassal_income = 0.25
 	}
 	ayu_commercial_society = {
                 female_advisor_chance = 0.2
 		trade_efficiency = 0.10
 	}
+	ayu_embassies = {
+		improve_relation_modifier = 0.25
+	}
 	ayu_foreign_mercenaries = {
 		mercenary_discipline = 0.05
 	}
-	ayu_trade_settlements = {
-                global_institution_spread = 0.1
+	ayu_a_safe_mercantile_hub = {
+                global_trade_power = 0.1
 	}
-	ayu_embassies = {
-		diplomatic_reputation = 1
-		improve_relation_modifier = 0.2
+	ayu_god_kings = {
+		diplomatic_reputation = 2
+		max_absolutism = 10
 	}
 	phrai_luang = {
 		development_cost = -0.1
 	}
+	#ayu_trade_settlements = {
+        #       global_institution_spread = 0.1
+	#}
+	#ayu_mueang = {
+	#	fort_maintenance_modifier = -0.2
+	#}
 	#corvee_system = {
 	#	global_manpower_modifier = 0.20
 	#}
@@ -128,7 +133,7 @@ new_LXA_ideas = {
 
 new_DAI_ideas = {
 	start = {
-		fort_maintenance_modifier = -0.2
+		fort_maintenance_modifier = -0.25
 		enemy_core_creation = 0.5
 	}
 	
@@ -152,7 +157,7 @@ new_DAI_ideas = {
 	}
 	nam_tien = {
 		culture_conversion_cost = -0.20
-		harsh_treatment_cost = -0.1
+		harsh_treatment_cost = -0.25
 	}
 	village_militia = {
 		global_manpower_modifier = 0.20
@@ -204,7 +209,7 @@ new_LIG_ideas = {
 		global_institution_spread = 0.1
 	}
 	lig_righteous_ruler = {
-		global_unrest = -2
+		yearly_corruption = -0.1
 		monthly_karma = 0.1
 	}
 	lig_trade_protection = {
@@ -247,7 +252,7 @@ MMO_ideas = {
 		siege_ability = 0.1
 	}
 	mmo_local_chieftains = {
-		autonomy_change_time = -0.25
+		vassal_forcelimit_bonus = 1
 	}
 	mmo_tai_migration = {
 		war_exhaustion = -0.02
@@ -331,7 +336,7 @@ musi_ideas = {
         	light_ship_cost = -0.20
 	}
 	center_of_scholarship = {
-		advisor_cost = -0.15
+		same_religion_advisor_cost = -0.2
 	}
 	musi_combat_piracy = {
 		light_ship_power = 0.15
@@ -1004,13 +1009,13 @@ MKS_ideas = {
 	free = yes
 	
 	mks_tallo_advisors = {
-		same_culture_advisor_cost = -0.2
+		advisor_pool = 1
 	}
 	mks_wet_rice_cultivation = {
-		global_trade_goods_size_modifier = 0.1
+		production_efficiency = 0.1
 	}
 	mks_bureaucratic_reforms = {
-		technology_cost = -0.05
+		possible_policy = 1
 	}
 	mks_hegemon_of_makassar = {
 		unjustified_demands = -0.2
@@ -1020,7 +1025,7 @@ MKS_ideas = {
 	}
 	mks_noble_government = {
 		nobles_loyalty_modifier = 0.1
-		free_mil_policy = 1
+		same_culture_advisor_cost = -0.2
 	}
 	mks_western_fortifications = {
 		defensiveness = 0.1

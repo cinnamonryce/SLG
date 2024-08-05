@@ -7,7 +7,6 @@ capital = 677 # Lhasa
 government_rank = 3
 religious_school = gelug_school
 
-
 1391.1.1 = {
 	monarch = {
 		name = "Gendun Drup"

@@ -317,7 +317,6 @@
 592 = "Ratpri"
 593 = { "Ligor" "Ligor" }
 600 = "Ayuthia"
-601 = "Sucotay"
 602 = { "Chiengrai" "Chiengrai" }
 603 = "Tungyai"
 604 = "Lovek" #or Udong

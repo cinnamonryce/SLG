@@ -5,8 +5,9 @@ religion = buddhism
 primary_culture = shan
 capital = 583	# Hsenwi
 fixed_capital = 583
-historical_rival = MMA
+religious_school = southern_esoteric_school
 
+historical_rival = MMA
 
 change_estate_land_share = {
 	estate = estate_burghers

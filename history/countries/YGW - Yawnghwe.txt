@@ -6,6 +6,8 @@ religion = buddhism
 primary_culture = shan
 capital = 4397 #Yawnghwe
 fixed_capital = 4397
+religious_school = southern_esoteric_school
+
 historical_rival = HSI
 
 change_estate_land_share = {

@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = tribal_kingdom
 primary_culture = gyelrong
-religion = animism
+religion = bon
 technology_group = chinese
 capital = 2135
 government_rank = 1

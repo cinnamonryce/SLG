@@ -14,4 +14,4 @@ tags={
 	"Religion"
 }
 name="Suvarnabhumi: The Land of Gold"
-supported_version="1.34.*"
+supported_version="1.36.*"

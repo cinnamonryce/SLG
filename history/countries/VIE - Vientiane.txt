@@ -5,6 +5,7 @@ religion = buddhism
 technology_group = indochinese
 capital = 614	# Vientiane
 fixed_capital = 614
+religious_school = nikaya_school
 
 change_estate_land_share = {
 	estate = estate_burghers

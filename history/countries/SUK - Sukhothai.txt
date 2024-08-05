@@ -7,6 +7,7 @@ technology_group = indochinese
 capital = 601	# Sukhothai - Si Satchanalai
 historical_friend = LNA
 historical_rival = AYU
+religious_school = nikaya_school
 
 change_estate_land_share = {
 	estate = estate_burghers

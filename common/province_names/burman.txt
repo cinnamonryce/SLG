@@ -41,7 +41,8 @@
 4397 = "Nyaungshwe"
 4398 = "Maukme"
 4399 = { "Yangon" "Yangon" }
-4405 = { "Katha" "Katha" }
+4404 = "Khamti"
+4405 = { "Wuntho" "Wuntho" }
 4406 = "Maingkaing"
 4831 = "Bankout"
 4835 = "Kankyanabhure"

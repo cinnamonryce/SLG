@@ -2461,8 +2461,8 @@ central_burma_area = { #4
 	4396 585 5132 5133
 }
 
-chindwin_area = { #4
-	2398 580 4393 5134
+chindwin_area = { #5
+	2398 580 4393 5134 5260
 }
 
 mohnyin_area = { #4
@@ -2519,8 +2519,8 @@ prachin_area = { #3
 	603 4830 5128
 }
 
-khorat_area = { #3
-	612 2386 4961
+khorat_area = { #4
+	612 2386 4961 5259
 }
 
 champasak_area = { #5

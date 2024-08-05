@@ -3,9 +3,10 @@ add_government_reform = native_chieftain_system_reform
 government_rank = 2
 technology_group = indochinese
 religion = buddhism
-primary_culture = shan
-add_accepted_culture = northern_thai
+primary_culture = lue
 capital = 660 #Kenghung
+religious_school = southern_esoteric_school
+
 historical_friend = KET
 historical_friend = LNA
 

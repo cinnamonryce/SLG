@@ -2,7 +2,7 @@
 
 owner = SSP
 controller = SSP
-culture = northern_thai
+culture = lue
 religion = buddhism
 capital = "Kenghung"
 trade_goods = grain

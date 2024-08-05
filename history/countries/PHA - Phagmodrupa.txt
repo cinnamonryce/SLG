@@ -8,7 +8,6 @@ capital = 4517 #Nedong
 historical_rival = UTS
 religious_school = gelug_school
 
-
 1399.1.1 = { decision = monastic_education }
 
 1414.1.1 = {

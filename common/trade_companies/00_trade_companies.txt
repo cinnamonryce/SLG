@@ -170,6 +170,7 @@ trade_company_burma = {
 		5189
 		
 		5255 5256
+		5260
 
 		#Wastelands
 		4401 4844
@@ -389,6 +390,7 @@ trade_company_indochina = {
 		5135 5136 5137 5138
 		5140
 		5156
+		5259
 	}
 	
 	# Specific
